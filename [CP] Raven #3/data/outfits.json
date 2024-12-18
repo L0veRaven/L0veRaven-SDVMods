@@ -1,0 +1,252 @@
+{ "Changes": [
+    {
+    "LogName": "outfits.json: Appearance Base Loads","Action": "Load",
+    "Target": "Characters/{{ModId}}, Portraits/{{ModId}}, Characters/{{ModId}}_Neutral, Portraits/{{ModId}}_Neutral, Characters/{{ModId}}_Spring, Portraits/{{ModId}}_Spring, Characters/{{ModId}}_Summer, Portraits/{{ModId}}_Summer, Characters/{{ModId}}_Fall, Portraits/{{ModId}}_Fall, Characters/{{ModId}}_Winter, Portraits/{{ModId}}_Winter, Characters/{{ModId}}_Beach, Portraits/{{ModId}}_Beach, Characters/{{ModId}}_Spring, Portraits/{{ModId}}_Spring, Characters/{{ModId}}_Sunflower, Portraits/{{ModId}}_Sunflower, Characters/{{ModId}}_Daisy, Portraits/{{ModId}}_Daisy, Characters/{{ModId}}_Cactus, Portraits/{{ModId}}_Cactus, Characters/{{ModId}}_Marijuana, Portraits/{{ModId}}_Marijuana, Characters/{{ModId}}_FlowerDance, Portraits/{{ModId}}_FlowerDance",
+    "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Nude","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Nude":
+            {
+            "Id": "{{ModId}}.Nude",
+            "Condition": "{{RavenNude |contains = true}}",
+            "Sprite": "Characters/{{ModId}}_Spring",
+            "Portrait": "Portraits/{{ModId}}_Spring",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Spring","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Spring":
+            {
+            "Id": "{{ModId}}.Spring",
+            "Condition": "SEASON spring",
+            "Sprite": "Characters/{{ModId}}_Spring",
+            "Portrait": "Portraits/{{ModId}}_Spring",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Summer","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Summer":
+            {
+            "Id": "{{ModId}}.Summer",
+            "Condition": "SEASON summer",
+            "Sprite": "Characters/{{ModId}}_Summer",
+            "Portrait": "Portraits/{{ModId}}_Summer",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Fall","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Fall":
+            {
+            "Id": "{{ModId}}.Fall",
+            "Condition": "SEASON fall",
+            "Sprite": "Characters/{{ModId}}_Fall",
+            "Portrait": "Portraits/{{ModId}}_Fall",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Winter","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Winter":
+            {
+            "Id": "{{ModId}}.Winter",
+            "Condition": "SEASON winter",
+            "Sprite": "Characters/{{ModId}}_Winter",
+            "Portrait": "Portraits/{{ModId}}_Winter",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Flower Dance Suit","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.FlowerDance":
+            {
+            "Id": "{{ModId}}.FlowerDance",
+            "Condition": "ANY \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{HasMod |contains={{NB}} false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{HasMod |contains={{NB}} false}}\"",
+            "Sprite": "Characters/{{ModId}}_FlowerDance",
+            "Portrait": "Portraits/{{ModId}}_FlowerDance",
+            "IsIslandAttire": false,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Sunflower","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Sunflower":
+            {
+            "Id": "{{ModId}}.Sunflower",
+            "Condition": "ANY \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{HasMod |contains={{NB}} false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{HasMod |contains={{NB}} false}}\"",
+            "Sprite": "Characters/{{ModId}}_Sunflower",
+            "Portrait": "Portraits/{{ModId}}_Sunflower",
+            "IsIslandAttire": false,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Daisy","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Daisy":
+            {
+            "Id": "{{ModId}}.Daisy",
+            "Condition": "ANY \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{HasMod |contains={{NB}} false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{HasMod |contains={{NB}} false}}\"",
+            "Sprite": "Characters/{{ModId}}_Daisy",
+            "Portrait": "Portraits/{{ModId}}_Daisy",
+            "IsIslandAttire": false,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Cactus","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Cactus":
+            {
+            "Id": "{{ModId}}.Cactus",
+            "Condition": "ANY \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{HasMod |contains={{NB}} false}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{HasMod |contains={{NB}} false}}\"",
+            "Sprite": "Characters/{{ModId}}_Cactus",
+            "Portrait": "Portraits/{{ModId}}_Cactus",
+            "IsIslandAttire": false,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Marijuana","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Marijuana":
+            {
+            "Id": "{{ModId}}.Marijuana",
+            "Condition": "ANY \"IS_EVENT festival_spring24, {{RandomFlower |contains = true}}, {{RandomFlowerNB |contains = true}}\" \"IS_EVENT festival_spring24, {{RandomFlower |contains = false}}, {{RandomFlowerNB |contains = true}}\"",
+            "Sprite": "Characters/{{ModId}}_Marijuana",
+            "Portrait": "Portraits/{{ModId}}_Marijuana",
+            "IsIslandAttire": false,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Island/Beach","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Beach":
+            {
+            "Id": "{{ModId}}.Beach",
+            "Sprite": "Characters/{{ModId}}_Beach",
+            "Portrait": "Portraits/{{ModId}}_Beach",
+            "IsIslandAttire": true,
+            "Precedence": -1,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Neutral","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Neutral":
+            {
+            "Id": "{{ModId}}.Neutral",
+            "Condition": "SEASON spring summer fall winter",
+            "Sprite": "Characters/{{ModId}}_Neutral",
+            "Portrait": "Portraits/{{ModId}}_Neutral",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+    {
+    "LogName": "outfits.json: Appearance Data - Default","Action": "EditData","Target": "Data/Characters","TargetField": ["{{ModId}}","Appearance"],"Entries":
+        {
+        "{{ModId}}.Default":
+            {
+            "Id": "{{ModId}}.Default",
+            "Condition": "SEASON spring summer",
+            "Sprite": "Characters/{{ModId}}",
+            "Portrait": "Portraits/{{ModId}}",
+            "IsIslandAttire": false,
+            "Precedence": 0,
+            "Weight": 1,
+            },
+        }
+    },
+]}
+
+
+
+// OR
+
+
+
+//{"Changes": [
+// add base indoor/outdoor sprites
+//{
+//    "LogName": "outfits.json: Load Portraits & Sprites",
+//    "Action": "Load",
+//    "Target": "Characters/Johnny_Indoor, Characters/Johnny_Outdoor, Portraits/Johnny_Indoor, Portraits/Johnny_Outdoor",
+//    "FromFile": "assets/{{Target}}.png",
+//},
+
+// apply any overlays needed
+//{
+//    "LogName": "outfits.json: Overlays"
+//    "Action": "EditImage",
+//    "Target": "Characters/Johnny_Indoor, Portraits/Johnny_Indoor",
+//    "FromFile": "assets/overlays/{{Target}}_married.png",
+//    "When": {
+//        "Spouse": "Johnny",
+//    },
+//},
+
+// add NPC
+//{
+//    "LogName": "outfits.json: Add NPC"
+//    "Action": "EditData",
+//    "Target": "Data/Characters",
+//    "Entries": {
+//        "SomeMod.Id_Johnny": {
+//            "Appearance": [
+//                {
+//                    "Id": "Outdoors",
+//                    "Indoors": false,
+//                    "Portrait": "Portraits/Johnny_Outdoor",
+//                    "Sprite": "Characters/Johnny_Outdoor"
+//                },
+//                {
+//                    "Id": "Default",
+//                    "Portrait": "Portraits/Johnny_Indoor",
+//                    "Sprite": "Characters/Johnny_Indoor"
+//                },
+//            ],
+//        },
+//    }
+//},
+//]}

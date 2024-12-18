@@ -1,0 +1,12 @@
+{
+"Name": "[CP] Newsletters",
+"Author": "L0veRaven",
+"Description": "Newletters have come to Stardew Valley to recommend video games and music!",
+"Version": "0.0.1",
+"UniqueID": "L0veRaven.Newsletters",
+"UpdateKeys": ["Nexus:<Nexus ID>"],
+"ContentPackFor":
+    {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}

@@ -1,0 +1,92 @@
+{ // "songName" -> Replace
+// =============================
+// || Generic Mod Config Menu ||
+// =============================
+// || Gamer Zone ||
+"config.GamerZone.name": "Gamer Zone",
+"config.GamerZone.description": "Subscribe/Unsubscribe from Gamer Zone's newsletter. [Default: On]",
+// || Music Capsule ||
+"config.MusicCapsule.name": "Music Capsule",
+"config.MusicCapsule.description": "Subscribe/Unsubscribe from Music Capsule's newsletter. [Default: On]",
+// || Theater Review ||
+"config.TheaterReview.name": "Theater Review",
+"config.TheaterReview.description": "Subscribe/Unsubscribe from Theater Review's newsletter. [Default: On]",
+// ================
+// || Gamer Zone ||
+// ================
+"GamerZone_Subscribe": "(FROM: Gamer Zone) (TO: @)^^Thanks for subscribing to Gamer Zone's newsletter! As a reminder, our newsletter recommends video games to you on every Tuesday.^To unsubscribe, go into the Newsletter settings and uncheck Gamer Zone.[#]Gamer Zone - New Subscriber",
+    // || {{GamerZoneIssues}}
+"GamerZone_1": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: Dead Rising^Developers: Capcom^Year: 2006^Genres: Zombie Survival Horror/Beat 'em Up/Action Horror^Single-Player^^Summary:^Photojournalist, Frank West, hears about the town of Willamette breaking out into riots, but the press isn't allowed to cover the story yet. Ready to take the glory of being the first to break the story, he gets dropped off in the town's mall by helicopter. He quickly realizes that it's no riot, but rather a zombie apocalypse!^^This game has great replayability and multiple endings for the player to explore.[#]Gamer Zone - Dead Rising (2006)",
+    
+"GamerZone_2": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: Resident Evil 3: Nemesis^Developers: Capcom^Year: 1999^Genres: Survival horror/3rd Person Shooter^Single-Player^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_3": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: Battle for Bikini Bottom^Developers: Heavy Iron Studios^Year: 2003^Genres: Platformer/Fighting Game^Single-Player^^Summary: addDialogue[#]Gamer Zone - ______",
+    
+"GamerZone_4": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_5": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_6": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_7": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_8": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_9": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_10": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_11": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_12": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_13": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_14": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_15": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_16": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_17": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_18": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_19": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+"GamerZone_20": "(FROM: Gamer Zone) (TO: @)^^Our recommendation for the week is:^Name: ______^Developers: ______^Year: ______^Genres: ______^numberPlayer______^^Summary: addDialogue[#]Gamer Zone - ______",
+    //ADDDIALOGUE   //ADDDIALOGUE   //ADDDIALOGUE   //ADDDIALOGUE   //ADDDIALOGUE
+// ===================
+// || Music Capsule ||
+// ===================
+"MusicCapsule_Subscribe": "(FROM: Music Capsule) (TO: @)^^Thanks for subscribing to Music Capsule's newsletter! As a reminder, our newsletter recommends music from different decades to you on every Friday.^To unsubscribe, go into the Newsletter settings and uncheck Music Capsule.[#]Music Capsule - New Subscriber",
+    // || {{MusicCapsuleIssues}}
+"MusicCapsule_1": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: Gone Guru^Artist: Lifeseeker^Album: Lifeseeker^Year: 2000^Genres: Hip-Hop/Rap[#]Music Capsule - #1",
+"MusicCapsule_2": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: TiK ToK^Artist: Kesha^Album: Animal^Year: 2010^Genres: Dance Pop[#]Music Capsule - #2",
+"MusicCapsule_3": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #3",
+"MusicCapsule_4": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #4",
+"MusicCapsule_5": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #5",
+"MusicCapsule_6": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #6",
+"MusicCapsule_7": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #7",
+"MusicCapsule_8": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #8",
+"MusicCapsule_9": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #9",
+"MusicCapsule_10": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #10",
+"MusicCapsule_11": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #11",
+"MusicCapsule_12": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #12",
+"MusicCapsule_13": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #13",
+"MusicCapsule_14": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: Freak On a Leash^Artist: Korn^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #14",
+"MusicCapsule_15": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: Party Rock Anthem^Artist: LMFAO^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #15",
+"MusicCapsule_16": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: High School Never Ends^Artist: Bowling for Soup^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #16",
+"MusicCapsule_17": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: Going Under^Artist: Evanescence^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #17",
+"MusicCapsule_18": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: A Moment of Relief^Artist: Capcom^Album: Resident Evil Code Veronica X^Year: _____^Genres: _____[#]Music Capsule - #18",
+"MusicCapsule_19": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Artist: _____^Album: Ms. Pac-Man Maze Madness^Year: _____^Genres: _____[#]Music Capsule - #19",
+"MusicCapsule_20": "(FROM: Music Capsule) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Music Capsule - #20",
+// ===================
+// || Theater Review ||
+// ===================
+"TheaterReview_Subscribe": "(FROM: Theater Review) (TO: @)^^Thanks for subscribing to Theater Review's newsletter! As a reminder, our newsletter recommends movies from different decades to you on every Sunday.^To unsubscribe, go into the Newsletter settings and uncheck Theater Review.[#]Theater Review - New Subscriber",
+    // || {{TheaterReviewIssues}}
+"TheaterReview_1": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: Gone Guru^Artist: Lifeseeker^Album: Lifeseeker^Year: 2000^Genres: Hip-Hop/Rap[#]Theater Review - #1",
+"TheaterReview_2": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: TiK ToK^Artist: Kesha^Album: Animal^Year: 2010^Genres: Dance Pop[#]Theater Review - #2",
+"TheaterReview_3": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #3",
+"TheaterReview_4": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #4",
+"TheaterReview_5": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #5",
+"TheaterReview_6": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #6",
+"TheaterReview_7": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #7",
+"TheaterReview_8": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #8",
+"TheaterReview_9": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #9",
+"TheaterReview_10": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #10",
+"TheaterReview_11": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #11",
+"TheaterReview_12": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #12",
+"TheaterReview_13": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #13",
+"TheaterReview_14": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: Freak On a Leash^Artist: Korn^Album: _____^Year: _____^Genres: _____[#]Theater Review - #14",
+"TheaterReview_15": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: Party Rock Anthem^Artist: LMFAO^Album: _____^Year: _____^Genres: _____[#]Theater Review - #15",
+"TheaterReview_16": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: High School Never Ends^Artist: Bowling for Soup^Album: _____^Year: _____^Genres: _____[#]Theater Review - #16",
+"TheaterReview_17": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: Going Under^Artist: Evanescence^Album: _____^Year: _____^Genres: _____[#]Theater Review - #17",
+"TheaterReview_18": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: A Moment of Relief^Artist: Capcom^Album: Resident Evil Code Veronica X^Year: _____^Genres: _____[#]Theater Review - #18",
+"TheaterReview_19": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Artist: _____^Album: Ms. Pac-Man Maze Madness^Year: _____^Genres: _____[#]Theater Review - #19",
+"TheaterReview_20": "(FROM: Theater Review) (TO: @)^^Our recommendation for the week is:^Name: _____^Artist: _____^Album: _____^Year: _____^Genres: _____[#]Theater Review - #20",
+}

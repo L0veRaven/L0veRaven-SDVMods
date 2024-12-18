@@ -1,0 +1,71 @@
+{ "Changes": [
+    //Work Days: Mon, Fri, Sat, Sun (12pm - 8pm)
+    //Free Days: Tue, Wed, Thu
+    {
+    "LogName": "schedule.json: Day Sensitive","Action": "EditData","Target": "Characters/schedules/{{ModId}}","Entries":
+        {
+        "spring_13": "{{610am}} {{standBusStop}}/{{910am}} {{standBush}}/{{210pm}} {{standMountain}}/{{10pm}} {{inBed}}",//Egg Festival
+        "spring_24": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Flower Dance
+        "summer_11": "{{610am}} {{standBusStop}}/{{910am}} {{relaxBeach}}/{{210pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Luau
+        "summer_28": "{{610am}} {{standBusStop}}/{{910am}} {{standTableSaloon}}/{{12pm}} {{relaxBeach}}/{{1210am}} {{inBed}}",//Midnight Jellies
+        "fall_16": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Stardew Fair
+        "fall_27": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Spirit's Eve
+        "winter_8": "{{610am}} {{standBusStop}}/{{8am}} {{standRiverForest}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Ice Festival
+        "winter_18": "{{610am}} {{standRiverForest}}/{{8am}} {{standCheckUp}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Birthday/Check Up
+        "winter_25": "{{610am}} {{standBusStop}} 3/{{8am}} {{standBush}} 2/1200 {{standMountain}} 1/1600 {{standTableSaloon}} 2/2200 {{inBed}}",//Winter Star
+        },
+    },
+    {
+    "LogName": "schedule.json: Seasonal","Action": "EditData","Target": "Characters/schedules/{{ModId}}","Entries":
+        {
+        //Spring
+        "spring_Mon": "{{jobSche}}",
+        "spring_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "spring_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "spring_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "spring_Fri": "{{jobSche}}",
+        "spring_Sat": "{{jobSche}}",
+        "spring_Sun": "{{jobSche}}",
+        //Summer
+        "summer_Mon": "{{jobSche}}",
+        "summer_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "summer_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "summer_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "summer_Fri": "{{jobSche}}",
+        "summer_Sat": "{{jobSche}}",
+        "summer_Sun": "{{jobSche}}",
+        //Fall
+        "fall_Mon": "{{jobSche}}",
+        "fall_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "fall_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "fall_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "fall_Fri": "{{jobSche}}",
+        "fall_Sat": "{{jobSche}}",
+        "fall_Sun": "{{jobSche}}",
+        //Winter
+        "winter_Mon": "{{jobSche}}",
+        "winter_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+        "winter_Fri": "{{jobSche}}",
+        "winter_Sat": "{{jobSche}}",
+        "winter_Sun": "{{jobSche}}",
+        //Spring: default - (May Not Appear In-Game)
+        "spring": "{{7am}} {{standRiverForest}}/{{8am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",
+        },
+    },
+    {
+    "LogName": "schedule.json: Marriage","Action": "EditData","Target": "Characters/schedules/{{ModId}}","Entries":
+        {
+        //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
+        //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
+
+        //Check-Up & Birthday
+        "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
+
+        //Marriage
+        "marriage_Sat": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
+        "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
+        },
+    },
+]}
