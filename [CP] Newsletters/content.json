@@ -1,0 +1,39 @@
+{
+    "Format": "2.3.0",  //version of content patcher
+    
+    "ConfigSchema": {
+        "GamerZone":
+            {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Subscribe/Unsubscribe from Gamer Zone's newsletter. [Default: On]"
+            },
+        "MusicCapsule":
+            {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Subscribe/Unsubscribe from Music Capsule's newsletter. [Default: On]"
+            },
+        "TheaterReview":
+            {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Subscribe/Unsubscribe from Theater Review's newsletter. [Default: On]"
+            },
+    },
+    "DynamicTokens":
+        [
+        // {{Nexus}} -> Nexus ID
+            {
+            "Name": "Nexus",
+            "Value": "00000",
+            },
+        ],
+    "Changes": [
+        {
+            "LogName": "Newsletters Include",
+            "Action": "Include",
+            "FromFile": "data/mail.json"
+        }
+    ]
+}
