@@ -1,0 +1,361 @@
+{ "Changes": [//ADD
+    // Egg Festival
+    {	
+    "LogName": "festivals.json: (SDVE) Egg Festival","Action": "EditData","Target": "Data/Festivals/spring13","TextOperations":
+        [
+        {// Pre-Egg hunt: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 38 68 left",
+        "Delimiter": "/"
+        },
+        //ADD{// Pre-Egg hunt: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 38 68 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {// Egg hunt
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 38 68 left",
+        "Delimiter": "/"
+        },
+        //ADD{//After Egg hunt: Year 1
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "afterEggHunt_additionalCharacters"],
+        //ADD"Value": "{{ModId}} 38 68 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        //ADD{//After Egg hunt: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 38 68 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {
+    "LogName": "festivals.json: (SDVE) Egg Festival - Dialogue","Action": "EditData","Target": "Data/Festivals/spring13","Entries": 
+        {
+        "{{ModId}}": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+        "{{ModId}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+        },
+
+    },
+    // Flower Dance
+    {	
+    "LogName": "festivals.json: (SDVE) Flower Dance","Action": "EditData","Target": "Data/Festivals/spring24","TextOperations":
+        [
+        {//Pre-Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 20 31 left",
+        "Delimiter": "/"
+        },
+        {//Pre-Event: Year 2
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        "Value": "{{ModId}} 20 31 left",
+        "Delimiter": "/"
+        },
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 20 31 left",
+        "Delimiter": "/"
+        },
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+        "Value": "{{ModId}} 20 31 left",
+        "Delimiter": "/"
+        },
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Flower Dance - Dialogue","Action": "EditData","Target": "Data/Festivals/spring24","Entries": 
+        {
+        "{{ModId}}": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+        "{{ModId}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+        },
+    },
+    {
+    "LogName": "festivals.json: (SDVE) Luau","Action": "EditData","Target": "Data/Festivals/summer11","TextOperations":
+        [
+        {//Pre-Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 54 20 down",
+        "Delimiter": "/"
+        },
+        //ADD{//Pre-Event: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 54 20 down",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 42 18 left",
+        "Delimiter": "/"
+        },
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Luau - dialogue","Action": "EditData","Target": "Data/Festivals/summer11","Entries": 
+        {
+        "{{ModId}}": "{{i18n:luau_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:luau_{{Random:{{Range:1,2}}}}}}",
+        "{{ModId}}_y2": "{{i18n:luau_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:luau_{{Random:{{Range:1,2}}}}}}",
+        },
+    },
+    // Dance of the Moonlight Jellies
+    {	
+    "LogName": "festivals.json: (SDVE) Dance of the Moonlight Jellies","Action": "EditData","Target": "Data/Festivals/summer28","TextOperations":
+        [
+        {//Pre-Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 11 30 left",
+        "Delimiter": "/"
+        },
+        //ADD{//Pre-Event: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 11 30 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 11 30 left",
+        "Delimiter": "/"
+        },
+        //ADD{//Main Event
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 11 30 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Dance of the Moonlight Jellies - Dialogue","Action": "EditData","Target": "Data/Festivals/summer28","Entries":
+        {
+        "{{ModId}}": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+        "{{ModId}}_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+        },
+    },
+    // Stardew Valley Fair
+    {	
+    "LogName": "festivals.json: (SDVE) Stardew Valley Fair","Action": "EditData","Target": "Data/Festivals/fall16","TextOperations":
+        [
+        {
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 28 80 right",
+        "Delimiter": "/"
+        },
+        //ADD{
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 28 80 right",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Stardew Valley Fair - Dialogue","Action": "EditData","Target": "Data/Festivals/fall16","Entries":
+        {
+        "{{ModId}}": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+        "{{ModId}}_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+        },
+    },
+    // Ridgeside Gathering
+    {
+    "LogName": "festivals.json: (RSV) Ridgeside Gathering","Action": "EditData","Target": "Data/Festivals/Fall20","TextOperations":
+        [
+        {//Pre-Event
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 96 45 left",
+        "Delimiter": "/"
+        },
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 96 45 left",
+        "Delimiter": "/"
+        },
+        ],
+    "When": {"HasMod |contains={{RSV}}": "true",}
+    },
+    {	
+    "LogName": "festivals.json: (RSV) Ridgeside Gathering - Dialogue","Action": "EditData","Target": "Data/Festivals/fall20","Entries": 
+        {
+        "{{ModId}}": "{{i18n:ridgesideGathering_{{Random:{{Range:1,2}}}}}}",
+        },
+    "When": {"HasMod |contains={{RSV}}": "true",}
+    },
+    // Spirit's Eve
+    {	
+    "LogName": "festivals.json: (SDVE) Spirit's Eve","Action": "EditData","Target": "Data/Festivals/fall27","TextOperations":
+        [
+        {//Set Up: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 72 51 down",
+        "Delimiter": "/"
+        },
+        //ADD{//Set Up: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 72 51 down",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Spirit's Eve - Dialogue","Action": "EditData","Target": "Data/Festivals/fall27","Entries": 
+        {
+        "{{ModId}}": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+        "{{ModId}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+        },
+    },
+    // Festival of Ice
+    {	
+    "LogName": "festivals.json: (SDVE) Festival of Ice","Action": "EditData","Target": "Data/Festivals/winter8","TextOperations":
+        [
+        {//Pre-Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 57 45 left",
+        "Delimiter": "/"
+        },
+        //ADD{//Pre-Event: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 57 45 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {//Main Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 57 45 right",
+        "Delimiter": "/"
+        },
+        //ADD{//Main Event: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 57 45 right",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {//After Ice Fishing: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
+        "Value": "{{ModId}} 57 45 right",
+        "Delimiter": "/"
+        },
+        //ADD{//After Ice Fishing: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 57 45 right",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Festival of Ice","Action": "EditData","Target": "Data/Festivals/winter8","Entries": 
+        {
+        "{{ModId}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+        "{{ModId}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+        },
+    },
+    // Winter Star
+    {	
+    "LogName": "festivals.json: (SDVE) Feast of the Winter Star","Action": "EditData","Target": "Data/Festivals/winter25","TextOperations":
+        [
+        {//Set Up: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 39 72 left",
+        "Delimiter": "/"
+        },
+        //ADD{//Set Up: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 39 72 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        {//Secret Santa: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "SecretSanta_additionalCharacters"],
+        "Value": "{{ModId}} 39 72 left",
+        "Delimiter": "/"
+        },
+        //ADD{//Secret Santa: Year 2
+        //ADD"Operation": "Append",
+        //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+        //ADD"Value": "{{ModId}} 39 72 left",
+        //ADD"Delimiter": "/"
+        //ADD},
+        ],
+    },
+    {	
+    "LogName": "festivals.json: (SDVE) Feast of the Winter Star - Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "Entries": 
+        {
+        "{{ModId}}": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+        //ADD"{{ModId}}_spouse": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+        "{{ModId}}_y2": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+        //ADD"{{ModId}}_spouse_y2": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+        },
+    },
+    {	
+    "LogName": "festivals.json: (RSV) Ember of Resolutions","Action": "EditData","Target": "Data/Festivals/winter28","TextOperations":
+        [
+        {//Pre-Event: Year 1
+        "Operation": "Append",
+        "Target": ["Entries", "Set-Up_additionalCharacters"],
+        "Value": "{{ModId}} 46 39 down",
+        "Delimiter": "/"
+        },
+        {//Main Event
+        "Operation": "Append",
+        "Target": ["Entries", "MainEvent_additionalCharacters"],
+        "Value": "{{ModId}} 46 39 down",
+        "Delimiter": "/"
+        },
+        ],
+    "When": {"HasMod |contains={{RSV}}": "true",}
+    },
+    {	
+    "LogName": "festivals.json: (RSV) Ember of Resolutions - Dialogue","Action": "EditData","Target": "Data/Festivals/winter28","Entries": 
+        {
+        "{{ModId}}": "{{i18n:emberOfResolutions_{{Random:{{Range:1,3}}}}}}",
+        },
+    "When": {"HasMod |contains={{RSV}}": "true",}
+    },
+]}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+//"Operation": "Append",
+//"Target": ["Fields", "set-up", 5],
+//"Value": "/animate {{ModId}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

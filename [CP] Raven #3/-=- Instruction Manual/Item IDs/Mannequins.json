@@ -1,0 +1,9 @@
+{
+// ====================
+// || Mannequins (M) ||
+// ====================
+"MannequinMale": "Mannequin (M)",
+"MannequinFemale": "Mannequin", 
+"CursedMannequinMale": "Cursed Mannequin (M)",
+"CursedMannequinFemale": "Cursed Mannequin",
+}
