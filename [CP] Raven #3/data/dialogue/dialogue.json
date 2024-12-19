@@ -1,12 +1,29 @@
 {
     "Changes": [
         {
-            "LogName": "dialogue.json: Day Sensitive Dialogue",
+            "LogName": "dialogue.json: First of Season Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{ModId}}",
             "Entries": {
-                //Spring 1st
                 "spring_1_2": "{{springFirst}}",
+                "summer_1": "{{summerFirst}}",
+                "fall_1": "{{fallFirst}}",
+                "winter_1": "{{winterFirst}}",
+            },
+        },
+        {
+            "LogName": "dialogue.json: Birthday & Checkup Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModId}}",
+            "Entries": {
+                "winter_18": "{{bdayCheckup}}",
+            },
+        },
+        {
+            "LogName": "dialogue.json: Festival Dialogue (Yesterday, Today, Tomorrow)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModId}}",
+            "Entries": {
                 //Egg Festival
                 "spring_12": "{{eggFestYest}}",
                 "spring_13": "{{eggFestToday}}",
@@ -15,8 +32,6 @@
                 "spring_23": "{{flowDanYest}}",
                 "spring_24": "{{flowDanToday}}",
                 "spring_25": "{{flowDanTomo}}",
-                //Summer 1st
-                "summer_1": "{{summerFirst}}",
                 //Luau
                 "summer_10": "{{luauYest}}",
                 "summer_11": "{{luauToday}}",
@@ -25,8 +40,6 @@
                 "summer_27": "{{MooJellYest}}",
                 "summer_28": "{{MooJellToday}}",
                 "summer_29": "{{MooJellTomo}}",
-                //Fall 1st
-                "fall_1": "{{fallFirst}}",
                 //Stardew Fair
                 "fall_15": "{{FairYest}}",
                 "fall_16": "{{FairToday}}",
@@ -35,14 +48,10 @@
                 "fall_26": "{{spiritsEveYest}}",
                 "fall_27": "{{spiritsEveToday}}",
                 "fall_28": "{{spiritsEveTomo}}",
-                //Winter 1st
-                "winter_1": "{{winterFirst}}",
                 //Ice Festival
                 "winter_7": "{{iceFestYest}}",
                 "winter_8": "{{iceFestToday}}",
                 "winter_9": "{{iceFestTomo}}",
-                //Birthday & Checkup
-                "winter_18": "{{bdayCheckup}}",
                 //Winter Star
                 "winter_24": "{{winterStarYest}}",
                 "winter_25": "{{winterStarToday}}",
