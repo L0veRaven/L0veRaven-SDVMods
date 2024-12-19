@@ -17,6 +17,12 @@
 		},
 	},
 	{
+    "LogName": "mail.json: Event 27407005 (5) JobInterview","Action": "EditData","Target": "Data/mail","Entries":
+        {
+        "{{ModId}}_JobInterview": "{{i18n:JobInterview_Mail}}",
+		},
+	},
+	{
     "LogName": "mail.json: Love Letters","Action": "EditData","Target": "Data/mail","Entries":
         {
         "{{ModId}}_LoveLetter_1": "{{i18n:LoveLetter_1}}",
@@ -27,6 +33,6 @@
         "{{ModId}}_LoveLetter_6": "{{i18n:LoveLetter_6}}",
         "{{ModId}}_LoveLetter_7": "{{i18n:LoveLetter_7}}",
 		},
-    "When": {"Relationship:{{ModId}}": "Dating,Engaged",}
+    "When": {"Relationship:{{ModId}}": "Dating",}
 	},
 ]}

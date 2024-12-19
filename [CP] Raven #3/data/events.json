@@ -192,15 +192,15 @@ end dialogue {{ModId}} \"{{i18n:CleansingFarmer2_end}}\"",
 //                    end dialogue {{ModId}} \"{{i18n:TutoringWithPenny_end}}\"",
 //                },
 //            },
-    //uncomment{
-    //uncomment"LogName": "events.json: Event 4 (27407003) Job Interview","Action": "EditData","Target": "Data/Events/SeedShop","Entries":
-    //uncomment    { // Event 27407004 - jobInterview
-    //uncomment    "{{Nexus}}004/t 1000 1400": "<custom song>/<x> <y>/farmer <x> <y> <d> {{ModId}} <x> <y> <d> Linus <x> <y> <d>/skippable/<......>/end",
-    //uncomment        // Job interview at Pierre's shop
-    //uncomment            // Raven wants more hours so they can move back to Zuzu City
-    //uncomment            
-    //uncomment    },
-    //uncomment},
+{
+"LogName": "events.json: Event 5 (27407005) Job Interview","Action": "EditData","Target": "Data/Events/SeedShop","Entries":
+    { // Event 27407005 - jobInterview
+    "{{Nexus}}005/t 1000 1400": "<custom song>/<x> <y>/farmer <x> <y> <d> {{ModId}} <x> <y> <d> Linus <x> <y> <d>/skippable/<......>/end",
+        // Job interview at Pierre's shop
+            // Raven wants more hours so they can move back to Zuzu City
+            
+    },
+},
 
 {
 "LogName": "events.json: Event 100 (27407100) Gus Edibles","Action": "EditData","Target": "Data/Events/Saloon","Entries":

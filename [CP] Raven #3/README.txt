@@ -2,8 +2,10 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 TODO:
 
+Dialogue.json
+    //ADD -> Conversation Topics: Custom
+
 Events.json
-    "//uncomment"
     Event 27407000
         Does end dialogue work correctly
         Does BGM match
@@ -20,6 +22,8 @@ Events.json
     Event 27407004 CleansingFarmer2
         Does BGM match
         Check i18n dialogue
+    Event 274070## JobInterview
+        //Raven wants more hours so they can move back to Zuzu City
     Event 27407100 {{NB}} GusEdibles
         Does BGM match
         Check i18n dialogue

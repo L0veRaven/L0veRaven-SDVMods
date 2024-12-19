@@ -1033,6 +1033,8 @@
 "CleansingFarmer2_Mail_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
 "CleansingFarmer2_Mail_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
 "CleansingFarmer2_Mail_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
+// || {{ModId}}_JobInterview - Event ||
+"JobInterview_Mail": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
 // || {{ModId}}_LoveLetter -> Automatic letters when dating ||
 "LoveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
 "LoveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",
