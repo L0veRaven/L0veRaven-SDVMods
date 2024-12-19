@@ -26,6 +26,8 @@
     },
 "DynamicTokens":
     [
+//Display Name
+    {"Name": "displayName","Value": "{{i18n:DisplayName}}",},
 //{{Nexus}} -> Nexus ID
     {"Name": "Nexus","Value": "27407",},
 //Mod Nicknames -> External ModId's
@@ -471,21 +473,3 @@
     },
     ]
 }
-
-//TODO: quests.json
-    //ADD
-    //"{{ModId}}_StonerLetter"
-
-//TODO: data/triggerActions.json
-    //ADD
-
-//TODO: animationFrames.json
-    //animationDescriptions
-    //Create frames for the animations
-
-//TODO: character.json
-    //spouseroom, spousepatio, and more
-        //"//ADD"
-
-//TODO: outfits.json
-    //Halloweeen Costumes
