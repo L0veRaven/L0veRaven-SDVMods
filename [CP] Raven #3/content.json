@@ -471,21 +471,3 @@
     },
     ]
 }
-
-//TODO: quests.json
-    //ADD
-    //"{{ModId}}_StonerLetter"
-
-//TODO: data/triggerActions.json
-    //ADD
-
-//TODO: animationFrames.json
-    //animationDescriptions
-    //Create frames for the animations
-
-//TODO: character.json
-    //spouseroom, spousepatio, and more
-        //"//ADD"
-
-//TODO: outfits.json
-    //Halloweeen Costumes
