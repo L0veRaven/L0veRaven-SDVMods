@@ -1,69 +1,79 @@
-{ "Changes": [
-    {
-    "LogName": "mapPatches.json: Raven's Tent - Outdoors: Spring",
-    "Action": "EditMap",
-    "Target": "Maps/Forest",
-    "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
-    "PatchMode": "Replace",
-    "ToArea":
+{
+    "Changes": [
         {
-        "X": 84,"Y": 80,
-        "Width": 9,"Height": 14,
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Spring",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 84,"Y": 80,"Width": 9,"Height": 14,
+            },
+            "When": {
+                "Season": "spring",
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
         },
-    "When": {"Season": "spring","Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-    {
-    "LogName": "mapPatches.json: Raven's Tent - Outdoors: Summer",
-    "Action": "EditMap",
-    "Target": "Maps/Forest",
-    "FromFile": "data/maps/{{ModId}}_TentOutdoors_Summer.tmx",
-    "PatchMode": "Replace",
-    "ToArea":
         {
-        "X": 84,"Y": 80,
-        "Width": 9,"Height": 14,
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Summer",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Summer.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 84,"Y": 80,"Width": 9,"Height": 14,
+            },
+            "When": {
+                "Season": "summer",
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
         },
-    "When": {"Season": "summer","Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-    {
-    "LogName": "mapPatches.json: Raven's Tent - Outdoors: Fall",
-    "Action": "EditMap",
-    "Target": "Maps/Forest",
-    "FromFile": "data/maps/{{ModId}}_TentOutdoors_Fall.tmx",
-    "PatchMode": "Replace",
-    "ToArea":
         {
-        "X": 84,"Y": 80,
-        "Width": 9,"Height": 14,
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Fall",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Fall.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 84,"Y": 80,"Width": 9,"Height": 14,
+            },
+            "When": {
+                "Season": "fall",
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
         },
-    "When": {"Season": "fall","Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-    {
-    "LogName": "mapPatches.json: Raven's Tent - Outdoors: Winter",
-    "Action": "EditMap",
-    "Target": "Maps/Forest",
-    "FromFile": "data/maps/{{ModId}}_TentOutdoors_Winter.tmx",
-    "PatchMode": "Replace",
-    "ToArea":
         {
-        "X": 84,"Y": 80,
-        "Width": 9,"Height": 14,
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Winter",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Winter.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 84,"Y": 80,"Width": 9,"Height": 14,
+            },
+            "When": {
+                "Season": "winter",
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
         },
-    "When": {"Season": "winter","Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-    {
-    "LogName": "mapPatches.json: Warps - Forest","Action": "EditMap","Target": "Maps/Forest",
-    "AddWarps":
-        [
-        "88 84 Custom_L0veRavenRaven_TentInside 2 4",
-        ],
-    "When": {"Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-    {
-    "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside","Action": "EditMap","Target": "Maps/Custom_LoveRavenRaven_TentInside",
-    "AddWarps":
-        [
-        "2 6 Forest 88 85",
-        ]
-    },
-]}
+        {
+            "LogName": "mapPatches.json: Warps - Forest",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "AddWarps": [
+                "88 84 Custom_L0veRavenRaven_TentInside 2 4",
+            ],
+            "When": {
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LoveRavenRaven_TentInside",
+            "AddWarps": [
+                "2 6 Forest 88 85",
+            ]
+        },
+    ]
+}
