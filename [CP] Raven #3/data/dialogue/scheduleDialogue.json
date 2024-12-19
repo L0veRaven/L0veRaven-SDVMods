@@ -1,10 +1,14 @@
-{ "Changes": [
-    {
-    "LogName": "scheduleDialogue.json","Action": "EditData","Target": "Strings/schedules/{{ModId}}","Entries":
+{
+    "Changes": [
         {
-        "Forest.001": "{{pissingSchD}}",
-        "Custom_L0veRavenRaven_TentInside.001": "{{stoveSchD}}",
-        "Saloon.001": "{{standSaloonSchD}}",
+            "LogName": "scheduleDialogue.json",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{ModId}}",
+            "Entries": {
+                "Forest.001": "{{pissingSchD}}",
+                "Custom_L0veRavenRaven_TentInside.001": "{{stoveSchD}}",
+                "Saloon.001": "{{standSaloonSchD}}",
+            },
         },
-    },
-]}
+    ]
+}
