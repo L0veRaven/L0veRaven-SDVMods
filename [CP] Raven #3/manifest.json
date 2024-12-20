@@ -1,18 +1,45 @@
 {
-"Name": "(NPC) Raven",
-"Author": "L0veRaven",
-"Description": "Adds a neko NPC",
-"Version": "0.0.1",
-"UniqueID": "L0veRaven.Raven",
-"UpdateKeys": ["Nexus:27407"],
-"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
-"Dependencies":
-    [
-    {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "true",},
-    {"UniqueID": "flashshifter.immersivefarm2remastered","IsRequired": "false",},
-    {"UniqueID": "Rafseazz.RSVCP","IsRequired": "false",},
-    {"UniqueID": "Raspb3rryfields.NaturesBounty","IsRequired": "false",},
-    {"UniqueID": "DTZ.DowntownZuzuDLL","IsRequired": "false",},
-    {"UniqueID": "CasualInvidia.SpousesReactToDeath","IsRequired": "false",},
+    "Name": "(NPC) Raven",
+    "Author": "L0veRaven",
+    "Description": "Adds a neko NPC",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.Raven",
+    "UpdateKeys": ["Nexus:27407"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": "true",
+        },
+        {
+            "UniqueID": "Rafseazz.RSVCP",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "Raspb3rryfields.NaturesBounty",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "DTZ.DowntownZuzuDLL",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "LenneDalben.PelicanTownPotluck",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "UNA.FF.CP",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "Airyn.CPSolsticeWinterStar",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "violetlizabet.CP.FireworksFestival",
+            "IsRequired": "false",
+        },
     ]
 }

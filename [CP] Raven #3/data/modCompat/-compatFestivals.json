@@ -4,16 +4,14 @@
 
 // Pelican Town Potluck changes the Luau to a Potluck, so you may want a variant of dialogue.
 {		
-"LogName": "Raven: festivals.json - Luau->Potluck compat - dialogue",
-"Action": "EditData",
-"Target": "Data/Festivals/summer11",
-"When":
-    {
-    "HasMod: |contains=LenneDalben.PelicanTownPotluck": true,
+    "LogName": "Raven: festivals.json - Luau->Potluck compat - dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "Entries": {
+        "{{ModId}}": "",
     },
-"Entries": 
-    {
-    "{{ModId}}": "",
+    "When": {
+        "HasMod: |contains={{PTP}}": true,
     },
 },
 
@@ -23,35 +21,30 @@
 
 // Ferngill Fashion Festival - Added by https://www.nexusmods.com/stardewvalley/mods/17404 	
 {	
-"LogName": "Raven: festivals.json - Ferngill Fashion Festival",
-"Action": "EditData",
-"When":
-    {
-    "HasMod":"UNA.FF.CP",
-    },
-"Target": "Data/Festivals/spring19",
-"TextOperations":
-    [
-        //SetUp
+    "LogName": "Raven: festivals.json - Ferngill Fashion Festival",
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring19",
+    "TextOperations": [//SetUp
         {
-        "Operation": "Append",
-        "Target": ["Entries", "Set-Up_additionalCharacters"],
-        "Value": "{{ModId}} 35 31 up",
-        "Delimiter": "/"
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "{{ModId}} 35 31 up",
+            "Delimiter": "/"
         },
     ],
+    "When": {
+        "HasMod: |contains={{FFF}}": true,
+    },
 },
 {	
-"LogName": "Raven: festivals.json - Ferngill Fashion Festival - Dialogue",
-"Action": "EditData",
-"When":
-    {
-    "HasMod":"UNA.FF.CP"
+    "LogName": "Raven: festivals.json - Ferngill Fashion Festival - Dialogue",
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring19",
+    "Entries": {
+        "{{ModId}}": "",
     },
-"Target": "Data/Festivals/spring19",
-"Entries": 
-    {
-    "{{ModId}}": "",
+    "When": {
+        "HasMod: |contains={{FFF}}": true,
     },
 },
 
@@ -61,16 +54,14 @@
 
 // Solstice Winter Star changes the Feast of the Winter Star to a less Christmas-y version with food instead of gifts, so you may want a dialogue variant.
 {	
-"LogName": "Raven: festivals.json - Feast of the Winter Star Solstice Compat",
-"Action": "EditData",
-"Target": "Data/Festivals/winter25",
-"When":
-    {
-    "HasMod: |contains=Airyn.CPSolsticeWinterStar": true,
+    "LogName": "Raven: festivals.json - Feast of the Winter Star Solstice Compat",
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "Entries": {
+        "{{ModId}}": "",
     },
-"Entries": 
-    {
-    "{{ModId}}": "",
+    "When": {
+        "HasMod: |contains={{SWS}}": true,
     },
 },
 
@@ -92,15 +83,10 @@
         },
     ],
     "When": {
-        "HasMod":"violetlizabet.CP.FireworksFestival",
+        "HasMod: |contains={{FF}}": true,
     },
 },
-// ================================================================================================================================
-// ================================================================================================================================
-// ================================================================================================================================
-// ================================================================================================================================
-// ================================================================================================================================
-// ================================================================================================================================
+
 {	
     "LogName": "Raven: festivals.json - Fireworks Festival - Dialogue",
     "Action": "EditData",
@@ -109,6 +95,6 @@
         "{{ModId}}": "",
     },
     "When": {
-        "HasMod":"violetlizabet.CP.FireworksFestival",
+        "HasMod: |contains={{FF}}": true,
     },
 },

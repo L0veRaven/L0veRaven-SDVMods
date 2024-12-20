@@ -999,8 +999,11 @@
 "stardewValleyFair_1": "I can't wait to see who wins the grange display contest this year!$1",
 "stardewValleyFair_2": "I love doing the fishing game!$1#$b#It'd be nice if we could keep some though.$11",
     // || Ridgeside Gathering ||
-"ridgesideGathering_1": "I can't wait to taste what Gus brought to the gathering today!$1",
+"ridgesideGathering_1": "I can't wait to taste what Gus and Yoshi made for the gathering today!$1",
 "ridgesideGathering_2": "It's nice to spend time with neighboring communities.#$b#It's better than it being just Pelican Town!$1",
+    
+"ridgesideGathering_spouse_1": "I can't wait to taste what Gus and Yoshi made for the gathering today!$1",
+"ridgesideGathering_spouse_2": "It's nice to spend time with neighboring communities.#$b#It's better than it being just Pelican Town!$1",
     // || Spirit's Eve ||
 "spiritsEve_1": "I used to be scared of Spirit's Eve as a little kid. I sure was silly back then!$1",
 "spiritsEve_2": "You should try out some of the food! It's amazing, trust me.$1",
@@ -1016,10 +1019,20 @@
 "winterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
 "winterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully you get something you like!",
 "winterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+
+"winterStar_spouse_1": "I love seeing everyone smiling and having a good time!#$e#I especially love to spend time with you, honey.$4",
+"winterStar_spouse_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+"winterStar_spouse_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+"winterStar_spouse_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully I get you as my secret gift giver.$4",
+"winterStar_spouse_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
     // || Ember of Resolutions ||
 "emberOfResolutions_1": "My resolution is to take my medications on time every single day.$1#$e#Don't ask me how realistic that is. My memory is notoriously unreliable.$11",
 "emberOfResolutions_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1",
 "emberOfResolutions_3": "My resolution is to read more books next year.$1",
+    
+"emberOfResolutions_spouse_1": "My resolution is to take my medications on time every single day.$1#$e#You already know how bad my memory is, @. We'll see how long it lasts honey.$11",
+"emberOfResolutions_spouse_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1#$b#Unless you have any suggestions?",
+"emberOfResolutions_spouse_3": "My resolution is to read more books next year.$1",
 // ===============
 // || mail.json ||
 // ===============

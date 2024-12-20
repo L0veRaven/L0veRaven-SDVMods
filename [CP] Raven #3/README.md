@@ -3,6 +3,12 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 TODO:
 
+Festivals.json
+    Add festival compats
+
+z_L0veRaven_Tent png
+    Turn tent into a Joja tent
+
 Dialogue.json
     //ADD -> Conversation Topics: Custom
 
