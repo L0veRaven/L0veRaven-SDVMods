@@ -1,104 +1,111 @@
-{ "Changes": [
-    {"LogName": "character.json: Disposition - SVE (Plain)","Action": "EditData","Target": "Data/Characters","Entries":
+{
+    "Changes": [
         {
-        "{{ModId}}":
-            { // NPC's internal name
-            "DisplayName": "{{i18n:DisplayName}}",
-            "BirthSeason": "winter",
-            "BirthDay": 18,
-            "HomeRegion": "Town",
-            "Language": "default",
-            "Gender": "male", // male,female,undefined (undefined gets auto-sorted as female)
-            "Age": "adult",
-            "Manner": "polite",
-            "SocialAnxiety": "outgoing",
-            "Optimism": "positive",
-            "IsDarkSkinned": true,
-            "CanBeRomanced": true,
-            "Calendar": "AlwaysShown", // AlwaysShown,HiddenUntilMet,Hidden
-            "SocialTab": "UnknownUntilMet", // AlwaysShown,HiddenUntilMet,UnknownUntilMet,Hidden
-            "CanSocialize": true, // true,false -> Can talk with player
-            "CanReceiveGifts": true, // true,false
-            "CanGreetNearbyCharacters": true, // true,false -> Reacts to townspeople when they pass by
-            "CanCommentOnPurchasedShopItems": false, // true,false -> (i18n or dialogue strings required)
-            "CanVisitIsland": true, // true,false -> If NPC can visit island randomly
-            "IntroductionsQuest": true, // true,false -> If NPC is part of Introductions Quest
-            "ItemDeliveryQuests": true, // true,false -> If NPC gets included for randomly generated quests
-            "PerfectionScore": true, // true,false -> If NPC is required for perfection
-            "EndSlideShow": "TrailingGroup",
-            "SpouseWantsChildren": true,
-            "SpouseGiftJealousy": false, // Gender-specific gifting jealousy (male-male/female-female) [non-birthday/quest/festival]
-            "SpouseGiftJealousyFriendshipChange": 0, // Friendship loss/gain when player gifts to bachelor(ettes) after marriageW
-            "SpouseRoom":
-                {
-                "MapAsset": "{{ModId}}_spouseRooms",
-                "MapSourceRect": {"X": 0, "Y": 0, "Width": 6, "Height": 9,},
-                },
-            "SpousePatio":
-                {
-                "MapAsset": "{{ModId}}_spousePatios",
-                "MapSourceRect": {"X": 0, "Y": 0, "Width": 4, "Height": 4,},
-                "SpriteAnimationFrames":
-                    [ // Looping animation while on spousepatio, [frame, miliseconds]
-                    [0, 1500],
+            "LogName": "character.json: Disposition - SVE (Plain)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModId}}": { // NPC's internal name
+                    "DisplayName": "{{i18n:DisplayName}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 18,
+                    "HomeRegion": "Town",
+                    "Language": "default",
+                    "Gender": "male", // male,female,undefined (undefined gets auto-sorted as female)
+                    "Age": "adult",
+                    "Manner": "polite",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "positive",
+                    "IsDarkSkinned": true,
+                    "CanBeRomanced": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": false, // true,false -> (i18n or dialogue strings required)
+                    "CanVisitIsland": true,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpouseWantsChildren": true,
+                    "SpouseGiftJealousy": false,
+                    "SpouseGiftJealousyFriendshipChange": 0,
+                    "SpouseRoom": {
+                        "MapAsset": "{{ModId}}_spouseRooms",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 6, "Height": 9,
+                        },
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "{{ModId}}_spousePatios",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 4, "Height": 4,
+                        },
+                        "SpriteAnimationFrames": [ // Looping animation while on spousepatio, [frame, miliseconds]
+                            [0, 1500],
+                        ],
+                    },
+                    "DumpsterDiveFriendshipEffect": 0, // Friendship loss/gain if found dumpster diving
+                    "DumpsterDiveEmote": 16, // Emote when player is found to be digging in trash
+                    //ADD"SpouseFloors": [], // Flooring NPC will place in home
+                    //ADD"SpouseWallpapers": [], // Wallpapers NPC will place in home
+                    "FriendsAndFamily": {}, // If NPC has relatives
+                    "FlowerDanceCanDance": true, // If NPC dances at Flower Dance
+                    "WinterStarGifts": [ // Items NPC can gift during the winter star festival
+                        {
+                            "Id": "{{ModId}}_WinterStar_Amethyst",
+                            "ItemId": "(O)66",
+                            "RandomItemId": null,
+                            "MinStack": 1,
+                            "MaxStack": 5,
+                        },
+                        {
+                            "Id": "{{ModId}}_WinterStar_Ruby",
+                            "ItemId": "(O)64",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                        },
                     ],
+                    "WinterStarParticipant": true, // If NPC participates in Winter Star
+                    "UnlockConditions": null, // If NPC has unlock condidion before being seen
+                    "SpawnIfMissing": true, // Forcibly spawns NPC if stuck
+                    "Home": [ // NPC spawn point
+                        {
+                            "Id": "Default", // Default spawn point
+                            "Condition": null, // If they change homes
+                            "Location": "Custom_L0veRavenRaven_TentInside", // Specific location from data/location
+                            "Tile": {
+                                "X": 4,"Y": 4,
+                            },
+                            "Direction": "right", // Direction facing when idle
+                        }
+                    ],
+                    "TextureName": "",
+                    "Appearance": [], // New appearance system -> See "outfits.json"
+                    "MugShotSourceRect": null, // Changes position of headshot in calendar/map/etc if they're shorter/taller than normal
+                    "Size": {
+                        "X": 16,"Y": 32,
+                    }, // Sprite dimensions
+                    "Breather": true, // true,false -> Places the breathing animation over the npc
+                    "BreathChestRect": null, // Changeable if you want to enlarge/shrink the breathing animation
+                    "BreathChestPosition": null, // Changeable if NPC is taller/shorter than normal
+                    "Shadow": null, // visible,offset,scale -> Visible is default, Offset to offset the shadow, scale to enlarge/shrink
+                    "EmoteOffset": {"X": 0,"Y": 0,}, // Whether to offset the emote bubble over the NPC or not
+                    "ShakePortraits": [9],
+                    "KissSpriteIndex": 19,
+                    "KissSpriteFacingRight": true,
+                    //ADD"HiddenProfileEmoteSound": null, // Check soundbank list -> Applied when clicking on their social tab after 4 hearts
+                    //ADD"HiddenProfileEmoteDuration": null, // Animation duration in milliseconds
+                    //ADD"HiddenProfileEmoteStartFrame": null, // Animation's starting frame
+                    //ADD"HiddenProfileEmoteFrameCount": null, // How many frames the sprite index will go through, going left to right
+                    //ADD"HiddenProfileEmoteFrameDuration": null, // Frames in milliseconds
+                    "CustomFields": null, // Used for C#
                 },
-            "DumpsterDiveFriendshipEffect": 0, // Friendship loss/gain if found dumpster diving
-            "DumpsterDiveEmote": 16, // Emote when player is found to be digging in trash
-            //ADD"SpouseFloors": [], // Flooring NPC will place in home
-            //ADD"SpouseWallpapers": [], // Wallpapers NPC will place in home
-            "FriendsAndFamily": {}, // If NPC has relatives
-            "FlowerDanceCanDance": true, // If NPC dances at Flower Dance
-            "WinterStarGifts":
-                [ // Items NPC can gift during the winter star festival
-                {
-                "Id": "{{ModId}}_WinterStar_Amethyst",
-                "ItemId": "(O)66",
-                "RandomItemId": null,
-                "MinStack": 1,
-                "MaxStack": 5,
-                },
-                {
-                "Id": "{{ModId}}_WinterStar_Ruby",
-                "ItemId": "(O)64",
-                "RandomItemId": null,
-                "MaxItems": null,
-                "MinStack": 1,
-                "MaxStack": 3,
-                },
-                ],
-            "WinterStarParticipant": true, // If NPC participates in Winter Star
-            "UnlockConditions": null, // If NPC has unlock condidion before being seen
-            "SpawnIfMissing": true, // Forcibly spawns NPC if stuck
-            "Home":
-                [ // NPC spawn point
-                {
-                "Id": "Default", // Default spawn point
-                "Condition": null, // If they change homes
-                "Location": "Custom_L0veRavenRaven_TentInside", // Specific location from data/location
-                "Tile": {"X": 4,"Y": 4,},
-                "Direction": "right", // Direction facing when idle
-                }
-                ],
-            "TextureName": "",
-            "Appearance": [], // New appearance system -> See "outfits.json"
-            "MugShotSourceRect": null, // Changes position of headshot in calendar/map/etc if they're shorter/taller than normal
-            "Size": {"X": 16,"Y": 32,}, // Sprite dimensions
-            "Breather": true, // true,false -> Places the breathing animation over the npc
-            "BreathChestRect": null, // Changeable if you want to enlarge/shrink the breathing animation
-            "BreathChestPosition": null, // Changeable if NPC is taller/shorter than normal
-            "Shadow": null, // visible,offset,scale -> Visible is default, Offset to offset the shadow, scale to enlarge/shrink
-            "EmoteOffset": {"X": 0,"Y": 0,}, // Whether to offset the emote bubble over the NPC or not
-            "ShakePortraits": [9],
-            "KissSpriteIndex": 19,
-            "KissSpriteFacingRight": true,
-            //ADD"HiddenProfileEmoteSound": null, // Check soundbank list -> Applied when clicking on their social tab after 4 hearts
-            //ADD"HiddenProfileEmoteDuration": null, // Animation duration in milliseconds
-            //ADD"HiddenProfileEmoteStartFrame": null, // Animation's starting frame
-            //ADD"HiddenProfileEmoteFrameCount": null, // How many frames the sprite index will go through, going left to right
-            //ADD"HiddenProfileEmoteFrameDuration": null, // Frames in milliseconds
-            "CustomFields": null, // Used for C#
             },
         },
-    },
-]}
+    ]
+}
