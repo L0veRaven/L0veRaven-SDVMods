@@ -3,6 +3,13 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 TODO:
 
+i18n/default.json
+    "addDialogue"
+    "//portraitBookmark" -> Assign portraits
+    "//ADD" -> Find referenced code and remove flag once added
+    "//review" -> Keep in code(?)
+    "//DELETE" -> Delete when it's confirmed it won't break the mod
+
 data/festivals.json
     Add festival compats
 

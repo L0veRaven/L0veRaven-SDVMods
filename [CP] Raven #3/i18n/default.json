@@ -2,12 +2,10 @@
 "addDialogue": "addDialogue",
 // ===============================================================================================
 // || "token": "<token name>_addDialogue" -> Name is copied for easy reference if shown in-game ||
-// || "//ADD" -> Find referenced code and remove flag once added                                ||
-// || "//review" -> Keep this in the code?                                                      ||
-// || "//DELETE" -> Delete when verified it won't break the game                                ||
-// || "//portraitBookmark" -> Assign portraits                                                  ||
-// || Nexus ID: 27407                                                                           ||
 // ===============================================================================================
+// =====================
+// || Nexus ID: 27407 ||
+// =====================
 // ========================================================
 // || ORGANIZE IN THE CODE SOMEWHERE FOR THE LOVE OF GOD ||
 // ========================================================
