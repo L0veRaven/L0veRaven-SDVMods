@@ -989,9 +989,12 @@
     // || Flower Dance ||
 "flowerDance_1": "The temperature is just right for the Flower Dance! No one has to worry about sweating up a storm.$1",
 "flowerDance_2": "Everyone looks great today!#$e#The dresses look much better than the suits, though.$17",
-    // || Luau ||
-"luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#What do you mean Mayor Lewis is waiting for you? Why do you get to decide when to start?$17#$b#Meh, Mayor Lewis doesn't make sense sometimes.",
-"luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#I wonder if anyone's gonna go into the water to cool down.$17#$b#Would it be so bad if I went in first?$11",
+    // || Luau/Potluck ||
+"luauPotluck_1": "My stomach is growling right now. When are we gonna eat?$2#$e#What do you mean Mayor Lewis is waiting for you? Why do you get to decide when to start?$17#$b#Meh, Mayor Lewis doesn't make sense sometimes.",
+"luauPotluck_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#I wonder if anyone's gonna go into the water to cool down.$17#$b#Would it be so bad if I went in first?$11",
+    
+"luauPotluck_spouse_1": "My stomach is growling right now. When are we gonna eat?$2#$e#Don't take too long. I know Mayor Lewis is waiting for you so we can eat.",
+"luauPotluck_spouse_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#You should take a dip in the water with me so we can cool off.$1",
     // || Dance of The Moonlight Jellies ||
 "moonlightJellies_1": "I wonder what colors we can't see tonight because of our eyes.#$e#I say that because some animals can see more colors than us apparently!#1",
 "moonlightJellies_2": "Do you think the midnight jellies are toxic? I never see anyone swimming during the festival.$17",
@@ -1228,7 +1231,7 @@
 "RejectItem_Fertilizer_married": "No, we use fertilizer for the farm. Try to find a place for this, will you?$2",
 "RejectItem_Seeds_married": "@, please don't waste your seeds on me. I'd rather it used for the farm and not on me.$11",
 // =================================
-// || modCompat/downtownZuzu.json ||
+// || modCompat/CJBWarps.json ||
 // =================================
 "CJB_RavensTent": "Raven's Tent",
 // =================================
@@ -1236,6 +1239,27 @@
 // =================================
 // || Conversation Topics ||
 "cc_Bus.DTZ": "Shoot, I didn't even know the bus was getting repaired! Now I can travel to Downtown Zuzu.#$e#Depending on what it's like in the city, I might end up going broke from going out there a bunch!",
+// =====================================
+// || modCompat/fireworksFestival.json ||
+// =====================================
+"fireworksFestival_1": "I'm just chilling out here until the fireworks start.#$e#Wanna chill with me?$1",
+"fireworksFestival_2": "I wish we could do fireworks more often. Fireworks should be for all times of the year!$1",
+// =======================================
+// || modCompat/pelicanTownPotluck.json ||
+// =======================================
+// || Yesterday, Today, Tomorrow ||
+    // || {{potluckYest}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}} ||
+"potluck_yesterday_1": "I wonder what everyone's bringing the potluck tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+"potluck_yesterday_2": "Hopefully it's not too hot this year at the potluck.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+"potluck_yesterday_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the potluck.$11",
+    // || {{potluckToday}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}} ||
+"potluck_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the potluck before I get there. When I see that food... it's on SIGHT.$1",
+"potluck_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#I wonder if the governor is gonna like the soup at the potluck this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+"potluck_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#It's kinda weird to have the governor come by for the potluck every year.$17#$b#I dunno... It just seems odd.$17",
+    // || {{potluckTomo}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}} ||
+"potluck_tomorrow_1": "Ugh... I'm nauseous... I ate too much food at the potluck.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+"potluck_tomorrow_2": "The food was absolutely amazing at the potluck yesterday!$1#$e#I wish there was leftovers.$2",
+"potluck_tomorrow_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
 // ==================================
 // || modCompat/naturesBounty.json ||
 // ==================================

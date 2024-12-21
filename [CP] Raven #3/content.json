@@ -19,6 +19,8 @@
         //Nude: Toggle
     "RavenNude":
         {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",},
+    "RavenIndex":
+        {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",},
     //Modder Settings
         //Event Excludes: Toggle
     "EventExcludes":
@@ -115,6 +117,10 @@
         {"Name": "luauYest","Value": "{{i18n:luau_yesterday_{{Range:1,3}}}}",},
         {"Name": "luauToday","Value": "{{i18n:luau_today_{{Range:1,3}}}}",},
         {"Name": "luauTomo","Value": "{{i18n:luau_tomorrow_{{Range:1,3}}}}",},
+
+        {"Name": "potluckYest","Value": "{{i18n:potluck_yesterday_{{Range:1,3}}}}",},
+        {"Name": "potluckToday","Value": "{{i18n:potluck_today_{{Range:1,3}}}}",},
+        {"Name": "potluckTomo","Value": "{{i18n:potluck_tomorrow_{{Range:1,3}}}}",},
 
         {"Name": "MooJellYest","Value": "{{i18n:moonlightJellies_yesterday_{{Range:1,3}}}}",},
         {"Name": "MooJellToday","Value": "{{i18n:moonlightJellies_today_{{Range:1,3}}}}",},
@@ -440,7 +446,7 @@
         {
             "LogName": "content.json: Dialogue",
             "Action": "Include",
-            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/dialogue/scheduleDialogue.json",
+            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/maps/StringsFromMaps.json, data/dialogue/scheduleDialogue.json",
         },
         {
             "LogName": "content.json: Spouse Patios",
@@ -462,7 +468,7 @@
         {
             "LogName": "content.json: ModCompat",
             "Action": "Include",
-            "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json",
+            "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json",
         },
     ]
 }

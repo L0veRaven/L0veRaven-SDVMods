@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "pelicanTownPotluck.json: Dialogue (Yesterday, Today, Tomorrow)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModId}}",
+            "Entries": {
+                "summer_10": "{{potluckYest}}",
+                "summer_11": "{{potluckToday}}",
+                "summer_12": "{{potluckTomo}}",
+            },
+            "When": {
+                "HasMod: |contains={{PTP}}": true,
+            },
+        },
+    ]
+}

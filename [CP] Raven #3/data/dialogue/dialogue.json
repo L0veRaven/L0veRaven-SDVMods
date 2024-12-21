@@ -351,10 +351,12 @@
                 "Fair_Judged_PlayerWon": "{{FairJudgeWon}}",
                 "Fair_Judged": "{{FairJudged}}",
                 //Winter Star
-                "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
                 "WinterStar_GiveGift_Before": "{{winterStarGiftBefore}}",
-                "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
                 "WinterStar_GiveGift_After": "{{winterStarGiftAfter}}",
+                
+                "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
+                "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
+                
                 "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}",
             },
         },

@@ -1,15 +1,21 @@
-{ "Changes": [
-    {"LogName": "CJBWarps.json","Action": "EditData","Target": "Mods/CJBok.CheatsMenu/Warps","Entries":
+{
+    "Changes": [
         {
-        "{{ModId}}_RavensTent":
-            {
-            "Id": "{{ModId}}_Raven's Tent",
-            "DisplayName": "{{i18n:CJB_RavensTent}}",
-            "Location": "Forest",
-            "Tile": "88, 86",
-            "SectionId": "forest",
+            "LogName": "CJBWarps.json",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModId}}_RavensTent": {
+                    "Id": "{{ModId}}_Raven's Tent",
+                    "DisplayName": "{{i18n:CJB_RavensTent}}",
+                    "Location": "Forest",
+                    "Tile": "88, 86",
+                    "SectionId": "forest",
+                },
             },
+            "When": {
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
         },
-     "When": {"Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",}
-    },
-]}
+    ]
+}

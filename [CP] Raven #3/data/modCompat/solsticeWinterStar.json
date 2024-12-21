@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {	
+            "LogName": "solsticeWinterStar.json",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "{{ModId}}": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+                "{{ModId}}_y2": "{{i18n:winterStar_{{Random:{{Range:1,5}}}}}}",
+                "{{ModId}}_spouse": "{{i18n:winterStar_spouse_{{Random:{{Range:1,5}}}}}}",
+                "{{ModId}}_spouse_y2": "{{i18n:winterStar_spouse_{{Random:{{Range:1,5}}}}}}",
+            },
+            "When": {
+                "HasMod: |contains={{SWS}}": true,
+            },
+        },
+    ]
+}

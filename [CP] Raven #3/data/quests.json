@@ -1,11 +1,12 @@
-{ "Changes": [
-    {
-    "LogName": "quests.json",
-    "Action": "EditData",
-    "Target": "Data/Quests",
-    "Entries":
+{
+    "Changes": [
         {
-        //ADD"{{Nexus}}00001": "",
-        },
-    }
-]}
+            "LogName": "quests.json",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                //ADD"{{Nexus}}00001": "",
+            },
+        }
+    ]
+}

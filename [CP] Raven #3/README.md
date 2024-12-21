@@ -6,6 +6,23 @@ TODO:
 Festivals.json
     Add festival compats
 
+L0veRaven.Raven png
+    //ADD animations
+        _beach_towel
+        _beach_dance
+        _beach_drink
+        _beach_umbrella
+        _handheld_game
+        _gardening
+        _sweep
+        _drink
+        _sing
+        _laugh
+        _sit
+        _read
+        _jump
+        _fishing
+
 z_L0veRaven_Tent png
     Turn tent into a Joja tent
 
