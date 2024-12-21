@@ -3,10 +3,10 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 TODO:
 
-Festivals.json
+data/festivals.json
     Add festival compats
 
-L0veRaven.Raven png
+assets/Characters/L0veRaven.Raven png
     //ADD animations
         _beach_towel
         _beach_dance
@@ -23,13 +23,13 @@ L0veRaven.Raven png
         _jump
         _fishing
 
-z_L0veRaven_Tent png
+data/maps/z_L0veRaven_Tent png
     Turn tent into a Joja tent
 
-Dialogue.json
+data/dialogue/dialogue.json
     //ADD -> Conversation Topics: Custom
 
-Events.json
+data/events.json
     Event 27407000
         Does end dialogue work correctly
         Does BGM match
@@ -48,6 +48,8 @@ Events.json
         Check i18n dialogue
     Event 274070## JobInterview
         //Raven wants more hours so they can move back to Zuzu City
+
+modCompat/naturesBounty.json
     Event 27407100 {{NB}} GusEdibles
         Does BGM match
         Check i18n dialogue
@@ -55,15 +57,15 @@ Events.json
         Does BGM match
         Check i18n dialogue
 
-quests.json
+data/quests.json
     //ADD
         "{{ModId}}_StonerLetter"
 
 data/triggerActions.json
     //ADD
 
-animationFrames.json
+data/animationFrames.json
     //Create frames for the animations
 
-outfits.json
+data/outfits.json
     Halloweeen Costumes
