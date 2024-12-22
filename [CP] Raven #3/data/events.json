@@ -201,11 +201,13 @@ end dialogue {{ModId}} \"{{i18n:CleansingFarmer2_end}}\"",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "{{Nexus}}005/t 1000 1400": "<custom song>/<x> <y>/farmer <x> <y> <d> {{ModId}} <x> <y> <d> Linus <x> <y> <d>/skippable/<......>/end",
+                "{{Nexus}}005/t {{9am}} {{5pm}}/!DayOfWeek Wed": "<custom song>/<x> <y>/farmer <x> <y> <d> {{ModId}} <x> <y> <d> Pierre <x> <y> <d> Abigail <x> <y> <d> Caroline <x> <y> <d>/skippable/
                     // Job interview at Pierre's shop
                         // Raven wants more hours so they can move back to Zuzu City
             --Raven approaches/
                 {{moveRaven}} 4 0 {{right}}/{{emoteRaven}} {{emoteQuestion}} true/playSound dwop/pause 1200/
+            --END/
+                end dialogue {{ModId}} \"I can't wait to start saving up money to move back to Zuzu City!$1#$b#Hopefully Pierre doesn't pay employees late.$11\"",
             },
         },
     ]
