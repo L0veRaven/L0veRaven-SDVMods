@@ -567,8 +567,8 @@
 "RejectBouquet_LowHearts": "I-I think it's a little early to go asking me to date you, don't you think?",
 "RejectBouquet": "I don't think it's really a good time for us to date right now.",
     // || Stardrop Saloon Event ||
-"dumped": "Respectfully, I don't really feel comfortable around you since we broke up.#$b#I'd appreciate if you gave me space.",
-"secondchance": "Well, if you're really sure about things, then I'm willing to give it another shot.#$b#Just please don't fuck it up again.",
+"dumped": "... I don't feel like talking to a cheater.$5",
+"secondchance": "...$5#$b#...$2#$b#Ugh... I don't wanna be mad at you... but you need to promise not to do that again, okay?$2#$b#If you wanna date other people too, just tell me first. Doing it behind my back is screwed up...$2",
 // || Divorced ||
     // || Dialogue ||
 "WipedMemory": "Hi there! It's nice to see you aga-#$b#Wait, have I met you before?#$b#Sorry, you just seem really familiar for some reason.#$e#I probably met your doppleganger at some point years ago or something.",
