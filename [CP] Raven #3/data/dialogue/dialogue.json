@@ -25,37 +25,21 @@
             "Target": "Characters/Dialogue/{{ModId}}",
             "Entries": {
                 //Egg Festival
-                "spring_12": "{{eggFestYest}}",
-                "spring_13": "{{eggFestToday}}",
-                "spring_14": "{{eggFestTomo}}",
+                "spring_12": "{{eggFestYest}}","spring_13": "{{eggFestToday}}","spring_14": "{{eggFestTomo}}",
                 //Flower Dance
-                "spring_23": "{{flowDanYest}}",
-                "spring_24": "{{flowDanToday}}",
-                "spring_25": "{{flowDanTomo}}",
+                "spring_23": "{{flowDanYest}}","spring_24": "{{flowDanToday}}","spring_25": "{{flowDanTomo}}",
                 //Luau
-                "summer_10": "{{luauYest}}",
-                "summer_11": "{{luauToday}}",
-                "summer_12": "{{luauTomo}}",
+                "summer_10": "{{luauYest}}","summer_11": "{{luauToday}}","summer_12": "{{luauTomo}}",
                 //Midnight Jellies
-                "summer_27": "{{MooJellYest}}",
-                "summer_28": "{{MooJellToday}}",
-                "summer_29": "{{MooJellTomo}}",
+                "summer_27": "{{MooJellYest}}","summer_28": "{{MooJellToday}}","summer_29": "{{MooJellTomo}}",
                 //Stardew Fair
-                "fall_15": "{{FairYest}}",
-                "fall_16": "{{FairToday}}",
-                "fall_17": "{{FairTomo}}",
+                "fall_15": "{{FairYest}}","fall_16": "{{FairToday}}","fall_17": "{{FairTomo}}",
                 //Spirit's Eve
-                "fall_26": "{{spiritsEveYest}}",
-                "fall_27": "{{spiritsEveToday}}",
-                "fall_28": "{{spiritsEveTomo}}",
+                "fall_26": "{{spiritsEveYest}}","fall_27": "{{spiritsEveToday}}","fall_28": "{{spiritsEveTomo}}",
                 //Ice Festival
-                "winter_7": "{{iceFestYest}}",
-                "winter_8": "{{iceFestToday}}",
-                "winter_9": "{{iceFestTomo}}",
+                "winter_7": "{{iceFestYest}}","winter_8": "{{iceFestToday}}","winter_9": "{{iceFestTomo}}",
                 //Winter Star
-                "winter_24": "{{winterStarYest}}",
-                "winter_25": "{{winterStarToday}}",
-                "winter_26": "{{winterStarTomo}}",
+                "winter_24": "{{winterStarYest}}","winter_25": "{{winterStarToday}}","winter_26": "{{winterStarTomo}}",
             },
         },
         {
@@ -382,6 +366,17 @@
                 "cc_Bridge": "{{i18n:cc_Bridge}}",
                 "cc_Boulder": "{{i18n:cc_Boulder}}",
                 "cc_Complete": "{{i18n:cc_Complete}}",
+                //Other Events
+                "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current 27407000 # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
+                "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
+                "divorced_once": "{{i18n:married_farmer}}","divorced_twice": "{{i18n:married_farmer}}",
+                //Win Festival Events
+                "wonEggHunt": "{{i18n:wonEggHunt}}",
+                "wonGrange": "{{i18n:wonGrange}}",
+                "wonIceFishing": "{{i18n:wonIceFishing}}",
+                //Saloon Event (Rabbit's Foot)
+                "dumped_Guys","dumped_Girls": "7 days -> Set after the corresponding ten-heart group event (e.g., see Abigail#Group Ten-Heart Event)",
+                "secondChance_Girls","secondChance_Guys": "14 days -> Set after the corresponding ten-heart group event (e.g., see Abigail#Group Ten-Heart Event)",
             },
         },
 //ADD        {

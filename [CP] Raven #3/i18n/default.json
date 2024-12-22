@@ -485,12 +485,21 @@
 "HitBySlingshot_10": "I hope you get hit with a ton of rocks you asshat!",
     // || Community Center ||
 "cc_Begin": "It seems like there's some activity going on in the Community Center.#$e#Is Mayor Lewis finally getting his shit together and resotring it?#$b#Wait, you're restoring it?#$b#Well, hopefully you aren't mad about not getting compensated for your labor.",
-"cc_Minecart": "I saw some critters in the middle of the night swarming some of the Minecarts last night.#$e#I wonder what that's all about.",
-"cc_Greenhouse": "I heard you have a greenhouse now! Now it'll be much easier to grow crops year-round.#$e#I wonder how hard it is to grow things in a greenhouse actually.#$b#It'd be cool to use one I think.",
-"cc_Bus": "Shoot, I didn't even know the bus was getting repaired! Now I can travel out of town for once.#$e#I just hope the bus fare doesn't make me go broke too fast.",
-"cc_Bridge": "Did Robin work on a construction project overnight? The bridge past the mines got repaired.#$e#I kinda wonder what's over there.",
-"cc_Boulder": "Have you noticed that boulder near the mines finally dislodged? Now we can go panning for materials!#$e#We live in a really convenient area.#$b#For one, panning for materials isn't something most people can brag about doing from their backyard.",
 "cc_Complete": "The fact the Community Center got repaired is a miracle! You did a great job.#$e#You should get paid for the work you did though. I'll try and talk to Mayor Lewis about it.",
+"cc_Boulder": "Have you noticed that boulder near the mines finally dislodged? Now we can go panning for materials!#$e#We live in a really convenient area.#$b#For one, panning for materials isn't something most people can brag about doing from their backyard.",
+"cc_Bridge": "Did Robin work on a construction project overnight? The bridge past the mines got repaired.#$e#I kinda wonder what's over there.",
+"cc_Bus": "Shoot, I didn't even know the bus was getting repaired! Now I can travel out of town for once.#$e#I just hope the bus fare doesn't make me go broke too fast.",
+"cc_Greenhouse": "I heard you have a greenhouse now! Now it'll be much easier to grow crops year-round.#$e#I wonder how hard it is to grow things in a greenhouse actually.#$b#It'd be cool to use one I think.",
+"cc_Minecart": "I saw some critters in the middle of the night swarming some of the Minecarts last night.#$e#I wonder what that's all about.",
+    // || Win Festival Events ||
+"wonEggHunt": "Hey, congrats on winning the egg hunt!$1#$b#It can be pretty challenging with Abigail and Sophia playing, but I'm glad you got to win.",
+"wonGrange": "Wow, your grange display looked amazing!$1#$b#You definitely deserved to win the grange display contest this year.",
+"wonIceFishing": "How much practice did you do for the ice fishing contest? You did amazing!$1",
+    // || Other Events ||
+"gotPet_cat": "Oh, you ended up adopting the cat Penny and I caught? That's amazing!$1#$b#Hopefully you both bond well.",
+"gotPet_other": "Oh, you ended up adopting a pet? That must be awesome!$1#$b#Hopefully you both bond well.",
+"married_farmer": "Congrats on getting married, @!$1#$b#I hope married life treats you well.",
+"divorced_farmer": "I'm sorry your marriage didn't end up how you expected it to.$2#$b#If you need any emotional support, I'm here for you.",
     // || Custom ||
 
 // || Movies Invitation/Rejection ||
