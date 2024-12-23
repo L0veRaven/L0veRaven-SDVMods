@@ -3,6 +3,8 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 TODO:
 
+GENERAL - FOCUS ON VANILLA MECHANICS FIRST
+
 i18n/default.json
     "addDialogue"
     "//portraitBookmark" -> Assign portraits
