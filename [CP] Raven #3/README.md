@@ -12,6 +12,10 @@ i18n/default.json
     "//review" -> Keep in code(?)
     "//DELETE" -> Delete when it's confirmed it won't break the mod
 
+data/mail.json
+    {{ModId}}_marriageTalk_1, {{ModId}}_marriageTalk_2, {{ModId}}_marriageTalk_3
+        Add letter content
+
 data/festivals.json
     Add festival compats
 

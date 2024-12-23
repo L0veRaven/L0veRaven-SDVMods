@@ -920,20 +920,42 @@
 // || Event 3: 27407003 - {{ModId}}CleansingFarmer ||
 // || Event 4: 27407004 - {{ModId}}CleansingFarmer2 ||
 "CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
-// || Event 100: 27407100 - {{ModId}}GusEdibles ||
-"GusEdibles_speak_1": "Welcome!",//Speak->Gus
-"GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//Speak->Raven
-"GusEdibles_speak_3": "You're more than welcome to have some, @. There's plenty to go around!",//Speak->Gus
-"GusEdibles_speak_4": "Dig in!$1",//Speak->Gus
-"GusEdibles_speak_5": "I wonder how long it's gonna take for it to kick in.",//Speak->Raven
-"GusEdibles_speak_6": "I think it's already kicking in for @.",//Speak->Gus
-"GusEdibles_speak_7": "Dear Yoba... Did we kill @?!$9",//Speak->Raven
-"GusEdibles_speak_8": "Maybe the batch was a little too strong...$2#$b#@ should be fine. Just wait for a couple seconds.",//Speak->Gus
-"GusEdibles_speak_9": "You're alive!$3#$b#You had me scared there for a second.$5",//Speak->Raven
-"GusEdibles_speak_10": "Welcome back, @! How are you feeling?",//Speak->Gus
+// || Event 5: 27407005 - {{ModId}}jobInterview ||
+// || Event 6: 27407006 - {{ModId}}marriageTalk ||
+"marriageTalk_gusWelcome": "Here comes the newlywed!",//speechBubbleGus
     
-"GusEdibles_end_1": "Hehe... I'm feeling good right now. What about you?$6",//Speak->Raven
-"GusEdible_end_2": "I hope you liked the special brownie. My special ingredient is infused oil.#$b#And... sorry if the brownie was too strong for you.$2",//Speak->Gus
+"marriageTalk_speak_1": "Hey there, @!$1",//speakRaven
+
+"marriageTalk_qQ": "How's the new marriage treating you?",
+    
+"marriageTalk_qQ_1": "It's awesome!",
+"marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. there's something awesome about sharing romantic love with someone or multiple someones.",//speakRaven
+    
+"marriageTalk_qQ_2": "It doesn't feel like anything changed.",
+"marriageTalk_qQ_2_1": "addDialogue",//speakRaven
+    
+"marriageTalk_qQ_3": "I regret getting married.",
+"marriageTalk_qQ_3_1": "addDialogue",//speakRaven
+    
+"marriageTalk_speak_2": "Yeah, I'm totally chill with being in a marriage involving multiple people.#$b#I love people, so I getting to share my love with multiple people at once is awesome!$1#$b#It's not for everybody, though. It can get pretty messy sometimes.",//speakRaven
+"marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//speakGus
+"marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//speakRaven
+"marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//speakGus
+"marriageTalk_qQ_1_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
+// || Event 100: 27407100 - {{ModId}}GusEdibles ||
+"GusEdibles_speak_1": "Welcome!",//speakGus
+"GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//speakRaven
+"GusEdibles_speak_3": "You're more than welcome to have some, @. There's plenty to go around!",//speakGus
+"GusEdibles_speak_4": "Dig in!$1",//speakGus
+"GusEdibles_speak_5": "I wonder how long it's gonna take for it to kick in.",//speakRaven
+"GusEdibles_speak_6": "I think it's already kicking in for @.",//speakGus
+"GusEdibles_speak_7": "Dear Yoba... Did we kill @?!$9",//speakRaven
+"GusEdibles_speak_8": "Maybe the batch was a little too strong...$2#$b#@ should be fine. Just wait for a couple seconds.",//speakGus
+"GusEdibles_speak_9": "You're alive!$3#$b#You had me scared there for a second.$5",//speakRaven
+"GusEdibles_speak_10": "Welcome back, @! How are you feeling?",//speakGus
+    
+"GusEdibles_end_1": "Hehe... I'm feeling good right now. What about you?$6",//speakRaven
+"GusEdible_end_2": "I hope you liked the special brownie. My special ingredient is infused oil.#$b#And... sorry if the brownie was too strong for you.$2",//speakGus
 // || Event 101: 27407101 - {{ModId}}SmokeSession ||
 "SmokeSession_textAboveHead": "You came!",
 "SmokeSession_speak_1": "It's great seeing you!$1#$b#So, are you gonna have some weed?",
@@ -1058,6 +1080,10 @@
 "CleansingFarmer2_Mail_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
 // || {{ModId}}_JobInterview - Event ||
 "JobInterview_Mail": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
+// || {{ModId}}_marriageTalk - Event ||
+"marriageTalk_1_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
+"marriageTalk_2_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
+"marriageTalk_3_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 // || {{ModId}}_LoveLetter -> Automatic letters when dating ||
 "LoveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
 "LoveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",

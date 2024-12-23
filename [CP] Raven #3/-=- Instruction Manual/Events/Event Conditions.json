@@ -1,7 +1,7 @@
 {
 //Context - Checks: date/time/weather/etc. -_ Not player specific
 
-"!": "!Spouse Abigail (player is NOT married to Abigail) -> Inverts commands",
+"!": "Inverts commands -> !Spouse Abigail (player is NOT married to Abigail)",
     
 "GameStateQuery _query_", "G _query_": "GameStateQuery !Spouse Abigail (player is NOT married to Abigail) -> Inverts commands",
     
