@@ -31,7 +31,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 
-| File | Notes |
+| File & Focus | Notes |
 | ------------- | ------------- |
 | data/events.json: Event 0 | Does end dialogue work correctly; Does BGM match; Check i18n dialogue |
 | data/events.json: Event 1 | Does BGM match; Check i18n dialogue |
