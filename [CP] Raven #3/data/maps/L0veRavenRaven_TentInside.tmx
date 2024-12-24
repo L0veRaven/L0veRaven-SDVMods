@@ -7,16 +7,16 @@
  </properties>
  <tileset firstgid="1" source="z_L0veRaven_Tent.tsx"/>
  <tileset firstgid="1976" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
-  <image source="townInterior_2.png" width="512" height="656"/>
+  <image source=".townInterior_2.png" width="512" height="656"/>
  </tileset>
  <layer id="1" name="Back" width="6" height="6">
   <data encoding="csv">
 12,0,0,0,0,12,
-0,0,0,0,0,0,
-0,0,64,65,0,0,
-0,88,89,89,91,0,
-0,113,89,89,116,12,
-12,0,139,0,12,12
+12,0,39,40,0,12,
+12,0,64,65,0,12,
+12,88,89,89,91,12,
+12,113,89,89,116,12,
+12,12,139,12,12,12
 </data>
  </layer>
  <objectgroup id="5" name="Back"/>
@@ -85,15 +85,5 @@
 </data>
  </layer>
  <objectgroup id="8" name="Paths"/>
- <layer id="13" name="AlwaysFront" width="6" height="6">
-  <data encoding="csv">
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,90,0,
-0,0,0,0,0,0
-</data>
- </layer>
  <objectgroup id="14" name="AlwaysFront"/>
 </map>

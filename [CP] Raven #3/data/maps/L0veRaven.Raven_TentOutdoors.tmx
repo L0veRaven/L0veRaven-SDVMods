@@ -3024,7 +3024,7 @@
  </tileset>
  <layer id="1" name="Back" width="9" height="14">
   <data encoding="base64" compression="zlib">
-   eJzjF2Bg4AdiQSDWBOLD/AwM8fwIWh0o9hBI/4aKIeN4KHaAmiEAxBVAfiUaroaqg6mZCGRPRsNTcKgB8ZHVfMWiZieaOXwChO3ig/qLkBpizCGkRp0INc9YEWpWAfmr0fBaJLu0gPgbP3b8gx/iL36o2gdIbBgGxTUAhM1AXg==
+   eJzjF2Bg4AdiQSDWBOLD/AwM8fwIWh0o9hBI/4aKIeN4KHaAmiEAxBVAfiUaroaqg6mZCGRPRsNTiFTzFYuanWhq+AQIm8MH9RchNcSYQ0iNOhFqnrEi1KwC8lej4bVIdmkB8Td+7PgHP8Rf/FC1D5DYMAyKawA05UDh
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -3107,7 +3107,7 @@
   </data>
  </layer>
  <objectgroup id="18" name="Front"/>
- <layer id="19" name="Front2" width="9" height="14">
+ <layer id="19" name="Front2" width="9" height="14" visible="0">
   <properties>
    <property name="Draw" value="Front"/>
   </properties>
@@ -3116,13 +3116,13 @@
   </data>
  </layer>
  <objectgroup id="20" name="Front2"/>
- <layer id="21" name="AlwaysFront" width="9" height="14">
+ <layer id="21" name="AlwaysFront" width="9" height="14" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFIxEAAAH4AAE=
   </data>
  </layer>
  <objectgroup id="22" name="AlwaysFront"/>
- <layer id="23" name="AlwaysFront2" width="9" height="14">
+ <layer id="23" name="AlwaysFront2" width="9" height="14" visible="0">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
@@ -3131,7 +3131,7 @@
   </data>
  </layer>
  <objectgroup id="24" name="AlwaysFront2"/>
- <layer id="25" name="AlwaysFront3" width="9" height="14">
+ <layer id="25" name="AlwaysFront3" width="9" height="14" visible="0">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
