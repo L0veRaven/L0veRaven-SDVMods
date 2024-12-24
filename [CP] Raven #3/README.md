@@ -1,6 +1,82 @@
 # [CP] Raven
 A neko lives in a tent in Cindersap Forest, hoping to save up enough money to have a home again.
 
+## File Directory
+| Directory  | Summary |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| config.json | Configuration settings |
+| content.json | Content Cell |
+| manifest.json | Information required for SMAPI to recognize the mod |
+| README.md | All the information you need about [CP] Raven |
+
 TODO:
 
 GENERAL - FOCUS ON VANILLA MECHANICS FIRST
