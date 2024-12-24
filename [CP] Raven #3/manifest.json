@@ -10,6 +10,10 @@
     },
     "Dependencies": [
         {
+            "UniqueID": "L0veRaven.Core",
+            "IsRequired": "true",
+        },
+        {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
             "IsRequired": "true",
         },

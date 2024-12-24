@@ -43,7 +43,7 @@
         {"LogName": "objects.json: Artifacts - Amphibian Fossil","Action": "EditData","Target": "Data/Objects","TargetField": ["587","ContextTags"],"Entries": {"artifact_item": "artifact_item",},},
         {"LogName": "objects.json: Artifacts - Palm Fossil","Action": "EditData","Target": "Data/Objects","TargetField": ["588","ContextTags"],"Entries": {"artifact_item": "artifact_item",},},
         {"LogName": "objects.json: Artifacts - Trilobite","Action": "EditData","Target": "Data/Objects","TargetField": ["589","ContextTags"],"Entries": {"artifact_item": "artifact_item",},},
-        // Hidden Items (105) 
+        // Hidden Items
         {"LogName": "objects.json: Hidden - Weeds","Action": "EditData","Target": "Data/Objects","TargetField": ["0","ContextTags"],"Entries": {"hidden_item": "hidden_item",},},
         {"LogName": "objects.json: Hidden - Diamond Stone","Action": "EditData","Target": "Data/Objects","TargetField": ["2","ContextTags"],"Entries": {"hidden_item": "hidden_item",},},
         {"LogName": "objects.json: Hidden - Ruby Stone","Action": "EditData","Target": "Data/Objects","TargetField": ["4","ContextTags"],"Entries": {"hidden_item": "hidden_item",},},

@@ -1,0 +1,16 @@
+{
+"Format": "2.3.0",// Content Patcher Ver. -> 2.4.2 ..... 2.3.0
+"Changes":
+    [
+    {
+    "LogName": "Lewis Acts Normal Dialogue Fix",
+    "Action": "EditData",
+    "Target": "Strings/StringsFromCSFiles",
+    "Entries":
+        {
+        "Utility.cs.5371": "{{i18n:Utility.cs.5371}}",
+        "Utility.cs.5375": "{{i18n:Utility.cs.5375}}",
+        },
+    },
+    ]
+}

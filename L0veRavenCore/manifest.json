@@ -1,0 +1,12 @@
+{
+"Name": "L0veRavenCore",
+"Author": "L0veRaven",
+"Description": "Dependency for L0veRaven's Stardew Valley mods",
+"Version": "1.0.0",
+"UniqueID": "L0veRaven.Core",
+"UpdateKeys": ["Nexus:"],
+"ContentPackFor":
+    {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}

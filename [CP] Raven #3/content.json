@@ -440,7 +440,7 @@
         {
             "LogName": "content.json: NPCData",
             "Action": "Include",
-            "FromFile": "data/objects.json, data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json",
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json",
         },
         {
             "LogName": "content.json: Dialogue",

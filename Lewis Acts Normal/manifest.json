@@ -1,0 +1,12 @@
+{
+    "Name": "Lewis Acts Normal",
+    "Author": "L0veRaven",
+    "Description": "Changes wedding dialogue so Mayor Lewis doesn't sound weird at gay weddings.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.LewisActsNormal",
+    "UpdateKeys":
+        ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}
