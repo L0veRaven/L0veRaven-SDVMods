@@ -6,6 +6,7 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
             "PatchMode": "Replace",
+            "Priority": "Late",
             "ToArea": {
                 "X": 84,"Y": 80,"Width": 9,"Height": 14,
             },
@@ -20,6 +21,7 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{ModId}}_TentOutdoors_Summer.tmx",
             "PatchMode": "Replace",
+            "Priority": "Late",
             "ToArea": {
                 "X": 84,"Y": 80,"Width": 9,"Height": 14,
             },
@@ -34,6 +36,7 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{ModId}}_TentOutdoors_Fall.tmx",
             "PatchMode": "Replace",
+            "Priority": "Late",
             "ToArea": {
                 "X": 84,"Y": 80,"Width": 9,"Height": 14,
             },
@@ -48,6 +51,7 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{ModId}}_TentOutdoors_Winter.tmx",
             "PatchMode": "Replace",
+            "Priority": "Late",
             "ToArea": {
                 "X": 84,"Y": 80,"Width": 9,"Height": 14,
             },
