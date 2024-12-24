@@ -1,62 +1,16 @@
 {
     "Changes": [
         {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Spring",
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
             "PatchMode": "Replace",
             "Priority": "Late",
             "ToArea": {
-                "X": 84,"Y": 80,"Width": 9,"Height": 14,
+                "X": 83,"Y": 79,"Width": 11,"Height": 15,
             },
             "When": {
-                "Season": "spring",
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
-            }
-        },
-        {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Summer",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Summer.tmx",
-            "PatchMode": "Replace",
-            "Priority": "Late",
-            "ToArea": {
-                "X": 84,"Y": 80,"Width": 9,"Height": 14,
-            },
-            "When": {
-                "Season": "summer",
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
-            }
-        },
-        {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Fall",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Fall.tmx",
-            "PatchMode": "Replace",
-            "Priority": "Late",
-            "ToArea": {
-                "X": 84,"Y": 80,"Width": 9,"Height": 14,
-            },
-            "When": {
-                "Season": "fall",
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
-            }
-        },
-        {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Winter",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{ModId}}_TentOutdoors_Winter.tmx",
-            "PatchMode": "Replace",
-            "Priority": "Late",
-            "ToArea": {
-                "X": 84,"Y": 80,"Width": 9,"Height": 14,
-            },
-            "When": {
-                "Season": "winter",
                 "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
             }
         },

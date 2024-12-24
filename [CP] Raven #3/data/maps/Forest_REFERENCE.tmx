@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="11" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="315">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="315">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="BrookSounds" value="54 99 5 64 101 4 54 111 5 64 110 5 46 85 0 29 76 0 43 65 0 60 58 0 79 53 0 88 45 0 118 45 0"/>
@@ -5550,121 +5550,1473 @@
  <tileset firstgid="30693" name="z_L0veRaven_Tent" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="z_L0veRaven_Tent.png" width="400" height="1264"/>
  </tileset>
- <layer id="1" name="Back" width="11" height="15">
+ <tileset firstgid="32668" source="z_L0veRaven_Tent.tsx"/>
+ <layer id="1" name="Back" width="120" height="120">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup id="2" name="Back"/>
- <layer id="3" name="Back2" width="11" height="15">
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="1376" y="128" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="1392" y="128" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="1424" y="128" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="1440" y="128" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="1344" y="144" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="1360" y="144" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="1376" y="144" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="1408" y="144" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="1424" y="144" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="1344" y="160" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="1360" y="160" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="1408" y="160" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="1344" y="176" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="1344" y="224" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="1264" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="1280" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="1296" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="1312" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="1328" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="1344" y="240" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="1648" y="256" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="1664" y="256" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="1600" y="272" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="1616" y="272" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="1632" y="272" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="1648" y="272" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="80" y="288" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="96" y="288" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="896" y="320" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="912" y="320" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="1792" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="32" name="TileData" x="1808" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="1824" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="1840" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="1856" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="1872" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="1888" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="1904" y="400" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="1792" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="1808" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="1824" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="1840" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="1856" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="1872" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="1888" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="1904" y="416" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="1776" y="480" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="1792" y="480" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="1792" y="496" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="1808" y="496" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="1824" y="496" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="1840" y="496" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="1776" y="512" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="1792" y="512" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="1808" y="512" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="1824" y="512" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="1648" y="528" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="1664" y="528" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="1808" y="528" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="1792" y="544" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="1808" y="544" width="16" height="16">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="1904" y="1152" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="LoadMap Custom_BlueMoonVineyard 1 51 1"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="1904" y="1168" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="LoadMap Custom_BlueMoonVineyard 1 51 1"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="1904" y="1184" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="LoadMap Custom_BlueMoonVineyard 1 51 1"/>
+   </properties>
+  </object>
+  <object id="299" name="TileData" x="304" y="1744" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="300" name="TileData" x="320" y="1728" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="301" name="TileData" x="304" y="1728" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="302" name="TileData" x="288" y="1728" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="303" name="TileData" x="288" y="1744" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="304" name="TileData" x="288" y="1760" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="305" name="TileData" x="304" y="1760" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="306" name="TileData" x="320" y="1760" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="307" name="TileData" x="320" y="1744" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Back2" width="120" height="120">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuEB0xUC7YGQCADgTANQ=
+   eJzt3V1qE1EYh/EjLsGPFYjgJ6RLaGoF77zphFSLdyI0eiu0YozoEgqCBbVdgWDvigsQ7C5cQVvxo8V3TIaGOGnjdHLOmf88P3ixvSgOPJ3JnOkhcQ4AAJRp62roI6ifTuLv/9qhr3dp3/c5Aw15fVFdo9fIcefvMp0l3LaOz3PmBX0BIKi2XYe7XIvlZPdR6f3VUuIehD4elGP0PrnDmkhLy7kzrX7Ts/bvGn2lnLOm520u2FxsHX/+fr7i99hQvmz920vcu7x18KQDFLHScG7V5lmj//0cv0uyFqztKn1lPeJeUFrT2q4M5pXNa1rXxjp7ByTcSY5mGHt/tLH3B4gfz1UAAIC6bH8Pe3w0je6fhpZx++PprSFvf/wafaUNN39MYwAAAABAZNqsVaX5fK8k+EdfbfTVRl9t6d8F5mkMAICEjUuhjwCpaTy/om08yl4f0TYuZfalbXx4vqGtaF/O1Wrg+RUAAAAAwLeHjdBH4E+3hu89l/Y9br7VqL+aXWu3Z7Nv893mh81Pm182v20ObA7pi4r4UsPrMwCguq7NOHfd5sZMuGMYfW+k/cF9IU5n1po2beZsbtnMB2yM8rWt56LNPZv7Nkv0RQB1fDZVJ2/oK+0jfaWpPZv6kPydbujjwHT0rG2PPaay6KuNvgAQD6Vr8uLT0EcQH6W++Bd9AQAAANRF9hm3fGaipk7/b7r0FZX3GajZPKE3AE+2b4Y+Agz7dML+tLcT7F/bHDTdoO1YoX7vv+b0a14++vqk/qi2vP4oz2bB85ou8Yn99esu79MrbYG+0jh/w3np4fV2i9f0YCZZp57253boG4SdV92i61TWt/FL+xZdD7GOil/aN/QxYHroq42+2uirjb7aWJdqWqerNPpqo682nvf/vz//0dYj
   </data>
  </layer>
  <objectgroup id="4" name="Back2"/>
- <layer id="5" name="Back3" width="11" height="15">
+ <layer id="5" name="Back3" width="120" height="120">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYKAceGii0pQAV0MGBjdD4tTGAtXlGkBwPAE9tFJbCpQvg+JyIt09CvADAOFcC3Q=
+   eJzt3T0KwkAQBtA5iq2d8Q6KGK1TiYq1pdp7coM/oAEbISaO78Gw7cBXLLMsuxEAAADQjm0VMW/Uouq6KwDI6Xm/Jaeyis1ZvmnJN7c632uRX3MGti8D8Imy6LoDAPgPZjeAfnqcpzpTBQAA4NuW1etcaj4FAAAAAAAAAAAAAAAAAACgL4pxxKB4X6Nx1x0CANAGbyIBAADwq2bD1xXot0kRMfWfblqrOtv96FZrOacj39zkm9uhzvR4r5N8AQAAAH5W8y/UnTu/AAAAAAAAAAAAAMAbF0NoKjA=
   </data>
  </layer>
  <objectgroup id="6" name="Back3"/>
- <layer id="7" name="Back5" width="11" height="15">
+ <layer id="7" name="Back5" width="120" height="120">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBhZoFNzoF0wCggBACaCALM=
+   eJzt2LENg0AQRcGr4PqAzHW4AKqxwGCD3B0lsQVcQrRnaUZ60oY/3lIAAAAAAAAAAAAAAAD69XpkLwAAAAAAAAAAAAD+xXNq3wAAAADQA/8rAAAAAO6aaylL9I7WaIs+0Tfao6NmLwQAAAAAAAAAsvyG7AUAAAAAAABAL84xewEAAAAAAAAAAAAtF6fCCfw=
   </data>
  </layer>
  <objectgroup id="8" name="Back5"/>
- <layer id="9" name="Buildings" width="11" height="15">
+ <layer id="9" name="Buildings" width="120" height="120">
   <data encoding="base64" compression="zlib">
-   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
+   eJztXQmQHNV5ngRBJBlJCClgbC6J2aN7d1asuCRBQkxAwkhCCNkESFKAOFYSAgnZYJXjihdJS1KiKhAMZAVI5WCSgFMVEDexcUiAlGMkwJAS2CYVAZXDYK5UYo4KIf+nfh/9z5v3erp7jp1Z7Vf11evpY3qmv/7f+9//rlJQKJQsdpcKhaBUmfrOs/drTpXjvaFsC6cIe1T668LThAuEx8q5xwXRueBi2T5TeEQQX3+g8IzOQmGhcJFwsfBM4f8G8fW8jt/dKdtdQXTPHy0pFJ4R7lgSHSPnC2cLfVgpx97pLhTeFb7XHf+3gxw8V3ie8NF9CoUZks4UbheeLPwtc47r+l3yvS8JX+6OPvNa/Z0XGM4XLjDb/yF81fw/F5O0qZX39sb69gmnhZEWSMdLOkH4ShBpTV2oLzlH/de1HYXCVcJ1wq8Ivyq8WnhNR3z9IqPtfPM+8LlOV/fU/3+3fH49SNb3Cjk2KFxhPS+XLj5SI1u7g4z++v3hfrwjw+qd2E/uf6Rwo/AF+fwi3l3Z/u0w0vgV9d9eNbo3UttfGn21nVI3/kdqbuu6yNqHZzAoOl4r3CDcKNwkHBJe1xHfg/a427w3fK6lsNyecN/p6lkk6Xu7HNsivFZ4pdLapYvWYJNKr3Tsc52TdPwI4VzhHcI35V6/MLZMjQ80NqT/G/JXaPF2EOe3/FyrttRX583Ui3pvNzrq52RrS71vFB3/VHhTR/Tcb5b0FuGtHdE9dD6F7VMtzbmfv4O/a0qV/PlBOXa/8DbhVqU1bMilwVajgZ269tnpmoTjc4RnCx8SjhPuG8b59GTr+fJ5QI8fig6/pv4fP9eq7X8LDyiV5828P+1L291pYaWutg2f5nkX8H+QP+l3WHO6uSe0pO7QnDadpO9OOfaM8AHhw0pr2JBLA5yz1qQPqdTe5zonKV0qvFz4rPCwMPILoO3pRl/X+zxLeLSw3/H/stqxS1s8+6Rys2RsZ5b6LT72q3S2431lHpF0v91WmckyK0lfYoec85zSepxHg+eMBkxvCKL0WcexLOkq6zduCOOyAnn0U3Kfp4X/GET59ZQq/4l27Mq77c9MbW37q5Sb1XxXH2Yr24Mf0mdsFPom3e8Vq8zEM9hexX5d2GFsyKVByVG+gHf2FQrHT5IydFL0Hd+X874t+/68Lzo2W/YfIzx2UuXvgZ9lQ/sF1FnbczV9AV/eTTvlZ72fz515ry43kZ/qchNlxMIc+uKa3cZX0j7zqWFyOU2fGSneC7x/H6bUl744gPO1NiD0ukGOPSHp36MsMSn4Dw59koDv1/dzQfsF1Bk+9f8IPzD/8YKM96V2U0p+HuCo8+r3mN/B45fk0PeSsLIs1f7Vh9b/+lAdmxJW1hnTvGP0xQE8/0XK/rrDiPUCfo++nwvaL6DO8KkfUn4I9IUPdnzG32aXl8vVZx5bro7rc/vVsVmhu+yfsG/y+2uX1fp+ru+zr7F/T9p3TPtjj5t8+IAwjj3UA8gDsrzzO5TO8KmfVXUE/q6DhfPq+P7VA9XeXw1X+VQNuhwGLs7w/5mfQ+Ms+v5+EPGaKvxajv8DnQ8Po5gW87Vfyvb75rctGyF9++v03jcT0Pcv5Hf/pdE3VGXdH/b644X/LOf8SRD51Em8MeczQZ2py5QV9KHx295vQfttNWh7h77wp2i/eI7f6I3OKwXJ+v6V8O8Mv6e2Ne/JqS/qTIxdTg7juv+cEbTfdoS23w9E7w+FH5l83mef3A997zb6dUsaBHEKUF/UDWZcnO13oc50h/GzJoexn/v6mL6ZsCcmI/XUo4VT4a8Kpxl9qJ+2zV6lK9IfmHO/IOkpQZwCPzD68v3JAtSZHjJ+FvJp+qjIYxaN6ZsaSfUp1n9Z72VdmPufMNrj2PnC31WpPpZGX7uOgTrTs8p3po+qY3aL5diZwsvCKBbSSrrn8ZMbgaT6C2IdKJdRPp+qfi+298Sp5NrNsn2947+cGsRMA18dg/rCF4Ce2nc4/OIov4aui8NyvVtJ63bElkK+eGxWUF/G9u1Y/vKwMra/SOn8ag129OOuQmGjXL8iiFINvR/pypz32d4idm7j1KD5+r7W6z/v83LsUOFhwsN743rUBRnrUwNGr7WSP7wq+j5eivaXZpWf168+75JzdsA36E7+bvwHtJkEkt4XxO8rtknG1Ow2qLwYqWvz3uue/QuF7wr/ev/4GN61Y0XT44THC0/ojepR0HVBBn8b2q7y2JNL3wG1D+/BkaLvum6/PeM/TCvFsWAd99fl3Eni686ZVPnf84DX6vbRT/+TY5/r2kZBx/txL5QJou+g6Dt4j9KXsVbii6LvR72RrrDf1Sl/5wvKXjWg4/wE+3Vhh0PjvM+rluecp82rlmv7MpQ3iE3Sj+a9YLu0YR+W/0pkJ7DfXXK/oZS/87Uu/7Gk/NkHrfGwVZ6l6YdA1KLRJQ6/RfeV0G0ddnuHfW1/6PZ9sP+FiZX36be27fvpa7K2zaGevMxwW8pr/ytB36z2CzxeijU+tivS9yMVG0yrb552SVf9TOdzdpsFsOzo5O+080kXsrR9EMNBsu+Md+FJ00b+REd0bmD2wZd+JMU9k8pe5M957Je4HfXEKvr+5iS/vnsDUI6iHwPiGHyPdoh+O4U/E75o9H1e0h8LXzD7UEeuVhdGPcinLWHb7xkZ9H1QvvtLXfnz570B0PCnHeXpK8J/Eb4kfN3ouxt9aYSvmX18F+7z1JN2d0X1oGq4QPS8UHiRcLnwYst/9uFp+e5LVf48jfWtMX3L8KZo9UZHefoL4Vsdlee6yhbAVU/a0uDneKD8ho/DKH+Gn9SR435Z/OdWaqPOEqPVmuXtX+Ky3xdS2G4tmCm/9zKTP9t+EuK+pL1Poxb/uVHQeuj+TrZ/rrdtv9p1jHGem9QzWBn6+0dpuOw3qU5UD9B/vkj4B4G/vqGfjf1c8vjPaZHX3tE/9q2eQuHtnvL9X5Xy52rhNcL18nm4EMUtAPiWKJ+Wyj0vR1xC+K74VO/tE9ks6rIvBdEYC12nRV8APd7GB1ecI6lOVCsYK9kgv/mgnvq0KbVK/os+0Puhr7EVM/6y/OdzhL8jfMoRKyI4Fu2AcYXC1HGRvu8E8fgKXadlXwA93uZF6zn44hyNLn8B2PBGT8yyXYG+k0eItkeiH7lwpvAo4ZWi6Rrh2lIUZwIOdOgMW4a+aP970djv+DAeX6HrtOwLoMdW/cJ6lng3XHGO+5v4zF0xy3bGHNFornCe8EThScJzRcvzhOeX4rq+DebTrCegDQ36zgjj8RXPK60Yw9Rjq/a1tByfEOfY1IRnjrx6V2n0aIxY1zRLQ8T9r5J964RfKZX7EPSN7H3cTtPOh/KNY6sOt86dYb0TNo4xdaldCWVGvXD7KNA3L3S/e13XRxwqS7863b8Wsco0bUjNsGPgV6u0E492DDv0fbo7Wzv9FWH5OPO0bUiw4weaEPPIilbxm23QHn0xJR+gr74G+maxX/rUWx3+dhrAlhul88xRZL+I3Sf1U/LFW6Ev2hO0/WaJW9Gnftjhb2dBI/LsB1vUFrOCsXvdJ8Iue5L0tfNnkkiKF9Cnfs7hb2cFND5L7rtUeLbH9my/zNUPBDhlFNgu+x262tzSlj3Qd4Gp/9r6Pj3Cz4h5t9b8gSr78HmojezW7jvKlP0O8T4XewqF26z/pMseVyydWKjsd9joy/Fl+LygjZ5VK2EgIZY2YGnIOntasL8K34ek/qSIqeuyGzGOOcqOGdtC2/3cIOIYksF+DNcGkQ4/2ic+hu1n6vQM8U7gHuxPmpQP4LxDgniuNDuf1uNVxsaN+kFfqGjae64tVeo7UqC+HIeCcQnUV9ehxsYVuuHqW5ZH3y2dEeuNQyy7XRRW2nEpRfxybwTzZLsczarv3Z3x3A7frbPGtr6MZdn7xuy3HEl9y6DvG0rTNxL0hc3e1hn5tYij/bTObeYufZdZ+g6P2W8FkvoeTXQc+4xjn7Zbzvf7URP0hZban4Z/PWa/5fD1Pbo7IX+1897NndHcC+iXvEK2Vwr/1nE98n/Uj9LEAVzHbX0PtewX/tehY/qWwdf3aGJCvdTOex81mj7m0RX4N6PfkPGDbxHeKvyGcCCMxupWo60vNdXb9Zq3q93B2JOvPhsm6PtGhryX9vigiUOxDsu41HFhYRBzEGJuK87P8K9BFKNiXv+o6ZtDHV8PyvNobs/N0QbRTnDFC+2YgR63nATY5CqPLbrKVuqoMRSUtw8cZOkLbb9TjObGwRyEnJ8BcyBhbNgXwnhOwuGg0nY5T5KtLzVud5117C5JsywxRF13hcZ2/cjOg5nnEoy729pqfYeVtpw/1J7vGXFmPV/dfIe+4GqPvujrcUGbxiyhaxobzALoCn/5dFV3Tar/4n2p1hbC9j17/QZbW8yVxrmr7XlVofOAiVltV/px7YAhj75klrH7I41G6ArAV2bsfoWyzyR9t6Wwi9mm/mJri2euteUcx5wnlustUNclYVz+Uleu37DN43fZ9ahWRqN0JVC/WWDywPUq73Xpy/pNmv4HC5VG4PHKl/ogqJzvUK8lMWA05fkgxi1QV67f8EhYXh679G1V+220roSvfuOKX2Vpn74kjOf++cDS1ZUf6/mvTwjLbRx8N4h0xVoPXL/h+QT7ZX6edu6NZoA+UzN0rYana7w/ylhCryE0XdmsnSeTZ4XxvPzkBKXrKkdsAynvY5fRIwnWa1pBU41a+vgtcTxTjhPjXPdcd0bPj89YxhKHvjONrq42YE1dRq8Js/ebrBealf+6AH/5XLn3ecLzPTpm7ePHOqev3slxYp+ui2DlyUvC8vIWebPOv326oi7k8r10Gd0s2P1bGgWtna2lr92A57AfWJYx4yeEyfEEPe+KXsNwuilrbZ+aZbReA8rWlX2wOGbU1lWX0Y0Gy9Vqc3jUAwuNPWJONCDNnDaA3f88i74oL+dn+G96rb2zzLuh52pnnUnPb0Zbte0Y4wJdvpe9xlIj0Ow8GLbJOe98/RLTAGPCsujLOSKzjlFALHmleTe43pHWWce1XG0K4HiH79VouHStR78Vu91M57u0W4yrnj2p/LozgvQEMO4vq77V1jjyAWPvueYhx98vCCrXXvDpO0P5Xo2Gz17ZBo5yLq/OKBNpm8dNLhSOF54gnCOcK5wnPFF40uTa9T3Rse5YEqBvljViNPQ4IdcaZvb4BVvfZsSnXLrqmP5E1aaBdzNr/ySMaThInvnBwsWi35nCJcKzhEuFZwuXCb8k/PLkaF04jWbYb17ocUKuNcxox4xPQV/dRtjI+FTa8vVzJn72spz3ky5/O7gNxAMndpWvkXCZ6DcgXCFcKVwlvFy4WniF8MrJld+TVd885W9e6HFC9hpm0PleUy5r+6UNw99qhP1m9ZvQXg4f4j/l/J9n8LWgLee2rgUuHX9jUn30pY8LaP/qOHX9pWrb5c/r63ZYOrNs9sUz6mm/ef3hRz39kuwxZvCfPuqM2+u2m/ycaxTlRVb7BbLoq8dSs+zUcV+u75sGn84tGZaXzT596xFfRlzCnq+9HtC+sB27pz/6vtGX9VkgjT4ajc6fXT6SPT+Va86iatBlM/Wkr1Wv+HLSvLF5kHasIP1Rrul7gzrWaH2BLPpqHdaastM1P5U9Z1E16LKZ5a6rDbgWDNZJW7svSxagLZV1o0ZCz4eYZc5Dl4/kmp/KnrOoGr61T6Fws/CWfeL8v57xZdhuPcbM1Tqul/Ok91upvTaMa01Zew5HvTaHa872esx5iLLTNT+VPWdRFjD/r2d8udrcddXaYICRHo9fbc71LMgz97rGyhquZ/7P9Kg6+FVJ4zd2dsXtWfCBXDGLWtvIRxs2hP45QKu1gzD/Z1oP+Pr33236LKENeo7xgVxjqvLMczSacXtYHptKg7TtX3ngs1/GG/X8aK5+3+0wz1Ez582Cn8XYVJa8ekqd7NWGb/wV4o06b0ZsatiRP6dZs2y0IM17slP518irp86SPE44bVZy/Xh6g/T15c+IN8J2Ef8MwuR2A8wxMaPJGrfqXHYEY1MfFwuF/xN+Inwz8NePSw3S1zc3MMfnIO4NbT+o0m4AO/5JT8TRMDdsPYC8elKH+DDCKcJxCfXjRq6xuTVBY/YbXt+d3G6wZ/2i3kKhozfSGn11fijXfXYvybtdQF59GNYnEh4hPCyhfvxKA/XNO7/3uapeDH0/I9ru31s+D1+3HP96d/Se7M1aE+hrp/tXko1eC5tzP6dtW9Djo9FnY6voV+yN6Fu3SGv9WEq9XWNCG5H/T1kvfqJw6vr6f7cG+7XvtvRtlP+skWW+2KTx0a56suu9od7/1OnWTM+NwrkPAN/c0Xl9Lns9ps0NjIHDfuG3os8V28/YF75ZSKNz1vHR1WDP2c82Ldd7Ue+Yir1Gwrw6xjttoE78pIkrsP0M+r4+Aj5ptXm+ofGnPrPJc31zjxBJ8ewN6l467qL7eUHvesdUYL/nm3z599bXN55tQ8cv4TPr/pMjBdqzrbXPp/KBMU/GO+26tLbh1xz9DKhzO88dreOXjHdg/o1XW+Q/0abJaj6VxqPGpzrE9NX6Y4edc90NX9xlpNuqaoWOX24Jy9fIaGX4bNyG9qFd+Tjrznab9OMp5ktoB+j45f1hvO7cphbXV0PbeL3QjHbIO5v4/rAPpe7X1Y6AXbO/ZC1oh3aqPND9utodrrkd06KV1zyrpa1D9+saaRws9YbPCg8Rfk74+Rz1iFo0/nkD5l1uFZzXAvoeLXr2C2cLjxEem7OemFfjzaNUX2i7bgT1XSA6ni78ovAM4ULhIuHiGuIAeTS+LYe+9W4nvkzpMFCDJmxPgLboD3t9WNsYp1pwoeh4kXC58GLhJcJLhZfVGOdJM8aQflnSfL6NwstBPDYIdZjrwsoxKffW8P7QbucY/2qk9G0UXPENDYxPetLEuZqdN+PZvxdEdRfwirByTMoVGfrQub6fdrvUxDpGm76u/lwEtOW8IgfIedM6060/Xw/QrjD30FulQuFd4Tsl95iUPP2dbbs9e5TaLwDbtOdhRV78pLEdzCtypHw+qrP6+vNA3vL2vDBeZ5V2hWe+X1+hMEE4vq9yTMp1xfK5F3R6e4//Pvz+Neb/LB0hfTk+hGNE7HEh+hzXMRc4doplGmxzqvBAlcJWN5m8sF+2jxYeI5zdGcdu0VetlrECGrQnvD8c9/Ow+XyE6DpTOKOvckzKa7L97WIcf9Lpgz2VGvvsFulJYTyPTruB+SxtY656DrDNGcKZKoWtctzcCtPu+Jhpb2bsdpwpE7X/Y9tQUqrPpz1tNc+b5SHfn/c8fVpWm/M3FqP0zyQ9pxh9z86eKJ/Z6LgPv592O17OHehpX30xfxP15NgpjrOBbfYb22QKW+W4OT3f69dNf07YEfqq6djtHQ5uTbE9UIztCTxLPp9djD//LIj1pT9NzbaY83HeoNF2j26S/ntP9B7qe7rsFtpyXGgr6Pv2BNFrQrZrxis9OSbuOcs2bcJW77PaENlnBP11cUzHbpHSdu4K4/LTt71U6UJ7WqPsF+m35NiNxUjfm4qRP43vv7UY2Wp/b3TeBtm+ynwf0096HPd02K2eO7oV9P0E2k7Mds2MMF6DGHM4sa+8tk0bvvkeJnbHc4Xp2O2yMLYdlp20wbvUZ27jXVhqqO11k2xfW4ye/clhVL5OlLL3TnUO73GzpH9UjGyY99bpA9Y9abdrVZ5MbQdaRN88mGc0nWnsDtsrHNppbO0s739LoF8f18XVc5asNrYD3e4yz3FXGG+T5xTjcnKLsd+hYqW21/dFzx1lwTrZ/p56l7ANPwA+0UVy/jXFyrGdt8i+rxXL7++y2+e74vXzqG+7aQzbgs2dbnSBvq66LzTd2hnPqcOxEzrOtdnkz/TD6ScNKfudYLZhJ9xeE1baGPNWaHGS0Q3+sc4zO/ui/Fnv22y0/46kd/WV5yNMLzK2re9vl7cg+4ge0sb6rg7L5535G4dunP9Oj5XU8Q1dd4Km9MPpu2wLy+fH0Lbk2x40ebOdV9q09XWR9q63z+iNbJv3HG/lx3p991bTV8+d0B/668DQaCgsn3eGNmfrRv3vM+XzanPdkZ2VdUz64dTqEWU72o7sVG+f7LCnvPqCdzr27XTkC675bFpN37RA3WhbWD43HzWydbP1HzLXoQ5ll2/0w6kVnp+9DhHg2ga/31ddL+hwdU9E1/rbHEvhu4fvO11zFdn6tovG8K2uKxYG9bwzD3l0s/XHe8F8TBPPdFXo7rNJfyVpfTOdJq2HpnXAGuo2gR2e7/bt881D5dK3HTReZvT9pvz+S4PIHz2l06+b1h957mBQGZ9GP/jhsFLLVlzjIS18+ra6zrBfPnuM858q/GaCbhcG5XnuFsd5tJl21dKFavq2qs60X2xjnP+67nhdT5dusOGP5ZrtYf3m5moHtKu+e+pGGTTS5dneoi3Qbvqy7jpkytGnRkk+2iik1bdVNEa9SHykwW2mHPWNJxpDhCz6toLW1Bdl795UjuZFXn1HSm/TJrhH32pzXI6hfvo26z2YZ/R1jQUcQyWarS95cJCPy5T94rePsTr/HxZT7xE=
   </data>
  </layer>
  <objectgroup id="10" name="Buildings">
-  <object id="312" name="TileData" x="112" y="96" width="16" height="16">
+  <object id="66" name="TileData" x="1472" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.55&quot;"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="1488" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.56&quot;"/>
+   </properties>
+  </object>
+  <object id="68" name="TileData" x="1456" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="69" name="TileData" x="1536" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="70" name="TileData" x="1552" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="71" name="TileData" x="1568" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="72" name="TileData" x="1584" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.60&quot;"/>
+   </properties>
+  </object>
+  <object id="73" name="TileData" x="1600" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.60&quot;"/>
+   </properties>
+  </object>
+  <object id="74" name="TileData" x="1616" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.60&quot;"/>
+   </properties>
+  </object>
+  <object id="75" name="TileData" x="1264" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="76" name="TileData" x="1280" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="77" name="TileData" x="1296" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="78" name="TileData" x="1312" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="79" name="TileData" x="1328" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="80" name="TileData" x="1392" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 6 9 Custom_MarnieShed 900 1800"/>
+   </properties>
+  </object>
+  <object id="81" name="TileData" x="1280" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="82" name="TileData" x="1296" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.58&quot;"/>
+   </properties>
+  </object>
+  <object id="83" name="TileData" x="1072" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.1&quot;"/>
+   </properties>
+  </object>
+  <object id="84" name="TileData" x="1264" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="85" name="TileData" x="1280" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="86" name="TileData" x="1264" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="87" name="TileData" x="1280" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="88" name="TileData" x="1264" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="89" name="TileData" x="1280" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="90" name="TileData" x="1264" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="91" name="TileData" x="1280" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.29&quot;"/>
+   </properties>
+  </object>
+  <object id="92" name="TileData" x="1296" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="93" name="TileData" x="1312" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="94" name="TileData" x="1328" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="95" name="TileData" x="1264" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.5&quot;"/>
+   </properties>
+  </object>
+  <object id="96" name="TileData" x="1280" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.5&quot;"/>
+   </properties>
+  </object>
+  <object id="97" name="TileData" x="1296" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="98" name="TileData" x="1312" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="99" name="TileData" x="1328" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.27&quot;"/>
+   </properties>
+  </object>
+  <object id="100" name="TileData" x="1440" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 13 19 AnimalShop 900 1800"/>
+   </properties>
+  </object>
+  <object id="107" name="TileData" x="1488" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="108" name="TileData" x="144" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 9 34 WizardHouse 600 2300"/>
+   </properties>
+  </object>
+  <object id="115" name="TileData" x="1488" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="120" name="TileData" x="1488" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="124" name="TileData" x="1488" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="125" name="TileData" x="816" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.35&quot;"/>
+   </properties>
+  </object>
+  <object id="126" name="TileData" x="832" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.35&quot;"/>
+   </properties>
+  </object>
+  <object id="127" name="TileData" x="848" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.35&quot;"/>
+   </properties>
+  </object>
+  <object id="128" name="TileData" x="864" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.35&quot;"/>
+   </properties>
+  </object>
+  <object id="129" name="TileData" x="880" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.35&quot;"/>
+   </properties>
+  </object>
+  <object id="130" name="TileData" x="1488" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="131" name="TileData" x="32" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="132" name="TileData" x="48" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="133" name="TileData" x="64" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="134" name="TileData" x="1488" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="137" name="TileData" x="32" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="138" name="TileData" x="48" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="139" name="TileData" x="64" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="140" name="TileData" x="1504" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="141" name="TileData" x="1520" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="142" name="TileData" x="1536" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="143" name="TileData" x="1552" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="144" name="TileData" x="1568" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="145" name="TileData" x="1584" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="146" name="TileData" x="1600" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="147" name="TileData" x="1616" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="148" name="TileData" x="1632" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="149" name="TileData" x="1648" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.8&quot;"/>
+   </properties>
+  </object>
+  <object id="152" name="TileData" x="32" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="153" name="TileData" x="48" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="154" name="TileData" x="64" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.12&quot;"/>
+   </properties>
+  </object>
+  <object id="155" name="TileData" x="1424" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.33&quot;"/>
+   </properties>
+  </object>
+  <object id="156" name="TileData" x="1696" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.2&quot;"/>
+   </properties>
+  </object>
+  <object id="161" name="TileData" x="848" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="162" name="TileData" x="864" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="163" name="TileData" x="880" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="164" name="TileData" x="928" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="165" name="TileData" x="944" y="448" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="166" name="TileData" x="1600" y="464" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.22&quot;"/>
+   </properties>
+  </object>
+  <object id="167" name="TileData" x="1600" y="480" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.22&quot;"/>
+   </properties>
+  </object>
+  <object id="168" name="TileData" x="1776" y="496" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.63&quot;"/>
+   </properties>
+  </object>
+  <object id="169" name="TileData" x="1664" y="512" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 7 9 LeahHouse 1000 1800 Leah 500"/>
+   </properties>
+  </object>
+  <object id="170" name="TileData" x="1600" y="528" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.11&quot;"/>
+   </properties>
+  </object>
+  <object id="171" name="TileData" x="1744" y="640" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.39&quot;"/>
+   </properties>
+  </object>
+  <object id="172" name="TileData" x="1760" y="640" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.39&quot;"/>
+   </properties>
+  </object>
+  <object id="173" name="TileData" x="1328" y="992" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.20&quot;"/>
+   </properties>
+  </object>
+  <object id="174" name="TileData" x="1328" y="1024" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.59&quot;"/>
+   </properties>
+  </object>
+  <object id="175" name="TileData" x="896" y="1056" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.30&quot;"/>
+   </properties>
+  </object>
+  <object id="176" name="TileData" x="912" y="1056" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.30&quot;"/>
+   </properties>
+  </object>
+  <object id="177" name="TileData" x="992" y="1056" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 12 22 Custom_AndyHouse 800 2200"/>
+   </properties>
+  </object>
+  <object id="178" name="TileData" x="1328" y="1056" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.20&quot;"/>
+   </properties>
+  </object>
+  <object id="179" name="TileData" x="1328" y="1072" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.20&quot;"/>
+   </properties>
+  </object>
+  <object id="180" name="TileData" x="1328" y="1104" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.20&quot;"/>
+   </properties>
+  </object>
+  <object id="181" name="TileData" x="1296" y="1136" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.31&quot;"/>
+   </properties>
+  </object>
+  <object id="182" name="TileData" x="1312" y="1136" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.31&quot;"/>
+   </properties>
+  </object>
+  <object id="183" name="TileData" x="1328" y="1136" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.31&quot;"/>
+   </properties>
+  </object>
+  <object id="184" name="TileData" x="1120" y="1168" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.16&quot;"/>
+   </properties>
+  </object>
+  <object id="185" name="TileData" x="1424" y="1168" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.13&quot;"/>
+   </properties>
+  </object>
+  <object id="186" name="TileData" x="576" y="1488" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="187" name="TileData" x="576" y="1504" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="188" name="TileData" x="480" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.24&quot;"/>
+   </properties>
+  </object>
+  <object id="189" name="TileData" x="496" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.24&quot;"/>
+   </properties>
+  </object>
+  <object id="190" name="TileData" x="512" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="191" name="TileData" x="528" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="192" name="TileData" x="560" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="193" name="TileData" x="576" y="1520" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.23&quot;"/>
+   </properties>
+  </object>
+  <object id="195" name="TileData" x="448" y="1584" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="196" name="TileData" x="464" y="1584" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="197" name="TileData" x="480" y="1584" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="198" name="TileData" x="496" y="1584" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="199" name="TileData" x="512" y="1584" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="202" name="TileData" x="1504" y="1616" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.28&quot;"/>
+   </properties>
+  </object>
+  <object id="203" name="TileData" x="528" y="1632" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.41&quot;"/>
+   </properties>
+  </object>
+  <object id="204" name="TileData" x="544" y="1632" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.41&quot;"/>
+   </properties>
+  </object>
+  <object id="206" name="TileData" x="1504" y="1632" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.28&quot;"/>
+   </properties>
+  </object>
+  <object id="207" name="TileData" x="528" y="1648" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.41&quot;"/>
+   </properties>
+  </object>
+  <object id="208" name="TileData" x="544" y="1648" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.41&quot;"/>
+   </properties>
+  </object>
+  <object id="210" name="TileData" x="560" y="1712" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="211" name="TileData" x="576" y="1712" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="212" name="TileData" x="592" y="1712" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="213" name="TileData" x="608" y="1712" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.25&quot;"/>
+   </properties>
+  </object>
+  <object id="214" name="TileData" x="464" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="215" name="TileData" x="480" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="216" name="TileData" x="496" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="217" name="TileData" x="512" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="218" name="TileData" x="528" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="219" name="TileData" x="544" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="220" name="TileData" x="560" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="221" name="TileData" x="576" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="222" name="TileData" x="592" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="223" name="TileData" x="608" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="224" name="TileData" x="624" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="225" name="TileData" x="640" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="226" name="TileData" x="656" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="227" name="TileData" x="672" y="1904" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.62&quot;"/>
+   </properties>
+  </object>
+  <object id="228" name="TileData" x="1760" y="1264" width="16" height="16">
+   <properties>
+    <property name="Action" value="MasteryRoom"/>
+   </properties>
+  </object>
+  <object id="229" name="TileData" x="1760" y="1280" width="16" height="16">
+   <properties>
+    <property name="Action" value="MasteryRoom"/>
+   </properties>
+  </object>
+  <object id="294" name="TileData" x="1344" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Marnie"/>
+   </properties>
+  </object>
+  <object id="295" name="TileData" x="1600" y="496" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Leah"/>
+   </properties>
+  </object>
+  <object id="296" name="TileData" x="896" y="1120" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Andy"/>
+   </properties>
+  </object>
+  <object id="297" name="TileData" x="1616" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage MarnieHidden"/>
+   </properties>
+  </object>
+  <object id="310" name="TileData" x="1520" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Forest.36&quot;"/>
+   </properties>
+  </object>
+  <object id="312" name="TileData" x="1440" y="1360" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.1&quot;"/>
    </properties>
   </object>
-  <object id="313" name="TileData" x="80" y="80" width="16" height="16">
+  <object id="313" name="TileData" x="1408" y="1344" width="16" height="16">
    <properties>
     <property name="Warp" value="88 84 Custom_L0veRaven.Raven_TentInside 2 4"/>
    </properties>
   </object>
-  <object id="314" name="TileData" x="112" y="64" width="16" height="16">
+  <object id="314" name="TileData" x="1440" y="1328" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.2&quot;"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="11" name="Buildings2" width="11" height="15">
+ <layer id="11" name="Buildings2" width="120" height="120">
   <properties>
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJzt3c9q1EAcwPF5kyKUQve0e6igVtttQQ9qtVXY0rP21jdQqBefQMG7Vx/DkxX0rp48+w5O2IRdwiQ7mSTz5zffDwxbupslzC8zmfllNlEKXe1Nlbo9Xf59Wr4+n9pte2bxubbP2GxfOe3wWayc6Hp7Zqg7l/q0PS7QLod6pL3K8GI79B50Vxx7Xc4t9W1zVe+XXOswBX93Q+8BAN9yGHuNKefzow8pjrcAAACQr18LpX7r8mcRek+WivE0c5Y4fNPHxM1i9TqUH5PhvgvxO9HxfqrLJXEXQ/K1BoT3ruF6T/X/pvcxnDvnSt3V5Z4u++f9vot4oQ3HB4CcPJnpedEs9F5gLK90bF83xPcl142T90bH9m0ZX+IJAIA/xfpQzr3yta2zJP5ysb4WAADAD8bUMjGe9qPvOiXWQAPpYV1seKwRTdNFJL9BwjiuPMeXfsAv3/HtgvvI9BdzfNEf8ZXtkY7vw44xJg8hF+fEPNiOf4fKXXBcjS+WOQ2xDm89Bv921bXpM6a2XT1LYFMMpec01/ME9ZxBl3YWW/6q6VkCTRjrtRtqfuRaz7bbSW+vY/Ex/+1zvrRZk0HsV+p1QX5DttTiy9i5mWnc5ZK/AoZievYa5Og6X0IaNp1nq3G19LWxnyPJGY6FPhlATD7MlPqY8T2+pOejvmQQ25R/C9b3+PuaQXwLNmNfxlfykZNMXyr9dSxrWFInfYwFSJZL/rHJ/pZS93V5oMuBLodbofcIsJNrmwXgjlyKPfrY/MSYwyA31l+MccU46Lfhm2tOmVx0Xoh3Plxizb2j0pVbzMglIDb0n8CSaR7Mmg2kpK0fp4+HNOQuAQAAAAAmrGuKm2t8yAPIUMVxvqPUoS7HuhzthN0n2BuqHdKe41GPxVHZNudl2zyuvf6chNlPhGW6VkrfHdYtrvllY9PvXh6v3SOJtWhgLhyHoeKQ+/0pYtYWk/X3iGHabOM2b5hDIR6mWJridjNp36arvs83G4LpWWs5++6Y06DuZCGe8Xi/bX6GJtLmOh+ibQJhfSrbIPNXIE1F22VsBSz9B/GkhaM=
   </data>
  </layer>
  <objectgroup id="12" name="Buildings2"/>
- <layer id="13" name="Buildings3" width="11" height="15">
+ <layer id="13" name="Buildings3" width="120" height="120">
   <properties>
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJztyrEJADAIAEHnsUjh/sNZCwEH8K57+AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4K2v2q/8HAAAAAAAAAAAAAAAAAAAAAAAAAAAAsGk0mgC9
   </data>
  </layer>
  <objectgroup id="14" name="Buildings3"/>
- <layer id="15" name="Paths" width="11" height="15">
+ <layer id="15" name="Paths" width="120" height="120">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF4gyDC0gNtANGAd0BAG84ADI=
+   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
   </data>
  </layer>
- <objectgroup id="16" name="Paths"/>
- <layer id="17" name="Front" width="11" height="15">
+ <objectgroup id="16" name="Paths">
+  <object id="232" name="TileData" x="992" y="480" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="233" name="TileData" x="1152" y="240" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="234" name="TileData" x="1472" y="512" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="235" name="TileData" x="1152" y="496" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="236" name="TileData" x="1200" y="528" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="238" name="TileData" x="1488" y="944" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="239" name="TileData" x="1200" y="1248" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="241" name="TileData" x="1504" y="1472" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="242" name="TileData" x="1648" y="1312" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="243" name="TileData" x="1744" y="1424" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="244" name="TileData" x="1152" y="1424" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="245" name="TileData" x="832" y="1264" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="246" name="TileData" x="880" y="640" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="247" name="TileData" x="736" y="256" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="248" name="TileData" x="1552" y="592" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="250" name="TileData" x="1024" y="320" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="251" name="TileData" x="1696" y="1136" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="252" name="TileData" x="1440" y="1088" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="253" name="TileData" x="1216" y="960" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="254" name="TileData" x="656" y="688" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="255" name="TileData" x="528" y="928" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="256" name="TileData" x="368" y="1008" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="257" name="TileData" x="256" y="832" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="258" name="TileData" x="464" y="736" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="259" name="TileData" x="368" y="608" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="260" name="TileData" x="144" y="576" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="261" name="TileData" x="272" y="256" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="262" name="TileData" x="480" y="272" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="263" name="TileData" x="32" y="1264" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="264" name="TileData" x="176" y="1200" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="265" name="TileData" x="128" y="1312" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="266" name="TileData" x="80" y="1488" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="267" name="TileData" x="256" y="1584" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="268" name="TileData" x="128" y="1664" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="269" name="TileData" x="224" y="1776" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="270" name="TileData" x="400" y="1664" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="271" name="TileData" x="320" y="1360" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="272" name="TileData" x="736" y="1568" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="273" name="TileData" x="672" y="1696" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="274" name="TileData" x="512" y="1792" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="275" name="TileData" x="416" y="1840" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="276" name="TileData" x="672" y="1456" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="277" name="TileData" x="704" y="1152" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="278" name="TileData" x="1024" y="1264" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="279" name="TileData" x="208" y="1072" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="281" name="TileData" x="1360" y="1504" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="282" name="TileData" x="896" y="800" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="283" name="TileData" x="944" y="752" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="284" name="TileData" x="288" y="752" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="285" name="TileData" x="848" y="176" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="286" name="TileData" x="816" y="480" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="287" name="TileData" x="1056" y="384" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="288" name="TileData" x="544" y="672" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="289" name="TileData" x="288" y="1424" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="290" name="TileData" x="640" y="1856" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="292" name="TileData" x="240" y="1680" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="293" name="TileData" x="112" y="1568" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Fir_Tree 5 1"/>
+   </properties>
+  </object>
+  <object id="311" name="TileData" x="1840" y="608" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="wild FlashShifter.StardewValleyExpandedCP_Birch_Tree 5 1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="17" name="Front" width="120" height="120">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="18" name="Front"/>
- <layer id="19" name="Front2" width="11" height="15">
+ <layer id="19" name="Front2" width="120" height="120">
   <properties>
    <property name="Draw" value="Front"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJztzrsNgDAQRMHtxAE/OaE3aALoGmeEZJhgRnrSXbYJAAAAAAAAAADAu2NNzvX5r3ZvNdlrv00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABfGUoytqbW3FpK70UAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/NENURYErA==
   </data>
  </layer>
  <objectgroup id="20" name="Front2"/>
- <layer id="21" name="AlwaysFront" width="11" height="15">
+ <layer id="21" name="AlwaysFront" width="120" height="120">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   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
   </data>
  </layer>
  <objectgroup id="22" name="AlwaysFront"/>
- <layer id="23" name="AlwaysFront2" width="11" height="15">
+ <layer id="23" name="AlwaysFront2" width="120" height="120">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJzt2TdvE3EAhvFbqGl0EuqCkBMMhCoB34EAootmfwZCEvoCrETKRO/MrMBAGn0DBupITwJ8Ap5TbHE6jLAiG8Px/KRHluwkOunl/nAhmw6CA5SNdIe6qYd6qY/6c5/toFbaR520P/a90bpo7PwgGEfjqYqqqYZqqS78bC2fURVVUw3Vkkojukcm9/qcXtBLekWv6U2B/fO7Z36xb/hnoZ4NG2gGzaRZNJvm0FxazJbNtISW0jJa7r6/tXFecV+3iw12p3+87sztld+sq8Bu+f3ju8e3DX9Wig0bqYkWUJoW0qJwW9rElptpC22lbbTdfUumjQ3a0z9ewzpy5278voyf4796P9z2eu4MP0l72auV9lEbtVMH7acDdJAO0WE6Qkfd9yfF3q/F6IxtnCmwdfTejt7r13P3bX7b0Cn2Ok1n6Cydo/N0gS7SJbpMV+gqXXPfsotuHJ7de3K7Rc/yPbnX+Pke3TZ0h726qYd6qY/66S7do/v0gB7SI3rsvn9EZ+zczlfovWhxb9nrHb2nD/SRPtFnGqBBGqIv9JW+uW/RSnluj1R1C889VEt1NIEm0iSaTFNoKk2j6VTfUukrTo5nqSC4SbfodqrSV6NQU+PIvq/QvTzIpk/oaWp4ayVLD5v2Uh/1u2/ivGTTV/Sa3rhv4l3M8DxKlzOVvhKVwwC7DtKQ+ybSqmwQrKY12UpficrhGLsepxN0I/bvdJ+jks3nqH9PQ1PxX/uZXQdSw8/MSp5RnNejacwIf78iqXT+hv97kCRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJWtEcBCubK30VKpe1bNvivom23n0TYZ07/je8Z6Vk2OC9nHj+3SxJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiSp0r4DUNPTxg==
   </data>
  </layer>
  <objectgroup id="24" name="AlwaysFront2"/>
- <layer id="25" name="AlwaysFront3" width="11" height="15">
+ <layer id="25" name="AlwaysFront3" width="120" height="120">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJzt3NePVGUAhvFPdxUUNZhwpyII4gKiq5IQEeXQROkdKZY7C72pgIBIUxG3w9KLgtK7lWah3NFBkb4qvV1QBEQfIib8AQyTPfM8yS+zc3e+82Y2M5vsDKsdwnCMwEiMwof4CB9jND7BGHyKLGQjB7nIQz4KMBbjUIjxmICJmITJmIKpmIbpmAFLbLO5x3MwF/MwHwuwEIuwGEuwFMuwHF/ha3yDb/EdvscKrMQqrMYa/IAf8RN+xlqsw3pscN+Et5F7vAmbsQVbsQ3bsQM78Qt+xS78ht3Yg73Yh/04gIMowu/4A3/iEA7jCI7iGI7jBE66b8I7yz0+h/O4gL9wEZdwGX/jCv65ukUUwi24FWlIx224HSVQEnfgTpTCXbgb96BmpRCeQS08i+dQJrrJh03B7otCuB8PoCweRDmUx0OogIp4GJXwCDJQGVVQFY+iGh7D48jEE3gST6E6GrFnYzRBUzRDzejmnDGVqxOFUBf1UB8N8Dwa4gW8iEZojCZoimZojhZoiVZojTZoi3Zoj5fQAR3RCZ3xMl7Bq3gtSvjxUr7XoxDewJt4C13QFd3QHT3QE73QG33QF/3wNt7Bu+iPARiI9zAIgzEE72MoPsAwDMcIjIwSfryUb0zE5x5kIRs5yEUe8lGAsRiHQozHBEzEJEzGFEzFNEzHDHyGzzETs/AFvsRszMFczIsSfjwzMzMzMzMzS4FWZCT7CiyRbXffWHfSfWNdicrJvgIzMzMz+79yvjeLZTWu7fq0+5qZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZFctK+v9hsa1FZgjl3TeWNU9jX7RMS/aV2I2uiNdsD3btiV7uG8uy2DUbOe4bq1pl/ve4kF0XYbH7Fvtas2EbtL1uy438vAmb3bfY14cN+6Lf1dfrde+XT/P8jPsW+/LYMB8F17ZcyuMylE4P4d705F6b3fi2su02rMwIYZXfLRrLCvk9vYNtd7pvbDvFtqfdN9YV+fdJMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM0ti/wLSzeOh
   </data>
  </layer>
  <objectgroup id="26" name="AlwaysFront3"/>

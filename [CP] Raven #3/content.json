@@ -197,7 +197,7 @@
         {"Name": "marRainNight","Value": "{{i18n:Rainy_Night_{{Random:Raven,0,{{Range:1,5}}}}}}",},
         {"Name": "marIndDay","Value": "{{i18n:Indoor_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
         {"Name": "marIndNight","Value": "{{i18n:Indoor_Night_{{Random:Raven,0,{{Range:1,5}}}}}}",},
-        {"Name": "marOutdoor","Value": "{{i18n:Outdoor_{{Random:Raven,0,{{Range:1,4}}}}}}",},
+        {"Name": "marOutdoorLet ehe","Value": "{{i18n:Outdoor_{{Random:Raven,0,{{Range:1,4}}}}}}",},
         {"Name": "marGood","Value": "{{i18n:Good_{{Random:0,{{Range:1,9}}}}}}",},
         {"Name": "marNeutral","Value": "{{i18n:Neutral_{{Random:0,{{Range:1,9}}}}}}",},
         {"Name": "marBad","Value": "{{i18n:Bad_{{Random:0,{{Range:1,9}}}}}}",},
