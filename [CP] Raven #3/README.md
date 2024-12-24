@@ -33,6 +33,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 | File & Focus | Notes |
 | ------------- | ------------- |
+| data/maps/L0veRaven.Raven_TentInside.tmx | Colors are too intense; Fix layers |
 | data/events.json: Event 0 | Does end dialogue work correctly; Does BGM match; Check i18n dialogue |
 | data/events.json: Event 1 | Does BGM match; Check i18n dialogue |
 | data/events.json: Event 2 | Does BGM match; Check i18n dialogue |
