@@ -224,60 +224,27 @@ end dialogue {{ModId}} \"{{i18n:CleansingFarmer2_end}}\"",
                 {{faceDirectionRaven}} {{right}} true/{{faceDirectionFarmer}} {{left}} true/{{grassyStep}}/pause 1000/
             --Raven says congrats on the marriage/
                 {{speakRaven}} \"{{i18n:marriageTalk_speak_1}}\"/pause 300/
-        
-        
-            quickQuestion {{i18n:marriageTalk_qQ}}#{{i18n:marriageTalk_qQ_1}}#{{i18n:marriageTalk_qQ_2}}#{{i18n:marriageTalk_qQ_3}}
-                (break)action AddMail current {{ModId}}_marriageTalk_1\\
-pause 300\\
-{{emoteFarmer}} {{emoteHappy}}\\pause 500\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_1_1}}\"\\pause 300\\
-{{emoteFarmer}} {{emoteQuestion}}\\pause 300\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_1_2}}\"\\pause 300\\
-{{speakGus}} \"{{i18n:marriageTalk_qQ_1_3}}\"\\pause 300\\
-jump {{ModId}} 8\\showFrame {{ModId}} 16\\playSound batScreech\\shake {{ModId}} 1500\\pause 1500\\showFrame {{ModId}} 4\\pause 100\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_1_4}}\"\\pause 300\\
-stopAnimation Gus 0/pause 800/{{speakGus}} \"{{i18n:marriageTalk_qQ_1_5}}\"\\pause 300\\
-{{emoteRaven}} {{emoteHeart}}\\pause 300\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_1_6}}\"\\pause 300\\
-                (break)action AddMail current {{ModId}}_marriageTalk_2\\
-pause 300\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_2_1}}\"\\pause 300\\
-                (break)action AddMail current {{ModId}}_marriageTalk_3\\
-pause 300\\
-{{emoteFarmer}} {{emoteHappy}}\\pause 500\\
-{{speakRaven}} \"{{i18n:marriageTalk_qQ_3_1}}\"\\pause 300\\
-/
-        
-                {{faceDirectionRaven}} {{up}} true/{{faceDirectionFarmer}} {{up}} true/{{grassyStep}}/pause 300/
-            --Gus invites the farmer to join/
-                {{speakGus}} \"{{i18n:GusEdibles_speak_3}}\"/pause 300/
-                {{emoteFarmer}} {{emoteMusic}}/pause 300/
-            --Gus speaks/
-                {{speakGus}} \"{{i18n:GusEdibles_speak_4}}\"/pause 300/
-                {{faceDirectionFarmer}} {{down}} true/{{faceDirectionRaven}} {{down}} true/{{grassyStep}}/pause 500/
-            --Eat edibles/
-                farmerEat {{NB}}_SpecialBrownie/{{animateRaven}} false true 120 36 37/pause 2000/
-                stopAnimation {{ModId}} 0/pause 3000/
-                {{faceDirectionRaven}} {{right}}/{{grassyStep}}/pause 300/
-            --Raven and Gus speak/
-                {{speakRaven}} \"{{i18n:GusEdibles_speak_5}}\"/pause 300/
-                animate farmer false true 500 16 0/pause 500/
-                {{speakGus}} \"{{i18n:GusEdibles_speak_6}}\"/pause 500/
-            --Farmer passes out/
-                stopAnimation farmer/
-                animate farmer false false 250 16 0 4 5/pause 300/showFrame farmer 5/
-            --Raven screams and turns to Gus/
-                jump {{ModId}} 8/showFrame {{ModId}} 16/playSound batScreech/shake {{ModId}} 1500/pause 1500/showFrame {{ModId}} 8/
-            --Raven and Gus speak/
-                {{speakRaven}} \"{{i18n:GusEdibles_speak_7}}\"/{{emoteRaven}} {{emoteSweat}} true/playSound dwop/pause 1000/{{speakGus}} \"{{i18n:GusEdibles_speak_8}}\"/pause 300/
-            --Farmer gets resurrected/
-                {{faceDirectionRaven}} {{right}}/pause 300/{{emoteRaven}} {{emotePause}} true/{{emoteGus}} {{emotePause}}/pause 800/animate farmer false false 150 5 4 16 0/pause 300/
-            --Raven speaks, then farmer turns to Gus/
-                {{speakRaven}} \"{{i18n:GusEdibles_speak_9}}\"/pause 300/{{faceDirectionFarmer}} {{up}}/{{emoteFarmer}} {{emoteSweat}} true/playSound dwop/pause 500/
-            --Gus speaks/
-                {{speakGus}} \"{{i18n:GusEdibles_speak_10}}\"/pause 300/{{faceDirectionFarmer}} {{up}}/pause 300/{{emoteFarmer}} {{emoteHappy}}/pause 800/
+            --qQ How is the marriage/
+                quickQuestion {{i18n:marriageTalk_qQ}}#{{i18n:marriageTalk_qQ_1}}#{{i18n:marriageTalk_qQ_2}}#{{i18n:marriageTalk_qQ_3}}
+                    (break)action AddMail current {{ModId}}_marriageTalk_1\\pause 300\\{{emoteFarmer}} {{emoteHappy}} true\\{{emoteFarmer}} {{emoteHappy}} true\\pause 500\\{{speakRaven}} \"{{i18n:marriageTalk_qQ_1_1}}\"\\pause 300
+                    (break)action AddMail current {{ModId}}_marriageTalk_2\\pause 300\\{{speakRaven}} \"{{i18n:marriageTalk_qQ_2_1}}\"\\pause 300
+                    (break)action AddMail current {{ModId}}_marriageTalk_3\\pause 300\\{{emoteFarmer}} {{emoteSweat}} true\\{{emoteRaven}} {{emoteSweat}} true\\playSound dwop\\pause 500\\{{speakRaven}} \"{{i18n:marriageTalk_qQ_3_1}}\"\\pause 300/
+            --Raven explains that they're poly/
+                {{emoteFarmer}} {{emoteQuestion}}/pause 300/
+                {{speakRaven}} \"{{i18n:marriageTalk_speak_2}}\"/pause 300/
+            --Gus talks about a friend that was in a flawed polycule/
+                stopAnimation Gus 0/{{faceDirectionRaven}} {{up}} true/{{faceDirectionFarmer}} {{up}} true/{{grassyStep}}/pause 1000/
+                {{speakGus}} \"{{i18n:marriageTalk_speak_3}}\"/pause 300/
+            --Raven is shocked and sympathises/
+                jump {{ModId}} 8/showFrame {{ModId}} 16/playSound batScreech/shake {{ModId}} 1500/pause 1500/showFrame {{ModId}} 4/pause 100/
+                {{speakRaven}} \"{{i18n:marriageTalk_speak_4}}\"/pause 300/
+            --Gus explains the friend is doing fine now/
+                {{speakGus}} \"{{i18n:marriageTalk_speak_5}}\"/pause 300/
+            --Raven fantasizes about marriage/
+                {{emoteRaven}} {{emoteHeart}}/pause 300/
+                {{speakRaven}} \"{{i18n:marriageTalk_speak_6}}\"/pause 300/
             --End with dialogue/
-                end dialogue {{ModId}} \"{{i18n:GusEdibles_end_1}}\" dialogue Gus \"{{i18n:GusEdible_end_2}}\"",
+                end",
             },
         },
     ]

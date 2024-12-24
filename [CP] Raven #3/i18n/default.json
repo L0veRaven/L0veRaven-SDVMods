@@ -929,13 +929,13 @@
 "marriageTalk_qQ": "How's the new marriage treating you?",
     
 "marriageTalk_qQ_1": "It's awesome!",
-"marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. there's something awesome about sharing romantic love with someone or multiple someones.",//speakRaven
+"marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//speakRaven
     
 "marriageTalk_qQ_2": "It doesn't feel like anything changed.",
-"marriageTalk_qQ_2_1": "addDialogue",//speakRaven
+"marriageTalk_qQ_2_1": "I suppose it's like that when you've already formed a super deep bond with each other.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//speakRaven
     
 "marriageTalk_qQ_3": "I regret getting married.",
-"marriageTalk_qQ_3_1": "addDialogue",//speakRaven
+"marriageTalk_qQ_3_1": "Oh... That's tough, I'm sorry about that.$11#$b#Personally, I've always wanted to get married to someone or multiple someones.",//speakRaven
     
 "marriageTalk_speak_2": "Yeah, I'm totally chill with being in a marriage involving multiple people.#$b#I love people, so I getting to share my love with multiple people at once is awesome!$1#$b#It's not for everybody, though. It can get pretty messy sometimes.",//speakRaven
 "marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//speakGus

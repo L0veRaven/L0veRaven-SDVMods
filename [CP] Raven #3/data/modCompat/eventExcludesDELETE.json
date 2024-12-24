@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "eventExcludesDELETE.json - Winter Star",
+            "LogName": "eventExcludesDELETE.json - Winter Star (SDVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -39,6 +39,18 @@
                 "Vincent": {"WinterStarParticipant": false,},
                 "Willy": {"WinterStarParticipant": false,},
                 "Sandy": {"WinterStarParticipant": false,},
+                "Sophia": {"WinterStarParticipant": false,},
+                "Andy": {"WinterStarParticipant": false,},
+                "Susan": {"WinterStarParticipant": false,},
+                "Olivia": {"WinterStarParticipant": false,},
+                "Victor": {"WinterStarParticipant": false,},
+            },
+        },
+        {
+            "LogName": "eventExcludesDELETE.json - Winter Star (RSV)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
                 "Richard": {"WinterStarParticipant": false,},
                 "Ysabelle": {"WinterStarParticipant": false,},
                 "Flor": {"WinterStarParticipant": false,},
@@ -85,15 +97,13 @@
                 "Torts": {"WinterStarParticipant": false,},
                 "June": {"WinterStarParticipant": false,},
                 "Sean": {"WinterStarParticipant": false,},
-                "Sophia": {"WinterStarParticipant": false,},
-                "Andy": {"WinterStarParticipant": false,},
-                "Susan": {"WinterStarParticipant": false,},
-                "Olivia": {"WinterStarParticipant": false,},
-                "Victor": {"WinterStarParticipant": false,},
             },
+            "When": {
+                "HasMod |contains={{RSV}}": "true",
+            }
         },
         {
-            "LogName": "eventExcludesDELETE.json - Flower Dance",
+            "LogName": "eventExcludesDELETE.json - Flower Dance (SDVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -131,6 +141,18 @@
                 "Vincent": {"FlowerDanceCanDance": false,},
                 "Willy": {"FlowerDanceCanDance": false,},
                 "Sandy": {"FlowerDanceCanDance": false,},
+                "Sophia": {"FlowerDanceCanDance": false,},
+                "Andy": {"FlowerDanceCanDance": false,},
+                "Susan": {"FlowerDanceCanDance": false,},
+                "Olivia": {"FlowerDanceCanDance": false,},
+                "Victor": {"FlowerDanceCanDance": false,},
+            },
+        },
+        {
+            "LogName": "eventExcludesDELETE.json - Flower Dance (RSV)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
                 "Richard": {"FlowerDanceCanDance": false,},
                 "Ysabelle": {"FlowerDanceCanDance": false,},
                 "Flor": {"FlowerDanceCanDance": false,},
@@ -177,11 +199,10 @@
                 "Torts": {"FlowerDanceCanDance": false,},
                 "June": {"FlowerDanceCanDance": false,},
                 "Sean": {"FlowerDanceCanDance": false,},
-                "Sophia": {"FlowerDanceCanDance": false,},
-                "Andy": {"FlowerDanceCanDance": false,},
-                "Susan": {"FlowerDanceCanDance": false,},
-                "Olivia": {"FlowerDanceCanDance": false,},
-                "Victor": {"FlowerDanceCanDance": false,}, },
+            },
+            "When": {
+                "HasMod |contains={{RSV}}": "true",
+            }
         }
     ]
 }
