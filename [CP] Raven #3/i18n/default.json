@@ -10,7 +10,7 @@
 // || ORGANIZE IN THE CODE SOMEWHERE FOR THE LOVE OF GOD ||
 // ========================================================
 // =============================
-// || Generic Mod Config Menu ||
+// || Generic Mod Config Menu || config.<name>.values.<value> for dropdown options
 // =============================
 // || Raven Settings ||
 "config.section.RavenSettings.name": "Raven's Settings",

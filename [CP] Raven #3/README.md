@@ -12,13 +12,35 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | assets/Portraits/___.png | ___ |
 | data/dialogue/___.json | ___ |
 | data/locations/___.json | ___ |
-| data/maps/___.tmx | ___ |
-| data/maps/___.png | ___ |
-| data/maps/___.tsx | ___ |
-| data/maps/___.json | ___ |
-| data/maps/WIP | For WIP map files |
-| data/modCompat/___.json | ___ |
-| data/___.json | ___ |
+| data/maps/Forest_REFERENCE.tmx | ___ |
+| data/maps/L0veRaven.Raven_spousePatios.tmx | ___ |
+| data/maps/L0veRaven.Raven_SpouseRooms.tmx | ___ |
+| data/maps/L0veRaven.Raven_TentOutdoors.tmx | ___ |
+| data/maps/L0veRavenRaven_HouseInside.tmx | ___ |
+| data/maps/L0veRavenRaven_TentInside.tmx | ___ |
+| data/maps/z_L0veRaven_Tent.png | ___ |
+| data/maps/z_L0veRaven_Tent.kra | ___ |
+| data/maps/stringsFromMaps.json | ___ |
+| data/modCompat/CJBWarps.json | ___ |
+| data/modCompat/downtownZuzu.json | ___ |
+| data/modCompat/eventExcludesDELETE.json | ___ |
+| data/modCompat/fireworksFestival.json | ___ |
+| data/modCompat/naturesBounty.json | ___ |
+| data/modCompat/pelicanTownPotluck.json | ___ |
+| data/modCompat/ridgesideVillage.json | ___ |
+| data/modCompat/solsticeWinterStar.json | ___ |
+| data/animationFrames.json | ___ |
+| data/blank.json | ___ |
+| data/character.json | ___ |
+| data/concessionTastes.json | ___ |
+| data/festivalevents.json | ___ |
+| data/festivals.json | ___ |
+| data/mail.json | ___ |
+| data/NPCGiftTastes.json | ___ |
+| data/outfits.json | ___ |
+| data/quests.json | ___ |
+| data/schedule.json | ___ |
+| data/StringsFromCSFiles.json | ___ |
 | data/triggerActions.json | ___ |
 | i18n/default.json | Language compatability file (primarily used for translations)|
 | config.json | Configuration settings |
@@ -33,7 +55,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 | File & Focus | Notes |
 | ------------- | ------------- |
-| data/maps/L0veRaven.Raven_TentInside.tmx | Colors are too intense; Fix layers |
+| data/maps/L0veRaven.Raven_TentInside.tmx | Colors are too intense in-game; Fix layers |
 | data/events.json: Event 0 | Does end dialogue work correctly; Does BGM match; Check i18n dialogue |
 | data/events.json: Event 1 | Does BGM match; Check i18n dialogue |
 | data/events.json: Event 2 | Does BGM match; Check i18n dialogue |
@@ -54,4 +76,8 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | data/quests.json: "{{ModId}}_StonerLetter" | WIP |
 | modCompat/naturesBounty.json: Event 100 | Does BGM match; Review i18n |
 | modCompat/naturesBounty.json: Event 101 | Does BGM match; Review i18n |
+| content.json: GMCM {{CleanLanguage}} | WIP; clean i18n not started |
+| content.json: GMCM {{RavenIndex}} | Delete when mod is complete |
+| content.json: GMCM | Reorganize |
+| data/outfits.json | Reorganize randomization conditions |
 | ___ | ___ |
