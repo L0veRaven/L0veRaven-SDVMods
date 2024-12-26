@@ -247,5 +247,21 @@ end dialogue {{ModId}} \"{{i18n:CleansingFarmer2_end}}\"",
                 end",
             },
         },
+        {
+            "LogName": "events.json: Event 7 (27407007) ravenApartment",
+            "Action": "EditData",
+            "Target": "Data/Events/FRL_NPCApt_Floor1", //Apartment's Map
+            "Entries": {
+                "{{Nexus}}006/!Spouse {{ModId}}/NpcVisibleHere {{ModId}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{ModId}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{ModId}} 15/
+                    // Raven talks about marriage with farmer
+            --Farmer walks in and gets settled/
+                {{animateGus}} false true 120 18 19 20 19/pause 1000/
+                warp farmer 14 24 true/{{closeDoor}}/{{speechBubbleGus}} \"{{i18n:marriageTalk_gusWelcome}}\"/pause 300/
+                {{moveFarmer}} 0 -4 {{up}}/pause 500/
+                {{faceDirectionRaven}} {{right}} true/{{faceDirectionFarmer}} {{left}} true/{{grassyStep}}/pause 1000/
+            --End with dialogue/
+                end",
+            },
+        },
     ]
 }

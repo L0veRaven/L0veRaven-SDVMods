@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="11" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="315">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="3" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="315">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="BrookSounds" value="54 99 5 64 101 4 54 111 5 64 110 5 46 85 0 29 76 0 43 65 0 60 58 0 79 53 0 88 45 0 118 45 0"/>
@@ -5550,121 +5550,111 @@
  <tileset firstgid="30693" name="z_L0veRaven_Tent" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="z_L0veRaven_Tent.png" width="400" height="1264"/>
  </tileset>
- <layer id="1" name="Back" width="11" height="15">
+ <layer id="1" name="Back" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJyNkUEKwjAQRXOCak+hk1MoQnqMXkPxFIqnUAQ3PUFXbjyC0JUn0HbpH/oDYzHVxSMheXx+Jp04N/HOefDCvgUlqMESZzOw8r2j5GBOxPde9HW1/hQEngc60VMWuM+MWxonciF6p24jabce9BjLVQrw5Jtt31RuRsfmpvjHDT/cNdiA7SDXc8bW3YE9OBg3/kUln39xBCdwNj10Dh24cRat6RcpTAd1HnSvI3Oo6Gh2w/1dvpOz7xvwBGC7
+   eJw7rMnAcBgLjseD3aA0AHFMCjg=
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Back2" width="11" height="15">
+ <layer id="3" name="Back2" width="3" height="5">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuEB0xUC7YGQCADgTANQ=
+   eJxjYCAdRFdAaAAGXADU
   </data>
  </layer>
  <objectgroup id="4" name="Back2"/>
- <layer id="5" name="Back3" width="11" height="15">
+ <layer id="5" name="Back3" width="3" height="5">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYKAceGii0pQAV0MGBjdD4tTGAtXlGkBwPAE9tFJbCpQvg+JyIt09CvADAOFcC3Q=
+   eJxjYEAAN0MEO9cAguMNITQIwNgwcQB0iAU5
   </data>
  </layer>
  <objectgroup id="6" name="Back3"/>
- <layer id="7" name="Back5" width="11" height="15">
+ <layer id="7" name="Back5" width="3" height="5">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBhZoFNzoF0wCggBACaCALM=
+   eJxjYCAOdGpiigEADfsAsw==
   </data>
  </layer>
  <objectgroup id="8" name="Back5"/>
- <layer id="9" name="Buildings" width="11" height="15">
+ <layer id="9" name="Buildings" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8gL+CgUEAiAUr8KtT1UTld+nhVvtLB5VvZYDf3Cio3TFAOhiP2sEEFmkSVjMUAADSpAdx
+   eJxjYEAAoQoGBmEgFqlgwAmioHIxQBoAUrADSA==
   </data>
  </layer>
  <objectgroup id="10" name="Buildings">
-  <object id="312" name="TileData" x="112" y="96" width="16" height="16">
+  <object id="313" name="TileData" x="16" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.1&quot;"/>
-   </properties>
-  </object>
-  <object id="313" name="TileData" x="80" y="80" width="16" height="16">
-   <properties>
-    <property name="Warp" value="88 84 Custom_L0veRaven.Raven_TentInside 2 4"/>
-   </properties>
-  </object>
-  <object id="314" name="TileData" x="112" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.2&quot;"/>
+    <property name="Warp" value="88 87 Custom_L0veRaven.Raven_TentInside 2 4"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="11" name="Buildings2" width="11" height="15">
+ <layer id="11" name="Buildings2" width="3" height="5">
   <properties>
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="12" name="Buildings2"/>
- <layer id="13" name="Buildings3" width="11" height="15">
+ <layer id="13" name="Buildings3" width="3" height="5">
   <properties>
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="14" name="Buildings3"/>
- <layer id="15" name="Paths" width="11" height="15">
+ <layer id="15" name="Paths" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF4gyDC0gNtANGAd0BAG84ADI=
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="16" name="Paths"/>
- <layer id="17" name="Front" width="11" height="15">
+ <layer id="17" name="Front" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJxjYKAP+FbOwPAdiH+UU9dcjQoGBk0g1qogrNYRqMYJiJ2JUDsKBg4AAD2vCFw=
+   eJz7Vs7A8AuIfwAxMtCuYGDQBGJdIHYBYicgdqtAVQMAVgYIaw==
   </data>
  </layer>
  <objectgroup id="18" name="Front"/>
- <layer id="19" name="Front2" width="11" height="15">
+ <layer id="19" name="Front2" width="3" height="5">
   <properties>
    <property name="Draw" value="Front"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="20" name="Front2"/>
- <layer id="21" name="AlwaysFront" width="11" height="15">
+ <layer id="21" name="AlwaysFront" width="3" height="5">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="22" name="AlwaysFront"/>
- <layer id="23" name="AlwaysFront2" width="11" height="15">
+ <layer id="23" name="AlwaysFront2" width="3" height="5">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="24" name="AlwaysFront2"/>
- <layer id="25" name="AlwaysFront3" width="11" height="15">
+ <layer id="25" name="AlwaysFront3" width="3" height="5">
   <properties>
    <property name="Draw" value="AlwaysFront"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAQAClAAB
+   eJxjYCAfAAAAPAAB
   </data>
  </layer>
  <objectgroup id="26" name="AlwaysFront3"/>

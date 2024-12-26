@@ -3,6 +3,7 @@
  <properties>
   <property name="DayTiles" value="Buildings 2 0 13 Buildings 3 0 14"/>
   <property name="NightTiles" value="Buildings 2 0 61 Buildings 3 0 66"/>
+  <property name="Outdoors" value="F"/>
   <property name="Warp" value="2 6 Forest 88 85"/>
  </properties>
  <tileset firstgid="1" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
@@ -28,30 +29,17 @@
  <layer id="1" name="Back" width="6" height="6">
   <data encoding="csv">
 1324,1325,0,0,1328,1324,
-1324,0,1351,1352,0,1324,
+1324,0,0,0,0,1324,
 1324,0,1376,1377,0,1324,
-1324,1400,1401,1426,1403,1324,
-1324,1425,1426,1427,1428,1324,
+1324,1400,1401,1402,1395,1324,
+1324,1425,1426,1427,1420,1324,
 1324,1450,1451,1452,1324,1324
-</data>
- </layer>
- <layer id="15" name="Back2" width="6" height="6">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,1323,0,
-0,0,0,0,1348,0,
-0,0,0,0,0,0
 </data>
  </layer>
  <layer id="2" name="Buildings" width="6" height="6">
   <data encoding="csv">
 1324,0,1326,1327,0,1324,
-0,1350,1389,1390,1353,0,
+0,1350,1393,1394,1353,0,
 0,1375,0,0,1378,0,
 1399,314,0,0,0,1404,
 1424,346,0,119,0,1429,
@@ -64,20 +52,7 @@
 1349,0,0,0,0,1354,
 1399,0,0,0,0,1404,
 0,0,0,0,0,0,
-0,1329,0,1449,1347,0,
-0,0,0,0,0,0
-</data>
- </layer>
- <layer id="21" name="Front2" width="6" height="6">
-  <properties>
-   <property name="Draw" value="Front"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,0,0,0,1402,0,
+0,1329,0,1449,1453,0,
 0,0,0,0,0,0
 </data>
  </layer>
@@ -92,7 +67,6 @@
 </data>
  </layer>
  <objectgroup id="5" name="Back"/>
- <objectgroup id="18" name="Back2"/>
  <objectgroup id="6" name="Buildings">
   <object id="15" name="TileData" x="32" y="16" width="16" height="16">
    <properties>
@@ -115,8 +89,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="20" name="Buildings2"/>
  <objectgroup id="7" name="Front"/>
- <objectgroup id="22" name="Front2"/>
  <objectgroup id="8" name="Paths"/>
 </map>

@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "triggerActions.json: Add Trigger Action to Steal Money From Coat Rack",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "CoatRackMoney": {
+                    "Id": "CoatRackMoney",
+                    "Trigger": "Manual",
+                    "Condition": "!PLAYER_HAS_MAIL Current ReceiveCoatRackMoney",
+                    "Actions": [
+                        "AddMoney 500",
+                        "AddMail Current ReceiveCoatRackMoney received",
+                        "Dialogue {{i18n:CoatRack_1}}",
+                    ]
+                },
+            }
+        },
+    ]
+}

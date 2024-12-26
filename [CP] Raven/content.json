@@ -35,6 +35,7 @@
     //{{Nexus}} -> Nexus ID
         {"Name": "Nexus","Value": "27407",},
     //Mod Nicknames -> External ModId's
+        {"Name": "NPCA","Value": "FireRedLily.NPCApartments",},
         {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty",},
         {"Name": "DTZ","Value": "DTZ.DowntownZuzuDLL",},
         {"Name": "PTP","Value": "LenneDalben.PelicanTownPotluck",},
@@ -237,10 +238,15 @@
         {"Name": "ravenYobaShrine","Value": "{{i18n:YobaShrine_{{Random:{{Range:1,3}}}}}}",},
         {"Name": "ravenCrystal","Value": "{{i18n:Crystal_{{Random:{{Range:1,4}}}}}}",},
         {"Name": "ravenMailbox","Value": "{{i18n:Mailbox_{{Random:{{Range:1,3}}}}}}",},
-        {"Name": "ravenTrashBag","Value": "{{i18n:TrashBag_{{Random:{{Range:1,7}}}}}}",},
+        {"Name": "ravenTrashBag","Value": "{{i18n:TrashBag_{{Random:{{Range:1,6}}}}}}",},
         {"Name": "ravenJournal","Value": "{{i18n:Journal_{{Random:{{Range:1,4}}}}}}",},
         {"Name": "ravenStove","Value": "{{i18n:Stove_{{Random:{{Range:1,3}}}}}}",},
+        {"Name": "ravenStove2","Value": "{{i18n:Stove2_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "ravenLogs","Value": "{{i18n:Logs_{{Random:{{Range:1,5}}}}}}",},
+        {"Name": "ravenFridge","Value": "{{i18n:Fridge_{{Random:{{Range:1,5}}}}}}",},
+        {"Name": "ravenComputer","Value": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}",},
+        {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",},
+        {"Name": "ravenCoatRack","Value": "{{i18n:CoatRack_{{Random:{{Range:1,7}}}}}}",},
         //Mod Compat
         {"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
     //Queries

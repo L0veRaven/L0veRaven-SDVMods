@@ -1084,6 +1084,8 @@
 "marriageTalk_1_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 "marriageTalk_2_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 "marriageTalk_3_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
+// || {{ModId}}ravenApartment - Event ||
+"ravenApartment_Mail": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven[#]Raven's Apartment",
 // || {{ModId}}_LoveLetter -> Automatic letters when dating ||
 "LoveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
 "LoveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",
@@ -1167,9 +1169,8 @@
 "TrashBag_2": "The trash bag is full.",
 "TrashBag_3": "The trash bag is half full.",
 "TrashBag_4": "The trash bag is half empty.",
-"TrashBag_5": "The trash bag is half empty.",
-"TrashBag_6": "The trash bag is torn.",
-"TrashBag_7": "The trash bag is leaking.",
+"TrashBag_5": "The trash bag is torn.",
+"TrashBag_6": "The trash bag is leaking.",
 //{{ravenJournal}} -> {{i18n:Journal_{{Random:{{Range:1,_}}}}}} -> Journal
 "Journal_1": "The journal has a page bookmarked. Raven has been drawing!",
 "Journal_2": "The journal has a page bookmarked. Raven has been writing sheet music!",
@@ -1179,12 +1180,33 @@
 "Stove_1": "The stove is clean.",
 "Stove_2": "There are leftovers on the stove.",
 "Stove_3": "The stove is dirty.",
+//{{ravenStove2}} -> {{i18n:Stove_{{Random:{{Range:1,_}}}}}} -> Stove
+"Stove2_1": "The stove is clean.",
+"Stove2_2": "The stove is dirty.",
 //{{ravenLogs}} -> {{i18n:Logs_{{Random:{{Range:1,_}}}}}} -> Logs
 "Logs_1": "The log pile is full.",
 "Logs_2": "The log pile is getting low.",
 "Logs_3": "The log pile is is half full.",
 "Logs_4": "The log pile is is half empty.",
 "Logs_5": "The log pile smells fresh.",
+//{{ravenFridge}} -> {{i18n:Fridge_{{Random:{{Range:1,_}}}}}} -> Fridge
+"Fridge_1": "The fridge is full of food.",
+"Fridge_2": "The fridge is getting low on food.",
+"Fridge_3": "The fridge has food.",
+"Fridge_4": "The fridge has leftovers.",
+"Fridge_5": "The fridge smells of spoiled food.",
+//{{ravenComputer}} -> {{i18n:Computer_{{Random:{{Range:1,_}}}}}} -> Computer
+"Computer_1": "L0veRaven's Twitch",
+"Computer_2": "L0veRaven's Website",
+"Computer_3": "L0veRaven's YouTube",
+//{{ravenTrashBin}} -> {{i18n:TrashBin_{{Random:{{Range:1,_}}}}}} -> TrashBin
+"TrashBin_1": "The trash is empty.",
+"TrashBin_2": "The trash is full.",
+"TrashBin_3": "The trash is half full.",
+"TrashBin_4": "The trash is half empty.",
+//{{ravenCoatRack}} -> {{i18n:CoatRack_{{Random:{{Range:1,_}}}}}} -> Coat Rack
+"CoatRack_1": "Raven left 500g in their clothes... I'll just borrow it.",
+"CoatRack_2": "I already stole money from Raven's clothes. It feels wrong to steal again.",
 // ========================
 // || giftResponses.json ||
 // ========================

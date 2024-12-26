@@ -36,10 +36,23 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                //Tent - Inside
                 "L0veRavenRavenTentInside.1": "{{ravenJournal}}",//Journal
                 "L0veRavenRavenTentInside.2": "{{ravenStove}}",//Stove
                 "L0veRavenRavenTentInside.3": "{{ravenLogs}}",//Logs
+            }
+        },
+        {
+            "LogName": "stringsFromMaps.json: Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenRavenApartment.1": "{{ravenYobaShrine}}",//Yoba Shrine
+                "L0veRavenRavenApartment.2": "{{i18n:Bookshelf}}",//Stove
+                "L0veRavenRavenApartment.3": "{{ravenFridge}}",//Fridge
+                "L0veRavenRavenApartment.4": "{{ravenStove2}}",//Stove 2
+                "L0veRavenRavenApartment.5": "{{ravenComputer}}",//Computer
+                "L0veRavenRavenApartment.6": "{{ravenTrashBin}}",//Trash Bin
+                "L0veRavenRavenApartment.7": "{{ravenCoatRack}}",//Coat Rack
             }
         },
         {

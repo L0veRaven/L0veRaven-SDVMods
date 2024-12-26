@@ -1,0 +1,97 @@
+{
+    "Changes": [
+        {
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 83,"Y": 79,"Width": 11,"Height": 15,
+            },
+            "When": {
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 87,"Y": 84,"Width": 3,"Height": 5,
+            },
+            "When": {
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Season": "winter",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Raven's Apartment w/ Coat Rack Tile Action",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/maps/{{ModId}}_Apartment.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnTimeChange",
+            "ToArea": {
+                "X": 5,"Y": 8,"Width": 11,"Height": 11,
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11, "Y": 18,
+                    },
+                    "SetTilesheet": "2",
+                    "SetIndex": "588",
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "spacechase0.SpaceCore_TriggerAction CoatRackMoney",
+                    },
+                }
+            ],
+            "When": {
+                "HasReadLetter": "{{ModId}}_ravenApartment",
+            },
+        },
+        {
+            "LogName": "mapPatches.json: Raven's Apartment - Change Tile Action to Message After Getting Reward",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "When": {
+                "HasFlag": "ReceiveCoatRackMoney"
+            },
+            "Update": "OnTimeChange",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11, "Y": 18,
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Dialogue {{i18n:CoatRack_2}}"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "mapPatches.json: Warps - Forest",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "AddWarps": [
+                "88 87 Custom_L0veRavenRaven_TentInside 2 4",
+            ],
+            "When": {
+                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LoveRavenRaven_TentInside",
+            "AddWarps": [
+                "2 6 Forest 88 88",
+            ]
+        },
+    ]
+}

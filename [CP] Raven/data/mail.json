@@ -40,6 +40,14 @@
             },
         },
         {
+            "LogName": "mail.json: Event 27407007 (7) ravenApartment",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModId}}_ravenApartment": "{{i18n:ravenApartment_Mail}}",
+            },
+        },
+        {
             "LogName": "mail.json: Love Letters",
             "Action": "EditData",
             "Target": "Data/mail",
