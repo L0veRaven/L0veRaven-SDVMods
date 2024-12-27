@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "CJBWarps.json",
+            "LogName": "CJBWarps.json: Raven's Tent",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -9,12 +9,38 @@
                     "Id": "{{ModId}}_Raven's Tent",
                     "DisplayName": "{{i18n:CJB_RavensTent}}",
                     "Location": "Forest",
-                    "Tile": "88, 86",
+                    "Tile": "88, 89",
                     "SectionId": "forest",
                 },
             },
+        },
+        {
+            "LogName": "CJBWarps.json: Raven's Tent Removal",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModId}}_RavensTent": {},
+            },
             "When": {
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "HasReadLetter": "{{ModId}}_ravenApartment",
+            }
+        },
+        {
+            "LogName": "CJBWarps.json: Raven's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnTimeChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1A": {
+                    "Id": "{{NPCA}}_Apartment1A",
+                    "DisplayName": "{{i18n:CJB_RavensApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "10, 23",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft",
+                },
+            },
+            "When": {
+                "HasReadLetter": "{{ModId}}_ravenApartment",
             }
         },
     ]

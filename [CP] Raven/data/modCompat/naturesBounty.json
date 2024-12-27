@@ -73,7 +73,7 @@
                 //A Stoner's Request
                 "{{Nexus}}00004": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00005/0/-1/false/{{i18n:AStonersRequest_giftResponse}}",
                 //Smoke Session
-                "{{Nexus}}00005": "Location/{{i18n:SmokeSession_headline}}/{{i18n:SmokeSession_summary}}/{{i18n:SmokeSession_hint}}/Custom_L0veRavenRaven_TentInside/-1/0/-1/false"
+                "{{Nexus}}00005": "Location/{{i18n:SmokeSession_headline}}/{{i18n:SmokeSession_summary}}/{{i18n:SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
             },
         },
         {
@@ -128,7 +128,7 @@
         {
             "LogName": "naturesBounty.json: Event 101 (27407101) SmokeSession",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_L0veRavenRaven_TentInside",
+            "Target": "Data/Events/Custom_L0veRaven_RavenTentInside",
             "Entries": {
                 "27407101/n {{ModId}}_SmokeSession": "jaunty/2 5/farmer 2 5 0 {{ModId}} 3 3 2/skippable/friendship {{ModId}} 15/pause 500/
                 textAboveHead {{ModId}} \"{{i18n:SmokeSession_textAboveHead}}\"/pause 1500/

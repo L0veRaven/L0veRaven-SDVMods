@@ -1,5 +1,5 @@
 {
-    "Name": "(NPC) Raven",
+    "Name": "(CP) Raven",
     "Author": "L0veRaven",
     "Description": "Adds a neko NPC",
     "Version": "1.0.0",
@@ -10,8 +10,16 @@
     },
     "Dependencies": [
         {
-            "UniqueID": "L0veRaven.Core",
-            "IsRequired": "true",
+            "UniqueID": "Airyn.CPSolsticeWinterStar",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "CJBok.CheatsMenu",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "DTZ.DowntownZuzuDLL",
+            "IsRequired": "false",
         },
         {
             "UniqueID": "FireRedLily.NPCApartments",
@@ -22,6 +30,14 @@
             "IsRequired": "true",
         },
         {
+            "UniqueID": "L0veRaven.Core",
+            "IsRequired": "true",
+        },
+        {
+            "UniqueID": "LenneDalben.PelicanTownPotluck",
+            "IsRequired": "false",
+        },
+        {
             "UniqueID": "Rafseazz.RSVCP",
             "IsRequired": "false",
         },
@@ -30,16 +46,8 @@
             "IsRequired": "false",
         },
         {
-            "UniqueID": "DTZ.DowntownZuzuDLL",
-            "IsRequired": "false",
-        },
-        {
-            "UniqueID": "LenneDalben.PelicanTownPotluck",
-            "IsRequired": "false",
-        },
-        {
-            "UniqueID": "Airyn.CPSolsticeWinterStar",
-            "IsRequired": "false",
+            "UniqueID": "spacechase0.SpaceCore",
+            "IsRequired": "true",
         },
         {
             "UniqueID": "violetlizabet.CP.FireworksFestival",

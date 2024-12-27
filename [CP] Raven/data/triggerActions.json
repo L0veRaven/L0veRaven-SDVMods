@@ -12,7 +12,6 @@
                     "Actions": [
                         "AddMoney 500",
                         "AddMail Current ReceiveCoatRackMoney received",
-                        "Dialogue {{i18n:CoatRack_1}}",
                     ]
                 },
             }

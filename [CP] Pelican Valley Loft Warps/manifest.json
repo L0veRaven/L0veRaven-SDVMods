@@ -1,0 +1,21 @@
+{
+    "Name": "(CP) Pelican Valley Loft Warps",
+    "Author": "L0veRaven",
+    "Description": "Adds warps compatible with CJB Cheats",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.PVLWarps",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "FireRedLily.NPCApartments",
+            "IsRequired": "true",
+        },
+        {
+            "UniqueID": "CJBok.CheatsMenu",
+            "IsRequired": "true",
+        },
+    ]
+}

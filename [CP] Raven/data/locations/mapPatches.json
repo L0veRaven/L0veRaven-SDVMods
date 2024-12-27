@@ -4,7 +4,7 @@
             "LogName": "mapPatches.json: Raven's Tent - Outdoors",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
+            "FromFile": "data/maps/{{Raven}}TentOutdoors.tmx",
             "PatchMode": "Replace",
             "ToArea": {
                 "X": 83,"Y": 79,"Width": 11,"Height": 15,
@@ -17,8 +17,9 @@
             "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{ModId}}_TentOutdoors.tmx",
+            "FromFile": "data/maps/{{Raven}}TentSnow.tmx",
             "PatchMode": "Replace",
+            "Update": "OnTimeChange",
             "ToArea": {
                 "X": 87,"Y": 84,"Width": 3,"Height": 5,
             },
@@ -31,7 +32,7 @@
             "LogName": "mapPatches.json: Raven's Apartment w/ Coat Rack Tile Action",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
-            "FromFile": "data/maps/{{ModId}}_Apartment.tmx",
+            "FromFile": "data/maps/{{Raven}}Apartment.tmx",
             "PatchMode": "Replace",
             "Update": "OnTimeChange",
             "ToArea": {
@@ -69,7 +70,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Dialogue {{i18n:CoatRack_2}}"
+                        "Action": "Dialogue {{i18n:CoatRack}}"
                     }
                 }
             ]
@@ -79,7 +80,7 @@
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "AddWarps": [
-                "88 87 Custom_L0veRavenRaven_TentInside 2 4",
+                "88 87 Custom_{{Raven}}TentInside 2 4",
             ],
             "When": {
                 "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
@@ -88,7 +89,7 @@
         {
             "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside",
             "Action": "EditMap",
-            "Target": "Maps/Custom_LoveRavenRaven_TentInside",
+            "Target": "Maps/Custom_LoveRaven_RavenTentInside",
             "AddWarps": [
                 "2 6 Forest 88 88",
             ]

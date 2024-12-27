@@ -114,7 +114,7 @@
 },
 
 {
-"LogName": "events.json: Event 3 (27407003) CleansingFarmer","Action": "EditData","Target": "Data/Events/Custom_L0veRavenRaven_TentInside","Entries":
+"LogName": "events.json: Event 3 (27407003) CleansingFarmer","Action": "EditData","Target": "Data/Events/Custom_L0veRaven_RavenTentInside","Entries":
     {//Event 3 - CleansingFarmer
     "{{Nexus}}003/n {{ModId}}_CleansingFarmer/p {{ModId}}": "jaunty/68 89/farmer 2 5 {{up}} {{ModId}} 3 3 {{down}}/skippable/pause 300/
 --Farmer approaches Raven/

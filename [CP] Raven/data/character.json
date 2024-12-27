@@ -33,13 +33,13 @@
                     "SpouseGiftJealousy": false,
                     "SpouseGiftJealousyFriendshipChange": 0,
                     "SpouseRoom": {
-                        "MapAsset": "{{ModId}}_spouseRooms",
+                        "MapAsset": "{{Raven}}SpouseRoom",
                         "MapSourceRect": {
                             "X": 0, "Y": 0, "Width": 6, "Height": 9,
                         },
                     },
                     "SpousePatio": {
-                        "MapAsset": "{{ModId}}_spousePatios",
+                        "MapAsset": "{{Raven}}SpousePatio",
                         "MapSourceRect": {
                             "X": 0, "Y": 0, "Width": 4, "Height": 4,
                         },
@@ -77,7 +77,7 @@
                         {
                             "Id": "Default", // Default spawn point
                             "Condition": null, // If they change homes
-                            "Location": "Custom_L0veRavenRaven_TentInside", // Specific location from data/location
+                            "Location": "Custom_L0veRaven_RavenTentInside", // Specific location from data/location
                             "Tile": {
                                 "X": 4,"Y": 4,
                             },

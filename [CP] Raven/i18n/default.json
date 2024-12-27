@@ -17,22 +17,34 @@
 "config.section.RavenSettings.description": "Customize your experience with Raven.",
     // || Raven Clean ||
 "config.CleanLanguage.name": "Clean Language",
-"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Testing Only)",
-// || Outfits ||
-"config.section.Outfits.name": "Outfits",
-"config.section.Outfits.description": "Outfit settings.",
-    // || Flower Dance Costume Randomizer ||
-"config.RandomFlower.name": "Flower Dance Randomizer",
-"config.RandomFlower.description": "Randomizes costumes Raven wears to the Flower Dance.",
-    // || Flower Dance: Marijuana Costume ||
-"config.RandomFlowerNB.name": "Marijuana Costume",
-"config.RandomFlowerNB.description": "*Works with randomizer* Has Raven wear a weed costume to the Flower Dance.",
-    // || Raven Nude ||
+"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
+// || Spirit's Eve Costumes ||
+"config.section.SpiritsEveCostumes.name": "Spirit's Eve Costumes",
+"config.section.SpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
+    // || Vampire ||
+//"config.VampireCostumeSE.name": "Vampire",
+//"config.VampireCostumeSE.description": "Raven wears a vampire costume.",
+    // || Sunflower ||
+"config.SunflowerCostumeSE.name": "Sunflower",
+"config.SunflowerCostumeSE.description": "Raven wears a sunflower costume.",
+    // || Cactus ||
+"config.CactusCostumeSE.name": "Cactus",
+"config.CactusCostumeSE.description": "Raven wears a cactus costume.",
+    // || Daisy ||
+"config.DaisyCostumeSE.name": "Daisy",
+"config.DaisyCostumeSE.description": "Raven wears a daisy costume.",
+    // || Weed ||
+"config.WeedCostumeSE.name": "Weed",
+"config.WeedCostumeSE.description": "Raven wears a weed costume. Celebrate 4-20 any day",
+// || Raven Nude ||
 "config.RavenNude.name": "Nude",
-"config.RavenNude.description": "Makes Raven naked. Featuring top surgery scars! (Testing Only)",
+"config.RavenNude.description": "Makes Raven naked. Featuring top surgery scars!",
 // || Mod Settings ||
 "config.section.ModderSettings.name": "Modder's Settings",
 "config.section.ModderSettings.description": "Setting to help with the modding proccess.",
+    // || Index ||
+"config.RavenIndex.name": "Appearance - Index",
+"config.RavenIndex.description": "Only shows the index numbers for Raven's portraits and sprites.",
     // || Event Excludes ||
 "config.EventExcludes.name": "Event Excludes",
 "config.EventExcludes.description": "Raven is the only one you can interact with for festivals.",
@@ -1204,9 +1216,10 @@
 "TrashBin_2": "The trash is full.",
 "TrashBin_3": "The trash is half full.",
 "TrashBin_4": "The trash is half empty.",
-//{{ravenCoatRack}} -> {{i18n:CoatRack_{{Random:{{Range:1,_}}}}}} -> Coat Rack
-"CoatRack_1": "Raven left 500g in their clothes... I'll just borrow it.",
-"CoatRack_2": "I already stole money from Raven's clothes. It feels wrong to steal again.",
+// =====================
+// || mapPatches.json ||
+// =====================
+"CoatRack": "I already stole money from Raven's clothes. It feels wrong to steal again.",
 // ========================
 // || giftResponses.json ||
 // ========================
@@ -1220,7 +1233,7 @@
 "AcceptGift_Potato": "I love making stuff with potatoes. Thanks!$1",
 "AcceptGift_Spaghetti": "Spaghetti is my favorite food! You're fucking amazing, thanks.$3",
 "AcceptGift_MagicRockCandy": "This reminds me of a field trip that I went on back in elementary school. Thanks for helping me remember something positive.$1",
-"AcceptGift_RainbowShell": "This is so beautiful! I absolutely love it, thanks!$1",
+"AcceptGift_RainbowShell": "This is so beautiful! I absolutely dlove it, thanks!$1",
 "AcceptGift_DuckFeather": "Oh wow, I can probably turn this into a pen! Thanks so much @.$1",
 "AcceptGift_RabbitsFoot": "Aw, thanks for thinking of me! This should give me some extra luck for a while.$1",
 "AcceptGift_Snail": "You got me a snail? Aw, it's so cute!$1",
@@ -1289,14 +1302,15 @@
 // || modCompat/CJBWarps.json ||
 // =================================
 "CJB_RavensTent": "Raven's Tent",
+"CJB_RavensApartment": "Apt 1A: Raven",
 // =================================
 // || modCompat/downtownZuzu.json ||
 // =================================
 // || Conversation Topics ||
 "cc_Bus.DTZ": "Shoot, I didn't even know the bus was getting repaired! Now I can travel to Downtown Zuzu.#$e#Depending on what it's like in the city, I might end up going broke from going out there a bunch!",
-// =====================================
+// ======================================
 // || modCompat/fireworksFestival.json ||
-// =====================================
+// ======================================
 "fireworksFestival_1": "I'm just chilling out here until the fireworks start.#$e#Wanna chill with me?$1",
 "fireworksFestival_2": "I wish we could do fireworks more often. Fireworks should be for all times of the year!$1",
 // =======================================

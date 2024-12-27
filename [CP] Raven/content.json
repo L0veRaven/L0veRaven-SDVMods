@@ -7,29 +7,39 @@
         "CleanLanguage": {
             "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "RavenSettings",
         },
-        //Outfits
-            //Flower Dance Outfits: Toggle
-        "RandomFlower": {
-            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",
-        },
-            //Randomize Flower Dance Outfit: Toggle
-        "RandomFlowerNB": {
-            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",
-        },
             //Nude: Toggle
         "RavenNude": {
-            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "RavenSettings",
         },
-            //Shows Raven with index numbers for sprites and portraits
-        "RavenIndex": {
-            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "Outfits",
+        //Outfits
+            //Spirit's Eve Costumes: Toggles
+        //ADD"VampireCostumeSE": {
+        //ADD    "Default": "true","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "SpiritsEveCostumes",
+        //ADD},
+        "CactusCostumeSE": {
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "SpiritsEveCostumes",
+        },
+        "DaisyCostumeSE": {
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "SpiritsEveCostumes",
+        },
+        "SunflowerCostumeSE": {
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "SpiritsEveCostumes",
+        },
+        "WeedCostumeSE": {
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "SpiritsEveCostumes",
         },
         //Modder Settings
+            //Raven Index: Shows Raven with index numbers for sprites and portraits
+        "RavenIndex": {
+            "Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "ModderSettings",
+        },
             //Event Excludes: Toggle
         "EventExcludes":
             {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "ModderSettings",},
     },
     "DynamicTokens": [
+    //Raven
+        {"Name": "Raven","Value": "L0veRaven_Raven",},
     //Display Name
         {"Name": "displayName","Value": "{{i18n:DisplayName}}",},
     //{{Nexus}} -> Nexus ID
@@ -434,8 +444,8 @@
     ],
     "CustomLocations": [
         {
-            "Name": "Custom_L0veRavenRaven_TentInside",
-            "FromMapFile": "data/maps/L0veRavenRaven_TentInside.tmx",
+            "Name": "Custom_L0veRaven_RavenTentInside",
+            "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx",
         },
     ],
     "Changes": [
@@ -449,7 +459,7 @@
         {
             "LogName": "content.json: NPCData",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json",
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/triggerActions.json",
         },
         {
             "LogName": "content.json: Dialogue",
@@ -457,16 +467,16 @@
             "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/maps/StringsFromMaps.json, data/dialogue/scheduleDialogue.json",
         },
         {
-            "LogName": "content.json: Spouse Patios",
+            "LogName": "content.json: Spouse Patio",
             "Action": "Load",
-            "Target": "Maps/{{ModId}}_spousePatios",
-            "FromFile": "data/maps/{{ModId}}_spousePatios.tmx",
+            "Target": "Maps/{{Raven}}SpousePatio",
+            "FromFile": "data/maps/{{Raven}}SpousePatio.tmx",
         },
         {
-            "LogName": "content.json: Add Spouse Rooms",
+            "LogName": "content.json: Add Spouse Room",
             "Action": "Load",
-            "Target": "Maps/{{ModId}}_spouseRooms",
-            "FromFile": "data/maps/{{ModId}}_spouseRooms.tmx",
+            "Target": "Maps/{{Raven}}SpouseRoom",
+            "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx",
         },
         {
             "LogName": "content.json: Locations",

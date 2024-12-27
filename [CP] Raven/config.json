@@ -1,8 +1,10 @@
 {
   "CleanLanguage": "false",
-  "RandomFlower": "false",
-  "RandomFlowerNB": "false",
   "RavenNude": "false",
+  "CactusCostumeSE": "false",
+  "DaisyCostumeSE": "false",
+  "SunflowerCostumeSE": "false",
+  "WeedCostumeSE": "false",
   "RavenIndex": "false",
   "EventExcludes": "true"
 }

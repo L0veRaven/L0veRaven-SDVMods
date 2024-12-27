@@ -3,8 +3,7 @@
  <properties>
   <property name="DayTiles" value="Buildings 2 0 13 Buildings 3 0 14"/>
   <property name="NightTiles" value="Buildings 2 0 61 Buildings 3 0 66"/>
-  <property name="Outdoors" value="F"/>
-  <property name="Warp" value="2 6 Forest 88 85"/>
+  <property name="Warp" value="2 6 Forest 88 88"/>
  </properties>
  <tileset firstgid="1" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source=".townInterior_2.png" width="512" height="656"/>
@@ -41,7 +40,7 @@
 1324,0,1326,1327,0,1324,
 0,1350,1393,1394,1353,0,
 0,1375,0,0,1378,0,
-1399,314,0,0,0,1404,
+1399,0,0,0,0,1404,
 1424,346,0,119,0,1429,
 1324,1450,0,1452,1324,1324
 </data>
@@ -51,7 +50,7 @@
 0,0,0,0,0,0,
 1349,0,0,0,0,1354,
 1399,0,0,0,0,1404,
-0,0,0,0,0,0,
+0,314,0,0,0,0,
 0,1329,0,1449,1453,0,
 0,0,0,0,0,0
 </data>

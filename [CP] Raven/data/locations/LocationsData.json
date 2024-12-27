@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-        "LogName": "Locations.json: Add Custom_L0veRavenRaven_Tent_Inside",
+        "LogName": "Locations.json: Add Custom_L0veRaven_RavenTentInside",
         "Action": "EditData",
         "Target": "Data/Locations",
         "Entries": {
@@ -12,7 +12,7 @@
                 },
                 "ExcludeFromNpcPathfinding": false,
                 "CreateOnLoad": {
-                    "MapPath": "Maps\\Custom_L0veRavenRaven_TentInside",
+                    "MapPath": "Maps\\Custom_L0veRaven_RavenTentInside",
                     "Type": null,
                     "AlwaysActive": false
                 },

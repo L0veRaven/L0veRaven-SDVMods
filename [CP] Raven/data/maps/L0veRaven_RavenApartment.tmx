@@ -194,11 +194,6 @@
     <property name="Action" value="Message &quot;L0veRavenRavenApartment.6&quot;"/>
    </properties>
   </object>
-  <object id="46" name="TileData" x="96" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="NPCSpeechMessageNoRadius L0veRaven.Raven L0veRavenRavenApartment.7"/>
-   </properties>
-  </object>
   <object id="47" name="TileData" x="128" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenApartment.4&quot;"/>
