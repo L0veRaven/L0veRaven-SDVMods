@@ -108,10 +108,25 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | ------------- | ------------- |
 | Conversation Topics: Custom | //ADD |
 
-| content.json | Notes |
+| content.json: ConfigSchema | Notes |
 | ------------- | ------------- |
 | {{CleanLanguage}} | i18n #NS (all keys prefixed with "clean_") |
+| {{RavenNude}} | #C |
+| {{VampireCostumeSE}} | #NS |
+| {{CactusCostumeSE}} | #T |
+| {{DaisyCostumeSE}} | #T |
+| {{SunflowerCostumeSE}} | #T |
+| {{WeedCostumeSE}} | #T |
 | {{RavenIndex}} | Delete when mod is done |
+| {{EventExcludes}} | Delete when mod is done |
+
+| content.json: CustomLocations | Notes |
+| ------------- | ------------- |
+| Custom_L0veRaven_RavenTentInside | #C |
+
+| content.json: Changes | Notes |
+| ------------- | ------------- |
+| Blank Loads | ```Characters/Dialogue/{{ModId}}```, |
 
 | manifest.json | Notes |
 | ------------- | ------------- |
