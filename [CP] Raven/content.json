@@ -37,6 +37,7 @@
         "EventExcludes":
             {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Description": null,"Section": "ModderSettings",},
     },
+    
     "DynamicTokens": [
     //Raven
         {"Name": "Raven","Value": "L0veRaven_Raven",},
@@ -442,22 +443,24 @@
         {"Name": "speechBubblePenny","Value": "textAboveHead Penny",},//"{{speechbubblePenny}} {{emoteHappy}}/<..>"
         {"Name": "speechBubbleGus","Value": "textAboveHead Gus",},//"{{speechbubblePenny}} {{emoteHappy}}/<..>"
     ],
+    
     "CustomLocations": [
         {
             "Name": "Custom_L0veRaven_RavenTentInside",
             "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx",
         },
     ],
+    
     "Changes": [
         {
-            "LogName": "content.json: BlankLoads",
+            "LogName": "content.json: Blank Loads",
             "Action": "Load",
             "Priority": "Low",
             "Target": "Characters/Dialogue/{{ModId}}, Characters/Dialogue/MarriageDialogue{{ModId}}, Characters/schedules/{{ModId}}, Strings/Schedules/{{ModId}}, Data/Events/Custom_L0veRavenRaven_TentInside",
             "FromFile": "data/blank.json",
         },
         {
-            "LogName": "content.json: NPCData",
+            "LogName": "content.json: NPC Data",
             "Action": "Include",
             "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/triggerActions.json",
         },
@@ -473,7 +476,7 @@
             "FromFile": "data/maps/{{Raven}}SpousePatio.tmx",
         },
         {
-            "LogName": "content.json: Add Spouse Room",
+            "LogName": "content.json: Spouse Room",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpouseRoom",
             "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx",
