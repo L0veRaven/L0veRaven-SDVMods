@@ -113,9 +113,16 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | {{CleanLanguage}} | i18n #NS (all keys prefixed with "clean_") |
 | {{RavenIndex}} | Delete when mod is done |
 
+| manifest.json | Notes |
+| ------------- | ------------- |
+| Name | (CP) Raven |
+| Author | L0veRaven |
+| Nexus ID | 27407 |
+| UniqueID / ModId | L0veRaven.Raven |
+
 | manifest.json: Dependencies | Notes |
 | ------------- | ------------- |
-| Airyn.CPSolsticeWinterStar | ___ |
+| Airyn.CPSolsticeWinterStar | #T |
 | CJBok.CheatsMenu | #C |
 | DTZ.DowntownZuzuDLL | WIP |
 | FireRedLily.NPCApartments | #C |
@@ -123,7 +130,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | L0veRaven.Core | #C |
 | LenneDalben.PelicanTownPotluck | #T |
 | Rafseazz.RSVCP | WIP |
-| Raspb3rryfields.NaturesBounty | ___ |
+| Raspb3rryfields.NaturesBounty | WIP |
 | spacechase0.SpaceCore | #C |
 | violetlizabet.CP.FireworksFestival | #T |
 
