@@ -3,7 +3,7 @@
         {
             "LogName": "naturesBounty.json: Gift Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O){{NB}}_Bud": "{{i18n:AcceptGift_NB_Bud}}",
                 "AcceptGift_(O){{NB}}_HempFiber": "{{i18n:AcceptGift_NB_HempFiber}}",
@@ -20,7 +20,7 @@
         {
             "LogName": "naturesBounty.json: Generic Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "{{season}}_Tue2": "{{NBDialogue}}","{{season}}_Sun2": "{{NBDialogue}}",
                 "{{season}}_Tue4": "{{NBDialogue}}","{{season}}_Thu4": "{{NBDialogue}}",
@@ -33,9 +33,9 @@
             }
         },
         {
-            "LogName": "scheduleDialogue.json",
+            "LogName": "naturesBounty.json: Schedule Dialogue",
             "Action": "EditData",
-            "Target": "Strings/schedules/{{ModId}}",
+            "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
                 "Forest.101": "{{smokeSpotForestSchD}}",
             },
@@ -45,10 +45,10 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_LoveLetter_8": "{{i18n:LoveLetter_8}}",
+                "{{Raven}}_LoveLetter_8": "{{i18n:LoveLetter_8}}",
             },
             "When": {
-                "Relationship:{{ModId}}": "Dating,Engaged",
+                "Relationship:{{Raven}}": "Dating,Engaged",
                 "HasMod |contains={{NB}}": "true",
             }
         },
@@ -57,9 +57,9 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_StonerLetter": "{{i18n:StonerLetter}}", //Do edibles with farmer in saloon event
-                "{{ModId}}_StonerQuest": "{{i18n:StonerQuest}}", //Smoke session event
-                "{{ModId}}_SmokeSession": "{{i18n:StonerQuest}}", //Smoke session -> Tent
+                "{{Raven}}_StonerLetter": "{{i18n:StonerLetter}}", //Do edibles with farmer in saloon event
+                "{{Raven}}_StonerQuest": "{{i18n:StonerQuest}}", //Smoke session event
+                "{{Raven}}_SmokeSession": "{{i18n:StonerQuest}}", //Smoke session -> Tent
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",
@@ -81,7 +81,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "{{Nexus}}100/LocalMail {{ModId}}_StonerLetter": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{ModId}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{ModId}} 15/
+                "{{Nexus}}100/LocalMail {{Raven}}_StonerLetter": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
             --Farmer walks in and gets settled/
                 {{animateGus}} false true 120 18 19 20 19/pause 1000/
                 warp farmer 14 24 true/{{closeDoor}}/{{speechBubbleGus}} \"{{i18n:GusEdibles_speak_1}}\"/pause 300/
@@ -99,7 +99,7 @@
                 {{faceDirectionFarmer}} {{down}} true/{{faceDirectionRaven}} {{down}} true/{{grassyStep}}/pause 500/
             --Eat edibles/
                 farmerEat {{NB}}_SpecialBrownie/{{animateRaven}} false true 120 36 37/pause 2000/
-                stopAnimation {{ModId}} 0/pause 3000/
+                stopAnimation {{Raven}} 0/pause 3000/
                 {{faceDirectionRaven}} {{right}}/{{grassyStep}}/pause 300/
             --Raven and Gus speak/
                 {{speakRaven}} \"{{i18n:GusEdibles_speak_5}}\"/pause 300/
@@ -109,7 +109,7 @@
                 stopAnimation farmer/
                 animate farmer false false 250 16 0 4 5/pause 300/showFrame farmer 5/
             --Raven screams and turns to Gus/
-                jump {{ModId}} 8/showFrame {{ModId}} 16/playSound batScreech/shake {{ModId}} 1500/pause 1500/showFrame {{ModId}} 8/
+                jump {{Raven}} 8/showFrame {{Raven}} 16/playSound batScreech/shake {{Raven}} 1500/pause 1500/showFrame {{Raven}} 8/
             --Raven and Gus speak/
                 {{speakRaven}} \"{{i18n:GusEdibles_speak_7}}\"/{{emoteRaven}} {{emoteSweat}} true/playSound dwop/pause 1000/{{speakGus}} \"{{i18n:GusEdibles_speak_8}}\"/pause 300/
             --Farmer gets resurrected/
@@ -119,7 +119,7 @@
             --Gus speaks/
                 {{speakGus}} \"{{i18n:GusEdibles_speak_10}}\"/pause 300/{{faceDirectionFarmer}} {{up}}/pause 300/{{emoteFarmer}} {{emoteHappy}}/pause 800/
             --End with dialogue/
-                end dialogue {{ModId}} \"{{i18n:GusEdibles_end_1}}\" dialogue Gus \"{{i18n:GusEdible_end_2}}\"",
+                end dialogue {{Raven}} \"{{i18n:GusEdibles_end_1}}\" dialogue Gus \"{{i18n:GusEdible_end_2}}\"",
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",
@@ -130,22 +130,22 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_L0veRaven_RavenTentInside",
             "Entries": {
-                "27407101/n {{ModId}}_SmokeSession": "jaunty/2 5/farmer 2 5 0 {{ModId}} 3 3 2/skippable/friendship {{ModId}} 15/pause 500/
-                textAboveHead {{ModId}} \"{{i18n:SmokeSession_textAboveHead}}\"/pause 1500/
+                "27407101/n {{Raven}}_SmokeSession": "jaunty/2 5/farmer 2 5 0 {{Raven}} 3 3 2/skippable/friendship {{Raven}} 15/pause 500/
+                textAboveHead {{Raven}} \"{{i18n:SmokeSession_textAboveHead}}\"/pause 1500/
                 move farmer 0 -2 1 true/
-                faceDirection {{ModId}} 3/
+                faceDirection {{Raven}} 3/
                 pause 1500/
-                speak {{ModId}} \"{{i18n:SmokeSession_speak_1}}\"/
+                speak {{Raven}} \"{{i18n:SmokeSession_speak_1}}\"/
                 pause 500/
                 emote farmer 32/
                 pause 500/
-                speak {{ModId}} \"{{i18n:SmokeSession_speak_2}}\"/
+                speak {{Raven}} \"{{i18n:SmokeSession_speak_2}}\"/
                 quickQuestion {{i18n:SmokeSession_qQ}}#{{i18n:SmokeSession_qQ_1}}#{{i18n:SmokeSession_qQ_2}}
-                (break)speak {{ModId}} \"{{i18n:SmokeSession_qQ_1_1}}\"\\farmerEat {{NB}}_Preroll\\pause 3000
-                (break)speak {{ModId}} \"{{i18n:SmokeSession_qQ_2_1}}\"\\farmerEat {{NB}}_SpecialBrownie\\pause 3000/
-                animate {{ModId}} false false 350 20 21 22 23 24 25 26 27 20/
+                (break)speak {{Raven}} \"{{i18n:SmokeSession_qQ_1_1}}\"\\farmerEat {{NB}}_Preroll\\pause 3000
+                (break)speak {{Raven}} \"{{i18n:SmokeSession_qQ_2_1}}\"\\farmerEat {{NB}}_SpecialBrownie\\pause 3000/
+                animate {{Raven}} false false 350 20 21 22 23 24 25 26 27 20/
                 pause 500/
-                speak {{ModId}} \"Can you feel the high kicking in yet?\"/
+                speak {{Raven}} \"Can you feel the high kicking in yet?\"/
                 emote farmer 56/
                 end",
             },

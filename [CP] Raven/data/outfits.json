@@ -3,7 +3,7 @@
         {
             "LogName": "outfits.json: Character Loads",
             "Action": "Load",
-            "Target": "Characters/index,Characters/{{Raven}}, Characters/{{Raven}}Neutral, Characters/{{Raven}}Spring, Characters/{{Raven}}Summer, Characters/{{Raven}}Fall, Characters/{{Raven}}Winter, Characters/{{Raven}}Beach, Characters/{{Raven}}Spring, Characters/{{Raven}}Sunflower, Characters/{{Raven}}Daisy, Characters/{{Raven}}Cactus, Characters/{{Raven}}Weed, Characters/{{Raven}}FlowerDance",
+            "Target": "Characters/index, Characters/{{Raven}}, Characters/{{Raven}}Neutral, Characters/{{Raven}}Spring, Characters/{{Raven}}Summer, Characters/{{Raven}}Fall, Characters/{{Raven}}Winter, Characters/{{Raven}}Beach, Characters/{{Raven}}Spring, Characters/{{Raven}}Sunflower, Characters/{{Raven}}Daisy, Characters/{{Raven}}Cactus, Characters/{{Raven}}Weed, Characters/{{Raven}}FlowerDance",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
         },
         {
@@ -16,10 +16,10 @@
             "LogName": "outfits.json: Appearance Data - Index",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Index": {
-                    "Id": "{{ModId}}.Index",
+                "{{Raven}}.Index": {
+                    "Id": "{{Raven}}.Index",
                     "Condition": "{{RavenIndex |contains = true}}",
                     "Sprite": "Characters/index",
                     "Portrait": "Portraits/index",
@@ -33,10 +33,10 @@
             "LogName": "outfits.json: Appearance Data - Nude",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Nude": {
-                    "Id": "{{ModId}}.Nude",
+                "{{Raven}}.Nude": {
+                    "Id": "{{Raven}}.Nude",
                     "Condition": "{{RavenNude |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Spring",
                     "Portrait": "Portraits/{{Raven}}Spring",
@@ -50,10 +50,10 @@
             "LogName": "outfits.json: Appearance Data - Spring",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Spring": {
-                    "Id": "{{ModId}}.Spring",
+                "{{Raven}}.Spring": {
+                    "Id": "{{Raven}}.Spring",
                     "Condition": "SEASON spring",
                     "Sprite": "Characters/{{Raven}}Spring",
                     "Portrait": "Portraits/{{Raven}}Spring",
@@ -67,10 +67,10 @@
             "LogName": "outfits.json: Appearance Data - Summer",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Summer": {
-                    "Id": "{{ModId}}.Summer",
+                "{{Raven}}.Summer": {
+                    "Id": "{{Raven}}.Summer",
                     "Condition": "SEASON summer",
                     "Sprite": "Characters/{{Raven}}Summer",
                     "Portrait": "Portraits/{{Raven}}Summer",
@@ -84,10 +84,10 @@
             "LogName": "outfits.json: Appearance Data - Fall",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Fall": {
-                    "Id": "{{ModId}}.Fall",
+                "{{Raven}}.Fall": {
+                    "Id": "{{Raven}}.Fall",
                     "Condition": "SEASON fall",
                     "Sprite": "Characters/{{Raven}}Fall",
                     "Portrait": "Portraits/{{Raven}}Fall",
@@ -101,10 +101,10 @@
             "LogName": "outfits.json: Appearance Data - Winter",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Winter": {
-                    "Id": "{{ModId}}.Winter",
+                "{{Raven}}.Winter": {
+                    "Id": "{{Raven}}.Winter",
                     "Condition": "SEASON winter",
                     "Sprite": "Characters/{{Raven}}Winter",
                     "Portrait": "Portraits/{{Raven}}Winter",
@@ -118,10 +118,10 @@
             "LogName": "outfits.json: Appearance Data - Flower Dance Suit",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.FlowerDance": {
-                    "Id": "{{ModId}}.FlowerDance",
+                "{{Raven}}.FlowerDance": {
+                    "Id": "{{Raven}}.FlowerDance",
                     "Condition": "IS_EVENT festival_spring24",
                     "Sprite": "Characters/{{Raven}}FlowerDance",
                     "Portrait": "Portraits/{{Raven}}FlowerDance",
@@ -135,10 +135,10 @@
             "LogName": "outfits.json: Appearance Data - Sunflower",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Sunflower": {
-                    "Id": "{{ModId}}.Sunflower",
+                "{{Raven}}.Sunflower": {
+                    "Id": "{{Raven}}.Sunflower",
                     "Condition": "IS_EVENT festival_fall27, {{SunflowerCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Sunflower",
                     "Portrait": "Portraits/{{Raven}}Sunflower",
@@ -152,10 +152,10 @@
             "LogName": "outfits.json: Appearance Data - Daisy",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Daisy": {
-                    "Id": "{{ModId}}.Daisy",
+                "{{Raven}}.Daisy": {
+                    "Id": "{{Raven}}.Daisy",
                     "Condition": "IS_EVENT festival_fall27, {{DaisyCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Daisy",
                     "Portrait": "Portraits/{{Raven}}Daisy",
@@ -169,10 +169,10 @@
             "LogName": "outfits.json: Appearance Data - Cactus",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Cactus": {
-                    "Id": "{{ModId}}.Cactus",
+                "{{Raven}}.Cactus": {
+                    "Id": "{{Raven}}.Cactus",
                     "Condition": "IS_EVENT festival_fall27, {{CactusCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Cactus",
                     "Portrait": "Portraits/{{Raven}}Cactus",
@@ -186,10 +186,10 @@
             "LogName": "outfits.json: Appearance Data - Weed",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Weed": {
-                    "Id": "{{ModId}}.Weed",
+                "{{Raven}}.Weed": {
+                    "Id": "{{Raven}}.Weed",
                     "Condition": "IS_EVENT festival_fall27, {{WeedCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Weed",
                     "Portrait": "Portraits/{{Raven}}Weed",
@@ -203,10 +203,10 @@
             "LogName": "outfits.json: Appearance Data - Island/Beach",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Beach": {
-                    "Id": "{{ModId}}.Beach",
+                "{{Raven}}.Beach": {
+                    "Id": "{{Raven}}.Beach",
                     "Sprite": "Characters/{{Raven}}Beach",
                     "Portrait": "Portraits/{{Raven}}Beach",
                     "IsIslandAttire": true,
@@ -219,10 +219,10 @@
             "LogName": "outfits.json: Appearance Data - Neutral",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Neutral": {
-                    "Id": "{{ModId}}.Neutral",
+                "{{Raven}}.Neutral": {
+                    "Id": "{{Raven}}.Neutral",
                     "Condition": "SEASON spring summer fall winter",
                     "Sprite": "Characters/{{Raven}}Neutral",
                     "Portrait": "Portraits/{{Raven}}Neutral",
@@ -236,10 +236,10 @@
             "LogName": "outfits.json: Appearance Data - Default",
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": ["{{ModId}}","Appearance"],
+            "TargetField": ["{{Raven}}","Appearance"],
             "Entries": {
-                "{{ModId}}.Default": {
-                    "Id": "{{ModId}}.Default",
+                "{{Raven}}.Default": {
+                    "Id": "{{Raven}}.Default",
                     "Condition": "SEASON spring summer",
                     "Sprite": "Characters/{{Raven}}",
                     "Portrait": "Portraits/{{Raven}}",

@@ -3,7 +3,7 @@
         {
             "LogName": "dialogue.json: First of Season Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring_1_2": "{{springFirst}}",
                 "summer_1": "{{summerFirst}}",
@@ -14,7 +14,7 @@
         {
             "LogName": "dialogue.json: Birthday & Checkup Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "winter_18": "{{bdayCheckup}}",
             },
@@ -22,7 +22,7 @@
         {
             "LogName": "dialogue.json: Festival Dialogue (Yesterday, Today, Tomorrow)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Egg Festival
                 "spring_12": "{{eggFestYest}}","spring_13": "{{eggFestToday}}","spring_14": "{{eggFestTomo}}",
@@ -45,7 +45,7 @@
         {
             "LogName": "dialogue.json: Seasons (May Not Appear In-Game)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring": "{{i18n:spring}}",
                 "summer": "{{i18n:summer}}",
@@ -56,7 +56,7 @@
         {
             "LogName": "dialogue.json: Generic Seasonal Dialogue (Mon, Thu)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //0 Hearts
                 "spring_Mon": "{{genericSpring}}","spring_Thu": "{{genericSpring}}",
@@ -93,7 +93,7 @@
         {
             "LogName": "dialogue.json: Generic Dialogue (Tue, Sun)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "{{season}}_Tue": "{{generic}}","{{season}}_Sun": "{{generic}}",
                 "{{season}}_Tue2": "{{generic}}","{{season}}_Sun2": "{{generic}}",
@@ -106,7 +106,7 @@
         {
             "LogName": "dialogue.json: Heart Dialogue (Wed, Fri, Sat)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "{{season}}_Wed": "{{0hearts}}","{{season}}_Fri": "{{0hearts}}","{{season}}_Sat": "{{0hearts}}",
                 "{{season}}_Wed2": "{{2hearts}}","{{season}}_Fri2": "{{2hearts}}","{{season}}_Sat2": "{{2hearts}}",
@@ -119,18 +119,18 @@
         {
             "LogName": "dialogue.json: 8 Hearts - Dating",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "{{season}}_Wed8": "{{8heartsdating}}","{{season}}_Fri8": "{{8heartsdating}}","{{season}}_Sat8": "{{8heartsdating}}",
             },
             "When": {
-                "Relationship:{{ModId}}": "Dating",
+                "Relationship:{{Raven}}": "Dating",
             }
         },
         {
             "LogName": "dialogue.json: Weather - Green Rain",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "GreenRain": "{{i18n:GreenRain_1}}",
                 "GreenRainFinished": "{{i18n:GreenRainFinished_1}}",
@@ -143,7 +143,7 @@
         {
             "LogName": "dialogue.json: Weather - Spring Rain",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring_Mon": "{{spRain}}","spring_Mon2": "{{spRain}}","spring_Mon4": "{{spRain}}","spring_Mon6": "{{spRain}}","spring_Mon8": "{{spRain}}","spring_Mon10": "{{spRain}}",
                 "spring_Tue": "{{spRain}}","spring_Tue2": "{{spRain}}","spring_Tue4": "{{spRain}}","spring_Tue6": "{{spRain}}","spring_Tue8": "{{spRain}}","spring_Tue10": "{{spRain}}",
@@ -161,7 +161,7 @@
         {
             "LogName": "dialogue.json: Weather - Spring Storm",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring_Mon": "{{spStorm}}","spring_Mon2": "{{spStorm}}","spring_Mon4": "{{spStorm}}","spring_Mon6": "{{spStorm}}","spring_Mon8": "{{spStorm}}","spring_Mon10": "{{spStorm}}",
                 "spring_Tue": "{{spStorm}}","spring_Tue2": "{{spStorm}}","spring_Tue4": "{{spStorm}}","spring_Tue6": "{{spStorm}}","spring_Tue8": "{{spStorm}}","spring_Tue10": "{{spStorm}}",
@@ -179,7 +179,7 @@
         {
             "LogName": "dialogue.json: Weather - Spring Wind",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring_Mon": "{{spWind}}","spring_Mon2": "{{spWind}}","spring_Mon4": "{{spWind}}","spring_Mon6": "{{spWind}}","spring_Mon8": "{{spWind}}","spring_Mon10": "{{spWind}}",
                 "spring_Tue": "{{spWind}}","spring_Tue2": "{{spWind}}","spring_Tue4": "{{spWind}}","spring_Tue6": "{{spWind}}","spring_Tue8": "{{spWind}}","spring_Tue10": "{{spWind}}",
@@ -197,7 +197,7 @@
         {
             "LogName": "dialogue.json: Weather - Summer Rain",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "summer_Mon": "{{suRain}}","summer_Mon2": "{{suRain}}","summer_Mon4": "{{suRain}}","summer_Mon6": "{{suRain}}","summer_Mon8": "{{suRain}}","summer_Mon10": "{{suRain}}",
                 "summer_Tue": "{{suRain}}","summer_Tue2": "{{suRain}}","summer_Tue4": "{{suRain}}","summer_Tue6": "{{suRain}}","summer_Tue8": "{{suRain}}","summer_Tue10": "{{suRain}}",
@@ -213,9 +213,9 @@
             }
         },
         {
-            "LogName": "dialogue.json: Weather: Summer Storm",
+            "LogName": "dialogue.json: Weather - Summer Storm",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "summer_Mon": "{{suStorm}}","summer_Mon2": "{{suStorm}}","summer_Mon4": "{{suStorm}}","summer_Mon6": "{{suStorm}}","summer_Mon8": "{{suStorm}}","summer_Mon10": "{{suStorm}}",
                 "summer_Tue": "{{suStorm}}","summer_Tue2": "{{suStorm}}","summer_Tue4": "{{suStorm}}","summer_Tue6": "{{suStorm}}","summer_Tue8": "{{suStorm}}","summer_Tue10": "{{suStorm}}",
@@ -233,7 +233,7 @@
         {
             "LogName": "dialogue.json: Weather - Fall Rain",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "fall_Mon": "{{faRain}}","fall_Mon2": "{{faRain}}","fall_Mon4": "{{faRain}}","fall_Mon6": "{{faRain}}","fall_Mon8": "{{faRain}}","fall_Mon10": "{{faRain}}",
                 "fall_Tue": "{{faRain}}","fall_Tue2": "{{faRain}}","fall_Tue4": "{{faRain}}","fall_Tue6": "{{faRain}}","fall_Tue8": "{{faRain}}","fall_Tue10": "{{faRain}}",
@@ -251,7 +251,7 @@
         {
             "LogName": "dialogue.json: Weather - Fall Storm",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "fall_Mon": "{{faStorm}}","fall_Mon2": "{{faStorm}}","fall_Mon4": "{{faStorm}}","fall_Mon6": "{{faStorm}}","fall_Mon8": "{{faStorm}}","fall_Mon10": "{{faStorm}}",
                 "fall_Tue": "{{faStorm}}","fall_Tue2": "{{faStorm}}","fall_Tue4": "{{faStorm}}","fall_Tue6": "{{faStorm}}","fall_Tue8": "{{faStorm}}","fall_Tue10": "{{faStorm}}",
@@ -269,7 +269,7 @@
         {
             "LogName": "dialogue.json: Weather - Fall Wind",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "fall_Mon": "{{faWind}}","fall_Mon2": "{{faWind}}","fall_Mon4": "{{faWind}}","fall_Mon6": "{{faWind}}","fall_Mon8": "{{faWind}}","fall_Mon10": "{{faWind}}",
                 "fall_Tue": "{{faWind}}","fall_Tue2": "{{faWind}}","fall_Tue4": "{{faWind}}","fall_Tue6": "{{faWind}}","fall_Tue8": "{{faWind}}","fall_Tue10": "{{faWind}}",
@@ -287,7 +287,7 @@
         {
             "LogName": "dialogue.json: Weather - Winter Rain",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "winter_Mon": "{{wiRain}}","winter_Mon2": "{{wiRain}}","winter_Mon4": "{{wiRain}}","winter_Mon6": "{{wiRain}}","winter_Mon8": "{{wiRain}}","winter_Mon10": "{{wiRain}}",
                 "winter_Tue": "{{wiRain}}","winter_Tue2": "{{wiRain}}","winter_Tue4": "{{wiRain}}","winter_Tue6": "{{wiRain}}","winter_Tue8": "{{wiRain}}","winter_Tue10": "{{wiRain}}",
@@ -304,7 +304,7 @@
         {
             "LogName": "dialogue.json: Weather - Snow",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "winter_Mon": "{{snowingD}}","winter_Mon2": "{{snowingD}}","winter_Mon4": "{{snowingD}}","winter_Mon6": "{{snowingD}}","winter_Mon8": "{{snowingD}}","winter_Mon10": "{{snowingD}}",
                 "winter_Tue": "{{snowingD}}","winter_Tue2": "{{snowingD}}","winter_Tue4": "{{snowingD}}","winter_Tue6": "{{snowingD}}","winter_Tue8": "{{snowingD}}","winter_Tue10": "{{snowingD}}",
@@ -321,7 +321,7 @@
         {
             "LogName": "dialogue.json: Festival Dialogue - In Events",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Flower Dance
                 "FlowerDance_Accept_Spouse": "{{flowDanAcceptSpouse}}",
@@ -347,7 +347,7 @@
         {
             "LogName": "dialogue.json: Conversation Topics - Default",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //General
                 "Introduction": "{{i18n:Introduction}}",
@@ -382,7 +382,7 @@
 //ADD        {
 //ADD            "LogName": "dialogue.json: Conversation Topics: Custom",
 //ADD            "Action": "EditData",
-//ADD            "Target": "Characters/Dialogue/{{ModId}}",
+//ADD            "Target": "Characters/Dialogue/{{Raven}}",
 //ADD            "Entries": {
 //ADD                "": "",
 //ADD            },
@@ -390,10 +390,10 @@
         {
             "LogName": "dialogue.json: Movies Invitation/Rejection",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "MovieInvitation": "{{movieInvite}}",
-                "MovieInvite_Spouse_{{ModId}}": "{{movieInviteSpouse}}",
+                "MovieInvite_Spouse_{{Raven}}": "{{movieInviteSpouse}}",
                 "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{movieInviteAlrInv}}",
                 "RejectMovieTicket_AlreadyWatchedThisWeek": "{{movieInviteAlrWat}}",
                 "RejectMovieTicket_Divorced": "{{movieInviteDivorced}}",
@@ -404,7 +404,7 @@
         {
             "LogName": "dialogue.json: Island Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "Resort": "{{resortD}}",
                 "Resort_Bar": "{{resortBarD}}",
@@ -421,7 +421,7 @@
         {
             "LogName": "dialogue.json: Location Entry Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "SeedShop_Entry": "{{i18n:SeedShop_Entry}}",
                 "Blacksmith_Entry": "{{i18n:Blacksmith_Entry}}",
@@ -438,7 +438,7 @@
         {
             "LogName": "dialogue.json: Dating",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Gifted wilted flowers
                 "breakUp": "{{i18n:breakUp}}",
@@ -453,7 +453,7 @@
         {
             "LogName": "dialogue.json: Divorced",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "WipedMemory": "{{i18n:WipedMemory}}",
                 "divorced": "{{divorcedDialogue}}",
@@ -467,18 +467,18 @@
             "Action": "EditData",
             "Target": "data/EngagementDialogue",
             "Entries": {
-                "{{ModId}}0": "{{i18n:Engagement_0}}",
-                "{{ModId}}1": "{{i18n:Engagement_1}}",
+                "{{Raven}}0": "{{i18n:Engagement_0}}",
+                "{{Raven}}1": "{{i18n:Engagement_1}}",
             },
         },
         {
             "LogName": "dialogue.json: Marriage Topics",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Proposal->Wedding
-                "{{ModId}}_Engaged": "{{i18n:Engaged}}",
-                "{{ModId}}_AfterWedding": "{{i18n:AfterWedding}}",
+                "{{Raven}}_Engaged": "{{i18n:Engaged}}",
+                "{{Raven}}_AfterWedding": "{{i18n:AfterWedding}}",
                 //Household Dialogue
                 "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
                 "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
@@ -499,7 +499,7 @@
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
-                "SummitEvent_Dialogue3_{{ModId}}": "{{i18n:Summit_1}}\"/faceDirection {{ModId}} 3/pause 500/speak {{ModId}} \"{{i18n:Summit_2}}\"",
+                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Summit_2}}\"",
             },
         },
     ]

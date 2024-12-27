@@ -5,7 +5,7 @@
         {
             "LogName": "schedule.json: Day Sensitive",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{ModId}}",
+            "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 "spring_13": "{{610am}} {{standBusStop}}/{{910am}} {{standBush}}/{{210pm}} {{standMountain}}/{{10pm}} {{inBed}}",//Egg Festival
                 "spring_24": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Flower Dance
@@ -21,7 +21,7 @@
         {
             "LogName": "schedule.json: Seasonal",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{ModId}}",
+            "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 //Spring
                 "spring_Mon": "{{jobSche}}",
@@ -62,7 +62,7 @@
         {
             "LogName": "schedule.json: Marriage",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{ModId}}",
+            "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
                 //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"

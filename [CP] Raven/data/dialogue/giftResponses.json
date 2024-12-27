@@ -3,7 +3,7 @@
         {
             "LogName": "giftResponses.json: Loved",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)66": "{{i18n:AcceptGift_Amethyst}}",//Amethyst
                 "AcceptGift_(O)74": "{{i18n:AcceptGift_PrismaticShard}}",//Prismatic Shard
@@ -35,7 +35,7 @@
         {
             "LogName": "giftResponses.json: Liked",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)-4": "{{i18n:AcceptGift_CategoryFish}}",//Fish
                 "AcceptGift_(O)-7": "{{i18n:AcceptGift_foodLike}}",//Cooking
@@ -69,7 +69,7 @@
         {
             "LogName": "giftResponses.json: Disliked",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)-12": "{{i18n:AcceptGift_notFanDislike}}",//Minerals
                 "AcceptGift_(O)-19": "{{i18n:AcceptGift_noPlaceDislike}}",//Fertilizer
@@ -99,7 +99,7 @@
         {
             "LogName": "giftResponses.json: Hated",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)artifact_item": "{{i18n:AcceptGift_cantUseHate}}",//Artifacts
                 "AcceptGift_(O)category_trinket": "{{i18n:AcceptGift_cantUseHate}}",//Trinkets
@@ -153,7 +153,7 @@
         {
             "LogName": "giftResponses.json: Neutral",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)-5": "{{i18n:AcceptGift_neutral}}",//Eggs
                 "AcceptGift_(O)-6": "{{i18n:AcceptGift_neutral}}",//Milk
@@ -173,7 +173,7 @@
         {
             "LogName": "giftResponses.json: Generic Tastes",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved}}",
                 "AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked}}",
@@ -186,20 +186,20 @@
         {
             "LogName": "giftResponses.json: Dialogue Change - Married",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "RejectItem_(O)-19": "{{i18n:RejectItem_Fertilizer}}",//Fertilizer
                 "RejectItem_(O)-74": "{{i18n:RejectItem_Seeds}}",//Seeds Saplings Starters
                 "RejectItem_(O)Book_PriceCatalogue": "{{i18n:RejectItem_PriceCatalogue_married}}",//Price Catalogue
             },
             "When": {
-                "Relationship:{{ModId}}": "Married",
+                "Relationship:{{Raven}}": "Married",
             }
         },
         {
             "LogName": "giftResponses.json: Dialogue Change - Fall",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "AcceptGift_(O)746": "{{i18n:AcceptGift_JackOLantern_Fall}}",// Jack-O-Lantern
             },
@@ -210,7 +210,7 @@
         {
             "LogName": "giftResponses.json: Reject Items",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "RejectItem(O)fish_legendary": "{{i18n:RejectItem_legendaryFish}}",//Legendary Fish
                 "RejectItem(O)hidden_item": "{{i18n:RejectItem_hidden}}",//Hidden & Litter

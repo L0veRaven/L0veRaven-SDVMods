@@ -6,7 +6,7 @@
             "Target": "Data/MoviesReactions",
             "Entries": {
                 "{{displayName}}": {
-                    "NPCName": "{{ModId}}", // Internal name
+                    "NPCName": "{{Raven}}", // Internal name
                     "Reactions": [
 // The Brave Little Sapling - (Animated Family / Comedy)
                         {
@@ -22,7 +22,7 @@
                                     },
                                 "DuringMovie": {
                                         "ResponsePoint": null,
-                                        "Script": "/emote {{ModId}} 20/pause 500/message \"{{i18n:movie_tbls_during}}\"",
+                                        "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie_tbls_during}}\"",
                                         "Text": ""
                                     },
                                 "AfterMovie": {
@@ -46,7 +46,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{ModId}} 24/pause 500/message \"{{i18n:movie_nw_during}}\"",
+                                    "Script": "/emote {{Raven}} 24/pause 500/message \"{{i18n:movie_nw_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -70,7 +70,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{ModId}} 20/pause 500/message \"{{i18n:movie_jotpk_during}}\"",
+                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie_jotpk_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -118,7 +118,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/shake {{ModId}} 3000/pause 500/message \"{{i18n:movie_m_during}}\"",
+                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie_m_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -142,7 +142,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/shake {{ModId}} 3000/pause 500/message \"{{i18n:movie_ihir_during}}\"",
+                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie_ihir_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -166,7 +166,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{ModId}} 28/message \"{{i18n:movie_macr_during}}\"",
+                                    "Script": "/emote {{Raven}} 28/message \"{{i18n:movie_macr_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -190,7 +190,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{ModId}} 20/pause 500/message \"{{i18n:movie_tzce_during}}\"",
+                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie_tzce_during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {

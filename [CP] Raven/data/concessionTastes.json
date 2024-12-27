@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/ConcessionTastes",
             "Entries": {
-                "{{ModId}}": {
+                "{{Raven}}": {
                     "Name": "{{i18n:DisplayName}}",
                     "LovedTags": [ "Cotton Candy", "Rock Candy", "Stardrop Sorbet" ],
                     "LikedTags": [ "Star Cookie", "Popcorn", "Personal Pizza", "JojaCorn", "Joja Cola", "Ice Cream Sandwich" ],

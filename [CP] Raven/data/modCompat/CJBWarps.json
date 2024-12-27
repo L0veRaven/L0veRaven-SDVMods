@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
-                "{{ModId}}_RavensTent": {
-                    "Id": "{{ModId}}_Raven's Tent",
+                "{{Raven}}_RavensTent": {
+                    "Id": "{{ModId}}_RavensTent",
                     "DisplayName": "{{i18n:CJB_RavensTent}}",
                     "Location": "Forest",
                     "Tile": "88, 89",
@@ -22,7 +22,7 @@
                 "{{ModId}}_RavensTent": {},
             },
             "When": {
-                "HasReadLetter": "{{ModId}}_ravenApartment",
+                "HasReadLetter": "{{ModId}}Apartment",
             }
         },
         {
@@ -40,7 +40,7 @@
                 },
             },
             "When": {
-                "HasReadLetter": "{{ModId}}_ravenApartment",
+                "HasReadLetter": "{{Raven}}Apartment",
             }
         },
     ]

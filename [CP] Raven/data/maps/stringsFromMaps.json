@@ -60,7 +60,7 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 //Name to show on world map
-                "Custom_L0veRavenRaven_TentInside.1": "{{i18n:RavensTent}}",
+                "Custom_{{Raven}}TentInside.1": "{{i18n:RavensTent}}",
             }
         },
     ]

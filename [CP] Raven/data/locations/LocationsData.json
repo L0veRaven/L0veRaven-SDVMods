@@ -12,7 +12,7 @@
                 },
                 "ExcludeFromNpcPathfinding": false,
                 "CreateOnLoad": {
-                    "MapPath": "Maps\\Custom_L0veRaven_RavenTentInside",
+                    "MapPath": "Maps\\Custom_{{Raven}}TentInside",
                     "Type": null,
                     "AlwaysActive": false
                 },

@@ -5,9 +5,9 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_CheckIn_1": "{{i18n:CheckIn_Mail_1}}",
-                "{{ModId}}_CheckIn_2": "{{i18n:CheckIn_Mail_2}}",
-                "{{ModId}}_CheckIn_3": "{{i18n:CheckIn_Mail_3}}",
+                "{{Raven}}_CheckIn_1": "{{i18n:CheckIn_Mail_1}}",
+                "{{Raven}}_CheckIn_2": "{{i18n:CheckIn_Mail_2}}",
+                "{{Raven}}_CheckIn_3": "{{i18n:CheckIn_Mail_3}}",
             },
         },
         {
@@ -15,10 +15,10 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_CleansingFarmer": "{{i18n:CleansingFarmer_Mail}}",
-                "{{ModId}}_CleansingFarmer2_1": "{{i18n:CleansingFarmer2_Mail_1}}",
-                "{{ModId}}_CleansingFarmer2_2": "{{i18n:CleansingFarmer2_Mail_2}}",
-                "{{ModId}}_CleansingFarmer2_3": "{{i18n:CleansingFarmer2_Mail_3}}",
+                "{{Raven}}_CleansingFarmer": "{{i18n:CleansingFarmer_Mail}}",
+                "{{Raven}}_CleansingFarmer2_1": "{{i18n:CleansingFarmer2_Mail_1}}",
+                "{{Raven}}_CleansingFarmer2_2": "{{i18n:CleansingFarmer2_Mail_2}}",
+                "{{Raven}}_CleansingFarmer2_3": "{{i18n:CleansingFarmer2_Mail_3}}",
             },
         },
         {
@@ -26,7 +26,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_JobInterview": "{{i18n:JobInterview_Mail}}",
+                "{{Raven}}_JobInterview": "{{i18n:JobInterview_Mail}}",
             },
         },
         {
@@ -34,9 +34,9 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_marriageTalk_1": "{{i18n:marriageTalk_1_Mail}}",
-                "{{ModId}}_marriageTalk_2": "{{i18n:marriageTalk_2_Mail}}",
-                "{{ModId}}_marriageTalk_3": "{{i18n:marriageTalk_3_Mail}}",
+                "{{Raven}}_marriageTalk_1": "{{i18n:marriageTalk_1_Mail}}",
+                "{{Raven}}_marriageTalk_2": "{{i18n:marriageTalk_2_Mail}}",
+                "{{Raven}}_marriageTalk_3": "{{i18n:marriageTalk_3_Mail}}",
             },
         },
         {
@@ -44,7 +44,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_ravenApartment": "{{i18n:ravenApartment_Mail}}",
+                "{{Raven}}Apartment": "{{i18n:ravenApartment_Mail}}",
             },
         },
         {
@@ -52,16 +52,16 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModId}}_LoveLetter_1": "{{i18n:LoveLetter_1}}",
-                "{{ModId}}_LoveLetter_2": "{{i18n:LoveLetter_2}}",
-                "{{ModId}}_LoveLetter_3": "{{i18n:LoveLetter_3}}",
-                "{{ModId}}_LoveLetter_4": "{{i18n:LoveLetter_4}}",
-                "{{ModId}}_LoveLetter_5": "{{i18n:LoveLetter_5}}",
-                "{{ModId}}_LoveLetter_6": "{{i18n:LoveLetter_6}}",
-                "{{ModId}}_LoveLetter_7": "{{i18n:LoveLetter_7}}",
+                "{{Raven}}_LoveLetter_1": "{{i18n:LoveLetter_1}}",
+                "{{Raven}}_LoveLetter_2": "{{i18n:LoveLetter_2}}",
+                "{{Raven}}_LoveLetter_3": "{{i18n:LoveLetter_3}}",
+                "{{Raven}}_LoveLetter_4": "{{i18n:LoveLetter_4}}",
+                "{{Raven}}_LoveLetter_5": "{{i18n:LoveLetter_5}}",
+                "{{Raven}}_LoveLetter_6": "{{i18n:LoveLetter_6}}",
+                "{{Raven}}_LoveLetter_7": "{{i18n:LoveLetter_7}}",
             },
             "When": {
-                "Relationship:{{ModId}}": "Dating",
+                "Relationship:{{Raven}}": "Dating",
             }
         },
     ]

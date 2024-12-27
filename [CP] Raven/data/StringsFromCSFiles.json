@@ -17,7 +17,7 @@
                 "NPC.cs.3980": "{{i18n:Engaged}}",
             },
             "When": {
-                "Relationship:{{ModId}}": "Dating, Engaged",
+                "Relationship:{{Raven}}": "Dating, Engaged",
             }
         },
     ]

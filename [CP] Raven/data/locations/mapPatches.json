@@ -10,7 +10,7 @@
                 "X": 83,"Y": 79,"Width": 11,"Height": 15,
             },
             "When": {
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
             }
         },
         {
@@ -24,7 +24,7 @@
                 "X": 87,"Y": 84,"Width": 3,"Height": 5,
             },
             "When": {
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
             }
         },
@@ -52,7 +52,7 @@
                 }
             ],
             "When": {
-                "HasReadLetter": "{{ModId}}_ravenApartment",
+                "HasReadLetter": "{{Raven}}Apartment",
             },
         },
         {
@@ -83,13 +83,13 @@
                 "88 87 Custom_{{Raven}}TentInside 2 4",
             ],
             "When": {
-                "Relationship:{{ModId}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
             }
         },
         {
             "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside",
             "Action": "EditMap",
-            "Target": "Maps/Custom_LoveRaven_RavenTentInside",
+            "Target": "Maps/Custom_{{Raven}}TentInside",
             "AddWarps": [
                 "2 6 Forest 88 88",
             ]

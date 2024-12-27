@@ -6,48 +6,17 @@
             "Target": "Data/WorldMap",
             "TargetField": ["Valley", "MapAreas"],
             "Entries": {
-                "{{ModId}}_IndoorTownMap_L0veRavenRaven_TentInside": {
-                    "Id": "Custom_L0veRavenRaven_TentInside",
+                "{{ModId}}_IndoorTownMap_{{Raven}}TentInside": {
+                    "Id": "Custom_{{Raven}}TentInside",
                     "PixelArea": {
                         "X":0,"Y":0,"Width":300,"Height":180,
                     },
                     "ScrollText": "{{i18n:RavensTent}}",
                     "WorldPositions": [
                         {
-                            "Id": "Custom_L0veRavenRaven_TentInside",
-                            "LocationName": "Custom_L0veRavenRaven_TentInside",
+                            "Id": "Custom_{{Raven}}TentInside",
+                            "LocationName": "Custom_{{Raven}}TentInside",
                             "MapPixelArea": {//Position of Entryway
-                                "X":104,"Y":141,"Width":0,"Height":0,
-                            },
-                        }
-                    ]
-                },
-                "{{ModId}}_IndoorTownMap_L0veRavenRaven_TentBasement": { //Pixels stay the same for sub-locations -> TLDR: Don't change parent's values
-                    "Id": "Custom_L0veRavenRaven_TentBasement",
-                    "PixelArea": {
-                        "X":0,"Y":0,"Width":300,"Height":180,
-                    },
-                    "ScrollText": "{{i18n:RavensTent}}",
-                    "WorldPositions": [
-                        {
-                            "Id": "Custom_L0veRavenRaven_TentBasement",
-                            "LocationName": "Custom_L0veRavenRaven_TentBasement",
-                            "MapPixelArea": {
-                                "X":104,"Y":141,"Width":0,"Height":0,
-                            },
-                        }
-                    ]
-                },
-                "{{ModId}}_TownMap_Tent": {//Tent's range on map
-                    "Id": "{{ModId}}_TownMap_Ravens",
-                    "PixelArea": {
-                        "X":102,"Y":140,"Width":5,"Height":5,
-                    },
-                    "Tooltips": [
-                        {
-                            "Id": "{{ModId}}_Town_Ravens",
-                            "Text": "{{i18n:RavensTent}}",
-                            "MapPixelArea": {
                                 "X":104,"Y":141,"Width":0,"Height":0,
                             },
                         }

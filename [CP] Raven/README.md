@@ -56,6 +56,36 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 | data/dialogue/dialogue.json | Notes |
 | ------------- | ------------- |
+| First of Season Dialogue | #C |
+| Birthday & Checkup Dialogue | #C |
+| Festival Dialogue (Yesterday, Today, Tomorrow) | #C |
+| Seasons (May Not Appear In-Game) | #C |
+| Generic Seasonal Dialogue (Mon, Thu) | #C |
+| Generic Dialogue (Tue, Sun) | #C |
+| Heart Dialogue (Wed, Fri, Sat) | #C |
+| 8 Hearts - Dating | #C |
+| Weather - Green Rain | #C |
+| Weather - Spring Rain | #C |
+| Weather - Spring Storm | #C |
+| Weather - Spring Wind | #C |
+| Weather - Summer Rain | #C |
+| Weather - Summer Storm | #C |
+| Weather - Fall Rain | #C |
+| Weather - Fall Storm | #C |
+| Weather - Fall Wind | #C |
+| Weather - Winter Rain | #C |
+| Weather - Snow | #C |
+| Festival Dialogue - In Events | #C |
+| Conversation Topics - Default | #C |
+| Conversation Topics - Custom | WIP ```//ADD``` |
+| Movies Invitation/Rejection | #C |
+| Island Dialogue | #C |
+| Location Entry Dialogue | #C |
+| Dating | #C |
+| Divorced | #C |
+| Engaged | #C |
+| Marriage Topics | #C |
+| Summit Dialogue | #C |
 
 | data/dialogue/giftResponses.json | Notes |
 | ------------- | ------------- |
@@ -94,6 +124,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | L0veRaven_RavenTentOutdoors.tmx | Patch over SDVE's nature spawn |
 | L0veRaven_RavenTentSnow.tmx | #T |
 | stringsFromMaps.json | WIP |
+| z_L0veRaven_Tent.png | WIP |
 
 | data/outfits.json | Notes |
 | ------------- | ------------- |
@@ -195,20 +226,36 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 ## Mod Compats
 
-| Festivals | Notes |
+| data/modCompat/solsticeWinterStar.json | Notes |
 | ------------- | ------------- |
-| data/modCompat/fireworksFestival.json | #T |
-| data/modCompat/pelicanTownPotluck.json | #T |
-| data/modCompat/ridgesideVillage.json | #T |
-| data/modCompat/solsticeWinterStar.json | #T |
+| Event Dialogue | #T |
 
-| Conversation Topics | Notes |
+| data/modCompat/ridgesideVillage.json | Notes |
 | ------------- | ------------- |
-| data/modCompat/downtownZuzu.json | #T |
-| data/modCompat/naturesBounty.json | #T |
+| Ridgeside Gathering | #T |
+| Ridgeside Gathering - Dialogue | #T |
+| Ember of Resolutions | #T |
+| Ember of Resolutions - Dialogue | #T |
+
+| data/modCompat/pelicanTownPotluck.json | Notes |
+| ------------- | ------------- |
+| Dialogue (Yesterday, Today, Tomorrow) | #T |
+
+| data/modCompat/fireworksFestival.json | Notes |
+| ------------- | ------------- |
+| Festival | #T |
+
+| data/modCompat/downtownZuzu.json | Notes |
+| ------------- | ------------- |
+| Conversation Topics | #C |
 
 | data/modCompat/naturesBounty.json | Notes |
 | ------------- | ------------- |
-| {{ModId}}_StonerLetter | WIP |
+| Gift Dialogue | #T |
+| Generic Dialogue | #C |
+| Schedule Dialogue | #T |
+| Love Letters | WIP |
+| Quest Letters | WIP |
+| Quests | WIP |
 | Event 100 | Does BGM match; Review i18n |
 | Event 101 | Does BGM match; Review i18n |

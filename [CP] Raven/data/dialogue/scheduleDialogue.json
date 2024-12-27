@@ -3,7 +3,7 @@
         {
             "LogName": "scheduleDialogue.json",
             "Action": "EditData",
-            "Target": "Strings/schedules/{{ModId}}",
+            "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
                 "Forest.001": "{{pissingSchD}}",
                 "Custom_L0veRavenRaven_TentInside.001": "{{stoveSchD}}",

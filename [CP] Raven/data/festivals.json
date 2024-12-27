@@ -9,31 +9,31 @@
                 {// Pre-Egg hunt: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 38 68 left",
+                    "Value": "{{Raven}} 38 68 left",
                     "Delimiter": "/",
                 },
                 //ADD{// Pre-Egg hunt: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 38 68 left",
+                    //ADD"Value": "{{Raven}} 38 68 left",
                     //ADD"Delimiter": "/",
                 //ADD},
                 {// Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{ModId}} 38 68 left",
+                    "Value": "{{Raven}} 38 68 left",
                     "Delimiter": "/",
                 },
                 //ADD{//After Egg hunt: Year 1
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                    //ADD"Value": "{{ModId}} 38 68 left",
+                    //ADD"Value": "{{Raven}} 38 68 left",
                     //ADD"Delimiter": "/",
                 //ADD},
                 //ADD{//After Egg hunt: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 38 68 left",
+                    //ADD"Value": "{{Raven}} 38 68 left",
                     //ADD"Delimiter": "/",
                 //ADD},
             ],
@@ -43,10 +43,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries": {
-                "{{ModId}}": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{ModId}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
             },
 
         },
@@ -59,25 +59,25 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 20 31 left",
+                    "Value": "{{Raven}} 20 31 left",
                     "Delimiter": "/",
                 },
                 {//Pre-Event: Year 2
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{ModId}} 20 31 left",
+                    "Value": "{{Raven}} 20 31 left",
                     "Delimiter": "/",
                 },
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{ModId}} 20 31 left",
+                    "Value": "{{Raven}} 20 31 left",
                     "Delimiter": "/",
                 },
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{ModId}} 20 31 left",
+                    "Value": "{{Raven}} 20 31 left",
                     "Delimiter": "/",
                 },
             ],
@@ -87,10 +87,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
             "Entries": {
-                "{{ModId}}": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
-                "{{ModId}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
             },
         },
         {
@@ -101,19 +101,19 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 54 20 down",
+                    "Value": "{{Raven}} 54 20 down",
                     "Delimiter": "/",
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 54 20 down",
+                    //ADD"Value": "{{Raven}} 54 20 down",
                     //ADD"Delimiter": "/",
                 //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{ModId}} 42 18 left",
+                    "Value": "{{Raven}} 42 18 left",
                     "Delimiter": "/",
                 },
             ],
@@ -123,11 +123,11 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
             "Entries": {
-                "{{ModId}}": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
-                "{{ModId}}_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
                 
-                "{{ModId}}_spouse": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
-                "{{ModId}}_spouse_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_spouse_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
             },
         },
         // Dance of the Moonlight Jellies
@@ -139,25 +139,25 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 11 30 left",
+                    "Value": "{{Raven}} 11 30 left",
                     "Delimiter": "/"
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 11 30 left",
+                    //ADD"Value": "{{Raven}} 11 30 left",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{ModId}} 11 30 left",
+                    "Value": "{{Raven}} 11 30 left",
                     "Delimiter": "/"
                 },
                 //ADD{//Main Event
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 11 30 left",
+                    //ADD"Value": "{{Raven}} 11 30 left",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -167,10 +167,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "Entries": {
-                "{{ModId}}": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                "{{ModId}}_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
             },
         },
         // Stardew Valley Fair
@@ -182,13 +182,13 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 28 80 right",
+                    "Value": "{{Raven}} 28 80 right",
                     "Delimiter": "/"
                 },
                 //ADD{
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 28 80 right",
+                    //ADD"Value": "{{Raven}} 28 80 right",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -198,10 +198,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
             "Entries": {
-                "{{ModId}}": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
-                "{{ModId}}_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
             },
         },
         // Spirit's Eve
@@ -213,13 +213,13 @@
                 {//Set Up: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 72 51 down",
+                    "Value": "{{Raven}} 72 51 down",
                     "Delimiter": "/"
                 },
                 //ADD{//Set Up: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 72 51 down",
+                    //ADD"Value": "{{Raven}} 72 51 down",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -229,10 +229,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
             "Entries": {
-                "{{ModId}}": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                "{{ModId}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Raven}}": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Raven}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
             },
         },
         // Festival of Ice
@@ -244,37 +244,37 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 57 45 left",
+                    "Value": "{{Raven}} 57 45 left",
                     "Delimiter": "/"
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 57 45 left",
+                    //ADD"Value": "{{Raven}} 57 45 left",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Main Event: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "MainEvent_additionalCharacters"],
-                "Value": "{{ModId}} 57 45 right",
+                "Value": "{{Raven}} 57 45 right",
                 "Delimiter": "/"
                 },
                 //ADD{//Main Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 57 45 right",
+                    //ADD"Value": "{{Raven}} 57 45 right",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//After Ice Fishing: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                "Value": "{{ModId}} 57 45 right",
+                "Value": "{{Raven}} 57 45 right",
                 "Delimiter": "/"
                 },
                 //ADD{//After Ice Fishing: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 57 45 right",
+                    //ADD"Value": "{{Raven}} 57 45 right",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -284,10 +284,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
             "Entries": {
-                "{{ModId}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                //ADD"{{ModId}}_spouse": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                "{{ModId}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                //ADD"{{ModId}}_spouse_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
             },
         },
         // Winter Star
@@ -299,25 +299,25 @@
                 {//Set Up: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 39 72 left",
+                    "Value": "{{Raven}} 39 72 left",
                     "Delimiter": "/"
                 },
                 //ADD{//Set Up: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 39 72 left",
+                    //ADD"Value": "{{Raven}} 39 72 left",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Secret Santa: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                    "Value": "{{ModId}} 39 72 left",
+                    "Value": "{{Raven}} 39 72 left",
                     "Delimiter": "/"
                 },
                 //ADD{//Secret Santa: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                    //ADD"Value": "{{ModId}} 39 72 left",
+                    //ADD"Value": "{{Raven}} 39 72 left",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -328,5 +328,5 @@
 //{
     //"Operation": "Append",
     //"Target": ["Fields", "set-up", 5],
-    //"Value": "/animate {{ModId}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+    //"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
 //},

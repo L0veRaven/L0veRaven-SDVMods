@@ -8,7 +8,7 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{ModId}} 12 20 down",
+                    "Value": "{{Raven}} 12 20 down",
                     "Delimiter": "/",
                 },
             ],
@@ -21,7 +21,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer20",
             "Entries": {
-                "{{ModId}}": "{{i18n:fireworksFestival_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:fireworksFestival_{{Random:{{Range:1,2}}}}}}",
             },
             "When": {
                 "HasMod: |contains={{FF}}": true,
