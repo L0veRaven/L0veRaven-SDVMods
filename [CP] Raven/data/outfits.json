@@ -241,8 +241,8 @@
                 "{{ModId}}.Default": {
                     "Id": "{{ModId}}.Default",
                     "Condition": "SEASON spring summer",
-                    "Sprite": "Characters/{{ModId}}",
-                    "Portrait": "Portraits/{{ModId}}",
+                    "Sprite": "Characters/{{Raven}}",
+                    "Portrait": "Portraits/{{Raven}}",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
