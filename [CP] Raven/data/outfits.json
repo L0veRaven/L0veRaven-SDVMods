@@ -3,13 +3,13 @@
         {
             "LogName": "outfits.json: Character Loads",
             "Action": "Load",
-            "Target": "Characters/index,Characters/{{ModId}}, Characters/{{ModId}}_Neutral, Characters/{{ModId}}_Spring, Characters/{{ModId}}_Summer, Characters/{{ModId}}_Fall, Characters/{{ModId}}_Winter, Characters/{{ModId}}_Beach, Characters/{{ModId}}_Spring, Characters/{{ModId}}_Sunflower, Characters/{{ModId}}_Daisy, Characters/{{ModId}}_Cactus, Characters/{{ModId}}_Weed, Characters/{{ModId}}_FlowerDance",
+            "Target": "Characters/index,Characters/{{Raven}}, Characters/{{Raven}}Neutral, Characters/{{Raven}}Spring, Characters/{{Raven}}Summer, Characters/{{Raven}}Fall, Characters/{{Raven}}Winter, Characters/{{Raven}}Beach, Characters/{{Raven}}Spring, Characters/{{Raven}}Sunflower, Characters/{{Raven}}Daisy, Characters/{{Raven}}Cactus, Characters/{{Raven}}Weed, Characters/{{Raven}}FlowerDance",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
         },
         {
             "LogName": "outfits.json: Portrait Loads",
             "Action": "Load",
-            "Target": "Portraits/index, Portraits/{{ModId}}, Portraits/{{ModId}}_Neutral, Portraits/{{ModId}}_Spring, Portraits/{{ModId}}_Summer, Portraits/{{ModId}}_Fall, Portraits/{{ModId}}_Winter, Portraits/{{ModId}}_Beach, Portraits/{{ModId}}_Spring, Portraits/{{ModId}}_Sunflower, Portraits/{{ModId}}_Daisy, Portraits/{{ModId}}_Cactus, Portraits/{{ModId}}_Marijuana, Portraits/{{ModId}}_FlowerDance",
+            "Target": "Portraits/index, Portraits/{{Raven}}, Portraits/{{Raven}}Neutral, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Summer, Portraits/{{Raven}}Fall, Portraits/{{Raven}}Winter, Portraits/{{Raven}}Beach, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Sunflower, Portraits/{{Raven}}Daisy, Portraits/{{Raven}}Cactus, Portraits/{{Raven}}Marijuana, Portraits/{{Raven}}FlowerDance",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
         },
         {
@@ -38,8 +38,8 @@
                 "{{ModId}}.Nude": {
                     "Id": "{{ModId}}.Nude",
                     "Condition": "{{RavenNude |contains = true}}",
-                    "Sprite": "Characters/{{ModId}}_Spring",
-                    "Portrait": "Portraits/{{ModId}}_Spring",
+                    "Sprite": "Characters/{{Raven}}Spring",
+                    "Portrait": "Portraits/{{Raven}}Spring",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
@@ -55,8 +55,8 @@
                 "{{ModId}}.Spring": {
                     "Id": "{{ModId}}.Spring",
                     "Condition": "SEASON spring",
-                    "Sprite": "Characters/{{ModId}}_Spring",
-                    "Portrait": "Portraits/{{ModId}}_Spring",
+                    "Sprite": "Characters/{{Raven}}Spring",
+                    "Portrait": "Portraits/{{Raven}}Spring",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
@@ -72,8 +72,8 @@
                 "{{ModId}}.Summer": {
                     "Id": "{{ModId}}.Summer",
                     "Condition": "SEASON summer",
-                    "Sprite": "Characters/{{ModId}}_Summer",
-                    "Portrait": "Portraits/{{ModId}}_Summer",
+                    "Sprite": "Characters/{{Raven}}Summer",
+                    "Portrait": "Portraits/{{Raven}}Summer",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
@@ -89,8 +89,8 @@
                 "{{ModId}}.Fall": {
                     "Id": "{{ModId}}.Fall",
                     "Condition": "SEASON fall",
-                    "Sprite": "Characters/{{ModId}}_Fall",
-                    "Portrait": "Portraits/{{ModId}}_Fall",
+                    "Sprite": "Characters/{{Raven}}Fall",
+                    "Portrait": "Portraits/{{Raven}}Fall",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
@@ -106,8 +106,8 @@
                 "{{ModId}}.Winter": {
                     "Id": "{{ModId}}.Winter",
                     "Condition": "SEASON winter",
-                    "Sprite": "Characters/{{ModId}}_Winter",
-                    "Portrait": "Portraits/{{ModId}}_Winter",
+                    "Sprite": "Characters/{{Raven}}Winter",
+                    "Portrait": "Portraits/{{Raven}}Winter",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
@@ -123,8 +123,8 @@
                 "{{ModId}}.FlowerDance": {
                     "Id": "{{ModId}}.FlowerDance",
                     "Condition": "IS_EVENT festival_spring24",
-                    "Sprite": "Characters/{{ModId}}_FlowerDance",
-                    "Portrait": "Portraits/{{ModId}}_FlowerDance",
+                    "Sprite": "Characters/{{Raven}}FlowerDance",
+                    "Portrait": "Portraits/{{Raven}}FlowerDance",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
@@ -140,8 +140,8 @@
                 "{{ModId}}.Sunflower": {
                     "Id": "{{ModId}}.Sunflower",
                     "Condition": "IS_EVENT festival_fall27, {{SunflowerCostumeSE |contains = true}}",
-                    "Sprite": "Characters/{{ModId}}_Sunflower",
-                    "Portrait": "Portraits/{{ModId}}_Sunflower",
+                    "Sprite": "Characters/{{Raven}}Sunflower",
+                    "Portrait": "Portraits/{{Raven}}Sunflower",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
@@ -157,8 +157,8 @@
                 "{{ModId}}.Daisy": {
                     "Id": "{{ModId}}.Daisy",
                     "Condition": "IS_EVENT festival_fall27, {{DaisyCostumeSE |contains = true}}",
-                    "Sprite": "Characters/{{ModId}}_Daisy",
-                    "Portrait": "Portraits/{{ModId}}_Daisy",
+                    "Sprite": "Characters/{{Raven}}Daisy",
+                    "Portrait": "Portraits/{{Raven}}Daisy",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
@@ -174,8 +174,8 @@
                 "{{ModId}}.Cactus": {
                     "Id": "{{ModId}}.Cactus",
                     "Condition": "IS_EVENT festival_fall27, {{CactusCostumeSE |contains = true}}",
-                    "Sprite": "Characters/{{ModId}}_Cactus",
-                    "Portrait": "Portraits/{{ModId}}_Cactus",
+                    "Sprite": "Characters/{{Raven}}Cactus",
+                    "Portrait": "Portraits/{{Raven}}Cactus",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
@@ -191,8 +191,8 @@
                 "{{ModId}}.Weed": {
                     "Id": "{{ModId}}.Weed",
                     "Condition": "IS_EVENT festival_fall27, {{WeedCostumeSE |contains = true}}",
-                    "Sprite": "Characters/{{ModId}}_Weed",
-                    "Portrait": "Portraits/{{ModId}}_Marijuana",
+                    "Sprite": "Characters/{{Raven}}Weed",
+                    "Portrait": "Portraits/{{Raven}}Marijuana",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
@@ -207,8 +207,8 @@
             "Entries": {
                 "{{ModId}}.Beach": {
                     "Id": "{{ModId}}.Beach",
-                    "Sprite": "Characters/{{ModId}}_Beach",
-                    "Portrait": "Portraits/{{ModId}}_Beach",
+                    "Sprite": "Characters/{{Raven}}Beach",
+                    "Portrait": "Portraits/{{Raven}}Beach",
                     "IsIslandAttire": true,
                     "Precedence": -1,
                     "Weight": 1,
@@ -224,8 +224,8 @@
                 "{{ModId}}.Neutral": {
                     "Id": "{{ModId}}.Neutral",
                     "Condition": "SEASON spring summer fall winter",
-                    "Sprite": "Characters/{{ModId}}_Neutral",
-                    "Portrait": "Portraits/{{ModId}}_Neutral",
+                    "Sprite": "Characters/{{Raven}}Neutral",
+                    "Portrait": "Portraits/{{Raven}}Neutral",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1,
