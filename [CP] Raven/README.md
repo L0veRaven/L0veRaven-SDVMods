@@ -18,13 +18,6 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | File & Focus | Notes |
 | ------------- | ------------- |
 | data/maps/L0veRaven.Raven_TentInside.tmx | Colors are too intense in-game; Fix layers |
-| data/events.json: Event 0 | Does end dialogue work correctly; Does BGM match; Check i18n dialogue |
-| data/events.json: Event 1 | Does BGM match; Check i18n dialogue |
-| data/events.json: Event 2 | Does BGM match; Check i18n dialogue |
-| data/events.json: Event 3 | Does BGM match; Check i18n dialogue |
-| data/events.json: Event 4 | Does BGM match; Check i18n dialogue |
-| data/events.json: Event 5 | WIP |
-| data/events.json: Event 6 | Test |
 | data/outfits.json: Spirit's Eve Costumes - Vampire | Not started |
 | data/animationFrames.json | Create animations/poses -> _beach_towel, _beach_dance, _beach_drink, _beach_umbrella, _handheld_game, _gardening, _sweep, _drink, _sing, _laugh, _sit, _read, _jump, _fishing |
 | data/festivals.json | Test festivals |
@@ -68,16 +61,27 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | {{ModId}}_marriageTalk_2 | Add letter content |
 | {{ModId}}_marriageTalk_3 | Add letter content |
 
+| data/events.json | Notes |
+| ------------- | ------------- |
+| Event 1590166: CatAdoption | Complete |
+| Event 0: CatLover | Does end dialogue work correctly; Does BGM match; Check i18n dialogue |
+| Event 1: CheckIn | Does BGM match; Check i18n dialogue |
+| Event 2: WildClans | Does BGM match; Check i18n dialogue |
+| Event 3: CleansingFarmer | Does BGM match; Check i18n dialogue |
+| Event 4: CleansingFarmer2 | Does BGM match; Check i18n dialogue |
+| Event 5: jobInterview | WIP |
+| Event 6: marriageTalk | Test |
+| Event 7: ravenApartment | WIP |
 
 | i18n/default.json | Notes |
 | ------------- | ------------- |
 | "addDialogue" | Remove from code |
 
+| data/dialogue/dialogue.json | Notes |
+| ------------- | ------------- |
+| Conversation Topics: Custom | //ADD |
 
-
-
-| data/dialogue/dialogue.json | //ADD -> Conversation Topics: Custom |
-| content.json: GMCM {{CleanLanguage}} | WIP; clean i18n not started |
-| content.json: GMCM {{RavenIndex}} | Delete when mod is complete |
-| content.json: GMCM | Reorganize |
-| ___ | ___ |
+| content.json.json | Notes |
+| ------------- | ------------- |
+| {{CleanLanguage}} | i18n not started (all keys prefixed with "clean_") |
+| {{RavenIndex}} | Delete when mod is complete |

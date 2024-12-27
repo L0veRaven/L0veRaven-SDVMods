@@ -11,10 +11,10 @@
         },
      
         {
-            "LogName": "events.json: Event 0 (27407000) Cat Lover",
+            "LogName": "events.json: Event 0 (27407000) CatLover",
             "Action": "EditData",
             "Target": "Data/Events/Town",
-            "Entries": { // Event 0 - CatLover
+            "Entries": {
                 "{{Nexus}}000/h cat/H": "CloudCountry/71 70/farmer 66 74 0 {{ModId}} 65 69 1 Penny 71 69 2/skippable/pause 500/
             --Raven approaches/
                 {{moveRaven}} 4 0 {{right}}/{{emoteRaven}} {{emoteQuestion}} true/playSound dwop/pause 1200/
@@ -58,10 +58,10 @@
         },
      
         {
-            "LogName": "events.json: Event 1 (27407001) Check In",
+            "LogName": "events.json: Event 1 (27407001) CheckIn",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
-            "Entries": { // Event 1 - Check-In
+            "Entries": {
                 "{{Nexus}}001/p {{ModId}}/j 14/f/w sunny": "jaunty/23 21/farmer 10 23 1 {{ModId}} 15 17 1/skippable/
             --Farmer walks in front of BusStop intersection sign/
                 {{moveFarmer}} 12 0 1/
