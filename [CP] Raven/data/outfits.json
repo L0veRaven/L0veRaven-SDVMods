@@ -9,7 +9,7 @@
         {
             "LogName": "outfits.json: Portrait Loads",
             "Action": "Load",
-            "Target": "Portraits/index, Portraits/{{Raven}}, Portraits/{{Raven}}Neutral, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Summer, Portraits/{{Raven}}Fall, Portraits/{{Raven}}Winter, Portraits/{{Raven}}Beach, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Sunflower, Portraits/{{Raven}}Daisy, Portraits/{{Raven}}Cactus, Portraits/{{Raven}}Marijuana, Portraits/{{Raven}}FlowerDance",
+            "Target": "Portraits/index, Portraits/{{Raven}}, Portraits/{{Raven}}Neutral, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Summer, Portraits/{{Raven}}Fall, Portraits/{{Raven}}Winter, Portraits/{{Raven}}Beach, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Sunflower, Portraits/{{Raven}}Daisy, Portraits/{{Raven}}Cactus, Portraits/{{Raven}}Weed, Portraits/{{Raven}}FlowerDance",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
         },
         {
@@ -192,7 +192,7 @@
                     "Id": "{{ModId}}.Weed",
                     "Condition": "IS_EVENT festival_fall27, {{WeedCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Weed",
-                    "Portrait": "Portraits/{{Raven}}Marijuana",
+                    "Portrait": "Portraits/{{Raven}}Weed",
                     "IsIslandAttire": false,
                     "Precedence": -1,
                     "Weight": 1,
