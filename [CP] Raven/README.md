@@ -9,6 +9,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | //ADD | Find referenced code and remove flag once added |
 | //review | Check if code is worth keeping |
 | //DELETE | Delete when it's confirmed it won't break the mod |
+| ###Delete | Delete when mod if complete |
 | #T | Test code |
 | #C | Don't touch the code |
 | #NS | Not Started |
@@ -53,9 +54,46 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | L0veRaven_RavenWeed.png | #C |
 | L0veRaven_RavenWinter.png | #C |
 
+| data/dialogue/dialogue.json | Notes |
+| ------------- | ------------- |
+
+| data/dialogue/giftResponses.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/dialogue/marriageDialogue.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/dialogue/moviesReactions.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/dialogue/scheduleDialogue.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/locations/LocationsData.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/locations/mapPatches.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
+| data/locations/WorldMap.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
+
 | data/maps | Notes |
 | ------------- | ------------- |
+| L0veRaven_RavenApartment.tmx | #C |
+| L0veRaven_RavenSpousePatio.tmx | #C |
+| L0veRaven_RavenSpouseRoom.tmx | #C |
 | L0veRaven_RavenTentInside.tmx | Swap bed and book positions |
+| L0veRaven_RavenTentOutdoors.tmx | Patch over SDVE's nature spawn |
+| L0veRaven_RavenTentSnow.tmx | #T |
+| stringsFromMaps.json | WIP |
 
 | data/outfits.json | Notes |
 | ------------- | ------------- |
@@ -117,8 +155,8 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | {{DaisyCostumeSE}} | #T |
 | {{SunflowerCostumeSE}} | #T |
 | {{WeedCostumeSE}} | #T |
-| {{RavenIndex}} | Delete when mod is done |
-| {{EventExcludes}} | Delete when mod is done |
+| {{RavenIndex}} | ###Delete |
+| {{EventExcludes}} | ###Delete |
 
 | content.json: CustomLocations | Notes |
 | ------------- | ------------- |
