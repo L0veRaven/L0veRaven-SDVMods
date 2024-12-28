@@ -4,6 +4,7 @@
             "LogName": "CJBWarps.json: Raven's Tent",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange",
             "Entries": {
                 "{{Raven}}_RavensTent": {
                     "Id": "{{ModId}}_RavensTent",
@@ -14,16 +15,18 @@
                 },
             },
             "When": {
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
+                "HasMod |contains={{SVE}}": "false",
+                "HasReadLetter": "{{Raven}}HiNeighbor",
             }
         },
         {
             "LogName": "CJBWarps.json: Raven's Tent (SVE)",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange",
             "Entries": {
-                "{{Raven}}_RavensTent": {
-                    "Id": "{{ModId}}_RavensTent",
+                "{{Raven}}_RavensTentSVE": {
+                    "Id": "{{ModId}}_RavensTentSVE",
                     "DisplayName": "{{i18n:CJB_RavensTent}}",
                     "Location": "Forest",
                     "Tile": "88, 89",
@@ -32,14 +35,14 @@
             },
             "When": {
                 "HasMod |contains={{SVE}}": "true",
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
             },
         },
         {
             "LogName": "CJBWarps.json: Raven's Apartment",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Update": "OnTimeChange",
+            "Update": "OnLocationChange",
             "Entries": {
                 "{{NPCA}}_Apartment1A": {
                     "Id": "{{NPCA}}_Apartment1A",

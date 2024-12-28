@@ -803,8 +803,8 @@
 "standStove": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
 "standStove_SVE": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
     
-"inBed": "Custom_L0veRavenRaven_TentInside 4 4 1 l0veraven.raven_sleep",
-"inBed_SVE": "Custom_L0veRavenRaven_TentInside 4 4 1 l0veraven.raven_sleep",
+"inBed": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven.raven_sleep",
+"inBed_SVE": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven.raven_sleep",
 // || Town ||
 "standCC": "Town 60 17 2",
 "standCC_SVE": "Town 60 17 2",

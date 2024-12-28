@@ -1,6 +1,37 @@
 {
     "Changes": [
         {
+            "LogName": "triggerActions.json: Add HiNeighbor",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{Raven}}HiNeighbor": {
+                    "Id": "{{Raven}}HiNeighbor",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY spring 1, YEAR 1",
+                    "Actions": [
+                        "AddMail All {{Raven}}HiNeighbor received",
+                    ],
+                }
+            },
+        },
+        {
+            "LogName": "triggerActions.json: Remove HiNeighbor",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{Raven}}OnMove": {
+                    "Id": "{{Raven}}OnMove",
+                    "Trigger": "LocationChanged",
+                    "Condition": "PLAYER_HAS_MAIL Host {{Raven}}Apartment received",
+                    "Actions": [
+                        "RemoveMail All {{Raven}}HiNeighbor received",
+                    ],
+                }
+            },
+        },
+        
+        {
             "LogName": "triggerActions.json: Add Trigger Action to Steal Money From Coat Rack",
             "Action": "EditData",
             "Target": "Data/TriggerActions",

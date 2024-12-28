@@ -12,10 +12,8 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             }
         },
-        
         {
             "LogName": "stardewValleyExpanded.json: Raven's Tent - Outdoors: Snow",
             "Action": "EditMap",
@@ -28,7 +26,41 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Season": "winter",
+            }
+        },
+        {
+            "LogName": "stardewValleyExpanded.json: Raven's Tent Removal",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{Raven}}TentRemoveSVE.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange",
+            "ToArea": {
+                "X": 83,"Y": 79,"Width": 11,"Height": 15,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Season": "winter",
+            }
+        },
+        {
+            "LogName": "stardewValleyExpanded.json: Raven's Tent - Outdoors: Snow Removal",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/{{Raven}}TentSnowRemove.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange",
+            "ToArea": {
+                "X": 87,"Y": 84,"Width": 3,"Height": 5,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
             }
@@ -44,8 +76,8 @@
             ],
             "When": {
                 "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
                 
             }
         },
@@ -58,8 +90,8 @@
                 "2 6 Forest 88 88",
             ],
             "When": {
+                "HasReadLetter": "{{Raven}}HiNeighbor",
                 "HasMod: |contains={{SVE}}": true,
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             }
         },
         
