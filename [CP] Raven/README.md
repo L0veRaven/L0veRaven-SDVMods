@@ -132,8 +132,8 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
 | data/home.json | Notes |
 | ------------- | ------------- |
-| Tent Spawn (Vanilla) | WIP |
-| Tent Spawn (SVE) | WIP |
+| Tent Spawn (Vanilla) | #C |
+| Tent Spawn (SVE) | #C |
 | Apartment Spawn | WIP |
 
 | data/animationFrames.json | Notes |

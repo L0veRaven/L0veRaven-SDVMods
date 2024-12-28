@@ -8,6 +8,7 @@
             "Entries": {
                 "Default": {
                     "Id": "Default",
+                    "Condition": "!PLAYER_HAS_MAIL Any L0veRaven_RavenApartment received",
                     "Location": "Custom_L0veRaven_RavenTentInside",
                     "Tile": {
                         "X": 3,"Y": 4,
@@ -17,7 +18,6 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": false,
-                "HasReadLetter": "{{Raven}}HiNeighbor",
             },
         },
         {
@@ -37,7 +37,6 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-                "HasReadLetter": "{{Raven}}HiNeighbor",
             },
         },
         
@@ -46,11 +45,10 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": ["{{Raven}}","Home"],
-            "Update": "OnLocationChange",
             "Entries": {
-                "{{Raven}}Apartment": {
-                    "Id": "{{Raven}}Apartment",
-                    "Condition": "PLAYER_HAS_MAIL Host {{Raven}}Apartment received",
+                "Apartment": {
+                    "Id": "Apartment",
+                    "Condition": "PLAYER_HAS_MAIL Any L0veRaven_RavenApartment received",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": {
                         "X": 7,"Y": 13,
