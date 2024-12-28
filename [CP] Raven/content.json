@@ -314,43 +314,12 @@
             //Mountain
         {"Name": "standMountain","Value": "{{i18n:standMountain}}",},
         {"Name": "standMountain","Value": "{{i18n:standMountain_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
-        //Job Schedule
-        {"Name": "jobSche_1",
-        "Value": "{{10am}} {{pissBush}}/{{11am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",},
-
-        {"Name": "jobSche_2",
-        "Value": "{{10am}} {{pissBush}}/{{11am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_3",
-        "Value": "{{10am}} {{pissBush}}/{{11am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_4",
-        "Value": "{{10am}} {{pissBush}}/{{11am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_5",
-        "Value": "{{620am}} {{pissBush}}/{{7am}} {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",},
-
-        {"Name": "jobSche_6",
-        "Value": "{{620am}} {{pissBush}}/{{7am}} {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_7",
-        "Value": "{{620am}} {{pissBush}}/{{7am}} {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}} 0/2400 {{inBed}}",},
-
-        {"Name": "jobSche_8",
-        "Value": "{{620am}} {{pissBush}}/{{7am}} {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_9","Value": "{{620am}} {{pissBush}}/{{7am}} {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_10","Value": "{{620am}} {{pissBush}}/{{7am}} {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/2400 {{inBed}}",},
-
-        {"Name": "jobSche_11","Value": "{{620am}} {{pissBush}}/{{7am}} {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",},
-
-        {"Name": "jobSche_12","Value": "{{620am}} {{pissBush}}/{{7am}} {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",},
-            //Randomizer
-        {"Name": "jobSche","Value": "{{Random:{{jobSche_1}},{{jobSche_2}},{{jobSche_3}},{{jobSche_4}},{{jobSche_5}},{{jobSche_6}},{{jobSche_7}},{{jobSche_8}},{{jobSche_9}},{{jobSche_10}},{{jobSche_11}},{{jobSche_12}}}}",},
-            //Randomizer
-        //review{"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false",},},
-        //review{"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        //Job Schedule Randomizer
+        {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false",},},
+        {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        
+        {"Name": "jobSche","Value": "{{i18n:jobScheApt_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false","HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "jobSche","Value": "{{i18n:jobScheApt_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true","HasReadLetter": "{{Raven}}Apartment",},},
         //Free Day
         {"Name": "freeDay_1","Value": "700 {{standRiverForest}}/1130 {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
     // WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP

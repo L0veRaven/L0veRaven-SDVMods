@@ -787,24 +787,6 @@
 // ==============================================
 // || schedule.json -> DO NOT TOUCH - NO TOCAR ||
 // ==============================================
-// || Bus Stop ||
-"standBusStop": "BusStop 20 22 2",
-"standBusStop_SVE": "BusStop 20 22 2",
-// || Forest ||
-"pissBush": "Forest 54 70 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"",
-"pissBush_SVE": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"",
-    
-"standRiverForest": "Forest 39 75 3",
-"standRiverForest_SVE": "Forest 64 89 3",
-    
-"smokeSpotForest": "Forest 56 81 3",
-"smokeSpotForest_SVE": "Forest 90 89 3",
-// || Custom_L0veRaven_RavenTentInside ||
-"standStove": "Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
-"standStove_SVE": "Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
-    
-"inBed": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",
-"inBed_SVE": "Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
 // || Town ||
 "standCC": "Town 60 17 2",
 "standCC_SVE": "Town 60 17 2",
@@ -830,18 +812,57 @@
 "standMountain": "Mountain 57 33 1",
 "standMountain_SVE": "Mountain 57 33 1",
 // || Randomization ||
-//ADD"jobSche_1": "addDialogue",
-//ADD"jobSche_2": "addDialogue",
-//ADD"jobSche_3": "addDialogue",
-//ADD"jobSche_4": "addDialogue",
-//ADD"jobSche_5": "addDialogue",
-//ADD"jobSche_6": "addDialogue",
-//ADD"jobSche_7": "addDialogue",
-//ADD"jobSche_8": "addDialogue",
-//ADD"jobSche_9": "addDialogue",
-//ADD"jobSche_10": "addDialogue",
-//ADD"jobSche_11": "addDialogue",
-//ADD"jobSche_12": "addDialogue",
+"jobSche_1": "addDialogue",
+"jobSche_2": "addDialogue",
+"jobSche_3": "addDialogue",
+"jobSche_4": "addDialogue",
+"jobSche_5": "addDialogue",
+"jobSche_6": "addDialogue",
+"jobSche_7": "addDialogue",
+"jobSche_8": "addDialogue",
+"jobSche_9": "addDialogue",
+"jobSche_10": "addDialogue",
+"jobSche_11": "addDialogue",
+"jobSche_12": "addDialogue",
+    
+"jobScheApt_1": "addDialogue",
+"jobScheApt_2": "addDialogue",
+"jobScheApt_3": "addDialogue",
+"jobScheApt_4": "addDialogue",
+"jobScheApt_5": "addDialogue",
+"jobScheApt_6": "addDialogue",
+"jobScheApt_7": "addDialogue",
+"jobScheApt_8": "addDialogue",
+"jobScheApt_9": "addDialogue",
+"jobScheApt_10": "addDialogue",
+"jobScheApt_11": "addDialogue",
+"jobScheApt_12": "addDialogue",
+
+"jobSche_1_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",
+"jobSche_2_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
+"jobSche_3_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
+"jobSche_4_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
+"jobSche_5_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",
+"jobSche_6_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
+"jobSche_7_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}} 0/2400 {{inBed}}",
+"jobSche_8_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
+"jobSche_9_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{12am}} {{inBed}}",
+"jobSche_10_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/2400 {{inBed}}",
+"jobSche_11_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
+"jobSche_12_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
+    
+"jobScheApt_1_SVE": "addDialogue",
+"jobScheApt_2_SVE": "addDialogue",
+"jobScheApt_3_SVE": "addDialogue",
+"jobScheApt_4_SVE": "addDialogue",
+"jobScheApt_5_SVE": "addDialogue",
+"jobScheApt_6_SVE": "addDialogue",
+"jobScheApt_7_SVE": "addDialogue",
+"jobScheApt_8_SVE": "addDialogue",
+"jobScheApt_9_SVE": "addDialogue",
+"jobScheApt_10_SVE": "addDialogue",
+"jobScheApt_11_SVE": "addDialogue",
+"jobScheApt_12_SVE": "addDialogue",
 // ===================================================
 // || scheduleDialogue.json -> Pair with animations ||
 // ===================================================

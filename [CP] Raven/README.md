@@ -15,6 +15,30 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | #NS | Not Started |
 | WIP | Work In Progress |
 
+## Schedule Keys (in i18n)
+
+| Key | Meaning |
+| ------------- | ------------- |
+| standBusStop | ```BusStop 20 22 2``` |
+| standBusStop_SVE | ```BusStop 20 22 2``` |
+| ___ | ___ |
+| pissBush | ```Forest 54 70 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"``` |
+| pissBush_SVE | ```Forest 90 81 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"``` |
+| ___ | ___ |
+| standRiverForest | ```Forest 39 75 3``` |
+| standRiverForest_SVE | ```Forest 64 89 3``` |
+| ___ | ___ |
+| smokeSpotForest | ```Forest 56 81 3``` |
+| smokeSpotForest_SVE | ```Forest 90 89 3``` |
+| ___ | ___ |
+| standStove | ```Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
+| standStoveApt | ```FRL_NPCApt_Floor1 13 13 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
+| ___ | ___ |
+| inBed | ```Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep``` |
+| inBedApt | ```FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep``` |
+| ___ | ___ |
+| _SVE | ??? |
+
 ## File Directory
 
 GENERAL - FOCUS ON VANILLA MECHANICS FIRST
