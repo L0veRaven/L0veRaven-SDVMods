@@ -787,30 +787,6 @@
 // ==============================================
 // || schedule.json -> DO NOT TOUCH - NO TOCAR ||
 // ==============================================
-// || Town ||
-"standCC": "Town 60 17 2",
-"standCC_SVE": "Town 60 17 2",
-
-"standBush": "Town 47 77 2",
-"standBush_SVE": "Town 47 77 2",
-// || Hospital ||
-"standCheckUp": "Hospital 4 6 1",
-"standCheckUp_SVE": "Hospital 4 6 1",
-// || Saloon ||
-"standJobSaloon": "Saloon 5 17 2",
-"standTableSaloon": "Saloon 43 22 2",
-
-"standJobSaloon_SVE": "Saloon 5 17 2",
-"standTableSaloon_SVE": "Saloon 43 22 2",
-// || ArchaeologyHouse ||
-"standBookcase": "ArchaeologyHouse 7 18 3",
-"standBookcase_SVE": "ArchaeologyHouse 7 18 3",
-// || Beach ||
-"relaxBeach": "Beach 43 23 2",
-"relaxBeach_SVE": "Beach 43 23 2",
-// || Mountain ||
-"standMountain": "Mountain 57 33 1",
-"standMountain_SVE": "Mountain 57 33 1",
 // || Randomization ||
 "jobSche_1": "addDialogue",
 "jobSche_2": "addDialogue",

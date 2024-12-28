@@ -37,7 +37,21 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | inBed | ```Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep``` |
 | inBedApt | ```FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep``` |
 | ___ | ___ |
-| _SVE | ??? |
+| standCC_SVE | ```Town 60 17 2``` |
+| ___ | ___ |
+| standBushTown_SVE | ```Town 47 77 2``` |
+| ___ | ___ |
+| standCheckUp_SVE | ```Hospital 4 6 1``` |
+| ___ | ___ |
+| standTableSaloon_SVE | ```Saloon 43 22 2``` |
+| ___ | ___ |
+| standTableSaloon_SVE | ```Saloon 43 22 2``` |
+| ___ | ___ |
+| standBookcase_SVE | ```ArchaeologyHouse 7 18 3``` |
+| ___ | ___ |
+| relaxBeach_SVE | ```Beach 43 23 2``` |
+| ___ | ___ |
+| standMountain_SVE | ```Mountain 57 33 1``` |
 
 ## File Directory
 
