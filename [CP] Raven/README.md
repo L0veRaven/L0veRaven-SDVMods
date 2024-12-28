@@ -15,6 +15,15 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | #NS | Not Started |
 | WIP | Work In Progress |
 
+## Animation Keys (in i18n)
+
+| Key | Meaning |
+| ------------- | ------------- |
+| aniSweep | ```l0veraven_raven_sweep``` |
+| aniRead | ```l0veraven_raven_read``` |
+| aniStand | ```l0veraven_raven_stand``` |
+| aniBlunt | ```l0veraven_raven_blunt``` |
+
 ## Schedule Keys (in i18n)
 
 | Key | Meaning |
@@ -32,9 +41,11 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | smokeSpotForest_SVE | ```Forest 90 89 3``` |
 | ___ | ___ |
 | standStove | ```Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
+| standStoveSVE | ```Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
 | standStoveApt | ```FRL_NPCApt_Floor1 13 13 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
 | ___ | ___ |
 | inBed | ```Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep``` |
+| inBed_SVE | ```Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep``` |
 | inBedApt | ```FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep``` |
 | ___ | ___ |
 | standCC_SVE | ```Town 60 17 2``` |

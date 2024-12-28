@@ -290,6 +290,8 @@
             //Custom_L0veRaven_RavenTentInside
         {"Name": "standStove","Value": "{{i18n:standStove}}",},
         {"Name": "inBed","Value": "{{i18n:inBed}}",},
+        {"Name": "standStove","Value": "{{i18n:standStove_SVE}}","When": {"HasMod |contains={{SVE}}": "true",}},
+        {"Name": "inBed","Value": "{{i18n:inBed_SVE}}","When": {"HasMod |contains={{SVE}}": "true",}},
             //Town
         {"Name": "standCC","Value": "{{i18n:standCC}}",},
         {"Name": "standCC","Value": "{{i18n:standCC_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},

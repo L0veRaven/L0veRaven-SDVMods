@@ -781,13 +781,12 @@
 "movie_macr_during": "Raven's eyes dart from the screen for a brief moment. They seem uncomfortable.",
 "movie_macr_after": "I don't know how to explain it all too well, but it seemed... odd to me.#$b#It's nothing to do with you! You’re fine!#$b#It's just weird how the Winter Star blessed that ONE family over others that may have also been dealing with food shortages.#$e#I'm probably putting too much thought into it.",
 // || The Zuzu City Express - Winter 1 ||
-"movie_tzce_before": "When classic films get restored, I wonder if it's just for the gimmick of 'reviving' it.#$b#I never saw the film before though, but I hope I like it!",
 "movie_tzce_during": "Raven has tears welling up in their eyes.",
 "movie_tzce_after": "I hate cliffhangers, but it was well done in this one!#$b#There's a charm to the movies from that era that I don't think I could ever get sick of.",
 // ==============================================
 // || schedule.json -> DO NOT TOUCH - NO TOCAR ||
 // ==============================================
-// || Randomization ||
+// || Randomization - Vanilla Job: Pre-Apartment ||
 "jobSche_1": "addDialogue",
 "jobSche_2": "addDialogue",
 "jobSche_3": "addDialogue",
@@ -800,7 +799,7 @@
 "jobSche_10": "addDialogue",
 "jobSche_11": "addDialogue",
 "jobSche_12": "addDialogue",
-    
+// || Randomization - Vanilla Job: Post-Apartment ||
 "jobScheApt_1": "addDialogue",
 "jobScheApt_2": "addDialogue",
 "jobScheApt_3": "addDialogue",
@@ -813,20 +812,20 @@
 "jobScheApt_10": "addDialogue",
 "jobScheApt_11": "addDialogue",
 "jobScheApt_12": "addDialogue",
-
-"jobSche_1_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",
-"jobSche_2_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
-"jobSche_3_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
-"jobSche_4_SVE": "1000 Forest 90 84/1100 {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
-"jobSche_5_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",
-"jobSche_6_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
-"jobSche_7_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}} 0/2400 {{inBed}}",
-"jobSche_8_SVE": "620 Forest 90 84/700 {{standRiverForest}}/{{830am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
-"jobSche_9_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{12am}} {{inBed}}",
-"jobSche_10_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{standStove}}/2400 {{inBed}}",
-"jobSche_11_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standRiverForest}}/{{10pm}} {{standStove}}/{{12am}} {{inBed}}",
-"jobSche_12_SVE": "620 Forest 90 84/700 {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",
-    
+// || Randomization - SVE Job: Pre-Apartment ||
+"jobSche_1_SVE": "1000 Forest 90 84/1100 Saloon 5 17 2 l0veraven_raven_sweep/2000 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/2200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_2_SVE": "1000 Forest 90 84/1100 Saloon 5 17 2 l0veraven_raven_sweep/2000 Beach 43 23 2/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_3_SVE": "1000 Forest 90 84/1100 Saloon 5 17 2 l0veraven_raven_sweep/2000 Forest 64 89 3/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_4_SVE": "1000 Forest 90 84/1100 Saloon 5 17 2 l0veraven_raven_sweep/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_5_SVE": "620 Forest 90 84/700 Forest 64 89 3/830 Town 60 17 2/1130 Saloon 5 17 2 l0veraven_raven_sweep/2000 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/2200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_6_SVE": "620 Forest 90 84/700 Forest 64 89 3/830 Town 60 17 2/1130 Saloon 5 17 2 l0veraven_raven_sweep/2000 Beach 43 23 2/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_7_SVE": "620 Forest 90 84/700 Forest 64 89 3/830 Town 60 17 2/1130 Saloon 5 17 2 l0veraven_raven_sweep/2000 Forest 64 89 3/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\" 0/2400 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_8_SVE": "620 Forest 90 84/700 Forest 64 89 3/830 Town 60 17 2/1130 Saloon 5 17 2 l0veraven_raven_sweep/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_9_SVE": "620 Forest 90 84/700 Mountain 57 33 1/1050 Saloon 5 17 2 l0veraven_raven_sweep/2000 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_10_SVE": "620 Forest 90 84/700 Mountain 57 33 1/1050 Saloon 5 17 2 l0veraven_raven_sweep/2000 Beach 43 23 2/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/2400 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_11_SVE": "620 Forest 90 84/700 Mountain 57 33 1/1050 Saloon 5 17 2 l0veraven_raven_sweep/2000 Forest 64 89 3/2200 Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+"jobSche_12_SVE": "620 Forest 90 84/700 Mountain 57 33 1/1050 Saloon 5 17 2 l0veraven_raven_sweep/1200 Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
+// || Randomization - SVE Job: Post-Apartment ||
 "jobScheApt_1_SVE": "addDialogue",
 "jobScheApt_2_SVE": "addDialogue",
 "jobScheApt_3_SVE": "addDialogue",

@@ -23,57 +23,60 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                //Spring
-                "spring_Mon": "{{jobSche}}",
-                "spring_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "spring_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "spring_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "spring_Fri": "{{jobSche}}",
-                "spring_Sat": "{{jobSche}}",
-                "spring_Sun": "{{jobSche}}",
-                //Summer
-                "summer_Mon": "{{jobSche}}",
-                "summer_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "summer_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "summer_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "summer_Fri": "{{jobSche}}",
-                "summer_Sat": "{{jobSche}}",
-                "summer_Sun": "{{jobSche}}",
-                //Fall
-                "fall_Mon": "{{jobSche}}",
-                "fall_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "fall_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "fall_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "fall_Fri": "{{jobSche}}",
-                "fall_Sat": "{{jobSche}}",
-                "fall_Sun": "{{jobSche}}",
-                //Winter
-                "winter_Mon": "{{jobSche}}",
-                "winter_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-                "winter_Fri": "{{jobSche}}",
-                "winter_Sat": "{{jobSche}}",
-                "winter_Sun": "{{jobSche}}",
+//ADD                //Spring
+//ADD                "spring_Mon": "{{jobSche}}",
+//ADD                "spring_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Fri": "{{jobSche}}",
+//ADD                "spring_Sat": "{{jobSche}}",
+//ADD                "spring_Sun": "{{jobSche}}",
+//ADD                //Summer
+//ADD                "summer_Mon": "{{jobSche}}",
+//ADD                "summer_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Fri": "{{jobSche}}",
+//ADD                "summer_Sat": "{{jobSche}}",
+//ADD                "summer_Sun": "{{jobSche}}",
+//ADD                //Fall
+//ADD                "fall_Mon": "{{jobSche}}",
+//ADD                "fall_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Fri": "{{jobSche}}",
+//ADD                "fall_Sat": "{{jobSche}}",
+//ADD                "fall_Sun": "{{jobSche}}",
+//ADD                //Winter
+//ADD                "winter_Mon": "{{jobSche}}",
+//ADD                "winter_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Fri": "{{jobSche}}",
+//ADD                "winter_Sat": "{{jobSche}}",
+//ADD                "winter_Sun": "{{jobSche}}",
                 //Spring: default - (May Not Appear In-Game)
-                "spring": "{{7am}} {{standRiverForest}}/{{8am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",
+                "spring": "700 {{standRiverForest}}/{{8am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",
             },
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+            }
         },
-        {
-            "LogName": "schedule.json: Marriage",
-            "Action": "EditData",
-            "Target": "Characters/schedules/{{Raven}}",
-            "Entries": {
-                //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
-                //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
-
-                //Check-Up & Birthday
-                "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
-
-                //Marriage
-                "marriage_Sat": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
-                "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
-            },
-        },
+//ADD        {
+//ADD            "LogName": "schedule.json: Marriage",
+//ADD            "Action": "EditData",
+//ADD            "Target": "Characters/schedules/{{Raven}}",
+//ADD            "Entries": {
+//ADD                //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
+//ADD                //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
+//ADD
+//ADD                //Check-Up & Birthday
+//ADD                "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
+//ADD
+//ADD                //Marriage
+//ADD                "marriage_Sat": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
+//ADD                "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
+//ADD            },
+//ADD        },
     ]
 }
