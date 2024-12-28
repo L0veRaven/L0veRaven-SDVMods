@@ -1,15 +1,25 @@
 {
-"reload_i18n": "reloads ALL i18n files (if they aren't cached)",
-"patch reload L0veRaven.Raven": "reloads patch",
-"patch update": "Rechecks all patches -> Updates condition context -> Eliminates need to restart or go to bed",
+    "reloads ALL i18n files (if they aren't cached)":
+reload_i18n
+    "reloads patch":
+patch reload L0veRaven.Raven
+    "Rechecks all patches -> Updates condition context -> Eliminates need to restart or go to bed":
+patch update
+    "export the given file for code review":
+patch export data/_____
+patch export characters/_____
+etc.
     
-"patch export data/_____", "patch export characters/_____", "etc.": "export the given file for code review",
-    
-"debug ebi 27407000": "Event 0 - CatLover",
-"debug ebi 27407001": "Event 1 - Check-In",
-"debug ebi 27407002": "Event 2 - WildClans",
-"debug ebi 27407003": "Event 3 - CleansingFarmer",
-"debug ebi 27407004": "Event 4 - CleansingFarmer2",
+    "Event 0 - CatLover":
+debug ebi 27407000
+    "Event 1 - Check-In":
+debug ebi 27407001
+    "Event 2 - WildClans":
+debug ebi 27407002
+    "Event 3 - CleansingFarmer":
+debug ebi 27407003
+    "Event 4 - CleansingFarmer2":
+debug ebi 27407004
 
 debug seenmail L0veRaven_RavenApartment
 }

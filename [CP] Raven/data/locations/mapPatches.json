@@ -6,11 +6,12 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{Raven}}TentOutdoors.tmx",
             "PatchMode": "Replace",
+            "Update": "OnLocationChange",
             "ToArea": {
                 "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
             "When": {
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             }
         },
         {
@@ -24,7 +25,7 @@
                 "X": 51,"Y": 70,"Width": 3,"Height": 5,
             },
             "When": {
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
             }
@@ -86,7 +87,6 @@
             "When": {
                 "HasMod: |contains={{SVE}}": false,
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
             }
         },
         {
@@ -98,8 +98,7 @@
             ],
             "When": {
                 "HasMod: |contains={{SVE}}": false,
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
-
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             }
         },
     ]

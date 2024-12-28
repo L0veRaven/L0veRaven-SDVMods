@@ -14,8 +14,7 @@
                 },
             },
             "When": {
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
-
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             }
         },
         {
@@ -33,8 +32,7 @@
             },
             "When": {
                 "HasMod |contains={{SVE}}": "true",
-                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
-
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}=false": true,
             },
         },
         {
