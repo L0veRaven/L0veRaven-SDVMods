@@ -62,6 +62,50 @@
                 "HasMod: |contains={{SVE}}": false,
             }
         },
+        {
+            "LogName": "schedule.json: Seasonal",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+//ADD                //Spring
+//ADD                "spring_Mon": "{{jobSche}}",
+//ADD                "spring_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Fri": "{{jobSche}}",
+//ADD                "spring_Sat": "{{jobSche}}",
+//ADD                "spring_Sun": "{{jobSche}}",
+//ADD                //Summer
+//ADD                "summer_Mon": "{{jobSche}}",
+//ADD                "summer_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Fri": "{{jobSche}}",
+//ADD                "summer_Sat": "{{jobSche}}",
+//ADD                "summer_Sun": "{{jobSche}}",
+//ADD                //Fall
+//ADD                "fall_Mon": "{{jobSche}}",
+//ADD                "fall_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Fri": "{{jobSche}}",
+//ADD                "fall_Sat": "{{jobSche}}",
+//ADD                "fall_Sun": "{{jobSche}}",
+//ADD                //Winter
+//ADD                "winter_Mon": "{{jobSche}}",
+//ADD                "winter_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Fri": "{{jobSche}}",
+//ADD                "winter_Sat": "{{jobSche}}",
+//ADD                "winter_Sun": "{{jobSche}}",
+                //Spring: default - (May Not Appear In-Game)
+                "spring": "700 {{standRiverForest}}/{{8am}} {{standCC}}/{{1130am}} {{standJobSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+            }
+        },
 //ADD        {
 //ADD            "LogName": "schedule.json: Marriage",
 //ADD            "Action": "EditData",
