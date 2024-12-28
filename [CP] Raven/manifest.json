@@ -27,7 +27,7 @@
         },
         {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-            "IsRequired": "true",
+            "IsRequired": "false",
         },
         {
             "UniqueID": "L0veRaven.Core",

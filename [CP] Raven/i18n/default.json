@@ -789,27 +789,59 @@
 // ==============================================
 // || Bus Stop ||
 "standBusStop": "BusStop 20 22 2",
+"standBusStop_SVE": "BusStop 20 22 2",
 // || Forest ||
-"pissBush": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven.Raven:Forest.001\"",
-"standRiverForest": "Forest 64 89 3",
-"smokeSpotForest": "Forest 90 89 3",
+"pissBush": "Forest 54 70 2 \"Strings\\schedules\\L0veRaven.Raven:Forest.001\"",
+"pissBush_SVE": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven.Raven:Forest.001\"",
+    
+"standRiverForest": "Forest 39 75 3",
+"standRiverForest_SVE": "Forest 64 89 3",
+    
+"smokeSpotForest": "Forest 56 81 3",
+"smokeSpotForest_SVE": "Forest 90 89 3",
 // || Custom_L0veRavenRaven_TentInside ||
 "standStove": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
+"standStove_SVE": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
+    
 "inBed": "Custom_L0veRavenRaven_TentInside 4 4 1 l0veraven.raven_sleep",
+"inBed_SVE": "Custom_L0veRavenRaven_TentInside 4 4 1 l0veraven.raven_sleep",
 // || Town ||
 "standCC": "Town 60 17 2",
+"standCC_SVE": "Town 60 17 2",
+
 "standBush": "Town 47 77 2",
+"standBush_SVE": "Town 47 77 2",
 // || Hospital ||
 "standCheckUp": "Hospital 4 6 1",
+"standCheckUp_SVE": "Hospital 4 6 1",
 // || Saloon ||
 "standJobSaloon": "Saloon 5 17 2",
 "standTableSaloon": "Saloon 43 22 2",
+
+"standJobSaloon_SVE": "Saloon 5 17 2",
+"standTableSaloon_SVE": "Saloon 43 22 2",
 // || ArchaeologyHouse ||
 "standBookcase": "ArchaeologyHouse 7 18 3",
+"standBookcase_SVE": "ArchaeologyHouse 7 18 3",
 // || Beach ||
 "relaxBeach": "Beach 43 23 2",
+"relaxBeach_SVE": "Beach 43 23 2",
 // || Mountain ||
 "standMountain": "Mountain 57 33 1",
+"standMountain_SVE": "Mountain 57 33 1",
+// || Randomization ||
+//ADD"jobSche_1": "addDialogue",
+//ADD"jobSche_2": "addDialogue",
+//ADD"jobSche_3": "addDialogue",
+//ADD"jobSche_4": "addDialogue",
+//ADD"jobSche_5": "addDialogue",
+//ADD"jobSche_6": "addDialogue",
+//ADD"jobSche_7": "addDialogue",
+//ADD"jobSche_8": "addDialogue",
+//ADD"jobSche_9": "addDialogue",
+//ADD"jobSche_10": "addDialogue",
+//ADD"jobSche_11": "addDialogue",
+//ADD"jobSche_12": "addDialogue",
 // ===================================================
 // || scheduleDialogue.json -> Pair with animations ||
 // ===================================================

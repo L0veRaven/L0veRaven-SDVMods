@@ -39,12 +39,22 @@
                 "Vincent": {"WinterStarParticipant": false,},
                 "Willy": {"WinterStarParticipant": false,},
                 "Sandy": {"WinterStarParticipant": false,},
+            },
+        },
+        {
+            "LogName": "eventExcludesDELETE.json - Winter Star (SVE)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
                 "Sophia": {"WinterStarParticipant": false,},
                 "Andy": {"WinterStarParticipant": false,},
                 "Susan": {"WinterStarParticipant": false,},
                 "Olivia": {"WinterStarParticipant": false,},
                 "Victor": {"WinterStarParticipant": false,},
             },
+            "When": {
+                "HasMod |contains={{SVE}}": "true",
+            }
         },
         {
             "LogName": "eventExcludesDELETE.json - Winter Star (RSV)",
@@ -103,7 +113,7 @@
             }
         },
         {
-            "LogName": "eventExcludesDELETE.json - Flower Dance (SDVE)",
+            "LogName": "eventExcludesDELETE.json - Flower Dance",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -141,12 +151,22 @@
                 "Vincent": {"FlowerDanceCanDance": false,},
                 "Willy": {"FlowerDanceCanDance": false,},
                 "Sandy": {"FlowerDanceCanDance": false,},
+            },
+        },
+        {
+            "LogName": "eventExcludesDELETE.json - Flower Dance (SVE)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
                 "Sophia": {"FlowerDanceCanDance": false,},
                 "Andy": {"FlowerDanceCanDance": false,},
                 "Susan": {"FlowerDanceCanDance": false,},
                 "Olivia": {"FlowerDanceCanDance": false,},
                 "Victor": {"FlowerDanceCanDance": false,},
             },
+            "When": {
+                "HasMod |contains={{RSV}}": "true",
+            }
         },
         {
             "LogName": "eventExcludesDELETE.json - Flower Dance (RSV)",

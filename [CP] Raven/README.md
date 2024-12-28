@@ -201,7 +201,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | Spouse Patio | ```data/maps/{{Raven}}SpousePatio.tmx``` |
 | Spouse Room | ```data/maps/{{Raven}}SpouseRoom.tmx``` |
 | Locations | ```data/locations/WorldMap.json```, ```data/locations/MapPatches.json```, ```data/locations/LocationsData.json``` |
-| ModCompat | ```data/modCompat/CJBWarps.json```, ```data/modCompat/naturesBounty.json```, ```data/modCompat/eventExcludesDELETE.json```, ```data/modCompat/downtownZuzu.json```, ```data/modCompat/ridgesideVillage.json```, ```data/modCompat/pelicanTownPotluck.json```, ```data/modCompat/fireworksFestival.json```, ```data/modCompat/solsticeWinterStar.json``` |
+| ModCompat | ```data/modCompat/CJBWarps.json```, ```data/modCompat/naturesBounty.json```, ```data/modCompat/eventExcludesDELETE.json```, ```data/modCompat/downtownZuzu.json```, ```data/modCompat/ridgesideVillage.json```, ```data/modCompat/pelicanTownPotluck.json```, ```data/modCompat/fireworksFestival.json```, ```data/modCompat/solsticeWinterStar.json```, ```data/modCompat/stardewValleyExpanded.json``` |
 
 | manifest.json | Notes |
 | ------------- | ------------- |
@@ -225,6 +225,10 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | violetlizabet.CP.FireworksFestival | #T |
 
 ## Mod Compats
+
+| data/modCompat/stardewValleyExpanded.json | Notes |
+| ------------- | ------------- |
+| ___ | ___ |
 
 | data/modCompat/solsticeWinterStar.json | Notes |
 | ------------- | ------------- |

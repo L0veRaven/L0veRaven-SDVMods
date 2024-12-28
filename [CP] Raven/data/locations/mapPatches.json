@@ -7,10 +7,10 @@
             "FromFile": "data/maps/{{Raven}}TentOutdoors.tmx",
             "PatchMode": "Replace",
             "ToArea": {
-                "X": 83,"Y": 79,"Width": 11,"Height": 15,
+                "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
             "When": {
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
             }
         },
         {
@@ -19,11 +19,12 @@
             "Target": "Maps/Forest",
             "FromFile": "data/maps/{{Raven}}TentSnow.tmx",
             "PatchMode": "Replace",
-            "Update": "OnTimeChange",
+            "Update": "OnLocationChange",
             "ToArea": {
-                "X": 87,"Y": 84,"Width": 3,"Height": 5,
+                "X": 51,"Y": 70,"Width": 3,"Height": 5,
             },
             "When": {
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
             }
@@ -34,7 +35,7 @@
             "Target": "Maps/FRL_NPCApt_Floor1",
             "FromFile": "data/maps/{{Raven}}Apartment.tmx",
             "PatchMode": "Replace",
-            "Update": "OnTimeChange",
+            "Update": "OnLocationChange",
             "ToArea": {
                 "X": 5,"Y": 8,"Width": 11,"Height": 11,
             },
@@ -59,9 +60,6 @@
             "LogName": "mapPatches.json: Raven's Apartment - Change Tile Action to Message After Getting Reward",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
-            "When": {
-                "HasFlag": "ReceiveCoatRackMoney"
-            },
             "Update": "OnTimeChange",
             "MapTiles": [
                 {
@@ -73,26 +71,36 @@
                         "Action": "Dialogue {{i18n:CoatRack}}"
                     }
                 }
-            ]
+            ],
+            "When": {
+                "HasFlag": "ReceiveCoatRackMoney"
+            },
         },
         {
             "LogName": "mapPatches.json: Warps - Forest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "AddWarps": [
-                "88 87 Custom_{{Raven}}TentInside 2 4",
+                "52 73 Custom_{{Raven}}TentInside 2 4",
             ],
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
             }
         },
         {
-            "LogName": "mapPatches.json: Warps - Custom_L0veRavenRaven_TentInside",
+            "LogName": "mapPatches.json: Warps - Custom_L0veRaven_RavenTentInside",
             "Action": "EditMap",
             "Target": "Maps/Custom_{{Raven}}TentInside",
             "AddWarps": [
-                "2 6 Forest 88 88",
-            ]
+                "2 6 Forest 52 74",
+            ],
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+                "Query: {{HasReadLetter:L0veRaven_RavenApartment}}": false,
+
+            }
         },
     ]
 }

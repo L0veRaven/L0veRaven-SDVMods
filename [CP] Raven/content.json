@@ -50,6 +50,7 @@
         {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty",},
         {"Name": "DTZ","Value": "DTZ.DowntownZuzuDLL",},
         {"Name": "PTP","Value": "LenneDalben.PelicanTownPotluck",},
+        {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP",},
         {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar",},
         {"Name": "FF","Value": "violetlizabet.CP.FireworksFestival",},
     //Directions
@@ -264,14 +265,14 @@
         {"Name": "weekDays","Value": "{{Range:1,28}}",},
         {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}",},
     //Animations
-        {"Name": "aniSweep","Value": "l0veraven.raven_sweep",},
-        {"Name": "aniRead","Value": "l0veraven.raven_read",},
-        {"Name": "aniStand","Value": "l0veraven.raven_stand",},
-        {"Name": "aniBlunt","Value": "l0veraven.raven_blunt","When": {"HasMod |contains={{NB}}": "true",},},
+        {"Name": "aniSweep","Value": "l0veraven_raven_sweep",},
+        {"Name": "aniRead","Value": "l0veraven_raven_read",},
+        {"Name": "aniStand","Value": "l0veraven_raven_stand",},
+        {"Name": "aniBlunt","Value": "l0veraven_raven_blunt","When": {"HasMod |contains={{NB}}": "true",},},
     //Schedules
         //Schedule Dialogue
         {"Name": "pissingSchD","Value": "{{i18n:Forest_1_{{Random:{{Range:1,2}}}}}}",},
-        {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRavenRaven_TentInside_1_{{Random:{{Range:1,2}}}}}}",},
+        {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "smokeSpotForestSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
@@ -279,25 +280,40 @@
         {"Name": "standBusStop","Value": "{{i18n:standBusStop}}",},
             //Forest
         {"Name": "pissBush","Value": "{{i18n:pissBush}}",},
+        {"Name": "pissBush","Value": "{{i18n:pissBush_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        
         {"Name": "smokeSpotForest","Value": "{{i18n:smokeSpotForest}}","When": {"HasMod |contains={{NB}}": "true",},},
+        {"Name": "smokeSpotForest","Value": "{{i18n:smokeSpotForest_SVE}}","When": {"HasMod |contains={{NB}}": "true", "HasMod |contains={{SVE}}": "true",},},
+        
         {"Name": "standRiverForest","Value": "{{i18n:standRiverForest}}",},
+        {"Name": "standRiverForest","Value": "{{i18n:standRiverForest_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //Custom_L0veRavenRaven_TentInside
         {"Name": "standStove","Value": "{{i18n:standStove}}",},
         {"Name": "inBed","Value": "{{i18n:inBed}}",},
             //Town
         {"Name": "standCC","Value": "{{i18n:standCC}}",},
+        {"Name": "standCC","Value": "{{i18n:standCC_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        
         {"Name": "standBush","Value": "{{i18n:standBush}}",},
+        {"Name": "standBush","Value": "{{i18n:standBush_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //Hospital
         {"Name": "standCheckUp","Value": "{{i18n:standCheckUp}}",},
+        {"Name": "standCheckUp","Value": "{{i18n:standCheckUp_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //Saloon
         {"Name": "standJobSaloon","Value": "{{i18n:standJobSaloon}}",},
+        {"Name": "standJobSaloon","Value": "{{i18n:standJobSaloon_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        
         {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon}}",},
+        {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //ArchaeologyHouse
         {"Name": "standBookcase","Value": "{{i18n:standBookcase}}",},
+        {"Name": "standBookcase","Value": "{{i18n:standBookcase_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //Beach
         {"Name": "relaxBeach","Value": "{{i18n:relaxBeach}}",},
+        {"Name": "relaxBeach","Value": "{{i18n:relaxBeach_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
             //Mountain
         {"Name": "standMountain","Value": "{{i18n:standMountain}}",},
+        {"Name": "standMountain","Value": "{{i18n:standMountain_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
         //Job Schedule
         {"Name": "jobSche_1",
         "Value": "{{10am}} {{pissBush}}/{{11am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{standStove}}/{{10pm}} {{inBed}}",},
@@ -332,6 +348,9 @@
         {"Name": "jobSche_12","Value": "{{620am}} {{pissBush}}/{{7am}} {{standMountain}}/{{1050am}} {{standJobSaloon}} {{aniSweep}}/{{12am}} {{inBed}}",},
             //Randomizer
         {"Name": "jobSche","Value": "{{Random:{{jobSche_1}},{{jobSche_2}},{{jobSche_3}},{{jobSche_4}},{{jobSche_5}},{{jobSche_6}},{{jobSche_7}},{{jobSche_8}},{{jobSche_9}},{{jobSche_10}},{{jobSche_11}},{{jobSche_12}}}}",},
+            //Randomizer
+        //review{"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false",},},
+        //review{"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
         //Free Day
         {"Name": "freeDay_1","Value": "700 {{standRiverForest}}/1130 {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
     // WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP
@@ -419,27 +438,27 @@
         {"Name": "simStart","Value": "beginSimultaneousCommand",},//"{{speakRaven}} \"{{i18n:blank}}\"/<..>"
         {"Name": "simEnd","Value": "endSimultaneousCommand",},//"{{speakRaven}} \"{{i18n:blank}}\"/<..>"
             //speak
-        {"Name": "speakRaven","Value": "speak {{ModId}}",},//"{{speakRaven}} \"{{i18n:blank}}\"/<..>"
+        {"Name": "speakRaven","Value": "speak {{Raven}}",},//"{{speakRaven}} \"{{i18n:blank}}\"/<..>"
         {"Name": "speakPenny","Value": "speak Penny",},//"{{speakPenny}} \"{{i18n:blank}}\"/<..>"
         {"Name": "speakGus","Value": "speak Gus",},//"{{speakPenny}} \"{{i18n:blank}}\"/<..>"
             //move
-        {"Name": "animateRaven","Value": "animate {{ModId}}",},//"{{animateRaven}} __flip__ __loop__ __framesPerMillisecond__ __frames...__/<..>"
+        {"Name": "animateRaven","Value": "animate {{Raven}}",},//"{{animateRaven}} __flip__ __loop__ __framesPerMillisecond__ __frames...__/<..>"
         {"Name": "animateGus","Value": "animate Gus",},//"{{animateGus}} __flip__ __loop__ __framesPerMillisecond__ __frames...__/<..>"
             //move
-        {"Name": "moveRaven","Value": "move {{ModId}}",},//"{{moveRaven}} 10 0 {{left}}/<..>"
+        {"Name": "moveRaven","Value": "move {{Raven}}",},//"{{moveRaven}} 10 0 {{left}}/<..>"
         {"Name": "moveFarmer","Value": "move farmer",},//"{{moveFarmer}} 10 0 {{left}}/<..>"
         {"Name": "movePenny","Value": "move Penny",},//"{{movePenny}} 10 0 {{left}}/<..>"
             //faceDirection
-        {"Name": "faceDirectionRaven","Value": "faceDirection {{ModId}}",},//"{{faceDirectionRaven}} {{right}}/<..>"
+        {"Name": "faceDirectionRaven","Value": "faceDirection {{Raven}}",},//"{{faceDirectionRaven}} {{right}}/<..>"
         {"Name": "faceDirectionFarmer","Value": "faceDirection farmer",},//"{{faceDirectionFarmer}} {{right}}/<..>"
         {"Name": "faceDirectionPenny","Value": "faceDirection Penny",},//"{{faceDirectionPenny}} {{right}}/<..>"
             //emote
-        {"Name": "emoteRaven","Value": "emote {{ModId}}",},//"{{emoteRaven}} {{emoteHappy}}/<..>"
+        {"Name": "emoteRaven","Value": "emote {{Raven}}",},//"{{emoteRaven}} {{emoteHappy}}/<..>"
         {"Name": "emoteFarmer","Value": "emote farmer",},//"{{emoteFarmer}} {{emoteHappy}}/<..>"
         {"Name": "emotePenny","Value": "emote Penny",},//"{{emotePenny}} {{emoteHappy}}/<..>"
         {"Name": "emoteGus","Value": "emote Gus",},//"{{emoteGus}} {{emoteHappy}}/<..>"
             //textAboveHead
-        {"Name": "speechBubbleRaven","Value": "textAboveHead {{ModId}}",},//"{{speechbubbleRaven}} {{emoteHappy}}/<..>"
+        {"Name": "speechBubbleRaven","Value": "textAboveHead {{Raven}}",},//"{{speechbubbleRaven}} {{emoteHappy}}/<..>"
         {"Name": "speechBubblePenny","Value": "textAboveHead Penny",},//"{{speechbubblePenny}} {{emoteHappy}}/<..>"
         {"Name": "speechBubbleGus","Value": "textAboveHead Gus",},//"{{speechbubblePenny}} {{emoteHappy}}/<..>"
     ],
@@ -456,7 +475,7 @@
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/Dialogue/{{ModId}}, Characters/Dialogue/MarriageDialogue{{ModId}}, Characters/schedules/{{ModId}}, Strings/Schedules/{{ModId}}, Data/Events/Custom_L0veRavenRaven_TentInside",
+            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRavenRaven_TentInside",
             "FromFile": "data/blank.json",
         },
         {
@@ -489,7 +508,7 @@
         {
             "LogName": "content.json: ModCompat",
             "Action": "Include",
-            "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json",
+            "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json",
         },
     ]
 }
