@@ -10,6 +10,9 @@
             "ToArea": {
                 "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+            }
         },
         {
             "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow",
@@ -22,6 +25,7 @@
                 "X": 51,"Y": 70,"Width": 3,"Height": 5,
             },
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "HasReadLetter": "{{Raven}}HiNeighbor",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
@@ -38,6 +42,7 @@
                 "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "HasReadLetter": "{{Raven}}Apartment",
             },
         },
@@ -52,6 +57,7 @@
                 "X": 51,"Y": 70,"Width": 3,"Height": 5,
             },
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "HasReadLetter": "{{Raven}}Apartment",
                 "Season": "winter",
             }
@@ -113,6 +119,7 @@
                 "52 73 Custom_{{Raven}}TentInside 2 4",
             ],
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "HasReadLetter": "{{Raven}}HiNeighbor",
             }
@@ -127,6 +134,7 @@
                 "2 6 Forest 52 74",
             ],
             "When": {
+                "HasMod: |contains={{SVE}}": false,
                 "HasReadLetter": "{{Raven}}HiNeighbor",
             }
         },

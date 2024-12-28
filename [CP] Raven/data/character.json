@@ -75,14 +75,32 @@
                     "SpawnIfMissing": true, // Forcibly spawns NPC if stuck
                     "Home": [ // NPC spawn point
                         {
-                            "Id": "Default", // Default spawn point
+                            "Id": "{{Raven}}VanillaHome", // Default spawn point
                             "Condition": null, // If they change homes
                             "Location": "Custom_L0veRaven_RavenTentInside", // Specific location from data/location
                             "Tile": {
-                                "X": 4,"Y": 4,
+                                "X": 3,"Y": 4,
                             },
                             "Direction": "right", // Direction facing when idle
-                        }
+                        },
+                        {
+                            "Id": "{{Raven}}SVEHome", // Default spawn point
+                            "Condition": "{{HasMod |contains={{SVE}}}}",
+                            "Location": "Custom_L0veRaven_RavenTentInsideSVE", // Specific location from data/location
+                            "Tile": {
+                                "X": 3,"Y": 4,
+                            },
+                            "Direction": "right", // Direction facing when idle
+                        },
+                        {
+                            "Id": "{{Raven}}Apartment", // Default spawn point
+                            "Condition": "PLAYER_HAS_MAIL Host {{Raven}}Apartment received",
+                            "Location": "FRL_NPCApt_Floor1", // Specific location from data/location
+                            "Tile": {
+                                "X": 7,"Y": 13,
+                            },
+                            "Direction": "right", // Direction facing when idle
+                        },
                     ],
                     "TextureName": "",
                     "Appearance": [], // New appearance system -> See "outfits.json"

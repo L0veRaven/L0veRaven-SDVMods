@@ -1,10 +1,10 @@
 {
   "CleanLanguage": "false",
   "RavenNude": "false",
-  "CactusCostumeSE": "false",
-  "DaisyCostumeSE": "false",
-  "SunflowerCostumeSE": "false",
-  "WeedCostumeSE": "false",
+  "CactusCostumeSE": "true",
+  "DaisyCostumeSE": "true",
+  "SunflowerCostumeSE": "true",
+  "WeedCostumeSE": "true",
   "RavenIndex": "false",
   "EventExcludes": "true"
 }

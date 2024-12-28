@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="20">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="20">
  <properties>
   <property name="DayTiles" value="Buildings 2 0 13 Buildings 3 0 14"/>
   <property name="NightTiles" value="Buildings 2 0 61 Buildings 3 0 66"/>
-  <property name="Warp" value="2 6 Forest 88 88"/>
+  <property name="Warp" value="2 6 Forest 52 74"/>
  </properties>
  <tileset firstgid="1" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source=".townInterior_2.png" width="512" height="656"/>
@@ -30,18 +30,31 @@
 1324,1325,0,0,1328,1324,
 1324,0,0,0,0,1324,
 1324,0,1376,1377,0,1324,
-1324,1400,1401,1402,1395,1324,
-1324,1425,1426,1427,1420,1324,
+1324,1400,1401,1402,1403,1324,
+1324,1425,1426,1427,1428,1324,
 1324,1450,1451,1452,1324,1324
+</data>
+ </layer>
+ <layer id="23" name="Back2" width="6" height="6">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,1323,0,0,
+0,0,0,1348,0,0,
+0,0,0,0,0,0
 </data>
  </layer>
  <layer id="2" name="Buildings" width="6" height="6">
   <data encoding="csv">
-1324,0,1326,1327,0,1324,
-0,1350,1393,1394,1353,0,
-0,1375,0,0,1378,0,
+1324,1325,1326,1327,1328,1324,
+1349,1350,1393,1394,1353,1354,
+1399,1375,0,0,1378,1404,
 1399,0,0,0,0,1404,
-1424,346,0,119,0,1429,
+1424,346,0,1449,119,1429,
 1324,1450,0,1452,1324,1324
 </data>
  </layer>
@@ -51,7 +64,20 @@
 1349,0,0,0,0,1354,
 1399,0,0,0,0,1404,
 0,314,0,0,0,0,
-0,1329,0,1449,1453,0,
+0,1329,0,1347,1454,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="26" name="Front2" width="6" height="6">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,1449,0,0,
 0,0,0,0,0,0
 </data>
  </layer>
@@ -66,6 +92,7 @@
 </data>
  </layer>
  <objectgroup id="5" name="Back"/>
+ <objectgroup id="24" name="Back2"/>
  <objectgroup id="6" name="Buildings">
   <object id="15" name="TileData" x="32" y="16" width="16" height="16">
    <properties>
@@ -82,12 +109,13 @@
     <property name="Action" value="Message &quot;L0veRavenRavenTentInside.3&quot;"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="48" y="64" width="16" height="16">
+  <object id="19" name="TileData" x="64" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenTentInside.1&quot;"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="7" name="Front"/>
+ <objectgroup id="25" name="Front2"/>
  <objectgroup id="8" name="Paths"/>
 </map>

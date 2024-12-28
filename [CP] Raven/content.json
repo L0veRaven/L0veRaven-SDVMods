@@ -468,6 +468,10 @@
             "Name": "Custom_L0veRaven_RavenTentInside",
             "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx",
         },
+        {
+            "Name": "Custom_L0veRaven_RavenTentInsideSVE",
+            "FromMapFile": "data/maps/L0veRaven_RavenTentInsideSVE.tmx",
+        },
     ],
     
     "Changes": [
@@ -486,7 +490,7 @@
         {
             "LogName": "content.json: Dialogue",
             "Action": "Include",
-            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/maps/StringsFromMaps.json, data/dialogue/scheduleDialogue.json",
+            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/dialogue/scheduleDialogue.json",
         },
         {
             "LogName": "content.json: Spouse Patio",
@@ -503,7 +507,7 @@
         {
             "LogName": "content.json: Locations",
             "Action": "Include",
-            "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/LocationsData.json",
+            "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/LocationsData.json, data/locations/StringsFromMaps.json",
         },
         {
             "LogName": "content.json: ModCompat",
