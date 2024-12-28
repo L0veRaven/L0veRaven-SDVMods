@@ -43,7 +43,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | ___ | ___ |
 | standCheckUp_SVE | ```Hospital 4 6 1``` |
 | ___ | ___ |
-| standTableSaloon_SVE | ```Saloon 43 22 2``` |
+| standJobSaloon_SVE | ```Saloon 5 17 2``` |
 | ___ | ___ |
 | standTableSaloon_SVE | ```Saloon 43 22 2``` |
 | ___ | ___ |
