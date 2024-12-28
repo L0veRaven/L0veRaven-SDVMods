@@ -791,20 +791,20 @@
 "standBusStop": "BusStop 20 22 2",
 "standBusStop_SVE": "BusStop 20 22 2",
 // || Forest ||
-"pissBush": "Forest 54 70 2 \"Strings\\schedules\\L0veRaven.Raven:Forest.001\"",
-"pissBush_SVE": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven.Raven:Forest.001\"",
+"pissBush": "Forest 54 70 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"",
+"pissBush_SVE": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"",
     
 "standRiverForest": "Forest 39 75 3",
 "standRiverForest_SVE": "Forest 64 89 3",
     
 "smokeSpotForest": "Forest 56 81 3",
 "smokeSpotForest_SVE": "Forest 90 89 3",
-// || Custom_L0veRavenRaven_TentInside ||
-"standStove": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
-"standStove_SVE": "Custom_L0veRavenRaven_TentInside 2 3 0 \"Strings\\schedules\\L0veRaven.Raven:Custom_L0veRavenRaven_TentInside.001\"",
+// || Custom_L0veRaven_RavenTentInside ||
+"standStove": "Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
+"standStove_SVE": "Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
     
-"inBed": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven.raven_sleep",
-"inBed_SVE": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven.raven_sleep",
+"inBed": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",
+"inBed_SVE": "Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep",
 // || Town ||
 "standCC": "Town 60 17 2",
 "standCC_SVE": "Town 60 17 2",
@@ -849,10 +849,10 @@
     // {{pissingSchD}}
 "Forest_1_1": "... I need privacy right now.$12",
 "Forest_1_2": "I'm trying to use the bathroom. Go away.$5",
-// || Custom_L0veRavenRaven_TentInside ||
+// || Custom_L0veRaven_RavenTentInside ||
     // {{stoveSchD}}
-"Custom_L0veRavenRaven_TentInside_1_1": "I'm just making myself some food right now. You can still hang out here if you want.",
-"Custom_L0veRavenRaven_TentInside_1_2": "Do you want some food right now? I have extra.$1[(O)224]",
+"Custom_L0veRaven_RavenTentInside_1_1": "I'm just making myself some food right now. You can still hang out here if you want.",
+"Custom_L0veRaven_RavenTentInside_1_2": "Do you want some food right now? I have extra.$1[(O)224]",
 // || Saloon ||
     // {{standSaloonSchD}}
 "Saloon_1_1": "The food Gus made smells so good!$3#$b#Thank Yoba he cares about the quality of his food.$1",

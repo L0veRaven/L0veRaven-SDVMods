@@ -130,6 +130,12 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | ------------- | ------------- |
 | Spirit's Eve Costumes - Vampire | #NS |
 
+| data/home.json | Notes |
+| ------------- | ------------- |
+| Tent Spawn (Vanilla) | WIP |
+| Tent Spawn (SVE) | WIP |
+| Apartment Spawn | WIP |
+
 | data/animationFrames.json | Notes |
 | ------------- | ------------- |
 | _beach_towel | #NS |

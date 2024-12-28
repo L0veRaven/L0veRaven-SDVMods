@@ -287,7 +287,7 @@
         
         {"Name": "standRiverForest","Value": "{{i18n:standRiverForest}}",},
         {"Name": "standRiverForest","Value": "{{i18n:standRiverForest_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
-            //Custom_L0veRavenRaven_TentInside
+            //Custom_L0veRaven_RavenTentInside
         {"Name": "standStove","Value": "{{i18n:standStove}}",},
         {"Name": "inBed","Value": "{{i18n:inBed}}",},
             //Town
@@ -479,13 +479,13 @@
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRavenRaven_TentInside",
+            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside",
             "FromFile": "data/blank.json",
         },
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/triggerActions.json",
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/triggerActions.json",
         },
         {
             "LogName": "content.json: Dialogue",

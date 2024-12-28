@@ -19,6 +19,7 @@
             "LogName": "triggerActions.json: Remove HiNeighbor",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
                 "{{Raven}}OnMove": {
                     "Id": "{{Raven}}OnMove",
@@ -35,6 +36,7 @@
             "LogName": "triggerActions.json: Add Trigger Action to Steal Money From Coat Rack",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
                 "CoatRackMoney": {
                     "Id": "CoatRackMoney",

@@ -1,24 +1,39 @@
 {
     "Changes": [
         {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors",
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors (Vanilla)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{Raven}}TentOutdoors.tmx",
+            "FromFile": "data/maps/L0veRaven_RavenTentOutdoors.tmx",
             "PatchMode": "Replace",
-            "Update": "OnLocationChange",
             "ToArea": {
                 "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
             "When": {
                 "HasMod: |contains={{SVE}}": false,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
             }
         },
         {
-            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow",
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors (SVE)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{Raven}}TentSnow.tmx",
+            "FromFile": "data/maps/L0veRaven_RavenTentOutdoorsSVE.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 83,"Y": 79,"Width": 11,"Height": 15,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+            },
+        },
+        
+        {
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow (Vanilla)",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/L0veRaven_RavenTentSnow.tmx",
             "PatchMode": "Replace",
             "Update": "OnLocationChange",
             "ToArea": {
@@ -27,17 +42,33 @@
             "When": {
                 "HasMod: |contains={{SVE}}": false,
                 "HasReadLetter": "{{Raven}}HiNeighbor",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
                 "Season": "winter",
             }
         },
         {
-            "LogName": "mapPatches.json: Raven's Tent Removal",
+            "LogName": "mapPatches.json: Raven's Tent - Outdoors: Snow (SVE)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{Raven}}TentRemove.tmx",
+            "FromFile": "data/maps/L0veRaven_RavenTentSnow.tmx",
             "PatchMode": "Replace",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
+            "ToArea": {
+                "X": 87,"Y": 84,"Width": 3,"Height": 5,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+                "Season": "winter",
+            }
+        },
+        
+        {
+            "LogName": "mapPatches.json: Raven's Tent Removal (Vanilla)",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/L0veRaven_RavenTentRemove.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange, OnTimeChange",
             "ToArea": {
                 "X": 50,"Y": 70,"Width": 6,"Height": 8,
             },
@@ -47,12 +78,28 @@
             },
         },
         {
-            "LogName": "mapPatches.json: Raven's Tent Removal - Snow",
+            "LogName": "mapPatches.json: Raven's Tent Removal (SVE)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "FromFile": "data/maps/{{Raven}}TentSnowRemove.tmx",
+            "FromFile": "data/maps/L0veRaven_RavenTentRemoveSVE.tmx",
             "PatchMode": "Replace",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
+            "ToArea": {
+                "X": 83,"Y": 79,"Width": 11,"Height": 15,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}Apartment",
+            }
+        },
+        
+        {
+            "LogName": "mapPatches.json: Raven's Tent Removal - Snow (Vanilla)",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/L0veRaven_RavenTentSnowRemove.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange, OnTimeChange",
             "ToArea": {
                 "X": 51,"Y": 70,"Width": 3,"Height": 5,
             },
@@ -63,12 +110,29 @@
             }
         },
         {
+            "LogName": "mapPatches.json: Raven's Tent Removal - Snow (SVE)",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "data/maps/L0veRaven_RavenTentSnowRemove.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange, OnTimeChange",
+            "ToArea": {
+                "X": 87,"Y": 84,"Width": 3,"Height": 5,
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasReadLetter": "{{Raven}}Apartment",
+                "Season": "winter",
+            }
+        },
+        
+        {
             "LogName": "mapPatches.json: Raven's Apartment w/ Coat Rack Tile Action",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
-            "FromFile": "data/maps/{{Raven}}Apartment.tmx",
+            "FromFile": "data/maps/L0veRaven_RavenApartment.tmx",
             "PatchMode": "Replace",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
             "ToArea": {
                 "X": 5,"Y": 8,"Width": 11,"Height": 11,
             },
@@ -93,7 +157,7 @@
             "LogName": "mapPatches.json: Raven's Apartment - Change Tile Action to Message After Getting Reward",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
-            "Update": "OnTimeChange",
+            "Update": "OnLocationChange, OnTimeChange",
             "MapTiles": [
                 {
                     "Position": {
@@ -111,30 +175,55 @@
         },
         
         {
-            "LogName": "mapPatches.json: Warps - Forest",
+            "LogName": "mapPatches.json: Warps - Forest (Vanilla)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
             "AddWarps": [
-                "52 73 Custom_{{Raven}}TentInside 2 4",
+                "52 73 Custom_L0veRaven_RavenTentInside 2 4",
             ],
             "When": {
                 "HasMod: |contains={{SVE}}": false,
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating, Engaged, Divorced",
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Warps - Forest (SVE)",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "Update": "OnLocationChange, OnTimeChange",
+            "AddWarps": [
+                "88 87 Custom_L0veRaven_RavenTentInsideSVE 2 4",
+            ],
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
                 "HasReadLetter": "{{Raven}}HiNeighbor",
             }
         },
         
         {
-            "LogName": "mapPatches.json: Warps - Custom_L0veRaven_RavenTentInside",
+            "LogName": "mapPatches.json: Warps - Custom_L0veRaven_RavenTentInside (Vanilla)",
             "Action": "EditMap",
-            "Target": "Maps/Custom_{{Raven}}TentInside",
-            "Update": "OnLocationChange",
+            "Target": "Maps/Custom_L0veRaven_RavenTentInside",
+            "Update": "OnLocationChange, OnTimeChange",
             "AddWarps": [
                 "2 6 Forest 52 74",
             ],
             "When": {
                 "HasMod: |contains={{SVE}}": false,
+                "HasReadLetter": "{{Raven}}HiNeighbor",
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Warps - Custom_L0veRaven_RavenTentInside (SVE)",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_L0veRaven_RavenTentInsideSVE",
+            "Update": "OnLocationChange, OnTimeChange",
+            "AddWarps": [
+                "2 6 Forest 88 88",
+            ],
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
                 "HasReadLetter": "{{Raven}}HiNeighbor",
             }
         },
