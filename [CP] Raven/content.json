@@ -473,7 +473,7 @@
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/triggerActions.json",
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/winterStarGifts.json, data/triggerActions.json",
         },
         {
             "LogName": "content.json: Dialogue",

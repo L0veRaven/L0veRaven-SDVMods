@@ -1,6 +1,26 @@
 {
     "Changes": [
         {
+            "LogName": "home.json: Apartment Spawn",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Raven}}","Home"],
+            "Update": "OnLocationChange, OnTimeChange",
+            "Entries": {
+                "Default": {
+                    "Id": "Default",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": {
+                        "X": 7,"Y": 13,
+                    },
+                    "Direction": "right",
+                },
+            },
+            "When": {
+                "HasFlag: |contains={{Raven}}Apartment": true,
+            }
+        },
+        {
             "LogName": "home.json: Tent Spawn (Vanilla)",
             "Action": "EditData",
             "Target": "Data/Characters",
@@ -8,7 +28,6 @@
             "Entries": {
                 "Default": {
                     "Id": "Default",
-                    "Condition": "!PLAYER_HAS_MAIL Any L0veRaven_RavenApartment received",
                     "Location": "Custom_L0veRaven_RavenTentInside",
                     "Tile": {
                         "X": 3,"Y": 4,
@@ -18,44 +37,28 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": false,
+                "HasFlag: |contains={{Raven}}Apartment": false,
             },
-        },
-        {
-            "LogName": "home.json: Tent Spawn (SVE)",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": ["{{Raven}}","Home"],
-            "Entries": {
-                "Default": {
-                    "Id": "Default",
-                    "Location": "Custom_L0veRaven_RavenTentInsideSVE",
-                    "Tile": {
-                        "X": 3,"Y": 4,
-                    },
-                    "Direction": "right",
-                },
-            },
-            "When": {
-                "HasMod: |contains={{SVE}}": true,
-            },
-        },
-        
-        {
-            "LogName": "home.json: Apartment Spawn",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": ["{{Raven}}","Home"],
-            "Entries": {
-                "Apartment": {
-                    "Id": "Apartment",
-                    "Condition": "PLAYER_HAS_MAIL Any L0veRaven_RavenApartment received",
-                    "Location": "FRL_NPCApt_Floor1",
-                    "Tile": {
-                        "X": 7,"Y": 13,
-                    },
-                    "Direction": "right",
-                },
-            },
-        },
+        },        
+//ADD        {
+//ADD            "LogName": "home.json: Tent Spawn (SVE)",
+//ADD            "Action": "EditData",
+//ADD            "Target": "Data/Characters",
+//ADD            "TargetField": ["{{Raven}}","Home"],
+//ADD            "Entries": {
+//ADD                "Default": {
+//ADD                    "Id": "Default",
+//ADD                    "Location": "Custom_L0veRaven_RavenTentInsideSVE",
+//ADD                    "Tile": {
+//ADD                        "X": 3,"Y": 4,
+//ADD                    },
+//ADD                    "Direction": "right",
+//ADD                },
+//ADD            },
+//ADD            "When": {
+//ADD                "HasMod: |contains={{SVE}}": true,
+//ADD                "HasFlag: |contains={{Raven}}Apartment": false,
+//ADD            },
+//ADD        },
     ]
 }

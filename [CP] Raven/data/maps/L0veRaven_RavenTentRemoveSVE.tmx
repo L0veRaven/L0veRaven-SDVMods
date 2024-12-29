@@ -5552,7 +5552,7 @@
  </tileset>
  <layer id="1" name="Back" width="11" height="15">
   <data encoding="base64" compression="zlib">
-   eJz7ocnAwK/FwKAFxN+A7O9AHA/Eh4HYESimDsQaQOysBVGHjAW0IOo8oOpB+r4C8Q9NTLXo5uNSB8KCUDs1tTDVPdTEVBMPNVMdyZ2/kdTB1LhrItTC1MP8gezGeDS8AepeZLXo/kLGP3CoxYdJUauFIz5w4a04whkbPoek9ieU/QCH/uckmAsKk4cE1AtC/QUAZltF/A==
+   eJz7ocnAwK/FwKAFxN+A7O9AHA/Eh4HYESimDsQaQOysBVGHjAW0IOo8oOpB+r4C8Q9NTLXo5uNSB8KCUDs1tTDVPdTEVBMPNVMdyZ2/kdTB1LhrItTC1MP8gezGeDS8AepeZLXo/kLGP3CoxYdJUauFIz5w4a04whkbPodF7QMc+p+TYC4oTB4SUC8I9RcA+RNFEw==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>

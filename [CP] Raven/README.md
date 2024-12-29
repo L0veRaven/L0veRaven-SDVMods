@@ -251,11 +251,11 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | content.json: Changes | Notes |
 | ------------- | ------------- |
 | Blank Loads | ```Characters/Dialogue/{{ModId}}```, ```Characters/Dialogue/MarriageDialogue{{ModId}}```, ```Characters/schedules/{{ModId}}```, ```Strings/Schedules/{{ModId}}```, ```Data/Events/Custom_L0veRavenRaven_TentInside``` |
-| NPC Data | ```data/animationFrames.json```, ```data/concessionTastes.json```, ```data/NPCGiftTastes.json```, ```data/schedule.json```, ```data/events.json```, ```data/festivals.json```, ```data/mail.json```, ```data/character.json```, ```data/outfits.json```, ```data/triggerActions.json``` |
-| Dialogue | ```data/dialogue/dialogue.json```, ```data/dialogue/marriageDialogue.json```, ```data/dialogue/giftResponses.json```, ```data/dialogue/moviesReactions.json```, ```data/StringsFromCSFiles.json```, ```data/maps/StringsFromMaps.json```, ```data/dialogue/scheduleDialogue.json``` |
+| Locations | ```data/locations/WorldMap.json```, ```data/locations/MapPatches.json```, ```data/locations/LocationsData.json``` |
 | Spouse Patio | ```data/maps/{{Raven}}SpousePatio.tmx``` |
 | Spouse Room | ```data/maps/{{Raven}}SpouseRoom.tmx``` |
-| Locations | ```data/locations/WorldMap.json```, ```data/locations/MapPatches.json```, ```data/locations/LocationsData.json``` |
+| NPC Data | ```data/animationFrames.json```, ```data/concessionTastes.json```, ```data/NPCGiftTastes.json```, ```data/schedule.json```, ```data/events.json```, ```data/festivals.json```, ```data/mail.json```, ```data/character.json```, ```data/outfits.json```, ```data/home.json```, ```data/winterStarGifts.json```, ```data/triggerActions.json``` |
+| Dialogue | ```data/dialogue/dialogue.json```, ```data/dialogue/marriageDialogue.json```, ```data/dialogue/giftResponses.json```, ```data/dialogue/moviesReactions.json```, ```data/StringsFromCSFiles.json```, ```data/maps/StringsFromMaps.json```, ```data/dialogue/scheduleDialogue.json``` |
 | ModCompat | ```data/modCompat/CJBWarps.json```, ```data/modCompat/naturesBounty.json```, ```data/modCompat/eventExcludesDELETE.json```, ```data/modCompat/downtownZuzu.json```, ```data/modCompat/ridgesideVillage.json```, ```data/modCompat/pelicanTownPotluck.json```, ```data/modCompat/fireworksFestival.json```, ```data/modCompat/solsticeWinterStar.json```, ```data/modCompat/stardewValleyExpanded.json``` |
 
 | manifest.json | Notes |

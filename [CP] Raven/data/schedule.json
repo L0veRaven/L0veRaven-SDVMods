@@ -2,6 +2,28 @@
     "Changes": [
     //Work Days: Mon, Fri, Sat, Sun (12pm - 8pm)
     //Free Days: Tue, Wed, Thu
+        {
+            "LogName": "schedule.json: Spring Default - May Not Appear In-Game",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                "spring": "620 Custom_L0veRaven_RavenTentInside 2 4 3/640 Forest 39 75 3/830 Saloon 37 23 2 l0veraven_raven_sweep/2000 Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",
+            },
+            "When": {
+                "HasFlag: |contains={{Raven}}Apartment": false,
+            }
+        },
+        {
+            "LogName": "schedule.json: Apartment Default",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                "spring": "620 FRL_NPCApt_Floor1 13 13 0/640 Forest 39 75 3/830 Saloon 37 23 2 l0veraven_raven_sweep/2000 FRL_NPCApt_Floor1 7 13 1 l0veraven_raven_sleep",
+            },
+            "When": {
+                "HasFlag: |contains={{Raven}}Apartment": true,
+            }
+        },
 //ADD        {
 //ADD            "LogName": "schedule.json: Day Sensitive",
 //ADD            "Action": "EditData",
@@ -76,15 +98,6 @@
 //ADD                "HasMod: |contains={{SVE}}": false,
 //ADD            }
 //ADD        },
-        
-        {
-            "LogName": "schedule.json: Spring Default - May Not Appear In-Game",
-            "Action": "EditData",
-            "Target": "Characters/schedules/{{Raven}}",
-            "Entries": {
-                "spring": "620 Forest 39 75 3/800 Town 60 17 2/1130 Saloon 37 23 2 l0veraven_raven_sweep/2200 Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",
-            },
-        },
         
 //ADD        {
 //ADD            "LogName": "schedule.json: Marriage",

@@ -53,23 +53,7 @@
                     //ADD"SpouseWallpapers": [], // Wallpapers NPC will place in home
                     "FriendsAndFamily": {}, // If NPC has relatives
                     "FlowerDanceCanDance": true, // If NPC dances at Flower Dance
-                    "WinterStarGifts": [ // Items NPC can gift during the winter star festival
-                        {
-                            "Id": "{{Raven}}_WinterStar_Amethyst",
-                            "ItemId": "(O)66",
-                            "RandomItemId": null,
-                            "MinStack": 1,
-                            "MaxStack": 5,
-                        },
-                        {
-                            "Id": "{{Raven}}_WinterStar_Ruby",
-                            "ItemId": "(O)64",
-                            "RandomItemId": null,
-                            "MaxItems": null,
-                            "MinStack": 1,
-                            "MaxStack": 3,
-                        },
-                    ],
+                    "WinterStarGifts": [],
                     "WinterStarParticipant": true, // If NPC participates in Winter Star
                     "UnlockConditions": null, // If NPC has unlock condidion before being seen
                     "SpawnIfMissing": true, // Forcibly spawns NPC if stuck

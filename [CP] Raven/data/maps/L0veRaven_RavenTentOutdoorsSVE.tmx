@@ -5594,11 +5594,6 @@
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.1&quot;"/>
    </properties>
   </object>
-  <object id="313" name="TileData" x="80" y="128" width="16" height="16">
-   <properties>
-    <property name="Warp" value="88 87 Custom_L0veRaven_RavenTentInside 2 4"/>
-   </properties>
-  </object>
   <object id="314" name="TileData" x="112" y="112" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.2&quot;"/>
