@@ -7,10 +7,10 @@
             "Entries": {
                 //Hard-coded tokens
                 "{{Lowercase:{{Raven}}}}_sleep": "51/51 51/51",
-                //ADD"{{Lowercase:{{Raven}}}}_beach_towel": "0/0 0/0",
-                //ADD"{{Lowercase:{{Raven}}}}_beach_dance": "0/0 0/0",
-                //ADD"{{Lowercase:{{Raven}}}}_beach_drink": "0/0 0/0",
-                //ADD"{{Lowercase:{{Raven}}}}_beach_umbrella": "0/0 0/0",
+                "{{Lowercase:{{Raven}}}}_beach_towel": "0/0 0/0",
+                "{{Lowercase:{{Raven}}}}_beach_dance": "0/0 0/0",
+                "{{Lowercase:{{Raven}}}}_beach_drink": "0/0 0/0",
+                "{{Lowercase:{{Raven}}}}_beach_umbrella": "0/0 0/0",
                 //Custom tokens
                 "{{Lowercase:{{Raven}}}}_tap_foot": "17/18 17 18 17/0",
                 "{{Lowercase:{{Raven}}}}_stand": "0/0/0",

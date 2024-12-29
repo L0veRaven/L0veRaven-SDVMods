@@ -278,16 +278,16 @@
 "4hearts_9": "4hearts_9_addDialogue",
 "4hearts_10": "4hearts_10_addDialogue",
     // || {{6hearts}} ||
-"6hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # *yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2 |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_2": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_4": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_7": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_8": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_9": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
-"6hearts_10": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{ModId}}_JobInterview tomorrow",
+"6hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # *yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2 |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_2": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_4": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_7": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_8": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_9": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_10": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
     // || {{8hearts}} ||
 "8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
 "8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
@@ -364,13 +364,13 @@
 "springRain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
 "springRain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
 "springRain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
-"springRain_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"springRain_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 // || {{spStorm}} -> {{i18n:springStorm_{{Random:{{Range:1,_}}}}}} ||
 "springStorm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
 "springStorm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
 "springStorm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
 "springStorm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
-"springStorm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"springStorm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 // || {{spWind}} -> {{i18n:springWind_{{Random:{{Range:1,_}}}}}} ||
 "springWind_1": "Seeing the petals flying in the wind like this is so calming.$1",
 "springWind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
@@ -379,21 +379,21 @@
 // || {{suRain}} -> {{i18n:summerRain_{{Random:{{Range:1,_}}}}}} ||
 "summerRain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
 "summerRain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-"summerRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"summerRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 "summerRain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
 // || {{suStorm}} -> {{i18n:summerStorm_{{Random:{{Range:1,_}}}}}} ||
 "summerStorm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
 "summerStorm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
-"summerStorm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"summerStorm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
     // || Fall Weather ||
 // || {{faRain}} -> {{i18n:fallRain_{{Random:{{Range:1,_}}}}}} ||
 "fallRain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
 "fallRain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-"fallRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"fallRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 "fallRain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
 "fallRain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
 // || {{faStorm}} -> {{i18n:fallStorm_{{Random:{{Range:1,_}}}}}} ||
-"fallStorm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"fallStorm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 "fallStorm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
 "fallStorm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
 // || {{faWind}} -> {{i18n:fallWind_{{Random:{{Range:1,_}}}}}} ||
@@ -404,7 +404,7 @@
 // || {{wiRain}} -> {{i18n:winterRain_{{Random:{{Range:1,_}}}}}} ||
 "winterRain_1": "... It never rains during winter, what the hell?$17",
 "winterRain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
-"winterRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"winterRain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 // || {{snowing}} -> {{i18n:Snowing_{{Random:{{Range:1,_}}}}}} ||
 "Snowing_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
 "Snowing_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
@@ -861,7 +861,7 @@
 // =================
 // || Events.json ||
 // =================
-// || Event 0: 27407000 - {{ModId}}CatLover ||
+// || Event 0: 27407000 - {{Raven}}CatLover ||
 "CatLover_speak_1": "Penny... are you okay?$2",//Speak->Raven
 "CatLover_speak_2": "Hi Raven.$3",//Speak->Penny
 "CatLover_speak_3": "I can tell something's going on.$2#$b#Do you wanna to talk about it?$17",//Speak->Raven
@@ -893,7 +893,7 @@
 "CatAdoption_speak_2": "Raven and Penny brought it to me since it's a stray... poor little thing.$s",//Speak->Marnie
 "CatAdoption_speak_3": "I think it likes this place! Hey, um.... Don't you think this farm could use a good cat? It's very healthy.$h",//Speak->Marnie
 "CatAdoption_speak_4": "Well, little %pet... You be a good kitty now... okay?",//Speak->Marnie
-// || Event 1: 27407001 - {{ModId}}CheckIn ||
+// || Event 1: 27407001 - {{Raven}}CheckIn ||
     // || Conversation (Chronological) Order ||
         // || Establishing Dialogue ||
 "CheckIn_speak_1": "Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?",
@@ -928,7 +928,7 @@
         // || CheckIn - end Dialogue ||
 "CheckIn_speak_final": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
 "CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
-// || Event 2: 27407002 - {{ModId}}WildClans || Only Raven speaks
+// || Event 2: 27407002 - {{Raven}}WildClans || Only Raven speaks
 "WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
 "WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
 "WildClans_speak_3": "I found it!$1#$b#Wanna see it?",
@@ -957,11 +957,11 @@
 "WildClans_speak_5": "",
 "WildClans_speak_5": "",
 "WildClans_speak_5": "",
-// || Event 3: 27407003 - {{ModId}}CleansingFarmer ||
-// || Event 4: 27407004 - {{ModId}}CleansingFarmer2 ||
+// || Event 3: 27407003 - {{Raven}}CleansingFarmer ||
+// || Event 4: 27407004 - {{Raven}}CleansingFarmer2 ||
 "CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
-// || Event 5: 27407005 - {{ModId}}jobInterview ||
-// || Event 6: 27407006 - {{ModId}}marriageTalk ||
+// || Event 5: 27407005 - {{Raven}}jobInterview ||
+// || Event 6: 27407006 - {{Raven}}marriageTalk ||
 "marriageTalk_gusWelcome": "Here comes the newlywed!",//speechBubbleGus
     
 "marriageTalk_speak_1": "Hey there, @!$1",//speakRaven
@@ -982,7 +982,7 @@
 "marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//speakRaven
 "marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//speakGus
 "marriageTalk_qQ_1_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
-// || Event 100: 27407100 - {{ModId}}GusEdibles ||
+// || Event 100: 27407100 - {{Raven}}GusEdibles ||
 "GusEdibles_speak_1": "Welcome!",//speakGus
 "GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//speakRaven
 "GusEdibles_speak_3": "You're more than welcome to have some, @. There's plenty to go around!",//speakGus
@@ -996,7 +996,7 @@
     
 "GusEdibles_end_1": "Hehe... I'm feeling good right now. What about you?$6",//speakRaven
 "GusEdible_end_2": "I hope you liked the special brownie. My special ingredient is infused oil.#$b#And... sorry if the brownie was too strong for you.$2",//speakGus
-// || Event 101: 27407101 - {{ModId}}SmokeSession ||
+// || Event 101: 27407101 - {{Raven}}SmokeSession ||
 "SmokeSession_textAboveHead": "You came!",
 "SmokeSession_speak_1": "It's great seeing you!$1#$b#So, are you gonna have some weed?",
 "SmokeSession_speak_2": "That's amazing!$1#$b#Oh, but I do have to ask...$17",
@@ -1011,7 +1011,7 @@
 
 
         "AdvisingPenny_end": "I talked with Penny and I'm gonna start helping tutor the kiddos!#$e#The kids need the extra support. After all, teaching kids solo has gotta be tough as hell.",
-        // || Event 3: 27407003 - {{ModId}}TutoringWithPenny ||
+        // || Event 3: 27407003 - {{Raven}}TutoringWithPenny ||
             // || Conversation (Chronological) Order ||
         "TutoringWithPenny_Penny_1": "Alright, kids. Now it's time to listen to your new tutor, Raven, for their portion of the lesson.#$b#Be sure to listen closely.$1",
         "TutoringWithPenny_Raven_1": "Perfect, so turn your page to-",
@@ -1042,7 +1042,7 @@
 // "<conversationTopic>_<NPCifMoreThanOne>_reply_3_2": "NPC dialogue 2 for response #3",
 // "<conversationTopic>_<NPCifMoreThanOne>_reply_3_3": "NPC dialogue 3 for response #3",
 
-// || Event 4: 2740700# - {{ModId}}untitled || -> 
+// || Event 4: 2740700# - {{Raven}}untitled || -> 
 // dialogue chunk: "I remember when I first came to Pelican Town.#$b#I used to live in Zuzu City, but I got evicted since I didn't make enough money to keep the place after a while.#$e#Don't feel bad, it's not your fault unless you were my landlord."
 
     
@@ -1108,25 +1108,25 @@
 // ===============
 // || mail.json ||
 // ===============
-// || {{ModId}}_CheckIn - Event ||
+// || {{Raven}}_CheckIn - Event ||
 "CheckIn_Mail_1": "Hey @,^^I'm glad you've been having a good time in Pelican Town. I figured I'd send a letter to show my appreciation. I could show you some things to do in town if you have time in case you get bored.^^I know you'll need breaks from the farm sometimes, so we should hang out when that time comes!^^~ Raven[#]Raven Checking In",
 "CheckIn_Mail_2": "Hey @,^^I know Pelican Town seems pretty plain to you, but I think you'd have a great time if you did activities like fishing with some of the people here. I know it can be intimidating to talk to new people, but many of them have a lot of stories to tell.^^You can always do what you want, don't let me stop you!^^I wanna make sure you have a good time out here. I'm sure you could use a break from the farm.^^Well, I'll see you later!^^^^^^~ Raven[#]Raven Checking In",
 "CheckIn_Mail_3": "Hey @,^^It sounds like Pelican Town is a pretty rough place for you to settle into. I figured I'd send a letter to reach out and help you feel more welcome here.^^There's plenty of places you can hang out with people, the easiest place being the Saloon. Almost everyone stops by there on Fridays. You can also find me there too if you wanna hang out.^^I also recommend that you spend some time with Willy and Linus. They're very nice and are kinda underappreciated in town.^^I just want you to know that you'll always have a place here in Pelican town.^^^~ Raven[#]Raven Checking In",
-// || {{ModId}}_CleansingFarmer - Event ||
+// || {{Raven}}_CleansingFarmer - Event ||
 "CleansingFarmer_Mail": "Hi @,^^Do you remember our conversation yesterday about how I could teach you some spellwork? If you come to my tent when I'm home, I should be able to show you how I do cleansing spells.^^It's up to you, no pressure!^^~ Raven[#]Offering a Cleansing",
-// || {{ModId}}_CleansingFarmer2 - Event ||
+// || {{Raven}}_CleansingFarmer2 - Event ||
 "CleansingFarmer2_Mail_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
 "CleansingFarmer2_Mail_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
 "CleansingFarmer2_Mail_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
-// || {{ModId}}_JobInterview - Event ||
+// || {{Raven}}_JobInterview - Event ||
 "JobInterview_Mail": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
-// || {{ModId}}_marriageTalk - Event ||
+// || {{Raven}}_marriageTalk - Event ||
 "marriageTalk_1_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 "marriageTalk_2_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 "marriageTalk_3_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
-// || {{ModId}}ravenApartment - Event ||
+// || {{Raven}}ravenApartment - Event ||
 "ravenApartment_Mail": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven[#]Raven's Apartment",
-// || {{ModId}}_LoveLetter -> Automatic letters when dating ||
+// || {{Raven}}_LoveLetter -> Automatic letters when dating ||
 "LoveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
 "LoveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",
 "LoveLetter_3": "Hi @,^^Thanks for being a really cool person. I love how you really seem to understand me.^^I hope I see you soon!^^~ Raven[#]Raven's Love Letter",
@@ -1389,8 +1389,8 @@
 "NBDialogue_18": "Why can't humans just evolve to do photosynthesis?#$b#It would make things so much easier.#$e#Maybe I did smoke a blunt earlier. What are you, a cop?",
 "NBDialogue_19": "My body feels like what a static tv screen looks like.#$e@It's wild dude.",
 "NBDialogue_20": "I'm surprised Harvey doesn't sell CBD products. I feel like that'd help boost his income.",
-"NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407100 # Gus is making his special brownies again. I can't wait to eat some!$1 |Gus is gonna be making his special brownies tomorrow. I can't wait to eat some!$1 $action AddMail Current {{ModId}}_StonerLetter tomorrow#$b#You should come try some too. Gus could always use additional taste testers!",
-"NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407101 # ______ |______ $action AddMail Current {{ModId}}_CleansingFarmer tomorrow",
+"NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407100 # Gus is making his special brownies again. I can't wait to eat some!$1 |Gus is gonna be making his special brownies tomorrow. I can't wait to eat some!$1 $action AddMail Current {{Raven}}_StonerLetter tomorrow#$b#You should come try some too. Gus could always use additional taste testers!",
+"NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407101 # ______ |______ $action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 // || Schedule Dialogue ||
 "Forest_101_1": "%Raven is speaking slower than usual.#$b#I'm just having a little smoke break right now.#$b#I sure am having one hell of a blast!",
 "Forest_101_2": "%Raven is speaking slower than usual.#$b#What's up @? Do you want some? Here you go.[(O)Raspb3rryfields.NaturesBounty_Preroll]",

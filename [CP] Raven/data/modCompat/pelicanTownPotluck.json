@@ -3,7 +3,7 @@
         {
             "LogName": "pelicanTownPotluck.json: Dialogue (Yesterday, Today, Tomorrow)",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}",
+            "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "summer_10": "{{potluckYest}}",
                 "summer_11": "{{potluckToday}}",

@@ -1,55 +1,7 @@
 {
     "Changes": [
         {
-        "LogName": "Locations.json: Add Custom_L0veRaven_RavenTentInside",
-        "Action": "EditData",
-        "Target": "Data/Locations",
-        "Entries": {
-            "Custom_L0veRaven_RavenTentInside": {
-                "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.{{Nexus}}001]",
-                "DefaultArrivalTile": {
-                    "X": 2,"Y": 4,
-                },
-                "ExcludeFromNpcPathfinding": false,
-                "CreateOnLoad": {
-                    "MapPath": "Maps\\Custom_{{Raven}}TentInside",
-                    "Type": null,
-                    "AlwaysActive": false
-                },
-                "FormerLocationNames": [],
-                "CanPlantHere": false,
-                "CanHaveGreenRainSpawns": false,
-                "ArtifactSpots": [],
-                "FishAreas": {},
-                "Fish": [],
-                "Forage": [],
-                "MinDailyWeeds": 0,
-                "MaxDailyWeeds": 0,
-                "FirstDayWeedMultiplier": 0,
-                "MinDailyForageSpawn": 0,
-                "MaxDailyForageSpawn": 0,
-                "MaxSpawnedForageAtOnce": 0,
-                "ChanceForClay": 0,
-                "Music": [],
-                "MusicDefault": null,
-                "MusicContext": "Default",
-                "MusicIgnoredInRain": false,
-                "MusicIgnoredInSpring": false,
-                "MusicIgnoredInSummer": false,
-                "MusicIgnoredInFall": false,
-                "MusicIgnoredInFallDebris": false,
-                "MusicIgnoredInWinter": false,
-                "MusicIsTownTheme": false,
-                "CustomFields": null,
-                },
-            },
-            "When": {
-                "HasMod: |contains={{SVE}}": true,
-            }
-        },
-        
-        {
-            "LogName": "Locations.json: Add Custom_L0veRaven_RavenTentInsideSVE",
+            "LogName": "Locations.json: Add Custom_L0veRaven_RavenTentInside",
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
@@ -58,14 +10,14 @@
                     "DefaultArrivalTile": {
                         "X": 2,"Y": 4,
                     },
-                    "ExcludeFromNpcPathfinding": false,
                     "CreateOnLoad": {
-                        "MapPath": "Maps\\Custom_{{Raven}}TentInsideSVE",
+                        "MapPath": "Maps\\Custom_{{Raven}}TentInside",
                         "Type": null,
                         "AlwaysActive": false
                     },
-                    "FormerLocationNames": [],
                     "CanPlantHere": false,
+                    "ExcludeFromNpcPathfinding": false,
+                    "FormerLocationNames": [],
                     "CanHaveGreenRainSpawns": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -91,9 +43,51 @@
                     "CustomFields": null,
                 },
             },
-            "When": {
-                "HasMod: |contains={{SVE}}": true,
-            }
+        },
+        
+        {
+            "LogName": "Locations.json: Add Custom_L0veRaven_RavenTentInsideSVE",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_L0veRaven_RavenTentInsideSVE": {
+                    "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.{{Nexus}}001]",
+                    "DefaultArrivalTile": {
+                        "X": 2,"Y": 4,
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Custom_{{Raven}}TentInsideSVE",
+                        "Type": null,
+                        "AlwaysActive": false
+                    },
+                    "CanPlantHere": false,
+                    "ExcludeFromNpcPathfinding": false,
+                    "FormerLocationNames": [],
+                    "CanHaveGreenRainSpawns": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                    "MinDailyWeeds": 0,
+                    "MaxDailyWeeds": 0,
+                    "FirstDayWeedMultiplier": 0,
+                    "MinDailyForageSpawn": 0,
+                    "MaxDailyForageSpawn": 0,
+                    "MaxSpawnedForageAtOnce": 0,
+                    "ChanceForClay": 0,
+                    "Music": [],
+                    "MusicDefault": null,
+                    "MusicContext": "Default",
+                    "MusicIgnoredInRain": false,
+                    "MusicIgnoredInSpring": false,
+                    "MusicIgnoredInSummer": false,
+                    "MusicIgnoredInFall": false,
+                    "MusicIgnoredInFallDebris": false,
+                    "MusicIgnoredInWinter": false,
+                    "MusicIsTownTheme": false,
+                    "CustomFields": null,
+                },
+            },
         },
     ]
 }

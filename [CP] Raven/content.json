@@ -277,45 +277,46 @@
         {"Name": "smokeSpotForestSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
             //Bus Stop
-        {"Name": "standBusStop","Value": "{{i18n:standBusStop}}",},
+        {"Name": "standBusStop","Value": "BusStop 20 22 2",},
             //Forest
-        {"Name": "pissBush","Value": "{{i18n:pissBush}}",},
-        {"Name": "pissBush","Value": "{{i18n:pissBush_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "pissBush","Value": "Forest 54 70 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"",},
+        {"Name": "pissBush","Value": "Forest 90 81 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "smokeSpotForest","Value": "{{i18n:smokeSpotForest}}","When": {"HasMod |contains={{NB}}": "true",},},
-        {"Name": "smokeSpotForest","Value": "{{i18n:smokeSpotForest_SVE}}","When": {"HasMod |contains={{NB}}": "true", "HasMod |contains={{SVE}}": "true",},},
+        {"Name": "smokeSpotForest","Value": "Forest 56 81 3",},
+        {"Name": "smokeSpotForest","Value": "Forest 90 89 3","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "standRiverForest","Value": "{{i18n:standRiverForest}}",},
-        {"Name": "standRiverForest","Value": "{{i18n:standRiverForest_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
-            //Custom_L0veRaven_RavenTentInside
-        {"Name": "standStove","Value": "{{i18n:standStove}}",},
-        {"Name": "inBed","Value": "{{i18n:inBed}}",},
-        {"Name": "standStove","Value": "{{i18n:standStove_SVE}}","When": {"HasMod |contains={{SVE}}": "true",}},
-        {"Name": "inBed","Value": "{{i18n:inBed_SVE}}","When": {"HasMod |contains={{SVE}}": "true",}},
+        {"Name": "standRiverForest","Value": "Forest 39 75 3",},
+        {"Name": "standRiverForest","Value": "Forest 64 89 3","When": {"HasMod |contains={{SVE}}": "true",},},
+            //Custom_L0veRaven_RavenTentInside[SVE]
+        {"Name": "standStove","Value": "Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",},
+        {"Name": "standStove","Value": "Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true",},},
+        
+        {"Name": "inBed","Value": "Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",},
+        {"Name": "inBed","Value": "Custom_L0veRaven_RavenTentInsideSVE 3 4 1 l0veraven_raven_sleep","When": {"HasMod |contains={{SVE}}": "true",},},
             //Town
-        {"Name": "standCC","Value": "{{i18n:standCC}}",},
-        {"Name": "standCC","Value": "{{i18n:standCC_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standCC","Value": "Town 60 17 2",},
+        {"Name": "standCC","Value": "Town 60 17 2","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "standBush","Value": "{{i18n:standBush}}",},
-        {"Name": "standBush","Value": "{{i18n:standBush_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standBush","Value": "Town 47 77 2",},
+        {"Name": "standBush","Value": "Town 47 77 2","When": {"HasMod |contains={{SVE}}": "true",},},
             //Hospital
-        {"Name": "standCheckUp","Value": "{{i18n:standCheckUp}}",},
-        {"Name": "standCheckUp","Value": "{{i18n:standCheckUp_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standCheckUp","Value": "Hospital 4 6 1",},
+        {"Name": "standCheckUp","Value": "Hospital 4 6 1","When": {"HasMod |contains={{SVE}}": "true",},},
             //Saloon
-        {"Name": "standJobSaloon","Value": "{{i18n:standJobSaloon}}",},
-        {"Name": "standJobSaloon","Value": "{{i18n:standJobSaloon_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standJobSaloon","Value": "Saloon 5 17 2",},
+        {"Name": "standJobSaloon","Value": "Saloon 5 17 2","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon}}",},
-        {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standTableSaloon","Value": "Saloon 43 22 2",},
+        {"Name": "standTableSaloon","Value": "Saloon 43 22 2","When": {"HasMod |contains={{SVE}}": "true",},},
             //ArchaeologyHouse
-        {"Name": "standBookcase","Value": "{{i18n:standBookcase}}",},
-        {"Name": "standBookcase","Value": "{{i18n:standBookcase_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standBookcase","Value": "ArchaeologyHouse 8 13 1",},
+        {"Name": "standBookcase","Value": "ArchaeologyHouse 7 18 3","When": {"HasMod |contains={{SVE}}": "true",},},
             //Beach
-        {"Name": "relaxBeach","Value": "{{i18n:relaxBeach}}",},
-        {"Name": "relaxBeach","Value": "{{i18n:relaxBeach_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "relaxBeach","Value": "Beach 43 23 2",},
+        {"Name": "relaxBeach","Value": "Beach 43 23 2","When": {"HasMod |contains={{SVE}}": "true",},},
             //Mountain
-        {"Name": "standMountain","Value": "{{i18n:standMountain}}",},
-        {"Name": "standMountain","Value": "{{i18n:standMountain_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standMountain","Value": "Mountain 57 33 1",},
+        {"Name": "standMountain","Value": "Mountain 57 33 1","When": {"HasMod |contains={{SVE}}": "true",},},
         //Job Schedule Randomizer
         {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false",},},
         {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
@@ -449,19 +450,13 @@
         {
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
-            "Priority": "Low",
             "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside",
             "FromFile": "data/blank.json",
         },
         {
-            "LogName": "content.json: NPC Data",
+            "LogName": "content.json: Locations",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/triggerActions.json",
-        },
-        {
-            "LogName": "content.json: Dialogue",
-            "Action": "Include",
-            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/dialogue/scheduleDialogue.json",
+            "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/LocationsData.json, data/locations/StringsFromMaps.json",
         },
         {
             "LogName": "content.json: Spouse Patio",
@@ -476,9 +471,14 @@
             "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx",
         },
         {
-            "LogName": "content.json: Locations",
+            "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/LocationsData.json, data/locations/StringsFromMaps.json",
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/triggerActions.json",
+        },
+        {
+            "LogName": "content.json: Dialogue",
+            "Action": "Include",
+            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/dialogue/scheduleDialogue.json",
         },
         {
             "LogName": "content.json: ModCompat",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="6" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="315">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="6" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="316">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="BrookSounds" value="54 99 5 64 101 4 54 111 5 64 110 5 46 85 0 29 76 0 43 65 0 60 58 0 79 53 0 88 45 0 118 45 0"/>
@@ -1704,14 +1704,14 @@
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.1&quot;"/>
    </properties>
   </object>
-  <object id="313" name="TileData" x="32" y="48" width="16" height="16">
-   <properties>
-    <property name="Warp" value="52 73 Custom_L0veRaven_RavenTentInside 2 4"/>
-   </properties>
-  </object>
   <object id="314" name="TileData" x="64" y="32" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;L0veRavenRavenTentOutdoors.2&quot;"/>
+   </properties>
+  </object>
+  <object id="315" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Warp" value="52 73 Custom_L0veRaven_RavenTentInside 2 4"/>
    </properties>
   </object>
  </objectgroup>

@@ -6,7 +6,7 @@
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Update": "OnLocationChange",
             "Entries": {
-                "{{Raven}}_RavensTent": {
+                "{{ModId}}_RavensTent": {
                     "Id": "{{ModId}}_RavensTent",
                     "DisplayName": "{{i18n:CJB_RavensTent}}",
                     "Location": "Forest",
@@ -25,7 +25,7 @@
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Update": "OnLocationChange",
             "Entries": {
-                "{{Raven}}_RavensTentSVE": {
+                "{{ModId}}_RavensTentSVE": {
                     "Id": "{{ModId}}_RavensTentSVE",
                     "DisplayName": "{{i18n:CJB_RavensTent}}",
                     "Location": "Forest",
