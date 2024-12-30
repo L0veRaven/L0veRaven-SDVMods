@@ -16,7 +16,7 @@
             },
             "When": {
                 "HasMod |contains={{SVE}}": "false",
-                "HasReadLetter": "{{Raven}}HiNeighbor",
+                "HasFlag: |contains={{Raven}}Apartment": false,
             }
         },
         {
@@ -35,7 +35,7 @@
             },
             "When": {
                 "HasMod |contains={{SVE}}": "true",
-                "HasReadLetter": "{{Raven}}HiNeighbor",
+                "HasFlag: |contains={{Raven}}Apartment": false,
             },
         },
         {

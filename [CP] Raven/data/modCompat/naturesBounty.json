@@ -37,7 +37,7 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{smokeSpotForestSchD}}",
+                "Forest.101": "{{smokeBluntSchD}}",
             },
         },
         {

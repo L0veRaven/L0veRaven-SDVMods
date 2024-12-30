@@ -6,43 +6,48 @@
             "LogName": "schedule.json: Spring Default - May Not Appear In-Game",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
-                "spring": "620 Custom_L0veRaven_RavenTentInside 2 4 3/640 Forest 39 75 3/830 Saloon 37 23 2 l0veraven_raven_sweep/2000 Custom_L0veRaven_RavenTentInside 3 4 1 l0veraven_raven_sleep",
+                "spring": "{{620am}} {{standStove}}/{{8am}} {{standRiverForest}}/{{10am}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} {{inBed}}",
             },
-            "When": {
-                "HasFlag: |contains={{Raven}}Apartment": false,
-            }
         },
         {
-            "LogName": "schedule.json: Apartment Default",
+            "LogName": "schedule.json: Medication Pick-ups (18th of Each Month)",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                "spring": "620 FRL_NPCApt_Floor1 13 13 0/640 Forest 39 75 3/830 Saloon 37 23 2 l0veraven_raven_sweep/2000 FRL_NPCApt_Floor1 7 13 1 l0veraven_raven_sleep",
+                "spring_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "summer_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "fall_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "winter_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
             },
-            "When": {
-                "HasFlag: |contains={{Raven}}Apartment": true,
-            }
         },
-//ADD        {
-//ADD            "LogName": "schedule.json: Day Sensitive",
-//ADD            "Action": "EditData",
-//ADD            "Target": "Characters/schedules/{{Raven}}",
-//ADD            "Entries": {
-//ADD                "spring_13": "{{610am}} {{standBusStop}}/{{910am}} {{standBush}}/{{210pm}} {{standMountain}}/{{10pm}} {{inBed}}",//Egg Festival
-//ADD                "spring_24": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Flower Dance
-//ADD                "summer_11": "{{610am}} {{standBusStop}}/{{910am}} {{relaxBeach}}/{{210pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Luau
-//ADD                "summer_28": "{{610am}} {{standBusStop}}/{{910am}} {{standTableSaloon}}/{{12pm}} {{relaxBeach}}/{{1210am}} {{inBed}}",//Midnight Jellies
-//ADD                "fall_16": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Stardew Fair
-//ADD                "fall_27": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Spirit's Eve
-//ADD                "winter_8": "{{610am}} {{standBusStop}}/{{8am}} {{standRiverForest}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Ice Festival
-//ADD                "winter_18": "{{610am}} {{standRiverForest}}/{{8am}} {{standCheckUp}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",//Birthday/Check Up
-//ADD                "winter_25": "{{610am}} {{standBusStop}} 3/{{8am}} {{standBush}} 2/1200 {{standMountain}} 1/1600 {{standTableSaloon}} 2/2200 {{inBed}}",//Winter Star
-//ADD            },
-//ADD        },
+        {
+            "LogName": "schedule.json: Festival Days",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                //Egg Festival: 9am - 2pm
+                "spring_13": "{{610am}} {{standBusStop}}/{{910am}} {{standBushTown}}/{{210pm}} {{relaxBeach}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                //Flower Dance: 9am - 2pm
+                "spring_24": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                //Luau: 9am - 2pm
+                "summer_11": "{{610am}} {{standBusStop}}/{{910am}} {{relaxBeach}}/{{210pm}} {{standCC}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                //Moonlight Jellies: 10pm - 12am
+                "summer_28": "{{610am}} {{standBusStop}}/{{910am}} {{standMountain}}/{{210pm}} {{standBookcase}}/{{8pm}} {{relaxBeach}}/{{1210am}} {{inBed}}",
+                //Stardew Fair: 9am - 3pm
+                "fall_16": "{{610am}} {{standBusStop}}/{{910am}} {{standCC}}/{{310pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",
+                //Spirit's Eve: 10pm - 11:50pm
+                "fall_27": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",
+                //Ice Festival: 9am - 2pm
+                "winter_8": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{relaxBushTown}}/{{5pm}} {{standCC}}/{{10pm}} {{inBed}}",
+                //Winter Star: 9am - 2pm
+                "winter_25": "{{610am}} {{standBusStop}}/{{910am}} {{standBushTown}}/{{210pm}} {{standRiverForest}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+            },
+        },
         
 //ADD        {
-//ADD            "LogName": "schedule.json: Job Days",
+//ADD            "LogName": "schedule.json: Job Days - Mon, Fri, Sat, Sun (12pm - 8pm)",
 //ADD            "Action": "EditData",
 //ADD            "Target": "Characters/schedules/{{Raven}}",
 //ADD            "Entries": {
@@ -73,7 +78,7 @@
 //ADD        },
         
 //ADD        {
-//ADD            "LogName": "schedule.json: Free Days",
+//ADD            "LogName": "schedule.json: Free Days - Tue, Wed, Thu",
 //ADD            "Action": "EditData",
 //ADD            "Target": "Characters/schedules/{{Raven}}",
 //ADD            "Entries": {
@@ -94,26 +99,23 @@
 //ADD                "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
 //ADD                "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
 //ADD            },
-//ADD            "When": {
-//ADD                "HasMod: |contains={{SVE}}": false,
-//ADD            }
 //ADD        },
         
-//ADD        {
-//ADD            "LogName": "schedule.json: Marriage",
-//ADD            "Action": "EditData",
-//ADD            "Target": "Characters/schedules/{{Raven}}",
-//ADD            "Entries": {
-//ADD                //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
-//ADD                //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
-//ADD
-//ADD                //Check-Up & Birthday
-//ADD                "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
-//ADD
-//ADD                //Marriage
-//ADD                "marriage_Sat": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
-//ADD                "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
-//ADD            },
-//ADD        },
+        {
+            "LogName": "schedule.json: Marriage",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                "marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
+                "marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
+
+                //Check-Up & Birthday
+                "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
+
+                //Marriage
+                "marriage_Sat": "{{11am}} {{standJobSaloon}} {{aniSweep}}/{{3pm}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
+                "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{3pm}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} bed",
+            },
+        },
     ]
 }

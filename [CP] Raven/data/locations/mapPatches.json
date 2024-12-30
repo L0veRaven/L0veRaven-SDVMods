@@ -15,19 +15,6 @@
             }
         },
         {
-            "LogName": "mapPatches.json: Warps - Forest to Tent (Vanilla)",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "Update": "OnLocationChange",
-            "AddWarps": [
-                "52 73 Custom_L0veRaven_RavenTentInside 2 4"
-            ],
-            "When": {
-                "HasMod: |contains={{SVE}}": false,
-                "HasFlag: |contains={{Raven}}Apartment": false,
-            },
-        },
-        {
             "LogName": "mapPatches.json: Raven's Tent - Outdoors (SVE)",
             "Action": "EditMap",
             "Target": "Maps/Forest",
@@ -38,19 +25,6 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-            },
-        },
-        {
-            "LogName": "mapPatches.json: Warps - Forest to Tent (SVE)",
-            "Action": "EditMap",
-            "Target": "Maps/Forest",
-            "Update": "OnLocationChange",
-            "AddWarps": [
-                "88 87 Custom_L0veRaven_RavenTentInside 2 4"
-            ],
-            "When": {
-                "HasMod: |contains={{SVE}}": true,
-                "HasFlag: |contains={{Raven}}Apartment": false,
             },
         },
         

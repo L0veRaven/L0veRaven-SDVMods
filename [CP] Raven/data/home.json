@@ -7,8 +7,9 @@
             "TargetField": ["{{Raven}}","Home"],
             "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
-                "Default": {
-                    "Id": "Default",
+                "{{Raven}}Apartment": {
+                    "Id": "{{Raven}}Apartment",
+                    "Condition": "PLAYER_HAS_MAIL Any {{Raven}}Apartment",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": {
                         "X": 7,"Y": 13,
@@ -26,8 +27,8 @@
             "Target": "Data/Characters",
             "TargetField": ["{{Raven}}","Home"],
             "Entries": {
-                "Default": {
-                    "Id": "Default",
+                "{{Raven}}Tent": {
+                    "Id": "{{Raven}}Tent",
                     "Location": "Custom_L0veRaven_RavenTentInside",
                     "Tile": {
                         "X": 3,"Y": 4,

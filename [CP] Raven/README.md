@@ -251,7 +251,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | content.json: Changes | Notes |
 | ------------- | ------------- |
 | Blank Loads | ```Characters/Dialogue/{{ModId}}```, ```Characters/Dialogue/MarriageDialogue{{ModId}}```, ```Characters/schedules/{{ModId}}```, ```Strings/Schedules/{{ModId}}```, ```Data/Events/Custom_L0veRavenRaven_TentInside``` |
-| Locations | ```data/locations/WorldMap.json```, ```data/locations/MapPatches.json```, ```data/locations/LocationsData.json``` |
+| Locations | ```data/locations/WorldMap.json```, ```data/locations/MapPatches.json```, ```data/locations/warps.json```, ```data/locations/LocationsData.json``` |
 | Spouse Patio | ```data/maps/{{Raven}}SpousePatio.tmx``` |
 | Spouse Room | ```data/maps/{{Raven}}SpouseRoom.tmx``` |
 | NPC Data | ```data/animationFrames.json```, ```data/concessionTastes.json```, ```data/NPCGiftTastes.json```, ```data/schedule.json```, ```data/events.json```, ```data/festivals.json```, ```data/mail.json```, ```data/character.json```, ```data/outfits.json```, ```data/home.json```, ```data/winterStarGifts.json```, ```data/triggerActions.json``` |
