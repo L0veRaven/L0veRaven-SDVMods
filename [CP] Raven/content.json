@@ -277,6 +277,7 @@
         {"Name": "pissingSchD","Value": "{{i18n:Forest_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
+            //Mod Compat: Nature's Bounty
         {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
             //Bus Stop
@@ -287,15 +288,9 @@
         
         {"Name": "relaxForest","Value": "Forest 56 81 3","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false",},},
         {"Name": "relaxForest","Value": "Forest 90 89 3","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false",},},
-                //Nature's Bounty: True
-        {"Name": "relaxForest","Value": "{{Random:Forest 56 81 3,Forest 56 81 3 {{aniBlunt}},Forest 56 81 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
-        {"Name": "relaxForest","Value": "{{Random:Forest 90 89 3,Forest 90 89 3 {{aniBlunt}},Forest 90 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
         
         {"Name": "standRiverForest","Value": "Forest 39 75 3","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false",},},
-        {"Name": "standRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{aniBlunt}},Forest 64 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
-                //Nature's Bounty: True
         {"Name": "standRiverForest","Value": "Forest 64 89 3","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false",},},
-        {"Name": "standRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{aniBlunt}},Forest 64 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
             //Custom_L0veRaven_RavenTentInside[SVE]
         {"Name": "standStove","Value": "Custom_L0veRaven_RavenTentInside 3 2 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}Apartment": false,},},
         {"Name": "standStove","Value": "Custom_L0veRaven_RavenTentInsideSVE 3 2 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
@@ -310,9 +305,6 @@
         
         {"Name": "relaxBushTown","Value": "Town 47 77 2","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false",},},
         {"Name": "relaxBushTown","Value": "Town 47 77 2","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false",},},
-                //Nature's Bounty: True
-        {"Name": "relaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{aniBlunt}},Town 47 77 2 {{aniEdible}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
-        {"Name": "relaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{aniBlunt}},Town 47 77 2 {{aniEdible}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
             //Hospital
         {"Name": "standMeds","Value": "Hospital 5 17 0",},
             //Saloon
@@ -326,93 +318,50 @@
         {"Name": "relaxBeach","Value": "Beach 43 23 2",},
             //Mountain
         {"Name": "standMountain","Value": "Mountain 57 33 1",},
-        //Post-Clinic Schedule Randomizer
-        {"Name": "postClinic","Value": "{{Random:{{standMountain}},{{relaxBeach}},{{standBookcase}},{{standCC}}}}",},
-        //Job Schedule Randomizer
-        {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false",},},
-        {"Name": "jobSche","Value": "{{i18n:jobSche_{{Random:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
+            //Mod Compat: Nature's Bounty
+                //Forest
+        {"Name": "relaxForest","Value": "{{Random:Forest 56 81 3,Forest 56 81 3 {{aniBlunt}},Forest 56 81 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
+        {"Name": "relaxForest","Value": "{{Random:Forest 90 89 3,Forest 90 89 3 {{aniBlunt}},Forest 90 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
         
-        {"Name": "jobSche","Value": "{{i18n:jobScheApt_{{Random:{{Range:1,12}}}}}}","When": {"HasMod |contains={{SVE}}": "false","HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "jobSche","Value": "{{i18n:jobScheApt_{{Randsom:{{Range:1,12}}}}_SVE}}","When": {"HasMod |contains={{SVE}}": "true","HasReadLetter": "{{Raven}}Apartment",},},
-        //Free Day
-        {"Name": "freeDay_1","Value": "700 {{standRiverForest}}/1130 {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-    // WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP -> WIP
-        {"Name": "freeDay_2","Value": "{{8am}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_3","Value": "{{9am}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_4","Value": "{{10am}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_5","Value": "{{11am}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_6","Value": "{{12pm}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_7","Value": "{{1pm}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_8","Value": "{{2pm}} {{relaxForest}}/{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-            //standTableSaloon, inBed -> Sleeping in
-        {"Name": "freeDay_10","Value": "{{4pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_9","Value": "{{3pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-            //standRiverForest, standBookcase, inBed
-        {"Name": "freeDay_11","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_12","Value": "{{8am}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_13","Value": "{{9am}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_14","Value": "{{10am}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_15","Value": "{{11am}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_16","Value": "{{12pm}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_17","Value": "{{1pm}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay_18","Value": "{{2pm}} {{standRiverForest}}/{{4pm}} {{standBookcase}} {{aniRead}}/{{10pm}} {{inBed}}",},
-            //standBookcase, inBed -> Sleeping in
-        {"Name": "freeDay_19","Value": "{{3pm}} {{standBookcase}} {{aniRead}}/{{6pm}} {{inBed}}",},
-        {"Name": "freeDay_20","Value": "{{4pm}} {{standBookcase}} {{aniRead}}/{{6pm}} {{inBed}}",},
+        {"Name": "standRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{aniBlunt}},Forest 64 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
+        {"Name": "standRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{aniBlunt}},Forest 64 89 3 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
+                //Town        
+        {"Name": "relaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{aniBlunt}},Town 47 77 2 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",},},
+        {"Name": "relaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{aniBlunt}},Town 47 77 2 {{aniEdible}}}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",},},
+        //Clinic Day Randomizer
+        {"Name": "goToClinic","Value": "{{610am}} {{standMeds}}",},
+        {"Name": "postClinic","Value": "{{Random:{{standMountain}},{{relaxBeach}},{{standBookcase}},{{standCC}}}}",},
+        //Morning/Night
+        {"Name": "goodMorning","Value": "{{610am}} {{standStove}}",},
+        {"Name": "goodMorningBus","Value": "{{610am}} {{standBusStop}}",},
+        {"Name": "goodNight","Value": "{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
+        //Job Schedules (Arrive at 9:50 from Tent)
+        {"Name": "jobSche1","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "jobSche1","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxForest}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        
+        {"Name": "jobSche2","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxBeach}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "jobSche2","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxBeach}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        
+        {"Name": "jobSche3","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standBookcase}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "jobSche3","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standBookcase}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        
+        {"Name": "jobSche4","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standCC}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "jobSche4","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standCC}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        //Free Days
+        {"Name": "freeDay1","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
+        {"Name": "freeDay2","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
             //DTZ
-        {"Name": "DTZfreeDay_1","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_2","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_3","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_4","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_5","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_6","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_7","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_8","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_9","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "DTZfreeDay_10","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
+        {"Name": "DTZfreeDay1","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
             //RSV
-        {"Name": "RSVfreeDay_1","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_2","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_3","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_4","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_5","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_6","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_7","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_8","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_9","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "RSVfreeDay_10","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-            //NB
-        {"Name": "NBfreeDay_1","Value": "{{6am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_2","Value": "{{7am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_3","Value": "{{8am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_4","Value": "{{9am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_5","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_6","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_7","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_8","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_9","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
-        {"Name": "NBfreeDay_10","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
+        {"Name": "RSVfreeDay1","Value": "{{4pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
             //Blank Mod Schedules
         {"Name": "DTZfreeDays","Value": "","When": {"HasMod |contains={{DTZ}}": "false",},},
         {"Name": "RSVfreeDays","Value": "","When": {"HasMod |contains={{RSV}}": "false",},},
-        {"Name": "NBfreeDays","Value": "","When": {"HasMod |contains={{NB}}": "false",},},
             //Randomizers
-        {"Name": "freeDays","Value": "{{freeDay_1}},{{freeDay_2}},{{freeDay_3}},{{freeDay_4}},{{freeDay_5}},{{freeDay_6}},{{freeDay_7}},{{freeDay_8}},{{freeDay_9}},{{freeDay_10}},{{freeDay_11}},{{freeDay_12}},{{freeDay_13}},{{freeDay_14}},{{freeDay_15}},{{freeDay_16}},{{freeDay_17}},{{freeDay_18}},{{freeDay_19}},{{freeDay_20}}",},
-
-        {
-        "Name": "DTZfreeDays","Value": ",{{DTZfreeDay_1}},{{DTZfreeDay_2}},{{DTZfreeDay_3}},{{DTZfreeDay_4}},{{DTZfreeDay_5}},{{DTZfreeDay_6}},{{DTZfreeDay_7}},{{DTZfreeDay_8}},{{DTZfreeDay_9}},{{DTZfreeDay_10}}",
-        "When": {"HasMod |contains={{DTZ}}": "true",},
-        },
-
-        {
-        "Name": "RSVfreeDays","Value": ",{{RSVfreeDay_1}},{{RSVfreeDay_2}},{{RSVfreeDay_3}},{{RSVfreeDay_4}},{{RSVfreeDay_5}},{{RSVfreeDay_6}},{{RSVfreeDay_7}},{{RSVfreeDay_8}},{{RSVfreeDay_9}},{{RSVfreeDay_10}}",
-        "When": {"HasMod |contains={{RSV}}": "true",},
-        },
-
-        {
-        "Name": "NBfreeDays","Value": ",{{NBfreeDay_1}},{{NBfreeDay_2}},{{NBfreeDay_3}},{{NBfreeDay_4}},{{NBfreeDay_5}},{{NBfreeDay_6}},{{NBfreeDay_7}},{{NBfreeDay_8}},{{NBfreeDay_9}},{{NBfreeDay_10}}",
-        "When": {"HasMod |contains={{NB}}": "true",},
-        },
+        {"Name": "jobSche","Value": "{{Random:{{jobSche1}},{{jobSche2}},{{jobSche3}},{{jobSche4}}}}",},
+        {"Name": "freeDays","Value": "{{freeDay1}},{{freeDay2}}",},
+        {"Name": "DTZfreeDays","Value": ",{{DTZfreeDay1}}","When": {"HasMod |contains={{DTZ}}": "true",},},
+        {"Name": "RSVfreeDays","Value": ",{{RSVfreeDay1}}","When": {"HasMod |contains={{RSV}}": "true",},},
     //Event Commands
         {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000",},//MUST HAVE A "/" AFTER IT -> "{{fadeout}}/<..>"
         {"Name": "closeDoor","Value": "playSound doorClose",},//MUST HAVE A "/" AFTER IT -> "{{closedoor}}/<..>"

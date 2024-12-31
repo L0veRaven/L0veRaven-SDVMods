@@ -24,6 +24,51 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | aniStand | ```l0veraven_raven_stand``` |
 | aniBlunt | ```l0veraven_raven_blunt``` |
 
+## Destination Times
+
+| Key | Meaning |
+| ------------- | ------------- |
+| (Vanilla) Tent ```{{standStove}}``` to Saloon | 2:50 |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| ------------- | ------------- |
+| (SVE) Tent ```{{standStove}}``` to Saloon | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to Saloon | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| Apartment ```{{standStove}}``` to ___ | ___ |
+| ------------- | ------------- |
+| ```{{standBusStop}}``` to ___ | ___ |
+| ```{{pissBush}}``` to ___ | ___ |
+| ```{{relaxForest}}``` to ___ | ___ |
+| ```{{standRiverForest}}``` to ___ | ___ |
+| ```{{standStove}}``` to ___ | ___ |
+| ```{{inBed}}``` to ___ | ___ |
+| ```{{standCC}}``` to ___ | ___ |
+| ```{{relaxBushTown}}``` to ___ | ___ |
+| ```{{standMeds}}``` to ___ | ___ |
+| ```{{standJobSaloon}}``` to ___ | ___ |
+| ```{{standTableSaloon}}``` to ___ | ___ |
+| ```{{standBookcase}}``` to ___ | ___ |
+| ```{{relaxBeach}}``` to ___ | ___ |
+| ```{{standMountain}}``` to ___ | ___ |
+
 ## Schedule Keys (in i18n)
 
 | Key | Meaning |

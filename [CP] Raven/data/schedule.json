@@ -1,6 +1,6 @@
 {
     "Changes": [
-    //Work Days: Mon, Fri, Sat, Sun (12pm - 8pm)
+    //Work Days: Mon, Fri, Sat, Sun (10am - 8pm)
     //Free Days: Tue, Wed, Thu
         {
             "LogName": "schedule.json: Spring Default - May Not Appear In-Game",
@@ -16,10 +16,10 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                "spring_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-                "summer_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-                "fall_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-                "winter_18": "{{610am}} {{standMeds}}/{{10am}} {{postClinic}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "spring_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "summer_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "fall_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "winter_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
             },
         },
         {
@@ -28,54 +28,51 @@
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 //Egg Festival: 9am - 2pm
-                "spring_13": "{{610am}} {{standBusStop}}/{{910am}} {{standBushTown}}/{{210pm}} {{relaxBeach}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "spring_13": "{{goodMorningBus}}/{{910am}} {{relaxBushTown}}/{{210pm}} {{relaxBeach}}/{{goodNight}}",
                 //Flower Dance: 9am - 2pm
-                "spring_24": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "spring_24": "{{goodMorningBus}}/{{910am}} {{standRiverForest}}/{{210pm}} {{standMountain}}/{{goodNight}}",
                 //Luau: 9am - 2pm
-                "summer_11": "{{610am}} {{standBusStop}}/{{910am}} {{relaxBeach}}/{{210pm}} {{standCC}}/{{600pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "summer_11": "{{goodMorningBus}}/{{910am}} {{relaxBeach}}/{{210pm}} {{standCC}}/{{goodNight}}",
                 //Moonlight Jellies: 10pm - 12am
-                "summer_28": "{{610am}} {{standBusStop}}/{{910am}} {{standMountain}}/{{210pm}} {{standBookcase}}/{{8pm}} {{relaxBeach}}/{{1210am}} {{inBed}}",
+                "summer_28": "{{goodMorningBus}}/{{910am}} {{standStove}}/{{210pm}} {{standBookcase}}/{{8pm}} {{relaxBeach}}/{{1210am}} {{inBed}}",
                 //Stardew Fair: 9am - 3pm
-                "fall_16": "{{610am}} {{standBusStop}}/{{910am}} {{standCC}}/{{310pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",
+                "fall_16": "{{goodMorningBus}}/wa{{910am}} {{standCC}}/{{310pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{goodNight}}",
                 //Spirit's Eve: 10pm - 11:50pm
-                "fall_27": "{{610am}} {{standBusStop}}/{{8am}} {{standCC}}/{{12pm}} {{standMountain}}/{{4pm}} {{standTableSaloon}}/{{10pm}} {{inBed}}",
+                "fall_27": "{{goodMorningBus}}/{{910am}} {{standStove}}/{{210pm}} {{standMountain}}/{{8pm}} {{relaxBushTown}}/{{1210am}} {{inBed}}",
                 //Ice Festival: 9am - 2pm
-                "winter_8": "{{610am}} {{standBusStop}}/{{910am}} {{standRiverForest}}/{{210pm}} {{relaxBushTown}}/{{5pm}} {{standCC}}/{{10pm}} {{inBed}}",
+                "winter_8": "{{goodMorningBus}}/{{910am}} {{standRiverForest}}/{{210pm}} {{relaxBushTown}}/{{5pm}} {{standCC}}/{{goodNight}}",
                 //Winter Star: 9am - 2pm
-                "winter_25": "{{610am}} {{standBusStop}}/{{910am}} {{standBushTown}}/{{210pm}} {{standRiverForest}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+                "winter_25": "{{goodMorningBus}}/{{910am}} {{relaxBushTown}}/{{210pm}} {{standRiverForest}}/{{goodNight}}",
             },
         },
         
-//ADD        {
-//ADD            "LogName": "schedule.json: Job Days - Mon, Fri, Sat, Sun (12pm - 8pm)",
-//ADD            "Action": "EditData",
-//ADD            "Target": "Characters/schedules/{{Raven}}",
-//ADD            "Entries": {
-//ADD                //Spring
-//ADD                "spring_Mon": "{{jobSche}}",
-//ADD                "spring_Fri": "{{jobSche}}",
-//ADD                "spring_Sat": "{{jobSche}}",
-//ADD                "spring_Sun": "{{jobSche}}",
-//ADD                //Summer
-//ADD                "summer_Mon": "{{jobSche}}",
-//ADD                "summer_Fri": "{{jobSche}}",
-//ADD                "summer_Sat": "{{jobSche}}",
-//ADD                "summer_Sun": "{{jobSche}}",
-//ADD                //Fall
-//ADD                "fall_Mon": "{{jobSche}}",
-//ADD                "fall_Fri": "{{jobSche}}",
-//ADD                "fall_Sat": "{{jobSche}}",
-//ADD                "fall_Sun": "{{jobSche}}",
-//ADD                //Winter
-//ADD                "winter_Mon": "{{jobSche}}",
-//ADD                "winter_Fri": "{{jobSche}}",
-//ADD                "winter_Sat": "{{jobSche}}",
-//ADD                "winter_Sun": "{{jobSche}}",
-//ADD            },
-//ADD            "When": {
-//ADD                "HasMod: |contains={{SVE}}": false,
-//ADD            }
-//ADD        },
+        {
+            "LogName": "schedule.json: Job Days - Mon, Fri, Sat, Sun (10am - 6pm)",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                //Spring
+                "spring_Mon": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "spring_Fri": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "spring_Sat": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "spring_Sun": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                //Summer
+                "summer_Mon": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "summer_Fri": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "summer_Sat": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "summer_Sun": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                //Fall
+                "fall_Mon": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "fall_Fri": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "fall_Sat": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "fall_Sun": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                //Winter
+                "winter_Mon": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "winter_Fri": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "winter_Sat": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+                "winter_Sun": "{{goodMorning}}/{{jobSche}}/{{goodNight}}",
+            },
+        },
         
 //ADD        {
 //ADD            "LogName": "schedule.json: Free Days - Tue, Wed, Thu",
@@ -83,21 +80,21 @@
 //ADD            "Target": "Characters/schedules/{{Raven}}",
 //ADD            "Entries": {
                 //Spring
-//ADD                "spring_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "spring_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "spring_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "spring_Tue": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "spring_Wed": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "spring_Thu": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
                 //Summer
-//ADD                "summer_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "summer_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "summer_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "summer_Tue": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "summer_Wed": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "summer_Thu": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
                 //Fall
-//ADD                "fall_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "fall_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "fall_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "fall_Tue": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "fall_Wed": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "fall_Thu": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
                 //Winter
-//ADD                "winter_Tue": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "winter_Wed": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
-//ADD                "winter_Thu": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}",
+//ADD                "winter_Tue": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "winter_Wed": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
+//ADD                "winter_Thu": "{{goodMorning}}/{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}/{{goodNight}}",
 //ADD            },
 //ADD        },
         
@@ -106,15 +103,18 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                "marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
-                "marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
+                //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
+                //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
 
-                //Check-Up & Birthday
-                "marriage_winter_18": "{{8am}} {{standCheckUp}} {{down}}/{{12pm}} {{standMountain}} {{right}}/{{4pm}} {{standTableSaloon}} {{down}}/{{610pm}} bed",
+                //Medication Pick-Up
+                "marriage_spring_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "marriage_summer_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "marriage_fall_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "marriage_winter_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
 
                 //Marriage
-                "marriage_Sat": "{{11am}} {{standJobSaloon}} {{aniSweep}}/{{3pm}} {{standTableSaloon}} {{aniSweep}}/{{8pm}} bed",
-                "marriage_Sun": "{{11am}} {{standTableSaloon}} {{aniSweep}}/{{3pm}} {{standJobSaloon}} {{aniSweep}}/{{8pm}} bed",
+                "marriage_Sat": "{{7am}} {{jobSche}}/{{8pm}} bed",
+                "marriage_Sun": "{{7am}} {{jobSche}}/{{8pm}} bed",
             },
         },
     ]
