@@ -28,7 +28,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 | Key | Meaning |
 | ------------- | ------------- |
-| (Vanilla) Tent ```{{standStove}}``` to Saloon | 2:50 |
+| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | 2:50 |
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
@@ -36,8 +36,8 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
 | (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
-| ------------------------------------ | ------------- |
-| (SVE) Tent ```{{standStove}}``` to Saloon | ___ |
+| ------------------------------------------ | ------------- |
+| (SVE) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | ___ |
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
@@ -45,7 +45,8 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
 | (SVE) Tent ```{{standStove}}``` to ___ | ___ |
-| Apartment ```{{standStove}}``` to Saloon | ___ |
+| ------------------------------------------ | ------------- |
+| Apartment ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | ___ |
 | Apartment ```{{standStove}}``` to ___ | ___ |
 | Apartment ```{{standStove}}``` to ___ | ___ |
 | Apartment ```{{standStove}}``` to ___ | ___ |
@@ -53,7 +54,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | Apartment ```{{standStove}}``` to ___ | ___ |
 | Apartment ```{{standStove}}``` to ___ | ___ |
 | Apartment ```{{standStove}}``` to ___ | ___ |
-| ------------------------------------ | ------------- |
+| ------------------------------------------ | ------------- |
 | ```{{standBusStop}}``` to ___ | ___ |
 | ```{{pissBush}}``` to ___ | ___ |
 | ```{{relaxForest}}``` to ___ | ___ |
