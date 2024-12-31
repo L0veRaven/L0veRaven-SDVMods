@@ -786,6 +786,34 @@
 // ==============================================
 // || schedule.json -> DO NOT TOUCH - NO TOCAR ||
 // ==============================================
+// || Locations ||
+    // || Bus Stop ||
+"standBusStop": "BusStop 20 22 2",
+    // || Forest ||
+"pissBush": "Forest 54 70 2",
+"pissBushSVE": "Forest 90 81 2",
+    
+"relaxForest": "Forest 56 81 3",
+"relaxForestSVE": "Forest 90 89 3",
+    
+"standRiverForest": "Forest 39 75 3",
+"standRiverForestSVE": "Forest 64 89 3",
+    // || Tent ||
+"standStove": "Custom_L0veRaven_RavenTentInside 3 2 0",
+"standStoveSVE": "Custom_L0veRaven_RavenTentInsideSVE 3 2 0",
+    
+"inBed": "Custom_L0veRaven_RavenTentInside 3 4 1",
+"inBedSVE": "Custom_L0veRaven_RavenTentInsideSVE 3 4 1",
+    // || Apartment ||
+"standStoveApt": "FRL_NPCApt_Floor1 13 13 0",
+    
+"inBedApt": "FRL_NPCApt_Floor1 7 13 0",
+    // || Town ||
+"standCC": "Town 60 17 2",
+    
+"relaxBushTown": "Town 47 77 2",
+    // || Location ||
+"location": "addDialogue",
 // || Randomization - Vanilla Job: Pre-Apartment ||
 "jobSche_1": "addDialogue",
 "jobSche_2": "addDialogue",
