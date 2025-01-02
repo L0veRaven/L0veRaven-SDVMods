@@ -28,43 +28,54 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 | Location ```Token``` | Duration (HH:MM) |
 | ------------- | ------------- |
-| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | 2:50 |
-| (Vanilla) Tent ```{{standStove}}``` to ___ | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon1}}``` | 2:50 |
+| (Vanilla) Tent ```{{inBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| (SVE) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | ___ |
+| (SVE) Tent ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
+| (SVE) Tent ```{{inBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Apartment ```{{standStove}}``` to Saloon ```{{standJobSaloon}}``` | ___ |
+| Apartment ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
+| Apartment ```{{inBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| ```{{standBusStop}}``` to ___ | ___ |
-| ```{{pissBush}}``` to ___ | ___ |
-| ```{{relaxForest}}``` to ___ | ___ |
-| ```{{standRiverForest}}``` to ___ | ___ |
-| ```{{standStove}}``` to ___ | ___ |
-| ```{{inBed}}``` to ___ | ___ |
-| ```{{standCC}}``` to ___ | ___ |
-| ```{{relaxBushTown}}``` to ___ | ___ |
-| ```{{standMeds}}``` to ___ | ___ |
-| ```{{standJobSaloon}}``` to ___ | ___ |
-| ```{{standTableSaloon}}``` to ___ | ___ |
-| ```{{standBookcase}}``` to ___ | ___ |
-| ```{{relaxBeach}}``` to ___ | ___ |
-| ```{{standMountain}}``` to ___ | ___ |
+| Bus Stop ```{{standBusStop}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| (Vanilla) Forest ```{{pissBush}}``` | ___ |
+| (SVE) Forest ```{{pissBush}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| (Vanilla) ```{{relaxForest}}``` | ___ |
+| (SVE) ```{{relaxForest}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| (Vanilla) ```{{standRiverForest}}``` | ___ |
+| (SVE) ```{{standRiverForest}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| Town ```{{standCC}}``` | ___ |
+| Town ```{{relaxBushTown}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| Clinic ```{{standMeds}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| Saloon ```{{standJobSaloon1}}``` | ___ |
+| Saloon ```{{standJobSaloon2}}``` | ___ |
+| Saloon ```{{standJobSaloon3}}``` to Bus Stop ```{{standBusStop}}``` | 1:30 |
+| Saloon ```{{standTableSaloon}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| (Vanilla) ArchaeologyHouse ```{{standBookcase}}``` | ___ |
+| (SVE) ArchaeologyHouse ```{{standBookcase}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| Beach ```{{relaxBeach}}``` | ___ |
+| ------------------------------------------------------------------------------- | ----- |
+| Mountain ```{{standMountain}}``` | ___ |
 
 ## Schedule Keys (in i18n)
 
 | Key | Meaning |
 | ------------- | ------------- |
 | standBusStop | ```BusStop 20 22 2``` |
-| standBusStop_SVE | ```BusStop 20 22 2``` |
-| ___ | ___ |
-| pissBush | ```Forest 54 70 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"``` |
-| pissBush_SVE | ```Forest 90 81 2 \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"``` |
 | ___ | ___ |
 | standRiverForest | ```Forest 39 75 3``` |
 | standRiverForest_SVE | ```Forest 64 89 3``` |
 | ___ | ___ |
-| smokeSpotForest | ```Forest 56 81 3``` |
-| smokeSpotForest_SVE | ```Forest 90 89 3``` |
+| relaxForest | ```Forest 56 81 3``` |
+| relaxForest_SVE | ```Forest 90 89 3``` |
 | ___ | ___ |
 | standStove | ```Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
 | standStoveSVE | ```Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
@@ -80,15 +91,17 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | ___ | ___ |
 | standCheckUp_SVE | ```Hospital 4 6 1``` |
 | ___ | ___ |
-| standJobSaloon_SVE | ```Saloon 5 17 2``` |
+| standJobSaloon1 | ```Saloon 5 17 2``` |
+| standJobSaloon2 | ```Saloon 23 22 2``` |
+| standJobSaloon3 | ```Saloon ___ ___ ___``` |
+| standTableSaloon | ```Saloon 43 22 2``` |
 | ___ | ___ |
-| standTableSaloon_SVE | ```Saloon 43 22 2``` |
-| ___ | ___ |
+| standBookcase | ```ArchaeologyHouse --- --- ---``` |
 | standBookcase_SVE | ```ArchaeologyHouse 7 18 3``` |
 | ___ | ___ |
 | relaxBeach_SVE | ```Beach 43 23 2``` |
 | ___ | ___ |
-| standMountain_SVE | ```Mountain 57 33 1``` |
+| standMountain | ```Mountain 57 33 1``` |
 
 ## File Directory
 

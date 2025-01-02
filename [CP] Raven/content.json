@@ -274,7 +274,6 @@
         {"Name": "aniEdible","Value": "l0veraven_raven_edible",},
     //Schedules
         //Schedule Dialogue
-        {"Name": "pissingSchD","Value": "{{i18n:Forest_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
             //Mod Compat: Nature's Bounty
@@ -282,33 +281,37 @@
         //Locations
             //Bus Stop
         {"Name": "standBusStop","Value": "{{i18n:standBusStop}}",},
-            //Forest
-        {"Name": "pissBush","Value": "{{i18n:pissBush}} \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"","When": {"HasMod |contains={{SVE}}": "false",},},
-        {"Name": "pissBush","Value": "{{i18n:pissBushSVE}} \"Strings\\schedules\\L0veRaven_Raven:Forest.001\"","When": {"HasMod |contains={{SVE}}": "true",},},
-        
+            //Forest        
         {"Name": "relaxForest","Value": "{{i18n:relaxForest}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false",},},
         {"Name": "relaxForest","Value": "{{i18n:relaxForestSVE}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false",},},
         
         {"Name": "standRiverForest","Value": "{{i18n:standRiverForest}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false",},},
         {"Name": "standRiverForest","Value": "{{i18n:standRiverForestSVE}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false",},},
             //Custom_L0veRaven_RavenTentInside[SVE]
-        {"Name": "standStove","Value": "{{i18n:standStove}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}Apartment": false,},},
-        {"Name": "standStove","Value": "{{i18n:standStoveSVE}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "tentInside","Value": "{{i18n:tentInside}}","When": {"HasMod |contains={{SVE}}": "false",},},
+        {"Name": "tentInside","Value": "{{i18n:tentInsideSVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "inBed","Value": "{{i18n:inBed}} l0veraven_raven_sleep",},
-        {"Name": "inBed","Value": "{{i18n:inBedSVE}} l0veraven_raven_sleep","When": {"HasMod |contains={{SVE}}": "true",},},
+        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStove}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
+        
+        {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBed}} l0veraven_raven_sleep",},
+        {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBedSVE}} l0veraven_raven_sleep","When": {"HasMod |contains={{SVE}}": "true",},},
             //FRL_NPCApt_Floor1
+        {"Name": "apartment","Value": "{{i18n:apartment}}",},
+        
         {"Name": "standStove","Value": "{{i18n:standStoveApt}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasReadLetter": "{{Raven}}Apartment",},},
         {"Name": "inBed","Value": "{{i18n:inBedApt}} l0veraven_raven_sleep","When": {"HasReadLetter": "{{Raven}}Apartment",},},
             //Town
         {"Name": "standCC","Value": "{{i18n:standCC}}",},
         
-        {"Name": "relaxBushTown","Value": "{{i18n:relaxBushTown}}","HasMod |contains={{NB}}": "false",},},
-        {"Name": "relaxBushTown","Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}","HasMod |contains={{NB}}": "true",},},
+        {"Name": "relaxBushTown","Value": "{{i18n:relaxBushTown}}","When": {"HasMod |contains={{NB}}": "false",},},
+        {"Name": "relaxBushTown","Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}","When": {"HasMod |contains={{NB}}": "true",},},
             //Hospital
         {"Name": "standMeds","Value": "Hospital 5 17 0",},
             //Saloon
-        {"Name": "standJobSaloon","Value": "Saloon 5 17 2",},
+        {"Name": "standJobSaloon1","Value": "Saloon 5 17 2 {{aniSweep}}",},
+        {"Name": "standJobSaloon2","Value": "Saloon 23 22 2 {{aniSweep}}",},
+        {"Name": "standJobSaloon3","Value": "Saloon 33 8 2 {{aniSweep}}",},
         
         {"Name": "standTableSaloon","Value": "Saloon 43 22 2",},
             //ArchaeologyHouse
@@ -335,18 +338,19 @@
         {"Name": "goodMorning","Value": "{{610am}} {{standStove}}",},
         {"Name": "goodMorningBus","Value": "{{610am}} {{standBusStop}}",},
         {"Name": "goodNight","Value": "{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
+        {"Name": "goodNightJob","Value": "{{11pm}} {{standStove}}/{{1am}} {{inBed}}",},
         //Job Schedules (Arrive at 9:50 from Tent)
-        {"Name": "jobSche1","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "jobSche1","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxForest}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "postJobSaloon1","Value": "{{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "postJobSaloon1","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
         
-        {"Name": "jobSche2","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxBeach}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "jobSche2","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{relaxBeach}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "postJobSaloon2","Value": "{{relaxBeach}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "postJobSaloon2","Value": "{{relaxBeach}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
         
-        {"Name": "jobSche3","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standBookcase}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "jobSche3","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standBookcase}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "postJobSaloon3","Value": "{{standBusStop}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "postJobSaloon3","Value": "{{standBusStop}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
         
-        {"Name": "jobSche4","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standCC}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "jobSche4","Value": "{{7am}} {{standJobSaloon}}/{{6pm}} {{standCC}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "postJobSaloon4","Value": "{{standCC}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "postJobSaloon4","Value": "{{standCC}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
         //Free Days
         {"Name": "freeDay1","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay2","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}",},
@@ -358,10 +362,12 @@
         {"Name": "DTZfreeDays","Value": "","When": {"HasMod |contains={{DTZ}}": "false",},},
         {"Name": "RSVfreeDays","Value": "","When": {"HasMod |contains={{RSV}}": "false",},},
             //Randomizers
-        {"Name": "jobSche","Value": "{{Random:{{jobSche1}},{{jobSche2}},{{jobSche3}},{{jobSche4}}}}",},
+        {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
+        {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{postJobSaloon2}},{{postJobSaloon3}},{{postJobSaloon4}}}}",},
         {"Name": "freeDays","Value": "{{freeDay1}},{{freeDay2}}",},
         {"Name": "DTZfreeDays","Value": ",{{DTZfreeDay1}}","When": {"HasMod |contains={{DTZ}}": "true",},},
         {"Name": "RSVfreeDays","Value": ",{{RSVfreeDay1}}","When": {"HasMod |contains={{RSV}}": "true",},},
+        {"Name": "freeDaysRandom","Value": "{{Random:{{freeDays}}{{DTZfreeDays}}{{RSVfreeDays}}{{NBfreeDays}}}}","When": {"HasMod |contains={{RSV}}": "false",},},
     //Event Commands
         {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000",},//MUST HAVE A "/" AFTER IT -> "{{fadeout}}/<..>"
         {"Name": "closeDoor","Value": "playSound doorClose",},//MUST HAVE A "/" AFTER IT -> "{{closedoor}}/<..>"

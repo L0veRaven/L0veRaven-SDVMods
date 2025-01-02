@@ -216,7 +216,6 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             "Target": "Data/Events/Saloon",
             "Entries": {
                 "{{Nexus}}006/!Spouse {{Raven}}/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
-                    // Raven talks about marriage with farmer
             --Farmer walks in and gets settled/
                 {{animateGus}} false true 120 18 19 20 19/pause 1000/
                 warp farmer 14 24 true/{{closeDoor}}/{{speechBubbleGus}} \"{{i18n:marriageTalk_gusWelcome}}\"/pause 300/
