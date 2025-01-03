@@ -323,7 +323,6 @@
         {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
         
         {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBed}} l0veraven_raven_sleep",},
-        {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBedSVE}} l0veraven_raven_sleep","When": {"HasMod |contains={{SVE}}": "true",},},
             //FRL_NPCApt_Floor1
         {"Name": "apartment","Value": "{{i18n:apartment}}",},
         
@@ -338,8 +337,11 @@
         {"Name": "standMeds","Value": "{{i18n:standMeds}}",},
             //Saloon
         {"Name": "standJobSaloon1","Value": "{{i18n:standJobSaloon1}} {{aniSweep}}",},
+                //Saloon 5 17 2 l0veraven_raven_sweep
         {"Name": "standJobSaloon2","Value": "{{i18n:standJobSaloon2}} {{aniSweep}}",},
+                //Saloon 23 22 2 l0veraven_raven_sweep
         {"Name": "standJobSaloon3","Value": "{{i18n:standJobSaloon3}} {{aniSweep}}",},
+                //Saloon 33 8 2 l0veraven_raven_sweep
         
         {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon}}",},
             //ArchaeologyHouse
@@ -370,33 +372,19 @@
         {"Name": "postJobSaloon1","Value": "{{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
         {"Name": "postJobSaloon1","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
         //Free Days
-        {"Name": "freeDay1","Value": "{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
-        {"Name": "freeDay2","Value": "{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
-            //DTZ
-        {"Name": "DTZfreeDay1","Value": "{{8am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}","When": {"HasMod |contains={{DTZ}}": "true",},},
-        {"Name": "DTZfreeDay2","Value": "{{8am}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}","When": {"HasMod |contains={{DTZ}}": "true",},},
-            //RSV
-        {"Name": "RSVfreeDay1","Value": "{{8pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}","When": {"HasMod |contains={{RSV}}": "true",},},
-        {"Name": "RSVfreeDay2","Value": "{{8pm}} {{standRiverForest}}/{{6pm}} {{standTableSaloon}} {{aniSweep}}/{{10pm}} {{inBed}}","When": {"HasMod |contains={{RSV}}": "true",},},
+        {"Name": "freeDay1","Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
+        {"Name": "freeDay2","Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
+        {"Name": "freeDay3","Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",},
             //Job Randomizers
         {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
         {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",},
         //Schedule Randomizers
-        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}}}}",},
-            //Filled Mod Schedules
-        {"Name": "DTZfreeDays","Value": "{{Random:{{DTZfreeDay1}},{{DTZfreeDay2}}}}","When": {"HasMod |contains={{DTZ}}": "true",},},
-        {"Name": "RSVfreeDays","Value": "{{Random:{{RSVfreeDay1}},{{RSVfreeDay2}}}}","When": {"HasMod |contains={{RSV}}": "true",},},
-            //Blank Mod Schedules
-        {"Name": "DTZfreeDays","Value": "","When": {"HasMod |contains={{DTZ}}": "false",},},
-        {"Name": "RSVfreeDays","Value": "","When": {"HasMod |contains={{RSV}}": "false",},},
+        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}}}}",},
         
-        {"Name": "freeDaysRandom","Value": "{{freeDays}}","When": {"HasMod |contains={{DTZ}}": "false","HasMod |contains={{RSV}}": "false",},},
-        {"Name": "freeDaysRandom","Value": "{{Random:{{freeDays}},{{DTZfreeDays}}}}","When": {"HasMod |contains={{DTZ}}": "true","HasMod |contains={{RSV}}": "false",},},
-        {"Name": "freeDaysRandom","Value": "{{Random:{{freeDays}},{{RSVfreeDays}}}}","When": {"HasMod |contains={{DTZ}}": "false","HasMod |contains={{RSV}}": "true",},},
-        {"Name": "freeDaysRandom","Value": "{{Random:{{freeDays}},{{DTZfreeDays}},{{RSVfreeDays}}}}","When": {"HasMod |contains={{DTZ}}": "true","HasMod |contains={{RSV}}": "true",},},
+        {"Name": "freeDaysRandom","Value": "{{freeDays}}",},
         //Reference Tokens
         {"Name": "workDay","Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",},
-        {"Name": "freeDay","Value": "{{goodMorning}}/{{freeDaysRandom}}",},
+        {"Name": "freeDay","Value": "{{freeDaysRandom}}",},
         {"Name": "medsDay","Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",},
     //Event Commands
         {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000",},//MUST HAVE A "/" AFTER IT -> "{{fadeout}}/<..>"
