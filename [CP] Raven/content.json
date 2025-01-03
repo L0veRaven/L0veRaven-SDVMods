@@ -97,6 +97,22 @@
         {"Name": "emoteVideoGame","Value": "52",},
         {"Name": "emoteMusic","Value": "56",},
         {"Name": "emoteBlush","Value": "60",},
+    // Spouse Calculations
+        {"Name": "spouseName","Value": "default"},
+        {"Name": "spouseName","Value": "{{Spouse}}",
+            "When": {
+                "Spouse": "Shane, Sam, Abigail, Leah, Elliott, Alex, Haley, Sebastian, Emily, Maru, Penny, Harvey",
+                "HasMod |contains={{SVE}}": "false","HasMod |contains={{RSV}}": "false","HasMod |contains={{DTZ}}": "false",
+            },
+        },
+        {"Name": "spouseName","Value": "{{Spouse}}",
+            "When": {
+                "Spouse": "Shane, Sam, Abigail, Leah, Elliott, Alex, Haley, Sebastian, Emily, Maru, Penny, Harvey, Olivia, Victor, Claire, Sophia, Wizard, Krobus, Willy, Pam, Clint",
+                "HasMod |contains={{SVE}}": "true","HasMod |contains={{RSV}}": "false","HasMod |contains={{DTZ}}": "false",
+            }
+        },
+        
+        {"Name": "divorceRaven","Value": "Raven","When": {"Relationship:{{Raven}}": "Divorced"},},
     // Time
         //6 AM
         {"Name": "6am","Value": "600",},{"Name": "610am","Value": "610",},{"Name": "620am","Value": "620",},{"Name": "630am","Value": "630",},{"Name": "640am","Value": "640",},{"Name": "650am","Value": "650",},
@@ -306,6 +322,7 @@
         //Schedule Dialogue
         {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
+        {"Name": "shoppingSSschD","Value": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}",},
             //Mod Compat: Nature's Bounty
         {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
@@ -321,8 +338,8 @@
         {"Name": "tentInside","Value": "{{i18n:tentInside}}","When": {"HasMod |contains={{SVE}}": "false",},},
         {"Name": "tentInside","Value": "{{i18n:tentInsideSVE}}","When": {"HasMod |contains={{SVE}}": "true",},},
         
-        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStove}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}Apartment": false,},},
-        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStove}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}Apartment": false,},},
         
         {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBed}} l0veraven_raven_sleep",},
             //FRL_NPCApt_Floor1
@@ -338,7 +355,7 @@
             //Hospital
         {"Name": "standMeds","Value": "{{i18n:standMeds}}",},
             //SeedShop
-        {"Name": "shoppingSS","Value": "{{i18n:shoppingSS}}",},
+        {"Name": "shoppingSS","Value": "{{i18n:shoppingSS}} \"Strings\\schedules\\{{Raven}}:SeedShop.001\"",},
             //Saloon
         {"Name": "standJobSaloon1","Value": "{{i18n:standJobSaloon1}} {{aniSweep}}",},
                 //Saloon 5 17 2 l0veraven_raven_sweep
@@ -394,8 +411,7 @@
         //Reference Tokens
         {"Name": "workDay","Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",},
         {"Name": "freeDay","Value": "{{freeDaysRandom}}",},
-        {"Name": "freeDayShop","Value": "",},
-        {"Name": "freeDayShop","Value": "",},
+        {"Name": "freeDayShop","Value": "{{freeDayShopRandom}}",},
         {"Name": "medsDay","Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",},
     //Event Commands
         {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000",},//MUST HAVE A "/" AFTER IT -> "{{fadeout}}/<..>"

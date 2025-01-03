@@ -5,7 +5,8 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Custom_L0veRaven_RavenTentInside.001": "{{stoveSchD}}",
+                "Custom_{{Raven}}TentInside.001": "{{shoppingSSschD}}",
+                "SeedShop.001": "{{shoppingSS}}",
                 "Saloon.001": "{{standSaloonSchD}}",
             },
         },

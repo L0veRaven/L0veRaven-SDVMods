@@ -267,8 +267,7 @@
 "2hearts_4": "Sometimes it's hard to figure out what to talk about since my life is pretty repetitive.$2#$e#When everything is the same all the time, there's nothing new to talk about.$11",
 "2hearts_5": "",
 "2hearts_6": "I've had people tell me that I'm really energetic in odd situations.$17#$b#Doctors and dentists always get confused because I'm so upbeat at appointments.$1",
-"2hearts_7": "",
-"2hearts_8": "I wish there were more frogs here. They're so cool.$1",
+"2hearts_7": "I wish there were more frogs here. They're so cool.$1",
 // portraitBookmark
     // || {{4hearts}} ||
 "4hearts_1": "Sometimes I wonder if I should try to move back to the city again.#$b#I don't think I'd be able to afford it, though.",
@@ -509,7 +508,7 @@
     // || Other Events ||
 "gotPet_cat": "Oh, you ended up adopting the cat Penny and I caught? That's amazing!$1#$b#Hopefully you both bond well.",
 "gotPet_other": "Oh, you ended up adopting a pet? That must be awesome!$1#$b#Hopefully you both bond well.",
-"married_farmer": "Congrats on getting married, @!$1#$b#I hope married life treats you well.",
+"married_farmer": "Congrats on getting married, @!$1#$b#I hope married life treats you well. $action AddMail Current {{Raven}}_marriageTalk received",
 "divorced_farmer": "I'm sorry your marriage didn't end up how you expected it to.$2#$b#If you need any emotional support, I'm here for you.",
     // || Custom ||
 
@@ -895,6 +894,9 @@
     // {{standSaloonSchD}}
 "Saloon_1_1": "The food Gus made smells so good!$3#$b#Thank Yoba he cares about the quality of his food.$1",
 "Saloon_1_2": "Hi @! I'm just having a beer right now. How are you?",
+    // {{shoppingSSschD}}
+"shoppingSS_1_1": "I've noticed that Pierre's crops are inconsistent in quality. Some days, I see lots of amazing produce!#$e#Other days... I question him.$12",
+"shoppingSS_1_2": "It's more convenient for me to shop here since it's closer to my home and job.#$e#I also never pay attention to JojaMart's sales.$11",
 // || Town ||
 //ADD"Town.001": "",
 // =================

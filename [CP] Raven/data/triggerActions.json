@@ -5,12 +5,12 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "CoatRackMoney": {
-                    "Id": "CoatRackMoney",
+                "{{Raven}}_marriageTalkFlag": {
+                    "Id": "{{Raven}}_marriageTalkFlag",
                     "Trigger": "Manual",
-                    "Condition": "!PLAYER_HAS_MAIL Current ReceiveCoatRackMoney",
+                    "Condition": "{{SpouseName}} <> {{Raven}}",
                     "Actions": [
-                        "AddMail Current ReceiveCoatRackMoney received",
+                        "AddMail Current {{Raven}}_marriageTalk received",
                     ]
                 },
             }
@@ -20,8 +20,8 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "CoatRackMoney": {
-                    "Id": "CoatRackMoney",
+                "{{Raven}}_CoatRackMoneyFlag": {
+                    "Id": "{{Raven}}_CoatRackMoneyFlag",
                     "Trigger": "Manual",
                     "Condition": "!PLAYER_HAS_MAIL Current ReceiveCoatRackMoney",
                     "Actions": [
