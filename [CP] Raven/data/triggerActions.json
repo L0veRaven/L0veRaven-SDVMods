@@ -8,12 +8,12 @@
                 "{{Raven}}_marriageTalkFlag": {
                     "Id": "{{Raven}}_marriageTalkFlag",
                     "Trigger": "Manual",
-                    "Condition": "{{SpouseName}} <> {{Raven}}",
+                    "Condition": "PLAYER_HAS_MAIL Current {{Raven}}_marriageTalk, 'spouse' IN ('{{Raven}})",
                     "Actions": [
-                        "AddMail Current {{Raven}}_marriageTalk received",
+                        "RemoveMail Current {{Raven}}_marriageTalk",
                     ]
                 },
-            }
+            },
         },
         {
             "LogName": "triggerActions.json: Steal Money From Coat Rack",

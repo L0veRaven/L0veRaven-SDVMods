@@ -97,22 +97,6 @@
         {"Name": "emoteVideoGame","Value": "52",},
         {"Name": "emoteMusic","Value": "56",},
         {"Name": "emoteBlush","Value": "60",},
-    // Spouse Calculations
-        {"Name": "spouseName","Value": "default"},
-        {"Name": "spouseName","Value": "{{Spouse}}",
-            "When": {
-                "Spouse": "Shane, Sam, Abigail, Leah, Elliott, Alex, Haley, Sebastian, Emily, Maru, Penny, Harvey",
-                "HasMod |contains={{SVE}}": "false","HasMod |contains={{RSV}}": "false","HasMod |contains={{DTZ}}": "false",
-            },
-        },
-        {"Name": "spouseName","Value": "{{Spouse}}",
-            "When": {
-                "Spouse": "Shane, Sam, Abigail, Leah, Elliott, Alex, Haley, Sebastian, Emily, Maru, Penny, Harvey, Olivia, Victor, Claire, Sophia, Wizard, Krobus, Willy, Pam, Clint",
-                "HasMod |contains={{SVE}}": "true","HasMod |contains={{RSV}}": "false","HasMod |contains={{DTZ}}": "false",
-            }
-        },
-        
-        {"Name": "divorceRaven","Value": "Raven","When": {"Relationship:{{Raven}}": "Divorced"},},
     // Time
         //6 AM
         {"Name": "6am","Value": "600",},{"Name": "610am","Value": "610",},{"Name": "620am","Value": "620",},{"Name": "630am","Value": "630",},{"Name": "640am","Value": "640",},{"Name": "650am","Value": "650",},
