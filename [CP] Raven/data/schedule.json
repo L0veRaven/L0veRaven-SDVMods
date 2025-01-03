@@ -3,15 +3,6 @@
     //Work Days: Mon, Fri, Sat, Sun (10am - 8pm)
     //Free Days: Tue, Wed, Thu
         {
-            "LogName": "schedule.json: Spring Default - May Not Appear In-Game",
-            "Action": "EditData",
-            "Target": "Characters/schedules/{{Raven}}",
-            "Update": "OnLocationChange, OnTimeChange",
-            "Entries": {
-                "spring": "{{620am}} {{tentInside}} 4 3 2",
-            },
-        },
-        {
             "LogName": "schedule.json: Medication Pick-ups (18th of Each Month)",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
@@ -47,56 +38,20 @@
         },
         
         {
-            "LogName": "schedule.json: Job Days - Mon, Fri, Sat, Sun (10am - 6pm)",
+            "LogName": "schedule.json: General",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                //Spring
-                "spring_Mon": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "spring_Fri": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "spring_Sat": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "spring_Sun": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                //Summer
-                "summer_Mon": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "summer_Fri": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "summer_Sat": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "summer_Sun": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                //Fall
-                "fall_Mon": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "fall_Fri": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "fall_Sat": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "fall_Sun": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                //Winter
-                "winter_Mon": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "winter_Fri": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "winter_Sat": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
-                "winter_Sun": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNightJob}}",
+                "Mon": "{{workDay}}",
+                "Tue": "{{freeDay}}",
+                "Wed": "{{freeDay}}",
+                "Thu": "{{freeDay}}",
+                "Fri": "{{workDay}}",
+                "Sat": "{{workDay}}",
+                "Sun": "{{workDay}}",
+                "spring": "{{goodMorning}}/{{inBed}}",
             },
         },
-        
-//ADD        {
-//ADD            "LogName": "schedule.json: Free Days - Tue, Wed, Thu",
-//ADD            "Action": "EditData",
-//ADD            "Target": "Characters/schedules/{{Raven}}",
-//ADD            "Entries": {
-                //Spring
-//ADD                "spring_Tue": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "spring_Wed": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "spring_Thu": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-                //Summer
-//ADD                "summer_Tue": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "summer_Wed": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "summer_Thu": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-                //Fall
-//ADD                "fall_Tue": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "fall_Wed": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "fall_Thu": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-                //Winter
-//ADD                "winter_Tue": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "winter_Wed": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD                "winter_Thu": "{{goodMorning}}/{{freeDaysRandom}}/{{goodNight}}",
-//ADD            },
-//ADD        },
         
         {
             "LogName": "schedule.json: Marriage",
@@ -107,10 +62,10 @@
                 //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
 
                 //Medication Pick-Up
-                "marriage_spring_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
-                "marriage_summer_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
-                "marriage_fall_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
-                "marriage_winter_18": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+                "marriage_spring_18": "{{medsDay}}",
+                "marriage_summer_18": "{{medsDay}}",
+                "marriage_fall_18": "{{medsDay}}",
+                "marriage_winter_18": "{{medsDay}}",
 
                 //Marriage
                 "marriage_Sat": "{{930am}} {{jobTasksSaloon}}/{{6pm}} bed",

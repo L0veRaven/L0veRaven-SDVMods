@@ -97,18 +97,6 @@
         //    }
         //]
 
-// ====================================================================================================
-// DIALOGUE HIERARCHY (HIGHEST TO LOWEST)
-// ====================================================================================================
-    
-    // Seasonal > Heart dialogue > default
-        // summer_Mon > Mon10 > default [WORK IN REVERSE]
-    // Focus on filling out generic/default dialogue first
-        // Seasonal dialogue NORMALLY starts at 6 hearts
-    // Specific day dialogue will be repeated every year
-        // Recommended to keep these comments for holidays
-    // Questions should be in seasons
-
 // =====================================================================
 
 

@@ -814,6 +814,21 @@
 "standCC": "Town 60 17 2",
     
 "relaxBushTown": "Town 47 77 2",
+    // || Clinic ||
+"standMeds": "Hospital 5 17 0",
+    // || Saloon ||
+"standJobSaloon1": "Saloon 5 17 2",
+"standJobSaloon2": "Saloon 23 22 2",
+"standJobSaloon3": "Saloon 33 8 2",
+    
+"standTableSaloon": "Saloon 43 22 2",
+    // || ArchaeologyHouse ||
+"standBookcase": "ArchaeologyHouse 8 13 1",
+"standBookcaseSVE": "ArchaeologyHouse 7 18 3",
+    // || Beach ||
+"relaxBeach": "Beach 43 23 2",
+    // || Mountain ||
+"standMountain": "Mountain 57 33 1",
     // || Location ||
 "location": "addDialogue",
 // || Randomization - Vanilla Job: Pre-Apartment ||

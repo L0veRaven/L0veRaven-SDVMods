@@ -1,6 +1,12 @@
 # [CP] Raven
 A neko lives in a tent in Cindersap Forest, hoping to save up enough money to have a home again.
 
+## Troubleshooting Tips
+
+If you encounter any bugs, even if it only occurs once, get your SMAPI log report [by following this tutorial](https://www.youtube.com/watch?v=za-4YvJZVYg), then send it to me.
+
+Contact me at support@l0veraven.com or Discord at L0veRaven where I'll look at it within 24 hours.
+
 ## Keys
 
 | Key | Meaning |
@@ -28,8 +34,9 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 
 | Location ```Token``` | Duration (HH:MM) |
 | ------------- | ------------- |
-| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon1}}``` | 2:50 |
-| (Vanilla) Tent ```{{inBed}}``` | ___ |
+| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon1}}``` | 1:50 |
+| (Vanilla) Tent ```{{inBed}}``` to Beach ```{{relaxBeach}}``` | 2:00 |
+| (Vanilla) Tent ```{{inBed}}``` to Bus Stop ```{{standBusStop}}``` | 3:00 |
 | ------------------------------------------------------------------------------- | ----- |
 | (SVE) Tent ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
 | (SVE) Tent ```{{inBed}}``` | ___ |
@@ -37,7 +44,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | Apartment ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
 | Apartment ```{{inBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Bus Stop ```{{standBusStop}}``` | ___ |
+| Beach ```{{relaxBeach}}``` to (Vanilla) Tent ```{{standStove}}``` | 3:00 |
 | ------------------------------------------------------------------------------- | ----- |
 | (Vanilla) Forest ```{{pissBush}}``` | ___ |
 | (SVE) Forest ```{{pissBush}}``` | ___ |
@@ -56,6 +63,7 @@ A neko lives in a tent in Cindersap Forest, hoping to save up enough money to ha
 | Saloon ```{{standJobSaloon1}}``` | ___ |
 | Saloon ```{{standJobSaloon2}}``` | ___ |
 | Saloon ```{{standJobSaloon3}}``` to Bus Stop ```{{standBusStop}}``` | 1:30 |
+| Saloon ```{{standJobSaloon3}}``` to (Vanilla) Tent ```{{standStove}}``` | 2:00 |
 | Saloon ```{{standTableSaloon}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
 | (Vanilla) ArchaeologyHouse ```{{standBookcase}}``` | ___ |
