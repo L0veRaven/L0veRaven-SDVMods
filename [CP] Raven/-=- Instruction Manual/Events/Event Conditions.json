@@ -3,7 +3,7 @@
 
 "!": "Inverts commands -> !Spouse Abigail (player is NOT married to Abigail)",
     
-"GameStateQuery _query_", "G _query_": "GameStateQuery !Spouse Abigail (player is NOT married to Abigail) -> Inverts commands",
+"GameStateQuery _query_", "G _query_": "GameStateQuery !Spouse Abigail -> (player is NOT married to Abigail) -> Inverts commands",
     
 "ActiveDialogueEvent _dialogueID_", "!A _dialogueID_": "ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is in progress",
 "!ActiveDialogueEvent _dialogueID_", "A _dialogueID_": "!ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is NOT in progress",

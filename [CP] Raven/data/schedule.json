@@ -40,7 +40,7 @@
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 "Mon": "{{workDay}}",
-                "Tue": "{{freeDay}}",
+                "Tue": "{{freeDayShop}}",
                 "Wed": "{{freeDay}}",
                 "Thu": "{{freeDay}}",
                 "Fri": "{{workDay}}",

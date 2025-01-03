@@ -214,6 +214,8 @@
 "generic_10": "My feet are really sore today. I should take it easy.$2",
 "generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
 "generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
+"generic_13": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
+"generic_14": "Be sure you drink some water today. Water is very important!#$e#Yes, I forget to drink water a lot. Hush.$11",
     // || {{genericspring}} -> {{i18n:genericspring_{{Random:{{Range:1,7}}}}}} ||
 "genericspring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
 "genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
@@ -259,28 +261,21 @@
 "0hearts_9": "Have you been getting along with people in town fine?#$e#That's interesting!$1",
 "0hearts_10": "I work at the Saloon a few days a week. I really enjoy being a janitor there.#$e#Did you know that Gus lets staff sit down? We don't have to stand all the time!$3#$b#It's much better than my previous jobs.#$e#It's not like I spend my whole shift sitting, but if I need a breather, he won't judge us for it.$3",
     // || {{2hearts}} ||
-"2hearts_1": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
+"2hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # I'm glad we have a library in town. It helps give me more things to do!$1 |I should see if Gunther added any new books to the library. I'm dying to see some new books!$1 $action AddMail Current {{Raven}}_WildClans received",
 "2hearts_2": "I love how I can learn more about the people in town just from working at the Saloon.#$b#Sometimes you feel bad for some of the people, though.$2",
 "2hearts_3": "How are things going for you today?#$e#My day is just like any other day. Kinda boring.$11",
 "2hearts_4": "Sometimes it's hard to figure out what to talk about since my life is pretty repetitive.$2#$e#When everything is the same all the time, there's nothing new to talk about.$11",
-"2hearts_5": "Be sure you drink some water today. Water is very important!#$e#I know I forget to drink water a lot. Hush.$11",
+"2hearts_5": "",
 "2hearts_6": "I've had people tell me that I'm really energetic in odd situations.$17#$b#Doctors and dentists always get confused because I'm so upbeat at appointments.$1",
-"2hearts_7": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
+"2hearts_7": "",
+"2hearts_8": "I wish there were more frogs here. They're so cool.$1",
 // portraitBookmark
-"2hearts_8": "You know, I've been curious about programming. Sebastian is the only person in town that I know of who's skilled at programming.#$e#Maybe I could ask him to teach me in his spare time. I don't have a computer and Gunther doesn't have any at the library.",
-"2hearts_9": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
-"2hearts_10": "I wish there were more frogs here.#$b#They're so cool.",
     // || {{4hearts}} ||
 "4hearts_1": "Sometimes I wonder if I should try to move back to the city again.#$b#I don't think I'd be able to afford it, though.",
-"4hearts_2": "I'm thinking of also working at Pierre's Seed Shop.$17#$e#Sure, I'm working at the Saloon and helping out with the kids, but I think I'll be able to pull it off!$1",
-"4hearts_3": "4hearts_3_addDialogue",
-"4hearts_4": "4hearts_4_addDialogue",
-"4hearts_5": "4hearts_5_addDialogue",
-"4hearts_6": "4hearts_6_addDialogue",
-"4hearts_7": "4hearts_7_addDialogue",
-"4hearts_8": "4hearts_8_addDialogue",
-"4hearts_9": "4hearts_9_addDialogue",
-"4hearts_10": "4hearts_10_addDialogue",
+"4hearts_2": "I'm thinking of also working at Pierre's Seed Shop.$17#$e#Sure, I'm working at the Saloon, but I think I'll be able to pull it off!$1#$b#I'm not certain about it yet, but we'll see.",
+"4hearts_3": "I've been looking at books on managing finances lately, but it's not really that I spend too much money.$2#$b#The problem is that everything I need costs more than it should.$12#$e#At least I don't own a car. Those things are so expensive and break down at the worst times.$11",
+"4hearts_4": "I've been thinking of moving in to the Pelican Valley Loft. It's more affordable than Zuzu City!#$b#The downside is that it'll take longer to move things from my storage unit in the city.$2#$e#I'm saving up my money first though.",
+"4hearts_5": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
     // || {{6hearts}} ||
 "6hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # *yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2 |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
 "6hearts_2": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1$action AddMail Current {{Raven}}_JobInterview tomorrow",
@@ -820,6 +815,8 @@
 "relaxBushTown": "Town 47 77 2",
     // || Clinic ||
 "standMeds": "Hospital 5 17 0",
+    // || Clinic ||
+"shoppingSS": "SeedShop 16 28 3",
     // || Saloon ||
 "standJobSaloon1": "Saloon 5 17 2",
 "standJobSaloon2": "Saloon 23 22 2",
@@ -1165,10 +1162,6 @@
 "CleansingFarmer2_Mail_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
 // || {{Raven}}_JobInterview - Event ||
 "JobInterview_Mail": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
-// || {{Raven}}_marriageTalk - Event ||
-"marriageTalk_1_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
-"marriageTalk_2_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
-"marriageTalk_3_Mail": "Good morning @,^^addDialogue^^~ Raven[#]addDialogue Marriage",
 // || {{Raven}}ravenApartment - Event ||
 "ravenApartment_Mail": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven[#]Raven's Apartment",
 // || {{Raven}}_LoveLetter -> Automatic letters when dating ||

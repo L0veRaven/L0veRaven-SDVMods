@@ -89,7 +89,7 @@
 {
 "LogName": "events.json: Event 2 (27407002) WildClans","Action": "EditData","Target": "Data/Events/ArchaeologyHouse","Entries":
     { // Event 2 - WildClans
-    "{{Nexus}}002/p {{Raven}}/z spring fall winter": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
+    "{{Nexus}}002/p {{Raven}}/LocalMail {{Raven}}_WildClans": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
 --Farmer walks towards Raven and Raven faces farmer/
     {{moveFarmer}} 2 0 {{down}} true/{{moveFarmer}} 0 5 {{down}}/pause 300/
     {{faceDirectionRaven}} {{up}}/pause 300/

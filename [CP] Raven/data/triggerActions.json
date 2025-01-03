@@ -1,7 +1,22 @@
 {
     "Changes": [
         {
-            "LogName": "triggerActions.json: Add Trigger Action to Steal Money From Coat Rack",
+            "LogName": "triggerActions.json: Marriage Talk Event Flag",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "CoatRackMoney": {
+                    "Id": "CoatRackMoney",
+                    "Trigger": "Manual",
+                    "Condition": "!PLAYER_HAS_MAIL Current ReceiveCoatRackMoney",
+                    "Actions": [
+                        "AddMail Current ReceiveCoatRackMoney received",
+                    ]
+                },
+            }
+        },
+        {
+            "LogName": "triggerActions.json: Steal Money From Coat Rack",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {

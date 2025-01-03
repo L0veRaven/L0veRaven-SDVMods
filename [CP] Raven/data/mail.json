@@ -30,16 +30,6 @@
             },
         },
         {
-            "LogName": "mail.json: Event 27407006 (6) marriageTalk",
-            "Action": "EditData",
-            "Target": "Data/mail",
-            "Entries": {
-                "{{Raven}}_marriageTalk_1": "{{i18n:marriageTalk_1_Mail}}",
-                "{{Raven}}_marriageTalk_2": "{{i18n:marriageTalk_2_Mail}}",
-                "{{Raven}}_marriageTalk_3": "{{i18n:marriageTalk_3_Mail}}",
-            },
-        },
-        {
             "LogName": "mail.json: Event 27407007 (7) ravenApartment",
             "Action": "EditData",
             "Target": "Data/mail",
