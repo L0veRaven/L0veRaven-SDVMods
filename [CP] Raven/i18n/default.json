@@ -178,10 +178,14 @@
 "iceFestival_tomorrow_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
 "iceFestival_tomorrow_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
 "iceFestival_tomorrow_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
+// || Meds ||
+    // || {{medsDialogue}} -> {{i18n: medsDialogue_{{Random:{{Range:1,_}}}}}} ||
+"medsDialogue_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
+"medsDialogue_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
 // || Birthday & Checkup ||
     // || {{bdayCheckup}} -> {{i18n: bdayCheckup_{{Random:{{Range:1,_}}}}}} ||
 "bdayCheckup_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
-"bdayCheckup_2": "Today's my birthday!$3#$b#I also have my checkup today, but that's not as important.$1",
+"bdayCheckup_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
 "bdayCheckup_3": "Today's my birthday!$1#$b#Since I have the day off, I can take it easy.",
 // || Winter Star ||
     // || {{winterStarYest}} -> {{i18n: winterStar_yesterday_{{Random:{{Range:1,_}}}}}} ||

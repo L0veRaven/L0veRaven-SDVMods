@@ -12,10 +12,13 @@
             },
         },
         {
-            "LogName": "dialogue.json: Birthday & Checkup Dialogue",
+            "LogName": "dialogue.json: Birthday & Doctor Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
+                "spring_18": "{{medsDialogue}}",
+                "summer_18": "{{medsDialogue}}",
+                "fall_18": "{{medsDialogue}}",
                 "winter_18": "{{bdayCheckup}}",
             },
         },
