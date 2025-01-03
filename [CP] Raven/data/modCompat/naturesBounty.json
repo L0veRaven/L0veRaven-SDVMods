@@ -22,11 +22,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Tue2": "{{NBDialogue}}","{{season}}_Sun2": "{{NBDialogue}}",
-                "{{season}}_Tue4": "{{NBDialogue}}","{{season}}_Thu4": "{{NBDialogue}}",
-                "{{season}}_Tue6": "{{NBDialogue}}","{{season}}_Thu6": "{{NBDialogue}}",
-                "{{season}}_Tue8": "{{NBDialogue}}","{{season}}_Thu8": "{{NBDialogue}}",
-                "{{season}}_Tue10": "{{NBDialogue}}","{{season}}_Thu10": "{{NBDialogue}}",
+                "{{season}}_Tue": "{{NBDialogue}}","{{season}}_Thu": "{{NBDialogue}}",
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",

@@ -1,7 +1,5 @@
 {
     "Changes": [
-    //Work Days: Mon, Fri, Sat, Sun (10am - 8pm)
-    //Free Days: Tue, Wed, Thu
         {
             "LogName": "schedule.json: Medication Pick-ups (18th of Each Month)",
             "Action": "EditData",
@@ -36,7 +34,6 @@
                 "winter_25": "{{goodMorningBus}}/{{910am}} {{relaxBushTown}}/{{210pm}} {{standRiverForest}}/{{goodNight}}",
             },
         },
-        
         {
             "LogName": "schedule.json: General",
             "Action": "EditData",
@@ -49,18 +46,15 @@
                 "Fri": "{{workDay}}",
                 "Sat": "{{workDay}}",
                 "Sun": "{{workDay}}",
+                
                 "spring": "{{goodMorning}}/{{inBed}}",
             },
         },
-        
         {
             "LogName": "schedule.json: Marriage",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
-                //ADD"marriage_<season>_<day of month>": "",//Applies on the given date. "marriage_spring_26"
-                //ADD"marriage_<day of week>": "",//Applies on the given day of week when not raining. "marriage_Mon"
-
                 //Medication Pick-Up
                 "marriage_spring_18": "{{medsDay}}",
                 "marriage_summer_18": "{{medsDay}}",

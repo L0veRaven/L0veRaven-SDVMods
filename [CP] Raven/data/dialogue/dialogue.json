@@ -58,36 +58,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                //0 Hearts
-                "spring_Mon": "{{genericSpring}}","spring_Thu": "{{genericSpring}}",
-                "summer_Mon": "{{genericSummer}}","summer_Thu": "{{genericSummer}}",
-                "fall_Mon": "{{genericFall}}","fall_Thu": "{{genericFall}}",
-                "winter_Mon": "{{genericWinter}}","winter_Thu": "{{genericWinter}}",
-                //2 Hearts
-                "spring_Mon2": "{{genericSpring}}","spring_Thu2": "{{genericSpring}}",
-                "summer_Mon2": "{{genericSummer}}","summer_Thu2": "{{genericSummer}}",
-                "fall_Mon2": "{{genericFall}}","fall_Thu2": "{{genericFall}}",
-                "winter_Mon2": "{{genericWinter}}","winter_Thu2": "{{genericWinter}}",
-                //4 Hearts
-                "spring_Mon4": "{{genericSpring}}","spring_Thu4": "{{genericSpring}}",
-                "summer_Mon4": "{{genericSummer}}","summer_Thu4": "{{genericSummer}}",
-                "fall_Mon4": "{{genericFall}}","fall_Thu4": "{{genericFall}}",
-                "winter_Mon4": "{{genericWinter}}","winter_Thu4": "{{genericWinter}}",
-                //6 Hearts
-                "spring_Mon6": "{{genericSpring}}","spring_Thu6": "{{genericSpring}}",
-                "summer_Mon6": "{{genericSummer}}","summer_Thu6": "{{genericSummer}}",
-                "fall_Mon6": "{{genericFall}}","fall_Thu6": "{{genericFall}}",
-                "winter_Mon6": "{{genericWinter}}","winter_Thu6": "{{genericWinter}}",
-                //8 Hearts
-                "spring_Mon8": "{{genericSpring}}","spring_Thu8": "{{genericSpring}}",
-                "summer_Mon8": "{{genericSummer}}","summer_Thu8": "{{genericSummer}}",
-                "fall_Mon8": "{{genericFall}}","fall_Thu8": "{{genericFall}}",
-                "winter_Mon8": "{{genericWinter}}","winter_Thu8": "{{genericWinter}}",
-                //10 Hearts
-                "spring_Mon10": "{{genericSpring}}","spring_Thu10": "{{genericSpring}}",
-                "summer_Mon10": "{{genericSummer}}","summer_Thu10": "{{genericSummer}}",
-                "fall_Mon10": "{{genericFall}}","fall_Thu10": "{{genericFall}}",
-                "winter_Mon10": "{{genericWinter}}","winter_Thu10": "{{genericWinter}}",
+                "{{season}}_Mon": "{{genericSpring}}","{{season}}_Thu": "{{genericSpring}}",
             },
         },
         {
@@ -96,11 +67,6 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "{{season}}_Tue": "{{generic}}","{{season}}_Sun": "{{generic}}",
-                "{{season}}_Tue2": "{{generic}}","{{season}}_Sun2": "{{generic}}",
-                "{{season}}_Tue4": "{{generic}}","{{season}}_Sun4": "{{generic}}",
-                "{{season}}_Tue6": "{{generic}}","{{season}}_Sun6": "{{generic}}",
-                "{{season}}_Tue8": "{{generic}}","{{season}}_Sun8": "{{generic}}",
-                "{{season}}_Tue10": "{{generic}}","{{season}}_Sun10": "{{generic}}",
             },
         },
         {

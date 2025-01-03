@@ -375,11 +375,12 @@
         {"Name": "freeDay1","Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay2","Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay3","Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",},
+        {"Name": "freeDay4","Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",},
             //Job Randomizers
         {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
         {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",},
         //Schedule Randomizers
-        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}}}}",},
+        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",},
         
         {"Name": "freeDaysRandom","Value": "{{freeDays}}",},
         //Reference Tokens
