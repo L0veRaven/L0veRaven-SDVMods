@@ -1,5 +1,4 @@
 {
-"addDialogue": "addDialogue",
 // ===============================================================================================
 // || "token": "<token name>_addDialogue" -> Name is copied for easy reference if shown in-game ||
 // ===============================================================================================
@@ -972,6 +971,11 @@
 "marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//speakRaven
 "marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//speakGus
 "marriageTalk_qQ_1_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
+// || 8 Heart - {{Raven}}Apartment ||
+"Apartment_1": "That's the last one!",//textAboveHead {{Raven}}
+"Apartment_2": "@, you really came!$3",//speak {{Raven}}
+"Apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//speak {{Raven}}
+"Apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//speak {{Raven}}
 // || Event 100: 27407100 - {{Raven}}GusEdibles ||
 "GusEdibles_speak_1": "Welcome!",//speakGus
 "GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//speakRaven

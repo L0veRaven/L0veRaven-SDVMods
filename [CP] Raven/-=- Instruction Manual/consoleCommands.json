@@ -1,27 +1,29 @@
 {
-    "reloads ALL i18n files (if they aren't cached)":
+    //reloads ALL i18n files (if they aren't cached)
 reload_i18n
-    "reloads patch":
+    
+    //reloads patch":
 patch reload L0veRaven.Raven
-    "Rechecks all patches -> Updates condition context -> Eliminates need to restart or go to bed":
+    
+    //Rechecks all patches -> Updates condition context -> Eliminates need to restart or go to bed
 patch update
-    "export the given file for code review":
+    
+    //export the given file for code review
 patch export data/_____
 patch export characters/_____
 etc.
-    
-    "Event 0 - CatLover":
-debug ebi 27407000
-    "Event 1 - Check-In":
-debug ebi 27407001
-    "Event 2 - WildClans":
-debug ebi 27407002
-    "Event 3 - CleansingFarmer":
-debug ebi 27407003
-    "Event 4 - CleansingFarmer2":
-debug ebi 27407004
+    //events for debugging
+debug ebi L0veRaven_RavenCatLover
+debug ebi L0veRaven_RavenCheckIn
+debug ebi L0veRaven_RavenWildClans
+debug ebi L0veRaven_RavenCleansingFarmer
+debug ebi L0veRaven_RavenCleansingFarmer2
+debug ebi L0veRaven_RavenmarriageTalk
+debug ebi L0veRaven_RavenApartment
 
+    //mail prerequisites
 debug seenmail L0veRaven_RavenApartment
 
+    //gotta warp fast
 debug warp L0veRaven_RavenTentInside 2 4
 }
