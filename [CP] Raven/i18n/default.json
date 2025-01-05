@@ -604,7 +604,7 @@
 "Engagement_0": "I can't believe this is actually happening! I love you so much @.$1", // Loops
 "Engagement_1": "Um... honey, do you think I'll end up tripping during the ceremony?",
     // || Proposal->Wedding ||
-"Engaged": "... No way! Of course I'll marry you @!#$e#You don't know how happy you made me today. I'm looking forward to the wedding, darling.", //WHEN RECEIVING PENDANT
+"Engaged": "Wait... You're serious?$8#$b#Of course I'll marry you @!$3#$e#You don't know how happy you made me today. I'm looking forward to the wedding, darling. Just give me a bit to make preparations.", //WHEN RECEIVING PENDANT
 "AfterWedding": "I can't believe it... I'm married to the love of my life!#$e#I can't wait to see what the future holds for us, honey.",
     // || Household ||
 "SpouseFarmhouseClutter": "@, I know that you get busy and all, but I'd appreciate if you kept the walkways clear.$2#$b#It's hard to cook when you can't get into the kitchen, you know?$2",
@@ -951,6 +951,8 @@
 "CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
 // || Event 5: 27407005 - {{Raven}}jobInterview ||
 // || Event 6: 27407006 - {{Raven}}marriageTalk ||
+"Utility.cs.5370": "Well, let's get right to it!",
+
 "marriageTalk_gusWelcome": "Here comes the newlywed!",//speechBubbleGus
     
 "marriageTalk_speak_1": "Hey there, @!$1",//speakRaven
@@ -978,7 +980,12 @@
 "Apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//speak {{Raven}}
 "Apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//speak {{Raven}}
 "Apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//speak {{Raven}}
-"Apartment_7": "...#$b#I feel... normal again.$",//speak {{Raven}}
+"Apartment_7": "...#$b#I feel... normal again.$13",//speak {{Raven}}
+"Apartment_8": "*sniff*",//textAboveHead {{Raven}}
+"Apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//speak {{Raven}}
+"Apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//speak {{Raven}}
+    
+"Apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//end dialogue {{Raven}}
 // || Event 100: 27407100 - {{Raven}}GusEdibles ||
 "GusEdibles_speak_1": "Welcome!",//speakGus
 "GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//speakRaven

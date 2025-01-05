@@ -10,7 +10,7 @@
             ],
             "When": {
                 "HasMod: |contains={{SVE}}": false,
-                "HasFlag: |contains={{Raven}}Apartment": false,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
             },
         },
         {
@@ -23,7 +23,7 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-                "HasFlag: |contains={{Raven}}Apartment": false,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
             },
         },
     ]

@@ -34,7 +34,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Raven}}Apartment": "{{i18n:ravenApartment_Mail}}",
+                "{{Raven}}_Apartment": "{{i18n:ravenApartment_Mail}}",
             },
         },
         {

@@ -1,21 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "triggerActions.json: Marriage Talk Event Flag",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{Raven}}_marriageTalkFlag": {
-                    "Id": "{{Raven}}_marriageTalkFlag",
-                    "Trigger": "Manual",
-                    "Condition": "PLAYER_HAS_MAIL Current {{Raven}}_marriageTalk, 'spouse' IN ('{{Raven}})",
-                    "Actions": [
-                        "RemoveMail Current {{Raven}}_marriageTalk",
-                    ]
-                },
-            },
-        },
-        {
             "LogName": "triggerActions.json: Steal Money From Coat Rack",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
@@ -23,10 +8,10 @@
                 "{{Raven}}_CoatRackMoneyFlag": {
                     "Id": "{{Raven}}_CoatRackMoneyFlag",
                     "Trigger": "Manual",
-                    "Condition": "!PLAYER_HAS_MAIL Current {{Raven}}ReceiveCoatRackMoneyFlag",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{Raven}}_ReceiveCoatRackMoneyFlag",
                     "Actions": [
                         "AddMoney 500",
-                        "AddMail Current {{Raven}}ReceiveCoatRackMoneyFlag received",
+                        "AddMail Current {{Raven}}_ReceiveCoatRackMoneyFlag received",
                     ]
                 },
             }

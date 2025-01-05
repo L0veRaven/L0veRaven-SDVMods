@@ -6,7 +6,7 @@
             "Target": "Data/Events/Farm",
             "Entries": {
                 "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H": null,//Removes default event
-                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
+                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}_CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
             },
         },
      
@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{Raven}}CatLover/h cat/H": "CloudCountry/71 70/farmer 66 74 0 {{Raven}} 65 69 1 Penny 71 69 2/skippable/pause 500/
+                "{{Raven}}_CatLover/h cat/H": "CloudCountry/71 70/farmer 66 74 0 {{Raven}} 65 69 1 Penny 71 69 2/skippable/pause 500/
             --Raven approaches/
                 move {{Raven}} 4 0 {{right}}/emote {{Raven}} {{emoteQuestion}} true/playSound dwop/pause 1200/
             --Raven says hello {{i18n:CatLover_speak_1}}/
@@ -62,7 +62,7 @@
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
-                "{{Raven}}CheckIn/p {{Raven}}/j 14/f/w sunny": "jaunty/23 21/farmer 10 23 1 {{Raven}} 15 17 1/skippable/
+                "{{Raven}}_CheckIn/p {{Raven}}/j 14/f/w sunny": "jaunty/23 21/farmer 10 23 1 {{Raven}} 15 17 1/skippable/
             --Farmer walks in front of BusStop intersection sign/
                 move farmer 12 0 1/
             --Rustling is heard and the farmer is curious/
@@ -89,7 +89,7 @@
 {
 "LogName": "events.json: 2 Heart Event - WildClans","Action": "EditData","Target": "Data/Events/ArchaeologyHouse","Entries":
     { // Event 2 - WildClans
-    "{{Raven}}WildClans/p {{Raven}}/LocalMail {{Raven}}_WildClans": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
+    "{{Raven}}_WildClans/p {{Raven}}/LocalMail {{Raven}}_WildClans": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
 --Farmer walks towards Raven and Raven faces farmer/
     move farmer 2 0 {{down}} true/move farmer 0 5 {{down}}/pause 300/
     {{faceDirectionRaven}} {{up}}/pause 300/
@@ -116,7 +116,7 @@
 {
 "LogName": "events.json: 4 Heart - CleansingFarmer","Action": "EditData","Target": "Data/Events/Custom_L0veRaven_RavenTentInside","Entries":
     {//Event 3 - CleansingFarmer
-    "{{Raven}}CleansingFarmer/n {{Raven}}_CleansingFarmer/p {{Raven}}": "jaunty/68 89/farmer 2 5 {{up}} {{Raven}} 3 3 {{down}}/skippable/pause 300/
+    "{{Raven}}_CleansingFarmer/n {{Raven}}_CleansingFarmer/p {{Raven}}": "jaunty/68 89/farmer 2 5 {{up}} {{Raven}} 3 3 {{down}}/skippable/pause 300/
 --Farmer approaches Raven/
 textAboveHead {{Raven}} \"Welcome in!\"/pause 1500/move farmer 0 -2 {{right}} true/{{faceDirectionRaven}} {{left}}/pause 1500/
 --Raven thanks the farmer for coming over/
@@ -135,7 +135,7 @@ end",
 {
 "LogName": "events.json: 4 Heart - CleansingFarmer2","Action": "EditData","Target": "Data/Events/Forest","Entries":
     {//Event 4 - CleansingFarmer2
-    "{{Raven}}CleansingFarmer2/e {{Raven}}CleansingFarmer": "jaunty/88 87/farmer 88 87 {{right}} {{Raven}} 89 87 {{left}}/skippable/pause 1000/
+    "{{Raven}}_CleansingFarmer2/e {{Raven}}CleansingFarmer": "jaunty/88 87/farmer 88 87 {{right}} {{Raven}} 89 87 {{left}}/skippable/pause 1000/
 --Raven speaks/
 speak {{Raven}} \"Are you ready?\"/pause 15/emote farmer {{emoteHappy}}/pause 300/
 --Raven starts ritual/
@@ -160,7 +160,7 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "{{Raven}}JobInterview/t {{9am}} {{5pm}}/!DayOfWeek Wed": "<custom song>/<x> <y>/farmer <x> <y> <d> {{Raven}} <x> <y> <d> Pierre <x> <y> <d> Abigail <x> <y> <d> Caroline <x> <y> <d>/skippable/
+                "{{Raven}}_JobInterview/t {{9am}} {{5pm}}/!DayOfWeek Wed": "<custom song>/<x> <y>/farmer <x> <y> <d> {{Raven}} <x> <y> <d> Pierre <x> <y> <d> Abigail <x> <y> <d> Caroline <x> <y> <d>/skippable/
                     // Job interview at Pierre's shop
                         // Raven wants more hours so they can move back to Zuzu City
             --Raven approaches/
@@ -170,11 +170,22 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             },
         },
         {
+            "LogName": "events.json: Wedding Condition - marriageTalk",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5370": "{{i18n:Utility.cs.5370}}#$action AddMail Current {{Raven}}_marriageTalk received",
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Unmet, Friendly",
+            },
+        },
+        {
             "LogName": "events.json: 8 Heart - marriageTalk",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "{{Raven}}marriageTalk/n {{Raven}}_marriageTalk/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
+                "{{Raven}}_marriageTalk/n {{Raven}}_marriageTalk/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
             --Farmer walks in and gets settled/
                 {{animateGus}} false true 120 18 19 20 19/pause 1000/
                 warp farmer 14 24 true/{{closeDoor}}/{{speechBubbleGus}} \"{{i18n:marriageTalk_gusWelcome}}\"/pause 300/
@@ -210,26 +221,31 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             "Action": "EditData",
             "Target": "Data/Events/FRL_NPCApt_Floor1",
             "Entries": {
-                "{{Raven}}Apartment/n {{Raven}}Apartment": "SettlingIn/10 14/farmer 10 22 {{up}} {{Raven}} 9 13 {{up}}/skippable/friendship {{Raven}} 15/pause 1000/
+                "{{Raven}}_Apartment/n {{Raven}}_Apartment": "SettlingIn/10 14/farmer 10 22 {{up}} {{Raven}} 9 13 {{up}}/skippable/friendship {{Raven}} 15/pause 1300/
         --Farmer walks in/
-            shake {{Raven}} 250/pause 300/textAboveHead {{Raven}} \"{{i18n:Apartment_1}}\"/pause 1000/
-            doAction 10 21/
+            shake {{Raven}} 300/pause 300/textAboveHead {{Raven}} \"{{i18n:Apartment_1}}\"/pause 1000/
+            doAction 10 21 true/playSound doorOpen/
             move farmer 0 -7 {{up}}/pause 500/
             {{faceDirectionRaven}} {{down}} true/{{grassyStep}}/emote {{Raven}} {{emoteExclaim}}/pause 1000/
         --Raven shows off room/
             speak {{Raven}} \"{{i18n:Apartment_2}}\"/pause 300/
             move {{Raven}} 2 0 {{down}}/shake {{Raven}} 250/pause 300/
             speak {{Raven}} \"{{i18n:Apartment_3}}\"/pause 300/
-            move {{Raven}} 0 2 {{right}} true/move {{Raven}} 2 0 {{left}} true/faceDirection farmer {{right}}/pause 300/
+            move {{Raven}} 0 2 {{right}}/move {{Raven}} 2 0 {{left}} true/faceDirection farmer {{right}}/pause 300/
             speak {{Raven}} \"{{i18n:Apartment_4}}\"/pause 300/
             emote farmer {{emoteQuestion}}/pause 1000/
         --Raven explains they used to do livestreams before homelessness/
             jump {{Raven}}/pause 300/speak {{Raven}} \"{{i18n:Apartment_5}}\"/pause 300/
             faceDirection {{Raven}} {{right}} true/move farmer 2 0 {{right}} true/speak {{Raven}} \"{{i18n:Apartment_6}}\"/pause 300/
-            faceDirection {{Raven}} {{left}}/{{grassyStep}}/pause 1000/
-            speak {{Raven}} \"{{i18n:Apartment_7}}\"/
+            faceDirection {{Raven}} {{left}} true/{{grassyStep}}/pause 1000/
+            speak {{Raven}} \"{{i18n:Apartment_7}}\"/pause 300/
+            shake {{Raven}} 300 true/textAboveHead {{Raven}} \"{{i18n:Apartment_8}}\"/
+            speak {{Raven}} \"{{i18n:Apartment_9}}\"/pause 300/
+            faceDirection {{Raven}} {{left}}/pause 300/
+            speak {{Raven}} \"{{i18n:Apartment_10}}\"/pause 300/
+            emote farmer {{emoteHappy}} true/emote Raven {{emoteHappy}}/pause 500/
         --End with dialogue/
-            end",
+            end dialogue {{Raven}} \"{{i18n:Apartment_end}}\"",
             },
         },
     ]
