@@ -77,11 +77,17 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
+                //{{Raven}}_CatLover, {{Raven}}_CheckIn
                 "{{season}}_Wed": "{{0hearts}}","{{season}}_Fri": "{{0hearts}}","{{season}}_Sat": "{{0hearts}}",
+                //{{Raven}}_
                 "{{season}}_Wed2": "{{2hearts}}","{{season}}_Fri2": "{{2hearts}}","{{season}}_Sat2": "{{2hearts}}",
+                //{{Raven}}_
                 "{{season}}_Wed4": "{{4hearts}}","{{season}}_Fri4": "{{4hearts}}","{{season}}_Sat4": "{{4hearts}}",
+                //{{Raven}}_
                 "{{season}}_Wed6": "{{6hearts}}","{{season}}_Fri6": "{{6hearts}}","{{season}}_Sat6": "{{6hearts}}",
+                //{{Raven}}_Apartment
                 "{{season}}_Wed8": "{{8hearts}}","{{season}}_Fri8": "{{8hearts}}","{{season}}_Sat8": "{{8hearts}}",
+                //{{Raven}}_
                 "{{season}}_Wed10": "{{10hearts}}","{{season}}_Fri10": "{{10hearts}}","{{season}}_Sat10": "{{10hearts}}",
             },
         },
@@ -295,7 +301,7 @@
                 //Flower Dance
                 "FlowerDance_Accept_Spouse": "{{flowDanAcceptSpouse}}",
                 "FlowerDance_Accept": "{{flowDanAccept}}",
-                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",
+                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",//danceRejection
                 //Fair
                 "Fair_Judging": "{{FairJudging}}",
                 "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts}}",
@@ -345,8 +351,20 @@
                 //Other Events
                 "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current 27407000 # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
                 "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
-                "divorced_once": "{{i18n:married_farmer}}","divorced_twice": "{{i18n:married_farmer}}",
+                "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}",
             },
+        },
+        {
+            "LogName": "dialogue.json: Conversation Topics - Marriage Settings",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
+                "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}",
+            },
+            "When": {
+                "Spouse": "{{Raven}}",
+            }
         },
 //ADD        {
 //ADD            "LogName": "dialogue.json: Conversation Topics: Custom",
@@ -446,8 +464,7 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Proposal->Wedding
-                "{{Raven}}_Engaged": "{{i18n:Engaged}}",
-                "{{Raven}}_AfterWedding": "{{i18n:AfterWedding}}",
+                "{{Raven}}_Engaged": "{{i18n:Engaged}}",//Gifted pendant
                 //Household Dialogue
                 "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
                 "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",

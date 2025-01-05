@@ -1,6 +1,21 @@
 {
     "Changes": [
         {
+            "LogName": "triggerActions.json: MarriageTalkFlag",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{Raven}}_MarriageTalkFlag": {
+                    "Id": "{{Raven}}_MarriageTalkFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current married_{{spouse}}, !PLAYER_NPC_RELATIONSHIP Current {{Raven}} Married",
+                    "Actions": [
+                        "AddMail Current {{Raven}}_MarriageTalkFlag received",
+                    ]
+                },
+            }
+        },
+        {
             "LogName": "triggerActions.json: Steal Money From Coat Rack",
             "Action": "EditData",
             "Target": "Data/TriggerActions",

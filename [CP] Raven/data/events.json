@@ -1,17 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "events.json: Event 1590166 - CatAdoption",
-            "Action": "EditData",
-            "Target": "Data/Events/Farm",
-            "Entries": {
-                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H": null,//Removes default event
-                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}_CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
-            },
-        },
-     
-        {
-            "LogName": "events.json: Day 1 - CatLover",
+            "LogName": "events.json: CatLover - Day 1",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
@@ -56,9 +46,17 @@
                 end dialogue {{Raven}} \"{{i18n:CatLover_end_1}}\" dialogue Penny \"{{i18n:CatLover_end_2}}\"",
             },
         },
-     
         {
-            "LogName": "events.json: 14 Days - CheckIn",
+            "LogName": "events.json: CatAdoption",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H": null,//Removes default event
+                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}_CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
+            },
+        },
+        {
+            "LogName": "events.json: CheckIn - Day 14",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
@@ -87,7 +85,7 @@
         },
      
 {
-"LogName": "events.json: 2 Heart Event - WildClans","Action": "EditData","Target": "Data/Events/ArchaeologyHouse","Entries":
+"LogName": "events.json: 2 Heart - WildClans","Action": "EditData","Target": "Data/Events/ArchaeologyHouse","Entries":
     { // Event 2 - WildClans
     "{{Raven}}_WildClans/p {{Raven}}/LocalMail {{Raven}}_WildClans": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
 --Farmer walks towards Raven and Raven faces farmer/
@@ -170,7 +168,7 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             },
         },
         {
-            "LogName": "events.json: Wedding Condition - marriageTalk",
+            "LogName": "events.json: marriageTalk - Wedding Condition",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -181,11 +179,11 @@ end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
             },
         },
         {
-            "LogName": "events.json: 8 Heart - marriageTalk",
+            "LogName": "events.json: 8 Heart - MarriageTalk: Married to Other NPC",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "{{Raven}}_marriageTalk/n {{Raven}}_marriageTalk/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
+                "{{Raven}}_marriageTalk/n {{Raven}}_MarriageTalkFlag/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
             --Farmer walks in and gets settled/
                 {{animateGus}} false true 120 18 19 20 19/pause 1000/
                 warp farmer 14 24 true/{{closeDoor}}/{{speechBubbleGus}} \"{{i18n:marriageTalk_gusWelcome}}\"/pause 300/

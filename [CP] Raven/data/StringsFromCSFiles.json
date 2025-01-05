@@ -27,7 +27,7 @@
                 "MapPage.cs.11097": "{{i18n:LinusTent_NameHover}}",//REPLACES DEFAULT CS STRING
             },
             "When": {
-                "HasMod |=contains{{SVE}}": true,
+                "HasMod |contains={{SVE}}": true,
             }
         },
         {//Verified

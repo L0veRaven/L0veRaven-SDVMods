@@ -138,6 +138,8 @@
         {"Name": "12am","Value": "2400",},{"Name": "1210am","Value": "2410",},{"Name": "1220am","Value": "2420",},{"Name": "1230am","Value": "2430",},{"Name": "1240am","Value": "2440",},{"Name": "1250am","Value": "2450",},
         //1 AM
         {"Name": "1am","Value": "2500",},{"Name": "110am","Value": "2510",},{"Name": "120am","Value": "2520",},{"Name": "130am","Value": "2530",},{"Name": "140am","Value": "2540",},{"Name": "150am","Value": "2550",},
+    //Dateables
+        {"Name": "dateables","Value": "{{i18n:medsDialogue_{{Range:1,2}}}}",},
     //Dialogue
         //Doctor
         {"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Range:1,2}}}}",},
@@ -386,6 +388,7 @@
         {"Name": "fds2","Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",},
             //Job Randomizers
         {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
+        {"Name": "jobTasksSaloon_married","Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
         {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",},
         //Schedule Randomizers
         {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",},

@@ -56,14 +56,11 @@
             "Target": "Characters/schedules/{{Raven}}",
             "Entries": {
                 //Medication Pick-Up
-                "marriage_spring_18": "{{medsDay}}",
-                "marriage_summer_18": "{{medsDay}}",
-                "marriage_fall_18": "{{medsDay}}",
-                "marriage_winter_18": "{{medsDay}}",
+                "marriage_{{season}}_18": "{{medsDay}}",
 
                 //Marriage
-                "marriage_Sat": "{{930am}} {{jobTasksSaloon}}/{{6pm}} bed",
-                "marriage_Sun": "{{930am}} {{jobTasksSaloon}}/{{6pm}} bed",
+                "marriage_Sat": "{{jobTasksSaloon_married}}/{{6pm}} bed",
+                "marriage_Sun": "{{jobTasksSaloon_married}}/{{6pm}} bed",
             },
         },
     ]

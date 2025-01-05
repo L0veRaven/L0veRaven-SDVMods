@@ -600,12 +600,11 @@
         // || Bouquet ||
 "RejectBouquet_Divorced": "...#$b#I think you forgot the fact that you chose to divorce me.#$b#I don't give second chances for things like that.",
 // || Marriage Topics ||
-    // || Engagement ||
-"Engagement_0": "I can't believe this is actually happening! I love you so much @.$1", // Loops
-"Engagement_1": "Um... honey, do you think I'll end up tripping during the ceremony?",
     // || Proposal->Wedding ||
-"Engaged": "Wait... You're serious?$8#$b#Of course I'll marry you @!$3#$e#You don't know how happy you made me today. I'm looking forward to the wedding, darling. Just give me a bit to make preparations.", //WHEN RECEIVING PENDANT
-"AfterWedding": "I can't believe it... I'm married to the love of my life!#$e#I can't wait to see what the future holds for us, honey.",
+"Engaged": "Wait... You're serious?$8#$b#Of course I'll marry you @!$3#$e#You don't know how happy you made me today. I'm looking forward to the wedding, darling. Just give me a bit to make preparations.",//Gifted pendant
+"Engagement_0": "I can't believe I'm actually getting married!$6",//Appears after "Engaged"
+"Engagement_1": "Um... honey, do you think I'll end up tripping during the ceremony?$11#$e#If I trip and fall... Would you catch me?$4",
+"AfterWedding": "I can't believe it... I'm married to the love of my life!$6#$e#I can't wait to see what the future holds for us, honey.$4",
     // || Household ||
 "SpouseFarmhouseClutter": "@, I know that you get busy and all, but I'd appreciate if you kept the walkways clear.$2#$b#It's hard to cook when you can't get into the kitchen, you know?$2",
 "Spouse_MonstersInHouse": "GET IT AWAY FROM ME! KILL IT! KILL IT!",
