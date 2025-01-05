@@ -950,11 +950,9 @@
 "CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
 // || Event 5: 27407005 - {{Raven}}jobInterview ||
 // || Event 6: 27407006 - {{Raven}}marriageTalk ||
-"Utility.cs.5370": "Well, let's get right to it!",
-
 "marriageTalk_gusWelcome": "Here comes the newlywed!",//speechBubbleGus
     
-"marriageTalk_speak_1": "Hey there, @!$1",//speakRaven
+"marriageTalk_speak_1": "Hey there, @! I'm on break right now.$1#$b#All of that cleaning tired me out so I need to take a breather before I get back to it.",//speakRaven
 
 "marriageTalk_qQ": "How's the new marriage treating you?",
     
@@ -971,7 +969,7 @@
 "marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//speakGus
 "marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//speakRaven
 "marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//speakGus
-"marriageTalk_qQ_1_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
+"marriageTalk_speak_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
 // || 8 Heart - {{Raven}}Apartment ||
 "Apartment_1": "That's the last one!",//textAboveHead {{Raven}}
 "Apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//speak {{Raven}}
