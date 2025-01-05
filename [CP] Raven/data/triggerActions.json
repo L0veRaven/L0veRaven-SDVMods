@@ -23,10 +23,10 @@
                 "{{Raven}}_CoatRackMoneyFlag": {
                     "Id": "{{Raven}}_CoatRackMoneyFlag",
                     "Trigger": "Manual",
-                    "Condition": "!PLAYER_HAS_MAIL Current ReceiveCoatRackMoney",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{Raven}}ReceiveCoatRackMoneyFlag",
                     "Actions": [
                         "AddMoney 500",
-                        "AddMail Current ReceiveCoatRackMoney received",
+                        "AddMail Current {{Raven}}ReceiveCoatRackMoneyFlag received",
                     ]
                 },
             }

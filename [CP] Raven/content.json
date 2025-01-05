@@ -443,6 +443,12 @@
     
     "Changes": [
         {
+            "LogName": "content.json: Apartment Blank Loads",
+            "Action": "Load",
+            "Target": "Data/Events/FRL_NPCApt_PelicanValleyLoft, Data/Events/FRL_NPCApt_Lobby, Data/Events/FRL_NPCApt_Floor1, Data/Events/FRL_NPCApt_Floor2, Data/Events/FRL_NPCApt_Floor3, Data/Events/FRL_NPCApt_Floor4, Data/Events/FRL_NPCApt_Floor5, Data/Events/FRL_NPCApt_Floor6, Data/Events/FRL_NPCApt_Floor7",
+            "FromFile": "data/blank.json",
+        },
+        {
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
             "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside",

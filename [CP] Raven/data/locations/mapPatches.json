@@ -144,7 +144,7 @@
                     "SetIndex": "588",
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "spacechase0.SpaceCore_TriggerAction CoatRackMoney",
+                        "Action": "spacechase0.SpaceCore_TriggerAction {{Raven}}_CoatRackMoneyFlag",
                     },
                 }
             ],
@@ -169,7 +169,7 @@
                 }
             ],
             "When": {
-                "HasFlag": "ReceiveCoatRackMoney"
+                "HasFlag": "{{Raven}}ReceiveCoatRackMoneyFlag",
             },
         },
     ]

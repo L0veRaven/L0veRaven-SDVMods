@@ -973,9 +973,12 @@
 "marriageTalk_qQ_1_6": "I hope I get a relationship like that one of these days.$4",//speakRaven
 // || 8 Heart - {{Raven}}Apartment ||
 "Apartment_1": "That's the last one!",//textAboveHead {{Raven}}
-"Apartment_2": "@, you really came!$3",//speak {{Raven}}
+"Apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//speak {{Raven}}
 "Apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//speak {{Raven}}
 "Apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//speak {{Raven}}
+"Apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//speak {{Raven}}
+"Apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//speak {{Raven}}
+"Apartment_7": "...#$b#I feel... normal again.$",//speak {{Raven}}
 // || Event 100: 27407100 - {{Raven}}GusEdibles ||
 "GusEdibles_speak_1": "Welcome!",//speakGus
 "GusEdibles_speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//speakRaven
