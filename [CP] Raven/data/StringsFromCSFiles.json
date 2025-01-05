@@ -8,7 +8,7 @@
                 "MapPage.cs.{{Nexus}}001": "{{i18n:RavensTent_NameHover}}",
             }
         },
-        {//Verified
+        {
             "LogName": "StringsFromCSFiles.json: Post-Wedding Dialogue",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
@@ -16,7 +16,7 @@
                 "Game1.cs.2782": "{{i18n:AfterWedding}}",
             },
             "When": {
-                "HasMod |=contains{{SVE}}": true,
+                "Spouse": "{{Raven}}",
             }
         },
         {//Verified
