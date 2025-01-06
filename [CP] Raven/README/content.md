@@ -130,11 +130,11 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 
 #### Basic Information
 
-| Name | Value | When | Meaning | Longform Code |
-| --- | --- | --- | --- | --- |
-|`"Raven"` | `"L0veRaven_Raven"` | - | Raven's internal name | `L0veRaven_Raven` |
-|`"displayName"` | `"{{i18n:DisplayName}}"` | - | Toggle Raven's sprites and portraits to display only their index number | `Raven` |
-|`"Nexus"` | `"27407"` | - | Nexus ID | `27407` |
+| Name | Value | Meaning |
+| --- | --- | --- |
+|`"Raven"` | `"L0veRaven_Raven"` | Raven's internal name |
+|`"displayName"` | `"{{i18n:DisplayName}}"` | Toggle Raven's sprites and portraits to display only their index number |
+|`"Nexus"` | `"27407"` | Nexus ID |
 
 ```
 {
@@ -155,14 +155,14 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 
 | Name | Value | When | Meaning | Longform Code |
 | --- | --- | --- | --- | --- |
-|`NPCA", "Value": "FireRedLily.NPCApartments",},` | FireRedLily's Pelican Valley Loft: NPC Apartments |
-|`Nexus", "Value": "27407",},` | Nexus ID | - |
-|`NB", "Value": "Raspb3rryfields.NaturesBounty",},` | Nature's Bounty |
-|`DTZ", "Value": "DTZ.DowntownZuzuDLL",},` | Downtown Zuzu |
-|`PTP", "Value": "LenneDalben.PelicanTownPotluck",},` | Pelican Town Potluck |
-|`SVE", "Value": "FlashShifter.StardewValleyExpandedCP",},` | Stardew Valley Expanded |
-|`SWS", "Value": "Airyn.CPSolsticeWinterStar",},` | Solstice Winter Star |
-|`FF", "Value": "violetlizabet.CP.FireworksFestival",},` | Fireworks Festival |
+|`NPCA FireRedLily.NPCApartments` | FireRedLily's Pelican Valley Loft: NPC Apartments |
+|`Nexus 27407` | Nexus ID | - |
+|`NB Raspb3rryfields.NaturesBounty` | Nature's Bounty |
+|`DTZ DTZ.DowntownZuzuDLL` | Downtown Zuzu |
+|`PTP LenneDalben.PelicanTownPotluck` | Pelican Town Potluck |
+|`SVE FlashShifter.StardewValleyExpandedCP` | Stardew Valley Expanded |
+|`SWS Airyn.CPSolsticeWinterStar` | Solstice Winter Star |
+|`FF violetlizabet.CP.FireworksFestival` | Fireworks Festival |
 
 ```
 {
@@ -197,12 +197,12 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 
 ### Directions
 
-| Name | Value | When | Meaning | Longform Code |
-| --- | --- | --- | --- | --- |
-| `up` | `0` | - | Up |
-| `right` | `1` | - | Right |
-| `down` | `2` | - | Down |
-| `left` | `3` | - | Left |
+| Name | Value | Meaning |
+| --- | --- | --- | --- |
+| `up` | `0` | Up |
+| `right` | `1` | Right |
+| `down` | `2` | Down |
+| `left` | `3` | Left |
 
 ```
 {
@@ -644,7 +644,7 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
     "Value": "1500",
 },
 {
-"Name": "310pm",
+    "Name": "310pm",
     "Value": "1510",
 },
 {
@@ -1257,12 +1257,12 @@ There is where I put my `Load`s and `Include`s. The order they load in is very i
 | LogName | Action | Target | FromFile | Meanings |
 | --- | --- | --- | --- | --- |
 | `Blank Loads` | `Load` | `Characters/Dialogue/{{Raven}}`, `Characters/Dialogue/MarriageDialogue{{Raven}}`, `Characters/schedules/{{Raven}}`, `Strings/Schedules/{{Raven}}`, `Data/Events/Custom_L0veRaven_RavenTentInside` `Data/Events/Custom_L0veRaven_RavenTentInsideSVE` | `"data/blank.json` | Loads blank versions of files required for adding content relevant to this mod. |
-| `Locations` | `Include` | `---` | `data/locations/WorldMap.json`, `data/locations/MapPatches.json`, `data/locations/warps.json`, `data/locations/LocationsData.json`, `data/locations/StringsFromMaps.json` | Includes files related to location patches |
+| `Locations` | `Include` |  | `data/locations/WorldMap.json`, `data/locations/MapPatches.json`, `data/locations/warps.json`, `data/locations/LocationsData.json`, `data/locations/StringsFromMaps.json` | Includes files related to location patches |
 | `Spouse Room` | `Load` | `Maps/{{Raven}}SpouseRoom` | `data/maps/{{Raven}}SpouseRoom.tmx` | Loads map |
 | `Spouse Patio` | `Load` | `Maps/{{Raven}}SpousePatio` | `data/maps/{{Raven}}SpousePatio.tmx` | Loads map |
-| `NPC Data` | `Include` | `---` | `data/animationFrames.json`, `data/concessionTastes.json`, `data/NPCGiftTastes.json`, `data/schedule.json`, `data/events.json`, `data/festivals.json`, `data/mail.json`, `data/character.json`, `data/outfits.json`, `data/home.json`, `data/winterStarGifts.json`, `data/triggerActions.json` | Includes files required for NPC Data. |
-| `Dialogue` | `Include` | `---` | `data/dialogue/dialogue.json`, `data/dialogue/marriageDialogue.json`, `data/dialogue/giftResponses.json`, `data/dialogue/moviesReactions.json`, `data/StringsFromCSFiles.json`, `data/dialogue/scheduleDialogue.json` | Includes files required for dialogue. |
-| `ModCompat` | `Include` | `---` | `data/modCompat/CJBWarps.json`, `data/modCompat/naturesBounty.json`, `data/modCompat/eventExcludesDELETE.json`, `data/modCompat/downtownZuzu.json`, `data/modCompat/ridgesideVillage.json`, `data/modCompat/pelicanTownPotluck.json`, `data/modCompat/fireworksFestival.json`, `data/modCompat/solsticeWinterStar.json`, `data/modCompat/stardewValleyExpanded.json` | Includes files required for certain mod compatability. |
+| `NPC Data` | `Include` |  | `data/animationFrames.json`, `data/concessionTastes.json`, `data/NPCGiftTastes.json`, `data/schedule.json`, `data/events.json`, `data/festivals.json`, `data/mail.json`, `data/character.json`, `data/outfits.json`, `data/home.json`, `data/winterStarGifts.json`, `data/triggerActions.json` | Includes files required for NPC Data. |
+| `Dialogue` | `Include` |  | `data/dialogue/dialogue.json`, `data/dialogue/marriageDialogue.json`, `data/dialogue/giftResponses.json`, `data/dialogue/moviesReactions.json`, `data/StringsFromCSFiles.json`, `data/dialogue/scheduleDialogue.json` | Includes files required for dialogue. |
+| `ModCompat` | `Include` |  | `data/modCompat/CJBWarps.json`, `data/modCompat/naturesBounty.json`, `data/modCompat/eventExcludesDELETE.json`, `data/modCompat/downtownZuzu.json`, `data/modCompat/ridgesideVillage.json`, `data/modCompat/pelicanTownPotluck.json`, `data/modCompat/fireworksFestival.json`, `data/modCompat/solsticeWinterStar.json`, `data/modCompat/stardewValleyExpanded.json` | Includes files required for certain mod compatability. |
 
 ```
 {
