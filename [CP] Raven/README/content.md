@@ -1,5 +1,3 @@
-# Content.json Overview
-
 ## Content Patcher
 
 | Tokens | Values |
@@ -21,8 +19,8 @@
 
 | Tokens | Values | Meaning |
 | --- | --- | --- |
-|```"CleanLanguage"``` | ```{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "RavenSettings",}``` | Toggle Raven using clean language (WIP) |
-|```"RavenNude"``` | ```{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "RavenSettings",}``` | Toggle Raven nudity except at festivals |
+|```"CleanLanguage"``` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven using clean language (WIP) |
+|```"RavenNude"``` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven nudity except at festivals |
 
 ### Spirit's Eve Costumes
 
