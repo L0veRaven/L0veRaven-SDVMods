@@ -4,31 +4,29 @@
 graph TD;
     Content Patcher-->Change Mechanics;
     Change Mechanics-->Buffs;
-        Buffs-->Data/Buffs;
-            Data/Buffs-->Persistent Buffs;
+    Buffs-->Data/Buffs;
+    Data/Buffs-->Persistent Buffs;
     Change Mechanics-->Combat;
-            Combat-->OOOOOOOOOOOOOOO;
+    Combat-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Farm Cave;
-            Farm Cave-->OOOOOOOOOOOOOOO;
+    Farm Cave-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Farmhouse;
-            Farmhouse-->OOOOOOOOOOOOOOO;
+    Farmhouse-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Fishing Treasure;
-            Fishing Treasure-->OOOOOOOOOOOOOOO;
+    Fishing Treasure-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Forage Spawn;
-            Forage Spawn-->OOOOOOOOOOOOOOO;
+    Forage Spawn-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Mine Ore / Chests;
-            Mine Ore / Chests-->OOOOOOOOOOOOOOO;
+    Mine Ore / Chests-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Museum Rewards;
-            Museum Rewards-->OOOOOOOOOOOOOOO;
+    Museum Rewards-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Panning;
-            Panning-->OOOOOOOOOOOOOOO;
+    Panning-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Train Loot;
-            Train Loot-->OOOOOOOOOOOOOOO;
+    Train Loot-->OOOOOOOOOOOOOOO;
     Change Mechanics-->Trigger Actions & GSQs;
-            Trigger Actions & GSQs-->OOOOOOOOOOOOOOO;
-    
+    Trigger Actions & GSQs-->OOOOOOOOOOOOOOO;
     Content Patcher-->Change Visuals;
-    
     Content Patcher-->Add New Content;
 ```
 
