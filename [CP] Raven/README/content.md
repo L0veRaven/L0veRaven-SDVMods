@@ -14,6 +14,39 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 
 ## ConfigSchema
 
+## ConfigSchema Formatting
+
+The config does not interact with other mods, so all tokens can be written written as desired as long as it doesn't conflict with existing Global Tokens. Here's how the settings are formatted
+
+| Name | Default | AllowValues | AllowBlank | Section | Description |
+| --- | --- | --- | --- | --- | --- |
+| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
+| Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
+
+```
+    "Name": {
+        "Default": "",
+        "AllowValues": "",
+        "AllowBlank": "",
+        "Section": "",
+        "Description": "",
+    },
+```
+
+## Settings
+
+| Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
+| --- | --- | --- | --- | --- | --- | --- |
+| `CleanLanguage` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven uses clean language |
+| `RavenNude` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven goes nude except at festivals |
+| `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
+| `CactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
+| `DaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
+| `SunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
+| `WeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
+| `RavenIndex` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Raven's sprites and portraits show index numbers instead |
+| `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
+
 ```
 "ConfigSchema": {
     //Raven Settings
@@ -85,39 +118,6 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 },
 ```
 
-## ConfigSchema Formatting
-
-The config does not interact with other mods, so all tokens can be written written as desired as long as it doesn't conflict with existing Global Tokens. Here's how the settings are formatted
-
-| Name | Default | AllowValues | AllowBlank | Section | Description |
-| --- | --- | --- | --- | --- | --- |
-| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
-| Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
-
-```
-    "Name": {
-        "Default": "",
-        "AllowValues": "",
-        "AllowBlank": "",
-        "Section": "",
-        "Description": "",
-    },
-```
-
-### Raven Settings
-
-| Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
-| --- | --- | --- | --- | --- | --- | --- |
-| `CleanLanguage` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven uses clean language |
-| `RavenNude` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven goes nude except at festivals |
-| `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
-| `CactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
-| `DaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
-| `SunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
-| `WeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
-| `RavenIndex` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Raven's sprites and portraits show index numbers instead |
-| `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
-
 ### DynamicTokens
 
 Think of DynamicTokens as ZIP file names, and when the game reads the code, the file is "unzipped" and all the data goes into the code as if it were already written there. This is very handy for 
@@ -146,41 +146,41 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 
 | Tokens | Meaning |
 | --- | --- |
-|```{"Name": "NPCA", "Value": "FireRedLily.NPCApartments",},``` | FireRedLily's Pelican Valley Loft: NPC Apartments |
-|```{"Name": "Nexus", "Value": "27407",},``` | Nexus ID | - |
-|```{"Name": "NB", "Value": "Raspb3rryfields.NaturesBounty",},``` | Nature's Bounty |
-|```{"Name": "DTZ", "Value": "DTZ.DowntownZuzuDLL",},``` | Downtown Zuzu |
-|```{"Name": "PTP", "Value": "LenneDalben.PelicanTownPotluck",},``` | Pelican Town Potluck |
-|```{"Name": "SVE", "Value": "FlashShifter.StardewValleyExpandedCP",},``` | Stardew Valley Expanded |
-|```{"Name": "SWS", "Value": "Airyn.CPSolsticeWinterStar",},``` | Solstice Winter Star |
-|```{"Name": "FF", "Value": "violetlizabet.CP.FireworksFestival",},``` | Fireworks Festival |
+|`{"Name": "NPCA", "Value": "FireRedLily.NPCApartments",},` | FireRedLily's Pelican Valley Loft: NPC Apartments |
+|`{"Name": "Nexus", "Value": "27407",},` | Nexus ID | - |
+|`{"Name": "NB", "Value": "Raspb3rryfields.NaturesBounty",},` | Nature's Bounty |
+|`{"Name": "DTZ", "Value": "DTZ.DowntownZuzuDLL",},` | Downtown Zuzu |
+|`{"Name": "PTP", "Value": "LenneDalben.PelicanTownPotluck",},` | Pelican Town Potluck |
+|`{"Name": "SVE", "Value": "FlashShifter.StardewValleyExpandedCP",},` | Stardew Valley Expanded |
+|`{"Name": "SWS", "Value": "Airyn.CPSolsticeWinterStar",},` | Solstice Winter Star |
+|`{"Name": "FF", "Value": "violetlizabet.CP.FireworksFestival",},` | Fireworks Festival |
 
 #### Directions
 
 | Tokens | Meaning |
 | --- | --- |
-|```{"Name": "up", "Value": "0",},``` | Up |
-|```{"Name": "right", "Value": "1",},``` | Right |
-|```{"Name": "down", "Value": "2",},``` | Down |
-|```{"Name": "left", "Value": "3",},``` | Left |
+|`{"Name": "up", "Value": "0",},` | Up |
+|`{"Name": "right", "Value": "1",},` | Right |
+|`{"Name": "down", "Value": "2",},` | Down |
+|`{"Name": "left", "Value": "3",},` | Left |
 
 #### Emotes
 
 | Tokens | Meaning |
 | --- | --- |
-|```{"Name": "emoteEmptyCan", "Value": "4",},``` | Empty Watering Can |
-|```{"Name": "emoteQuestion", "Value": "8",},``` | _____ |
-|```{"Name": "emoteAngry", "Value": "12",},``` | _____ |
-|```{"Name": "emoteExclaim", "Value": "16",},``` | _____ |
-|```{"Name": "emoteHeart", "Value": "20",},``` | _____ |
-|```{"Name": "emoteSleep", "Value": "24",},``` | _____ |
-|```{"Name": "emoteSweat", "Value": "28",},``` | _____ |
-|```{"Name": "emoteHappy", "Value": "32",},``` | _____ |
-|```{"Name": "emoteX", "Value": "36",},``` | _____ |
-|```{"Name": "emotePause", "Value": "40",},``` | _____ |
-|```{"Name": "emoteVideoGame", "Value": "52",},``` | _____ |
-|```{"Name": "emoteMusic", "Value": "56",},``` | _____ |
-|```{"Name": "emoteBlush", "Value": "60",},``` | _____ |
+|`{"Name": "emoteEmptyCan", "Value": "4",},` | Empty Watering Can |
+|`{"Name": "emoteQuestion", "Value": "8",},` | _____ |
+|`{"Name": "emoteAngry", "Value": "12",},` | _____ |
+|`{"Name": "emoteExclaim", "Value": "16",},` | _____ |
+|`{"Name": "emoteHeart", "Value": "20",},` | _____ |
+|`{"Name": "emoteSleep", "Value": "24",},` | _____ |
+|`{"Name": "emoteSweat", "Value": "28",},` | _____ |
+|`{"Name": "emoteHappy", "Value": "32",},` | _____ |
+|`{"Name": "emoteX", "Value": "36",},` | _____ |
+|`{"Name": "emotePause", "Value": "40",},` | _____ |
+|`{"Name": "emoteVideoGame", "Value": "52",},` | _____ |
+|`{"Name": "emoteMusic", "Value": "56",},` | _____ |
+|`{"Name": "emoteBlush", "Value": "60",},` | _____ |
 
 
 
