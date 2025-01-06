@@ -39,20 +39,20 @@ The config does not interact with other mods, so all tokens can be written writt
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
-| `CleanLanguage` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven uses clean language |
+| (ADD) `CleanLanguage` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven uses clean language |
 | `RavenNude` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven goes nude except at festivals |
 
 <details>
     <summary>Expand Code</summary>
     
 ```
-//ADD"CleanLanguage": {
-//ADD    "Default": "false",
-//ADD    "AllowValues": "true, false",
-//ADD    "AllowBlank": false,
-//ADD    "Section": "RavenSettings",
-//ADD    "Description": null,
-//ADD},
+"CleanLanguage": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "RavenSettings",
+    "Description": null,
+},
 "RavenNude": {
     "Default": "false",
     "AllowValues": "true, false",
@@ -77,7 +77,7 @@ The config does not interact with other mods, so all tokens can be written writt
     <summary>Expand Code</summary>
     
 ```
-(ADD) "VampireCostumeSE": {
+"VampireCostumeSE": {
     "Default": "true",
     "AllowValues": "true, false",
     "AllowBlank": false,
@@ -110,23 +110,6 @@ The config does not interact with other mods, so all tokens can be written writt
     "AllowValues": "true, false",
     "AllowBlank": false,
     "Section": "SpiritsEveCostumes",
-    "Description": null,
-},
-//Modder Settings
-    //Raven Index: Shows Raven with index numbers for sprites and portraits
-"RavenIndex": {
-    "Default": "false",
-    "AllowValues": "true, false",
-    "AllowBlank": false,
-    "Section": "ModderSettings",
-    "Description": null,
-},
-    //Event Excludes: Toggle
-"EventExcludes": {
-    "Default": "false",
-    "AllowValues": "true, false",
-    "AllowBlank": false,
-    "Section": "ModderSettings",
     "Description": null,
 },
 ```
@@ -173,7 +156,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
     }
 ]
 ```
-### Basic Information
+### Basic Information: Complete
 
 | Name | Value | Meaning |
 | --- | --- | --- |
@@ -200,7 +183,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ```
 </details>
 
-### Mod Compat Nicknames
+### Mod Compat Nicknames: Complete
 
 | Name | Value | Meaning |
 | --- | --- | --- |
@@ -247,7 +230,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ```
 </details>
 
-### Directions
+### Directions: Complete
 
 | Name | Value |
 | --- | --- |
@@ -279,7 +262,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ```
 </details>
 
-### Emotes
+### Emotes: Complete
 
 The `Name` corresponds with the emote I want to use. Rather than me memorizing the index numbers for each emote, I use a naming convention that easily matches what I want.
 
@@ -358,7 +341,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
-### Time
+### Time: Complete
 
 6am
 
@@ -404,7 +387,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 7am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
  
 | Name | Value |
 | --- | --- |
@@ -445,7 +428,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 8am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
  
 | Name | Value |
 | --- | --- |
@@ -486,7 +469,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 9am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
  
 | Name | Value |
 | --- | --- |
@@ -527,7 +510,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 10am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
  
 | Name | Value |
 | --- | --- |
@@ -568,7 +551,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 11am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
 
 | Name | Value |
 | --- | --- |
@@ -609,7 +592,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 12pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
 
 | Name | Value |
 | --- | --- |
@@ -650,7 +633,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 1pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -691,7 +674,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 2pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -732,7 +715,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 3pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -773,7 +756,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 4pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -814,7 +797,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 5pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -855,7 +838,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 6pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -896,7 +879,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 7pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -937,7 +920,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 8pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -978,7 +961,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 9pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -1019,7 +1002,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 10pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
     
 | Name | Value |
 | --- | --- |
@@ -1060,7 +1043,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 11pm
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
 
 | Name | Value |
 | --- | --- |
@@ -1101,7 +1084,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 12am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
 
 | Name | Value |
 | --- | --- |
@@ -1142,7 +1125,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 1am
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
 
 | Name | Value |
 | --- | --- |
@@ -1181,7 +1164,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
-### Dialogue
+### Dialogue: WIP
 
 #### Doctor
 
@@ -2253,6 +2236,7 @@ Strings - Map Objects
 </details>
 
 #### Schedule Randomizers
+
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
@@ -2268,13 +2252,16 @@ Strings - Map Objects
 
 #### Random Tokens
 
-</details>
-
 Schedule Randomizers
 
 | Name | Value |
-| --- | --- |
-| --- | --- |
+| `freeDays` | `{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}` |
+| `freeDaysRandom` | `{{freeDays}}` |
+| `freeDayShopRandom` | `{{Random:{{fds1}},{{fds2}}}}` |
+| `workDay` | `{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}` |
+| `freeDay` | `{{freeDaysRandom}}` |
+| `freeDayShop` | `{{freeDayShopRandom}}` |
+| `medsDay` | `{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}` |
 
 <details>
     <summary>Expand Code</summary>
