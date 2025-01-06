@@ -119,6 +119,9 @@ The config does not interact with other mods, so all tokens can be written writt
 | `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
 
 ### DynamicTokens
+
+Think of DynamicTokens as ZIP file names, and when the game reads the code, the file is "unzipped" and all the data goes into the code as if it were already written there. This is very handy for 
+
 ```
 "Dynamic Tokens": [
     {
@@ -129,14 +132,15 @@ The config does not interact with other mods, so all tokens can be written writt
         },
     }
 ]
+```
 
 #### Basic Information
 
-| Name | Value | Meaning | Longform Code |
+| Name | Value | When | Longform Code |
 | --- | --- | --- | --- |
-|`"Raven"` | `"L0veRaven_Raven"` | Raven's internal name | `L0veRaven_Raven` |
-|`"displayName"` | `"{{i18n:DisplayName}}"` | Toggle Raven's sprites and portraits to display only their index number | `Raven` |
-|`"Nexus"` | `"27407"` | Nexus ID | `27407` |
+|`"Raven"` | `"L0veRaven_Raven"` | - | Raven's internal name | `L0veRaven_Raven` |
+|`"displayName"` | `"{{i18n:DisplayName}}"` | - | Toggle Raven's sprites and portraits to display only their index number | `Raven` |
+|`"Nexus"` | `"27407"` | - | Nexus ID | `27407` |
 
 #### Mod Compat Nicknames
 
