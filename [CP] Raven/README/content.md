@@ -14,7 +14,7 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 
 ## ConfigSchema
 
-## ConfigSchema Formatting
+### Formatting
 
 The config does not interact with other mods, so all tokens can be written written as desired as long as it doesn't conflict with existing Global Tokens. Here's how the settings are formatted
 
@@ -33,7 +33,7 @@ The config does not interact with other mods, so all tokens can be written writt
     },
 ```
 
-## Settings
+### Settings
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -118,7 +118,7 @@ The config does not interact with other mods, so all tokens can be written writt
 },
 ```
 
-### DynamicTokens
+## DynamicTokens
 
 Think of DynamicTokens as ZIP file names, and when the game reads the code, the file is "unzipped" and all the data goes into the code as if it were already written there. This is very handy for 
 
@@ -136,76 +136,681 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 
 #### Basic Information
 
-| Name | Value | When | Longform Code |
-| --- | --- | --- | --- |
+| Name | Value | When | Meaning | Longform Code |
+| --- | --- | --- | --- | --- |
 |`"Raven"` | `"L0veRaven_Raven"` | - | Raven's internal name | `L0veRaven_Raven` |
 |`"displayName"` | `"{{i18n:DisplayName}}"` | - | Toggle Raven's sprites and portraits to display only their index number | `Raven` |
 |`"Nexus"` | `"27407"` | - | Nexus ID | `27407` |
 
-#### Mod Compat Nicknames
+```
+{
+    "Name": "Raven",
+    "Value": "L0veRaven_Raven",
+},
+{
+    "Name": "displayName",
+    "Value": "{{i18n:DisplayName}}",
+},
+{
+    "Name": "Nexus",
+    "Value": "27407",
+},
+```
 
-| Tokens | Meaning |
-| --- | --- |
-|`{"Name": "NPCA", "Value": "FireRedLily.NPCApartments",},` | FireRedLily's Pelican Valley Loft: NPC Apartments |
-|`{"Name": "Nexus", "Value": "27407",},` | Nexus ID | - |
-|`{"Name": "NB", "Value": "Raspb3rryfields.NaturesBounty",},` | Nature's Bounty |
-|`{"Name": "DTZ", "Value": "DTZ.DowntownZuzuDLL",},` | Downtown Zuzu |
-|`{"Name": "PTP", "Value": "LenneDalben.PelicanTownPotluck",},` | Pelican Town Potluck |
-|`{"Name": "SVE", "Value": "FlashShifter.StardewValleyExpandedCP",},` | Stardew Valley Expanded |
-|`{"Name": "SWS", "Value": "Airyn.CPSolsticeWinterStar",},` | Solstice Winter Star |
-|`{"Name": "FF", "Value": "violetlizabet.CP.FireworksFestival",},` | Fireworks Festival |
+### Mod Compat Nicknames
 
-#### Directions
+| Name | Value | When | Meaning | Longform Code |
+| --- | --- | --- | --- | --- |
+|`NPCA", "Value": "FireRedLily.NPCApartments",},` | FireRedLily's Pelican Valley Loft: NPC Apartments |
+|`Nexus", "Value": "27407",},` | Nexus ID | - |
+|`NB", "Value": "Raspb3rryfields.NaturesBounty",},` | Nature's Bounty |
+|`DTZ", "Value": "DTZ.DowntownZuzuDLL",},` | Downtown Zuzu |
+|`PTP", "Value": "LenneDalben.PelicanTownPotluck",},` | Pelican Town Potluck |
+|`SVE", "Value": "FlashShifter.StardewValleyExpandedCP",},` | Stardew Valley Expanded |
+|`SWS", "Value": "Airyn.CPSolsticeWinterStar",},` | Solstice Winter Star |
+|`FF", "Value": "violetlizabet.CP.FireworksFestival",},` | Fireworks Festival |
 
-| Tokens | Meaning |
-| --- | --- |
-|`{"Name": "up", "Value": "0",},` | Up |
-|`{"Name": "right", "Value": "1",},` | Right |
-|`{"Name": "down", "Value": "2",},` | Down |
-|`{"Name": "left", "Value": "3",},` | Left |
+```
+{
+    "Name": "NPCA",
+    "Value": "FireRedLily.NPCApartments",
+},
+{
+    "Name": "NB",
+    "Value": "Raspb3rryfields.NaturesBounty",
+},
+{
+    "Name": "DTZ",
+    "Value": "DTZ.DowntownZuzuDLL",
+},
+{
+    "Name": "PTP",
+    "Value": "LenneDalben.PelicanTownPotluck",
+},
+{
+    "Name": "SVE",
+    "Value": "FlashShifter.StardewValleyExpandedCP",
+},
+{
+    "Name": "SWS",
+    "Value": "Airyn.CPSolsticeWinterStar",
+},
+{
+    "Name": "FF",
+    "Value": "violetlizabet.CP.FireworksFestival",
+},
+```
 
-#### Emotes
+### Directions
 
-| Tokens | Meaning |
-| --- | --- |
-|`{"Name": "emoteEmptyCan", "Value": "4",},` | Empty Watering Can |
-|`{"Name": "emoteQuestion", "Value": "8",},` | _____ |
-|`{"Name": "emoteAngry", "Value": "12",},` | _____ |
-|`{"Name": "emoteExclaim", "Value": "16",},` | _____ |
-|`{"Name": "emoteHeart", "Value": "20",},` | _____ |
-|`{"Name": "emoteSleep", "Value": "24",},` | _____ |
-|`{"Name": "emoteSweat", "Value": "28",},` | _____ |
-|`{"Name": "emoteHappy", "Value": "32",},` | _____ |
-|`{"Name": "emoteX", "Value": "36",},` | _____ |
-|`{"Name": "emotePause", "Value": "40",},` | _____ |
-|`{"Name": "emoteVideoGame", "Value": "52",},` | _____ |
-|`{"Name": "emoteMusic", "Value": "56",},` | _____ |
-|`{"Name": "emoteBlush", "Value": "60",},` | _____ |
+| Name | Value | When | Meaning | Longform Code |
+| --- | --- | --- | --- | --- |
+| `up` | `0` | - | Up |
+| `right` | `1` | - | Right |
+| `down` | `2` | - | Down |
+| `left` | `3` | - | Left |
 
+```
+{
+    "Name": "up",
+    "Value": "0",
+},
+{
+    "Name": "right",
+    "Value": "1",
+},
+{
+    "Name": "down",
+    "Value": "2",
+},
+{
+    "Name": "left",
+    "Value": "3",
+},
+```
 
+### Emotes
 
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`emoteEmptyCan` |  `4` | - | Empty Watering Can |
+|`emoteQuestion` | `8` | - | Question Mark |
+|`emoteAngry` | `12` | - | Angry |
+|`emoteExclaim` | `16` | - | Exclaim |
+|`emoteHeart` | `20` | - | Heart |
+|`emoteSleep` | `24` | - | Sleepy / Tired |
+|`emoteSweat` | `28` | - | Sweatdrop |
+|`emoteHappy` | `32` | - | Happy |
+|`emoteX` | `36` | - | X |
+|`emotePause` | `40` | - | Pause / Silence |
+|`emoteVideoGame` | `52` | - | Video Game Controller |
+|`emoteMusic` | `56` | - | Music Note |
+|`emoteBlush` | `60` | - | Blush |
 
+```
+{
+    "Name": "emoteEmptyCan",
+    "Value": "4",
+},
+{
+    "Name": "emoteQuestion",
+    "Value": "8",
+},
+{
+    "Name": "emoteAngry",
+    "Value": "12",
+},
+{
+    "Name": "emoteExclaim",
+    "Value": "16",
+},
+{
+    "Name": "emoteHeart",
+    "Value": "20",
+},
+{
+    "Name": "emoteSleep",
+    "Value": "24",
+},
+{
+    "Name": "emoteSweat",
+    "Value": "28",
+},
+{
+    "Name": "emoteHappy",
+    "Value": "32",
+},
+{
+    "Name": "emoteX",
+    "Value": "36",
+},
+{
+    "Name": "emotePause",
+    "Value": "40",
+},
+{
+    "Name": "emoteVideoGame",
+    "Value": "52",
+},
+{
+    "Name": "emoteMusic",
+    "Value": "56",
+},
+{
+    "Name": "emoteBlush",
+    "Value": "60",
+},
+```
+
+### Time
+
+| Name | Value |
+| `6am` | `600` |
+| `610am` | `610` |
+| `620am` | `620` |
+| `630am` | `630` |
+| `640am` | `640` |
+| `650am` | `650` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `8am` | `800` |
+| `810am` | `810` |
+| `820am` | `820` |
+| `830am` | `830` |
+| `840am` | `840` |
+| `850am` | `850` |
+| `9am` | `900` |
+| `910am` | `910` |
+| `920am` | `920` |
+| `930am` | `930` |
+| `940am` | `940` |
+| `950am` | `950` |
+| `10am` | `1000` |
+| `1010am` | `1010` |
+| `1020am` | `1020` |
+| `1030am` | `1030` |
+| `1040am` | `1040` |
+| `1050am` | `1050` |
+
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+
+```
+{
+    "Name": "6am",
+    "Value": "600",
+},
+{
+    "Name": "610am",
+    "Value": "610",
+},
+{
+    "Name": "620am",
+    "Value": "620",
+},
+{
+    "Name": "630am",
+    "Value": "630",
+},
+{
+    "Name": "640am",
+    "Value": "640",
+},
+{
+    "Name": "650am",
+    "Value": "650",
+},
+{
+    "Name": "7am",
+    "Value": "700",
+},
+{
+    "Name": "710am",
+    "Value": "710",
+},
+{
+    "Name": "720am",
+    "Value": "720",
+},
+{
+    "Name": "730am",
+    "Value": "730",
+},
+{
+    "Name": "740am",
+    "Value": "740",
+},
+{
+    "Name": "750am",
+    "Value": "750",
+},
+{
+    "Name": "8am",
+    "Value": "800",
+},
+{
+    "Name": "810am",
+    "Value": "810",
+},
+{
+    "Name": "820am",
+    "Value": "820",
+},
+{
+    "Name": "830am",
+    "Value": "830",
+},
+{
+    "Name": "840am",
+    "Value": "840",
+},
+{
+    "Name": "850am",
+    "Value": "850",
+},
+{
+    "Name": "9am",
+    "Value": "900",
+},
+{
+    "Name": "910am",
+    "Value": "910",
+},
+{
+    "Name": "920am",
+    "Value": "920",
+},
+{
+    "Name": "930am",
+    "Value": "930",
+},
+{
+    "Name": "940am",
+    "Value": "940",
+},
+{
+    "Name": "950am",
+    "Value": "950",
+},
+{
+    "Name": "10am",
+    "Value": "1000",
+},
+{
+    "Name": "1010am",
+    "Value": "1010",
+},
+{
+    "Name": "1020am",
+    "Value": "1020",
+},
+{
+    "Name": "1030am",
+    "Value": "1030",
+},
+{
+    "Name": "1040am",
+    "Value": "1040",
+},
+{
+    "Name": "1050am",
+    "Value": "1050",
+},
+{
+    "Name": "11am",
+    "Value": "1100",
+},
+{
+    "Name": "1110am",
+    "Value": "1110",
+},
+{
+    "Name": "1120am",
+    "Value": "1120",
+},
+{
+    "Name": "1130am",
+    "Value": "1130",
+},
+{
+    "Name": "1140am",
+    "Value": "1140",
+},
+{
+    "Name": "1150am",
+    "Value": "1150",
+},
+{
+    "Name": "12pm",
+    "Value": "1200",
+},
+{
+    "Name": "1210pm",
+    "Value": "1210",
+},
+{
+    "Name": "1220pm",
+    "Value": "1220",
+},
+{
+    "Name": "1230pm",
+    "Value": "1230",
+},
+{
+    "Name": "1240pm",
+    "Value": "1240",
+},
+{
+    "Name": "1250pm",
+    "Value": "1250",
+},
+{
+    "Name": "1pm",
+    "Value": "1300",
+},
+{
+    "Name": "110pm",
+    "Value": "1310",
+},
+{
+    "Name": "120pm",
+    "Value": "1320",
+},
+{
+    "Name": "130pm",
+    "Value": "1330",
+},
+{
+    "Name": "140pm",
+    "Value": "1340",
+},
+{
+    "Name": "150pm",
+    "Value": "1350",
+},
+{
+    "Name": "2pm",
+    "Value": "1400",
+},
+{
+    "Name": "210pm",
+    "Value": "1410",
+},
+{
+    "Name": "220pm",
+    "Value": "1420",
+},
+{
+    "Name": "230pm",
+    "Value": "1430",
+},
+{
+    "Name": "240pm",
+    "Value": "1440",
+},
+{
+    "Name": "250pm",
+    "Value": "1450",
+},
+{
+    "Name": "3pm",
+    "Value": "1500",
+},
+{"Name": "310pm","Value": "1510",},
+{"Name": "320pm","Value": "1520",},
+{"Name": "330pm","Value": "1530",},
+{"Name": "340pm","Value": "1540",},
+{"Name": "350pm","Value": "1550",},
+{"Name": "4pm","Value": "1600",},
+{"Name": "410pm","Value": "1610",},
+{"Name": "420pm","Value": "1620",},
+{"Name": "430pm","Value": "1630",},
+{"Name": "440pm","Value": "1640",},
+{"Name": "450pm","Value": "1650",},
+{"Name": "5pm","Value": "1700",},
+{"Name": "510pm","Value": "1710",},
+{"Name": "520pm","Value": "1720",},
+{"Name": "530pm","Value": "1730",},
+{"Name": "540pm","Value": "1740",},
+{"Name": "550pm","Value": "1750",},
+{"Name": "6pm","Value": "1800",},
+{"Name": "610pm","Value": "1810",},
+{"Name": "620pm","Value": "1820",},
+{"Name": "630pm","Value": "1830",},
+{"Name": "640pm","Value": "1840",},
+{"Name": "650pm","Value": "1850",},
+{"Name": "7pm","Value": "1900",},
+{"Name": "710pm","Value": "1910",},
+{"Name": "720pm","Value": "1920",},
+{"Name": "730pm","Value": "1930",},
+{"Name": "740pm","Value": "1940",},
+{"Name": "750pm","Value": "1950",},
+{"Name": "8pm","Value": "2000",},
+{"Name": "810pm","Value": "2010",},
+{"Name": "820pm","Value": "2020",},
+{"Name": "830pm","Value": "2030",},
+{"Name": "840pm","Value": "2040",},
+{"Name": "850pm","Value": "2050",},
+{"Name": "9pm","Value": "2100",},
+{"Name": "910pm","Value": "2110",},
+{"Name": "920pm","Value": "2120",},
+{"Name": "930pm","Value": "2130",},
+{"Name": "940pm","Value": "2140",},
+{"Name": "950pm","Value": "2150",},
+{"Name": "10pm","Value": "2200",},
+{"Name": "1010pm","Value": "2210",},
+{"Name": "1020pm","Value": "2220",},
+{"Name": "1030pm","Value": "2230",},
+{"Name": "1040pm","Value": "2240",},
+{"Name": "1050pm","Value": "2250",},
+{"Name": "11pm","Value": "2300",},
+{"Name": "1110pm","Value": "2310",},
+{"Name": "1120pm","Value": "2320",},
+{"Name": "1130pm","Value": "2330",},
+{"Name": "1140pm","Value": "2340",},
+{"Name": "1150pm","Value": "2350",},
+{
+    "Name": "12am",
+    "Value": "2400",
+},
+{
+    "Name": "1210am",
+    "Value": "2410",
+},
+{
+    "Name": "1220am",
+    "Value": "2420",
+},
+{
+    "Name": "1230am",
+    "Value": "2430",
+},
+{
+    "Name": "1240am",
+    "Value": "2440",
+},
+{
+    "Name": "1250am",
+    "Value": "2450",
+},
+{
+    "Name": "1am",
+    "Value": "2500",
+},
+{
+    "Name": "110am","
+    Value": "2510",
+},
+{
+    "Name": "120am",
+    "Value": "2520",
+},
+{
+    "Name": "130am",
+    "Value": "2530",
+},
+{
+    "Name": "140am",
+    "Value": "2540",
+},
+{
+    "Name": "150am",
+    "Value": "2550",
+},
+```
+
+### Dialogue
+
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
+
+```
+
+```
+
+### Queries
+
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
+
+```
+
+```
+
+### Animations
+
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
+
+```
+
+```
+
+### Schedules
+
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
+
+```
+
+```
+
+### Event Commands
+
+| Name | Value | When | Meaning |
+| --- | --- | --- | --- | --- |
+|`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
+
+```
+{
+    "Name": "fadeout",
+    "Value": "globalFade/viewport -1000 -1000",
+},
+```
 
 "DynamicTokens": [
-//Directions
-
-
-
-
-// Emotes
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Time
 //6 AM
 {"Name": "6am", "Value": "600",},{"Name": "610am", "Value": "610",},{"Name": "620am", "Value": "620",},{"Name": "630am", "Value": "630",},{"Name": "640am", "Value": "640",},{"Name": "650am", "Value": "650",},
