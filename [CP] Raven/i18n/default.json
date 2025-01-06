@@ -183,9 +183,9 @@
 "medsDialogue_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
 // || Birthday & Checkup ||
     // || {{bdayCheckup}} -> {{i18n: bdayCheckup_{{Random:{{Range:1,_}}}}}} ||
-"bdayCheckup_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
-"bdayCheckup_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
-"bdayCheckup_3": "Today's my birthday!$1#$b#Since I have the day off, I can take it easy.",
+"medsDialogueBDay_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
+"medsDialogueBDay_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
+"medsDialogueBDay_3": "Today's my birthday!$1#$b#Since I have the day off, I can take it easy.",
 // || Winter Star ||
     // || {{winterStarYest}} -> {{i18n: winterStar_yesterday_{{Random:{{Range:1,_}}}}}} ||
 "winterStar_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",

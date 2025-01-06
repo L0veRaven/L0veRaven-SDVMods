@@ -125,8 +125,7 @@
     //Dialogue
         //Doctor
         {"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
-        //Birthday & Doctor
-        {"Name": "bdayCheckup","Value": "{{i18n:bdayCheckup_{{Random:{{Range:1,3}}}}}}",},
+        {"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
         //First of Season
         {"Name": "springFirst","Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",},
         {"Name": "summerFirst","Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",},
@@ -274,10 +273,7 @@
         {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",},
         {"Name": "ravenCoatRack","Value": "{{i18n:CoatRack_{{Random:{{Range:1,7}}}}}}",},
         //Mod Compat
-        {"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
-    //Queries
-        {"Name": "weekDays","Value": "{{Range:1,28}}",},
-        {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}",},
+        {"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}",},
     //Animations
         {"Name": "aniSweep","Value": "l0veraven_raven_sweep",},
         {"Name": "aniRead","Value": "l0veraven_raven_read",},
@@ -291,7 +287,6 @@
         {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "shoppingSSschD","Value": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}",},
-            //Mod Compat: Nature's Bounty
         {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
             //Bus Stop
@@ -358,29 +353,29 @@
         {"Name": "goodMorningBus","Value": "{{610am}} {{standBusStop}}",},
         {"Name": "goodNight","Value": "{{10pm}} {{standStove}}/{{130am}} {{inBed}}",},
         //Job Schedules (Arrive at 9:50 from Tent)
-        {"Name": "postJobSaloon1","Value": "{{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
-        {"Name": "postJobSaloon1","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
+        {"Name": "standNearHome","Value": "{{standMountain}}","When": {"HasReadLetter": "{{Raven}}Apartment",},},
+        {"Name": "standNearHome","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}Apartment": false,},},
             //Free Days
         {"Name": "freeDay1","Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay2","Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay3","Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",},
         {"Name": "freeDay4","Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",},
+        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",},
+        {"Name": "freeDaysRandom","Value": "{{freeDays}}",},
+        {"Name": "freeDay","Value": "{{freeDaysRandom}}",},
             //Free Day Shop
         {"Name": "fds1","Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",},
         {"Name": "fds2","Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",},
+        {"Name": "freeDayShopRandom","Value": "{{Random:{{fds1}},{{fds2}}}}",},
+        {"Name": "freeDayShop","Value": "{{freeDayShopRandom}}",},
             //Job Randomizers
         {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
         {"Name": "jobTasksSaloon_married","Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",},
-        {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",},
+        {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{standNearHome}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",},
         //Schedule Randomizers
-        {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",},
         
-        {"Name": "freeDaysRandom","Value": "{{freeDays}}",},
-        {"Name": "freeDayShopRandom","Value": "{{Random:{{fds1}},{{fds2}}}}",},
-        //Reference Tokens
+        //Random Tokens
         {"Name": "workDay","Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",},
-        {"Name": "freeDay","Value": "{{freeDaysRandom}}",},
-        {"Name": "freeDayShop","Value": "{{freeDayShopRandom}}",},
         {"Name": "medsDay","Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",},
     //Event Commands
         {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000",},
