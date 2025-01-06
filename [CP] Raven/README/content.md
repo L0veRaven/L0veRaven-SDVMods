@@ -67,7 +67,7 @@ The config does not interact with other mods, so all tokens can be written writt
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
-| `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
+| (ADD) `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
 | `CactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
 | `DaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
 | `SunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
@@ -77,7 +77,7 @@ The config does not interact with other mods, so all tokens can be written writt
     <summary>Expand Code</summary>
     
 ```
-"VampireCostumeSE": {
+(ADD) "VampireCostumeSE": {
     "Default": "true",
     "AllowValues": "true, false",
     "AllowBlank": false,
@@ -131,6 +131,7 @@ The config does not interact with other mods, so all tokens can be written writt
 },
 ```
 </details>
+
 ### Modder Settings: Complete
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
@@ -158,9 +159,6 @@ The config does not interact with other mods, so all tokens can be written writt
 },
 ```
 </details>
-
-
-
 
 ## DynamicTokens: WIP
 
@@ -201,6 +199,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
+
 ### Mod Compat Nicknames
 
 | Name | Value | Meaning |
@@ -248,7 +247,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ```
 </details>
 
-
 ### Directions
 
 | Name | Value |
@@ -280,7 +278,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
-
 
 ### Emotes
 
@@ -361,134 +358,21 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
-
 ### Time
 
-| Name | Value | 
-| --- | --- | 
-| `6am` | `600` | 
-| `610am` | `610` | 
-| `620am` | `620` | 
-| `630am` | `630` | 
-| `640am` | `640` | 
-| `650am` | `650` | 
-| `7am` | `700` |
-| `710am` | `710` |
-| `720am` | `720` |
-| `730am` | `730` |
-| `740am` | `740` |
-| `750am` | `750` |
-| `8am` | `800` |
-| `810am` | `810` |
-| `820am` | `820` |
-| `830am` | `830` |
-| `840am` | `840` |
-| `850am` | `850` |
-| `9am` | `900` |
-| `910am` | `910` |
-| `920am` | `920` |
-| `930am` | `930` |
-| `940am` | `940` |
-| `950am` | `950` |
-| `10am` | `1000` |
-| `1010am` | `1010` |
-| `1020am` | `1020` |
-| `1030am` | `1030` |
-| `1040am` | `1040` |
-| `1050am` | `1050` |
-| `11am` | `1100` |
-| `1110am` | `1110` |
-| `1120am` | `1120` |
-| `1130am` | `1130` |
-| `1140am` | `1140` |
-| `1150am` | `1150` |
-| `12pm` | `1200` |
-| `1210pm` | `1210` |
-| `1220pm` | `1220` |
-| `1230pm` | `1230` |
-| `1240pm` | `1240` |
-| `1250pm` | `1250` |
-| `1pm` | `1300` |
-| `110pm` | `1310` |
-| `120pm` | `1320` |
-| `130pm` | `1330` |
-| `140pm` | `1340` |
-| `150pm` | `1350` |
-| `2pm` | `1400` |
-| `210pm` | `1410` |
-| `220pm` | `1420` |
-| `230pm` | `1430` |
-| `240pm` | `1440` |
-| `250pm` | `1450` |
-| `3pm` | `1500` |
-| `310pm` | `1510` |
-| `320pm` | `1520` |
-| `330pm` | `1530` |
-| `340pm` | `1540` |
-| `350pm` | `1550` |
-| `4pm` | `1600` |
-| `410pm` | `1610` |
-| `420pm` | `1620` |
-| `430pm` | `1630` |
-| `440pm` | `1640` |
-| `450pm` | `1650` |
-| `5pm` | `1700` |
-| `510pm` | `1710` |
-| `520pm` | `1720` |
-| `530pm` | `1730` |
-| `540pm` | `1740` |
-| `550pm` | `1750` |
-| `6pm` | `1800` |
-| `610pm` | `1810` |
-| `620pm` | `1820` |
-| `630pm` | `1830` |
-| `640pm` | `1840` |
-| `650pm` | `1850` |
-| `7pm` | `1900` |
-| `710pm` | `1910` |
-| `720pm` | `1920` |
-| `730pm` | `1930` |
-| `740pm` | `1940` |
-| `750pm` | `1950` |
-| `8pm` | `2000` |
-| `810pm` | `2010` |
-| `820pm` | `2020` |
-| `830pm` | `2030` |
-| `840pm` | `2040` |
-| `850pm` | `2050` |
-| `9pm` | `2100` |
-| `910pm` | `2110` |
-| `920pm` | `2120` |
-| `930pm` | `2130` |
-| `940pm` | `2140` |
-| `950pm` | `2150` |
-| `10pm` | `2200` |
-| `1010pm` | `2210` |
-| `1020pm` | `2220` |
-| `1030pm` | `2230` |
-| `1040pm` | `2240` |
-| `1050pm` | `2250` |
-| `11pm` | `2300` |
-| `1110pm` | `2310` |
-| `1120pm` | `2320` |
-| `1130pm` | `2330` |
-| `1140pm` | `2340` |
-| `1150pm` | `2350` |
-| `12pm` | `2400` |
-| `1210pm` | `2410` |
-| `1220pm` | `2420` |
-| `1230pm` | `2430` |
-| `1240pm` | `2440` |
-| `1250pm` | `2450` |
-| `1pm` | `2500` |
-| `110pm` | `2510` |
-| `120pm` | `2520` |
-| `130pm` | `2530` |
-| `140pm` | `2540` |
-| `150pm` | `2550` |
+6am
 
 <details>
-    <summary>Expand Code</summary>
+<summary>Expand Code</summary>
+ 
+| Name | Value |
+| --- | --- |
+| `6am` | `600` |
+| `610am` | `610` |
+| `620am` | `620` |
+| `630am` | `630` |
+| `640am` | `640` |
+| `650am` | `650` |
 
 ```
 {
@@ -515,6 +399,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "650am",
     "Value": "650",
 },
+```
+</details>
+
+7am
+<details>
+    <summary>Expand Code</summary>
+ 
+| Name | Value |
+| --- | --- |
+| `7am` | `700` |
+| `710am` | `710` |
+| `720am` | `720` |
+| `730am` | `730` |
+| `740am` | `740` |
+| `750am` | `750` |
+
+```
 {
     "Name": "7am",
     "Value": "700",
@@ -539,6 +440,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "750am",
     "Value": "750",
 },
+```
+</details>
+
+8am
+<details>
+    <summary>Expand Code</summary>
+ 
+| Name | Value |
+| --- | --- |
+| `8am` | `800` |
+| `810am` | `810` |
+| `820am` | `820` |
+| `830am` | `830` |
+| `840am` | `840` |
+| `850am` | `850` |
+
+```
 {
     "Name": "8am",
     "Value": "800",
@@ -563,6 +481,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "850am",
     "Value": "850",
 },
+```
+</details>
+
+9am
+<details>
+    <summary>Expand Code</summary>
+ 
+| Name | Value |
+| --- | --- |
+| `9am` | `900` |
+| `910am` | `910` |
+| `920am` | `920` |
+| `930am` | `930` |
+| `940am` | `940` |
+| `950am` | `950` |
+
+```
 {
     "Name": "9am",
     "Value": "900",
@@ -587,6 +522,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "950am",
     "Value": "950",
 },
+```
+</details>
+
+10am
+<details>
+    <summary>Expand Code</summary>
+ 
+| Name | Value |
+| --- | --- |
+| `10am` | `1000` |
+| `1010am` | `1010` |
+| `1020am` | `1020` |
+| `1030am` | `1030` |
+| `1040am` | `1040` |
+| `1050am` | `1050` |
+
+```
 {
     "Name": "10am",
     "Value": "1000",
@@ -611,6 +563,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1050am",
     "Value": "1050",
 },
+```
+</details>
+
+11am
+<details>
+    <summary>Expand Code</summary>
+
+| Name | Value |
+| --- | --- |
+| `11am` | `1100` |
+| `1110am` | `1110` |
+| `1120am` | `1120` |
+| `1130am` | `1130` |
+| `1140am` | `1140` |
+| `1150am` | `1150` |
+
+```
 {
     "Name": "11am",
     "Value": "1100",
@@ -635,6 +604,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1150am",
     "Value": "1150",
 },
+```
+</details>
+
+12pm
+<details>
+    <summary>Expand Code</summary>
+
+| Name | Value |
+| --- | --- |
+| `12pm` | `1200` |
+| `1210pm` | `1210` |
+| `1220pm` | `1220` |
+| `1230pm` | `1230` |
+| `1240pm` | `1240` |
+| `1250pm` | `1250` |
+
+```
 {
     "Name": "12pm",
     "Value": "1200",
@@ -659,6 +645,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1250pm",
     "Value": "1250",
 },
+```
+</details>
+
+1pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `1pm` | `1300` |
+| `110pm` | `1310` |
+| `120pm` | `1320` |
+| `130pm` | `1330` |
+| `140pm` | `1340` |
+| `150pm` | `1350` |
+
+```
 {
     "Name": "1pm",
     "Value": "1300",
@@ -683,6 +686,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "150pm",
     "Value": "1350",
 },
+```
+</details>
+
+2pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `2pm` | `1400` |
+| `210pm` | `1410` |
+| `220pm` | `1420` |
+| `230pm` | `1430` |
+| `240pm` | `1440` |
+| `250pm` | `1450` |
+
+```
 {
     "Name": "2pm",
     "Value": "1400",
@@ -707,6 +727,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "250pm",
     "Value": "1450",
 },
+```
+</details>
+
+3pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `3pm` | `1500` |
+| `310pm` | `1510` |
+| `320pm` | `1520` |
+| `330pm` | `1530` |
+| `340pm` | `1540` |
+| `350pm` | `1550` |
+
+```
 {
     "Name": "3pm",
     "Value": "1500",
@@ -731,9 +768,26 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "350pm",
     "Value": "1550",
 },
+```
+</details>
+
+4pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `4pm` | `1600` |
+| `410pm` | `1610` |
+| `420pm` | `1620` |
+| `430pm` | `1630` |
+| `440pm` | `1640` |
+| `450pm` | `1650` |
+
+```
 {
-    "Name": "4pm","
-    Value": "1600",
+    "Name": "4pm",
+    "Value": "1600",
 },
 {
     "Name": "410pm",
@@ -755,6 +809,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "450pm",
     "Value": "1650",
 },
+```
+</details>
+
+5pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `5pm` | `1700` |
+| `510pm` | `1710` |
+| `520pm` | `1720` |
+| `530pm` | `1730` |
+| `540pm` | `1740` |
+| `550pm` | `1750` |
+
+```
 {
     "Name": "5pm",
     "Value": "1700",
@@ -779,6 +850,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "550pm",
     "Value": "1750",
 },
+```
+</details>
+
+6pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `6pm` | `1800` |
+| `610pm` | `1810` |
+| `620pm` | `1820` |
+| `630pm` | `1830` |
+| `640pm` | `1840` |
+| `650pm` | `1850` |
+
+```
 {
     "Name": "6pm",
     "Value": "1800",
@@ -803,6 +891,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "650pm",
     "Value": "1850",
 },
+```
+</details>
+
+7pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `7pm` | `1900` |
+| `710pm` | `1910` |
+| `720pm` | `1920` |
+| `730pm` | `1930` |
+| `740pm` | `1940` |
+| `750pm` | `1950` |
+
+```
 {
     "Name": "7pm",
     "Value": "1900",
@@ -827,6 +932,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "750pm",
     "Value": "1950",
 },
+```
+</details>
+
+8pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `8pm` | `2000` |
+| `810pm` | `2010` |
+| `820pm` | `2020` |
+| `830pm` | `2030` |
+| `840pm` | `2040` |
+| `850pm` | `2050` |
+
+```
 {
     "Name": "8pm",
     "Value": "2000",
@@ -851,6 +973,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "850pm",
     "Value": "2050",
 },
+```
+</details>
+
+9pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `9pm` | `2100` |
+| `910pm` | `2110` |
+| `920pm` | `2120` |
+| `930pm` | `2130` |
+| `940pm` | `2140` |
+| `950pm` | `2150` |
+
+```
 {
     "Name": "9pm",
     "Value": "2100",
@@ -875,6 +1014,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "950pm",
     "Value": "2150",
 },
+```
+</details>
+
+10pm
+<details>
+    <summary>Expand Code</summary>
+    
+| Name | Value |
+| --- | --- |
+| `10pm` | `2200` |
+| `1010pm` | `2210` |
+| `1020pm` | `2220` |
+| `1030pm` | `2230` |
+| `1040pm` | `2240` |
+| `1050pm` | `2250` |
+
+```
 {
     "Name": "10pm",
     "Value": "2200",
@@ -899,6 +1055,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1050pm",
     "Value": "2250",
 },
+```
+</details>
+
+11pm
+<details>
+    <summary>Expand Code</summary>
+
+| Name | Value |
+| --- | --- |
+| `11pm` | `2300` |
+| `1110pm` | `2310` |
+| `1120pm` | `2320` |
+| `1130pm` | `2330` |
+| `1140pm` | `2340` |
+| `1150pm` | `2350` |
+
+```
 {
     "Name": "11pm",
     "Value": "2300",
@@ -923,6 +1096,23 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1150pm",
     "Value": "2350",
 },
+```
+</details>
+
+12am
+<details>
+    <summary>Expand Code</summary>
+
+| Name | Value |
+| --- | --- |
+| `12am` | `2400` |
+| `1210am` | `2410` |
+| `1220am` | `2420` |
+| `1230am` | `2430` |
+| `1240am` | `2440` |
+| `1250am` | `2450` |
+
+```
 {
     "Name": "12am",
     "Value": "2400",
@@ -947,13 +1137,30 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
     "Name": "1250am",
     "Value": "2450",
 },
+```
+</details>
+
+1am
+<details>
+    <summary>Expand Code</summary>
+
+| Name | Value |
+| --- | --- |
+| `1am` | `2500` |
+| `110am` | `2510` |
+| `120am` | `2520` |
+| `130am` | `2530` |
+| `140am` | `2540` |
+| `150am` | `2550` |
+
+```
 {
     "Name": "1am",
     "Value": "2500",
 },
 {
-    "Name": "110am","
-    Value": "2510",
+    "Name": "110am",
+    "Value": "2510",
 },
 {
     "Name": "120am",
@@ -973,7 +1180,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 },
 ```
 </details>
-
 
 ### Dialogue
 
