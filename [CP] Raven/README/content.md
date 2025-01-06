@@ -14,7 +14,6 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 
 ## ConfigSchema
 
-Example:
 ```
 "ConfigSchema": {
     //Raven Settings
@@ -93,7 +92,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | Name | Default | AllowValues | AllowBlank | Section | Description |
 | --- | --- | --- | --- | --- | --- |
 | `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
-| Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
+| Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
 
 ```
     "Name": {
