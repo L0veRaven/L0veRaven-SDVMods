@@ -2,52 +2,56 @@
     "Format": "2.4.4",
 
     "ConfigSchema": {
-        //Raven Settings
-            //Clean Language: Toggle
+        //Raven Settings (Toggle)
         "CleanLanguage": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "RavenSettings",
+            "Description": null,
         },
-            //Nude: Toggle
         "RavenNude": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "RavenSettings",
+            "Description": null,
         },
-        //Outfits
-            //Spirit's Eve Costumes: Toggles
+        //Spirit's Eve Costumes: Toggles
         //ADD"VampireCostumeSE": {
         //ADD    "Default": "true",
         //ADD    "AllowValues": "true, false",
         //ADD    "AllowBlank": false,
         //ADD    "Section": "SpiritsEveCostumes",
+        //ADD    "Description": null,
         //ADD},
         "CactusCostumeSE": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "SpiritsEveCostumes",
+            "Description": null,
         },
         "DaisyCostumeSE": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "SpiritsEveCostumes",
+            "Description": null,
         },
         "SunflowerCostumeSE": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "SpiritsEveCostumes",
+            "Description": null,
         },
         "WeedCostumeSE": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "SpiritsEveCostumes",
+            "Description": null,
         },
         //Modder Settings
             //Raven Index: Shows Raven with index numbers for sprites and portraits
@@ -56,6 +60,7 @@
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "ModderSettings",
+            "Description": null,
         },
             //Event Excludes: Toggle
         "EventExcludes": {
@@ -63,6 +68,7 @@
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": "ModderSettings",
+            "Description": null,
         },
     },
     

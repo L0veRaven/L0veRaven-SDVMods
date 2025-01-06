@@ -1,56 +1,135 @@
-## Config.json
+# Config.json
 
-{
+The document starts with `{ }` and all the code will be sandwiched in between.
+
 ## Content Patcher
 
 | Tokens | Values |
 | --- | --- |
-|`Format": "2.4.4",` | Current version of Content Patcher |
+|`"Format": "2.4.4",` | Current version of Content Patcher |
+
+```
+"Format": "2.4.4",
+```
 
 ## ConfigSchema
 
+Example:
+```
+"ConfigSchema": {
+    //Raven Settings
+    "CleanLanguage": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "RavenSettings",
+        "Description": null,
+    },
+    "RavenNude": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "RavenSettings",
+        "Description": null,
+    },
+    //Spirit's Eve Costumes
+    "VampireCostumeSE": {
+        "Default": "true",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "SpiritsEveCostumes",
+        "Description": null,
+    },
+    "CactusCostumeSE": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "SpiritsEveCostumes",
+        "Description": null,
+    },
+    "DaisyCostumeSE": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "SpiritsEveCostumes",
+        "Description": null,
+    },
+    "SunflowerCostumeSE": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "SpiritsEveCostumes",
+        "Description": null,
+    },
+    "WeedCostumeSE": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "SpiritsEveCostumes",
+        "Description": null,
+    },
+    //Modder Settings
+    "RavenIndex": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "ModderSettings",
+        "Description": null,
+    },
+    "EventExcludes": {
+        "Default": "false",
+        "AllowValues": "true, false",
+        "AllowBlank": false,
+        "Section": "ModderSettings",
+        "Description": null,
+    },
+},
+```
+
 ## ConfigSchema Formatting
 
+The config does not interact with other mods, so all tokens can be written written as desired as long as it doesn't conflict with existing Global Tokens. Here's how the settings are formatted
+
 | Name | Default | AllowValues | AllowBlank | Section | Description |
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 | `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
 | Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
-| --- | --- | --- | --- | --- |--- |
-| --- | --- | --- | --- | --- |--- |
-| --- | --- | --- | --- | --- |--- |
-| --- | --- | --- | --- | --- |--- |
-| --- | --- | --- | --- | --- |--- |
-|`AllowValues` | `true`, `false`, `<custom value>` | Value(s) for the token to choose |
-|`AllowBlank` | `true`, `false` | Can the field be left blank? |
-|`Section` | `<custom value>` | (Optional) Label for the section the token belongs in |
+
+```
+    "Name": {
+        "Default": "",
+        "AllowValues": "",
+        "AllowBlank": "",
+        "Section": "",
+        "Description": "",
+    },
+```
 
 ### Raven Settings
 
-| Tokens | Values | Meaning |
-| --- | --- | --- |
-|`"CleanLanguage"` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven using clean language (WIP) |
-|`"RavenNude"` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven nudity except at festivals |
-
-### Spirit's Eve Costumes (Toggle)
-
-Multiple values can be selected
-
-| Tokens | Default | Meaning |
-| --- | --- | --- |
-|`"VampireCostumeSE"` | `true` | Vampire costume |
-|`"CactusCostumeSE"` | `false` | Cactus costume |
-|`"DaisyCostumeSE"` | `false` | Daisy costume |
-|`"SunflowerCostumeSE"` | `false` | Sunflower costume |
-|`"WeedCostumeSE"` | `false` | Weed costume |
-
-### Modder Settings
-
-| Tokens | Default | AllowValues | AllowBlank | Section | Meaning |
-| --- | --- | --- | --- | --- | --- |
-|`RavenIndex` | `{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "ModderSettings",}`| Toggle Raven's sprites and portraits to display only their index number. |
-|`EventExcludes` | `{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "ModderSettings",}`| Raven is the selected NPC for festivals such as the Winter Star. |
+| Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
+| --- | --- | --- | --- | --- | --- | --- |
+| `CleanLanguage` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven uses clean language |
+| `RavenNude` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven goes nude except at festivals |
+| `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
+| `CactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
+| `DaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
+| `SunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
+| `WeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
+| `RavenIndex` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Raven's sprites and portraits show index numbers instead |
+| `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
 
 ### DynamicTokens
+```
+"Dynamic Tokens": [
+    {
+        "Name": "",
+        "Value": "",
+        "When": {
+            "<condition>": "<conditionValue>",
+        },
+    }
+]
 
 #### Basic Information
 
