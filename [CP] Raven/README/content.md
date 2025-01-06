@@ -1255,7 +1255,7 @@ The game loads the maps and associates them with the new locations.
 There is where I put my `Load`s and `Include`s. The order they load in is very important.
 
 | LogName | Action | Target | FromFile | Meanings |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | `Blank Loads` | `Load` | `Characters/Dialogue/{{Raven}}`, `Characters/Dialogue/MarriageDialogue{{Raven}}`, `Characters/schedules/{{Raven}}`, `Strings/Schedules/{{Raven}}`, `Data/Events/Custom_L0veRaven_RavenTentInside` `Data/Events/Custom_L0veRaven_RavenTentInsideSVE` | `"data/blank.json` | Loads blank versions of files required for adding content relevant to this mod. |
 | `Locations` | `Include` | `---` | `data/locations/WorldMap.json`, `data/locations/MapPatches.json`, `data/locations/warps.json`, `data/locations/LocationsData.json`, `data/locations/StringsFromMaps.json` | Includes files related to location patches |
 | `Spouse Room` | `Load` | `Maps/{{Raven}}SpouseRoom` | `data/maps/{{Raven}}SpouseRoom.tmx` | Loads map |
