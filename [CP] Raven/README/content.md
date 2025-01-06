@@ -12,7 +12,7 @@
 ## ConfigSchema Formatting
 
 | Name | Default | AllowValues | AllowBlank | Section |
-|--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |--- |
 | `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | --- | --- |
 | Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Can leave the field blank | (Optional) Section title |
 | --- | --- | --- | --- | --- |
