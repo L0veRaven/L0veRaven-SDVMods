@@ -200,6 +200,8 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 
 ### Emotes
 
+The `Name` corresponds with the emote I want to use. Rather than me memorizing the index numbers for each emote, I use a naming convention that easily matches what I want.
+
 | Name | Value | Meaning |
 | --- | --- | --- | --- |
 |`emoteEmptyCan` |  `4` | Empty Watering Can |
