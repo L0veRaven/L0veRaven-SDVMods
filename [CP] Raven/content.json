@@ -3,13 +3,13 @@
 
     "ConfigSchema": {
         //Raven Settings (Toggle)
-        "CleanLanguage": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "RavenSettings",
-            "Description": null,
-        },
+        //ADD"CleanLanguage": {
+        //ADD    "Default": "false",
+        //ADD    "AllowValues": "true, false",
+        //ADD    "AllowBlank": false,
+        //ADD    "Section": "RavenSettings",
+        //ADD    "Description": null,
+        //ADD},
         "RavenNude": {
             "Default": "false",
             "AllowValues": "true, false",

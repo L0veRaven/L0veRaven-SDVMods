@@ -1,12 +1,8 @@
 # Config.json
 
-```
-
-```
-
 The document starts with `{ }` and all the code will be sandwiched in between.
 
-## Content Patcher
+## Content Patcher: Complete
 
 | Tokens | Values |
 | --- | --- |
@@ -19,10 +15,8 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 "Format": "2.4.4",
 ```
 </details>
-
-
-## ConfigSchema
-### Formatting
+## ConfigSchema: Add
+### Formatting: Complete
 
 ```
 "ConfigSchema": {
@@ -38,11 +32,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | --- | --- | --- | --- | --- | --- |
 | `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
 | Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
-
-
-
-
-### Raven Settings
+### Raven Settings: Add
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -53,13 +43,13 @@ The config does not interact with other mods, so all tokens can be written writt
     <summary>Expand Code</summary>
     
 ```
-"CleanLanguage": {
-    "Default": "false",
-    "AllowValues": "true, false",
-    "AllowBlank": false,
-    "Section": "RavenSettings",
-    "Description": null,
-},
+//ADD"CleanLanguage": {
+//ADD    "Default": "false",
+//ADD    "AllowValues": "true, false",
+//ADD    "AllowBlank": false,
+//ADD    "Section": "RavenSettings",
+//ADD    "Description": null,
+//ADD},
 "RavenNude": {
     "Default": "false",
     "AllowValues": "true, false",
@@ -69,8 +59,7 @@ The config does not interact with other mods, so all tokens can be written writt
 },
 ```
 </details>
-
-#### Spirit's Eve Costumes
+### Spirit's Eve Costumes: Add
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -84,11 +73,61 @@ The config does not interact with other mods, so all tokens can be written writt
     <summary>Expand Code</summary>
     
 ```
-    
+"VampireCostumeSE": {
+    "Default": "true",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "SpiritsEveCostumes",
+    "Description": null,
+},
+"CactusCostumeSE": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "SpiritsEveCostumes",
+    "Description": null,
+},
+"DaisyCostumeSE": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "SpiritsEveCostumes",
+    "Description": null,
+},
+"SunflowerCostumeSE": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "SpiritsEveCostumes",
+    "Description": null,
+},
+"WeedCostumeSE": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "SpiritsEveCostumes",
+    "Description": null,
+},
+//Modder Settings
+    //Raven Index: Shows Raven with index numbers for sprites and portraits
+"RavenIndex": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "ModderSettings",
+    "Description": null,
+},
+    //Event Excludes: Toggle
+"EventExcludes": {
+    "Default": "false",
+    "AllowValues": "true, false",
+    "AllowBlank": false,
+    "Section": "ModderSettings",
+    "Description": null,
+},
 ```
 </details>
-
-#### Modder Settings
+### Modder Settings: Complete
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -119,7 +158,7 @@ The config does not interact with other mods, so all tokens can be written writt
 
 
 
-## DynamicTokens
+## DynamicTokens: WIP
 
 Think of DynamicTokens as ZIP file names, and when the game reads the code, the file is "unzipped" and all the data goes into the code as if it were already written there. This is very handy for using as a shortcut for repetitive code.
 
@@ -158,9 +197,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
-
-
-
 ### Mod Compat Nicknames
 
 | Name | Value | Meaning |
@@ -209,7 +245,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 </details>
 
 
-
 ### Directions
 
 | Name | Value |
@@ -241,7 +276,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
-
 
 
 ### Emotes
@@ -322,7 +356,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 },
 ```
 </details>
-
 
 
 ### Time
@@ -938,7 +971,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 </details>
 
 
-
 ### Dialogue
 
 #### Doctor
@@ -956,7 +988,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
-
 
 
 #### First of Season
@@ -990,7 +1021,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 }, 
 ```
 </details>
-
 
 
 #### Festivals
@@ -1176,7 +1206,6 @@ Feast of the Winter Star
 {"Name": "marriedGenWinter","Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
-
 
 
 #### Weather
@@ -1408,7 +1437,6 @@ Strings - Map Objects
 </details>
 
 
-
 ### Mod Compat
 
 | Name | Value |
@@ -1424,7 +1452,6 @@ Strings - Map Objects
 
 ```
 </details>
-
 
 
 ### Animations
@@ -1465,7 +1492,6 @@ Strings - Map Objects
 </details>
 
 
-
 ### Schedule Dialogue
 
 | Name | Value |
@@ -1501,7 +1527,6 @@ Strings - Map Objects
 },
 ```
 </details>
-
 
 
 ### Locations
@@ -1604,6 +1629,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### Custom_L0veRaven_RavenTentInside(SVE)
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1656,6 +1682,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### FRL_NPCApt_Floor1
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1691,6 +1718,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### Town
 | Name | Value | When | V / S / X |
 | --- | --- | --- | --- |
@@ -1713,14 +1741,22 @@ Strings - Map Objects
     },
 },
 {
-    "Name": "",
-    "Value": "",
+    "Name": "relaxBushTown",
+    "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
     "When": {
-        ",
+        "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
+    },
+},
+{
+    "Name": "relaxBushTown",
+    "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
+    "When": {
+        "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",
     },
 },
 ```
 </details>
+
 
 
 #### Hospital
@@ -1740,6 +1776,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### Seed Shop
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1755,6 +1792,7 @@ Strings - Map Objects
 },
 ```
 </details>
+
 
 
 #### Saloon
@@ -1790,6 +1828,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### Archaeology House
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1818,6 +1857,7 @@ Strings - Map Objects
 </details>
 
 
+
 #### Beach
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1834,6 +1874,7 @@ Strings - Map Objects
 ```
 </details>
 
+
 #### Mountain
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1846,6 +1887,7 @@ Strings - Map Objects
 
 ```
 </details>
+
 
 ### Randomizers
 #### Clinic Day Randomizer
@@ -1868,6 +1910,7 @@ Strings - Map Objects
 },
 ```
 </details>
+
 #### Morning/Night
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1893,6 +1936,7 @@ Strings - Map Objects
 },
 ```
 </details>
+
 #### Job Schedules
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1903,9 +1947,23 @@ Strings - Map Objects
     <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "postJobSaloon1",
+    "Value": "{{standMountain}}",
+    "When": {
+        "HasReadLetter": "{{Raven}}Apartment",
+    },
+},
+{
+    "Name": "postJobSaloon1",
+    "Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
+    "When": {
+        "HasFlag: |contains={{Raven}}Apartment": false,
+    },
+},
 ```
 </details>
+
 #### Free Days
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1918,9 +1976,25 @@ Strings - Map Objects
     <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "freeDay1",
+    "Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+},
+{
+    "Name": "freeDay2",
+    "Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+},
+{
+    "Name": "freeDay3",
+    "Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",
+},
+{
+    "Name": "freeDay4",
+    "Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",
+},
 ```
 </details>
+
 #### Free Day Shop
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1931,9 +2005,17 @@ Strings - Map Objects
     <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "fds1",
+    "Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
+},
+{
+    "Name": "fds2",
+    "Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
+},
 ```
 </details>
+
 #### Job Randomizers
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1945,9 +2027,21 @@ Strings - Map Objects
     <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "jobTasksSaloon",
+    "Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
+},
+{
+    "Name": "jobTasksSaloon_married",
+    "Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
+},
+{
+    "Name": "postJobSaloon",
+    "Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",
+},
 ```
 </details>
+
 #### Schedule Randomizers
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1961,103 +2055,9 @@ Strings - Map Objects
 
 ```
 </details>
+
 #### Random Tokens
-| Name | Value |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
 
-<details>
-    <summary>Expand Code</summary>
-    
-```
-```
-</details>
-
-#### Blank
-
-```
-//Locations
-                    //Mod Compat: Nature's Bounty
-                        //Forest
-
-                        //Town
-                            {
-                                "Name": "relaxBushTown",
-                                "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-                                "When": {
-                                    "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
-                                },
-                            },
-                            {
-                                "Name": "relaxBushTown",
-                                "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-                                "When": {
-                                    "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",
-                                },
-                            },
-    //Clinic Day Randomizer
-
-    //Morning/Night
-
-    //Job Schedules (Arrive at 9:50 from Tent)
-        {
-            "Name": "postJobSaloon1",
-            "Value": "{{standMountain}}",
-            "When": {
-                "HasReadLetter": "{{Raven}}Apartment",
-            },
-        },
-        {
-            "Name": "postJobSaloon1",
-            "Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
-            "When": {
-                "HasFlag: |contains={{Raven}}Apartment": false,
-            },
-        },
-    //Free Days
-        {
-            "Name": "freeDay1",
-            "Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-        },
-        {
-            "Name": "freeDay2",
-            "Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-        },
-        {
-            "Name": "freeDay3",
-            "Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",
-        },
-        {
-            "Name": "freeDay4",
-            "Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",
-        },
-    //Free Day Shop
-        {
-            "Name": "fds1",
-            "Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
-        },
-        {
-            "Name": "fds2",
-            "Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
-        },
-    //Job Randomizers
-        {
-            "Name": "jobTasksSaloon",
-            "Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
-        },
-        {
-            "Name": "jobTasksSaloon_married",
-            "Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
-        },
-        {
-            "Name": "postJobSaloon",
-            "Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",
-        },
-```
 </details>
 
 Schedule Randomizers
@@ -2070,34 +2070,34 @@ Schedule Randomizers
     <summary>Expand Code</summary>
 
 ```
-    {
-        "Name": "freeDays",
-        "Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",
-    },
-    {
-        "Name": "freeDaysRandom",
-        "Value": "{{freeDays}}",
-    },
-    {
-        "Name": "freeDayShopRandom",
-        "Value": "{{Random:{{fds1}},{{fds2}}}}",
-    },
-    {
-        "Name": "workDay",
-        "Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",
-    },
-    {
-        "Name": "freeDay",
-        "Value": "{{freeDaysRandom}}",
-    },
-    {
-        "Name": "freeDayShop",
-        "Value": "{{freeDayShopRandom}}",
-    },
-    {
-        "Name": "medsDay",
-        "Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
-    },
+{
+    "Name": "freeDays",
+    "Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",
+},
+{
+    "Name": "freeDaysRandom",
+    "Value": "{{freeDays}}",
+},
+{
+    "Name": "freeDayShopRandom",
+    "Value": "{{Random:{{fds1}},{{fds2}}}}",
+},
+{
+    "Name": "workDay",
+    "Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",
+},
+{
+    "Name": "freeDay",
+    "Value": "{{freeDaysRandom}}",
+},
+{
+    "Name": "freeDayShop",
+    "Value": "{{freeDayShopRandom}}",
+},
+{
+    "Name": "medsDay",
+    "Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+},
 ```
 </dialogue>
 
@@ -2118,7 +2118,7 @@ Schedule Randomizers
 ```
 </details>
 
-## Custom Locations
+## Custom Locations: Complete
 
 ```
 "CustomLocations": [
@@ -2150,7 +2150,7 @@ The game loads the maps and associates them with the new locations.
 ```
 </details>
 
-## Changes
+## Changes: Add
 
 ```
 "Changes": [
@@ -2176,12 +2176,6 @@ There is where I put my `Load`s and `Include`s. The order they load in is very i
     <summary>Expand Code</summary>
     
 ```
-{
-    "LogName": "content.json: Apartment Blank Loads",
-    "Action": "Load",
-    "Target": "Data/Events/FRL_NPCApt_PelicanValleyLoft, Data/Events/FRL_NPCApt_Lobby, Data/Events/FRL_NPCApt_Floor1, Data/Events/FRL_NPCApt_Floor2, Data/Events/FRL_NPCApt_Floor3, Data/Events/FRL_NPCApt_Floor4, Data/Events/FRL_NPCApt_Floor5, Data/Events/FRL_NPCApt_Floor6, Data/Events/FRL_NPCApt_Floor7",
-    "FromFile": "data/blank.json",
-},
 {
     "LogName": "content.json: Blank Loads",
     "Action": "Load",
