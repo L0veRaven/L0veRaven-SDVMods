@@ -11,15 +11,15 @@
 
 ## ConfigSchema Formatting
 
-| Name | Default | AllowValues | AllowBlank | Section |
-|--- |--- |--- |--- |--- |
-| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | --- | --- |
-| Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Can leave the field blank | (Optional) Section title |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| Name | Default | AllowValues | AllowBlank | Section | Description |
+|--- |--- |--- |--- |--- |--- |
+| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | --- | --- |--- |
+| Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
+| --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- |--- |
+| --- | --- | --- | --- | --- |--- |
 |`AllowValues` | `true`, `false`, `<custom value>` | Value(s) for the token to choose |
 |`AllowBlank` | `true`, `false` | Can the field be left blank? |
 |`Section` | `<custom value>` | (Optional) Label for the section the token belongs in |
