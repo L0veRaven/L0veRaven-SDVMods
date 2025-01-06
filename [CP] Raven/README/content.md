@@ -305,6 +305,7 @@ Think of DynamicTokens as ZIP file names, and when the game reads the code, the 
 ### Time
 
 | Name | Value |
+| --- | --- |
 | `6am` | `600` |
 | `610am` | `610` |
 | `620am` | `620` |
