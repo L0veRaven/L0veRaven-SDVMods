@@ -407,7 +407,7 @@
         {
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
-            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside",
+            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
             "FromFile": "data/blank.json",
         },
         {
