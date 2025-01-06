@@ -15,7 +15,9 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 "Format": "2.4.4",
 ```
 </details>
+
 ## ConfigSchema: Add
+
 ### Formatting: Complete
 
 ```
@@ -32,6 +34,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | --- | --- | --- | --- | --- | --- |
 | `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
 | Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
+
 ### Raven Settings: Add
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
@@ -59,6 +62,7 @@ The config does not interact with other mods, so all tokens can be written writt
 },
 ```
 </details>
+
 ### Spirit's Eve Costumes: Add
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
@@ -2101,7 +2105,7 @@ Schedule Randomizers
 ```
 </dialogue>
 
-### Event Commands
+### Event Commands: Complete
 
 | Name | Value | When | Meaning |
 | --- | --- | --- | --- | --- |
