@@ -1,16 +1,19 @@
+## Config.json
+
+{
 ## Content Patcher
 
 | Tokens | Values |
 | --- | --- |
-|```"Format": "2.4.4",``` | Current version of Content Patcher |
+|`Format": "2.4.4",` | Current version of Content Patcher |
 
 ## ConfigSchema
 
 ## ConfigSchema Formatting
 
-| Tokens | Values | Meaning |
-| --- | --- | --- |
-|`Default` | `true`, `false` | The value to default to |
+| Name | Default | AllowValues | AllowBlank | Section | Meaning |
+| --- | --- | --- | --- | --- | --- |
+|`Default` | `true`, `false`, `<custom value>` | The value to default to |
 |`AllowValues` | `true`, `false`, `<custom value>` | Value(s) for the token to choose |
 |`AllowBlank` | `true`, `false` | Can the field be left blank? |
 |`Section` | `<custom value>` | (Optional) Label for the section the token belongs in |
@@ -19,23 +22,25 @@
 
 | Tokens | Values | Meaning |
 | --- | --- | --- |
-|```"CleanLanguage"``` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven using clean language (WIP) |
-|```"RavenNude"``` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven nudity except at festivals |
+|`"CleanLanguage"` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven using clean language (WIP) |
+|`"RavenNude"` | `"Default": "false"`, `"AllowValues": "true, false"`, `"AllowBlank": false`, `"Section": "RavenSettings",` | Toggle Raven nudity except at festivals |
 
-### Spirit's Eve Costumes
+### Spirit's Eve Costumes (Toggle)
 
-| Tokens | Values | Meaning |
+Multiple values can be selected
+
+| Tokens | Default | Meaning |
 | --- | --- | --- |
-|```"VampireCostumeSE"``` | (Toggle) Spirit's Eve vampire costume |
-|```"CactusCostumeSE"``` | (Toggle) Spirit's Eve cactus costume |
-|```"DaisyCostumeSE"``` | (Toggle) Spirit's Eve daisy costume |
-|```"SunflowerCostumeSE"``` | (Toggle) Spirit's sunflower Eve costume |
-|```"WeedCostumeSE"``` | (Toggle) Spirit's Eve weed costume |
+|`"VampireCostumeSE"` | `true` | Vampire costume |
+|`"CactusCostumeSE"` | `false` | Cactus costume |
+|`"DaisyCostumeSE"` | `false` | Daisy costume |
+|`"SunflowerCostumeSE"` | `false` | Sunflower costume |
+|`"WeedCostumeSE"` | `false` | Weed costume |
 
 ### Modder Settings
 
-| Tokens | Values | Meaning |
-| --- | --- | --- |
+| Tokens | Default | AllowValues | AllowBlank | Section | Meaning |
+| --- | --- | --- | --- | --- | --- |
 |`RavenIndex` | `{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "ModderSettings",}`| Toggle Raven's sprites and portraits to display only their index number. |
 |`EventExcludes` | `{"Default": "false", "AllowValues": "true, false", "AllowBlank": false, "Section": "ModderSettings",}`| Raven is the selected NPC for festivals such as the Winter Star. |
 
@@ -506,3 +511,5 @@
     "Action": "Include",
     "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json",
 },
+
+} End
