@@ -125,7 +125,12 @@
     //Dialogue
         //Doctor
         {"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
-        {"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
+        {"Name": "medsDialogue","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",
+"When": {
+    "Day": "18",
+    "Season": "winter",
+}
+        },
         //First of Season
         {"Name": "springFirst","Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",},
         {"Name": "summerFirst","Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",},

@@ -16,10 +16,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "spring_18": "{{medsDialogue}}",
-                "summer_18": "{{medsDialogue}}",
-                "fall_18": "{{medsDialogue}}",
-                "winter_18": "{{medsDialogueBDay}}",
+                "{{season}}_18": "{{medsDialogue}}",
             },
         },
         {
