@@ -1,6 +1,10 @@
 # Mod Progress Reference
 
 ```mermaid
+    info
+```
+
+```mermaid
 graph TD;
     Content Patcher-->Change Mechanics;
     Change Mechanics-->Buffs;
