@@ -1,49 +1,16 @@
 # Mod Progress Reference
 
-```mermaid
-    info
-```
-
-```mermaid
-graph TD;
-    Content Patcher-->Change Mechanics;
-    Change Mechanics-->Buffs;
-    Buffs-->Data/Buffs;
-    Data/Buffs-->Persistent Buffs;
-    Change Mechanics-->Combat;
-    Combat-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Farm Cave;
-    Farm Cave-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Farmhouse;
-    Farmhouse-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Fishing Treasure;
-    Fishing Treasure-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Forage Spawn;
-    Forage Spawn-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Mine Ore / Chests;
-    Mine Ore / Chests-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Museum Rewards;
-    Museum Rewards-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Panning;
-    Panning-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Train Loot;
-    Train Loot-->OOOOOOOOOOOOOOO;
-    Change Mechanics-->Trigger Actions & GSQs;
-    Trigger Actions & GSQs-->OOOOOOOOOOOOOOO;
-    Content Patcher-->Change Visuals;
-    Content Patcher-->Add New Content;
-```
-
 ## Content Patcher
 
-### Change mechanics
+### Changing mechanics
 
 | Area of Focus | Directory | Existing Mods |
 | --- | --- | --- |
+| Buffs | ```Data/Buffs``` | ```Persistent Buffs``` |
 | Combat | ```Data/Monsters```, ```Data/MonsterSlayerQuests```| ```___``` |
 | Farm Cave | ```___``` | ```Modifiable Fruit Region```, ```Mushroom Box Location Framework``` |
 | Farmhouse | ```Data/HomeRenovations``` | ```Personal Indoor Farm``` |
-| Fishing Treasure | ```___``` | ```Item Extensions``` |
+| Fishing Treasure | ```___``` | ```Item Extensionsf``` |
 | Forage Spawn | ```___``` | ```Farm Type Manager```, ```SpaceCore``` |
 | Mine Ore / Chests | ```___``` | ```Farm Type Manager```, ```Mine Treasure Framework```, ```SpaceCore``` |
 | Museum Rewards | ```Data/MuseumRewards``` | ```___``` |
