@@ -104,7 +104,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ]
 ```
 
-#### Basic Information
+### Basic Information
 
 | Name | Value | Meaning |
 | --- | --- | --- |
@@ -883,10 +883,22 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 ### Dialogue
 
+#### Doctor
+
 | Name | Value | When |
 | --- | --- | --- |
 | `medsDialogue` |  `{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}` |  |
 | `medsDialogueBDay` | `{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}` |  |
+
+```
+{"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
+{"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
+```
+
+#### First of Season
+
+| Name | Value | When |
+| --- | --- | --- |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -896,9 +908,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 |  |  |  |
 
 ```
-//Doctor
-{"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
-{"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
 //First of Season
 {"Name": "springFirst","Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "summerFirst","Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",},
