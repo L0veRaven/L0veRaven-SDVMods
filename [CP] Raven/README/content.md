@@ -13,15 +13,15 @@ The document starts with `{ }` and all the code will be sandwiched in between.
 |`"Format": "2.4.4",` | Current version of Content Patcher |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 "Format": "2.4.4",
 ```
 </details>
 
-## ConfigSchema
 
+## ConfigSchema
 ### Formatting
 
 ```
@@ -40,7 +40,9 @@ The config does not interact with other mods, so all tokens can be written writt
 | Use as token or condition; `{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
 
 
-#### Raven Settings
+
+
+### Raven Settings
 
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -48,7 +50,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | `RavenNude` | `false` | `true, false` | `false` | `RavenSettings` | `null` | Raven goes nude except at festivals |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 "CleanLanguage": {
@@ -79,7 +81,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | `WeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
     
@@ -94,7 +96,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 "RavenIndex": {
@@ -114,6 +116,9 @@ The config does not interact with other mods, so all tokens can be written writt
 ```
 </details>
 
+
+
+
 ## DynamicTokens
 
 Think of DynamicTokens as ZIP file names, and when the game reads the code, the file is "unzipped" and all the data goes into the code as if it were already written there. This is very handy for using as a shortcut for repetitive code.
@@ -127,7 +132,6 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
     }
 ]
 ```
-
 ### Basic Information
 
 | Name | Value | Meaning |
@@ -154,6 +158,8 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
+
+
 
 ### Mod Compat Nicknames
 
@@ -202,6 +208,8 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ```
 </details>
 
+
+
 ### Directions
 
 | Name | Value |
@@ -233,6 +241,8 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 ```
 </details>
+
+
 
 ### Emotes
 
@@ -313,16 +323,18 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
+
 ### Time
 
-| Name | Value |
-| --- | --- |
-| `6am` | `600` |
-| `610am` | `610` |
-| `620am` | `620` |
-| `630am` | `630` |
-| `640am` | `640` |
-| `650am` | `650` |
+| Name | Value | 
+| --- | --- | 
+| `6am` | `600` | 
+| `610am` | `610` | 
+| `620am` | `620` | 
+| `630am` | `630` | 
+| `640am` | `640` | 
+| `650am` | `650` | 
 | `7am` | `700` |
 | `710am` | `710` |
 | `720am` | `720` |
@@ -925,6 +937,8 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
+
 ### Dialogue
 
 #### Doctor
@@ -935,7 +949,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | `medsDialogueBDay` | `{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}` |  |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
@@ -943,50 +957,136 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
+
 #### First of Season
 
-| Name | Value | When |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Name | Value |
+| --- | --- |
+| `springFirst` | `{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}` |
+| `summerFirst` | `{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}` |
+| `fallFirst` | `{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}` |
+| `winterFirst` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
-//First of Season
-{"Name": "springFirst","Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "summerFirst","Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "fallFirst","Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "winterFirst","Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",},
-//Festivals
+{
+    "Name": "springFirst",
+    "Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "summerFirst",
+    "Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "fallFirst",
+    "Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "winterFirst",
+    "Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",
+}, 
+```
+</details>
+
+
+
+#### Festivals
+
+Egg Festival
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "eggFestYest","Value": "{{i18n:eggFestival_yesterday_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "eggFestToday","Value": "{{i18n:eggFestival_today_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "eggFestTomo","Value": "{{i18n:eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}",},
+```
+</details>
 
+Flower Dance
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "flowDanYest","Value": "{{i18n:flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "flowDanToday","Value": "{{i18n:flowerDance_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanTomo","Value": "{{i18n:flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Luau
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "luauYest","Value": "{{i18n:luau_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "luauToday","Value": "{{i18n:luau_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "luauTomo","Value": "{{i18n:luau_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Potluck
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "potluckYest","Value": "{{i18n:potluck_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckToday","Value": "{{i18n:potluck_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckTomo","Value": "{{i18n:potluck_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Dance of the Moonlight Jellies
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "MooJellYest","Value": "{{i18n:moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "MooJellToday","Value": "{{i18n:moonlightJellies_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "MooJellTomo","Value": "{{i18n:moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Stardew Valley Fair
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "FairYest","Value": "{{i18n:stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairToday","Value": "{{i18n:stardewFair_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairTomo","Value": "{{i18n:stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}",},
@@ -995,15 +1095,51 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "FairJudgeLost","Value": "{{i18n:Fair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudgeWon","Value": "{{i18n:Fair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudged","Value": "{{i18n:Fair_Judged_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Spirit's Eve
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "spiritsEveYest","Value": "{{i18n:spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "spiritsEveToday","Value": "{{i18n:spiritsEve_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "spiritsEveTomo","Value": "{{i18n:spiritsEve_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Ice Festival
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "iceFestYest","Value": "{{i18n:iceFestival_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "iceFestToday","Value": "{{i18n:iceFestival_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "iceFestTomo","Value": "{{i18n:iceFestival_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
 
+Feast of the Winter Star
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+     
+```
 {"Name": "winterStarYest","Value": "{{i18n:winterStar_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarToday","Value": "{{i18n:winterStar_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarTomo","Value": "{{i18n:winterStar_tomorrow_{{Random:{{Range:1,3}}}}}}",},
@@ -1012,6 +1148,20 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}",},
+```
+</details>
+
+
+#### Generic Dialogue
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 //Generic
 {"Name": "generic","Value": "{{i18n:generic_{{Random:{{Range:1,14}}}}}}",},
 
@@ -1024,24 +1174,101 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "marriedGenSummer","Value": "{{i18n:married_genericsummer_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "marriedGenFall","Value": "{{i18n:married_genericfall_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "marriedGenWinter","Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",},
-//Weather
+```
+</details>
+
+
+
+#### Weather
+
+GreenRain
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "gRain3","Value": "{{i18n:GreenRain_3_{{Random:{{Range:1,10}}}}}}",},
 {"Name": "gRain3Fin","Value": "{{i18n:GreenRainFinished_3_{{Random:{{Range:1,10}}}}}}",},
-    //Spring
+```
+</details>
+
+
+Spring
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "spRain","Value": "{{i18n:springRain_{{Random:{{Range:1,6}}}}}}",},
 {"Name": "spStorm","Value": "{{i18n:springStorm_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "spWind","Value": "{{i18n:springWind_{{Random:{{Range:1,3}}}}}}",},
-    //Summer
+```
+</details>
+
+Summer
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "suRain","Value": "{{i18n:summerRain_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "suStorm","Value": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",},
-    //Fall
+```
+</details>
+
+Fall
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "faRain","Value": "{{i18n:fallRain_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "faStorm","Value": "{{i18n:fallStorm_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "faWind","Value": "{{i18n:fallWind_{{Random:{{Range:1,3}}}}}}",},
-    //Winter
+```
+</details>
+
+Winter
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "wiRain","Value": "{{i18n:winterRain_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "snowingD","Value": "{{i18n:Snowing_{{Random:{{Range:1,5}}}}}}",},
-//Hearts
+```
+</details>
+
+Heart Dialogue
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "0hearts","Value": "{{i18n:0hearts_{{Random:{{Range:1,10}}}}}}",},
 {"Name": "2hearts","Value": "{{i18n:2hearts_{{Random:{{Range:1,8}}}}}}",},
 {"Name": "4hearts","Value": "{{i18n:4hearts_{{Random:{{Range:1,5}}}}}}",},
@@ -1049,10 +1276,35 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "8hearts","Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}",},
 {"Name": "8heartsdating","Value": "{{i18n:8heartsdating_{{Random:{{Range:1,10}}}}}}",},
 {"Name": "10hearts","Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}",},
-//Conversation Topics
+```
+</dialogue>
+
+
+Conversation Topics
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "dumpsterDive","Value": "{{i18n:DumpsterDiveComment_{{Random:{{Range:1,10}}}}}}",},
 {"Name": "hitSlingshot","Value": "{{i18n:HitBySlingshot_{{Random:{{Range:1,10}}}}}}",},
-//Married Dialogue
+```
+</details>
+
+Married Dialogue
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "inSpouseRoom","Value": "{{i18n:inSpouseRoom_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "onSpousePatio","Value": "{{i18n:spousepatio_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "marRainDay","Value": "{{i18n:Rainy_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
@@ -1066,18 +1318,53 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "marOneKid","Value": "{{i18n:OneKid_{{Random:0,{{Range:1,4}}}}}}",},
 {"Name": "marTwoKids","Value": "{{i18n:TwoKids_{{Random:0,{{Range:1,4}}}}}}",},
 {"Name": "marNoBed","Value": "{{i18n:NoBed_{{Random:0,{{Range:1,4}}}}}}",},
-//Divorce Dialogue
+```
+</dialogue>
+
+Divorce Dialogue
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}",},
 {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "divorcedRejectMPend","Value": "{{i18n:RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}",},
-//Movie Invites
+```
+</details>
+
+Movie Invites
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "movieInvite","Value": "{{i18n:MovieInvitation_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "movieInviteSpouse","Value": "{{i18n:MovieInvite_Spouse_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "movieInviteAlrInv","Value": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "movieInviteAlrWat","Value": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "movieInviteDivorced","Value": "{{i18n:RejectMovieTicket_Divorced_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "movieInviteDislike","Value": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie_{{Random:{{Range:1,3}}}}}}",},
-//Island Dialogue
+```
+
+Island Dialogue
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "resortD","Value": "{{i18n:Resort_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "resortBarD","Value": "{{i18n:Resort_Bar_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "resortChairD","Value": "{{i18n:Resort_Chair_{{Random:{{Range:1,3}}}}}}",},
@@ -1088,7 +1375,19 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "resortTowelD","Value": "{{i18n:Resort_Towel_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "resortUmbrellaD","Value": "{{i18n:Resort_Umbrella_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "resortWanderD","Value": "{{i18n:Resort_Wander_{{Random:{{Range:1,3}}}}}}",},
-//Spouse Areas -> StringsFromCSFiles
+```
+</dialogues>
+
+Strings - Map Objects 
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 {"Name": "ravenDesk","Value": "{{i18n:Desk_{{Random:{{Range:1,2}}}}}}",},
 {"Name": "ravenGuitar","Value": "{{i18n:Guitar_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "ravenLoosePaper","Value": "{{i18n:LoosePaper_{{Random:{{Range:1,4}}}}}}",},
@@ -1105,11 +1404,28 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 {"Name": "ravenComputer","Value": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "ravenCoatRack","Value": "{{i18n:CoatRack_{{Random:{{Range:1,7}}}}}}",},
+```
+</details>
+
+
+
+### Mod Compat
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
 //Mod Compat
 {"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
 
 ```
 </details>
+
+
 
 ### Animations
 
@@ -1122,7 +1438,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | `aniEdible` | `l0veraven_raven_edible` |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1148,6 +1464,8 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
+
 ### Schedule Dialogue
 
 | Name | Value |
@@ -1159,7 +1477,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1184,15 +1502,16 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
-### Locations
 
+
+### Locations
 #### Bus Stop
 | Name | Value | When | Map | Vanilla / SVE / Both |
 | --- | --- | --- | --- | --- |
 | `standBusStop` | `{{i18n:standBusStop}}` |  | Bus Stop | X |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1202,21 +1521,20 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
-
 #### Forest
-| Name | Value | When | Vanilla / SVE / Both |
+| Name | Value | When | Mods |
 | --- | --- | --- | --- |
-| `relaxForest` | `{{i18n:relaxForest}}` | `"HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "false"` | Vanilla |
+| `relaxForest` | `{{i18n:relaxForest}}` | `"HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "false"` |  |
 | `relaxForest` | `{{i18n:relaxForestSVE}}` | `"HasMod |contains={{SVE}}": "true"`, `"HasMod |contains={{NB}}": "false"` | SVE |
-| `standRiverForest` | `{{i18n:standRiverForest}}` | `"HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "false"` | Vanilla |
+| ``relaxForest | `{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}` | `HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "true",` |  |
+| `` | `` | `` |  |
+| `standRiverForest` | `{{i18n:standRiverForest}}` | `"HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "false"` |  |
 | `standRiverForest` | `{{i18n:standRiverForestSVE}}` | `"HasMod |contains={{SVE}}": "true"`, `"HasMod |contains={{NB}}": "false"` | SVE |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
+| `` | `` | `` |  |
+| `` | `` | `` |  |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1235,6 +1553,20 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
         "HasMod |contains={{NB}}": "false",
     },
 },
+{
+    "Name": "relaxForest",
+    "Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
+    "When": {
+        "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
+    },
+},
+{
+    "Name": "relaxForest",
+    "Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
+    "When": {
+        "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"
+    ,}
+,},
 
 {
     "Name": "standRiverForest",
@@ -1252,8 +1584,25 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
         "HasMod |contains={{NB}}": "false",
     },
 },
+{
+    "Name": "standRiverForest",
+    "Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
+    "When": {
+        "HasMod |contains={{SVE}}": "false",
+        "HasMod |contains={{NB}}": "true",
+    },
+},
+{
+    "Name": "standRiverForest",
+    "Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
+    "When": {
+        "HasMod |contains={{SVE}}": "true",
+        "HasMod |contains={{NB}}": "true",
+    },
+},
 ```
 </details>
+
 
 #### Custom_L0veRaven_RavenTentInside(SVE)
 | Name | Value | When | Vanilla / SVE / X |
@@ -1264,7 +1613,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | `tentInside` | `{{i18n:tentInsideSVE}}` | `"HasMod |contains={{SVE}}": "true"` | SVE |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1306,6 +1655,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### FRL_NPCApt_Floor1
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1315,7 +1665,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | `inBed` | `{{tentInside}} {{i18n:inBed}} l0veraven_raven_sleep"` |  | X |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1340,35 +1690,15 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### Town
 | Name | Value | When | V / S / X |
 | --- | --- | --- | --- |
-| `relaxForest` | `{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}` | `"HasMod |contains={{SVE}}": "false"`, `"HasMod |contains={{NB}}": "true" ` | V |
-| `relaxForest` | `{{Random:{{i18n:relaxForestSVE}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}` | `"HasMod |contains={{SVE}}": "true"`, `"HasMod |contains={{NB}}": "true" ` | S |
-| ```relaxBushTown
-{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}
-"HasMod |contains={{NB}}": "true``` | ```relaxBushTown
-{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}
-"HasMod |contains={{NB}}": "true``` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
-| `````` | `````` | `````` | --- |
+| `relaxBushTown` | `{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}` | `"HasMod |contains={{NB}}": "true"` |  |
+| `relaxBushTown` | `{{Random:{{i18n:relaxForestSVE}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}` | `"HasMod |contains={{NB}}": "true"` |  |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1392,13 +1722,14 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### Hospital
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1408,13 +1739,14 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### Seed Shop
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1423,6 +1755,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 },
 ```
 </details>
+
 
 #### Saloon
 | Name | Value | When | Vanilla / SVE / X |
@@ -1433,7 +1766,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1456,6 +1789,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### Archaeology House
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1463,7 +1797,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1483,13 +1817,14 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 </details>
 
+
 #### Beach
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1498,18 +1833,21 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 },
 ```
 </details>
+
 #### Mountain
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
 ```
 </details>
+
+### Randomizers
 #### Clinic Day Randomizer
 | Name | Value | When | Vanilla / SVE / X |
 | --- | --- | --- | --- |
@@ -1517,10 +1855,17 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "goToClinic",
+    "Value": "{{610am}} {{standMeds}}",
+},
+{
+    "Name": "postClinic",
+    "Value": "{{Random:{{standMountain}},{{relaxBeach}},{{standBookcase}},{{standCC}}}}",
+},
 ```
 </details>
 #### Morning/Night
@@ -1531,10 +1876,21 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
-
+{
+    "Name": "goodMorning",
+    "Value": "{{610am}} {{standStove}}",
+},
+{
+    "Name": "goodMorningBus",
+    "Value": "{{610am}} {{standBusStop}}",
+},
+{
+    "Name": "goodNight",
+    "Value": "{{10pm}} {{standStove}}/{{130am}} {{inBed}}",
+},
 ```
 </details>
 #### Job Schedules
@@ -1544,7 +1900,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
@@ -1559,7 +1915,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
@@ -1572,7 +1928,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
@@ -1586,7 +1942,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
@@ -1599,7 +1955,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 
@@ -1615,164 +1971,133 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 | --- | --- |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
-//Locations
-    //Mod Compat: Nature's Bounty
-        //Forest
-{
-    "Name": "relaxForest",
-    "Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
-    },
-},
-{
-    "Name": "relaxForest",
-    "Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"
-    ,}
-,},
+```
+</details>
 
-{
-    "Name": "standRiverForest",
-    "Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "false",
-        "HasMod |contains={{NB}}": "true",
-    },
-},
-{
-    "Name": "standRiverForest",
-    "Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "true",
-        "HasMod |contains={{NB}}": "true",
-    },
-},
-//Town
-{
-    "Name": "relaxBushTown",
-    "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
-    },
-},
-{
-    "Name": "relaxBushTown",
-    "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-    "When": {
-        "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",
-    },
-},
-//Clinic Day Randomizer
-{
-    "Name": "goToClinic",
-    "Value": "{{610am}} {{standMeds}}",
-},
-{
-    "Name": "postClinic",
-    "Value": "{{Random:{{standMountain}},{{relaxBeach}},{{standBookcase}},{{standCC}}}}",
-},
-//Morning/Night
-{
-    "Name": "goodMorning",
-    "Value": "{{610am}} {{standStove}}",
-},
-{
-    "Name": "goodMorningBus",
-    "Value": "{{610am}} {{standBusStop}}",
-},
-{
-    "Name": "goodNight",
-    "Value": "{{10pm}} {{standStove}}/{{130am}} {{inBed}}",
-},
-//Job Schedules (Arrive at 9:50 from Tent)
-{
-    "Name": "postJobSaloon1",
-    "Value": "{{standMountain}}",
-    "When": {
-        "HasReadLetter": "{{Raven}}Apartment",
-    },
-},
-{
-    "Name": "postJobSaloon1",
-    "Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
-    "When": {
-        "HasFlag: |contains={{Raven}}Apartment": false,
-    },
-},
+#### Blank
+
+```
+//Locations
+                    //Mod Compat: Nature's Bounty
+                        //Forest
+
+                        //Town
+                            {
+                                "Name": "relaxBushTown",
+                                "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
+                                "When": {
+                                    "HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true",
+                                },
+                            },
+                            {
+                                "Name": "relaxBushTown",
+                                "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
+                                "When": {
+                                    "HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true",
+                                },
+                            },
+    //Clinic Day Randomizer
+
+    //Morning/Night
+
+    //Job Schedules (Arrive at 9:50 from Tent)
+        {
+            "Name": "postJobSaloon1",
+            "Value": "{{standMountain}}",
+            "When": {
+                "HasReadLetter": "{{Raven}}Apartment",
+            },
+        },
+        {
+            "Name": "postJobSaloon1",
+            "Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
+            "When": {
+                "HasFlag: |contains={{Raven}}Apartment": false,
+            },
+        },
     //Free Days
-{
-    "Name": "freeDay1",
-    "Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-},
-{
-    "Name": "freeDay2",
-    "Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
-},
-{
-    "Name": "freeDay3",
-    "Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",
-},
-{
-    "Name": "freeDay4",
-    "Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",
-},
+        {
+            "Name": "freeDay1",
+            "Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+        },
+        {
+            "Name": "freeDay2",
+            "Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}",
+        },
+        {
+            "Name": "freeDay3",
+            "Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}",
+        },
+        {
+            "Name": "freeDay4",
+            "Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}",
+        },
     //Free Day Shop
-{
-    "Name": "fds1",
-    "Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
-},
-{
-    "Name": "fds2",
-    "Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
-},
+        {
+            "Name": "fds1",
+            "Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
+        },
+        {
+            "Name": "fds2",
+            "Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}",
+        },
     //Job Randomizers
-{
-    "Name": "jobTasksSaloon",
-    "Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
-},
-{
-    "Name": "jobTasksSaloon_married",
-    "Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
-},
-{
-    "Name": "postJobSaloon",
-    "Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",
-},
-//Schedule Randomizers
-{
-    "Name": "freeDays",
-    "Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",
-},
-{
-    "Name": "freeDaysRandom",
-    "Value": "{{freeDays}}",
-},
-{
-    "Name": "freeDayShopRandom",
-    "Value": "{{Random:{{fds1}},{{fds2}}}}",
-},
-//Random Tokens
-{
-    "Name": "workDay",
-    "Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",
-},
-{
-    "Name": "freeDay",
-    "Value": "{{freeDaysRandom}}",
-},
-{
-    "Name": "freeDayShop",
-    "Value": "{{freeDayShopRandom}}",
-},
-{
-    "Name": "medsDay",
-    "Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
-},
+        {
+            "Name": "jobTasksSaloon",
+            "Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
+        },
+        {
+            "Name": "jobTasksSaloon_married",
+            "Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}",
+        },
+        {
+            "Name": "postJobSaloon",
+            "Value": "{{6pm}} {{Random:{{postJobSaloon1}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}",
+        },
+```
+</details>
+
+Schedule Randomizers
+
+| Name | Value |
+| --- | --- |
+| --- | --- |
+
+<details>
+    <summary>Expand Code</summary>
+
+```
+    {
+        "Name": "freeDays",
+        "Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}",
+    },
+    {
+        "Name": "freeDaysRandom",
+        "Value": "{{freeDays}}",
+    },
+    {
+        "Name": "freeDayShopRandom",
+        "Value": "{{Random:{{fds1}},{{fds2}}}}",
+    },
+    {
+        "Name": "workDay",
+        "Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}",
+    },
+    {
+        "Name": "freeDay",
+        "Value": "{{freeDaysRandom}}",
+    },
+    {
+        "Name": "freeDayShop",
+        "Value": "{{freeDayShopRandom}}",
+    },
+    {
+        "Name": "medsDay",
+        "Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}",
+    },
 ```
 </dialogue>
 
@@ -1783,7 +2108,7 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 |`fadeout` |  `globalFade/viewport -1000 -1000` | - | VFX - Fade in |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
@@ -1811,19 +2136,17 @@ The game loads the maps and associates them with the new locations.
 | `Custom_L0veRaven_RavenTentInsideSVE` | `data/maps/L0veRaven_RavenTentInsideSVE.tmx` |
 
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
-"CustomLocations": [
-    {
-        "Name": "Custom_L0veRaven_RavenTentInside",
-        "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx",
-    },
-    {
-        "Name": "Custom_L0veRaven_RavenTentInsideSVE",
-        "FromMapFile": "data/maps/L0veRaven_RavenTentInsideSVE.tmx",
-    },
-]
+{
+    "Name": "Custom_L0veRaven_RavenTentInside",
+    "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx",
+},
+{
+    "Name": "Custom_L0veRaven_RavenTentInsideSVE",
+    "FromMapFile": "data/maps/L0veRaven_RavenTentInsideSVE.tmx",
+},
 ```
 </details>
 
@@ -1850,7 +2173,7 @@ There is where I put my `Load`s and `Include`s. The order they load in is very i
 | `ModCompat` | `Include` |  | `data/modCompat/CJBWarps.json`, `data/modCompat/naturesBounty.json`, `data/modCompat/eventExcludesDELETE.json`, `data/modCompat/downtownZuzu.json`, `data/modCompat/ridgesideVillage.json`, `data/modCompat/pelicanTownPotluck.json`, `data/modCompat/fireworksFestival.json`, `data/modCompat/solsticeWinterStar.json`, `data/modCompat/stardewValleyExpanded.json` | Includes files required for certain mod compatability. |
     
 <details>
-    <summary>"Expand Code"</summary>
+    <summary>Expand Code</summary>
     
 ```
 {
