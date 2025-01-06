@@ -173,7 +173,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 ### Directions
 
 | Name | Value | Meaning |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `up` | `0` | Up |
 | `right` | `1` | Right |
 | `down` | `2` | Down |
