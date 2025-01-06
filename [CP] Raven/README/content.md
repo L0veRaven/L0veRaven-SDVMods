@@ -13,7 +13,7 @@
 
 | Name | Default | AllowValues | AllowBlank | Section | Description |
 |--- |--- |--- |--- |--- |--- |
-| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | --- | --- |--- |
+| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false` | `<custom_value>` | `<custom string>` |
 | Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Allow the field to be blank | (Optional) Section title | Description displayed when hovering in GMCM settings |
 | --- | --- | --- | --- | --- |--- |
 | --- | --- | --- | --- | --- |--- |
