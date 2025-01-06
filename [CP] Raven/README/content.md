@@ -172,12 +172,12 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 
 ### Directions
 
-| Name | Value | Meaning |
-| --- | --- | --- |
-| `up` | `0` | Up |
-| `right` | `1` | Right |
-| `down` | `2` | Down |
-| `left` | `3` | Left |
+| Name | Value |
+| --- | --- |
+| `up` | `0` |
+| `right` | `1` |
+| `down` | `2` |
+| `left` | `3` |
 
 ```
 {
