@@ -11,9 +11,15 @@
 
 ## ConfigSchema Formatting
 
-| Name | Default | AllowValues | AllowBlank | Section | Meaning |
-| --- | --- | --- | --- | --- | --- |
-|`Default` | `true`, `false`, `<custom value>` | The value to default to |
+| Name | Default | AllowValues | AllowBlank | Section |
+|--- |--- |--- |--- |--- |--- |
+| `<custom value>` | `true`, `false`, `<custom value>` | `true`, `false`, `<custom value>` | --- | --- |
+| Dynamic Token Name;`{{<custom_value>}}` when used in code | Default setting | Multiple values allowed | Can leave the field blank | (Optional) Section title |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 |`AllowValues` | `true`, `false`, `<custom value>` | Value(s) for the token to choose |
 |`AllowBlank` | `true`, `false` | Can the field be left blank? |
 |`Section` | `<custom value>` | (Optional) Label for the section the token belongs in |
