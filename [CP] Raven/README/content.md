@@ -1166,7 +1166,68 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 ### Dialogue: WIP
 
-#### Doctor
+#### First of Season
+
+| Name | Value |
+| --- | --- |
+| `springFirst` | `{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}` |
+| `summerFirst` | `{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}` |
+| `fallFirst` | `{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}` |
+| `winterFirst` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
+| `firstOfSeason` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
+
+<details>
+    <summary>Expand Code</summary>
+    
+```
+{
+    "Name": "springFirst",
+    "Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "summerFirst",
+    "Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "fallFirst",
+    "Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "winterFirst",
+    "Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",
+},
+{
+    "Name": "firstOfSeason",
+    "Value": "{{springFirst}}",
+    "When": {
+        "Season": "spring",
+    }
+},
+{
+    "Name": "firstOfSeason",
+    "Value": "{{summerFirst}}",
+    "When": {
+        "Season": "summer",
+    }
+}, 
+{
+    "Name": "firstOfSeason",
+    "Value": "{{fallFirst}}",
+    "When": {
+        "Season": "fall",
+    }
+}, 
+{
+    "Name": "firstOfSeason",
+    "Value": "{{winterFirst}}",
+    "When": {
+        "Season": "winter",
+    }
+},
+```
+</details>
+
+#### Doctor: Complete
 
 | Name | Value | When |
 | --- | --- | --- |
@@ -1191,39 +1252,6 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 },
 ```
 </details>
-
-#### First of Season
-
-| Name | Value |
-| --- | --- |
-| `springFirst` | `{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}` |
-| `summerFirst` | `{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}` |
-| `fallFirst` | `{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}` |
-| `winterFirst` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
-
-<details>
-    <summary>Expand Code</summary>
-    
-```
-{
-    "Name": "springFirst",
-    "Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",
-},
-{
-    "Name": "summerFirst",
-    "Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",
-},
-{
-    "Name": "fallFirst",
-    "Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",
-},
-{
-    "Name": "winterFirst",
-    "Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",
-}, 
-```
-</details>
-
 
 #### Festivals
 

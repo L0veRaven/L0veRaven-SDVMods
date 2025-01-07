@@ -669,33 +669,40 @@
     //Dialogue
         //Doctor
         {
-            "Name": "medsDialogue",
+            "Name": "medsDialogueNormal",
             "Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",
+            "When": {
+                "Season": "spring, summer, fall",
+            }
+        },
+        {
+            "Name": "medsDialogueNormal",
+            "Value": "",
+            "When": {
+                "Season": "winter",
+            }
         },
         {
             "Name": "medsDialogueBDay",
-            "Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",
+            "Value": "",
             "When": {
-                "Season": "winter",
-                "Day": "18",
+                "Season": "spring, summer, fall",
             }
         },
-        //First of Season
         {
-            "Name": "springFirst",
-            "Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",
+            "Name": "medsDialogueBDay",
+            "Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,2}}}}}}",
+            "When": {
+                "Season": "winter",
+            }
         },
         {
-            "Name": "summerFirst",
-            "Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",
+            "Name": "medsDialogue",
+            "Value": "{{medsDialogueNormal}}{{medsDialogueBDay}}",
         },
         {
-            "Name": "fallFirst",
-            "Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",
-        },
-        {
-            "Name": "winterFirst",
-            "Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",
+            "Name": "firstOfSeason",
+            "Value": "{{i18n:{{season}}_first_{{Random:{{Range:1,4}}}}}}",
         },
         //Festivals
         {
