@@ -1169,19 +1169,28 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 #### Doctor
 
 | Name | Value | When |
-| --- | --- |
+| --- | --- | --- |
 | `medsDialogue` |  `{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}` |  |
-| `medsDialogueBDay` | `{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}` |  |
+| `medsDialogue` | `{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}` | `"Season": "winter"`, `"Day": "18",` |
 
 <details>
     <summary>Expand Code</summary>
     
 ```
-{"Name": "medsDialogue","Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",},
-{"Name": "medsDialogueBDay","Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",},
+{
+    "Name": "medsDialogue",
+    "Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",
+},
+{
+    "Name": "medsDialogue",
+    "Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",
+    "When": {
+        "Season": "winter",
+        "Day": "18",
+    }
+},
 ```
 </details>
-
 
 #### First of Season
 
