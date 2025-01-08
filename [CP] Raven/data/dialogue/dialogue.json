@@ -12,21 +12,14 @@
             },
         },
         {
-            "LogName": "dialogue.json: Birthday Dialogue",
+            "LogName": "dialogue.json: Birthday & Doctor Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "spring_18": "{{medsDialogue}}",
                 "summer_18": "{{medsDialogue}}",
                 "fall_18": "{{medsDialogue}}",
-            },
-        },
-        {
-            "LogName": "dialogue.json: Birthday & Doctor Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "winter_18": "{{medsDialogue}}",
+                "winter_18": "{{medsDialogue}}",                
             },
         },
         {
@@ -68,7 +61,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Mon": "{{genericSpring}}","{{season}}_Thu": "{{genericSpring}}",
+                "Mon": "{{genericSeason}}","Thu": "{{genericSeason}}",
             },
         },
         {
@@ -76,7 +69,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Tue": "{{generic}}","{{season}}_Sun": "{{generic}}",
+                "Tue": "{{generic}}","Sun": "{{generic}}",
             },
         },
         {
@@ -86,16 +79,6 @@
             "Entries": {
                 //{{Raven}}_CatLover, {{Raven}}_CheckIn
                 "{{season}}_Wed": "{{0hearts}}","{{season}}_Fri": "{{0hearts}}","{{season}}_Sat": "{{0hearts}}",
-                //{{Raven}}_
-                "{{season}}_Wed2": "{{2hearts}}","{{season}}_Fri2": "{{2hearts}}","{{season}}_Sat2": "{{2hearts}}",
-                //{{Raven}}_
-                "{{season}}_Wed4": "{{4hearts}}","{{season}}_Fri4": "{{4hearts}}","{{season}}_Sat4": "{{4hearts}}",
-                //{{Raven}}_
-                "{{season}}_Wed6": "{{6hearts}}","{{season}}_Fri6": "{{6hearts}}","{{season}}_Sat6": "{{6hearts}}",
-                //{{Raven}}_Apartment
-                "{{season}}_Wed8": "{{8hearts}}","{{season}}_Fri8": "{{8hearts}}","{{season}}_Sat8": "{{8hearts}}",
-                //{{Raven}}_
-                "{{season}}_Wed10": "{{10hearts}}","{{season}}_Fri10": "{{10hearts}}","{{season}}_Sat10": "{{10hearts}}",
             },
         },
         {

@@ -667,38 +667,28 @@
             "Value": "2550",
         },
     //Dialogue
-        //Doctor
+        //Doctor        
         {
             "Name": "medsDialogueNormal",
             "Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",
-            "When": {
-                "Season": "spring, summer, fall",
-            }
-        },
-        {
-            "Name": "medsDialogueNormal",
-            "Value": "",
-            "When": {
-                "Season": "winter",
-            }
-        },
-        {
-            "Name": "medsDialogueBDay",
-            "Value": "",
-            "When": {
-                "Season": "spring, summer, fall",
-            }
         },
         {
             "Name": "medsDialogueBDay",
             "Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,2}}}}}}",
+        },
+        {
+            "Name": "medsDialogue",
+            "Value": "{{medsDialogueNormal}}",
             "When": {
-                "Season": "winter",
+                "Query: '{{Season}}' = 'winter'": true,
             }
         },
         {
             "Name": "medsDialogue",
-            "Value": "{{medsDialogueNormal}}{{medsDialogueBDay}}",
+            "Value": "{{medsDialogueNormal}}",
+            "When": {
+                "Query: '{{Season}}' = 'winter'": false,
+            }
         },
         {
             "Name": "firstOfSeason",
@@ -762,17 +752,100 @@
         {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",},
         {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}",},
         //Generic
-        {"Name": "generic","Value": "{{i18n:generic_{{Random:{{Range:1,14}}}}}}",},
-
-        {"Name": "genericSpring","Value": "{{i18n:genericspring_{{Random:{{Range:1,7}}}}}}",},
-        {"Name": "genericSummer","Value": "{{i18n:genericsummer_{{Random:{{Range:1,7}}}}}}",},
-        {"Name": "genericFall","Value": "{{i18n:genericfall_{{Random:{{Range:1,7}}}}}}",},
-        {"Name": "genericWinter","Value": "{{i18n:genericwinter_{{Random:{{Range:1,7}}}}}}",},
-
-        {"Name": "marriedGenSpring","Value": "{{i18n:married_genericspring_{{Random:{{Range:1,3}}}}}}",},
-        {"Name": "marriedGenSummer","Value": "{{i18n:married_genericsummer_{{Random:{{Range:1,5}}}}}}",},
-        {"Name": "marriedGenFall","Value": "{{i18n:married_genericfall_{{Random:{{Range:1,3}}}}}}",},
-        {"Name": "marriedGenWinter","Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",},
+        {
+            "Name": "generic",
+            "Value": "{{i18n:generic_{{Random:{{Range:1,14}}}}}}",
+        },
+        //{{genericSeason}}
+        {
+            "Name": "genericSpring",
+            "Value": "{{i18n:genericspring_{{Random:{{Range:1,7}}}}}}",
+        },
+        {
+            "Name": "genericSummer",
+            "Value": "{{i18n:genericsummer_{{Random:{{Range:1,7}}}}}}",
+        },
+        {
+            "Name": "genericFall",
+            "Value": "{{i18n:genericfall_{{Random:{{Range:1,7}}}}}}",
+        },
+        {
+            "Name": "genericWinter",
+            "Value": "{{i18n:genericwinter_{{Random:{{Range:1,7}}}}}}",
+        },        
+        {
+            "Name": "genericSeason",
+            "Value": "{{genericSpring}}",
+            "When": {
+                "Query: '{{Season}}' = 'spring'": true,
+            }
+        },
+        {
+            "Name": "genericSeason",
+            "Value": "{{genericSummer}}",
+            "When": {
+                "Query: '{{Season}}' = 'summer'": true,
+            }
+        },
+        {
+            "Name": "genericSeason",
+            "Value": "{{genericFall}}",
+            "When": {
+                "Query: '{{Season}}' = 'fall'": true,
+            }
+        },
+        {
+            "Name": "genericSeason",
+            "Value": "{{genericWinter}}",
+            "When": {
+                "Query: '{{Season}}' = 'winter'": true,
+            }
+        },
+        //{{marriedGenericSeason}}
+        {
+            "Name": "marriedGenSpring",
+            "Value": "{{i18n:married_genericspring_{{Random:{{Range:1,3}}}}}}",
+        },
+        {
+            "Name": "marriedGenSummer",
+            "Value": "{{i18n:married_genericsummer_{{Random:{{Range:1,5}}}}}}",
+        },
+        {
+            "Name": "marriedGenFall",
+            "Value": "{{i18n:married_genericfall_{{Random:{{Range:1,3}}}}}}",
+        },
+        {
+            "Name": "marriedGenWinter",
+            "Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",
+        },
+        {
+            "Name": "marriedGenericSeason",
+            "Value": "{{marriedGenSpring}}",
+            "When": {
+                "Query: '{{Season}}' = 'spring'": true,
+            }
+        },
+        {
+            "Name": "marriedGenericSeason",
+            "Value": "{{marriedGenSummer}}",
+            "When": {
+                "Query: '{{Season}}' = 'summer'": true,
+            }
+        },
+        {
+            "Name": "marriedGenericSeason",
+            "Value": "{{marriedGenFall}}",
+            "When": {
+                "Query: '{{Season}}' = 'fall'": true,
+            }
+        },
+        {
+            "Name": "marriedGenericSeason",
+            "Value": "{{marriedGenWinter}}",
+            "When": {
+                "Query: '{{Season}}' = 'winter'": true,
+            }
+        },
         //Weather
         {"Name": "gRain3","Value": "{{i18n:GreenRain_3_{{Random:{{Range:1,10}}}}}}",},
         {"Name": "gRain3Fin","Value": "{{i18n:GreenRainFinished_3_{{Random:{{Range:1,10}}}}}}",},

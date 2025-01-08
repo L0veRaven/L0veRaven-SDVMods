@@ -3,6 +3,7 @@
     "Author": "L0veRaven",
     "Description": "Adds a neko NPC",
     "Version": "1.0.0",
+    "DeleteOldVersion": true,
     "UniqueID": "L0veRaven.Raven",
     "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {
@@ -30,8 +31,12 @@
             "IsRequired": "false",
         },
         {
-            "UniqueID": "L0veRaven.Core",
-            "IsRequired": "true",
+            "UniqueID": "L0veRaven.CoreCP",
+            "IsRequired": "false",
+        },
+        {
+            "UniqueID": "L0veRaven.CoreDLL",
+            "IsRequired": "false",
         },
         {
             "UniqueID": "LenneDalben.PelicanTownPotluck",
