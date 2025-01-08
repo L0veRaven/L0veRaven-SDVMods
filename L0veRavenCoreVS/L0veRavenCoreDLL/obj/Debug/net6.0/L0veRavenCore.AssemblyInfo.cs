@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("L0veRavenCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913eaa745e960590efdb7de580689db4fcd7c70f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f511ad86e94e15983a51435af484f88d5d2cfd0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("L0veRavenCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("L0veRavenCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
