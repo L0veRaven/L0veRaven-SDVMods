@@ -680,14 +680,14 @@
             "Name": "medsDialogue",
             "Value": "{{medsDialogueNormal}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": false,
+                "Query: '{{Season}}' = 'Winter'": false,
             }
         },
         {
             "Name": "medsDialogue",
             "Value": "{{medsDialogueBDay}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": true,
+                "Query: '{{Season}}' = 'Winter'": true,
             }
         },
         //{{firstOfSeason}}
@@ -778,28 +778,28 @@
             "Name": "genericSeason",
             "Value": "{{genericSpring}}",
             "When": {
-                "Query: '{{Season}}' = 'spring'": true,
+                "Query: '{{Season}}' = 'Spring'": true,
             }
         },
         {
             "Name": "genericSeason",
             "Value": "{{genericSummer}}",
             "When": {
-                "Query: '{{Season}}' = 'summer'": true,
+                "Query: '{{Season}}' = 'Summer'": true,
             }
         },
         {
             "Name": "genericSeason",
             "Value": "{{genericFall}}",
             "When": {
-                "Query: '{{Season}}' = 'fall'": true,
+                "Query: '{{Season}}' = 'Fall'": true,
             }
         },
         {
             "Name": "genericSeason",
             "Value": "{{genericWinter}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": true,
+                "Query: '{{Season}}' = 'Winter'": true,
             }
         },
         //{{marriedGenericSeason}}
@@ -844,7 +844,7 @@
             "Name": "marriedGenericSeason",
             "Value": "{{marriedGenWinter}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": true,
+                "Query: '{{Season}}' = 'Winter'": true,
             }
         },
         //Weather

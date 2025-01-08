@@ -15,7 +15,7 @@
             }
         },
         {
-            "LogName": "firstOfSeason - Year 2+",
+            "LogName": "firstOfSeason - Year 2",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
@@ -30,15 +30,15 @@
         },
         //{{medsDialogue}}
         {
-            "LogName": "dialogue.json: Birthday & Doctor Dialogue",
+            "LogName": "dialogue.json: Birthday Doctor Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "spring_18": "{{medsDialogue}}",
-                "summer_18": "{{medsDialogue}}",
-                "fall_18": "{{medsDialogue}}",
-                "winter_18": "{{medsDialogue}}",                
+                "Thu": "{{medsDialogue}}",
             },
+            "When": {
+                "Query: '{{Day}}' = '18'": "true",
+            }
         },
         //Festivals
         {
@@ -92,7 +92,7 @@
                 "winter": "{{i18n:winter}}",
             },
         },
-        //{{genericSeason}} Mon Thu
+        //{{genericSeason}} (Mon, Thu)
         {
             "LogName": "dialogue.json: Generic Seasonal Dialogue (Mon, Thu)",
             "Action": "EditData",
@@ -105,7 +105,7 @@
                 "Query: '{{day}}' = '18'": false,
             }
         },
-        //{{generic}} Tue Sun
+        //{{generic}} (Tue, Sun)
         {
             "LogName": "dialogue.json: Generic Dialogue (Tue, Sun)",
             "Action": "EditData",
@@ -236,7 +236,7 @@
             },
             "When": {
                 "Weather": "Rain",
-                "Season": "spring",
+                "Season": "Spring",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -256,7 +256,7 @@
             },
             "When": {
                 "Weather": "Storm",
-                "Season": "spring",
+                "Season": "Spring",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -276,7 +276,7 @@
             },
             "When": {
                 "Weather": "Wind",
-                "Season": "spring",
+                "Season": "Spring",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -311,7 +311,7 @@
             },
             "When": {
                 "Weather": "Rain",
-                "Season": "summer",
+                "Season": "Summer",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -331,7 +331,7 @@
             },
             "When": {
                 "Weather": "Storm",
-                "Season": "summer",
+                "Season": "Summer",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -352,7 +352,7 @@
             },
             "When": {
                 "Weather": "Rain",
-                "Season": "fall",
+                "Season": "Fall",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -372,7 +372,7 @@
             },
             "When": {
                 "Weather": "Storm",
-                "Season": "fall",
+                "Season": "Fall",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -392,7 +392,7 @@
             },
             "When": {
                 "Weather": "Wind",
-                "Season": "fall",
+                "Season": "Fall",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
@@ -412,7 +412,7 @@
             },
             "When": {
                 "Weather": "Rain",
-                "Season": "winter",
+                "Season": "Winter",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             },
         },
@@ -432,7 +432,7 @@
             },
             "When": {
                 "Weather": "Snow",
-                "Season": "winter",
+                "Season": "Winter",
                 "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
             }
         },
