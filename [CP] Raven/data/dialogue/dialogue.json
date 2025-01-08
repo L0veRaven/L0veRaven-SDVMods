@@ -101,6 +101,9 @@
                 "Mon": "{{genericSeason}}",
                 "Thu": "{{genericSeason}}",
             },
+            "When": {
+                "Query: '{{day}}' = '18'": false,
+            }
         },
         //{{generic}} Tue Sun
         {
@@ -176,9 +179,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{6hearts}}",
-                "Fri": "{{6hearts}}",
-                "Sat": "{{6hearts}}",
+                "Wed": "{{8hearts}}",
+                "Fri": "{{8hearts}}",
+                "Sat": "{{8hearts}}",
             },
             "When": {
                 "Hearts:{{Raven}}": "8",
