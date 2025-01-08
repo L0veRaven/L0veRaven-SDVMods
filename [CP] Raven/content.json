@@ -667,7 +667,7 @@
             "Value": "2550",
         },
     //Dialogue
-        //Doctor        
+        //{{medsDialogue}}, {{medsDialogueNormal}}, {{medsDialogueBDay}}        
         {
             "Name": "medsDialogueNormal",
             "Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",
@@ -680,16 +680,17 @@
             "Name": "medsDialogue",
             "Value": "{{medsDialogueNormal}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": true,
+                "Query: '{{Season}}' = 'winter'": false,
             }
         },
         {
             "Name": "medsDialogue",
-            "Value": "{{medsDialogueNormal}}",
+            "Value": "{{medsDialogueBDay}}",
             "When": {
-                "Query: '{{Season}}' = 'winter'": false,
+                "Query: '{{Season}}' = 'winter'": true,
             }
         },
+        //{{firstOfSeason}}
         {
             "Name": "firstOfSeason",
             "Value": "{{i18n:{{season}}_first_{{Random:{{Range:1,4}}}}}}",
