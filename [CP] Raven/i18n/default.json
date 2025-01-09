@@ -920,31 +920,6 @@
 "WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
 "WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
 "WildClans_speak_3": "I found it!$1#$b#Wanna see it?",
-"WildClans_speak_4": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
-"WildClans_speak_5": "",
 // || Event 3: 27407003 - {{Raven}}CleansingFarmer ||
 // || Event 4: 27407004 - {{Raven}}CleansingFarmer2 ||
 "CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
@@ -1116,8 +1091,8 @@
 // || {{Raven}}_CleansingFarmer - Event ||
 "CleansingFarmer_Mail": "Hi @,^^Do you remember our conversation yesterday about how I could teach you some spellwork? If you come to my tent when I'm home, I should be able to show you how I do cleansing spells.^^It's up to you, no pressure!^^~ Raven[#]Offering a Cleansing",
 // || {{Raven}}_CleansingFarmer2 - Event ||
-"CleansingFarmer2_Mail_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
-"CleansingFarmer2_Mail_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A \'Thank You\' Letter",
+"CleansingFarmer2_Mail_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
+"CleansingFarmer2_Mail_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
 "CleansingFarmer2_Mail_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
 // || {{Raven}}_JobInterview - Event ||
 "JobInterview_Mail": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
@@ -1387,7 +1362,7 @@
 "NBDialogue_19": "My body feels like what a static tv screen looks like.#$e@It's wild dude.",
 "NBDialogue_20": "I'm surprised Harvey doesn't sell CBD products. I feel like that'd help boost his income.",
 "NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407100 # Gus is making his special brownies again. I can't wait to eat some!$1 |Gus is gonna be making his special brownies tomorrow. I can't wait to eat some!$1##$action AddMail Current {{Raven}}_StonerLetter tomorrow#$b#You should come try some too. Gus could always use additional taste testers!",
-"NBDialogue_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407101 # ______ |______#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+"NBDialogue_22": "$query PLAYER_HAS_SEEN_EVENT Current 27407101 # ______ |______#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
 // || Schedule Dialogue ||
 "Forest_101_1": "%Raven is speaking slower than usual.#$b#I'm just having a little smoke break right now.#$b#I sure am having one hell of a blast!",
 "Forest_101_2": "%Raven is speaking slower than usual.#$b#What's up @? Do you want some? Here you go.[(O)Raspb3rryfields.NaturesBounty_Preroll]",
@@ -1404,5 +1379,5 @@
 //Smoke Session
 "SmokeSession_headline": "Smoke Session",
 "SmokeSession_summary": "Raven offered you to join them for a smoke session. Why not join in?",
-"SmokeSession_hint": "Visit Raven's tent.",
+"SmokeSession_hint": "Visit Raven's tent."
 }

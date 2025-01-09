@@ -4,13 +4,13 @@
             "LogName": "outfits.json: Character Loads",
             "Action": "Load",
             "Target": "Characters/index, Characters/{{Raven}}, Characters/{{Raven}}Neutral, Characters/{{Raven}}Spring, Characters/{{Raven}}Summer, Characters/{{Raven}}Fall, Characters/{{Raven}}Winter, Characters/{{Raven}}Beach, Characters/{{Raven}}Spring, Characters/{{Raven}}Sunflower, Characters/{{Raven}}Daisy, Characters/{{Raven}}Cactus, Characters/{{Raven}}Weed, Characters/{{Raven}}FlowerDance",
-            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "outfits.json: Portrait Loads",
             "Action": "Load",
             "Target": "Portraits/index, Portraits/{{Raven}}, Portraits/{{Raven}}Neutral, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Summer, Portraits/{{Raven}}Fall, Portraits/{{Raven}}Winter, Portraits/{{Raven}}Beach, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Sunflower, Portraits/{{Raven}}Daisy, Portraits/{{Raven}}Cactus, Portraits/{{Raven}}Weed, Portraits/{{Raven}}FlowerDance",
-            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "outfits.json: Appearance Data - Index",
@@ -25,8 +25,8 @@
                     "Portrait": "Portraits/index",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -42,8 +42,8 @@
                     "Portrait": "Portraits/{{Raven}}Spring",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -59,8 +59,8 @@
                     "Portrait": "Portraits/{{Raven}}Spring",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -76,8 +76,8 @@
                     "Portrait": "Portraits/{{Raven}}Summer",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -93,8 +93,8 @@
                     "Portrait": "Portraits/{{Raven}}Fall",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -110,8 +110,8 @@
                     "Portrait": "Portraits/{{Raven}}Winter",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -127,8 +127,8 @@
                     "Portrait": "Portraits/{{Raven}}FlowerDance",
                     "IsIslandAttire": false,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -144,8 +144,8 @@
                     "Portrait": "Portraits/{{Raven}}Sunflower",
                     "IsIslandAttire": false,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -161,8 +161,8 @@
                     "Portrait": "Portraits/{{Raven}}Daisy",
                     "IsIslandAttire": false,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -178,8 +178,8 @@
                     "Portrait": "Portraits/{{Raven}}Cactus",
                     "IsIslandAttire": false,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -195,8 +195,8 @@
                     "Portrait": "Portraits/{{Raven}}Weed",
                     "IsIslandAttire": false,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -211,8 +211,8 @@
                     "Portrait": "Portraits/{{Raven}}Beach",
                     "IsIslandAttire": true,
                     "Precedence": -1,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -228,8 +228,8 @@
                     "Portrait": "Portraits/{{Raven}}Neutral",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
         {
@@ -245,8 +245,8 @@
                     "Portrait": "Portraits/{{Raven}}",
                     "IsIslandAttire": false,
                     "Precedence": 0,
-                    "Weight": 1,
-                },
+                    "Weight": 1
+                }
             }
         },
     ]

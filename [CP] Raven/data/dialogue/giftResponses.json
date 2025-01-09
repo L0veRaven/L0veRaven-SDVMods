@@ -29,8 +29,8 @@
                 "AcceptGift_(O)772": "{{i18n:AcceptGift_cookLove}}",//Oil of Garlic
                 "AcceptGift_(O)798": "{{i18n:AcceptGift_cookLove}}",//Midnight Squid
                 "AcceptGift_(O)815": "{{i18n:AcceptGift_TeaLeaves}}",//Tea Leaves
-                "AcceptGift_(O)Book_PriceCatalogue": "{{i18n:AcceptGift_PriceCatalogue}}",//Price Catalogue
-            },
+                "AcceptGift_(O)Book_PriceCatalogue": "{{i18n:AcceptGift_PriceCatalogue}}"//Price Catalogue
+            }
         },
         {
             "LogName": "giftResponses.json: Liked",
@@ -63,8 +63,8 @@
                 "AcceptGift_(O)769": "{{i18n:AcceptGift_goodVibesLike}}",//Void Essence
                 "AcceptGift_(O)787": "{{i18n:AcceptGift_BatteryPack}}",//Battery Pack
                 "AcceptGift_(O)Book_AnimalCatalogue": "{{i18n:AcceptGift_Book_AnimalCatalogue}}",//Animal Catalogue
-                "AcceptGift_(O)Book_Trash": "{{i18n:AcceptGift_Book_Trash}}",//The Alleyway Buffet
-            },
+                "AcceptGift_(O)Book_Trash": "{{i18n:AcceptGift_Book_Trash}}"//The Alleyway Buffet
+            }
         },
         {
             "LogName": "giftResponses.json: Disliked",
@@ -93,8 +93,8 @@
                 "AcceptGift_(O)403": "{{i18n:AcceptGift_FieldSnack}}",//Field Snack
                 "AcceptGift_(O)605": "{{i18n:AcceptGift_notFanDislike}}",//Artichoke Dip
                 "AcceptGift_(O)797": "{{i18n:AcceptGift_notFanDislike}}",//Pearl
-                "AcceptGift_(O)Book_Friendship": "{{i18n:AcceptGift_Book_Friendship}}",//Friendship 101
-            },
+                "AcceptGift_(O)Book_Friendship": "{{i18n:AcceptGift_Book_Friendship}}"//Friendship 101
+            }
         },
         {
             "LogName": "giftResponses.json: Hated",
@@ -147,8 +147,8 @@
                 "AcceptGift_(O)796": "{{i18n:AcceptGift_uglyFish}}",//Slimejack
                 "AcceptGift_(O)799": "{{i18n:AcceptGift_uglyFish}}",//Spook Fish
                 "AcceptGift_(O)807": "{{i18n:AcceptGift_DinosaurMayonnaise}}",//Dinosaur Mayonnaise
-                "AcceptGift_(O)873": "{{i18n:AcceptGift_tasteHate}}",//Piña Colada
-            },
+                "AcceptGift_(O)873": "{{i18n:AcceptGift_tasteHate}}"//Piña Colada
+            }
         },
         {
             "LogName": "giftResponses.json: Neutral",
@@ -167,8 +167,8 @@
                 "AcceptGift_(O)419": "{{i18n:AcceptGift_usefulNeutral}}",//Vinegar
                 "AcceptGift_(O)428": "{{i18n:AcceptGift_usefulNeutral}}",//Cloth
                 "AcceptGift_(O)610": "{{i18n:AcceptGift_neutral}}",//Fruit Salad
-                "AcceptGift_(O)book_item": "{{i18n:AcceptGift_Books}}",//Books
-            },
+                "AcceptGift_(O)book_item": "{{i18n:AcceptGift_Books}}"//Books
+            }
         },
         {
             "LogName": "giftResponses.json: Generic Tastes",
@@ -180,8 +180,8 @@
                 "AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated}}",
                 "AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked}}",
                 "AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral}}",
-                "AcceptBirthdayGift": "{{i18n:AcceptBirthdayGift}}",
-            },
+                "AcceptBirthdayGift": "{{i18n:AcceptBirthdayGift}}"
+            }
         },
         {
             "LogName": "giftResponses.json: Dialogue Change - Married",
@@ -190,10 +190,10 @@
             "Entries": {
                 "RejectItem_(O)-19": "{{i18n:RejectItem_Fertilizer}}",//Fertilizer
                 "RejectItem_(O)-74": "{{i18n:RejectItem_Seeds}}",//Seeds Saplings Starters
-                "RejectItem_(O)Book_PriceCatalogue": "{{i18n:RejectItem_PriceCatalogue_married}}",//Price Catalogue
+                "RejectItem_(O)Book_PriceCatalogue": "{{i18n:RejectItem_PriceCatalogue_married}}"//Price Catalogue
             },
             "When": {
-                "Relationship:{{Raven}}": "Married",
+                "Relationship:{{Raven}}": "Married"
             }
         },
         {
@@ -201,10 +201,10 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "AcceptGift_(O)746": "{{i18n:AcceptGift_JackOLantern_Fall}}",// Jack-O-Lantern
+                "AcceptGift_(O)746": "{{i18n:AcceptGift_JackOLantern_Fall}}"// Jack-O-Lantern
             },
             "When": {
-                "Season": "fall",
+                "Season": "fall"
             }
         },
         {
@@ -218,8 +218,8 @@
                 "RejectItem(O)166": "{{i18n:RejectItem_valuable}}",//Treasure Chest
                 "RejectItem(O)773": "{{i18n:RejectItem_LifeElixir}}",//Life Elixir
                 "RejectItem(O)800": "{{i18n:RejectItem_Blobfish}}",//Blobfish
-                "RejectItem(O)842": "{{i18n:RejectItem_useless}}",//Journal Scrap
+                "RejectItem(O)842": "{{i18n:RejectItem_useless}}"//Journal Scrap
             }
-        },
+        }
     ]
 }

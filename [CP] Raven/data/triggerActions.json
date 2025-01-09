@@ -10,9 +10,9 @@
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current married_{{spouse}}, !PLAYER_NPC_RELATIONSHIP Current {{Raven}} Married",
                     "Actions": [
-                        "AddMail Current {{Raven}}_MarriageTalkFlag received",
+                        "AddMail Current {{Raven}}_MarriageTalkFlag received"
                     ]
-                },
+                }
             }
         },
         {
@@ -26,10 +26,10 @@
                     "Condition": "!PLAYER_HAS_MAIL Current {{Raven}}_ReceiveCoatRackMoneyFlag",
                     "Actions": [
                         "AddMoney 500",
-                        "AddMail Current {{Raven}}_ReceiveCoatRackMoneyFlag received",
+                        "AddMail Current {{Raven}}_ReceiveCoatRackMoneyFlag received"
                     ]
-                },
+                }
             }
-        },
+        }
     ]
 }

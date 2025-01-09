@@ -7,56 +7,56 @@
     "UniqueID": "L0veRaven.Raven",
     "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {
-        "UniqueID": "Pathoschild.ContentPatcher",
+        "UniqueID": "Pathoschild.ContentPatcher"
     },
     "Dependencies": [
         {
             "UniqueID": "Airyn.CPSolsticeWinterStar",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "CJBok.CheatsMenu",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "DTZ.DowntownZuzuDLL",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "FireRedLily.NPCApartments",
-            "IsRequired": "true",
+            "IsRequired": "true"
         },
         {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "L0veRaven.CoreCP",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "L0veRaven.CoreDLL",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "LenneDalben.PelicanTownPotluck",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "Rafseazz.RSVCP",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "Raspb3rryfields.NaturesBounty",
-            "IsRequired": "false",
+            "IsRequired": "false"
         },
         {
             "UniqueID": "spacechase0.SpaceCore",
-            "IsRequired": "true",
+            "IsRequired": "true"
         },
         {
             "UniqueID": "violetlizabet.CP.FireworksFestival",
-            "IsRequired": "false",
-        },
+            "IsRequired": "false"
+        }
     ]
 }

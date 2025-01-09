@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "MapPage.cs.{{Nexus}}001": "{{i18n:RavensTent_NameHover}}",
+                "MapPage.cs.{{Nexus}}001": "{{i18n:RavensTent_NameHover}}"
             }
         },
         {
@@ -13,10 +13,10 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "Game1.cs.2782": "{{i18n:AfterWedding}}",
+                "Game1.cs.2782": "{{i18n:AfterWedding}}"
             },
             "When": {
-                "Spouse": "{{Raven}}",
+                "Spouse": "{{Raven}}"
             }
         },
         {//Verified
@@ -24,10 +24,10 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "MapPage.cs.11097": "{{i18n:LinusTent_NameHover}}",//REPLACES DEFAULT CS STRING
+                "MapPage.cs.11097": "{{i18n:LinusTent_NameHover}}"//REPLACES DEFAULT CS STRING
             },
             "When": {
-                "HasMod |contains={{SVE}}": true,
+                "HasMod |contains={{SVE}}": true
             }
         },
         {//Verified
@@ -35,11 +35,11 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "NPC.cs.3980": "{{i18n:Engaged}}",
+                "NPC.cs.3980": "{{i18n:Engaged}}"
             },
             "When": {
-                "Relationship:{{Raven}}": "Dating",
+                "Relationship:{{Raven}}": "Dating"
             }
-        },
+        }
     ]
 }

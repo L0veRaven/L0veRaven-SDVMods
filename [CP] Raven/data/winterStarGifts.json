@@ -11,9 +11,9 @@
                     "ItemId": "(O)66",
                     "RandomItemId": null,
                     "MinStack": 1,
-                    "MaxStack": 5,
-                },
-            },
+                    "MaxStack": 5
+                }
+            }
         },
         {
             "LogName": "winterStarGifts.json: Ruby",
@@ -27,9 +27,9 @@
                     "RandomItemId": null,
                     "MaxItems": null,
                     "MinStack": 1,
-                    "MaxStack": 3,
-                },
-            },
-        },
+                    "MaxStack": 3
+                }
+            }
+        }
     ]
 }

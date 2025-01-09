@@ -8,10 +8,10 @@
             "Entries": {
                 "summer_1": "{{firstOfSeason}}",
                 "fall_1": "{{firstOfSeason}}",
-                "winter_1": "{{firstOfSeason}}",
+                "winter_1": "{{firstOfSeason}}"
             },
             "When": {
-                "Year": "1",
+                "Year": "1"
             }
         },
         {
@@ -22,10 +22,10 @@
                 "spring_1": "{{firstOfSeason}}",
                 "summer_1": "{{firstOfSeason}}",
                 "fall_1": "{{firstOfSeason}}",
-                "winter_1": "{{firstOfSeason}}",
+                "winter_1": "{{firstOfSeason}}"
             },
             "When": {
-                "Year": "2",
+                "Year": "2"
             }
         },
         //{{medsDialogue}}
@@ -34,10 +34,10 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Thu": "{{medsDialogue}}",
+                "Thu": "{{medsDialogue}}"
             },
             "When": {
-                "Query: '{{Day}}' = '18'": "true",
+                "Query: '{{Day}}' = '18'": "true"
             }
         },
         //Festivals
@@ -77,8 +77,8 @@
                 //Winter Star
                 "winter_24": "{{winterStarYest}}",
                 "winter_25": "{{winterStarToday}}",
-                "winter_26": "{{winterStarTomo}}",
-            },
+                "winter_26": "{{winterStarTomo}}"
+            }
         },
         //Plain Seasons
         {
@@ -89,8 +89,8 @@
                 "spring": "{{i18n:spring}}",
                 "summer": "{{i18n:summer}}",
                 "fall": "{{i18n:fall}}",
-                "winter": "{{i18n:winter}}",
-            },
+                "winter": "{{i18n:winter}}"
+            }
         },
         //{{genericSeason}} (Mon, Thu)
         {
@@ -99,10 +99,10 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "Mon": "{{genericSeason}}",
-                "Thu": "{{genericSeason}}",
+                "Thu": "{{genericSeason}}"
             },
             "When": {
-                "Query: '{{day}}' = '18'": false,
+                "Query: '{{day}}' = '18'": false
             }
         },
         //{{generic}} (Tue, Sun)
@@ -112,8 +112,8 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 "Tue": "{{generic}}",
-                "Sun": "{{generic}}",
-            },
+                "Sun": "{{generic}}"
+            }
         },
         //Heart Dialogue (Wed, Fri, Sat)
             //{{0hearts}}
@@ -125,10 +125,10 @@
                 //{{Raven}}_CatLover, {{Raven}}_CheckIn
                 "Wed": "{{0hearts}}",
                 "Fri": "{{0hearts}}",
-                "Sat": "{{0hearts}}",
+                "Sat": "{{0hearts}}"
             },
             "When": {
-                "Hearts:{{Raven}}": "0, 1",
+                "Hearts:{{Raven}}": "0, 1"
             }
         },
             //{{2hearts}}
@@ -139,10 +139,10 @@
             "Entries": {
                 "Wed": "{{2hearts}}",
                 "Fri": "{{2hearts}}",
-                "Sat": "{{2hearts}}",
+                "Sat": "{{2hearts}}"
             },
             "When": {
-                "Hearts:{{Raven}}": "2, 3",
+                "Hearts:{{Raven}}": "2, 3"
             }
         },
             //{{4hearts}}
@@ -153,10 +153,10 @@
             "Entries": {
                 "Wed": "{{4hearts}}",
                 "Fri": "{{4hearts}}",
-                "Sat": "{{4hearts}}",
+                "Sat": "{{4hearts}}"
             },
             "When": {
-                "Hearts:{{Raven}}": "4, 5",
+                "Hearts:{{Raven}}": "4, 5"
             }
         },
             //{{6hearts}}
@@ -167,10 +167,10 @@
             "Entries": {
                 "Wed": "{{6hearts}}",
                 "Fri": "{{6hearts}}",
-                "Sat": "{{6hearts}}",
+                "Sat": "{{6hearts}}"
             },
             "When": {
-                "Hearts:{{Raven}}": "6, 7",
+                "Hearts:{{Raven}}": "6, 7"
             }
         },
             //{{8hearts}}
@@ -181,11 +181,11 @@
             "Entries": {
                 "Wed": "{{8hearts}}",
                 "Fri": "{{8hearts}}",
-                "Sat": "{{8hearts}}",
+                "Sat": "{{8hearts}}"
             },
             "When": {
                 "Hearts:{{Raven}}": "8",
-                "Relationship:{{Raven}}": "Friendly",
+                "Relationship:{{Raven}}": "Friendly"
             }
         },
             //{{8heartsdating}}
@@ -196,11 +196,11 @@
             "Entries": {
                 "Wed": "{{8heartsdating}}",
                 "Fri": "{{8heartsdating}}",
-                "Sat": "{{8heartsdating}}",
+                "Sat": "{{8heartsdating}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating",
-                "Hearts:{{Raven}}": "8, 9",
+                "Hearts:{{Raven}}": "8, 9"
             }
         },
             //{{10hearts}}
@@ -211,11 +211,11 @@
             "Entries": {
                 "Wed": "{{10hearts}}",
                 "Fri": "{{10hearts}}",
-                "Sat": "{{10hearts}}",
+                "Sat": "{{10hearts}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating",
-                "Hearts:{{Raven}}": "10",
+                "Hearts:{{Raven}}": "10"
             }
         },
         //Weather
@@ -232,12 +232,12 @@
                 "Thu": "{{spRain}}",
                 "Fri": "{{spRain}}",
                 "Sat": "{{spRain}}",
-                "Sun": "{{spRain}}",
+                "Sun": "{{spRain}}"
             },
             "When": {
                 "Weather": "Rain",
                 "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
                 //Storm
@@ -252,12 +252,12 @@
                 "Thu": "{{spStorm}}",
                 "Fri": "{{spStorm}}",
                 "Sat": "{{spStorm}}",
-                "Sun": "{{spStorm}}",
+                "Sun": "{{spStorm}}"
             },
             "When": {
                 "Weather": "Storm",
                 "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
                 //Wind
@@ -272,12 +272,12 @@
                 "Thu": "{{spWind}}",
                 "Fri": "{{spWind}}",
                 "Sat": "{{spWind}}",
-                "Sun": "{{spWind}}",
+                "Sun": "{{spWind}}"
             },
             "When": {
                 "Weather": "Wind",
                 "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
             //Summer
@@ -292,8 +292,8 @@
                 "GreenRain_2": "{{i18n:GreenRain_2}}",
                 "GreenRainFinished_2": "{{i18n:GreenRainFinished_2}}",
                 "GreenRain_3": "{{gRain3}}",
-                "GreenRainFinished_3": "{{gRain3Fin}}",
-            },
+                "GreenRainFinished_3": "{{gRain3Fin}}"
+            }
         },
                 //Rain
         {
@@ -307,12 +307,12 @@
                 "Thu": "{{suRain}}",
                 "Fri": "{{suRain}}",
                 "Sat": "{{suRain}}",
-                "Sun": "{{suRain}}",
+                "Sun": "{{suRain}}"
             },
             "When": {
                 "Weather": "Rain",
                 "Season": "Summer",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
                 //Storm
@@ -327,12 +327,12 @@
                 "Thu": "{{suStorm}}",
                 "Fri": "{{suStorm}}",
                 "Sat": "{{suStorm}}",
-                "Sun": "{{suStorm}}",
+                "Sun": "{{suStorm}}"
             },
             "When": {
                 "Weather": "Storm",
                 "Season": "Summer",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
             //Fall
@@ -348,12 +348,12 @@
                 "Thu": "{{faRain}}",
                 "Fri": "{{faRain}}",
                 "Sat": "{{faRain}}",
-                "Sun": "{{faRain}}",
+                "Sun": "{{faRain}}"
             },
             "When": {
                 "Weather": "Rain",
                 "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
                 //Storm
@@ -368,12 +368,12 @@
                 "Thu": "{{faStorm}}",
                 "Fri": "{{faStorm}}",
                 "Sat": "{{faStorm}}",
-                "Sun": "{{faStorm}}",
+                "Sun": "{{faStorm}}"
             },
             "When": {
                 "Weather": "Storm",
                 "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
                 //Wind
@@ -388,12 +388,12 @@
                 "Thu": "{{faWind}}",
                 "Fri": "{{faWind}}",
                 "Sat": "{{faWind}}",
-                "Sun": "{{faWind}}",
+                "Sun": "{{faWind}}"
             },
             "When": {
                 "Weather": "Wind",
                 "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
             //Winter
@@ -408,13 +408,13 @@
                 "Thu": "{{wiRain}}",
                 "Fri": "{{wiRain}}",
                 "Sat": "{{wiRain}}",
-                "Sun": "{{wiRain}}",
+                "Sun": "{{wiRain}}"
             },
             "When": {
                 "Weather": "Rain",
                 "Season": "Winter",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
-            },
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+            }
         },
                 //Snow
         {
@@ -428,12 +428,12 @@
                 "Thu": "{{snowingD}}",
                 "Fri": "{{snowingD}}",
                 "Sat": "{{snowingD}}",
-                "Sun": "{{snowingD}}",
+                "Sun": "{{snowingD}}"
             },
             "When": {
                 "Weather": "Snow",
                 "Season": "Winter",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
         //IN Festival
@@ -460,8 +460,8 @@
                 "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
                 "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
                 
-                "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}",
-            },
+                "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}"
+            }
         },
         //Conversation Topics
         {
@@ -496,8 +496,8 @@
                 //Other Events
                 "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current 27407000 # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
                 "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
-                "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}",
-            },
+                "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}"
+            }
         },
         //Conversation Topics - Farmer Marriage
         {
@@ -508,10 +508,10 @@
                 "married": "{{i18n:married_farmer}}",
                 "married_twice": "{{i18n:married_farmer}}",
                 "divorced_once": "{{i18n:divorced_farmer}}",
-                "divorced_twice": "{{i18n:divorced_farmer}}",
+                "divorced_twice": "{{i18n:divorced_farmer}}"
             },
             "When": {
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating",
+                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
             }
         },
         //Movie Invite/Reject
@@ -526,8 +526,8 @@
                 "RejectMovieTicket_AlreadyWatchedThisWeek": "{{movieInviteAlrWat}}",
                 "RejectMovieTicket_Divorced": "{{movieInviteDivorced}}",
                 "RejectMovieTicket_DontWantToSeeThatMovie": "{{movieInviteDislike}}",
-                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
-            },
+                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}"
+            }
         },
         //Island
         {
@@ -544,8 +544,8 @@
                 "Resort_Shore": "{{resortShoreD}}",
                 "Resort_Towel": "{{resortTowelD}}",
                 "Resort_Umbrella": "{{resortUmbrellaD}}",
-                "Resort_Wander": "{{resortWanderD}}",
-            },
+                "Resort_Wander": "{{resortWanderD}}"
+            }
         },
         //Location Entry
         {
@@ -562,8 +562,8 @@
                 "Saloon_Entry": "{{i18n:Saloon_Entry}}",
                 "Trailer_Entry": "{{i18n:Trailer_Entry}}",
                 "Trailor_Big_Entry": "{{i18n:Trailor_Big_Entry}}",
-                "WizardHouse_Entry": "{{i18n:WizardHouse_Entry}}",
-            },
+                "WizardHouse_Entry": "{{i18n:WizardHouse_Entry}}"
+            }
         },
         //Bouquet / BreakUp
         {
@@ -578,8 +578,8 @@
                 "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
                 "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
                 "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
-                "RejectBouquet": "{{i18n:RejectBouquet}}",
-            },
+                "RejectBouquet": "{{i18n:RejectBouquet}}"
+            }
         },
         //Divorced
         {
@@ -591,8 +591,8 @@
                 "divorced": "{{divorcedDialogue}}",
                 "RejectGift_Divorced": "{{divorcedRejectGift}}",
                 "RejectMermaidPendant_Divorced": "{{divorcedRejectMPend}}",
-                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}",
-            },
+                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}"
+            }
         },
         //Engagement Dialogue
         {
@@ -601,8 +601,8 @@
             "Target": "data/EngagementDialogue",
             "Entries": {
                 "{{Raven}}0": "{{i18n:Engagement_0}}",
-                "{{Raven}}1": "{{i18n:Engagement_1}}",
-            },
+                "{{Raven}}1": "{{i18n:Engagement_1}}"
+            }
         },
         //Marriage Topics
         {
@@ -624,8 +624,8 @@
                 "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
                 "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
                 "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}",
-            },
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}"
+            }
         },
         //Summit Dialogue
         {
@@ -633,8 +633,8 @@
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
-                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Summit_2}}\"",
-            },
-        },
+                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Summit_2}}\""
+            }
+        }
     ]
 }
