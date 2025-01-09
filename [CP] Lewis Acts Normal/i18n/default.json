@@ -1,8 +1,0 @@
-{
-    "config.Gender.name": "Gender",
-    "config.Gender.description": "True for using the terms \"husband\" and \"wife\". False for using \"spouse\".",
-
-    "husbands": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husbands in life!$h",
-    "wives": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wives in life!$h",
-    "spouses": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you spouses in life!$h",
-}

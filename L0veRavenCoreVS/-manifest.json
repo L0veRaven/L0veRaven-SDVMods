@@ -7,4 +7,10 @@
     "EntryDll": "L0veRavenCore.dll",
     "MinimumApiVersion": "4.0.0",
     "UpdateKeys": [],
+    "Dependencies": [
+       {
+           "UniqueID": "Pathoschild.ContentPatcher",
+           "MinimumVersion": "2.4.0",
+       }
+    ]
 }

@@ -1,0 +1,13 @@
+{
+    "Name": "(CP) Lewis Wedding Dialogue Fix",
+    "Author": "L0veRaven",
+    "Description": "Changes wedding dialogue to allow for less awkward same-gender wedding dialogue and provides gender neutral spouse options!",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.LWDF_CP",
+    "UpdateKeys":
+        ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "L0veRaven.LWDF_DLL",
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}
