@@ -185,7 +185,7 @@
             "Name": "emoteBlush",
             "Value": "60",
         },
-    // Time
+    // Time [schedule.json]
         {
             "Name": "6am",
             "Value": "600",
@@ -755,7 +755,7 @@
         //Generic
         {
             "Name": "generic",
-            "Value": "{{i18n:generic_{{Random:{{Range:1,14}}}}}}",
+            "Value": "{{i18n:generic_{{Random:{{Range:1,12}}}}}}",
         },
         //{{genericSeason}}
         {
@@ -942,6 +942,7 @@
         //Schedule Dialogue
         {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",},
+        {"Name": "sweepSaloonSchD","Value": "{{i18n:Saloon_2_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "shoppingSSschD","Value": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}",},
         {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
         //Locations
@@ -976,11 +977,11 @@
             //SeedShop
         {"Name": "shoppingSS","Value": "{{i18n:shoppingSS}} \"Strings\\schedules\\{{Raven}}:SeedShop.001\"",},
             //Saloon
-        {"Name": "standJobSaloon1","Value": "{{i18n:standJobSaloon1}} {{aniSweep}}",},
+        {"Name": "standJobSaloon1","Value": "{{i18n:standJobSaloon1}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\"",},
                 //Saloon 5 17 2 l0veraven_raven_sweep
-        {"Name": "standJobSaloon2","Value": "{{i18n:standJobSaloon2}} {{aniSweep}}",},
+        {"Name": "standJobSaloon2","Value": "{{i18n:standJobSaloon2}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\"",},
                 //Saloon 23 22 2 l0veraven_raven_sweep
-        {"Name": "standJobSaloon3","Value": "{{i18n:standJobSaloon3}} {{aniSweep}}",},
+        {"Name": "standJobSaloon3","Value": "{{i18n:standJobSaloon3}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\"",},
                 //Saloon 33 8 2 l0veraven_raven_sweep
         
         {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon}}",},

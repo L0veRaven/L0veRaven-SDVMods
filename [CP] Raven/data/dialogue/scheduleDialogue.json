@@ -8,6 +8,7 @@
                 "Custom_{{Raven}}TentInside.001": "{{stoveSchD}}",
                 "SeedShop.001": "{{shoppingSSschD}}",
                 "Saloon.001": "{{standSaloonSchD}}",
+                "Saloon.002": "{{sweepSaloonSchD}}",
             },
         },
     ]

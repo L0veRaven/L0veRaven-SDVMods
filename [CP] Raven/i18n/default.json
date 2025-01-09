@@ -202,7 +202,7 @@
     // || {{generic}} -> {{i18n:generic_{{Random:{{Range:1,_}}}}}} ||
 "generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
 "generic_2": "%Raven says nothing but nods their head at you with a big smile.#$b#!$1",
-"generic_3": "I know how risky you get sometimes so try to stay safe today!$1",
+"generic_3": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
 "generic_4": "I hope you have time to relax every once in a while!$1#$e#It's good to not push yourself too hard.",
 "generic_5": "Sorry, I'm not really in the mood to talk to people today.$2#$b#It's not you. I'm just having a rough time.$2",
 "generic_6": "%Raven says nothing but has a sad look on their face.#$b#...$2",
@@ -212,8 +212,6 @@
 "generic_10": "My feet are really sore today. I should take it easy.$2",
 "generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
 "generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
-"generic_13": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
-"generic_14": "Be sure you drink some water today. Water is very important!#$e#Yes, I forget to drink water a lot. Hush.$11",
     // || {{genericspring}} -> {{i18n:genericspring_{{Random:{{Range:1,7}}}}}} ||
 "genericspring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
 "genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
@@ -276,8 +274,8 @@
 // portraitBookmark
 "6hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # *yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2 |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
 "6hearts_2": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_4": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+"6hearts_3": "I know how risky you get sometimes so try to stay safe today!$1",
+"6hearts_4": "Be sure you drink some water today. Water is very important!#$e#Yes, I forget to drink water a lot. Hush.$11",
 "6hearts_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
 "6hearts_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
 "6hearts_7": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
@@ -837,6 +835,9 @@
     // {{standSaloonSchD}}
 "Saloon_1_1": "The food Gus made smells so good!$3#$b#Thank Yoba he cares about the quality of his food.$1",
 "Saloon_1_2": "Hi @! I'm just having a beer right now. How are you?",
+    // {{sweepSaloonSchD}}
+"Saloon_2_1": "The food Gus made smells so good!$3#$b#Thank Yoba he cares about the quality of his food.$1",
+"Saloon_2_2": "Hi @! I'm just having a beer right now. How are you?",
     // {{shoppingSSschD}}
 "shoppingSS_1_1": "I've noticed that Pierre's crops are inconsistent in quality. Some days, I see lots of amazing produce!#$e#Other days... I question him.$12",
 "shoppingSS_1_2": "It's more convenient for me to shop here since it's closer to my home and job.#$e#I also never pay attention to JojaMart's sales.$11",
