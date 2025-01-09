@@ -115,7 +115,7 @@
             "Name": "FF",
             "Value": "violetlizabet.CP.FireworksFestival",
         },
-    //Directions
+    //Directions [schedule.json, events.json]
         {
             "Name": "up",
             "Value": "0",
@@ -132,7 +132,7 @@
             "Name": "left",
             "Value": "3",
         },
-    // Emotes
+    // Emotes [events.json]
         {
             "Name": "emoteEmptyCan",
             "Value": "4",
