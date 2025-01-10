@@ -2,14 +2,14 @@
     "Format": "2.4.4",
     
     "ConfigSchema": {
-        "PlayerGender": {
+        "GenderEnable": {
             "Default": "true",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": null,
             "Description": null,
         },
-        "PlayerGenderFarmers": {
+        "GenderEnableFarmers": {
             "Default": "false",
             "AllowValues": "true, false",
             "AllowBlank": false,
@@ -28,7 +28,7 @@
                 "Utility.cs.5375": "{{i18n:wives}}",
             },
             "When": {
-                "PlayerGender": true,
+                "GenderEnable": true,
             }
         },
         {
@@ -42,7 +42,7 @@
                 "Utility.cs.5377": "{{i18n:spouseHusband}}",
             },
             "When": {
-                "PlayerGender": false,
+                "GenderEnable": false,
             }
         },
         {
@@ -56,8 +56,8 @@
                 "Utility.cs.5377": "{{i18n:spouse}}",
             },
             "When": {
-                "PlayerGender": false,
-                "PlayerGenderFarmer": false,
+                "GenderEnable": false,
+                "GenderEnableFarmers": false,
             }
         },
         {
@@ -71,7 +71,7 @@
                 "Utility.cs.5377": "{{i18n:wifeSpouse}}",
             },
             "When": {
-                "PlayerGender": true,
+                "GenderEnable": true,
                 "Query: '{{spouse}}' = ('{{Raven}}')": "true",
                 "FarmerMarriesFarmer": "true",
             }

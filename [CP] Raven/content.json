@@ -1613,17 +1613,6 @@
         }
     ],
 
-    "CustomLocations": [
-        {
-            "Name": "Custom_L0veRaven_RavenTentInside",
-            "FromMapFile": "data/maps/L0veRaven_RavenTentInside.tmx"
-        },
-        {
-            "Name": "Custom_L0veRaven_RavenTentInsideSVE",
-            "FromMapFile": "data/maps/L0veRaven_RavenTentInsideSVE.tmx"
-        }
-    ],
-
     "Changes": [
         {
             "LogName": "content.json: Apartment Blank Loads",

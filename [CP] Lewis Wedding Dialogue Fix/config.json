@@ -1,3 +1,4 @@
 {
-  "PlayerGenderFarmers": "false"
+  "GenderEnable": "true",
+  "GenderEnableFarmers": "false"
 }

@@ -6,6 +6,7 @@ using StardewModdingAPI; // Using SMAPI library
 using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
+using StardewValley.Events;
 using StardewValley.Delegates;
 
 namespace LewisWeddingDialogueFix
@@ -17,23 +18,34 @@ namespace LewisWeddingDialogueFix
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
-            var api = this.Helper.ModRegistry.GetApi<IContentPatcherAPI>("Pathoschild.ContentPatcher");
-
-            helper.Events.Player.Warped += Player_Warped;
-
-            api.RegisterToken(this.ModManifest, "FarmerMarriesFarmer", () =>
+            helper.Events.GameLoop.DayStarted += (s, e) =>
             {
-                // save is loaded
-                if (Context.IsWorldReady)
-                    return new[] { Game1.player.Name };
+                var api = this.Helper.ModRegistry.GetApi<IContentPatcherAPI>("Pathoschild.ContentPatcher");
+                helper.Events.Player.Warped += Player_Warped;
 
-                // or save is currently loading
-                if (SaveGame.loaded?.player != null)
-                    return new[] { SaveGame.loaded.player.Name };
+                api.RegisterToken(this.ModManifest, "FarmerMarriesFarmer2", () =>
+                {
+                    // save is loaded
+                    if (Context.IsWorldReady)
+                        return new[] { Game1.player.Name };
 
-                // no save loaded (e.g. on the title screen)
-                return null;
-            });
+                    // or save is currently loading
+                    if (SaveGame.loaded?.player != null)
+                        return new[] { SaveGame.loaded.player.Name };
+
+                    // no save loaded (e.g. on the title screen)
+                    return null;
+                });
+
+                api.RegisterToken(((Mod)this).ModManifest, "FarmerMarriesFarmer", delegate
+                {
+                    if (Context.IsWorldReady)
+                    {
+                        
+                    }
+                    return (IEnumerable<string>)null;
+                });
+            };
         }
 
         private void Player_Warped(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
