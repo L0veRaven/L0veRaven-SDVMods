@@ -15,8 +15,8 @@
 "config.section.RavenSettings.name": "Raven's Settings",
 "config.section.RavenSettings.description": "Customize your experience with Raven.",
     // || Raven Clean ||
-"config.CleanLanguage.name": "Clean Language",
-"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
+//ADD"config.CleanLanguage.name": "Clean Language",
+//ADD"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
 // || Spirit's Eve Costumes ||
 "config.section.SpiritsEveCostumes.name": "Spirit's Eve Costumes",
 "config.section.SpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
@@ -57,13 +57,13 @@
 // ===================
 // || Spring 1st ||
     // || {{firstOfSeason}} -> {{i18n:spring_first_{{Random:{{Range:1,_}}}}}} ||
-"spring_first_1": "The sudden shift in weather always throws me off, but it's nice to finally get a break from the harsh winter.$1",
-"spring_first_2": "It's such a relief to not have to deal with how cold the snow is.$1#$b#But... I'm gonna miss watching the snow fall.$2",
+"spring_first_1": "The sudden shift in weather always throws me off, but it's nice to finally get a break from the harsh winter.",
+"spring_first_2": "It's such a relief to not have to deal with how cold the snow is.$1#$b#I'm gonna miss watching the snow fall, though.$2",
 "spring_first_3": "Now that it's spring, it's time for me to start my spring cleaning!$1#$e#Do you think you'll do spring cleaning this year?",
 "spring_first_4": "Finally! We can see nature thrive again.$1#$b#It's kinda boring just seeing a bunch of snow everywhere all the time. Flowers help give nature life!",
 // || Egg Festival ||
     // || {{eggFestYest}} -> {{i18n:eggFestival_yesterday_{{Random:{{Range:1,_}}}}}} ||
-"eggFestival_yesterday_1": "Are you ready for the Egg Festival tomorrow?$3#$e#I'm not gonna join in on the egg hunt. I have more fun watching people frantically hunt for the eggs!$1",
+"eggFestival_yesterday_1": "Are you ready for the Egg Festival tomorrow?$3#$e#I'm won't join the egg hunt. I have more fun watching people frantically hunt for eggs!$1",
 "eggFestival_yesterday_2": "Mayor Lewis wanted me to remind you about the Egg Festival in case you forgot to check your mail.$1#$e#There's no pressure for you to participate though.#$b#You're an adult. Live your best life!",
 "eggFestival_yesterday_3": "It might be a little silly but I'm not feeling the Egg Festival vibe this year.$11#$e#Maybe Harvey needs to adjust my medication dosage or something...$17#$b#Don't mind me. I'm just thinking out loud.$11",
 "eggFestival_yesterday_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Egg Festival.$11",
@@ -274,14 +274,6 @@
 // portraitBookmark
 "6hearts_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # *yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2 |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
 "6hearts_2": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_3": "I know how risky you get sometimes so try to stay safe today!$1",
-"6hearts_4": "Be sure you drink some water today. Water is very important!#$e#Yes, I forget to drink water a lot. Hush.$11",
-"6hearts_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_6": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_7": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_8": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_9": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-"6hearts_10": "$query PLAYER_HAS_SEEN_EVENT Current 27407005 # addDialogue. |I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1#$action AddMail Current {{Raven}}_JobInterview tomorrow",
     // || {{8hearts}} ||
 "8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
 "8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
