@@ -1615,12 +1615,6 @@
 
     "Changes": [
         {
-            "LogName": "content.json: Apartment Blank Loads",
-            "Action": "Load",
-            "Target": "Data/Events/FRL_NPCApt_PelicanValleyLoft, Data/Events/FRL_NPCApt_Lobby, Data/Events/FRL_NPCApt_Floor1, Data/Events/FRL_NPCApt_Floor2, Data/Events/FRL_NPCApt_Floor3, Data/Events/FRL_NPCApt_Floor4, Data/Events/FRL_NPCApt_Floor5, Data/Events/FRL_NPCApt_Floor6, Data/Events/FRL_NPCApt_Floor7",
-            "FromFile": "data/blank.json"
-        },
-        {
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
             "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
@@ -1630,6 +1624,18 @@
             "LogName": "content.json: Locations",
             "Action": "Include",
             "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/warps.json, data/locations/LocationsData.json, data/locations/StringsFromMaps.json"
+        },
+        {
+            "LogName": "content.json: Tent Inside (Vanilla)",
+            "Action": "Load",
+            "Target": "Maps/Custom_{{Raven}}TentInside",
+            "FromFile": "data/maps/{{Raven}}TentInside.tmx"
+        },
+        {
+            "LogName": "content.json: Tent Inside (SVE)",
+            "Action": "Load",
+            "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
+            "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
         },
         {
             "LogName": "content.json: Spouse Patio",
