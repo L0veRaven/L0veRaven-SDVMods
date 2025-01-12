@@ -1023,19 +1023,19 @@
         },
         {
             "Name": "6hearts",
-            "Value": "{{i18n:6hearts_{{Random:{{Range:1,10}}}}}}"
+            "Value": "{{i18n:6hearts_{{Random:{{Range:1,2}}}}}}"
         },
         {
             "Name": "8hearts",
-            "Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}"
+            "Value": "{{i18n:8hearts_{{Random:{{Range:1,2}}}}}}"
         },
         {
             "Name": "8heartsdating",
-            "Value": "{{i18n:8heartsdating_{{Random:{{Range:1,10}}}}}}"
+            "Value": "{{i18n:8heartsdating_{{Random:{{Range:1,2}}}}}}"
         },
         {
             "Name": "10hearts",
-            "Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}"
+            "Value": "{{i18n:8hearts_{{Random:{{Range:1,2}}}}}}"
         },
         //Conversation Topics
         {

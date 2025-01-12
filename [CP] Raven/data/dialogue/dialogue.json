@@ -137,9 +137,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{2hearts}}",
-                "Fri": "{{2hearts}}",
-                "Sat": "{{2hearts}}"
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}"
             },
             "When": {
                 "Hearts:{{Raven}}": "2, 3"
@@ -165,9 +165,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{6hearts}}",
-                "Fri": "{{6hearts}}",
-                "Sat": "{{6hearts}}"
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}"
             },
             "When": {
                 "Hearts:{{Raven}}": "6, 7"
@@ -179,9 +179,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{8hearts}}",
-                "Fri": "{{8hearts}}",
-                "Sat": "{{8hearts}}"
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}"
             },
             "When": {
                 "Hearts:{{Raven}}": "8",
@@ -226,13 +226,13 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Mon": "{{spRain}}",
-                "Tue": "{{spRain}}",
-                "Wed": "{{spRain}}",
-                "Thu": "{{spRain}}",
-                "Fri": "{{spRain}}",
-                "Sat": "{{spRain}}",
-                "Sun": "{{spRain}}"
+                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
+                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}"
             },
             "When": {
                 "Weather": "Rain",
@@ -301,13 +301,13 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Mon": "{{suRain}}",
-                "Tue": "{{suRain}}",
-                "Wed": "{{suRain}}",
-                "Thu": "{{suRain}}",
-                "Fri": "{{suRain}}",
-                "Sat": "{{suRain}}",
-                "Sun": "{{suRain}}"
+                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
+                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}"
             },
             "When": {
                 "Weather": "Rain",
@@ -342,13 +342,13 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Mon": "{{faRain}}",
-                "Tue": "{{faRain}}",
-                "Wed": "{{faRain}}",
-                "Thu": "{{faRain}}",
-                "Fri": "{{faRain}}",
-                "Sat": "{{faRain}}",
-                "Sun": "{{faRain}}"
+                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
+                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}"
             },
             "When": {
                 "Weather": "Rain",

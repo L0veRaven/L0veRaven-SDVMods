@@ -46,6 +46,7 @@
                 end dialogue {{Raven}} \"{{i18n:CatLover_end_1}}\" dialogue Penny \"{{i18n:CatLover_end_2}}\"",
             },
         },
+        //CatAdoption
         {
             "LogName": "events.json: CatAdoption",
             "Action": "EditData",
@@ -55,6 +56,7 @@
                 "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}_CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
             },
         },
+        //_CheckIn
 {
     "LogName": "events.json: CheckIn - Day 14",
     "Action": "EditData",
@@ -83,7 +85,7 @@ speak {{Raven}} \"I'm probably holding you up from what you're doing, but it was
 end dialogue {{Raven}} \"I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?\"",
         },
     },
-
+        //_WildClans (2 Hearts)
     {
         "LogName": "events.json: 2 Heart - WildClans",
         "Action": "EditData",
@@ -112,9 +114,9 @@ end dialogue {{Raven}} \"I know it can be hard to try to fit into new communitie
     end dialogue {{Raven}} \"We should hang out again!$1#$b#It was fun spending time with you earlier.\"",
         },
     },
-
+        //_CleansingFarmer
     {
-        "LogName": "events.json: 4 Heart - CleansingFarmer",
+        "LogName": "events.json: - CleansingFarmer",
         "Action": "EditData",
         "Target": "Data/Events/Custom_L0veRaven_RavenTentInside",
         "Entries": {
@@ -133,9 +135,9 @@ faceDirection {{Raven}} {{down}}/speak {{Raven}} \"Actually, I think it'd be eas
 end",
         },
     },
-
+        //_CleansingFarmer2
     {
-        "LogName": "events.json: 4 Heart - CleansingFarmer2",
+        "LogName": "events.json: CleansingFarmer2",
         "Action": "EditData",
         "Target": "Data/Events/Forest",
         "Entries": {
@@ -159,6 +161,7 @@ quickQuestion What do you think of the smoke cleansing ritual?#That was cool!#It
 end dialogue {{Raven}} \"{{i18n:CleansingFarmer2_end}}\"",
         },
     },
+        //_JobInterview (6 Hearts)
     {
         "LogName": "events.json: 6 Heart - JobInterview",
         "Action": "EditData",
@@ -174,6 +177,7 @@ move {{Raven}} 4 0 {{right}}/emote {{Raven}} {{emoteQuestion}} true/playSound dw
 end dialogue {{Raven}} \"I can't wait to start saving up money to move back to Zuzu City!$1#$b#Hopefully Pierre doesn't pay employees late.$11\"",
             },
         },
+        // _MarriageTalk
         {
             "LogName": "events.json: 8 Heart - MarriageTalk: Married to Other NPC",
             "Action": "EditData",
@@ -210,6 +214,7 @@ speak {{Raven}} \"{{i18n:marriageTalk_speak_6}}\"/pause 300/
 end",
             },
         },
+        // _Apartment (8 Hearts)
         {
             "LogName": "events.json: 8 Heart - Apartment",
             "Action": "EditData",
@@ -242,7 +247,7 @@ emote farmer {{emoteHappy}} true/emote Raven {{emoteHappy}}/pause 500/
 end dialogue {{Raven}} \"{{i18n:Apartment_end}}\"",
             },
         },
-        
+        //_GusEdibles [NB]
         {
             "LogName": "events.json: Event 100 (27407100) GusEdibles",
             "Action": "EditData",
@@ -292,6 +297,7 @@ end dialogue {{Raven}} \"{{i18n:Apartment_end}}\"",
                 "HasMod |contains={{NB}}": "true",
             },
         },
+        //_SmokeSession [NB]
         {
             "LogName": "naturesBounty.json: Event 101 (27407101) SmokeSession",
             "Action": "EditData",
