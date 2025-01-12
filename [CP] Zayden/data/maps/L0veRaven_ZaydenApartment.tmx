@@ -15,9 +15,9 @@
   <image source=".townInterior_2.png" width="512" height="656"/>
  </tileset>
  <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source="paths" width="64" height="256"/>
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="3553" name="z_FRL_transparentborders" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+ <tileset firstgid="3553" name="z_FRL_transparentborders" tilewidth="16" tileheight="16" tilecount="7392" columns="12">
   <image source="FRL_transparentborders.png" width="192" height="352"/>
  </tileset>
  <layer id="1" name="Back" width="11" height="11">
