@@ -1,0 +1,19 @@
+{
+    "Format": "2.4.4",
+    
+    "DynamicTokens": [
+        {
+            "Name": "Zayden",
+            "Value": "L0veRaven_Zayden"
+        }
+    ],
+
+    "Changes": [
+        {
+            "LogName": "content.json: Blank Loads",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Zayden}}, Characters/Dialogue/MarriageDialogue{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}, Data/Events/Custom_{{Zayden}}Apartment",
+            "FromFile": "data/blank.json"
+        },
+    ]
+}

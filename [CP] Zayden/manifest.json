@@ -1,0 +1,12 @@
+{
+    "Name": "(CP) Zayden",
+    "Author": "L0veRaven",
+    "Description": "A vampire NPC is added to the game.",
+    "Version": "1.0.0",
+    "DeleteOldVersion": true,
+    "UniqueID": "L0veRaven.Zayden",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}
