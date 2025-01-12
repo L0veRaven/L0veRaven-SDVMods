@@ -1,0 +1,176 @@
+{ "Changes": [
+    // Artifacts
+    {
+    "LogName": "objects.json: Artifacts - Dwarf Scroll I",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["96","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dwarf Scroll II",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["97","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dwarf Scroll III",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["98","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dwarf Scroll IV",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["99","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Chipped Amphora",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["100","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Arrowhead",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["101","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Ancient Doll",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["103","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Elvish Jewelry",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["104","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Chewing Stick",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["105","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Ornamental Fan",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["106","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dinosaur Egg",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["107","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Rare Disc",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["108","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Ancient Sword",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["109","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Rusty Spoon",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["110","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Rusty Spur",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["111","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Rusty Cog",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["112","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Chicken Statue",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["113","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Ancient Seed",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["114","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Tool",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["115","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dried Starfish",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["116","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Anchor",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["117","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Glass Shards",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["118","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Bone Flute",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["119","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Handaxe",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["120","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dwarvish Helm",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["121","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Dwarf Gadget",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["122","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Ancient Drum",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["123","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Golden Mask",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["124","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Golden Relic",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["125","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Strange Doll",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["126","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Strange Doll",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["127","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Scapula",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["579","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Tibia",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["580","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Skull",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["581","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Skeletal Hand",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["582","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Rib",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["583","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Prehistoric Vertebra",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["584","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Skeletal Tail",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["585","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Nautilus Fossil",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["586","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Amphibian Fossil",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["587","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Palm Fossil",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["588","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    {
+    "LogName": "objects.json: Artifacts - Trilobite",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["589","ContextTags"],"Entries": {"artifact_item": "artifact_item",},
+    },
+    // Hidden Items
+    {
+    "LogName": "objects.json: Hidden Items - Lumber",
+    "Action": "EditData","Target": "Data/Objects","TargetField": ["30","ContextTags"],"Entries": {"hidden_item": "hidden_item",},
+    },
+]}
