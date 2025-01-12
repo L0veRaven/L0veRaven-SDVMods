@@ -15,6 +15,10 @@
         {
             "Name": "Zayden",
             "Value": "L0veRaven_Zayden"
+        },
+        {
+            "Name": "NPCA",
+            "Value": "FireRedLily.NPCApartments"
         }
     ],
 
@@ -24,9 +28,6 @@
             "Action": "Load",
             "Target": "Characters/Dialogue/{{Zayden}}, Characters/Dialogue/MarriageDialogue{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
             "FromFile": "data/blank.json",
-            "When": {
-                "ZaydenEnable": true
-            }
         },
         {
             "LogName": "content.json: Map Patch",

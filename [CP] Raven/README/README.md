@@ -115,6 +115,9 @@ Contact me at support@l0veraven.com or Discord at L0veRaven where I'll look at i
 
 GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 
+#### Move custom tilesheets into L0veRaven.CoreCP
+#### Fix map patch (check for issue with {{Raven}}_Apartment and see if it got changed to {{Raven}}_ApartmentFlag)
+
 
 | assets/Characters | Notes |
 | ------------- | ------------- |

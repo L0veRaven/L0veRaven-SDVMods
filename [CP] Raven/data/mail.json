@@ -30,7 +30,7 @@
             },
         },
         {
-            "LogName": "mail.json: Event 27407007 (7) ravenApartment",
+            "LogName": "mail.json: Event 27407007 (7) Apartment",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {

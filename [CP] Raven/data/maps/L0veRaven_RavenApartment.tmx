@@ -9,16 +9,16 @@
   <property name="Warp" value="2 20 FRL_NPCApt_Floor2 2 26 3 20 FRL_NPCApt_Floor2 3 26 61 20 FRL_NPCApt_Floor2 61 26 62 20 FRL_NPCApt_Floor2 62 26 2 28 FRL_NPCApt_Floor1 2 22 3 28 FRL_NPCApt_Floor1 3 22 61 28 FRL_NPCApt_Floor1 61 22 62 28 FRL_NPCApt_Floor1 62 22"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
-  <image source=".townInterior.png" width="512" height="1088"/>
+  <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
  <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
-  <image source=".townInterior_2.png" width="512" height="656"/>
+  <image source="townInterior_2.png" width="512" height="656"/>
  </tileset>
  <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source=".paths.png" width="64" height="256"/>
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="3553" name="z_FRL_transparentborders" tilewidth="16" tileheight="16" tilecount="264" columns="12">
-  <image source=".FRL_transparentborders.png" width="192" height="352"/>
+  <image source="FRL_transparentborders.png" width="192" height="352"/>
  </tileset>
  <tileset firstgid="3817" name="z_L0veRaven_Tent" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="z_L0veRaven_Tent.png" width="400" height="1264"/>

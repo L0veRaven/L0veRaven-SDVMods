@@ -1,0 +1,22 @@
+{
+    "Changes": [        
+        {
+            "LogName": "CJBWarps Compat: Zayden's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1A": {
+                    "Id": "{{NPCA}}_Apartment1A",
+                    "DisplayName": "{{i18n:CJB_ZaydensApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "54, 27",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft",
+                },
+            },
+            "When": {
+                "ZaydenEnable": true
+            }
+        }
+    ]
+}

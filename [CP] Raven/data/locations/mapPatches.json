@@ -134,7 +134,7 @@
             "PatchMode": "Replace",
             "Update": "OnLocationChange, OnTimeChange",
             "ToArea": {
-                "X": 5,"Y": 8,"Width": 11,"Height": 11,
+                "X": 5, "Y": 8, "Width": 11, "Height": 11
             },
             "MapTiles": [
                 {
@@ -145,13 +145,13 @@
                     "SetIndex": "588",
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "spacechase0.SpaceCore_TriggerAction {{Raven}}_CoatRackMoneyFlag",
-                    },
+                        "Action": "spacechase0.SpaceCore_TriggerAction {{Raven}}_CoatRackMoneyFlag"
+                    }
                 }
             ],
             "When": {
-                "HasReadLetter": "{{Raven}}_Apartment",
-            },
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
         },
         {
             "LogName": "mapPatches.json: Raven's Apartment - Change Tile Action to Message After Getting Reward",
