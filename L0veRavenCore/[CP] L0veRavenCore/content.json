@@ -1,0 +1,11 @@
+{
+    "Format": "2.4.4",
+
+    "Changes": [
+        {
+            "LogName": "content.json: Objects",
+            "Action": "Include",
+            "FromFile": "data/objects.json"
+        },
+    ]
+}

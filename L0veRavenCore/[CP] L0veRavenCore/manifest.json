@@ -1,0 +1,12 @@
+{
+    "Name": "(CP) L0veRavenCore",
+    "Author": "L0veRaven",
+    "Description": "Core CP file for L0veRaven's main mods.",
+    "Version": "1.0.0",
+    "DeleteOldVersion": true,
+    "UniqueID": "L0veRaven.CoreCP",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}

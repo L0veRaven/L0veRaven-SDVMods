@@ -8,7 +8,6 @@
     "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher",
-        "UniqueID": "L0veRaven.CoreDLL"
     },
     "Dependencies": [
         {
