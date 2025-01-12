@@ -25,6 +25,7 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
             },
         },
         

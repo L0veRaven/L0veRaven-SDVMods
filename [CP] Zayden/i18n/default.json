@@ -1,0 +1,5 @@
+{
+// || Content.json -> ConfigSchema ||
+"config.ZaydenEnable.name": "Enable Zayden",
+"config.ZaydenEnable.description": "Choose to enable or disable Zayden from being added to the game. (Default: true)",
+}

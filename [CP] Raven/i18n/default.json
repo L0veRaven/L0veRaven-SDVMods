@@ -24,8 +24,8 @@
 //"config.VampireCostumeSE.name": "Vampire",
 //"config.VampireCostumeSE.description": "Raven wears a vampire costume.",
     // || Sunflower ||
-"config.SunflowerCostumeSE.name": "Sunflower",
-"config.SunflowerCostumeSE.description": "Raven wears a sunflower costume.",
+"config.section.SpiritsEveCostumes.name": "Spirit's Eve Costumes",
+"config.section.SpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
     // || Cactus ||
 "config.CactusCostumeSE.name": "Cactus",
 "config.CactusCostumeSE.description": "Raven wears a cactus costume.",

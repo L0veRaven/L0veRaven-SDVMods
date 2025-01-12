@@ -41,25 +41,25 @@
                 "HasFlag: |contains={{Raven}}Apartment": false,
             },
         },        
-//ADD        {
-//ADD            "LogName": "home.json: Tent Spawn (SVE)",
-//ADD            "Action": "EditData",
-//ADD            "Target": "Data/Characters",
-//ADD            "TargetField": ["{{Raven}}","Home"],
-//ADD            "Entries": {
-//ADD                "Default": {
-//ADD                    "Id": "Default",
-//ADD                    "Location": "Custom_L0veRaven_RavenTentInsideSVE",
-//ADD                    "Tile": {
-//ADD                        "X": 3,"Y": 4,
-//ADD                    },
-//ADD                    "Direction": "right",
-//ADD                },
-//ADD            },
-//ADD            "When": {
-//ADD                "HasMod: |contains={{SVE}}": true,
-//ADD                "HasFlag: |contains={{Raven}}Apartment": false,
-//ADD            },
-//ADD        },
+        {
+            "LogName": "home.json: Tent Spawn (SVE)",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Raven}}","Home"],
+            "Entries": {
+                "Default": {
+                    "Id": "Default",
+                    "Location": "Custom_L0veRaven_RavenTentInsideSVE",
+                    "Tile": {
+                        "X": 3,"Y": 4,
+                    },
+                    "Direction": "right",
+                },
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasFlag: |contains={{Raven}}Apartment": false,
+            },
+        },
     ]
 }
