@@ -177,6 +177,10 @@
                     "CustomFields": null,
                 },
             },
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
+            }
         },
         {
             "LogName": "data/locations/Tent.json: Locations - Add Custom_L0veRaven_RavenTentInsideSVE",
@@ -221,6 +225,10 @@
                     "CustomFields": null,
                 },
             },
+            "When": {
+                "HasMod: |contains={{SVE}}": true,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
+            }
         },
         {
             "LogName": "data/locations/Tent.json: Map Patch Raven's Tent - Outdoors (Vanilla)",

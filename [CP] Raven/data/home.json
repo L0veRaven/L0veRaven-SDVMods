@@ -7,9 +7,9 @@
             "TargetField": ["{{Raven}}","Home"],
             "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
-                "{{Raven}}Apartment": {
-                    "Id": "{{Raven}}Apartment",
-                    "Condition": "PLAYER_HAS_MAIL Any {{Raven}}Apartment",
+                "{{Raven}}_Apartment": {
+                    "Id": "{{Raven}}_Apartment",
+                    "Condition": "PLAYER_HAS_MAIL Any {{Raven}}_Apartment",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": {
                         "X": 7,"Y": 13,
@@ -18,7 +18,7 @@
                 },
             },
             "When": {
-                "HasFlag: |contains={{Raven}}Apartment": true,
+                "HasFlag: |contains={{Raven}}_Apartment": true,
             }
         },
         {
@@ -27,8 +27,8 @@
             "Target": "Data/Characters",
             "TargetField": ["{{Raven}}","Home"],
             "Entries": {
-                "{{Raven}}Tent": {
-                    "Id": "{{Raven}}Tent",
+                "{{Raven}}_Tent": {
+                    "Id": "{{Raven}}_Tent",
                     "Location": "Custom_L0veRaven_RavenTentInside",
                     "Tile": {
                         "X": 3,"Y": 4,
@@ -38,7 +38,7 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": false,
-                "HasFlag: |contains={{Raven}}Apartment": false,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
             },
         },        
         {
@@ -47,8 +47,8 @@
             "Target": "Data/Characters",
             "TargetField": ["{{Raven}}","Home"],
             "Entries": {
-                "Default": {
-                    "Id": "Default",
+                "{{Raven}}_Tent": {
+                    "Id": "{{Raven}}_Tent",
                     "Location": "Custom_L0veRaven_RavenTentInsideSVE",
                     "Tile": {
                         "X": 3,"Y": 4,
@@ -58,7 +58,7 @@
             },
             "When": {
                 "HasMod: |contains={{SVE}}": true,
-                "HasFlag: |contains={{Raven}}Apartment": false,
+                "HasFlag: |contains={{Raven}}_Apartment": false,
             },
         },
     ]
