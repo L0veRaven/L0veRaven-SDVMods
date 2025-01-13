@@ -1355,7 +1355,7 @@
             "Value": "{{tentInside}} {{i18n:standStove}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
             "When": {
                 "HasMod |contains={{SVE}}": "false",
-                "HasFlag: |contains={{Raven}}Apartment": false
+                "HasFlag: |contains={{Raven}}_Apartment": false
             }
         },
         {
@@ -1363,7 +1363,7 @@
             "Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
             "When": {
                 "HasMod |contains={{SVE}}": "true",
-                "HasFlag: |contains={{Raven}}Apartment": false
+                "HasFlag: |contains={{Raven}}_Apartment": false
             }
         },
 
@@ -1380,12 +1380,16 @@
         {
             "Name": "standStove",
             "Value": "{{i18n:standStoveApt}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
-            "When": { "HasReadLetter": "{{Raven}}Apartment" }
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
         },
         {
             "Name": "inBed",
             "Value": "{{i18n:inBedApt}} l0veraven_raven_sleep",
-            "When": { "HasReadLetter": "{{Raven}}Apartment" }
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
         },
         //Town
         {
@@ -1396,12 +1400,16 @@
         {
             "Name": "relaxBushTown",
             "Value": "{{i18n:relaxBushTown}}",
-            "When": { "HasMod |contains={{NB}}": "false" }
+            "When": {
+                "HasMod |contains={{NB}}": "false"
+            }
         },
         {
             "Name": "relaxBushTown",
             "Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-            "When": { "HasMod |contains={{NB}}": "true" }
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
         },
         //Hospital
         {
@@ -1438,12 +1446,16 @@
         {
             "Name": "standBookcase",
             "Value": "{{i18n:standBookcase}}",
-            "When": { "HasMod |contains={{SVE}}": "false" }
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
         },
         {
             "Name": "standBookcase",
             "Value": "{{i18n:standBookcaseSVE}}",
-            "When": { "HasMod |contains={{SVE}}": "true" }
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
         },
         //Beach
         {
@@ -1533,12 +1545,16 @@
         {
             "Name": "standNearHome",
             "Value": "{{standMountain}}",
-            "When": { "HasReadLetter": "{{Raven}}Apartment" }
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
         },
         {
             "Name": "standNearHome",
             "Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
-            "When": { "HasFlag: |contains={{Raven}}Apartment": false }
+            "When": {
+                "HasFlag: |contains={{Raven}}_Apartment": false
+            }
         },
         //Free Days
         {
