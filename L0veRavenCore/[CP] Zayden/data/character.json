@@ -35,7 +35,7 @@
                     "FlowerDanceCanDance": false,
                     "WinterStarGifts": [], //ADD
                     "WinterStarParticipant": null,
-                    "UnlockConditions": "SEASON spring, DAY 7", //game state query-able about whether the npc has an unlock condidion before seen
+                    "UnlockConditions": "SEASON spring, DAY 7",
                     "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
                     "Home": [
                         {

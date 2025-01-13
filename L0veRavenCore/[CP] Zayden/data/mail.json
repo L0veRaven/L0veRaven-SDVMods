@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        //_Welcome
+        {
+            "LogName": "data/mail.json: _Welcome",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{Zayden}}_Welcome": "{{i18n:WelcomeMail_message}} {{i18n:WelcomeMail_item}}[#]{{WelcomeMail_title}}",
+            },
+        },
+        {
+            "LogName": "data/mail.json: _Welcome (Trigger Action)",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{Zayden}}_WelcomeLetterSend": {
+                    "Id": "{{Zayden}}_WelcomeLetterSend",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY spring 7",
+                    "Actions": [
+                        "AddMail Current {{Zayden}}_Welcome now"
+                    ]
+                }
+            }
+        },
+    ]
+}

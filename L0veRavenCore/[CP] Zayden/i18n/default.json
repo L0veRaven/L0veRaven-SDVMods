@@ -9,4 +9,10 @@
     
     // || data/character.json ||
     "DisplayName": "Zayden",
+    
+    // || data/mail.json ||
+        // {{Zayden}}_Welcome
+    "WelcomeMail_title": "Welcome to Pelican Town",
+    "WelcomeMail_message": "Hello there, this is Zayden.^^I just got back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
+    "WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
 }
