@@ -4,7 +4,7 @@
             "LogName": "data/locations/Apartment.json: CJB Cheats (Warps) - Raven's Apartment",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
                 "{{NPCA}}_Apartment1A": {
                     "Id": "{{NPCA}}_Apartment1A",

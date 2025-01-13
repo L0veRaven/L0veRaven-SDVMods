@@ -46,6 +46,7 @@
             "Action": "EditData",
             "Target": "Data/WorldMap",
             "TargetField": ["Valley", "MapAreas"],
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
                 "{{Raven}}_IndoorTownMap_{{Raven}}TentInside": {
                     "Id": "Custom_{{Raven}}TentInside",
@@ -290,7 +291,7 @@
                 "Season": "winter",
             }
         },
-        
+        //Remove Tent
         {
             "LogName": "data/locations/Tent.json: Map Patch Raven's Tent Removal (Vanilla)",
             "Action": "EditMap",
