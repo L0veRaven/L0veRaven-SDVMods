@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "data/locations/SpousePatio.json: StringsFromMaps",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenRavenSpousePatio.1": "{{ravenYobaShrine}}",//Yoba Shrine
+                "L0veRavenRavenSpousePatio.2": "{{ravenCrystal}}",//Crystal
+            }
+        },
+    ]
+}

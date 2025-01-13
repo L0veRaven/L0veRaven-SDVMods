@@ -1,0 +1,83 @@
+{
+    "Changes": [
+        {
+            "LogName": "data/locations/Apartment.json: CJB Cheats (Warps) - Raven's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1A": {
+                    "Id": "{{NPCA}}_Apartment1A",
+                    "DisplayName": "{{i18n:CJB_RavensApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "10, 23",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft",
+                },
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
+        },
+        {
+            "LogName": "data/locations/Apartment.json: StringsFromMaps - Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenRavenApartment.1": "{{ravenYobaShrine}}",//Yoba Shrine
+                "L0veRavenRavenApartment.2": "{{i18n:Bookshelf}}",//Stove
+                "L0veRavenRavenApartment.3": "{{ravenFridge}}",//Fridge
+                "L0veRavenRavenApartment.4": "{{ravenStove2}}",//Stove 2
+                "L0veRavenRavenApartment.5": "{{ravenComputer}}",//Computer
+                "L0veRavenRavenApartment.6": "{{ravenTrashBin}}",//Trash Bin
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Raven's Apartment w/ Coat Rack Tile Action",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/maps/L0veRaven_RavenApartment.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange, OnTimeChange",
+            "ToArea": {
+                "X": 5, "Y": 8, "Width": 11, "Height": 11
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11, "Y": 18,
+                    },
+                    "SetTilesheet": "2",
+                    "SetIndex": "588",
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "spacechase0.SpaceCore_TriggerAction {{Raven}}_CoatRackMoneyFlag"
+                    }
+                }
+            ],
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
+        },
+        {
+            "LogName": "mapPatches.json: Raven's Apartment - Change Tile Action to Message After Getting Reward",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "Update": "OnLocationChange, OnTimeChange",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11, "Y": 18,
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Dialogue {{i18n:CoatRack}}"
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag": "{{Raven}}_ReceiveCoatRackMoneyFlag",
+            },
+        },
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "data/locations/SpouseRoom.json: StringsFromMaps",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenRavenSpouseRoom.1": "{{ravenDesk}}",//Desk w/ Paper
+                "L0veRavenRavenSpouseRoom.2": "{{ravenGuitar}}",//Guitar
+                "L0veRavenRavenSpouseRoom.3": "{{ravenLoosePaper}}",//Loose Paper
+                "L0veRavenRavenSpouseRoom.4": "{{ravenPianoKey}}",//Piano Keyboard
+                "L0veRavenRavenSpouseRoom.5": "{{ravenYobaShrine}}",//Yoba Shrine
+                "L0veRavenRavenSpouseRoom.6": "{{i18n:Bookshelf}}",//Bookshelf
+            }
+        }
+    ]
+}

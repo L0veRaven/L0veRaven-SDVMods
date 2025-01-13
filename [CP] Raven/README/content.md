@@ -1,4 +1,4 @@
-# Config.json
+# Content.json
 
 The document starts with `{ }` and all the code will be sandwiched in between.
 

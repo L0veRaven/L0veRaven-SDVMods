@@ -92,6 +92,10 @@
             "Value": "FireRedLily.NPCApartments"
         },
         {
+            "Name": "CJBC",
+            "Value": "CJBok.CheatsMenu"
+        },
+        {
             "Name": "NB",
             "Value": "Raspb3rryfields.NaturesBounty"
         },
@@ -1623,7 +1627,7 @@
         {
             "LogName": "content.json: Locations",
             "Action": "Include",
-            "FromFile": "data/locations/WorldMap.json, data/locations/MapPatches.json, data/locations/warps.json, data/locations/LocationsData.json, data/locations/StringsFromMaps.json"
+            "FromFile": "data/locations/Tent.json, data/locations/Apartment.json, data/locations/SpouseRoom.json, data/locations/SpousePatio.json"
         },
         {
             "LogName": "content.json: Tent Inside (Vanilla)",
@@ -1662,7 +1666,7 @@
         {
             "LogName": "content.json: ModCompat",
             "Action": "Include",
-            "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json"
+            "FromFile": "data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json"
         }
     ]
 }
