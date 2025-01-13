@@ -1,16 +1,6 @@
 {
     "Format": "2.4.4",
     
-    "ConfigSchema": {
-        "ZaydenEnable": {
-            "Default": "true",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": null,
-            "Description": null
-        },
-    },
-    
     "DynamicTokens": [
         {
             "Name": "Zayden",
@@ -41,17 +31,11 @@
             "LogName": "content.json: Map Patch",
             "Action": "Include",
             "FromFile": "data/locations/Apartment.json",
-            "When": {
-                "ZaydenEnable": true
-            }
         },
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
             "FromFile": "data/character.json, data/schedule.json, data/dialogue/dialogue.json, data/mail.json",
-            "When": {
-                "ZaydenEnable": true
-            }
         },
     ]
 }

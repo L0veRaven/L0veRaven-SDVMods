@@ -1,5 +1,18 @@
 {
     "Changes": [
-        
+        {
+            "LogName": "data/schedule.json: General Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Zayden}}",
+            "Entries": {
+                "Mon": "",
+                "Tue": "",
+                "Wed": "",
+                "Thu": "",
+                "Fri": "",
+                "Sat": "",
+                "Sun": "",
+            }
+        },
     ]
 }

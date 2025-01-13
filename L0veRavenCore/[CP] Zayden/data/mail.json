@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Zayden}}_Welcome": "{{i18n:WelcomeMail_message}} {{i18n:WelcomeMail_item}}[#]{{WelcomeMail_title}}",
+                "{{Zayden}}_Welcome": "{{i18n:WelcomeMail_message}} {{i18n:WelcomeMail_item}}[#]{{i18n:WelcomeMail_title}}",
             },
         },
         {
