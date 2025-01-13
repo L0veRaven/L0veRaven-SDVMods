@@ -19,6 +19,10 @@
         {
             "Name": "NPCA",
             "Value": "FireRedLily.NPCApartments"
+        },
+        {
+            "Name": "CJBC",
+            "Value": "CJBok.CheatsMenu"
         }
     ],
 
@@ -32,7 +36,7 @@
         {
             "LogName": "content.json: Map Patch",
             "Action": "Include",
-            "FromFile": "data/locations/MapPatches.json",
+            "FromFile": "data/locations/Apartment.json",
             "When": {
                 "ZaydenEnable": true
             }
