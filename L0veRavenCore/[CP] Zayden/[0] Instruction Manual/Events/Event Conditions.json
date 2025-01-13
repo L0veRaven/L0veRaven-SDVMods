@@ -1,0 +1,193 @@
+{
+//Context - Checks: date/time/weather/etc. -_ Not player specific
+
+"!": "Inverts commands -> !Spouse Abigail (player is NOT married to Abigail)",
+    
+"GameStateQuery _query_", "G _query_": "GameStateQuery !Spouse Abigail -> (player is NOT married to Abigail) -> Inverts commands",
+    
+"ActiveDialogueEvent _dialogueID_", "!A _dialogueID_": "ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is in progress",
+"!ActiveDialogueEvent _dialogueID_", "A _dialogueID_": "!ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is NOT in progress",
+// -- General
+    "shaneSaloon1", "shaneSaloon2", "willyCrabs",
+// -- Community Center
+    "cc_Begin", "cc_Boulder", "cc_Bridge", "cc_Bus", "cc_Complete", "cc_Greenhouse", "cc_Minecart",
+// -- Saloon Event
+    "dumped_Girls", "dumped_Guys", "secondChance_Girls", "secondChance_Guys",
+// -- Pam House
+    "pamHouseUpgrade", "pamHouseUpgradeAnonymous",
+// -- Other
+    "Introduction", "joja_Begin",
+    
+"DayOfMonth _number_", "u _number_": "DayOfMonth 12 13 15/ -> Is day(s) of the month (Numbers only)",
+"!DayOfMonth _number_", "!u _number_": "!DayOfMonth 12 13 15/ -> Is NOT day(s) of the month (Numbers only)",
+    
+"DayOfWeek _day_", "d": "DayOfWeek Mon Wed/ [OR] DayOfWeek Monday Wednesday/ -> Is the ___ day of the week",
+"!DayOfWeek _day_", "d": "!DayOfWeek Mon Wed/ [OR] DayOfWeek Monday Wednesday/ -> Is NOT the ___ day of the week",
+
+"FestivalDay": "FestivalDay/ -> Is a festival day",
+"!FestivalDay", "F": !"FestivalDay/ -> Is NOT a festival day",
+    
+"GoldenWalnuts _number_", "N": "GoldenWalnuts 25/ -> Players have collectively gathered _number_ Golden Walnuts",
+"!GoldenWalnuts _number_", "!N": "!GoldenWalnuts 25/ -> Players have NOT collectively gathered _number_ Golden Walnuts",
+//=====================================================================================================================================================
+//=====================================================================================================================================================
+//=====================================================================================================================================================
+"InUpgradedHouse [level]", "L": "The current location is a farmhouse or cabin, and it has been upgraded at least [level] times. Default value: 2.",
+"!InUpgradedHouse [level]", "!L": "",
+    
+"NPCVisible _name_", "v": "The given NPC is present and visible in any location.",
+"!NPCVisible _name_", "!v": "",
+    
+"NpcVisibleHere _name_", "p": "The given NPC is present and visible in the current location.",
+"!NpcVisibleHere _name_", "!p": "",
+    
+"Random _number_", "r": "Matches randomly, where <number> is the probability between 0 and 1 of permitting the event (e.g., 0.2 for a 20% chance).",
+"!Random _number_", "r": "",
+    
+"Season _season_": "The current season is one of the given values (may specify multiple seasons).",
+"!Season _season_": "",
+    
+"Time _min_ _max_", "t": "The current time of day is between the given values, inclusive. Values use the 26-hour clock (600 to 2600).",
+"!Time _min_ _max_", "!t": "",
+    
+"UpcomingFestival _number_": "Festival will occur within _number_ days",
+"!UpcomingFestival _number_", "U _number_": "Festival will NOT occur within _number_ days",
+    
+"Weather _weather_", "w": "The weather in the current location's context matches <weather>. Valid values: rainy, sunny, or a specific weather ID.",
+"!Weather _weather_", "!w": "",
+    
+"WorldState _ID_", "*": "The given world state ID is active anywhere.",
+"!WorldState _ID_", "!*": "",
+    
+"Year _year_", "y": "If <year> is 1, must be in the first year. Otherwise, year must be at least this value.",
+"!Year _year_", "!y": "",
+//=====================================================================================================================================================
+//=====================================================================================================================================================
+//=====================================================================================================================================================
+
+"r _number_": "A random probability check",
+    // _number_ is the probability between 0 and 1 (e.g., 0.2 for 20% chance)
+
+"v _name_": "_name_ is not invisible (regardless of whether they're on-screen)",
+
+"w _weather_": "Current weather is _weather_",
+        // rainy
+        // sunny
+
+"y _year_": "Current year is _number_",
+    // IMPORTANT: 
+
+"z _season_": "Is not _season_",
+
+// ===================================================================================================================================
+// Conditions: Current Player
+// ===================================================================================================================================
+
+// Checks current player
+
+"Skill _name_ _level_": "Skill Mining 5/ -> Values: Combat/Farming/Fishing/Foraging/Luck/Mining -> Current player has reached at least level _number_ in _skill_",
+    
+"SpouseBed", "B": "Has a double bed in the farmhouse if married; single bed if roommates (Krobus as a roommate always is excluded)",
+    
+"Roommate", "R": "Current player is roommates with any NPC",
+
+"Dating _name_", "D _name_": "Dating _NPC_",
+
+"J": "Finished the Joja Warehouse",
+
+"L": "Event is in the FarmHouse -_ FarmHouse has nursery [Only works inside the FarmHouse -_ Always false outside]",
+
+"HasMoney _number_", "M _number_": "HasMoney 1000/ -> Player has at least _number_ G currently",
+
+"Spouse _name_", "O _name_": "Married to that NPC",
+
+"SawSecretNote _secretNoteNumberId_", "S _secretNoteNumberId_": "Seen Secret Note _numberID_",
+
+"Tile _x_ _y_", "a _x_ _y_": "Tile 3 24 6 8/ -> Entered the map on tile position(s)",
+
+"ReachedMineBottom _number_", "b _number_": "Reached bottom of the Mines at least _number_ times",
+
+"FreeInventorySlots _number_", "c _number_": "At least _number_ free inventory slots",
+
+"SawEvent _eventID_", "e _eventID_": "e 00000000/ -> Has seen _event ID_",
+"!SawEvent _eventID_", "!e _eventID_": "e 00000000/ -> Has NOT seen _event ID_",
+
+"SawEvent _eventID_ _eventID_", "e _eventID_ _eventID_": "e 00000000 0000001/ -> Has seen EITHER events",
+"!SawEvent _eventID_ _eventID_", "!e _eventID_ _eventID_": "e 00000000 0000001/ -> Has NOT seen EITHER events",
+
+"SawEvent _eventID_/SawEvent _eventID_", "e _eventID_/e _eventID_": "e 00000000/e 00000001/ -> Has seen BOTH events",
+"!SawEvent _eventID_/SawEvent _eventID_", "!e _eventID_/e _eventID_": "e 00000000/e 00000001/ -> Has NOT seen BOTH events",
+
+"Friendship _name_ _number_", "f _name_ _number_": "f Penny 1500 {{ModId}} 1500/ -> Current player has at least _number_ friendship points with _NPC(s)_",
+    //Can specify multiple name and number pairs -_ player must meet all of them
+
+"Gender _gender_", "g _gender_": "Gender female/ -> Values: male/female -> Current player is the specified gender",
+
+"MissingPet _pet_", "h _pet_": "MissingPet cat/ -> Values: cat/dog -_ Current player does not already have a pet and their preference matches _pet_",
+"MissingPet", "h": "MissingPet/ -> Matches any preference",
+
+"HasItem _itemID_", "i _item ID_": "Current player has _itemID_ in their inventory",
+
+"j _number_": "Current player has played more than _number_ days",
+
+"k _event ID_": "Current player has not seen that event (may contain multiple event IDs)",
+
+"l _letter ID_": "Current player has not received that mail letter or non-mail flag",
+
+"EarnedMoney _number_", "m _number_": "Current player has earned at least _number_ G in total",
+
+"LocalMail _letterID_", "n _letterID_": "Current player has received that mail letter or non-mail flag",
+
+"o _name_": "Current player is not married to that NPC",
+
+"p _name_": "Specified NPC is in the current player's location",
+
+"ChoseDialogueAnswers _dialogueID_", "q _dialogue ID_": "ChoseDialogueAnswers _dialogueID_ _dialogueID_/ -> Current player has chosen the given answer in a dialogue. May contain multiple dialogue IDs, in which case they must all have been selected",
+
+"Shipped _item ID_ _number_", "s _item ID_ _number_": "Shipped 168 3 66 2/ -> Player has shipped at least _number_ item(s) (All must be met if multiple are listed)",
+    //Only works for the items tracked by the game for shipping stats (shown in the shipping collections menu)
+
+"t _min time_ _max time_": "", //Current time is between between the specified times. Can range from 600 to 2600
+
+"u _day of month_": "", //Current day of month is one of the specified values (may contain multiple days)
+
+"x _letter ID_": "", //For the current player: mark this event as seen, add the specified letter to tomorrow's mail, then return false (so that nothing further happens). Use the format "x letterid true" to send the letter immediately
+
+"HostOrLocalMail _letterID_", "*n _letterID_": "Host / current player have received _letterID_ (mail / non-mail)",
+    
+// ===================================================================================================================================
+// Condition: Host Player      Check's host player     In single player, it's ALWAYS the current player
+// ===================================================================================================================================
+
+"CommunityCenterOrWarehouseDone", "C": "Finished the Community Center or Joja Warehouse",
+    
+"JojaBundlesDone", "J": "All Joja bundles are complete",
+"!JojaBundlesDone", "J": "Joja bundles are NOT complete",
+
+"DaysPlayed _number_", "j": "Host has played at least _number_ days",
+
+"X": "Has NOT finished the Community Center or Joja Warehouse",
+
+"IsHost", "H": "Current player is host",
+
+"Hl _letterID_": "Has NOT received _letter_",
+
+"HostMail", "Hn _letterID_": "Host has received _letter_",
+
+"*l _letterID_": "Host & current player have NOT received _letterID_ (mail or non-mail is irrelevant)",
+
+"HostOrLocalMail _letterID_", "*n _letterID_": "Host / current player have received _letterID_ (mail / non-mail)",
+
+// ===================================================================================================================================
+// Basic Event Format
+// ===================================================================================================================================
+
+// MUST start with three commands in this exact order:
+    // _music ID_/_x_ _y_ [for viewport]/[_character ID_ _x_ _y_ _direction_] [...] [...]/
+
+"_musicID_": "-> Background/Ambient music -> Change music: playMusic _newSong_ -> Stop music: stopMusic",
+
+"_x_ _y_": "-> Tile coordinates the camera centers on",
+
+"[_actor_ _x_ _y_ _direction_]": "Penny 3 5 {{right}} farmer 10 25 {{down}} Gus 5 17 {{down}}/ -> Designates 1+ characters' starting tile positions and directions",
+}

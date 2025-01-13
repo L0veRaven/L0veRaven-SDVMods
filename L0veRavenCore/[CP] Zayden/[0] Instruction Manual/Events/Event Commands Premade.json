@@ -1,0 +1,28 @@
+{
+//VFX
+"Fade to black": "globalFade/viewport -1000 -1000",//{{fadeout}}
+//Movements
+"Jump & Scream": "playSound batScreech/jump <actor>/showFrame <actor> <frame>/shake <actor> 250/pause 800/showFrame <actor> <frame>",
+"Sweat": "emote _actor_ {{emoteSweat}} true/playSound dwop",//{{emoteSweat}}="28"
+//SFX
+"Close Door": "playSound doorClose",//{{SFXclosedoor}}
+//Common Commands
+    //speak
+"speakRaven": "speak {{ModId}}",//"{{speakRaven}} \"{{i18n:blank}}\"/<..>"
+"speakPenny": "speak Penny",//"{{speakPenny}} \"{{i18n:blank}}\"/<..>"
+    //move
+"animateRaven": "animate {{ModId}}",//"{{animateRaven}} __actor__ __flip__ __loop__ __framesPerMillisecond__ __frames__/<..>"
+    //move
+"moveRaven": "move {{ModId}}",//"{{moveRaven}} 10 0 {{left}}/<..>"
+"moveFarmer": "move farmer",//"{{moveFarmer}} 10 0 {{left}}/<..>"
+"movePenny": "move Penny",//"{{movePenny}} 10 0 {{left}}/<..>"
+    //faceDirection
+"faceDirectionRaven": "faceDirection {{ModId}}",//"{{faceDirectionRaven}} {{right}}/<..>"
+"faceDirectionFarmer": "faceDirection farmer",//"{{faceDirectionFarmer}} {{right}}/<..>"
+"faceDirectionPenny": "faceDirection Penny",//"{{faceDirectionPenny}} {{right}}/<..>"
+    //emote
+"emoteRaven": "emote {{ModId}}",//"{{emoteRaven}} {{emoteHappy}}/<..>"
+"emoteFarmer": "emote farmer",//"{{emoteFarmer}} {{emoteHappy}}/<..>"
+"emotePenny": "emote Penny",//"{{emotePenny}} {{emoteHappy}}/<..>"
+
+}
