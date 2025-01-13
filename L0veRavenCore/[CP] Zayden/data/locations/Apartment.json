@@ -4,10 +4,10 @@
             "LogName": "CJB Cheats (Warps): Zayden's Apartment",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Update": "OnLocationChange",
+            "Update": "OnLocationChange, OnTimeChange",
             "Entries": {
-                "{{NPCA}}_Apartment1A": {
-                    "Id": "{{NPCA}}_Apartment1A",
+                "{{NPCA}}_Apartment1J": {
+                    "Id": "{{NPCA}}_Apartment1J",
                     "DisplayName": "{{i18n:CJB_ZaydensApartment}}",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": "54, 27",
@@ -27,6 +27,10 @@
             "PatchMode": "Replace",
             "ToArea": {
                 "X": 49, "Y": 27, "Width": 11, "Height": 11
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+                "ZaydenEnable": true
             }
         }
     ]
