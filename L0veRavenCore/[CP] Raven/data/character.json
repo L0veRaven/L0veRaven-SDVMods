@@ -1,17 +1,17 @@
-{
+{//ADD
     "Changes": [
         {
             "LogName": "character.json: Disposition - SVE (Plain)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "{{Raven}}": { // NPC's internal name
+                "{{Raven}}": {
                     "DisplayName": "{{i18n:DisplayName}}",
                     "BirthSeason": "winter",
                     "BirthDay": 18,
                     "HomeRegion": "Town",
                     "Language": "default",
-                    "Gender": "male", // male,female,undefined (undefined gets auto-sorted as female)
+                    "Gender": "male",
                     "Age": "adult",
                     "Manner": "polite",
                     "SocialAnxiety": "outgoing",
@@ -23,7 +23,7 @@
                     "CanSocialize": true,
                     "CanReceiveGifts": true,
                     "CanGreetNearbyCharacters": true,
-                    "CanCommentOnPurchasedShopItems": false, // true,false -> (i18n or dialogue strings required)
+                    "CanCommentOnPurchasedShopItems": false,
                     "CanVisitIsland": true,
                     "IntroductionsQuest": true,
                     "ItemDeliveryQuests": true,
@@ -47,8 +47,8 @@
                             [0, 1500],
                         ],
                     },
-                    "DumpsterDiveFriendshipEffect": 0, // Friendship loss/gain if found dumpster diving
-                    "DumpsterDiveEmote": 16, // Emote when player is found to be digging in trash
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 16,
                     //ADD"SpouseFloors": [], // Flooring NPC will place in home
                     //ADD"SpouseWallpapers": [], // Wallpapers NPC will place in home
                     "FriendsAndFamily": {}, // If NPC has relatives

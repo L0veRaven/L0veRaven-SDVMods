@@ -1351,5 +1351,8 @@
 //Smoke Session
 "SmokeSession_headline": "Smoke Session",
 "SmokeSession_summary": "Raven offered you to join them for a smoke session. Why not join in?",
-"SmokeSession_hint": "Visit Raven's tent."
+"SmokeSession_hint": "Visit Raven's tent.",
+    
+// || CJB Cheats Warps ||
+"warp-sections.pelican-valley-loft": "Pelican Valley Loft"
 }

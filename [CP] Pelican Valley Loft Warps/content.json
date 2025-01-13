@@ -1,5 +1,15 @@
 {
     "Format": "2.4.4",
+    
+    "ConfigSchema": {
+        "WarpsEnable": {
+            "Default": "true",
+            "AllowValues": "true, false",
+            "AllowBlank": false,
+            "Section": null,
+            "Description": null
+        },
+    },
 
     "Changes": [
         {
@@ -15,7 +25,7 @@
         },
 
         {
-            "LogName": "Warp: Apartment 1A",
+            "LogName": "Warp: Apartment 1st Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -26,13 +36,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1B": {
                     "Id": "FireRedLily.NPCApartments_Apartment1B",
                     "DisplayName": "{{i18n:apartment_1b}}",
@@ -40,13 +43,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1C": {
                     "Id": "FireRedLily.NPCApartments_Apartment1C",
                     "DisplayName": "{{i18n:apartment_1c}}",
@@ -54,13 +50,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1D": {
                     "Id": "FireRedLily.NPCApartments_Apartment1D",
                     "DisplayName": "{{i18n:apartment_1d}}",
@@ -68,13 +57,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1E": {
                     "Id": "FireRedLily.NPCApartments_Apartment1E",
                     "DisplayName": "{{i18n:apartment_1e}}",
@@ -82,13 +64,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1F": {
                     "Id": "FireRedLily.NPCApartments_Apartment1F",
                     "DisplayName": "{{i18n:apartment_1f}}",
@@ -96,13 +71,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1G": {
                     "Id": "FireRedLily.NPCApartments_Apartment1G",
                     "DisplayName": "{{i18n:apartment_1g}}",
@@ -110,13 +78,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1H": {
                     "Id": "FireRedLily.NPCApartments_Apartment1H",
                     "DisplayName": "{{i18n:apartment_1h}}",
@@ -124,13 +85,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1I": {
                     "Id": "FireRedLily.NPCApartments_Apartment1I",
                     "DisplayName": "{{i18n:apartment_1i}}",
@@ -138,13 +92,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 1J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment1J": {
                     "Id": "FireRedLily.NPCApartments_Apartment1J",
                     "DisplayName": "{{i18n:apartment_1j}}",
@@ -153,10 +100,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 2A",
+            "LogName": "Warp: Apartment 2nd Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -167,13 +117,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2B": {
                     "Id": "FireRedLily.NPCApartments_Apartment2B",
                     "DisplayName": "{{i18n:apartment_2b}}",
@@ -181,13 +124,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2C": {
                     "Id": "FireRedLily.NPCApartments_Apartment2C",
                     "DisplayName": "{{i18n:apartment_2c}}",
@@ -195,13 +131,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2D": {
                     "Id": "FireRedLily.NPCApartments_Apartment2D",
                     "DisplayName": "{{i18n:apartment_2d}}",
@@ -209,13 +138,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2E": {
                     "Id": "FireRedLily.NPCApartments_Apartment2E",
                     "DisplayName": "{{i18n:apartment_2e}}",
@@ -223,13 +145,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2F": {
                     "Id": "FireRedLily.NPCApartments_Apartment2F",
                     "DisplayName": "{{i18n:apartment_2f}}",
@@ -237,13 +152,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2G": {
                     "Id": "FireRedLily.NPCApartments_Apartment2G",
                     "DisplayName": "{{i18n:apartment_2g}}",
@@ -251,13 +159,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2H": {
                     "Id": "FireRedLily.NPCApartments_Apartment2H",
                     "DisplayName": "{{i18n:apartment_2h}}",
@@ -265,13 +166,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2I": {
                     "Id": "FireRedLily.NPCApartments_Apartment2I",
                     "DisplayName": "{{i18n:apartment_2i}}",
@@ -279,13 +173,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 2J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment2J": {
                     "Id": "FireRedLily.NPCApartments_Apartment2J",
                     "DisplayName": "{{i18n:apartment_2j}}",
@@ -294,10 +181,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 3A",
+            "LogName": "Warp: Apartment 3rd Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -308,13 +198,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3B": {
                     "Id": "FireRedLily.NPCApartments_Apartment3B",
                     "DisplayName": "{{i18n:apartment_3b}}",
@@ -322,13 +205,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3C": {
                     "Id": "FireRedLily.NPCApartments_Apartment3C",
                     "DisplayName": "{{i18n:apartment_3c}}",
@@ -336,13 +212,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3D": {
                     "Id": "FireRedLily.NPCApartments_Apartment3D",
                     "DisplayName": "{{i18n:apartment_3d}}",
@@ -350,13 +219,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3E": {
                     "Id": "FireRedLily.NPCApartments_Apartment3E",
                     "DisplayName": "{{i18n:apartment_3e}}",
@@ -364,13 +226,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3F": {
                     "Id": "FireRedLily.NPCApartments_Apartment3F",
                     "DisplayName": "{{i18n:apartment_3f}}",
@@ -378,13 +233,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3G": {
                     "Id": "FireRedLily.NPCApartments_Apartment3G",
                     "DisplayName": "{{i18n:apartment_3g}}",
@@ -392,13 +240,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3H": {
                     "Id": "FireRedLily.NPCApartments_Apartment3H",
                     "DisplayName": "{{i18n:apartment_3h}}",
@@ -406,13 +247,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3I": {
                     "Id": "FireRedLily.NPCApartments_Apartment3I",
                     "DisplayName": "{{i18n:apartment_3i}}",
@@ -420,13 +254,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 3J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment3J": {
                     "Id": "FireRedLily.NPCApartments_Apartment3J",
                     "DisplayName": "{{i18n:apartment_3j}}",
@@ -435,10 +262,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 4A",
+            "LogName": "Warp: Apartment 4th Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -449,13 +279,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4B": {
                     "Id": "FireRedLily.NPCApartments_Apartment4B",
                     "DisplayName": "{{i18n:apartment_4b}}",
@@ -463,13 +286,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4C": {
                     "Id": "FireRedLily.NPCApartments_Apartment4C",
                     "DisplayName": "{{i18n:apartment_4c}}",
@@ -477,13 +293,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4D": {
                     "Id": "FireRedLily.NPCApartments_Apartment4D",
                     "DisplayName": "{{i18n:apartment_4d}}",
@@ -491,13 +300,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4E": {
                     "Id": "FireRedLily.NPCApartments_Apartment4E",
                     "DisplayName": "{{i18n:apartment_4e}}",
@@ -505,13 +307,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4F": {
                     "Id": "FireRedLily.NPCApartments_Apartment4F",
                     "DisplayName": "{{i18n:apartment_4f}}",
@@ -519,13 +314,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4G": {
                     "Id": "FireRedLily.NPCApartments_Apartment4G",
                     "DisplayName": "{{i18n:apartment_4g}}",
@@ -533,13 +321,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4H": {
                     "Id": "FireRedLily.NPCApartments_Apartment4H",
                     "DisplayName": "{{i18n:apartment_4h}}",
@@ -547,13 +328,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4I": {
                     "Id": "FireRedLily.NPCApartments_Apartment4I",
                     "DisplayName": "{{i18n:apartment_4i}}",
@@ -561,13 +335,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 4J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment4J": {
                     "Id": "FireRedLily.NPCApartments_Apartment4J",
                     "DisplayName": "{{i18n:apartment_4j}}",
@@ -576,10 +343,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 5A",
+            "LogName": "Warp: Apartment 5th Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -590,13 +360,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5B": {
                     "Id": "FireRedLily.NPCApartments_Apartment5B",
                     "DisplayName": "{{i18n:apartment_5b}}",
@@ -604,13 +367,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5C": {
                     "Id": "FireRedLily.NPCApartments_Apartment5C",
                     "DisplayName": "{{i18n:apartment_5c}}",
@@ -618,13 +374,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5D": {
                     "Id": "FireRedLily.NPCApartments_Apartment5D",
                     "DisplayName": "{{i18n:apartment_5d}}",
@@ -632,13 +381,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5E": {
                     "Id": "FireRedLily.NPCApartments_Apartment5E",
                     "DisplayName": "{{i18n:apartment_5e}}",
@@ -646,13 +388,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5F": {
                     "Id": "FireRedLily.NPCApartments_Apartment5F",
                     "DisplayName": "{{i18n:apartment_5f}}",
@@ -660,13 +395,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5G": {
                     "Id": "FireRedLily.NPCApartments_Apartment5G",
                     "DisplayName": "{{i18n:apartment_5g}}",
@@ -674,13 +402,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5H": {
                     "Id": "FireRedLily.NPCApartments_Apartment5H",
                     "DisplayName": "{{i18n:apartment_5h}}",
@@ -688,13 +409,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5I": {
                     "Id": "FireRedLily.NPCApartments_Apartment5I",
                     "DisplayName": "{{i18n:apartment_5i}}",
@@ -702,13 +416,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 5J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment5J": {
                     "Id": "FireRedLily.NPCApartments_Apartment5J",
                     "DisplayName": "{{i18n:apartment_5j}}",
@@ -717,10 +424,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 6A",
+            "LogName": "Warp: Apartment 6th Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -731,13 +441,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6B": {
                     "Id": "FireRedLily.NPCApartments_Apartment6B",
                     "DisplayName": "{{i18n:apartment_6b}}",
@@ -745,13 +448,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6C": {
                     "Id": "FireRedLily.NPCApartments_Apartment6C",
                     "DisplayName": "{{i18n:apartment_6c}}",
@@ -759,13 +455,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6D": {
                     "Id": "FireRedLily.NPCApartments_Apartment6D",
                     "DisplayName": "{{i18n:apartment_6d}}",
@@ -773,13 +462,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6E": {
                     "Id": "FireRedLily.NPCApartments_Apartment6E",
                     "DisplayName": "{{i18n:apartment_6e}}",
@@ -787,13 +469,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6F": {
                     "Id": "FireRedLily.NPCApartments_Apartment6F",
                     "DisplayName": "{{i18n:apartment_6f}}",
@@ -801,13 +476,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6G": {
                     "Id": "FireRedLily.NPCApartments_Apartment6G",
                     "DisplayName": "{{i18n:apartment_6g}}",
@@ -815,13 +483,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6H": {
                     "Id": "FireRedLily.NPCApartments_Apartment6H",
                     "DisplayName": "{{i18n:apartment_6h}}",
@@ -829,13 +490,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6I": {
                     "Id": "FireRedLily.NPCApartments_Apartment6I",
                     "DisplayName": "{{i18n:apartment_6i}}",
@@ -843,13 +497,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 6J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment6J": {
                     "Id": "FireRedLily.NPCApartments_Apartment6J",
                     "DisplayName": "{{i18n:apartment_6j}}",
@@ -858,10 +505,13 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
 
         {
-            "LogName": "Warp: Apartment 7A",
+            "LogName": "Warp: Apartment 7th Floor",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
             "Entries": {
@@ -872,13 +522,6 @@
                     "Tile": "10, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7B",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7B": {
                     "Id": "FireRedLily.NPCApartments_Apartment7B",
                     "DisplayName": "{{i18n:apartment_7b}}",
@@ -886,13 +529,6 @@
                     "Tile": "21, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7C",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7C": {
                     "Id": "FireRedLily.NPCApartments_Apartment7C",
                     "DisplayName": "{{i18n:apartment_7c}}",
@@ -900,13 +536,6 @@
                     "Tile": "32, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7D",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7D": {
                     "Id": "FireRedLily.NPCApartments_Apartment7D",
                     "DisplayName": "{{i18n:apartment_7d}}",
@@ -914,13 +543,6 @@
                     "Tile": "43, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7E",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7E": {
                     "Id": "FireRedLily.NPCApartments_Apartment7E",
                     "DisplayName": "{{i18n:apartment_7e}}",
@@ -928,13 +550,6 @@
                     "Tile": "54, 23",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7F",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7F": {
                     "Id": "FireRedLily.NPCApartments_Apartment7F",
                     "DisplayName": "{{i18n:apartment_7f}}",
@@ -942,13 +557,6 @@
                     "Tile": "10, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7G",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7G": {
                     "Id": "FireRedLily.NPCApartments_Apartment7G",
                     "DisplayName": "{{i18n:apartment_7g}}",
@@ -956,13 +564,6 @@
                     "Tile": "21, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7H",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7H": {
                     "Id": "FireRedLily.NPCApartments_Apartment7H",
                     "DisplayName": "{{i18n:apartment_7h}}",
@@ -970,13 +571,6 @@
                     "Tile": "32, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7I",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7I": {
                     "Id": "FireRedLily.NPCApartments_Apartment7I",
                     "DisplayName": "{{i18n:apartment_7i}}",
@@ -984,13 +578,6 @@
                     "Tile": "43, 27",
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
-            },
-        },
-        {
-            "LogName": "Warp: Apartment 7J",
-            "Action": "EditData",
-            "Target": "Mods/CJBok.CheatsMenu/Warps",
-            "Entries": {
                 "FireRedLily.NPCApartments_Apartment7J": {
                     "Id": "FireRedLily.NPCApartments_Apartment7J",
                     "DisplayName": "{{i18n:apartment_7j}}",
@@ -999,6 +586,9 @@
                     "SectionId": "FireRedLily.NPCApartments_PelicanValleyLoft",
                 },
             },
+            "When": {
+                "WarpsEnable": true,
+            }
         },
     ]
 }

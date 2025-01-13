@@ -3,5 +3,10 @@
     "config.ZaydenEnable.name": "Enable Zayden",
     "config.ZaydenEnable.description": "Choose to enable or disable Zayden from being added to the game. (Default: true)",
     
+    // || data/locations/Apartment.json ||
     "CJB_ZaydensApartment": "1J: Zayden",
+    "warp-sections.pelican-valley-loft": "Pelican Valley Loft",
+    
+    // || data/character.json ||
+    "DisplayName": "Zayden",
 }

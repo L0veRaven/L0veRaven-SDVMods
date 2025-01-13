@@ -23,6 +23,10 @@
         {
             "Name": "CJBC",
             "Value": "CJBok.CheatsMenu"
+        },
+        {
+            "Name": "Apartment",
+            "Value": "FRL_NPCApt_Floor1"
         }
     ],
 
@@ -30,13 +34,21 @@
         {
             "LogName": "content.json: Blank Loads",
             "Action": "Load",
-            "Target": "Characters/Dialogue/{{Zayden}}, Characters/Dialogue/MarriageDialogue{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
+            "Target": "Characters/Dialogue/{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
             "FromFile": "data/blank.json",
         },
         {
             "LogName": "content.json: Map Patch",
             "Action": "Include",
             "FromFile": "data/locations/Apartment.json",
+            "When": {
+                "ZaydenEnable": true
+            }
+        },
+        {
+            "LogName": "content.json: NPC Data",
+            "Action": "Include",
+            "FromFile": "data/character.json, data/schedule.json, data/dialogue/dialogue.json",
             "When": {
                 "ZaydenEnable": true
             }

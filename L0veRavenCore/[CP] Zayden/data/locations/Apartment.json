@@ -1,6 +1,17 @@
 {
     "Changes": [
         {
+            "LogName": "Warp Section: Pelican Valley Loft",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "Entries": {
+                "{{NPCA}}_PelicanValleyLoft": {
+                    "Id": "{{NPCA}}_PelicanValleyLoft",
+                    "DisplayName": "{{i18n:warp-sections.pelican-valley-loft}}"
+                }
+            }
+        },
+        {
             "LogName": "CJB Cheats (Warps): Zayden's Apartment",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
