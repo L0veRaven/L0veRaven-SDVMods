@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="11" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="41">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="11" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="42">
  <properties>
   <property name="DayTiles" value="Front 7 20 1344 Front 13 20 1344 Front 18 20 1344 Front 24 20 1344 Front 29 20 1344 Front 35 20 1344 Front 40 20 1344 Front 46 20 1344 Front 51 20 1344 Front 57 20 1344"/>
   <property name="Doors" value="10 21 1 120 10 29 1 120 21 21 1 120 21 29 1 120 32 21 1 120 32 29 1 120 43 21 1 120 43 29 1 120 54 21 1 120 54 29 1 120"/>
@@ -170,6 +170,11 @@
   <object id="32" name="TileData" x="80" y="32" width="16" height="16">
    <properties>
     <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;L0veRavenZaydenApartment.1&quot;"/>
    </properties>
   </object>
  </objectgroup>

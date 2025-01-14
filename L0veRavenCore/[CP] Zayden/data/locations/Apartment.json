@@ -41,6 +41,14 @@
             "When": {
                 "HasMod |contains={{CJBC}}": "true",
             }
-        }
+        },
+        {
+            "LogName": "data/locations/Apartment.json: StringsFromMaps - Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenZaydenApartment.1": "{{i18n:fridge}}",
+            }
+        },
     ]
 }

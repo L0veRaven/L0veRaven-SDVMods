@@ -6,6 +6,7 @@
     // || data/locations/Apartment.json ||
     "CJB_ZaydensApartment": "1J: Zayden",
     "warp-sections.pelican-valley-loft": "Pelican Valley Loft",
+    "fridge": "The fridge is stocked with food. The cheese is low...",
     
     // || data/character.json ||
     "DisplayName": "Zayden",

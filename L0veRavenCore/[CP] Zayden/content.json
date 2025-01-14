@@ -35,7 +35,7 @@
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/character.json, data/schedule.json, data/dialogue/dialogue.json, data/mail.json",
+            "FromFile": "data/character.json, data/dialogue/scheduleStrings.json, data/schedule.json, data/dialogue/dialogue.json, data/mail.json",
         },
     ]
 }

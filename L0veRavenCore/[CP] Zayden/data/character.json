@@ -35,7 +35,7 @@
                     "FlowerDanceCanDance": false,
                     "WinterStarGifts": [], //ADD
                     "WinterStarParticipant": null,
-                    "UnlockConditions": "SEASON spring, DAY 7",
+                    "UnlockConditions": "SEASON_DAY spring 7",
                     "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
                     "Home": [
                         {
