@@ -1,7 +1,26 @@
 {
+    // (sweat)
+    // (smile sweat)
+    // (angry)
+    // (side eye)
+    // (angry side eye)
+    // (sweat side eye)
+    
     // || Content.json -> ConfigSchema ||
     "config.ZaydenEnable.name": "Enable Zayden",
     "config.ZaydenEnable.description": "Choose to enable or disable Zayden from being added to the game. (Default: true)",
+    
+    // || Content.json -> DynamicTokens -> JojaSweep ||
+    "JojaSweep_1": "JojaMart 3 7 2 l0veraven_zayden_sweep",
+    "JojaSweep_2": "JojaMart 1 21 2 l0veraven_zayden_sweep",
+    "JojaSweep_3": "JojaMart 5 15 2 l0veraven_zayden_sweep",
+    "JojaSweep_4": "JojaMart 10 12 2 l0veraven_zayden_sweep",
+    "JojaSweep_5": "JojaMart 13 15 2 l0veraven_zayden_sweep",
+    "JojaSweep_6": "JojaMart 16 25 2 l0veraven_zayden_sweep",
+    "JojaSweep_7": "JojaMart 18 16 2 l0veraven_zayden_sweep",
+    "JojaSweep_8": "JojaMart 21 15 2 l0veraven_zayden_sweep",
+    "JojaSweep_9": "JojaMart 22 12 2 l0veraven_zayden_sweep",
+    "JojaSweep_10": "JojaMart 26 6 2 l0veraven_zayden_sweep",
     
     // || data/locations/Apartment.json ||
     "CJB_ZaydensApartment": "1J: Zayden",
@@ -16,4 +35,47 @@
     "WelcomeMail_title": "Welcome to Pelican Town",
     "WelcomeMail_message": "Hello there, this is Zayden.^^I just got back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
     "WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
+    
+    // || data/dialogue/scheduleStrings.json ||
+    "JojaMart_001": "...#$b#Oh, sorry. I'm focused on cleaning right now.#$e#... (sweat)",
+    
+    // || data/dialogue/dialogue.json ||
+    "0hearts_1": "I normally stay away from direct sunlight.#$b#It's not that I sunburn easily, but too much sun isn't good for my skin.#$e#No, I don't care that the sun causes aging.#$b#*whispers* It's kinda a dumb reason to hate the sun...",
+    "0hearts_2": "The heat isn't an issue for me. It's when the sun's directly on me for too long.#$e#What happens when I'm in the sun for too long?#$b#...#$b#I don't know, I never got that far... (sweat)",
+    "0hearts_3": "I'm curious about something...#$b#$y 'Are you gonna focus on raising animals, crops, or making artisan goods?_Raising animals_That'll be pretty profitable as long as you stay consistent. You'll do fine.$1_Raising crops_I hear that once you get sprinklers all over the farm that it gets way easier from there. You've got this._Artisan goods_Listen... If you end up making cheese, can you save some for me? I'll be sure to pay you for some.",
+    "0hearts_4": "",
+    "0hearts_5": "",
+    "0hearts_6": "",
+    "0hearts_7": "",
+    
+    "Introduction": "Oh, you're @! Did you get the letter I sent you? I wrote it while I was still out of town.#$b#Gus and I are pretty close so he always lets me know about new things that happen.#$e#I hope you like it here.",
+    "pamHouseUpgrade": "I heard that you helped Pam and Penny get a house. You're pretty selfless for that.#$b#Th-that's a good thing! (smile sweat)",
+    "pamHouseUpgradeAnonymous": "I wonder who helped Pam and Penny get a house.#$b#That couldn't have been cheap. (side eye)",
+    "joja_Begin": "",
+    "movieTheater": "",
+    "dumpsterDive": "",
+    "hitSlingshot": "Don't shoot me with your damn slingshot! (angry)#$e#Don't talk to me right now. (angry side eye)",
+    "cc_Minecart": "",
+    "cc_Greenhouse": "",
+    "cc_Bus": "",
+    "cc_Bridge": "",
+    "cc_Boulder": "",
+    "cc_Complete": "",
+    "wonEggHunt": "",
+    "wonGrange": "",
+    "wonIceFishing": "",
+    "married_farmer": "Hey, @, congrats on getting married. I really hope you and your spouse have a good future.",
+    "divorced_farmer": "... I heard that you got divorced. I've never done marriage before, but I hope it gets easier for you sooner rather than later. (sweat side eye)#$e#*whispers* I hope I said the right thing. (sweat side eye)",
+    
+    // || data/dialogue/giftResponses.json ||
+    "AcceptBirthdayGift_Loved": "",
+    "AcceptBirthdayGift_Liked": "",
+    "AcceptBirthdayGift_Hated": "",
+    "AcceptBirthdayGift_Disliked": "",
+    "AcceptBirthdayGift_Neutral": "",
+    "AcceptBirthdayGift": "",
+    
+    "AcceptGift_Loved_Cheese": "Oh, this is for me? I won't let you leave empty-handed. I really appreciate it.#$action AddMoney 500",
+    
+    "RejectItem_hidden": "Um...#$b#No thanks. (sweat)",
 }

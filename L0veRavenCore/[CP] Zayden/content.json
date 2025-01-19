@@ -17,6 +17,58 @@
         {
             "Name": "Apartment",
             "Value": "FRL_NPCApt_Floor1"
+        },
+        {
+            "Name": "aniSweep",
+            "Value": "l0veraven_zayden_sweep"
+        },
+        {
+            "Name": "sweepSchD",
+            "Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""
+        },
+        {
+            "Name": "aniSleep",
+            "Value": "l0veraven_zayden_sleep"
+        },
+        {
+            "Name": "JojaSweep1",
+            "Value": "{{i18n:JojaSweep_1}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep2",
+            "Value": "{{i18n:JojaSweep_2}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep3",
+            "Value": "{{i18n:JojaSweep_3}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep4",
+            "Value": "{{i18n:JojaSweep_4}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep5",
+            "Value": "{{i18n:JojaSweep_5}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep6",
+            "Value": "{{i18n:JojaSweep_6}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep7",
+            "Value": "{{i18n:JojaSweep_7}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep8",
+            "Value": "{{i18n:JojaSweep_8}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep9",
+            "Value": "{{i18n:JojaSweep_9}} {{sweepSchD}}"
+        },
+        {
+            "Name": "JojaSweep10",
+            "Value": "{{i18n:JojaSweep_10}} {{sweepSchD}}"
         }
     ],
 
@@ -35,7 +87,7 @@
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/character.json, data/dialogue/scheduleStrings.json, data/schedule.json, data/dialogue/dialogue.json, data/mail.json",
+            "FromFile": "data/character.json, data/giftTastes.json, data/appearance.json, data/dialogue/scheduleStrings.json, data/animationFrames.json, data/schedule.json, data/dialogue/dialogue.json, data/dialogue/giftResponses.json, data/mail.json",
         },
     ]
 }

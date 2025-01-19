@@ -1,5 +1,12 @@
 {
-    "Changes": [
-        
+    "Changes": [        
+        {
+            "LogName": "scheduleStrings.json",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Zayden}}",
+            "Entries": {
+                "JojaMart.001": "{{i18n:JojaMart_001}}",
+            },
+        },
     ]
 }

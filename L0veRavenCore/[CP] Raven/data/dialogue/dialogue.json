@@ -494,7 +494,7 @@
                 "dumped_Guys": "{{i18n:dumped}}",
                 "secondchance_Guys": "{{i18n:secondchance}}",
                 //Other Events
-                "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current 27407000 # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
+                "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
                 "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
                 "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}"
             }

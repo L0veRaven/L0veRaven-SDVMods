@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "animationFrames.json",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                //Hard-coded tokens
+                "l0veraven_zayden_sleep": "20/20/20",
+                //Custom tokens
+                "l0veraven_zayden_sweep": "17/16 17 18 17/16",
+            },
+        },
+    ]
+}

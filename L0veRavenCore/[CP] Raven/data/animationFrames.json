@@ -16,7 +16,7 @@
                 "{{Lowercase:{{Raven}}}}_stand": "0/0 0/0",
                 "{{Lowercase:{{Raven}}}}_handheld_game": "0/0 0/0",
                 "{{Lowercase:{{Raven}}}}_gardening": "0/0 0/0",
-                "{{Lowercase:{{Raven}}}}_sweep": "37/36 37 38 37/36",
+                "{{Lowercase:{{Raven}}}}_sweep": "30/29 30 31 30/29",
                 "{{Lowercase:{{Raven}}}}_drink": "0/0 0/0",
                 "{{Lowercase:{{Raven}}}}_sing": "0/0 0/0",
                 "{{Lowercase:{{Raven}}}}_laugh": "0/0 0/0",
@@ -26,7 +26,7 @@
                 "{{Lowercase:{{Raven}}}}_fishing": "0/0 0/0",
                 //NB
                 "{{Lowercase:{{Raven}}}}_blunt": "20 21 22 23 24/25 25 25 26 27 20 20 20 21 22 23 24/25 25 25 26 27 20",
-                "{{Lowercase:{{Raven}}}}_edible": "0/0 0/0",
+                "{{Lowercase:{{Raven}}}}_edible": "36/37 36/37",
             },
         },
     ]
