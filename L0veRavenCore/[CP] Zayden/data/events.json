@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "events.json: Arrival - Day 7",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "{{Zayden}}_Arrival/DaysPlayed 6": "none/71 70/farmer 66 74 0 {{Zayden}} 65 69 1/skippable/pause 500/
+            --Zayden warps to bus door/
+            --END with end dialogue/
+                end",
+            },
+        },
+    ]
+}

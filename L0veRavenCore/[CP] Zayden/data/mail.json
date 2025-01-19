@@ -24,5 +24,14 @@
                 }
             }
         },
+        //_Greenhouse
+        {
+            "LogName": "data/mail.json: _Greenhouse",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{Zayden}}_Greenhouse": "{{i18n:GreenhouseMail_message}} {{i18n:GreenhouseMail_item}}[#]{{i18n:GreenhouseMail_title}}",
+            },
+        },
     ]
 }

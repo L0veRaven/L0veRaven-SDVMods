@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "dialogue.json: Daily Dialogue",
+            "LogName": "dialogue.json: 0 Heart Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Zayden}}",
             "Entries": {
@@ -15,13 +15,26 @@
             },
         },
         {
+            "LogName": "dialogue.json: 2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Tue2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Wed2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Thu2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Fri2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sat2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sun2": "{{i18n:2hearts_{{Random:{{Range:1,7}}}}}}",
+            },
+        },
+        {
             "LogName": "dialogue.json: Conversation Topics",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Zayden}}",
             "Entries": {
                 //General
                 "Introduction": "{{i18n:Introduction}}",
-                "willyCrabs": "{{i18n:willyCrabs}}",
                 "pamHouseUpgrade": "{{i18n:pamHouseUpgrade}}",
                 "pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous}}",
                 "joja_Begin": "{{i18n:joja_Begin}}",
@@ -30,7 +43,7 @@
                 "HitBySlingshot": "{{i18n:hitSlingshot}}",
                 //Community Center
                 "cc_Minecart": "{{i18n:cc_Minecart}}",
-                "cc_Greenhouse": "{{i18n:cc_Greenhouse}}",
+                "cc_Greenhouse": "{{i18n:cc_Greenhouse}}#$action AddMail {{Zayden}}_Greenhouse tomorrow",
                 "cc_Bus": "{{i18n:cc_Bus}}",
                 "cc_Bridge": "{{i18n:cc_Bridge}}",
                 "cc_Boulder": "{{i18n:cc_Boulder}}",
