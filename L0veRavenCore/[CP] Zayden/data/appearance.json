@@ -9,7 +9,7 @@
         {
             "LogName": "appearance.json: Portrait Loads",
             "Action": "Load",
-            "Target": "Portraits/{{Zayden}}",
+            "Target": "Portraits/{{Zayden}}, Portraits/{{Zayden}}_Joja",
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {
@@ -31,7 +31,7 @@
                     "Id": "{{Zayden}}.Joja",
                     "Condition": "LOCATION_NAME Target JojaMart",
                     "Sprite": "Characters/{{Zayden}}_Joja",
-                    "Portrait": "Portraits/{{Zayden}}",
+                    "Portrait": "Portraits/{{Zayden}}_Joja",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1
