@@ -1,30 +1,30 @@
 {//ADD
     "Changes": [
-        // Egg Festival
+        //Egg Festival
         {	
             "LogName": "festivals.json: Egg Festival - Positions",
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "TextOperations": [
-                {// Pre-Egg hunt: Year 1
+                {//Pre-Egg hunt: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {// Pre-Egg hunt: Year 2
+                {//Pre-Egg hunt: Year 2
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {// Egg hunt: Year 1
+                {//Egg hunt: Year 1
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {// Egg hunt: Year 2
+                {//Egg hunt: Year 2
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
                     "Value": "{{Zayden}} 24 97 down",
@@ -52,51 +52,40 @@
                 "{{Zayden}}": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
                 "{{Zayden}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
             },
-
         },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        // Flower Dance
+        //Flower Dance
         {	
             "LogName": "festivals.json: Flower Dance - Positions",
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
             "TextOperations": [
-                {//Pre-Event: Year 1
+                //Year 1
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
-                    "Delimiter": "/",
-                },
-                {//Pre-Event: Year 2
-                    "Operation": "Append",
-                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## left",
-                    "Delimiter": "/",
+                    "Value": "{{Zayden}} 3 24 right",
+                    "Delimiter": "/"
                 },
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
-                    "Delimiter": "/",
+                    "Value": "{{Zayden}} 3 24 right",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 3 29 right",
+                    "Delimiter": "/"
                 },
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## left",
-                    "Delimiter": "/",
-                },
-            ],
+                    "Value": "{{Zayden}} 3 29 right",
+                    "Delimiter": "/"
+                }
+            ]
         },
         {	
             "LogName": "festivals.json: Flower Dance - Dialogue",
@@ -104,9 +93,21 @@
             "Target": "Data/Festivals/spring24",
             "Entries": {
                 "{{Zayden}}": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
-                "{{Zayden}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
-            },
+                "{{Zayden}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}"
+            }
         },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         {
             "LogName": "festivals.json: Luau - Positions",
             "Action": "EditData",
@@ -115,19 +116,19 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## down",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/",
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## down",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/",
                 //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/",
                 },
             ],
@@ -150,25 +151,25 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## left",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Main Event
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## left",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -191,13 +192,13 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## right",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## right",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -220,13 +221,13 @@
                 {//Set Up: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## down",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Set Up: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## down",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -249,37 +250,37 @@
                 {//Pre-Event: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Pre-Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## left",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Main Event: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "MainEvent_additionalCharacters"],
-                "Value": "{{Zayden}} ## ## right",
+                "Value": "{{Zayden}} ## ## direction",
                 "Delimiter": "/"
                 },
                 //ADD{//Main Event: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## right",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//After Ice Fishing: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                "Value": "{{Zayden}} ## ## right",
+                "Value": "{{Zayden}} ## ## direction",
                 "Delimiter": "/"
                 },
                 //ADD{//After Ice Fishing: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## right",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -302,25 +303,25 @@
                 {//Set Up: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Set Up: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## left",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
                 {//Secret Santa: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## left",
+                    "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
                 //ADD{//Secret Santa: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## left",
+                    //ADD"Value": "{{Zayden}} ## ## direction",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],

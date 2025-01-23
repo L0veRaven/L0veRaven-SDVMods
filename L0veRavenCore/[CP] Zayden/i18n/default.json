@@ -93,5 +93,8 @@
         // Egg Festival
     "eggFestival_1": "I kinda wish there were less people here.$9#$b#I don't like crowded places. I like the festival itself, though.",
     "eggFestival_2": "I stay in the shade so I don't irritate my skin.#$e#It sucks getting heat rashes...$4",
-    "eggFestival_3": "Do you think people have tried cheating at egg hunts before?",
+    "eggFestival_3": "Do you think people have tried cheating at egg hunts before?$9",
+        // Flower Dance
+    "flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
+    "flowerDance_2": "The flowers smell really nice this year.$1",
 }

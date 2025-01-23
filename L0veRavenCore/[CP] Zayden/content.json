@@ -87,7 +87,7 @@
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/character.json, data/giftTastes.json, data/appearance.json, data/dialogue/scheduleStrings.json, data/animationFrames.json, data/schedule.json, data/dialogue/dialogue.json, data/dialogue/giftResponses.json, data/mail.json, data/events.json",
+            "FromFile": "data/character.json, data/giftTastes.json, data/appearance.json, data/dialogue/scheduleStrings.json, data/animationFrames.json, data/schedule.json, data/festivals.json, data/dialogue/dialogue.json, data/dialogue/giftResponses.json, data/mail.json, data/events.json",
         },
     ]
 }
