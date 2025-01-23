@@ -49,8 +49,8 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries": {
-                "{{Zayden}}": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{Zayden}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Zayden}}": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
             },
 
         },
