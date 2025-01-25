@@ -103,4 +103,14 @@
         // Dance of the Moonlight Jellies
     "moonlightJellies_1": "The jellyfish are pretty cool.#$e#It'd be nice if they came more often, though.$3",
     "moonlightJellies_2": "I bet it's nice to be a jellyfish. You can just go wherever the water takes you.",
+        // Stardew Valley Fair
+    "stardewValleyFair_1": "The weather is very nice right now.$1#$e#I plan on doing the slingshot game. I have pretty good aim!$1",
+    "stardewValleyFair_2": "The food is pretty good this year!$1#$e#I wish there was an ice cream truck so I could eat those ugly character popsicles.$2",
+        // Spirit's Eve
+    "spiritsEve_1": "I do the maze with Raven every year. I get a kick out of their screams.$1#$b#Give Raven a little time and they'll get brave enough to keep going.$10",
+    "spiritsEve_2": "The decorations are very well done this year!$1#$e#It'd be cool if we had an area where we could watch spooky movies, you know?$7",
+    "spiritsEve_3": "I don't find it weird when people dress up as vampires for Spirit's Eve.#$b#I only have an issue when people dress up to make fun of vampires.$2",
+        // Festival of Ice
+    "festivalOfIce_1": "It's so bright outside that I need to wear sunglasses.#$e#I wish the snow wasn't so reflective.$4",
+    "festivalOfIce_2": "I love seeing how creative everyone gets during the festival.$1",
 }

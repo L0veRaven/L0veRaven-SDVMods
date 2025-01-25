@@ -2,7 +2,7 @@
     "Changes": [
         //Egg Festival
         {	
-            "LogName": "festivals.json: Egg Festival - Positions",
+            "LogName": "festivals.json: Egg Festival",
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "TextOperations": [
@@ -10,46 +10,41 @@
                 {//Pre-Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 20 74 left",
                     "Delimiter": "/",
                 },
                 {//Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 21 72 right",
                     "Delimiter": "/",
                 },
                 {//After Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 21 72 right",
                     "Delimiter": "/",
                 },
                 //Year 2
                 {//Pre-Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 32 80 right",
                     "Delimiter": "/",
                 },
                 {//Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 32 32 80 down",
                     "Delimiter": "/",
                 },
                 {//After Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 24 97 down",
+                    "Value": "{{Zayden}} 25 72 up",
                     "Delimiter": "/",
                 },
             ],
-        },
-        {
-            "LogName": "festivals.json: Egg Festival - Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring13",
             "Entries": {
                 "{{Zayden}}": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
                 "{{Zayden}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
@@ -193,20 +188,13 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 73 73 left",
                     "Delimiter": "/"
                 },
-                
-                
-                
-                
-                
-                
-                
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 66 63 right",
                     "Delimiter": "/"
                 },
             ],
@@ -226,16 +214,16 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
             "TextOperations": [
-                {//Set Up: Year 1
+                {//Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 37 35 right",
                     "Delimiter": "/"
                 },
-                {//Set Up: Year 2
+                {//Year 2
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 13 12 right",
                     "Delimiter": "/"
                 },
             ],
@@ -245,91 +233,90 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
             "Entries": {
-                "{{Zayden}}": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                "{{Zayden}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Zayden}}": "{{i18n:spiritsEve_{{Random:{{Range:1,3}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,3}}}}}}",
             },
         },
         // Festival of Ice
         {	
-            "LogName": "festivals.json: Festival of Ice - Positions",
+            "LogName": "festivals.json: Festival of Ice",
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
             "TextOperations": [
-                {//Pre-Event: Year 1
+                //Year 1
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 96 31 left",
                     "Delimiter": "/"
                 },
-                {//Pre-Event: Year 2
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 80 33 left",
+                    "Delimiter": "/"
+                },
+                {//Ice Fishing Results
+                    "Operation": "Append",
+                    "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
+                    "Value": "{{Zayden}} 80 33 left",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 57 29 left",
                     "Delimiter": "/"
                 },
-                {//Main Event: Year 1
-                "Operation": "Append",
-                "Target": ["Entries", "MainEvent_additionalCharacters"],
-                "Value": "{{Zayden}} ## ## direction",
-                "Delimiter": "/"
-                },
-                {//Main Event: Year 2
+                {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 62 34 right",
                     "Delimiter": "/"
                 },
-                {//After Ice Fishing: Year 1
-                "Operation": "Append",
-                "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                "Value": "{{Zayden}} ## ## direction",
-                "Delimiter": "/"
-                },
-                {//After Ice Fishing: Year 2
+                {//After Ice Fishing
                     "Operation": "Append",
                     "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 62 34 right",
                     "Delimiter": "/"
                 },
             ],
-        },
-        {	
-            "LogName": "festivals.json: Festival of Ice - Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
             "Entries": {
-                "{{Zayden}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                "{{Zayden}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                "{{Zayden}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,2}}}}}}",
             },
         },
-        // Winter Star
+        // Feast of the Winter Star
         {	
             "LogName": "festivals.json: Feast of the Winter Star - Positions",
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
             "TextOperations": [
-                {//Set Up: Year 1
+                //Year 1
+                {//Set Up
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 42 72 left",
                     "Delimiter": "/"
                 },
-                {//Set Up: Year 2
-                    "Operation": "Append",
-                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
-                    "Delimiter": "/"
-                },
-                {//Secret Santa: Year 1
+                {//Secret Santa
                     "Operation": "Append",
                     "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 42 72 left",
                     "Delimiter": "/"
                 },
-                {//Secret Santa: Year 2
+                //Year 2
+                {//Set Up
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 22 76 right",
+                    "Delimiter": "/"
+                },
+                {//Secret Santa
                     "Operation": "Append",
                     "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 22 76 right",
                     "Delimiter": "/"
                 },
             ],
