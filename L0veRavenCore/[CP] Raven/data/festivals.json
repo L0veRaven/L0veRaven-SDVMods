@@ -136,30 +136,32 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "TextOperations": [
-                {//Pre-Event: Year 1
+                //Year 1
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 38 68 left",
+                    "Value": "{{Raven}} 14 24 down",
                     "Delimiter": "/"
                 },
-                //ADD{//Pre-Event: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Raven}} 38 68 left",
-                    //ADD"Delimiter": "/"
-                //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
                     "Value": "{{Raven}} 38 68 left",
                     "Delimiter": "/"
                 },
-                //ADD{//Main Event
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{Raven}} 38 68 left",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 38 68 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 38 68 left",
+                    "Delimiter": "/"
+                },
             ],
         },
         {	

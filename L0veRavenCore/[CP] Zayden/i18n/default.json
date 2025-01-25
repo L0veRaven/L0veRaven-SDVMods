@@ -97,4 +97,10 @@
         // Flower Dance
     "flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
     "flowerDance_2": "The flowers smell really nice this year.$1",
+        // Luau / Potluck
+    "luauPotluck_1": "... I have a rash from the heat...$4",
+    "luauPotluck_2": "Hopefully we get started soon... I might need to leave early if it takes much longer.$5",
+        // Dance of the Moonlight Jellies
+    "moonlightJellies_1": "The jellyfish are pretty cool.#$e#It'd be nice if they came more often, though.$3",
+    "moonlightJellies_2": "I bet it's nice to be a jellyfish. You can just go wherever the water takes you.",
 }

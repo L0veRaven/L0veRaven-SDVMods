@@ -1,4 +1,4 @@
-{//ADD
+{
     "Changes": [
         //Egg Festival
         {	
@@ -6,37 +6,39 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "TextOperations": [
-                {//Pre-Egg hunt: Year 1
+                //Year 1
+                {//Pre-Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {//Pre-Egg hunt: Year 2
-                    "Operation": "Append",
-                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 24 97 down",
-                    "Delimiter": "/",
-                },
-                {//Egg hunt: Year 1
+                {//Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {//Egg hunt: Year 2
-                "Operation": "Append",
-                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 24 97 down",
-                    "Delimiter": "/",
-                },
-                {//After Egg hunt: Year 1
+                {//After Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "afterEggHunt_additionalCharacters"],
                     "Value": "{{Zayden}} 24 97 down",
                     "Delimiter": "/",
                 },
-                {//After Egg hunt: Year 2
+                //Year 2
+                {//Pre-Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 24 97 down",
+                    "Delimiter": "/",
+                },
+                {//Egg hunt
+                "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 24 97 down",
+                    "Delimiter": "/",
+                },
+                {//After Egg hunt
                     "Operation": "Append",
                     "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
                     "Value": "{{Zayden}} 24 97 down",
@@ -96,44 +98,41 @@
                 "{{Zayden}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}"
             }
         },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        //Luau
         {
             "LogName": "festivals.json: Luau - Positions",
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
             "TextOperations": [
-                {//Pre-Event: Year 1
+                //Year 1
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 51 10 down",
                     "Delimiter": "/",
                 },
-                //ADD{//Pre-Event: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/",
-                //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 51 10 down",
+                    "Delimiter": "/",
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 17 16 down",
+                    "Delimiter": "/",
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 19 16 right",
                     "Delimiter": "/",
                 },
             ],
         },
-        {	
+        {
             "LogName": "festivals.json: Luau/Potluck (PTP) - dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
@@ -148,33 +147,35 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "TextOperations": [
-                {//Pre-Event: Year 1
+                //Year 1
+                {//Pre-Event
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 11 18 left",
                     "Delimiter": "/"
                 },
-                //ADD{//Pre-Event: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
                 {//Main Event
                     "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} ## ## direction",
+                    "Value": "{{Zayden}} 11 18 left",
                     "Delimiter": "/"
                 },
-                //ADD{//Main Event
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 11 35 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 11 35 left",
+                    "Delimiter": "/"
+                },
             ],
         },
-        {	
+        {
             "LogName": "festivals.json: Dance of the Moonlight Jellies - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
@@ -195,12 +196,19 @@
                     "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
-                //ADD{
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                
+                
+                
+                
+                
+                
+                
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
             ],
         },
         {	
@@ -224,12 +232,12 @@
                     "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
-                //ADD{//Set Up: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//Set Up: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
             ],
         },
         {	
@@ -253,36 +261,36 @@
                     "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
-                //ADD{//Pre-Event: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//Pre-Event: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
                 {//Main Event: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "MainEvent_additionalCharacters"],
                 "Value": "{{Zayden}} ## ## direction",
                 "Delimiter": "/"
                 },
-                //ADD{//Main Event: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//Main Event: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
                 {//After Ice Fishing: Year 1
                 "Operation": "Append",
                 "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
                 "Value": "{{Zayden}} ## ## direction",
                 "Delimiter": "/"
                 },
-                //ADD{//After Ice Fishing: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//After Ice Fishing: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
             ],
         },
         {	
@@ -306,24 +314,24 @@
                     "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
-                //ADD{//Set Up: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//Set Up: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
                 {//Secret Santa: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "SecretSanta_additionalCharacters"],
                     "Value": "{{Zayden}} ## ## direction",
                     "Delimiter": "/"
                 },
-                //ADD{//Secret Santa: Year 2
-                    //ADD"Operation": "Append",
-                    //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                    //ADD"Value": "{{Zayden}} ## ## direction",
-                    //ADD"Delimiter": "/"
-                //ADD},
+                {//Secret Santa: Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} ## ## direction",
+                    "Delimiter": "/"
+                },
             ],
         },
     ]
