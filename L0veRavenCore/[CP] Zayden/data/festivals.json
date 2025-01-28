@@ -35,7 +35,7 @@
                 {//Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 32 32 80 down",
+                    "Value": "{{Zayden}} 32 80 down",
                     "Delimiter": "/",
                 },
                 {//After Egg hunt
