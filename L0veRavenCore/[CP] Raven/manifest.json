@@ -19,7 +19,7 @@
             "IsRequired": "false"
         },
         {
-            "UniqueID": "DTZ.DowntownZuzuDLL",
+            "UniqueID": "DTZ.DowntownZuzuCP",
             "IsRequired": "false"
         },
         {
@@ -32,6 +32,10 @@
         },
         {
             "UniqueID": "L0veRaven.CoreCP",
+            "IsRequired": "true"
+        },
+        {
+            "UniqueID": "L0veRaven.CoreDLL",
             "IsRequired": "true"
         },
         {

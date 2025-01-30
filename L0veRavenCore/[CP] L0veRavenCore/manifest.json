@@ -5,7 +5,7 @@
     "Version": "1.0.0",
     "DeleteOldVersion": true,
     "UniqueID": "L0veRaven.CoreCP",
-    "UpdateKeys": ["Nexus:"],
+    "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher",
     },
