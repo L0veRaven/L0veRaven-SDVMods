@@ -74,68 +74,23 @@
 
     "DynamicTokens": [
         //Basic Information
-        {
-            "Name": "Raven",
-            "Value": "L0veRaven_Raven"
-        },
-        {
-            "Name": "displayName",
-            "Value": "{{i18n:DisplayName}}"
-        },
-        {
-            "Name": "Nexus",
-            "Value": "27407"
-        },
+        {"Name": "Raven","Value": "L0veRaven_Raven"},
+        {"Name": "displayName","Value": "{{i18n:DisplayName}}"},
+        {"Name": "Nexus","Value": "27407"},
         //Mod Nicknames -> External ModId's
-        {
-            "Name": "NPCA",
-            "Value": "FireRedLily.NPCApartments"
-        },
-        {
-            "Name": "CJBC",
-            "Value": "CJBok.CheatsMenu"
-        },
-        {
-            "Name": "NB",
-            "Value": "Raspb3rryfields.NaturesBounty"
-        },
-        {
-            "Name": "DTZ",
-            "Value": "DTZ.DowntownZuzuDLL"
-        },
-        {
-            "Name": "PTP",
-            "Value": "LenneDalben.PelicanTownPotluck"
-        },
-        {
-            "Name": "SVE",
-            "Value": "FlashShifter.StardewValleyExpandedCP"
-        },
-        {
-            "Name": "SWS",
-            "Value": "Airyn.CPSolsticeWinterStar"
-        },
-        {
-            "Name": "FF",
-            "Value": "violetlizabet.CP.FireworksFestival"
-        },
+        {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
+        {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
+        {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
+        {"Name": "DTZ","Value": "DTZ.DowntownZuzuDLL"},
+        {"Name": "PTP","Value": "LenneDalben.PelicanTownPotluck"},
+        {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
+        {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar"},
+        {"Name": "FF","Value": "violetlizabet.CP.FireworksFestival"},
         //Directions [schedule.json, events.json]
-        {
-            "Name": "up",
-            "Value": "0"
-        },
-        {
-            "Name": "right",
-            "Value": "1"
-        },
-        {
-            "Name": "down",
-            "Value": "2"
-        },
-        {
-            "Name": "left",
-            "Value": "3"
-        },
+        {"Name": "up","Value": "0"},
+        {"Name": "right","Value": "1"},
+        {"Name": "down","Value": "2"},
+        {"Name": "left","Value": "3"},
         // Emotes [events.json]
         {"Name": "emoteEmptyCan","Value": "4"},
         {"Name": "emoteQuestion","Value": "8"},
