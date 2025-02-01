@@ -16,12 +16,12 @@
             --Raven speaks, suggesting they capture the cat/speak {{Raven}} \"{{i18n:CatLover_speak_6}}\"/pause 300/
             --Penny jumps and screams, then looks at Raven saying she doesn't want to have it captured/playSound batScreech/jump Penny/showFrame Penny 27/shake Penny 800/pause 800/showFrame Penny 12/speak Penny \"{{i18n:CatLover_speak_7}}\"/pause 300/
             --Raven says they can bring the stray to Marnie if they capture it/speak {{Raven}} \"{{i18n:CatLover_speak_8}}\"/pause 300/
-            --Penny walks away and turns to Raven/move Penny 0 2 {{down}} true/faceDirection {{Raven}} {{down}} true/playSound grassyStep/pause 1000/
+            --Penny walks away and turns to Raven/move Penny 0 2 {{down}} true/faceDirection {{Raven}} {{down}} true/pause 1000/playSound grassyStep/pause 1000/
             --Penny says Raven's right and commits a microagression/faceDirection Penny {{up}} true/playSound grassyStep/pause 300/speak Penny \"{{i18n:CatLover_speak_9}}\"/
             --Farmer approaches while Raven replies/move farmer 0 -4 {{right}} true/playSound leafrustle/shake {{Raven}} 1000/pause 1000/speak {{Raven}} \"{{i18n:CatLover_speak_10}}\"/pause 300/
             --Penny turns to Raven and asks for the farmer's input, fadeout/faceDirection Penny {{left}}/playSound grassyStep/pause 300/speak Penny \"{{i18n:CatLover_speak_11}}\"/
             --quickQuestion Animal shelter/quickQuestion {{i18n:CatLover_qQ}}#{{i18n:CatLover_qQ_1}}#{{i18n:CatLover_qQ_2}}
-                    (break)friendship Penny 10\\friendship {{Raven}} 10\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_1_1}}\"\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_1_2}}\"\\pause 300\\emote farmer {{emoteBlush}}\\pause 500
+                    (break)friendship Penny 10\\friendship {{Raven}} 10\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_1_1}}\"\\pause 500\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_1_2}}\"\\pause 300\\emote farmer {{emoteBlush}}\\pause 500
                     (break)friendship Penny 15\\friendship {{Raven}} 15\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_2_1}}\"\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_2_2}}\"\\pause 300\\emote farmer {{emoteHappy}}\\pause 500/
             --Raven ends the conversation/speak {{Raven}} \"{{i18n:CatLover_speak_final}}\"/pause 300/
             --Everyone parts ways/move {{Raven}} 0 10 {{down}} true/move Penny 0 10 {{down}} true/{{fadeout}}/

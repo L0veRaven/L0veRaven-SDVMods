@@ -236,8 +236,7 @@
         {"Name": "sweepSaloonSchD","Value": "{{i18n:Saloon_2_{{Random:{{Range:1,2}}}}}}"},
         {"Name": "shoppingSSschD","Value": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}"},
         {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}",
-            "When": {"HasMod |contains={{NB}}": "true"}
-        },
+            "When": {"HasMod |contains={{NB}}": "true"}},
         //Locations
         //Bus Stop
         {"Name": "standBusStop","Value": "{{i18n:standBusStop}}"},

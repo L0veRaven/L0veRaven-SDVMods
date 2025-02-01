@@ -830,7 +830,7 @@
     // || Events.json ||
     // =================
     // || Event 0: 27407000 - {{Raven}}CatLover ||
-    "CatLover_speak_1": "Penny... are you okay?$2",//Speak->Raven
+    "CatLover_speak_1": "Penny... Are you okay?$2",//Speak->Raven
     "CatLover_speak_2": "Hi Raven.$3",//Speak->Penny
     "CatLover_speak_3": "I can tell something's going on.$2#$b#Do you wanna to talk about it?$17",//Speak->Raven
     "CatLover_speak_4": "I found a stray cat in town recently.$2#$b#I asked my mother if we could look after the cat until we find the owner.#$b#She started yelling at me about how we don't have enough space.$2#$b#I haven't seen the cat since then, but it seemed pretty scared of people.$3",//Speak->Penny
