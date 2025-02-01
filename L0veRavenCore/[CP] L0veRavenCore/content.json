@@ -5,7 +5,7 @@
         {
             "LogName": "content.json: Objects",
             "Action": "Include",
-            "FromFile": "data/objects.json"
+            "FromFile": "data/artifact_item.json, data/hidden_item.json"
         },
     ]
 }

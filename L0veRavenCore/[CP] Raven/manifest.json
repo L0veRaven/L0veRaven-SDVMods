@@ -3,60 +3,20 @@
     "Author": "L0veRaven",
     "Description": "Adds a neko NPC",
     "Version": "1.0.0",
-    "DeleteOldVersion": true,
     "UniqueID": "L0veRaven.Raven",
     "UpdateKeys": ["Nexus:27407"],
-    "ContentPackFor": {
-        "UniqueID": "Pathoschild.ContentPatcher",
-    },
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
     "Dependencies": [
-        {
-            "UniqueID": "Airyn.CPSolsticeWinterStar",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "CJBok.CheatsMenu",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "DTZ.DowntownZuzuCP",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "FireRedLily.NPCApartments",
-            "IsRequired": "true"
-        },
-        {
-            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "L0veRaven.CoreCP",
-            "IsRequired": "true"
-        },
-        {
-            "UniqueID": "L0veRaven.CoreDLL",
-            "IsRequired": "true"
-        },
-        {
-            "UniqueID": "LenneDalben.PelicanTownPotluck",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "Rafseazz.RSVCP",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "Raspb3rryfields.NaturesBounty",
-            "IsRequired": "false"
-        },
-        {
-            "UniqueID": "spacechase0.SpaceCore",
-            "IsRequired": "true"
-        },
-        {
-            "UniqueID": "violetlizabet.CP.FireworksFestival",
-            "IsRequired": "false"
-        }
+        {"UniqueID": "Airyn.CPSolsticeWinterStar","IsRequired": "false"},
+        {"UniqueID": "CJBok.CheatsMenu","IsRequired": "false"},
+        {"UniqueID": "DTZ.DowntownZuzuCP","IsRequired": "false"},
+        {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
+        {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"},
+        {"UniqueID": "L0veRaven.CoreCP","IsRequired": "true"},
+        {"UniqueID": "LenneDalben.PelicanTownPotluck","IsRequired": "false"},
+        {"UniqueID": "Rafseazz.RSVCP","IsRequired": "false"},
+        {"UniqueID": "Raspb3rryfields.NaturesBounty","IsRequired": "false"},
+        {"UniqueID": "spacechase0.SpaceCore","IsRequired": "true"},
+        {"UniqueID": "violetlizabet.CP.FireworksFestival","IsRequired": "false"}
     ]
 }
