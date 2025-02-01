@@ -864,10 +864,10 @@
     // || Event 1: 27407001 - {{Raven}}CheckIn ||
         // || Conversation (Chronological) Order ||
             // || Establishing Dialogue ||
-    "CheckIn_speak_1": "Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?",
-    "CheckIn_speak_2": "That's great!$1",
-    "CheckIn_speak_3": "Everyone acted a little odd when they heard you were moving in.$17#$b#It's not that they didn't want you here, but it's just uncommon for people to move here, you know?$11",
-    "CheckIn_speak_4": "Not many people move to Pelican Town unless they're trying to escape the life of the city...#$b#Or poverty...$12",
+    "CheckIn_1": "Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?",
+    "CheckIn_2": "That's great!$1",
+    "CheckIn_3": "Everyone acted a little odd when they heard you were moving in.$17#$b#It's not that they didn't want you here, but it's just uncommon for people to move here, you know?$11",
+    "CheckIn_4": "Not many people move to Pelican Town unless they're trying to escape the life of the city...#$b#Or poverty...$12",
             // || Question ||
     "CheckIn_qQ": "Enough about the others. How've you been enjoying Pelican Town so far?",
                 // || Path A: Doing great! ||
@@ -894,7 +894,7 @@
     "CheckIn_qQ_3_4": "Okay, I'm talking out of my ass. I don't know what it's like to own a plot of land, but at least you don't have to pay rent to a landlord, right?",
     "CheckIn_qQ_3_5": "At least I got that part right!",
             // || CheckIn - end Dialogue ||
-    "CheckIn_speak_final": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
+    "CheckIn_5": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
     "CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
     // || Event 2: 27407002 - {{Raven}}WildClans || Only Raven speaks
     "WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",

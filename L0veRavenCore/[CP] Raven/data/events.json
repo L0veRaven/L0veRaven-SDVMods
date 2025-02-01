@@ -12,7 +12,7 @@
             --Raven and Penny look away from trailer/faceDirection Penny {{down}} true/faceDirection {{Raven}} {{down}} true/playSound grassyStep/pause 300/
             --Raven says they can tell something's wrong/speak {{Raven}} \"{{i18n:CatLover_speak_3}}\"/pause 1000/
             --Penny explains she found a stray cat and can't keep it/speak Penny \"{{i18n:CatLover_speak_4}}\"/pause 300/
-            --Raven taps foot, then turns to Penny/animate {{Raven}} false true 120 17 18/speak {{Raven}} \"{{i18n:CatLover_speak_5}}\"/pause 500/stopAnimation {{Raven}} 0/faceDirection {{Raven}} {{right}} true/faceDirection Pennys {{left}} true/playSound grassyStep/pause 300/
+            --Raven taps foot, then turns to Penny/animate {{Raven}} false true 120 17 18/speak {{Raven}} \"{{i18n:CatLover_speak_5}}\"/pause 500/stopAnimation {{Raven}} 0/faceDirection {{Raven}} {{right}} true/faceDirection Penny {{left}} true/playSound grassyStep/pause 300/
             --Raven speaks, suggesting they capture the cat/speak {{Raven}} \"{{i18n:CatLover_speak_6}}\"/pause 300/
             --Penny jumps and screams, then looks at Raven saying she doesn't want to have it captured/playSound batScreech/jump Penny/showFrame Penny 27/shake Penny 800/pause 800/showFrame Penny 12/speak Penny \"{{i18n:CatLover_speak_7}}\"/pause 300/
             --Raven says they can bring the stray to Marnie if they capture it/speak {{Raven}} \"{{i18n:CatLover_speak_8}}\"/pause 300/
@@ -22,7 +22,7 @@
             --Penny turns to Raven and asks for the farmer's input, fadeout/faceDirection Penny {{left}}/playSound grassyStep/pause 300/speak Penny \"{{i18n:CatLover_speak_11}}\"/
             --quickQuestion Animal shelter/quickQuestion {{i18n:CatLover_qQ}}#{{i18n:CatLover_qQ_1}}#{{i18n:CatLover_qQ_2}}
                     (break)friendship Penny 10\\friendship {{Raven}} 10\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_1_1}}\"\\pause 500\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_1_2}}\"\\pause 300\\emote farmer {{emoteBlush}}\\pause 500
-                    (break)friendship Penny 15\\friendship {{Raven}} 15\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_2_1}}\"\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_2_2}}\"\\pause 300\\emote farmer {{emoteHappy}}\\pause 500/
+                    (break)friendship Penny 15\\friendship {{Raven}} 15\\pause 300\\faceDirection Penny {{down}}\\pause 300\\showFrame Penny 23\\pause 500\\speak Penny \"{{i18n:CatLover_qQ_2_1}}\"\\pause 500\\showFrame Penny 12\\pause 300\\speak Penny \"{{i18n:CatLover_qQ_2_2}}\"\\pause 300\\emote farmer {{emoteHappy}}\\pause 500/
             --Raven ends the conversation/speak {{Raven}} \"{{i18n:CatLover_speak_final}}\"/pause 300/
             --Everyone parts ways/move {{Raven}} 0 10 {{down}} true/move Penny 0 10 {{down}} true/{{fadeout}}/
             --END with end dialogue/end dialogue {{Raven}} \"{{i18n:CatLover_end_1}}\" dialogue Penny \"{{i18n:CatLover_end_2}}\"",
@@ -45,26 +45,17 @@
     "Target": "Data/Events/BusStop",
     "Entries": {
         "{{Raven}}_CheckIn/p {{Raven}}/j 14/f/w sunny": "jaunty/23 21/farmer 10 23 1 {{Raven}} 15 17 1/skippable/
---Farmer walks in front of BusStop intersection sign/
-move farmer 12 0 1/
---Rustling is heard and the farmer is curious/
-emote farmer {{emoteQuestion}} true/playSound leafrustle/
---Farmer faces Raven as they walk, Raven also curious/
-move {{Raven}} 7 0 {{right}} true/faceDirection farmer {{up}}/move {{Raven}} 0 4 2/pause 300/emote {{Raven}} {{emoteQuestion}}/
---Raven asks if the farmer is free to talk and farmer agrees -> {{i18n:CheckIn_speak_1}}/
-speak {{Raven}} \"Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?\"/pause 300/emote farmer {{emoteMusic}}/pause 300/
---Raven goes on a monologue -> {{i18n:CheckIn_speak_2}} {{i18n:CheckIn_speak_3}} {{i18n:CheckIn_speak_4}}/
-speak {{Raven}} \"That's great!$1\"/pause 300/faceDirection {{Raven}} {{right}}/speak {{Raven}} \"Everyone acted a little odd when they heard you were moving in.$17#$b#It's not that they didn't want you here, but it's just uncommon for people to move here, you know?$11\"/pause 300/faceDirection {{Raven}} {{down}}/speak {{Raven}} \"Not many people move to Pelican Town unless they're trying to escape the life of the city...#$b#Or poverty...$12\"/pause 300/emote {{Raven}} {{emoteSweat}} true/playSound dwop/pause 2000/
---quickQuestion CheckIn -> {{i18n:CheckIn_qQ}}, {{i18n:CheckIn_qQ_1}}, {{i18n:CheckIn_qQ_2}}, {{i18n:CheckIn_qQ_3}}, {{i18n:CheckIn_qQ_1_1}}, {{i18n:CheckIn_qQ_1_2}}, {{i18n:CheckIn_qQ_1_3}}, {{i18n:CheckIn_qQ_2_1}}, {{i18n:CheckIn_qQ_2_2}}, {{i18n:CheckIn_qQ_2_3}}, {{i18n:CheckIn_qQ_3_1}}, {{i18n:CheckIn_qQ_3_2}}, {{i18n:CheckIn_qQ_3_3}}, {{i18n:CheckIn_qQ_3_4}}, {{i18n:CheckIn_qQ_3_5}}, /
-quickQuestion Enough about the others. How've you been enjoying Pelican Town so far?#It's been great!#It's been alright. Nothing too exciting.#It's hard to feel like I have a place here.
-(break)mail {{Raven}}_CheckIn_1\\friendship {{Raven}} 10\\emote farmer {{emoteMusic}}\\pause 300\\speak {{Raven}} \"I'm glad you've had a good experience here so far!$1#$b#It seems like you're already a pro, or at least have a very good head on your shoulders.\"\\faceDirection {{Raven}} {{right}}\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"Even if you make your farm completely automated one day, I just hope you won't forget the people here.#$b#It sucks when a person gets successful and then they suddenly act like the people around them never existed.$2\"\\emote {{Raven}} {{emoteSweat}} true\\playSound dwop\\speak {{Raven}} \"Sorry, I didn't mean to get gloomy out of nowhere like that.$11#$b#I've had people in the past leave me behind whenever they find something better.$2#$b#I'm sure you'll be fine though! You're already wonderful from what I can tell.$1\"
-(break)mail {{Raven}}_CheckIn_2\\friendship {{Raven}} 5\\speak {{Raven}} \"It takes a while to adjust to new places, but I believe in you.$1\"\\faceDirection {{Raven}} {{right}}\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"If you feel even a little left out, join in on the festivals! Everyone will be happy to see you there, trust me.\"\\pause 300\\emote farmer {{emoteQuestion}}\\speak {{Raven}} \"I doubt anyone could forget you!#$b#I'm an expert in forgetting people after I first meet them, but you stand out enough for me to notice you there.#$b#In a good way, I promise!\"
-(break)mail {{Raven}}_CheckIn_3\\friendship {{Raven}} 10\\emote farmer {{emoteSweat}} true\\playSound dwop\\speak {{Raven}} \"That's a shame. Hopefully you're able to connect with some of the people here.\"\\faceDirection {{Raven}} {{right}}\\pause 300\\speak {{Raven}} \"It was actually pretty hard for me when I first moved here too.#$b#I wasn't able to really afford living in the city for long on my own. The pay and hours were so bad wtih Joja that I couldn't stand a chance.\"\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"But it's different for you luckily!#$b#You inherited the farm from your grandpa, so it's really just maintenance you gotta worry about, right?\"\\pause 300\\emote {{Raven}} {{emoteSweat}} true\\playSound dwop\\pause 300\\speak {{Raven}} \"Okay, I'm talking out of my ass. I don't know what it's like to own a plot of land, but at least you don't have to pay rent to a landlord, right?\"\\pause 300\\emote farmer {{emoteMusic}}\\pause 300\\speak {{Raven}} \"At least I got that part right!\"/
+--Farmer walks in front of BusStop intersection sign/move farmer 12 0 1/emote farmer {{emoteQuestion}} true/playSound leafrustle/
+--Farmer faces Raven as they walk, Raven also curious/move {{Raven}} 7 0 {{right}} true/faceDirection farmer {{up}}/move {{Raven}} 0 4 2/pause 300/emote {{Raven}} {{emoteQuestion}}/
+--Raven asks if the farmer is free to talk/speak {{Raven}} \"{{i18n:CheckIn_1}}\"/pause 300/emote farmer {{emoteMusic}}/pause 300/
+--Raven goes on a monologue/speak {{Raven}} \"{{i18n:CheckIn_2}}\"/pause 300/faceDirection {{Raven}} {{right}}/speak {{Raven}} \"{{i18n:CheckIn_3}}\"/pause 300/faceDirection {{Raven}} {{down}}/speak {{Raven}} \"{{i18n:CheckIn_4}}\"/pause 300/emote {{Raven}} {{emoteSweat}} true/playSound dwop/pause 2000/
+--quickQuestion CheckIn/quickQuestion {{i18n:CheckIn_qQ}}#{{i18n:CheckIn_qQ_1}}#{{i18nCheckIn_qQ_2}}#{{i18n:CheckIn_qQ_3}}
+(break)mail {{Raven}}_CheckIn_1\\friendship {{Raven}} 10\\emote farmer {{emoteMusic}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_1_1}}\"\\faceDirection {{Raven}} {{right}}\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_1_2}}\"\\emote {{Raven}} {{emoteSweat}} true\\playSound dwop\\speak {{Raven}} \"{{i18n:CheckIn_qQ_1_3}}\"
+(break)mail {{Raven}}_CheckIn_2\\friendship {{Raven}} 5\\speak {{Raven}} \"{{i18n:CheckIn_qQ_2_1}}\"\\faceDirection {{Raven}} {{right}}\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_2_2}}\"\\pause 300\\emote farmer {{emoteQuestion}}\\speak {{Raven}} \"{{i18n:CheckIn_qQ_2_3}}\"
+(break)mail {{Raven}}_CheckIn_3\\friendship {{Raven}} 10\\emote farmer {{emoteSweat}} true\\playSound dwop\\speak {{Raven}} \"{{i18n:CheckIn_qQ_3_1}}\"\\faceDirection {{Raven}} {{right}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_3_2}}\"\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_3_3}}\"\\pause 300\\emote {{Raven}} {{emoteSweat}} true\\playSound dwop\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_3_4}}\"\\pause 300\\emote farmer {{emoteMusic}}\\pause 300\\speak {{Raven}} \"{{i18n:CheckIn_qQ_3_5}}\"/
 pause 300/
---Raven ends the conversation {{i18n:CheckIn_speak_final}} and they are both happy/
-speak {{Raven}} \"I'm probably holding you up from what you're doing, but it was great seeing you again!$1\"/pause 300/emote {{Raven}} {{emoteHappy}} true/emote farmer {{emoteHappy}}/
---End with dialogue {{i18n:CheckIn_end}}/
-end dialogue {{Raven}} \"I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?\"",
+--Raven ends the conversation/speak {{Raven}} \"{{i18n:CheckIn_5}}\"/pause 300/emote {{Raven}} {{emoteHappy}} true/emote farmer {{emoteHappy}}/
+--End with dialogue/end dialogue {{Raven}} \"{{i18n:CheckIn_end}}\"",
         },
     },
         //_WildClans (2 Hearts)
