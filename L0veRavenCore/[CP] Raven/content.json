@@ -3,73 +3,19 @@
 
     "ConfigSchema": {
         //Raven Settings (Toggle)
-        //ADD"CleanLanguage": {
-        //ADD    "Default": "false",
-        //ADD    "AllowValues": "true, false",
-        //ADD    "AllowBlank": false,
-        //ADD    "Section": "RavenSettings",
-        //ADD    "Description": null
-        //ADD},
-        "RavenNude": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "RavenSettings",
-            "Description": null
-        },
+        //ADD"CleanLanguage": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSettings","Description": null},
+        "RavenNude": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSettings","Description": null},
         //Spirit's Eve Costumes: Toggles
-        //ADD"VampireCostumeSE": {
-        //ADD    "Default": "true",
-        //ADD    "AllowValues": "true, false",
-        //ADD    "AllowBlank": false,
-        //ADD    "Section": "SpiritsEveCostumes",
-        //ADD    "Description": null
-        //ADD},
-        "CactusCostumeSE": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "SpiritsEveCostumes",
-            "Description": null
-        },
-        "DaisyCostumeSE": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "SpiritsEveCostumes",
-            "Description": null
-        },
-        "SunflowerCostumeSE": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "SpiritsEveCostumes",
-            "Description": null
-        },
-        "WeedCostumeSE": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "SpiritsEveCostumes",
-            "Description": null
-        },
+        //ADD"VampireCostumeSE": {Default": "true",AllowValues": "true, false",AllowBlank": false,Section": "SpiritsEveCostumes",Description": null},
+        "CactusCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "SpiritsEveCostumes","Description": null},
+        "DaisyCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "SpiritsEveCostumes","Description": null},
+        "SunflowerCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "SpiritsEveCostumes","Description": null},
+        "WeedCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "SpiritsEveCostumes","Description": null},
         //Modder Settings
         //Raven Index: Shows Raven with index numbers for sprites and portraits
-        "RavenIndex": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "ModderSettings",
-            "Description": null
-        },
+        "RavenIndex": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null},
         //Event Excludes: Toggle
-        "EventExcludes": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "AllowBlank": false,
-            "Section": "ModderSettings",
-            "Description": null
-        }
+        "EventExcludes": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null}
     },
 
     "DynamicTokens": [
