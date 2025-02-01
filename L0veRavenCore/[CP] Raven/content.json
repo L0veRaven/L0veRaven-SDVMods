@@ -4,7 +4,6 @@
     "ConfigSchema": {
         //Raven Settings (Toggle)
         //ADD"CleanLanguage": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSettings","Description": null},
-        "RavenNude": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSettings","Description": null},
         //Spirit's Eve Costumes: Toggles
         //ADD"VampireCostumeSE": {Default": "true",AllowValues": "true, false",AllowBlank": false,Section": "SpiritsEveCostumes",Description": null},
         "CactusCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "SpiritsEveCostumes","Description": null},

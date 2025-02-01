@@ -30,23 +30,6 @@
             }
         },
         {
-            "LogName": "outfits.json: Appearance Data - Nude",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": ["{{Raven}}","Appearance"],
-            "Entries": {
-                "{{Raven}}.Nude": {
-                    "Id": "{{Raven}}.Nude",
-                    "Condition": "{{RavenNude |contains = true}}",
-                    "Sprite": "Characters/{{Raven}}Spring",
-                    "Portrait": "Portraits/{{Raven}}Spring",
-                    "IsIslandAttire": false,
-                    "Precedence": 0,
-                    "Weight": 1
-                }
-            }
-        },
-        {
             "LogName": "outfits.json: Appearance Data - Spring",
             "Action": "EditData",
             "Target": "Data/Characters",

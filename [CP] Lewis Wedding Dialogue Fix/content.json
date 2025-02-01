@@ -20,7 +20,7 @@
     
     "Changes": [
         {
-            "LogName": "LR.LWDF: Same Gender",
+            "LogName": "content.json: Same Gender",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -32,7 +32,7 @@
             }
         },
         {
-            "LogName": "LR.LWDF: Gender Neutral w/ NPC",
+            "LogName": "content.json: Gender Neutral w/ NPC",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -46,7 +46,7 @@
             }
         },
         {
-            "LogName": "LR.LWDF: Gender Neutral w/ Gender Neutral Farmer",
+            "LogName": "content.json: Gender Neutral w/ Gender Neutral Farmer",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -61,7 +61,7 @@
             }
         },
         {
-            "LogName": "LR.LWDF: Gender w/ Gender Neutral NPCs",
+            "LogName": "content.json: Gender w/ Gender Neutral NPCs",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -73,7 +73,6 @@
             "When": {
                 "GenderEnable": true,
                 "Query: '{{spouse}}' = ('{{Raven}}')": "true",
-                "FarmerMarriesFarmer": "true",
             }
         },
     ]

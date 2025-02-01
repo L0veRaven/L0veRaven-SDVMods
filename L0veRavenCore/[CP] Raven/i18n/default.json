@@ -961,25 +961,8 @@
     "SmokeSession_qQ_1_1": "Alright, here you go!$1",
     "SmokeSession_qQ_2": "Special Brownie",
     "SmokeSession_qQ_2_1": "Alright, here you go!$1",
-        // =======================
-        // || REVIEW AND DELETE ||
-        // =======================
-
-
-            "AdvisingPenny_end": "I talked with Penny and I'm gonna start helping tutor the kiddos!#$e#The kids need the extra support. After all, teaching kids solo has gotta be tough as hell.",
-            // || Event 3: 27407003 - {{Raven}}TutoringWithPenny ||
-                // || Conversation (Chronological) Order ||
-            "TutoringWithPenny_Penny_1": "Alright, kids. Now it's time to listen to your new tutor, Raven, for their portion of the lesson.#$b#Be sure to listen closely.$1",
-            "TutoringWithPenny_Raven_1": "Perfect, so turn your page to-",
-            "TutoringWithPenny_Vincent_1": "Mr. Raven?",
-            "TutoringWithPenny_Raven_2": "Uh, yes?",
-            "TutoringWithPenny_Vincent_2": "What are you going to be teaching us again?$3",
-            "TutoringWithPenny_Raven_3": "I'm going over division with you and Jas today.",
-            "TutoringWithPenny_Jas_1": "How come you're teaching us instead of Miss Penny?$3",
-            "TutoringWithPenny_Raven_4": "Sometimes it's easier to teach with a friend instead of by yourself.",
-            "TutoringWithPenny_Vincent_3": "Why?$3",
-            "TutoringWithPenny_Penny_2": "That's enough questions for now, Vincent.$3#$b#Take it away, Raven.$1",
-            "TutoringWithPenny_end": "It was pretty tough trying to keep the kids focused when I led a math lesson with them, but Penny needs the extra help.#$e#Being a kid can be hard, but teaching kids is a lot harder.",
+    
+    
     // "<conversationTopic>_question": "Question being asked",
 
     // "<conversationTopic>_answer_1": "Player response #1",
@@ -998,8 +981,6 @@
     // "<conversationTopic>_<NPCifMoreThanOne>_reply_3_2": "NPC dialogue 2 for response #3",
     // "<conversationTopic>_<NPCifMoreThanOne>_reply_3_3": "NPC dialogue 3 for response #3",
 
-    // || Event 4: 2740700# - {{Raven}}untitled || -> 
-    // dialogue chunk: "I remember when I first came to Pelican Town.#$b#I used to live in Zuzu City, but I got evicted since I didn't make enough money to keep the place after a while.#$e#Don't feel bad, it's not your fault unless you were my landlord."
 
 
     // ====================
