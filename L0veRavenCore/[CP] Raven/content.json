@@ -379,11 +379,9 @@
         {"Name": "goodNight","Value": "{{10pm}} {{standStove}}/{{130am}} {{inBed}}"},
         //Job Schedules (Arrive at 9:50 from Tent)
         {"Name": "standNearHome","Value": "{{standMountain}}",
-            "When": {"HasReadLetter": "{{Raven}}_Apartment"}
-        },
+            "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
         {"Name": "standNearHome","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
-            "When": {"HasFlag: |contains={{Raven}}_Apartment": false}
-        },
+            "When": {"HasFlag: |contains={{Raven}}_Apartment": false}},
         //Free Days
         {"Name": "freeDay1","Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}"},
         {"Name": "freeDay2","Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}"},
