@@ -2,6 +2,7 @@
     "Format": "2.4.4",
     
     "ConfigSchema": {
+        // Toggle player gender reference
         "GenderEnable": {
             "Default": "true",
             "AllowValues": "true, false",
@@ -9,8 +10,10 @@
             "Section": null,
             "Description": null,
         },
-        "GenderEnableFarmers": {
-            "Default": "false",
+        
+        // Toggle other player's gender reference   -> Translates to    ->  IF PLAYER_PLAYER_RELATIONSHIP = True
+        "GenderEnableFarmer": {
+            "Default": "true",
             "AllowValues": "true, false",
             "AllowBlank": false,
             "Section": null,
@@ -24,7 +27,9 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
+                // "Husbands in life"
                 "Utility.cs.5371": "{{i18n:husbands}}",
+                // "Wives in life"
                 "Utility.cs.5375": "{{i18n:wives}}",
             },
             "When": {
@@ -32,10 +37,11 @@
             }
         },
         {
-            "LogName": "content.json: Gender Neutral w/ NPC",
+            "LogName": "content.json: Gender Neutral w/ NPC",   // NB_PLAYER_NPC_RELATIONSHIP
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
+                // "
                 "Utility.cs.5371": "{{i18n:spouseHusband}}",
                 "Utility.cs.5373": "{{i18n:spouseWife}}",
                 "Utility.cs.5375": "{{i18n:spouseWife}}",
@@ -43,10 +49,11 @@
             },
             "When": {
                 "GenderEnable": false,
+                "FarmerMarriesFarmer": false,
             }
         },
         {
-            "LogName": "content.json: Gender Neutral w/ Gender Neutral Farmer",
+            "LogName": "content.json: Gender Neutral w/ Gender Neutral Farmer", // NB_PLAYER_NB_PLAYER_RELATIONSHIP
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
@@ -57,11 +64,20 @@
             },
             "When": {
                 "GenderEnable": false,
-                "GenderEnableFarmers": false,
+                "FarmerMarriesFarmer": true,
+                "GenderEnableFarmer": false,
             }
         },
+        
+        // HIGHLIGHT THIS CODE:
+        
+        // HAVE PLAYER'S REFERENCE THIS FOR THEIR NONBINARY NPC'S
+
+        // |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        // VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+        
         {
-            "LogName": "content.json: Gender w/ Gender Neutral NPCs",
+            "LogName": "content.json: Gender w/ Gender Neutral NPCs",   // PLAYER_NB_NPC_RELATIONSHIP
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
