@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "LogName": "events.json: 8 Heart - Apartment",
+            "Action": "EditData",
+            "Target": "Data/Events/FRL_NPCApt_Floor1",
+            "Entries": {
+                "{{Raven}}_Apartment/n {{Raven}}_Apartment": "SettlingIn/10 14/farmer 10 22 {{up}} {{Raven}} 9 13 {{up}}/skippable/friendship {{Raven}} 15/pause 1300/
+--Farmer walks in/
+shake {{Raven}} 300/pause 300/textAboveHead {{Raven}} \"{{i18n:Apartment_1}}\"/pause 1000/
+doAction 10 21 true/playSound doorOpen/
+move farmer 0 -7 {{up}}/pause 500/
+faceDirection {{Raven}} {{down}} true/playSound grassyStep/emote {{Raven}} {{emoteExclaim}}/pause 1000/
+--Raven shows off room/
+speak {{Raven}} \"{{i18n:Apartment_2}}\"/pause 300/
+move {{Raven}} 2 0 {{down}}/shake {{Raven}} 250/pause 300/
+speak {{Raven}} \"{{i18n:Apartment_3}}\"/pause 300/
+move {{Raven}} 0 2 {{right}}/move {{Raven}} 2 0 {{left}} true/faceDirection farmer {{right}}/pause 300/
+speak {{Raven}} \"{{i18n:Apartment_4}}\"/pause 300/
+emote farmer {{emoteQuestion}}/pause 1000/
+--Raven explains they used to do livestreams before homelessness/
+jump {{Raven}}/pause 300/speak {{Raven}} \"{{i18n:Apartment_5}}\"/pause 300/
+faceDirection {{Raven}} {{right}} true/move farmer 2 0 {{right}} true/speak {{Raven}} \"{{i18n:Apartment_6}}\"/pause 300/
+faceDirection {{Raven}} {{left}} true/playSound grassyStep/pause 1000/
+speak {{Raven}} \"{{i18n:Apartment_7}}\"/pause 300/
+shake {{Raven}} 300 true/textAboveHead {{Raven}} \"{{i18n:Apartment_8}}\"/
+speak {{Raven}} \"{{i18n:Apartment_9}}\"/pause 300/
+faceDirection {{Raven}} {{left}}/pause 300/
+speak {{Raven}} \"{{i18n:Apartment_10}}\"/pause 300/
+emote farmer {{emoteHappy}} true/emote Raven {{emoteHappy}}/pause 500/
+--End with dialogue/
+end dialogue {{Raven}} \"{{i18n:Apartment_end}}\"",
+            },
+        },
+    ]
+}

@@ -397,7 +397,12 @@
         {
             "LogName": "content.json: NPC Data",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/events.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/winterStarGifts.json, data/triggerActions.json"
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/winterStarGifts.json, data/triggerActions.json"
+        },
+        {
+            "LogName": "content.json: Events",
+            "Action": "Include",
+            "FromFile": "data/events/catLover.json, data/events/catAdoption.json, data/events/checkIn.json, data/events/wildClans.json, data/events/cleansingFarmer.json, data/events/cleansingFarmer2.json, data/events/smokeSession.json, data/events/gusEdibles.json, data/events/apartment.json, data/events/jobInterview.json, data/events/marriageTalk.json"
         },
         {
             "LogName": "content.json: Dialogue",
