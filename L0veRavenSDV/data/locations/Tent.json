@@ -20,7 +20,7 @@
                 "HasFlag: |contains={{Raven}}_Apartment": false,
             }
         },
-        // Add tent to CJB warps, but remove it when the letter {{Raven}}_Apartment has been read
+        //Add tent to CJB warps, but remove it when the letter {{Raven}}_Apartment has been read
         {
             "LogName": "data/locations/Tent.json: CJB Cheats (Warps) - Raven's Tent (SVE)",
             "Action": "EditData",
@@ -53,7 +53,7 @@
                     "PixelArea": {
                         "X":0,"Y":0,"Width":300,"Height":180,
                     },
-                    "ScrollText": "{{i18n:RavensTent}}",
+                    "ScrollText": "{{i18n:Ravens_Tent}}",
                     "WorldPositions": [
                         {
                             "Id": "Custom_{{Raven}}TentInside",
@@ -69,7 +69,7 @@
                     "PixelArea": {
                         "X":0,"Y":0,"Width":300,"Height":180,
                     },
-                    "ScrollText": "{{i18n:RavensTent}}",
+                    "ScrollText": "{{i18n:Ravens_Tent}}",
                     "WorldPositions": [
                         {
                             "Id": "Custom_{{Raven}}TentInsideSVE",
@@ -107,7 +107,7 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 //Name to show on world map
-                "Custom_{{Raven}}TentInside.1": "{{i18n:RavensTent}}"
+                "Custom_{{Raven}}TentInside.1": "{{i18n:Ravens_Tent}}"
             }
         },{
             "LogName": "data/locations/Tent.json: Warp Forest -> Tent (Vanilla)",

@@ -237,51 +237,51 @@
 
 
 
-// OR
+//OR
 
 
 
 //{"Changes": [
-// add base indoor/outdoor sprites
+//add base indoor/outdoor sprites
 //{
-//    "LogName": "outfits.json: Load Portraits & Sprites",
-//    "Action": "Load",
-//    "Target": "Characters/Johnny_Indoor, Characters/Johnny_Outdoor, Portraits/Johnny_Indoor, Portraits/Johnny_Outdoor",
-//    "FromFile": "assets/{{Target}}.png",
+//   "LogName": "outfits.json: Load Portraits & Sprites",
+//   "Action": "Load",
+//   "Target": "Characters/Johnny_Indoor, Characters/Johnny_Outdoor, Portraits/Johnny_Indoor, Portraits/Johnny_Outdoor",
+//   "FromFile": "assets/{{Target}}.png",
 //},
 
-// apply any overlays needed
+//apply any overlays needed
 //{
-//    "LogName": "outfits.json: Overlays"
-//    "Action": "EditImage",
-//    "Target": "Characters/Johnny_Indoor, Portraits/Johnny_Indoor",
-//    "FromFile": "assets/overlays/{{Target}}_married.png",
-//    "When": {
-//        "Spouse": "Johnny",
-//    },
+//   "LogName": "outfits.json: Overlays"
+//   "Action": "EditImage",
+//   "Target": "Characters/Johnny_Indoor, Portraits/Johnny_Indoor",
+//   "FromFile": "assets/overlays/{{Target}}_married.png",
+//   "When": {
+//       "Spouse": "Johnny",
+//   },
 //},
 
-// add NPC
+//add NPC
 //{
-//    "LogName": "outfits.json: Add NPC"
-//    "Action": "EditData",
-//    "Target": "Data/Characters",
-//    "Entries": {
-//        "SomeMod.Id_Johnny": {
-//            "Appearance": [
-//                {
-//                    "Id": "Outdoors",
-//                    "Indoors": false,
-//                    "Portrait": "Portraits/Johnny_Outdoor",
-//                    "Sprite": "Characters/Johnny_Outdoor"
-//                },
-//                {
-//                    "Id": "Default",
-//                    "Portrait": "Portraits/Johnny_Indoor",
-//                    "Sprite": "Characters/Johnny_Indoor"
-//                },
-//            ],
-//        },
-//    }
+//   "LogName": "outfits.json: Add NPC"
+//   "Action": "EditData",
+//   "Target": "Data/Characters",
+//   "Entries": {
+//       "SomeMod.Id_Johnny": {
+//           "Appearance": [
+//               {
+//                   "Id": "Outdoors",
+//                   "Indoors": false,
+//                   "Portrait": "Portraits/Johnny_Outdoor",
+//                   "Sprite": "Characters/Johnny_Outdoor"
+//               },
+//               {
+//                   "Id": "Default",
+//                   "Portrait": "Portraits/Johnny_Indoor",
+//                   "Sprite": "Characters/Johnny_Indoor"
+//               },
+//           ],
+//       },
+//   }
 //},
 //]}

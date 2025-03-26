@@ -1,6 +1,6 @@
 {
     "Changes": [
-        // _MarriageTalk
+        //_MarriageTalk
         {
             "LogName": "events.json: 8 Heart - MarriageTalk: Married to Other NPC",
             "Action": "EditData",

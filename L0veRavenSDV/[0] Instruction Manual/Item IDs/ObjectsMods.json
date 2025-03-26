@@ -1,10 +1,10 @@
-// ==========================================================
-// || [CP] Nature's Bounty [Raspb3rryfields.NaturesBounty] ||
-// ==========================================================
+//==========================================================
+//[CP] Nature's Bounty [Raspb3rryfields.NaturesBounty]
+//==========================================================
 {
-// ========================
-// || Profit Margin: Low ||
-// ========================
+//========================
+//Profit Margin: Low
+//========================
 "Raspb3rryfields.NaturesBounty_HempFiber": {"Name": "Raspb3rryfields.NaturesBounty_HempFiber","Displayname": "Hemp Fiber","Description": "It's so versatile!","Type": "Objects","Category": -80,"Price": 30,"Texture": "{{InternalAssetKey: assets/HempFiber.png}}",},
     
 "Raspb3rryfields.NaturesBounty_SpecialBrownie": {"Name": "Raspb3rryfields.NaturesBounty_SpecialBrownie","Displayname": "Special Brownie","Description": "A classic dessert with a special ingredient.","Type": "Objects","Category": -7,"Edibility": 16,"Buffs":[{"Id": "Stoned","BuffId": "Raspb3rryfields.NaturesBounty_StonedBuff",}],"Price": 20,"Texture": "{{InternalAssetKey: assets/SpecialBrownie.png}}",},
@@ -22,9 +22,9 @@
 "Raspb3rryfields.NaturesBounty_MarijuanaSeeds": {"Name": "Raspb3rryfields.NaturesBounty_MarijuanaSeeds","Displayname": "Marijuana Seeds","Description": "Plant in any season except winter. Takes 7 days to mature and will continue producing every week after. Yields 10 buds at harvest.","Type": "Seeds","Category": -74,"Price": 25,"Texture": "{{InternalAssetKey: assets/MarijuanaSeeds.png}}",},
 
 "Raspb3rryfields.NaturesBounty_HempSeeds": {"Name": "Raspb3rryfields.NaturesBounty_HempSeeds","Displayname": "Hemp Seeds","Description": "Plant in any season except winter. Takes 7 days to mature and will continue producing every week after. Yields 3 fibers at harvest.","Type": "Seeds","Category": -74,"Price": 20,"Texture": "{{InternalAssetKey: assets/HempSeeds.png}}",},
-// =============================
-// || Profit Margin: Balanced ||
-// =============================
+//=============================
+//Profit Margin: Balanced
+//=============================
 "Raspb3rryfields.NaturesBounty_Bud": {"Name": "Raspb3rryfields.NaturesBounty_Bud","Displayname": "Bud","Description": "A popular plant with a distinct smell.","Type": "Objects","Category": -80,"Price": 15,"Texture": "{{InternalAssetKey: assets/Bud.png}}",},
     
 "Raspb3rryfields.NaturesBounty_RoastedHempSeeds": {"Name": "Raspb3rryfields.NaturesBounty_RoastedHempSeeds","Displayname": "Roasted Hemp Seeds","Description": "They're packed with nutrients.","Type": "Objects","Category": -7,"Edibility": 50,"Price": 250,"Texture": "{{InternalAssetKey: assets/RoastedHempSeeds.png}}",},
@@ -42,9 +42,9 @@
 "Raspb3rryfields.NaturesBounty_MarijuanaSeeds": {"Name": "Raspb3rryfields.NaturesBounty_MarijuanaSeeds","Displayname": "Marijuana Seeds","Description": "Plant in any season except winter. Takes 7 days to mature and will continue producing every week after. Yields 10 buds at harvest.","Type": "Seeds","Category": -74,"Price": 25,"Texture": "{{InternalAssetKey: assets/MarijuanaSeeds.png}}",},
 
 "Raspb3rryfields.NaturesBounty_HempSeeds": {"Name": "Raspb3rryfields.NaturesBounty_HempSeeds","Displayname": "Hemp Seeds","Description": "Plant in any season except winter. Takes 7 days to mature and will continue producing every week after. Yields 3 fibers at harvest.","Type": "Seeds","Category": -74,"Price": 20,"Texture": "{{InternalAssetKey: assets/HempSeeds.png}}",},
-// =========================
-// || Profit Margin: High ||
-// =========================
+//=========================
+//Profit Margin: High
+//=========================
 "Raspb3rryfields.NaturesBounty_HempSeeds": {"Name": "Raspb3rryfields.NaturesBounty_HempSeeds","Displayname": "Hemp Seeds","Description": "Plant in any season except winter. Takes 7 days to mature and will continue producing every week after. Yields 3 fibers at harvest.","Type": "Seeds","Category": -74,"Price": 50,"Texture": "{{InternalAssetKey: assets/HempSeeds.png}}",},
     
 "Raspb3rryfields.NaturesBounty_HempFiber": {"Name": "Raspb3rryfields.NaturesBounty_HempFiber","Displayname": "Hemp Fiber","Description": "It's so versatile!","Type": "Objects","Category": -80,"Price": 75,"Texture": "{{InternalAssetKey: assets/HempFiber.png}}",},

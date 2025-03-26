@@ -1,7 +1,7 @@
 {
-// =================
-// || Objects (O) ||
-// =================
+//=================
+//Objects (O)
+//=================
 "0": "Weeds",
 "2": "Diamond Stone",
 "4": "Ruby Stone",
@@ -38,9 +38,9 @@
 "68": "Topaz",
 "69": "Banana Sapling",
 "70": "Jade",
-// "71": "Trimmed Lucky Purple Shorts",
+//"71": "Trimmed Lucky Purple Shorts",
 "72": "Diamond",
-// "73": "Golden Walnut",
+//"73": "Golden Walnut",
 "74": "Prismatic Shard",
 "75": "Geode Stone",
 "76": "Frozen Geode Stone",
@@ -64,7 +64,7 @@
 "99": "Dwarf Scroll IV",
 "100": "Chipped Amphora",
 "101": "Arrowhead",
-// "102": "Lost Book",
+//"102": "Lost Book",
 "103": "Ancient Doll",
 "104": "Elvish Jewelry",
 "105": "Chewing Stick",
@@ -269,7 +269,7 @@
 "323": "Stone Fence",
 "324": "Iron Fence",
 "325": "Gate",
-// "326": "Dwarvish Translation Guide",
+//"326": "Dwarvish Translation Guide",
 "328": "Wood Floor",
 "329": "Stone Floor",
 "330": "Clay",
@@ -403,25 +403,25 @@
 "497": "Fall Seeds",
 "498": "Winter Seeds",
 "499": "Ancient Seeds",
-// "516": "Small Glow Ring",
-// "517": "Glow Ring",
-// "518": "Small Magnet Ring",
-// "519": "Magnet Ring",
-// "520": "Slime Charmer Ring",
-// "521": "Warrior Ring",
-// "522": "Vampire Ring",
-// "523": "Savage Ring",
-// "524": "Ring of Yoba",
-// "525": "Sturdy Ring",
-// "526": "Burglar's Ring",
-// "527": "Iridium Band",
-// "528": "Jukebox Ring",
-// "529": "Amethyst Ring",
-// "530": "Topaz Ring",
-// "531": "Aquamarine Ring",
-// "532": "Jade Ring",
-// "533": "Emerald Ring",
-// "534": "Ruby Ring",
+//"516": "Small Glow Ring",
+//"517": "Glow Ring",
+//"518": "Small Magnet Ring",
+//"519": "Magnet Ring",
+//"520": "Slime Charmer Ring",
+//"521": "Warrior Ring",
+//"522": "Vampire Ring",
+//"523": "Savage Ring",
+//"524": "Ring of Yoba",
+//"525": "Sturdy Ring",
+//"526": "Burglar's Ring",
+//"527": "Iridium Band",
+//"528": "Jukebox Ring",
+//"529": "Amethyst Ring",
+//"530": "Topaz Ring",
+//"531": "Aquamarine Ring",
+//"532": "Jade Ring",
+//"533": "Emerald Ring",
+//"534": "Ruby Ring",
 "535": "Geode",
 "536": "Frozen Geode",
 "537": "Magma Geode",
@@ -606,7 +606,7 @@
 "798": "Midnight Squid",
 "799": "Spook Fish",
 "800": "Blobfish",
-// "801": "Wedding Ring",
+//"801": "Wedding Ring",
 "802": "Cactus Seeds",
 "803": "Iridium Milk",
 "805": "Tree Fertilizer",
@@ -641,7 +641,7 @@
 "836": "Stingray",
 "837": "Lionfish",
 "838": "Blue Discus",
-// "839": "Thorns Ring",
+//"839": "Thorns Ring",
 "840": "Rustic Plank Floor", 
 "841": "Stone Walkway Floor", 
 "842": "Journal Scrap",
@@ -682,10 +682,10 @@
 "882": "Weeds",
 "883": "Weeds",
 "884": "Weeds",
-// "885": "Fiber Seeds", 
+//"885": "Fiber Seeds", 
 "886": "Warp Totem: Island",
-// "887": "Immunity Band",
-// "888": "Glowstone Ring",
+//"887": "Immunity Band",
+//"888": "Glowstone Ring",
 "889": "Qi Fruit",
 "890": "Qi Bean",
 "891": "Mushroom Tree Seed",
@@ -728,7 +728,7 @@
 "FarAwayStone": "Far Away Stone",
 "CalicoEgg": "Calico Egg",
 "MixedFlowerSeeds": "Mixed Flower Seeds",
-// "GoldenBobber": "Golden Bobber",
+//"GoldenBobber": "Golden Bobber",
 "CalicoEggStone_0": "Calico Egg Stone",
 "CalicoEggStone_1": "Calico Egg Stone",
 "CalicoEggStone_2": "Calico Egg Stone",
@@ -756,7 +756,7 @@
 "DriedMushrooms": "Dried Mushrooms",
 "StardropTea": "Stardrop Tea",
 "PrizeTicket": "Prize Ticket",
-// "GoldCoin": "Gold Coin",
+//"GoldCoin": "Gold Coin",
 "TreasureTotem": "Treasure Totem",
 "ChallengeBait": "Challenge Bait",
 "CarrotSeeds": "Carrot Seeds", 
@@ -810,9 +810,9 @@
 "MossSoup": "Moss Soup",
 "BasicCoalNode0": "Stone",
 "BasicCoalNode1": "Stone",
-// =========================
-// || Big Craftables (BC) ||
-// =========================
+//=========================
+//Big Craftables (BC)
+//=========================
 "0": "House Plant",
 "1": "House Plant",
 "2": "House Plant",
@@ -995,9 +995,9 @@
 "DeluxeWormBin": "Deluxe Worm Bin",
 "BigChest": "Big Chest",
 "BigStoneChest": "Big Stone Chest",
-// ===============
-// || Tools (T) ||
-// ===============
+//===============
+//Tools (T)
+//===============
 "Axe": "Axe",
 "CopperAxe": "Copper Axe",
 "SteelAxe": "Steel Axe",
@@ -1035,9 +1035,9 @@
 "SteelTrashCan": "Steel Trash Can",
 "GoldTrashCan": "Gold Trash Can",
 "IridiumTrashCan": "Iridium Trash Can",
-// =================
-// || Weapons (W) ||
-// =================
+//=================
+//Weapons (W)
+//=================
 	
 Rusty Sword
 0
@@ -1239,9 +1239,9 @@ Meowmere
 	
 Iridium Scythe
 66
-// ===================
-// || Furniture (F) ||
-// ===================
+//===================
+//Furniture (F)
+//===================
 	
 Oak Chair
 0
@@ -3046,9 +3046,9 @@ DecorativeDoor4
 "MidnightBeachBed": "Midnight Beach Bed",
 "MidnightBeachDoubleBed": "Midnight Beach Double Bed",
 "DarkPiano": "Dark Piano",
-// ===============
-// || Boots (B) ||
-// ===============
+//===============
+//Boots (B)
+//===============
 "504": "Sneakers",
 "505": "Rubber Boots",
 "506": "Leather Boots",
@@ -3067,9 +3067,9 @@ DecorativeDoor4
 "854": "Mermaid Boots",
 "855": "Dragonscale Boots",
 "878": "Crystal Shoes",
-// ===============
-// || Pants (P) ||
-// ===============
+//===============
+//Pants (P)
+//===============
 "0": "Farmer Pants",
 "1": "Shorts",
 "2": "Long Dress",
@@ -3088,9 +3088,9 @@ DecorativeDoor4
 "15": "Trimmed Lucky Purple Shorts",
 "998": "Prismatic Pants",
 "999": "Prismatic Genie Pants",
-// ================
-// || Shirts (S) ||
-// ================
+//================
+//Shirts (S)
+//================
 	
 Classic Overalls
 1000
@@ -4000,9 +4000,9 @@ MysteryShirt
 	
 Basic Pullover (M)
 SoftEdgePullover
-// ==============
-// || Hats (H) ||
-// ==============
+//==============
+//Hats (H)
+//==============
 "0": "Cowboy Hat",
 "1": "Bowler Hat",
 "2": "Top Hat",
@@ -4280,9 +4280,9 @@ Deluxe Cowboy Hat
 "WhiteBow": "White Bow",
 "SpaceHelmet": "Space Helmet",
 "InfinityCrown": "Infinity Crown",
-// ===================
-// || Trinkets (TR) ||
-// ===================
+//===================
+//Trinkets (TR)
+//===================
 "MagicHairDye": "Magic Hair Gel",
 "FrogEgg": "Frog Egg",
 "MagicQuiver": "Magic Quiver",
@@ -4291,16 +4291,16 @@ Deluxe Cowboy Hat
 "IceRod": "Ice Rod",
 "IridiumSpur": "Golden Spur",
 "BasiliskPaw": "Basilisk Paw",
-// ====================
-// || Mannequins (M) ||
-// ====================
+//====================
+//Mannequins (M)
+//====================
 "MannequinMale": "Mannequin (M)",
 "MannequinFemale": "Mannequin", 
 "CursedMannequinMale": "Cursed Mannequin (M)",
 "CursedMannequinFemale": "Cursed Mannequin", 
-// ===================
-// || Flooring (FL) ||
-// ===================
+//===================
+//Flooring (FL)
+//===================
 "0": "Floor",	
 "1": "Floor",	
 "2": "Floor",	
@@ -4398,9 +4398,9 @@ Deluxe Cowboy Hat
 "MoreFloors:6": "Floor",
 "MoreFloors:7": "Floor",
 "MoreFloors:8": "Floor",
-// =====================
-// || Wallpapers (WP) ||
-// =====================
+//=====================
+//Wallpapers (WP)
+//=====================
 "0": "Wallpaper",
 "1": "Wallpaper",
 "2": "Wallpaper",

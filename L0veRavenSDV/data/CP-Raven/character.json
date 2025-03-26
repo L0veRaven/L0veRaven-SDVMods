@@ -6,7 +6,7 @@
             "Target": "Data/Characters",
             "Entries": {
                 "{{Raven}}": {
-                    "DisplayName": "{{i18n:DisplayName}}",
+                    "DisplayName": "{{i18n:Raven_DisplayName}}",
                     "BirthSeason": "winter",
                     "BirthDay": 18,
                     "HomeRegion": "Town",
@@ -43,41 +43,41 @@
                         "MapSourceRect": {
                             "X": 0, "Y": 0, "Width": 4, "Height": 4,
                         },
-                        "SpriteAnimationFrames": [ // Looping animation while on spousepatio, [frame, miliseconds]
+                        "SpriteAnimationFrames": [ //Looping animation while on spousepatio, [frame, miliseconds]
                             [0, 1500],
                         ],
                     },
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,
-                    //ADD"SpouseFloors": [], // Flooring NPC will place in home
-                    //ADD"SpouseWallpapers": [], // Wallpapers NPC will place in home
-                    "FriendsAndFamily": {}, // If NPC has relatives
-                    "FlowerDanceCanDance": true, // If NPC dances at Flower Dance
+                    //ADD"SpouseFloors": [], //Flooring NPC will place in home
+                    //ADD"SpouseWallpapers": [], //Wallpapers NPC will place in home
+                    "FriendsAndFamily": {}, //If NPC has relatives
+                    "FlowerDanceCanDance": true, //If NPC dances at Flower Dance
                     "WinterStarGifts": [],
-                    "WinterStarParticipant": true, // If NPC participates in Winter Star
-                    "UnlockConditions": null, // If NPC has unlock condidion before being seen
-                    "SpawnIfMissing": true, // Forcibly spawns NPC if stuck
+                    "WinterStarParticipant": true, //If NPC participates in Winter Star
+                    "UnlockConditions": null, //If NPC has unlock condidion before being seen
+                    "SpawnIfMissing": true, //Forcibly spawns NPC if stuck
                     "Home": [],
                     "TextureName": "",
-                    "Appearance": [], // New appearance system -> See "outfits.json"
-                    "MugShotSourceRect": null, // Changes position of headshot in calendar/map/etc if they're shorter/taller than normal
+                    "Appearance": [], //New appearance system -> See "outfits.json"
+                    "MugShotSourceRect": null, //Changes position of headshot in calendar/map/etc if they're shorter/taller than normal
                     "Size": {
                         "X": 16,"Y": 32,
-                    }, // Sprite dimensions
-                    "Breather": true, // true,false -> Places the breathing animation over the npc
-                    "BreathChestRect": null, // Changeable if you want to enlarge/shrink the breathing animation
-                    "BreathChestPosition": null, // Changeable if NPC is taller/shorter than normal
-                    "Shadow": null, // visible,offset,scale -> Visible is default, Offset to offset the shadow, scale to enlarge/shrink
-                    "EmoteOffset": {"X": 0,"Y": 0,}, // Whether to offset the emote bubble over the NPC or not
+                    }, //Sprite dimensions
+                    "Breather": true, //true,false -> Places the breathing animation over the npc
+                    "BreathChestRect": null, //Changeable if you want to enlarge/shrink the breathing animation
+                    "BreathChestPosition": null, //Changeable if NPC is taller/shorter than normal
+                    "Shadow": null, //visible,offset,scale -> Visible is default, Offset to offset the shadow, scale to enlarge/shrink
+                    "EmoteOffset": {"X": 0,"Y": 0,}, //Whether to offset the emote bubble over the NPC or not
                     "ShakePortraits": [9],
                     "KissSpriteIndex": 19,
                     "KissSpriteFacingRight": true,
-                    //ADD"HiddenProfileEmoteSound": null, // Check soundbank list -> Applied when clicking on their social tab after 4 hearts
-                    //ADD"HiddenProfileEmoteDuration": null, // Animation duration in milliseconds
-                    //ADD"HiddenProfileEmoteStartFrame": null, // Animation's starting frame
-                    //ADD"HiddenProfileEmoteFrameCount": null, // How many frames the sprite index will go through, going left to right
-                    //ADD"HiddenProfileEmoteFrameDuration": null, // Frames in milliseconds
-                    "CustomFields": null, // Used for C#
+                    //ADD"HiddenProfileEmoteSound": null, //Check soundbank list -> Applied when clicking on their social tab after 4 hearts
+                    //ADD"HiddenProfileEmoteDuration": null, //Animation duration in milliseconds
+                    //ADD"HiddenProfileEmoteStartFrame": null, //Animation's starting frame
+                    //ADD"HiddenProfileEmoteFrameCount": null, //How many frames the sprite index will go through, going left to right
+                    //ADD"HiddenProfileEmoteFrameDuration": null, //Frames in milliseconds
+                    "CustomFields": null, //Used for C#
                 },
             },
         },

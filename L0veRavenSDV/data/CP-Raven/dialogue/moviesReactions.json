@@ -6,15 +6,15 @@
             "Target": "Data/MoviesReactions",
             "Entries": {
                 "RavenDisplayName": {
-                    "NPCName": "{{Raven}}", // Internal name
+                    "NPCName": "{{Raven}}", //Internal name
                     "Reactions": [
-// The Brave Little Sapling - (Animated Family / Comedy)
+//The Brave Little Sapling - (Animated Family / Comedy)
                         {
-                            "Tag": "spring_movie_0", // <season>_movie_<0,1>
-                            "Response": "love", // love, like, dislike
+                            "Tag": "spring_movie_0", //<season>_movie_<0,1>
+                            "Response": "love", //love, like, dislike
                             "Whitelist": [],
-                                // Won't show up if <NPC> is present at the theater
-                            "SpecialResponses": {// Contains dialogue spoken by NPC during the film -> Can be left null.
+                                //Won't show up if <NPC> is present at the theater
+                            "SpecialResponses": {//Contains dialogue spoken by NPC during the film -> Can be left null.
                                 "BeforeMovie": {
                                         "ResponsePoint": null,
                                         "Script": "",
@@ -31,9 +31,9 @@
                                         "Text": "{{i18n:movie_tbls_after}}"
                                     }
                                 },
-                            "ID": "reaction_0" //  reaction_<index>, <index> counts from 0 within the Reactions list.
+                            "ID": "reaction_0" // reaction_<index>, <index> counts from 0 within the Reactions list.
                         },
-// Natural Wonders - (Documentary / Family)
+//Natural Wonders - (Documentary / Family)
                         {
                             "Tag": "spring_movie_1",
                             "Response": "dislike",
@@ -57,7 +57,7 @@
                             },
                             "ID": "reaction_1"
                         },
-// Journey of the Prairie King (Action)
+//Journey of the Prairie King (Action)
                         {
                             "Tag": "summer_movie_0",
                             "Response": "love",
@@ -81,7 +81,7 @@
                             },
                             "ID": "reaction_2"
                         },
-// Wumbus - (Sci-fi / Comedy / Family)
+//Wumbus - (Sci-fi / Comedy / Family)
                         {
                             "Tag": "summer_movie_1",
                             "Response": "love",
@@ -105,7 +105,7 @@
                             },
                             "ID": "reaction_3"
                         },
-// Mysterium - (Horror / Art)
+//Mysterium - (Horror / Art)
                         {
                             "Tag": "fall_movie_0",
                             "Response": "like",
@@ -129,7 +129,7 @@
                             },
                             "ID": "reaction_4"
                         },
-// It Howls in the Rain - (Horror)
+//It Howls in the Rain - (Horror)
                         {
                             "Tag": "fall_movie_1",
                             "Response": "dislike",
@@ -153,7 +153,7 @@
                             },
                             "ID": "reaction_5"
                         },
-// Miracle at Coldstar Ranch (Family / Classic)
+//Miracle at Coldstar Ranch (Family / Classic)
                         {
                             "Tag": "winter_movie_0",
                             "Response": "dislike",
@@ -177,7 +177,7 @@
                             },
                             "ID": "reaction_6"
                         },
-// The Zuzu City Express - (The Zuzu City Express - Classic / Romance)
+//The Zuzu City Express - (The Zuzu City Express - Classic / Romance)
                         {
                             "Tag": "winter_movie_1",
                             "Response": "like",

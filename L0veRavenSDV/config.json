@@ -4,5 +4,6 @@
   "RavenSunflowerCostumeSE": "true",
   "RavenWeedCostumeSE": "true",
   "RavenIndex": "false",
-  "RavenEventExcludes": "true"
+  "ZaydenIndex": "false",
+  "EventExcludes": "None"
 }

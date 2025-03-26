@@ -1,55 +1,55 @@
 {"Change": [{
     
-    // Cutscenes
+    //Cutscenes
     
     "AbigailGame": "",
-        // Sets up Journey of the Prairie King mini-game with Abigail
+        //Sets up Journey of the Prairie King mini-game with Abigail
     
     "addSecretSantaItem": "",
-        // Feast of the Winter Star gift scene
+        //Feast of the Winter Star gift scene
     
     "balloonChangeMap": "",
-        // Changes to the "in the balloon" map for Harvey's 10 heart event
+        //Changes to the "in the balloon" map for Harvey's 10 heart event
     
     "balloonDepart": "",
-        // Balloon taking off in Harvey's 10 heart event
+        //Balloon taking off in Harvey's 10 heart event
     
     "bandFork": "",
-        // Plays correct scene for Sam's 8 heart event, based on response given in 2 heart event
+        //Plays correct scene for Sam's 8 heart event, based on response given in 2 heart event
     
     "boardGame": "",
-        // Sets up Solarion Chronicles mini-game
+        //Sets up Solarion Chronicles mini-game
     
     "clearTempSprites": "",
-        // Removes all temporary sprites from map
+        //Removes all temporary sprites from map
     
     "eggHuntWinner": "",
-        // Egg Hunt winner scene
+        //Egg Hunt winner scene
     
     "governorTaste": "",
-        // Luau soup scene
+        //Luau soup scene
     
     "greenTea": "",
-        // Caroline sunroom scene from her 2 heart event
+        //Caroline sunroom scene from her 2 heart event
     
     "haleyCows": "",
-        // Haley meeting the cows from her 8 heart event
+        //Haley meeting the cows from her 8 heart event
     
     "iceFishingWinner": "",
-        // Festival of Ice fishing contest winner scene
+        //Festival of Ice fishing contest winner scene
     
     "iceFishingWinnerMP": "",
-        // Sets up text message displayed when leaving Festival of Ice
+        //Sets up text message displayed when leaving Festival of Ice
     
     "linusMoneyGone": "",
-        // ??? (seems to be unused)
+        //??? (seems to be unused)
     
     "marucomet": "",
-        // Maru Comet scene from her 14 heart event
+        //Maru Comet scene from her 14 heart event
     
     "plane": "",
-        // Plane flying by from Harvey's 8 heart scene
+        //Plane flying by from Harvey's 8 heart scene
     
     "robot": "",
-        // MarILDA taking off from Maru's 10 heart scene
+        //MarILDA taking off from Maru's 10 heart scene
 }]}

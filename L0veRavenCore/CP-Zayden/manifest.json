@@ -12,7 +12,6 @@
         {"UniqueID": "DTZ.DowntownZuzuDLL","IsRequired": "false"},
         {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
         {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"},
-        {"UniqueID": "L0veRaven.CoreCP","IsRequired": "true"},
         {"UniqueID": "LenneDalben.PelicanTownPotluck","IsRequired": "false"},
         {"UniqueID": "Rafseazz.RSVCP","IsRequired": "false"},
         {"UniqueID": "Raspb3rryfields.NaturesBounty","IsRequired": "false"},

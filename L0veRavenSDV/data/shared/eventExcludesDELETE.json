@@ -1,6 +1,28 @@
 {
     "Changes": [
         {
+            "LogName": "Exclude Raven",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "{{Raven}}": {"WinterStarParticipant": false,},
+            },
+            "When": {
+                "EventExcludes": "Raven"
+            },
+        },
+        {
+            "LogName": "Exclude Zayden",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Fields": {
+                "{{Zayden}}": {"WinterStarParticipant": false,},
+            },
+            "When": {
+                "EventExcludes": "Zayden"
+            },
+        },
+        {
             "LogName": "RavenEventExcludesDELETE.json - Winter Star (SDVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
@@ -54,6 +76,7 @@
             },
             "When": {
                 "HasMod |contains={{SVE}}": "true",
+                "EventExcludes": "Raven, Zayden",
             }
         },
         {
@@ -110,6 +133,7 @@
             },
             "When": {
                 "HasMod |contains={{RSV}}": "true",
+                "EventExcludes": "Raven, Zayden",
             }
         },
         {
@@ -166,6 +190,7 @@
             },
             "When": {
                 "HasMod |contains={{RSV}}": "true",
+                "EventExcludes": "Raven, Zayden",
             }
         },
         {
@@ -222,6 +247,7 @@
             },
             "When": {
                 "HasMod |contains={{RSV}}": "true",
+                "EventExcludes": "Raven, Zayden",
             }
         }
     ]

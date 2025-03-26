@@ -7,15 +7,15 @@
     
 "ActiveDialogueEvent _dialogueID_", "!A _dialogueID_": "ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is in progress",
 "!ActiveDialogueEvent _dialogueID_", "A _dialogueID_": "!ActiveDialogueEvent _dialogueID/conversationTopic_/ -> Dialogue ID is NOT in progress",
-// -- General
+//-- General
     "shaneSaloon1", "shaneSaloon2", "willyCrabs",
-// -- Community Center
+//-- Community Center
     "cc_Begin", "cc_Boulder", "cc_Bridge", "cc_Bus", "cc_Complete", "cc_Greenhouse", "cc_Minecart",
-// -- Saloon Event
+//-- Saloon Event
     "dumped_Girls", "dumped_Guys", "secondChance_Girls", "secondChance_Guys",
-// -- Pam House
+//-- Pam House
     "pamHouseUpgrade", "pamHouseUpgradeAnonymous",
-// -- Other
+//-- Other
     "Introduction", "joja_Begin",
     
 "DayOfMonth _number_", "u _number_": "DayOfMonth 12 13 15/ -> Is day(s) of the month (Numbers only)",
@@ -66,24 +66,24 @@
 //=====================================================================================================================================================
 
 "r _number_": "A random probability check",
-    // _number_ is the probability between 0 and 1 (e.g., 0.2 for 20% chance)
+    //_number_ is the probability between 0 and 1 (e.g., 0.2 for 20% chance)
 
 "v _name_": "_name_ is not invisible (regardless of whether they're on-screen)",
 
 "w _weather_": "Current weather is _weather_",
-        // rainy
-        // sunny
+        //rainy
+        //sunny
 
 "y _year_": "Current year is _number_",
-    // IMPORTANT: 
+    //IMPORTANT: 
 
 "z _season_": "Is not _season_",
 
-// ===================================================================================================================================
-// Conditions: Current Player
-// ===================================================================================================================================
+//===================================================================================================================================
+//Conditions: Current Player
+//===================================================================================================================================
 
-// Checks current player
+//Checks current player
 
 "Skill _name_ _level_": "Skill Mining 5/ -> Values: Combat/Farming/Fishing/Foraging/Luck/Mining -> Current player has reached at least level _number_ in _skill_",
     
@@ -155,9 +155,9 @@
 
 "HostOrLocalMail _letterID_", "*n _letterID_": "Host / current player have received _letterID_ (mail / non-mail)",
     
-// ===================================================================================================================================
-// Condition: Host Player      Check's host player     In single player, it's ALWAYS the current player
-// ===================================================================================================================================
+//===================================================================================================================================
+//Condition: Host Player      Check's host player     In single player, it's ALWAYS the current player
+//===================================================================================================================================
 
 "CommunityCenterOrWarehouseDone", "C": "Finished the Community Center or Joja Warehouse",
     
@@ -178,12 +178,12 @@
 
 "HostOrLocalMail _letterID_", "*n _letterID_": "Host / current player have received _letterID_ (mail / non-mail)",
 
-// ===================================================================================================================================
-// Basic Event Format
-// ===================================================================================================================================
+//===================================================================================================================================
+//Basic Event Format
+//===================================================================================================================================
 
-// MUST start with three commands in this exact order:
-    // _music ID_/_x_ _y_ [for viewport]/[_character ID_ _x_ _y_ _direction_] [...] [...]/
+//MUST start with three commands in this exact order:
+    //_music ID_/_x_ _y_ [for viewport]/[_character ID_ _x_ _y_ _direction_] [...] [...]/
 
 "_musicID_": "-> Background/Ambient music -> Change music: playMusic _newSong_ -> Stop music: stopMusic",
 

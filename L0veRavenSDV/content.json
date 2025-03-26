@@ -9,19 +9,60 @@
         //Raven Settings
             //Spirit's Eve Costumes: Toggles
                 //## TODO:  "RavenVampireCostumeSE": {Default": "true",AllowValues": "true, false",AllowBlank": false,Section": "RavenSpiritsEveCostumes",Description": null},
-                "RavenCactusCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSpiritsEveCostumes","Description": null},
-                "RavenDaisyCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSpiritsEveCostumes","Description": null},
-                "RavenSunflowerCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSpiritsEveCostumes","Description": null},
-                "RavenWeedCostumeSE": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "RavenSpiritsEveCostumes","Description": null},
+                "RavenCactusCostumeSE": {
+                    "Default": "false",
+                    "AllowBlank": false,
+                    "AllowValues": "true, false",
+                    "Section": "RavenSpiritsEveCostumes",
+                    "Description": null
+                },
+                "RavenDaisyCostumeSE": {
+                    "Default": "false",
+                    "AllowBlank": false,
+                    "AllowValues": "true, false",
+                    "Section": "RavenSpiritsEveCostumes",
+                    "Description": null
+                },
+                "RavenSunflowerCostumeSE": {
+                    "Default": "false",
+                    "AllowBlank": false,
+                    "Section": "RavenSpiritsEveCostumes",
+                    "AllowValues": "true, false",
+                    "Description": null
+                },
+                "RavenWeedCostumeSE": {
+                    "Default": "false",
+                    "AllowBlank": false,
+                    "Section": "RavenSpiritsEveCostumes",
+                    "AllowValues": "true, false",
+                    "Description": null
+                },
         
         //Modder Settings
         //## TODO: DELETE ON RELEASE
             //Index: Shows Raven with index numbers for sprites and portraits
-                "RavenIndex": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null},
-                "ZaydenIndex": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null},
+                "RavenIndex": {
+                    "Default": "false",
+                    "AllowValues": "true, false",
+                    "AllowBlank": false,
+                    "Section": "ModderSettings",
+                    "Description": null
+                },
+                "ZaydenIndex": {
+                    "Default": "false",
+                    "AllowValues": "true, false",
+                    "AllowBlank": false,
+                    "Section": "ModderSettings",
+                    "Description": null
+                },
             //Event Excludes: Toggle
-                "RavenEventExcludes": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null},
-                "ZaydenEventExcludes": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "ModderSettings","Description": null},
+                "EventExcludes": {
+                    "Default": "None",
+                    "AllowBlank": false,
+                    "AllowValues": "Raven, Zayden, None",
+                    "Section": "ModderSettings",
+                    "Description": null
+                },
     },
 
     "DynamicTokens": [
@@ -29,77 +70,77 @@
             //Character Names
                 //Reference Character
                     {"Name": "Raven","Value": "L0veRaven_Raven"},
-                        // {{Raven}}    
+                        //{{Raven}}    
                     {"Name": "Zayden","Value": "L0veRaven_Zayden"},
-                        // {{Zayden}}
+                        //{{Zayden}}
 
                 //Display Name
-                    {"Name": "RavenDisplayName","Value": "{{i18n:DisplayName}}"},
-                        // {{RavenDisplayName}}
+                    {"Name": "RavenDisplayName","Value": "{{i18n:Raven_DisplayName}}"},
+                        //{{RavenDisplayName}}
                         
                 //Nexus ID
                     {"Name": "Nexus","Value": "27407"},
-                    // {{Nexus}}
+                    //{{Nexus}}
         
             //Mod Nicknames -> External ModId's
                 {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
-                    // {{NPCA}}
+                    //{{NPCA}}
                 {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
-                    // {{CJBC}}
+                    //{{CJBC}}
                 {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
-                    // {{NB}}
+                    //{{NB}}
                 {"Name": "DTZ","Value": "DTZ.DowntownZuzuDLL"},
-                    // {{DTZ}}
+                    //{{DTZ}}
                 {"Name": "PTP","Value": "LenneDalben.PelicanTownPotluck"},
-                    // {{PTP}}
+                    //{{PTP}}
                 {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
-                    // {{SVE}}
+                    //{{SVE}}
                 {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar"},
-                    // {{SWS}}
+                    //{{SWS}}
                 {"Name": "FF","Value": "violetlizabet.CP.FireworksFestival"},
-                    // {{FF}}
+                    //{{FF}}
 
         //Numerical Directions [schedule.json, events.json]
             {"Name": "up","Value": "0"},
-                // {{up}}
+                //{{up}}
             {"Name": "right","Value": "1"},
-                // {{right}}
+                //{{right}}
             {"Name": "down","Value": "2"},
-                // {{down}}
+                //{{down}}
             {"Name": "left","Value": "3"},
-                // {{left}}
+                //{{left}}
 
         //Emotes [events.json]
             {"Name": "emoteEmptyCan","Value": "4"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteQuestion","Value": "8"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteAngry","Value": "12"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteExclaim","Value": "16"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteHeart","Value": "20"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteSleep","Value": "24"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteSweat","Value": "28"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteHappy","Value": "32"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteX","Value": "36"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emotePause","Value": "40"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteVideoGame","Value": "52"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteMusic","Value": "56"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
             {"Name": "emoteBlush","Value": "60"},
-                // {{emoteEmptyCan}}
+                //{{emoteEmptyCan}}
 
         //Time [schedule.json]
             {"Name": "6am","Value": "600"},{"Name": "610am","Value": "610"},{"Name": "620am","Value": "620"},{"Name": "630am","Value": "630"},{"Name": "640am","Value": "640"},{"Name": "650am","Value": "650"},{"Name": "7am","Value": "700"},{"Name": "710am","Value": "710"},{"Name": "720am","Value": "720"},{"Name": "730am","Value": "730"},{"Name": "740am","Value": "740"},{"Name": "750am","Value": "750"},{"Name": "8am","Value": "800"},{"Name": "810am","Value": "810"},{"Name": "820am","Value": "820"},{"Name": "830am","Value": "830"},{"Name": "840am","Value": "840"},{"Name": "850am","Value": "850"},{"Name": "9am","Value": "900"},{"Name": "910am","Value": "910"},{"Name": "920am","Value": "920"},{"Name": "930am","Value": "930"},{"Name": "940am","Value": "940"},{"Name": "950am","Value": "950"},{"Name": "10am","Value": "1000"},{"Name": "1010am","Value": "1010"},{"Name": "1020am","Value": "1020"},{"Name": "1030am","Value": "1030"},{"Name": "1040am","Value": "1040"},{"Name": "1050am","Value": "1050"},{"Name": "11am","Value": "1100"},{"Name": "1110am","Value": "1110"},{"Name": "1120am","Value": "1120"},{"Name": "1130am","Value": "1130"},{"Name": "1140am","Value": "1140"},{"Name": "1150am","Value": "1150"},{"Name": "12pm","Value": "1200"},{"Name": "1210pm","Value": "1210"},{"Name": "1220pm","Value": "1220"},{"Name": "1230pm","Value": "1230"},{"Name": "1240pm","Value": "1240"},{"Name": "1250pm","Value": "1250"},{"Name": "1pm","Value": "1300"},{"Name": "110pm","Value": "1310"},{"Name": "120pm","Value": "1320"},{"Name": "130pm","Value": "1330"},{"Name": "140pm","Value": "1340"},{"Name": "150pm","Value": "1350"},{"Name": "2pm","Value": "1400"},{"Name": "210pm","Value": "1410"},{"Name": "220pm","Value": "1420"},{"Name": "230pm","Value": "1430"},{"Name": "240pm","Value": "1440"},{"Name": "250pm","Value": "1450"},{"Name": "3pm","Value": "1500"},{"Name": "310pm","Value": "1510"},{"Name": "320pm","Value": "1520"},{"Name": "330pm","Value": "1530"},{"Name": "340pm","Value": "1540"},{"Name": "350pm","Value": "1550"},{"Name": "4pm","Value": "1600"},{"Name": "410pm","Value": "1610"},{"Name": "420pm","Value": "1620"},{"Name": "430pm","Value": "1630"},{"Name": "440pm","Value": "1640"},{"Name": "450pm","Value": "1650"},{"Name": "5pm","Value": "1700"},{"Name": "510pm","Value": "1710"},{"Name": "520pm","Value": "1720"},{"Name": "530pm","Value": "1730"},{"Name": "540pm","Value": "1740"},{"Name": "550pm","Value": "1750"},{"Name": "6pm","Value": "1800"},{"Name": "610pm","Value": "1810"},{"Name": "620pm","Value": "1820"},{"Name": "630pm","Value": "1830"},{"Name": "640pm","Value": "1840"},{"Name": "650pm","Value": "1850"},{"Name": "7pm","Value": "1900"},{"Name": "710pm","Value": "1910"},{"Name": "720pm","Value": "1920"},{"Name": "730pm","Value": "1930"},{"Name": "740pm","Value": "1940"},{"Name": "750pm","Value": "1950"},{"Name": "8pm","Value": "2000"},{"Name": "810pm","Value": "2010"},{"Name": "820pm","Value": "2020"},{"Name": "830pm","Value": "2030"},{"Name": "840pm","Value": "2040"},{"Name": "850pm","Value": "2050"},{"Name": "9pm","Value": "2100"},{"Name": "910pm","Value": "2110"},{"Name": "920pm","Value": "2120"},{"Name": "930pm","Value": "2130"},{"Name": "940pm","Value": "2140"},{"Name": "950pm","Value": "2150"},{"Name": "10pm","Value": "2200"},{"Name": "1010pm","Value": "2210"},{"Name": "1020pm","Value": "2220"},{"Name": "1030pm","Value": "2230"},{"Name": "1040pm","Value": "2240"},{"Name": "1050pm","Value": "2250"},{"Name": "11pm","Value": "2300"},{"Name": "1110pm","Value": "2310"},{"Name": "1120pm","Value": "2320"},{"Name": "1130pm","Value": "2330"},{"Name": "1140pm","Value": "2340"},{"Name": "1150pm","Value": "2350"},{"Name": "12am","Value": "2400"},{"Name": "1210am","Value": "2410"},{"Name": "1220am","Value": "2420"},{"Name": "1230am","Value": "2430"},{"Name": "1240am","Value": "2440"},{"Name": "1250am","Value": "2450"},{"Name": "1am","Value": "2500"},{"Name": "110am","Value": "2510"},{"Name": "120am","Value": "2520"},{"Name": "130am","Value": "2530"},{"Name": "140am","Value": "2540"},{"Name": "150am","Value": "2550"},
-                // {{6am}} {{610am}} {{620am}} {{630am}} {{640am}} {{650am}} {{7am}} {{710am}} {{720am}} {{730am}} {{740am}} {{750am}} {{8am}} {{810am}} {{820am}} {{830am}} {{840am}} {{850am}} {{9am}} {{910am}} {{920am}} {{930am}} {{940am}} {{950am}} {{10am}} {{1010am}} {{1020am}} {{1030am}} {{1040am}} {{1050am}} {{11am}} {{1110am}} {{1120am}} {{1130am}} {{1140am}} {{1150am}} {{12pm}} {{1210pm}} {{1220pm}} {{1230pm}} {{1240pm}} {{1250pm}} {{1pm}} {{110pm}} {{120pm}} {{130pm}} {{140pm}} {{150pm}} {{2pm}} {{210pm}} {{220pm}} {{230pm}} {{240pm}} {{250pm}} {{3pm}} {{310pm}} {{320pm}} {{330pm}} {{340pm}} {{350pm}} {{4pm}} {{410pm}} {{420pm}} {{430pm}} {{440pm}} {{450pm}} {{5pm}} {{510pm}} {{520pm}} {{530pm}} {{540pm}} {{550pm}} {{6pm}} {{610pm}} {{620pm}} {{630pm}} {{640pm}} {{650pm}} {{7pm}} {{710pm}} {{720pm}} {{730pm}} {{740pm}} {{750pm}} {{8pm}} {{810pm}} {{820pm}} {{830pm}} {{840pm}} {{850pm}} {{9pm}} {{910pm}} {{920pm}} {{930pm}} {{940pm}} {{950pm}} {{10pm}} {{1010pm}} {{1020pm}} {{1030pm}} {{1040pm}} {{1050pm}} {{11pm}} {{1110pm}} {{1120pm}} {{1130pm}} {{1140pm}} {{1150pm}} {{12am}} {{1210am}} {{1220am}} {{1230am}} {{1240am}} {{1250am}} {{1am}} {{110am}} {{120am}} {{130am}} {{140am}} {{150am}} {{2am}}
+                //{{6am}} {{610am}} {{620am}} {{630am}} {{640am}} {{650am}} {{7am}} {{710am}} {{720am}} {{730am}} {{740am}} {{750am}} {{8am}} {{810am}} {{820am}} {{830am}} {{840am}} {{850am}} {{9am}} {{910am}} {{920am}} {{930am}} {{940am}} {{950am}} {{10am}} {{1010am}} {{1020am}} {{1030am}} {{1040am}} {{1050am}} {{11am}} {{1110am}} {{1120am}} {{1130am}} {{1140am}} {{1150am}} {{12pm}} {{1210pm}} {{1220pm}} {{1230pm}} {{1240pm}} {{1250pm}} {{1pm}} {{110pm}} {{120pm}} {{130pm}} {{140pm}} {{150pm}} {{2pm}} {{210pm}} {{220pm}} {{230pm}} {{240pm}} {{250pm}} {{3pm}} {{310pm}} {{320pm}} {{330pm}} {{340pm}} {{350pm}} {{4pm}} {{410pm}} {{420pm}} {{430pm}} {{440pm}} {{450pm}} {{5pm}} {{510pm}} {{520pm}} {{530pm}} {{540pm}} {{550pm}} {{6pm}} {{610pm}} {{620pm}} {{630pm}} {{640pm}} {{650pm}} {{7pm}} {{710pm}} {{720pm}} {{730pm}} {{740pm}} {{750pm}} {{8pm}} {{810pm}} {{820pm}} {{830pm}} {{840pm}} {{850pm}} {{9pm}} {{910pm}} {{920pm}} {{930pm}} {{940pm}} {{950pm}} {{10pm}} {{1010pm}} {{1020pm}} {{1030pm}} {{1040pm}} {{1050pm}} {{11pm}} {{1110pm}} {{1120pm}} {{1130pm}} {{1140pm}} {{1150pm}} {{12am}} {{1210am}} {{1220am}} {{1230am}} {{1240am}} {{1250am}} {{1am}} {{110am}} {{120am}} {{130am}} {{140am}} {{150am}} {{2am}}
                 
         //Raven's Dialogue
             //{{RavenMedsDialogue}}, {{RavenMedsDialogueNormal}}, {{RavenMedsDialogueBDay}}        
@@ -110,41 +151,41 @@
                     "When": {"Query: '{{Season}}' = 'Winter'": false}},
                 {"Name": "RavenMedsDialogue","Value": "{{RavenMedsDialogueBDay}}",
                     "When": {"Query: '{{Season}}' = 'Winter'": true}},
-        //{{firstOfSeason}}
-        {"Name": "firstOfSeason","Value": "{{i18n:{{season}}_first_{{Random:{{Range:1,4}}}}}}"},
+        //{{Raven_firstOfSeason}}
+        {"Name": "Raven_firstOfSeason","Value": "{{i18n:{{season}}_first_{{Random:{{Range:1,4}}}}}}"},
         //Festivals
-        {"Name": "eggFestYest","Value": "{{i18n:eggFestival_yesterday_{{Random:{{Range:1,4}}}}}}"},
-        {"Name": "eggFestToday","Value": "{{i18n:eggFestival_today_{{Random:{{Range:1,4}}}}}}"},
-        {"Name": "eggFestTomo","Value": "{{i18n:eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}"},
+        {"Name": "Raven_eggFestival_dayBefore","Value": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}"},
+        {"Name": "eggFestToday","Value": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}"},
+        {"Name": "eggFestTomo","Value": "{{i18n:Raven_eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}"},
 
-        {"Name": "flowDanYest","Value": "{{i18n:flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}"},
-        {"Name": "flowDanToday","Value": "{{i18n:flowerDance_today_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "flowDanTomo","Value": "{{i18n:flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "flowDanYest","Value": "{{i18n:Raven_flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}"},
+        {"Name": "flowDanToday","Value": "{{i18n:Raven_flowerDance_today_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "flowDanTomo","Value": "{{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}"},
 
-        {"Name": "luauYest","Value": "{{i18n:luau_yesterday_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "luauToday","Value": "{{i18n:luau_today_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "luauTomo","Value": "{{i18n:luau_tomorrow_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "luauYest","Value": "{{i18n:Raven_luau_yesterday_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "luauToday","Value": "{{i18n:Raven_luau_today_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "luauTomo","Value": "{{i18n:Raven_luau_tomorrow_{{Random:{{Range:1,3}}}}}}"},
 
         {"Name": "potluckYest","Value": "{{i18n:potluck_yesterday_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "potluckToday","Value": "{{i18n:potluck_today_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "potluckTomo","Value": "{{i18n:potluck_tomorrow_{{Random:{{Range:1,3}}}}}}"},
 
-        {"Name": "MooJellYest","Value": "{{i18n:moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "MooJellToday","Value": "{{i18n:moonlightJellies_today_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "MooJellTomo","Value": "{{i18n:moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "MooJellYest","Value": "{{i18n:Raven_moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "MooJellToday","Value": "{{i18n:Raven_moonlightJellies_today_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "MooJellTomo","Value": "{{i18n:Raven_moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}"},
 
-        {"Name": "FairYest","Value": "{{i18n:stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "FairToday","Value": "{{i18n:stardewFair_today_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "FairTomo","Value": "{{i18n:stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_today_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "FairJudging","Value": "{{i18n:Fair_Judging_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "FairJudgeSkip","Value": "{{i18n:Fair_Judged_Skipped{{Random:{{Range:1,3}}}}}}"},
         {"Name": "FairJudgeLost","Value": "{{i18n:Fair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "FairJudgeWon","Value": "{{i18n:Fair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "FairJudged","Value": "{{i18n:Fair_Judged_{{Random:{{Range:1,3}}}}}}"},
 
-        {"Name": "spiritsEveYest","Value": "{{i18n:spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "spiritsEveYest","Value": "{{i18n:Raven_spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "spiritsEveToday","Value": "{{i18n:spiritsEve_today_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "spiritsEveTomo","Value": "{{i18n:spiritsEve_tomorrow_{{Random:{{Range:1,3}}}}}}"},
 
@@ -233,7 +274,7 @@
         //Divorce Dialogue
         {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}"},
         {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}"},
-        {"Name": "divorcedRejectMPend","Value": "{{i18n:RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}"},
+        {"Name": "divorcedRejectMPend","Value": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}"},
         //Movie Invites
         {"Name": "movieInvite","Value": "{{i18n:MovieInvitation_{{Random:{{Range:1,5}}}}}}"},
         {"Name": "movieInviteSpouse","Value": "{{i18n:MovieInvite_Spouse_{{Random:{{Range:1,5}}}}}}"},
@@ -268,7 +309,7 @@
         {"Name": "ravenFridge","Value": "{{i18n:Fridge_{{Random:{{Range:1,5}}}}}}"},
         {"Name": "ravenComputer","Value": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}"},
         {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}"},
-        {"Name": "ravenCoatRack","Value": "{{i18n:CoatRack_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "ravenCoatRack","Value": "{{i18n:Raven_CoatRack_{{Random:{{Range:1,7}}}}}}"},
         //Mod Compat
         {"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}"},
         //Animations
@@ -421,6 +462,12 @@
             "FromFile": "data/shared/artifact_item.json, data/shared/hidden_item.json"
         },
         {
+            "LogName": "Tilesheet Loads",
+            "Action": "Load",
+            "Target": "Maps/z_L0veRaven_Tent.png",
+            "FromFile": "assets/tilesheets/z_L0veRaven_Tent.png"
+        },
+        {
             "LogName": "Location Loads",
             "Action": "Include",
             "FromFile": "data/locations/Tent.json, data/locations/Apartment.json, data/locations/SpouseRoom.json, data/locations/SpousePatio.json"
@@ -447,27 +494,27 @@
             "LogName": "content.json: Spouse Room",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpouseRoom",
-            "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx"
+            "FromFile": "data//maps/{{Raven}}SpouseRoom.tmx"
         },
         {
-            "LogName": "content.json: NPC Data",
+            "LogName": "Raven - NPC Data",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/NPCGiftTastes.json, data/schedule.json, data/festivals.json, data/mail.json, data/character.json, data/outfits.json, data/home.json, data/winterStarGifts.json, data/triggerActions.json"
+            "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/festivals.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
         },
         {
-            "LogName": "content.json: Events",
+            "LogName": "Raven - Events",
             "Action": "Include",
-            "FromFile": "data/events/catLover.json, data/events/catAdoption.json, data/events/checkIn.json, data/events/wildClans.json, data/events/cleansingFarmer.json, data/events/cleansingFarmer2.json, data/events/smokeSession.json, data/events/gusEdibles.json, data/events/apartment.json, data/events/jobInterview.json, data/events/marriageTalk.json"
+            "FromFile": "data/CP-Raven/events/catLover.json, data/CP-Raven/events/catAdoption.json, data/CP-Raven/events/checkIn.json, data/CP-Raven/events/wildClans.json, data/CP-Raven/events/cleansingFarmer.json, data/CP-Raven/events/cleansingFarmer2.json, data/CP-Raven/events/smokeSession.json, data/CP-Raven/events/gusEdibles.json, data/CP-Raven/events/apartment.json, data/CP-Raven/events/jobInterview.json, data/CP-Raven/events/marriageTalk.json"
         },
         {
-            "LogName": "content.json: Dialogue",
+            "LogName": "Raven - Dialogue",
             "Action": "Include",
-            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogue.json, data/dialogue/giftResponses.json, data/dialogue/moviesReactions.json, data/StringsFromCSFiles.json, data/dialogue/scheduleDialogue.json"
+            "FromFile": "data/CP-Raven/dialogue/dialogue.json, data/CP-Raven/dialogue/marriageDialogue.json, data/CP-Raven/dialogue/giftResponses.json, data/CP-Raven/dialogue/moviesReactions.json, data/CP-Raven/StringsFromCSFiles.json, data/CP-Raven/dialogue/scheduleDialogue.json"
         },
         {
-            "LogName": "content.json: ModCompat",
+            "LogName": "Raven - ModCompat",
             "Action": "Include",
-            "FromFile": "data/modCompat/naturesBounty.json, data/modCompat/RavenEventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json"
+            "FromFile": "data/CP-Raven/modCompat/naturesBounty.json, data/shared/eventExcludesDELETE.json, data/CP-Raven/modCompat/downtownZuzu.json, data/CP-Raven/modCompat/ridgesideVillage.json, data/CP-Raven/modCompat/pelicanTownPotluck.json, data/CP-Raven/modCompat/fireworksFestival.json, data/CP-Raven/modCompat/solsticeWinterStar.json, data/CP-Raven/modCompat/stardewValleyExpanded.json"
         }
     ]
 }

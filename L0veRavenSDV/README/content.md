@@ -161,7 +161,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 | Name | Value | Meaning |
 | --- | --- | --- |
 |`"Raven"` | `"L0veRaven_Raven"` | Raven's internal name |
-|`"displayName"` | `"{{i18n:DisplayName}}"` | Toggle Raven's sprites and portraits to display only their index number |
+|`"displayName"` | `"{{i18n:Raven_DisplayName}}"` | Toggle Raven's sprites and portraits to display only their index number |
 |`"Nexus"` | `"27407"` | Nexus ID |
 
 <details>
@@ -174,7 +174,7 @@ In my code, I use Dynamic Tokens as a shortcut for repetitive code and to perfor
 },
 {
     "Name": "displayName",
-    "Value": "{{i18n:DisplayName}}",
+    "Value": "{{i18n:Raven_DisplayName}}",
 },
 {
     "Name": "Nexus",
@@ -1170,11 +1170,11 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 | Name | Value |
 | --- | --- |
-| `springFirst` | `{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}` |
-| `summerFirst` | `{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}` |
-| `fallFirst` | `{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}` |
-| `winterFirst` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
-| `firstOfSeason` | `{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}` |
+| `springFirst` | `{{i18n:Raven_spring_first_{{Random:{{Range:1,4}}}}}}` |
+| `summerFirst` | `{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}` |
+| `fallFirst` | `{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}` |
+| `winterFirst` | `{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}` |
+| `Raven_firstOfSeason` | `{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}` |
 
 <details>
     <summary>Expand Code</summary>
@@ -1182,43 +1182,43 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 {
     "Name": "springFirst",
-    "Value": "{{i18n:spring_first_{{Random:{{Range:1,4}}}}}}",
+    "Value": "{{i18n:Raven_spring_first_{{Random:{{Range:1,4}}}}}}",
 },
 {
     "Name": "summerFirst",
-    "Value": "{{i18n:summer_first_{{Random:{{Range:1,4}}}}}}",
+    "Value": "{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}",
 },
 {
     "Name": "fallFirst",
-    "Value": "{{i18n:fall_first_{{Random:{{Range:1,4}}}}}}",
+    "Value": "{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}",
 },
 {
     "Name": "winterFirst",
-    "Value": "{{i18n:winter_first_{{Random:{{Range:1,4}}}}}}",
+    "Value": "{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}",
 },
 {
-    "Name": "firstOfSeason",
+    "Name": "Raven_firstOfSeason",
     "Value": "{{springFirst}}",
     "When": {
         "Season": "spring",
     }
 },
 {
-    "Name": "firstOfSeason",
+    "Name": "Raven_firstOfSeason",
     "Value": "{{summerFirst}}",
     "When": {
         "Season": "summer",
     }
 }, 
 {
-    "Name": "firstOfSeason",
+    "Name": "Raven_firstOfSeason",
     "Value": "{{fallFirst}}",
     "When": {
         "Season": "fall",
     }
 }, 
 {
-    "Name": "firstOfSeason",
+    "Name": "Raven_firstOfSeason",
     "Value": "{{winterFirst}}",
     "When": {
         "Season": "winter",
@@ -1265,9 +1265,9 @@ Egg Festival
     <summary>Expand Code</summary>
      
 ```
-{"Name": "eggFestYest","Value": "{{i18n:eggFestival_yesterday_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "eggFestToday","Value": "{{i18n:eggFestival_today_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "eggFestTomo","Value": "{{i18n:eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "Raven_eggFestival_dayBefore","Value": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",},
+{"Name": "eggFestToday","Value": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "eggFestTomo","Value": "{{i18n:Raven_eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1281,9 +1281,9 @@ Flower Dance
     <summary>Expand Code</summary>
      
 ```
-{"Name": "flowDanYest","Value": "{{i18n:flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "flowDanToday","Value": "{{i18n:flowerDance_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanTomo","Value": "{{i18n:flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanYest","Value": "{{i18n:Raven_flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "flowDanToday","Value": "{{i18n:Raven_flowerDance_today_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanTomo","Value": "{{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1299,9 +1299,9 @@ Luau
     <summary>Expand Code</summary>
      
 ```
-{"Name": "luauYest","Value": "{{i18n:luau_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauToday","Value": "{{i18n:luau_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauTomo","Value": "{{i18n:luau_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauYest","Value": "{{i18n:Raven_luau_yesterday_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauToday","Value": "{{i18n:Raven_luau_today_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauTomo","Value": "{{i18n:Raven_luau_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1331,9 +1331,9 @@ Dance of the Moonlight Jellies
     <summary>Expand Code</summary>
      
 ```
-{"Name": "MooJellYest","Value": "{{i18n:moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "MooJellToday","Value": "{{i18n:moonlightJellies_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "MooJellTomo","Value": "{{i18n:moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellYest","Value": "{{i18n:Raven_moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellToday","Value": "{{i18n:Raven_moonlightJellies_today_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellTomo","Value": "{{i18n:Raven_moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1347,9 +1347,9 @@ Stardew Valley Fair
     <summary>Expand Code</summary>
      
 ```
-{"Name": "FairYest","Value": "{{i18n:stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairToday","Value": "{{i18n:stardewFair_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairTomo","Value": "{{i18n:stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_today_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudging","Value": "{{i18n:Fair_Judging_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudgeSkip","Value": "{{i18n:Fair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudgeLost","Value": "{{i18n:Fair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
@@ -1368,7 +1368,7 @@ Spirit's Eve
     <summary>Expand Code</summary>
      
 ```
-{"Name": "spiritsEveYest","Value": "{{i18n:spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "spiritsEveYest","Value": "{{i18n:Raven_spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "spiritsEveToday","Value": "{{i18n:spiritsEve_today_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "spiritsEveTomo","Value": "{{i18n:spiritsEve_tomorrow_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1592,7 +1592,7 @@ Divorce Dialogue
 ```
 {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}",},
 {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "divorcedRejectMPend","Value": "{{i18n:RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}",},
+{"Name": "divorcedRejectMPend","Value": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1662,7 +1662,7 @@ Strings - Map Objects
 {"Name": "ravenFridge","Value": "{{i18n:Fridge_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "ravenComputer","Value": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "ravenCoatRack","Value": "{{i18n:CoatRack_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "ravenCoatRack","Value": "{{i18n:Raven_CoatRack_{{Random:{{Range:1,7}}}}}}",},
 ```
 </details>
 

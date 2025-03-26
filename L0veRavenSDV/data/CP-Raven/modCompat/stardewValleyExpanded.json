@@ -5,20 +5,20 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "TextOperations": [
-                {// Pre-Egg hunt: Year 1
+                {//Pre-Egg hunt: Year 1
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
                     "Value": "{{Raven}} 38 68 left",
                     "Delimiter": "/",
                 },
-                //ADD{// Pre-Egg hunt: Year 2
+                //ADD{//Pre-Egg hunt: Year 2
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
                     //ADD"Value": "{{Raven}} 38 68 left",
                     //ADD"Delimiter": "/",
                 //ADD},
                 
-                {// Egg hunt
+                {//Egg hunt
                 "Operation": "Append",
                     "Target": ["Entries", "MainEvent_additionalCharacters"],
                     "Value": "{{Raven}} 38 68 left",

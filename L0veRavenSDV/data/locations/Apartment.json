@@ -82,7 +82,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Dialogue {{i18n:CoatRack}}"
+                        "Action": "Dialogue {{i18n:Raven_CoatRack}}"
                     }
                 }
             ],

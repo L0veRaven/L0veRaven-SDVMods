@@ -201,7 +201,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "AcceptGift_(O)746": "{{i18n:AcceptGift_JackOLantern_Fall}}"// Jack-O-Lantern
+                "AcceptGift_(O)746": "{{i18n:AcceptGift_JackOLantern_Fall}}"//Jack-O-Lantern
             },
             "When": {
                 "Season": "fall"

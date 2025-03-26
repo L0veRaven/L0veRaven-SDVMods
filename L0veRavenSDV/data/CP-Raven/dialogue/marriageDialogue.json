@@ -5,15 +5,15 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/MarriageDialogue{{Raven}}",
             "Entries": {
-                // Seasons
+                //Seasons
                 "Spring_{{Raven}}": "{{marriedGenSpring}}",
                 "Summer_{{Raven}}": "{{marriedGenSummer}}",
                 "Fall_{{Raven}}": "{{marriedGenFall}}",
                 "Winter_{{Raven}}": "{{marriedGenWinter}}",
-                // Spouse Areas
+                //Spouse Areas
                 "spouseRoom_{{Raven}}": "{{inSpouseRoom}}",
                 "patio_{{Raven}}": "{{onSpousePatio}}",
-                // Rainy
+                //Rainy
                 "Rainy_Day_{{Raven}}": "{{marRainDay}}",
                 "Rainy_Day_0": "{{marRainDay}}",
                 "Rainy_Day_1": "{{marRainDay}}",
@@ -29,7 +29,7 @@
                 "Rainy_Night_3": "{{marRainNight}}",
                 "Rainy_Night_4": "{{marRainNight}}",
                 "Rainy_Night_5": "{{marRainNight}}",
-                // Indoor
+                //Indoor
                 "Indoor_Day_{{Raven}}": "{{marIndDay}}",
                 "Indoor_Day_0": "{{marIndDay}}",
                 "Indoor_Day_1": "{{marIndDay}}",
@@ -45,29 +45,29 @@
                 "Indoor_Night_3": "{{marIndNight}}",
                 "Indoor_Night_4": "{{marIndNight}}",
                 "Indoor_Night_5": "{{marIndNight}}",
-                // Fun
+                //Fun
                 "funLeave_{{Raven}}": "{{i18n:funLeave_Raven}}",
                 "funReturn_{{Raven}}": "{{i18n:funReturn_Raven}}",
-                // Outdoor
+                //Outdoor
                 "Outdoor_{{Raven}}": "{{marOutdoor}}",
                 "Outdoor_0": "{{marOutdoor}}",
                 "Outdoor_1": "{{marOutdoor}}",
                 "Outdoor_2": "{{marOutdoor}}",
                 "Outdoor_3": "{{marOutdoor}}",
                 "Outdoor_4": "{{marOutdoor}}",
-                // One Kid
+                //One Kid
                 "OneKid_0": "{{marOneKid}}",
                 "OneKid_1": "{{marOneKid}}",
                 "OneKid_2": "{{marOneKid}}",
                 "OneKid_3": "{{marOneKid}}",
                 "OneKid_4": "{{marOneKid}}",
-                // Two Kids
+                //Two Kids
                 "TwoKids_0": "{{marTwoKids}}",
                 "TwoKids_1": "{{marTwoKids}}",
                 "TwoKids_2": "{{marTwoKids}}",
                 "TwoKids_3": "{{marTwoKids}}",
                 "TwoKids_4": "{{marTwoKids}}",
-                // Good
+                //Good
                 "Good_0": "{{marGood}}",
                 "Good_1": "{{marGood}}",
                 "Good_2": "{{marGood}}",
@@ -78,7 +78,7 @@
                 "Good_7": "{{marGood}}",
                 "Good_8": "{{marGood}}",
                 "Good_9": "{{marGood}}",
-                // Neutral
+                //Neutral
                 "Neutral_0": "{{marNeutral}}",
                 "Neutral_1": "{{marNeutral}}",
                 "Neutral_2": "{{marNeutral}}",
@@ -89,7 +89,7 @@
                 "Neutral_7": "{{marNeutral}}",
                 "Neutral_8": "{{marNeutral}}",
                 "Neutral_9": "{{marNeutral}}",
-                // Bad
+                //Bad
                 "Bad_0": "{{marBad}}",
                 "Bad_1": "{{marBad}}",
                 "Bad_2": "{{marBad}}",
@@ -100,7 +100,7 @@
                 "Bad_7": "{{marBad}}",
                 "Bad_8": "{{marBad}}",
                 "Bad_9": "{{marBad}}",
-                // No Bed
+                //No Bed
                 "NoBed_0": "{{marNoBed}}",
                 "NoBed_1": "{{marNoBed}}",
                 "NoBed_2": "{{marNoBed}}",

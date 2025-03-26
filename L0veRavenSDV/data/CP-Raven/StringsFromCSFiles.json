@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "MapPage.cs.{{Nexus}}001": "{{i18n:RavensTent_NameHover}}"
+                "MapPage.cs.{{Nexus}}001": "{{i18n:Ravens_Tent_NameHover}}"
             }
         },
         {
@@ -13,7 +13,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "Game1.cs.2782": "{{i18n:AfterWedding}}"
+                "Game1.cs.2782": "{{i18n:Raven_AfterWedding}}"
             },
             "When": {
                 "Spouse": "{{Raven}}"
@@ -35,7 +35,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "NPC.cs.3980": "{{i18n:Engaged}}"
+                "NPC.cs.3980": "{{i18n:Raven_Engaged}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating"

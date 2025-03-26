@@ -1,28 +1,28 @@
 {
     "Changes": [
-        //{{firstOfSeason}}
+        //{{Raven_firstOfSeason}}
         {
-            "LogName": "firstOfSeason - Year 1",
+            "LogName": "Raven_firstOfSeason - Year 1",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "summer_1": "{{firstOfSeason}}",
-                "fall_1": "{{firstOfSeason}}",
-                "winter_1": "{{firstOfSeason}}"
+                "summer_1": "{{Raven_firstOfSeason}}",
+                "fall_1": "{{Raven_firstOfSeason}}",
+                "winter_1": "{{Raven_firstOfSeason}}"
             },
             "When": {
                 "Year": "1"
             }
         },
         {
-            "LogName": "firstOfSeason - Year 2",
+            "LogName": "Raven_firstOfSeason - Year 2",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "spring_1": "{{firstOfSeason}}",
-                "summer_1": "{{firstOfSeason}}",
-                "fall_1": "{{firstOfSeason}}",
-                "winter_1": "{{firstOfSeason}}"
+                "spring_1": "{{Raven_firstOfSeason}}",
+                "summer_1": "{{Raven_firstOfSeason}}",
+                "fall_1": "{{Raven_firstOfSeason}}",
+                "winter_1": "{{Raven_firstOfSeason}}"
             },
             "When": {
                 "Year": "2"
@@ -47,7 +47,7 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Egg Festival
-                "spring_12": "{{eggFestYest}}",
+                "spring_12": "{{Raven_eggFestival_dayBefore}}",
                 "spring_13": "{{eggFestToday}}",
                 "spring_14": "{{eggFestTomo}}",
                 //Flower Dance
@@ -600,8 +600,8 @@
             "Action": "EditData",
             "Target": "data/EngagementDialogue",
             "Entries": {
-                "{{Raven}}0": "{{i18n:Engagement_0}}",
-                "{{Raven}}1": "{{i18n:Engagement_1}}"
+                "{{Raven}}0": "{{i18n:Raven_Engagement_0}}",
+                "{{Raven}}1": "{{i18n:Raven_Engagement_1}}"
             }
         },
         //Marriage Topics
@@ -611,20 +611,20 @@
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
                 //Proposal->Wedding
-                "{{Raven}}_Engaged": "{{i18n:Engaged}}",//Gifted pendant
+                "{{Raven}}_Engaged": "{{i18n:Raven_Engaged}}",//Gifted pendant
                 //Household Dialogue
-                "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
-                "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
-                "SpouseGiftJealous": "{{i18n:SpouseGiftJealous}}",
-                "SpouseStardrop": "{{i18n:SpouseStardrop}}",
+                "SpouseFarmhouseClutter": "{{i18n:Raven_SpouseFarmhouseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:Raven_Spouse_MonstersInHouse}}",
+                "SpouseGiftJealous": "{{i18n:Raven_SpouseGiftJealous}}",
+                "SpouseStardrop": "{{i18n:Raven_SpouseStardrop}}",
                 //Mermaid Pendant
                 "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
-                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade}}",
-                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse}}",
-                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
-                "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
-                "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}"
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Raven_RejectMermaidPendant_NeedHouseUpgrade}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:Raven_RejectMermaidPendant_Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:Raven_RejectMermaidPendant_Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Raven_RejectMermaidPendant_Under10Hearts_AskedAgain}}"
             }
         },
         //Summit Dialogue
@@ -633,7 +633,7 @@
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
-                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Summit_2}}\""
+                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Raven_Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Raven_Summit_2}}\""
             }
         }
     ]

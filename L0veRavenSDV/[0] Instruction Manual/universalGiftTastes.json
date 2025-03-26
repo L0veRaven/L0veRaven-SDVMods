@@ -1,16 +1,16 @@
 {
-// =====================
-// || Universal: Love ||
-// =====================
+//=====================
+//Universal: Love
+//=====================
 "74": "Prismatic Shard",
 "279": "Magic Rock Candy",
 "373": "Golden Pumpkin",
 "446": "Rabbit's Foot",
 "797": "Pearl",
     
-// ======================
-// || Universal: Like ||
-// =====================
+//======================
+//Universal: Like
+//=====================
 "-2": "Gems",
     "60": "Emerald",
     "62": "Aquamarine",
@@ -158,13 +158,13 @@
 "724": "Maple Syrup",
 "873": "Piña Colada",
     
-// ============================
-// || Universal: Hate - NONE ||
-// ============================
+//============================
+//Universal: Hate - NONE
+//============================
     
-// ========================
-// || Universal: Dislike ||
-// ========================
+//========================
+//Universal: Dislike
+//========================
 "-4": "Fish",
     "128": "Pufferfish",
     "129": "Anchovy",
@@ -236,7 +236,7 @@
     "323": "Stone Fence",
     "324": "Iron Fence",
     "325": "Gate",
-    "326": "Dwarvish Translation Guide", // Non-Giftable
+    "326": "Dwarvish Translation Guide", //Non-Giftable
     "599": "Sprinkler",
     "621": "Quality Sprinkler",
     "645": "Iridium Sprinkler",
@@ -329,7 +329,7 @@
     "409": "Crystal Path",
     "411": "Cobblestone Path",
     "415": "Stepping Stone Path",
-"-25": "?", // No Items
+"-25": "?", //No Items
 "-28": "Monster Loot",
     "684": "Bug Meat",
     "766": "Slime",
@@ -418,9 +418,9 @@
 "726": "Pine Tar",
 "749": "Omni Geode",
 "Book_PriceCatalogue": "Price Catalogue",
-// ========================
-// || Universal: Neutral ||
-// ========================
+//========================
+//Universal: Neutral
+//========================
 "book_item": "Books (except Price Catalogue)",
     "SkillBook_0": "Stardew Valley Almanac",
     "SkillBook_1": "Bait And Bobber",

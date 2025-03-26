@@ -67,9 +67,9 @@
             "Target": "Data/Quests",
             "Entries": {
                 //A Stoner's Request
-                "{{Nexus}}00004": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00005/0/-1/false/{{i18n:AStonersRequest_giftResponse}}",
+                "{{Nexus}}00004": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:Raven_AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00005/0/-1/false/{{i18n:Raven_AStonersRequest_giftResponse}}",
                 //Smoke Session
-                "{{Nexus}}00005": "Location/{{i18n:SmokeSession_headline}}/{{i18n:SmokeSession_summary}}/{{i18n:SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
+                "{{Nexus}}00005": "Location/{{i18n:Raven_SmokeSession_headline}}/{{i18n:Raven_SmokeSession_summary}}/{{i18n:Raven_SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
             },
         },
     ]

@@ -1,5 +1,5 @@
 {//Modding:Dialogue#Conversation_topics
-// Conversation topics
+//Conversation topics
     //Temporary flag
         //Can be used as event precondition and game state queries
         //Lasts 4 days by default (can be changed)
