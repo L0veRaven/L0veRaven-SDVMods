@@ -68,10 +68,10 @@ The config does not interact with other mods, so all tokens can be written writt
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
 | (ADD) `VampireCostumeSE` | `true` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear vampire costume for Spirit's Eve |
-| `CactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
-| `DaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
-| `SunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
-| `WeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
+| `RavenCactusCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear cactus costume for Spirit's Eve |
+| `RavenDaisyCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear daisy costume for Spirit's Eve |
+| `RavenSunflowerCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear sunflower costume for Spirit's Eve |
+| `RavenWeedCostumeSE` | `false` | `true, false` | `false` | `SpiritsEveCostumes` | `null` | Wear weed costume for Spirit's Eve |
 
 <details>
     <summary>Expand Code</summary>
@@ -84,28 +84,28 @@ The config does not interact with other mods, so all tokens can be written writt
     "Section": "SpiritsEveCostumes",
     "Description": null,
 },
-"CactusCostumeSE": {
+"RavenCactusCostumeSE": {
     "Default": "false",
     "AllowValues": "true, false",
     "AllowBlank": false,
     "Section": "SpiritsEveCostumes",
     "Description": null,
 },
-"DaisyCostumeSE": {
+"RavenDaisyCostumeSE": {
     "Default": "false",
     "AllowValues": "true, false",
     "AllowBlank": false,
     "Section": "SpiritsEveCostumes",
     "Description": null,
 },
-"SunflowerCostumeSE": {
+"RavenSunflowerCostumeSE": {
     "Default": "false",
     "AllowValues": "true, false",
     "AllowBlank": false,
     "Section": "SpiritsEveCostumes",
     "Description": null,
 },
-"WeedCostumeSE": {
+"RavenWeedCostumeSE": {
     "Default": "false",
     "AllowValues": "true, false",
     "AllowBlank": false,
@@ -120,7 +120,7 @@ The config does not interact with other mods, so all tokens can be written writt
 | Name | Default | AllowValues | AllowBlank | Section | Description | Meaning |
 | --- | --- | --- | --- | --- | --- | --- |
 | `RavenIndex` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Raven's sprites and portraits show index numbers instead |
-| `EventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
+| `RavenEventExcludes` | `false` | `true, false` | `false` | `ModderSettings` | `null` | Exclude other NPCs from participating in the Flower Dance and Winter Star |
 
 <details>
     <summary>Expand Code</summary>
@@ -133,7 +133,7 @@ The config does not interact with other mods, so all tokens can be written writt
     "Section": "ModderSettings",
     "Description": null,
 },
-"EventExcludes": {
+"RavenEventExcludes": {
     "Default": "false",
     "AllowValues": "true, false",
     "AllowBlank": false,
@@ -2404,7 +2404,7 @@ There is where I put my `Load`s and `Include`s. The order they load in is very i
 | `Spouse Patio` | `Load` | `Maps/{{Raven}}SpousePatio` | `data/maps/{{Raven}}SpousePatio.tmx` | Loads map |
 | `NPC Data` | `Include` |  | `data/animationFrames.json`, `data/concessionTastes.json`, `data/NPCGiftTastes.json`, `data/schedule.json`, `data/events.json`, `data/festivals.json`, `data/mail.json`, `data/character.json`, `data/outfits.json`, `data/home.json`, `data/winterStarGifts.json`, `data/triggerActions.json` | Includes files required for NPC Data. |
 | `Dialogue` | `Include` |  | `data/dialogue/dialogue.json`, `data/dialogue/marriageDialogue.json`, `data/dialogue/giftResponses.json`, `data/dialogue/moviesReactions.json`, `data/StringsFromCSFiles.json`, `data/dialogue/scheduleDialogue.json` | Includes files required for dialogue. |
-| `ModCompat` | `Include` |  | `data/modCompat/CJBWarps.json`, `data/modCompat/naturesBounty.json`, `data/modCompat/eventExcludesDELETE.json`, `data/modCompat/downtownZuzu.json`, `data/modCompat/ridgesideVillage.json`, `data/modCompat/pelicanTownPotluck.json`, `data/modCompat/fireworksFestival.json`, `data/modCompat/solsticeWinterStar.json`, `data/modCompat/stardewValleyExpanded.json` | Includes files required for certain mod compatability. |
+| `ModCompat` | `Include` |  | `data/modCompat/CJBWarps.json`, `data/modCompat/naturesBounty.json`, `data/modCompat/RavenEventExcludesDELETE.json`, `data/modCompat/downtownZuzu.json`, `data/modCompat/ridgesideVillage.json`, `data/modCompat/pelicanTownPotluck.json`, `data/modCompat/fireworksFestival.json`, `data/modCompat/solsticeWinterStar.json`, `data/modCompat/stardewValleyExpanded.json` | Includes files required for certain mod compatability. |
     
 <details>
     <summary>Expand Code</summary>
@@ -2446,7 +2446,7 @@ There is where I put my `Load`s and `Include`s. The order they load in is very i
 {
     "LogName": "content.json: ModCompat",
     "Action": "Include",
-    "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/eventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json",
+    "FromFile": "data/modCompat/CJBWarps.json, data/modCompat/naturesBounty.json, data/modCompat/RavenEventExcludesDELETE.json, data/modCompat/downtownZuzu.json, data/modCompat/ridgesideVillage.json, data/modCompat/pelicanTownPotluck.json, data/modCompat/fireworksFestival.json, data/modCompat/solsticeWinterStar.json, data/modCompat/stardewValleyExpanded.json",
 },
 ```
 </details>

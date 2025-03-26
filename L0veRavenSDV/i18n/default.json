@@ -15,48 +15,52 @@
     // || Generic Mod Config Menu -> config.<name>.values.<value> for dropdown options ||
     // ==================================================================================
     
+    "config.title.GeneralSettings.name": "General Settings",
+    "config.title.GeneralSettings.description": "Settings that affect multiple aspects of the mod.",
+        // || Clean Language ||
+            "config.CleanLanguage.name": "Clean Language",
+            "config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
+    
     // || Raven Settings ||
     "config.section.RavenSettings.name": "Raven's Settings",
     "config.section.RavenSettings.description": "Customize your experience with Raven.",
-        // || Raven Clean ||
-    //ADD"config.CleanLanguage.name": "Clean Language",
-    //ADD"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
+
     // || Spirit's Eve Costumes ||
-    "config.section.SpiritsEveCostumes.name": "Spirit's Eve Costumes",
+    "config.section.SpiritsEveCostumes.name": "Raven's Spirit's Eve Costumes",
     "config.section.SpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
         // || Vampire ||
-    //"config.VampireCostumeSE.name": "Vampire",
-    //"config.VampireCostumeSE.description": "Raven wears a vampire costume.",
+            //"config.VampireCostumeSE.name": "Vampire",
+            //"config.VampireCostumeSE.description": "Raven wears a vampire costume.",
         // || Sunflower ||
-    "config.section.SpiritsEveCostumes.name": "Spirit's Eve Costumes",
-    "config.section.SpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
+            "config.SunflowerCostumeSE.name": "Spirit's Eve Costumes",
+            "config.SunflowerCostumeSE.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
         // || Cactus ||
-    "config.CactusCostumeSE.name": "Cactus",
-    "config.CactusCostumeSE.description": "Raven wears a cactus costume.",
+            "config.CactusCostumeSE.name": "Cactus",
+            "config.CactusCostumeSE.description": "Raven wears a cactus costume.",
         // || Daisy ||
-    "config.DaisyCostumeSE.name": "Daisy",
-    "config.DaisyCostumeSE.description": "Raven wears a daisy costume.",
+                "config.DaisyCostumeSE.name": "Daisy",
+                "config.DaisyCostumeSE.description": "Raven wears a daisy costume.",
         // || Weed ||
-    "config.WeedCostumeSE.name": "Weed",
-    "config.WeedCostumeSE.description": "Raven wears a weed costume. Celebrate 4-20 any day",
-    // || Raven Nude ||
-    "config.RavenNude.name": "Nude",
-    "config.RavenNude.description": "Makes Raven naked. Featuring top surgery scars!",
+            "config.WeedCostumeSE.name": "Weed",
+            "config.WeedCostumeSE.description": "Raven wears a weed costume. Celebrate 4-20 any day",
+        // || Raven Nude ||
+            "config.RavenNude.name": "Nude",
+            "config.RavenNude.description": "Makes Raven naked. Featuring top surgery scars!",
     // || Mod Settings ||
     "config.section.ModderSettings.name": "Modder's Settings",
     "config.section.ModderSettings.description": "Setting to help with the modding proccess.",
         // || Index ||
-    "config.RavenIndex.name": "Appearance - Index",
-    "config.RavenIndex.description": "Only shows the index numbers for Raven's portraits and sprites.",
+            "config.RavenIndex.name": "Appearance - Index",
+            "config.RavenIndex.description": "Only shows the index numbers for Raven's portraits and sprites.",
         // || Event Excludes ||
-    "config.EventExcludes.name": "Event Excludes",
-    "config.EventExcludes.description": "Raven is the only one you can interact with for festivals.",
+            "config.EventExcludes.name": "Event Excludes",
+            "config.EventExcludes.description": "Raven is the only one you can interact with for festivals.",
     
     // ====================
     // || Character Name ||
     // ====================
     
-    "DisplayName": "Raven",
+    "RavenDisplayName": "Raven",
     "RavensTent": "Raven's Tent",
     
     // ===================
@@ -186,7 +190,7 @@
     "iceFestival_tomorrow_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
     "iceFestival_tomorrow_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
     // || Meds ||
-        // || {{medsDialogue}} -> {{i18n: medsDialogue_{{Random:{{Range:1,_}}}}}} ||
+        // || {{RavenMedsDialogue}} -> {{i18n: medsDialogue_{{Random:{{Range:1,_}}}}}} ||
     "medsDialogue_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
     "medsDialogue_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
     // || Birthday & Checkup ||

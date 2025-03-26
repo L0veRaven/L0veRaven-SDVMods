@@ -1,9 +1,9 @@
 {
-    "Name": "(CP) Raven",
+    "Name": "L0veRaven's Stardew Valley",
     "Author": "L0veRaven",
-    "Description": "Adds a neko NPC",
+    "Description": "Adds a neko NPC, vampire NPC, and unlockable cafe.",
     "Version": "1.0.0",
-    "UniqueID": "L0veRaven.Raven",
+    "UniqueID": "L0veRaven.SDV",
     "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
     "Dependencies": [
@@ -12,7 +12,6 @@
         {"UniqueID": "DTZ.DowntownZuzuCP","IsRequired": "false"},
         {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
         {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"},
-        {"UniqueID": "L0veRaven.CoreCP","IsRequired": "true"},
         {"UniqueID": "LenneDalben.PelicanTownPotluck","IsRequired": "false"},
         {"UniqueID": "Rafseazz.RSVCP","IsRequired": "false"},
         {"UniqueID": "Raspb3rryfields.NaturesBounty","IsRequired": "false"},

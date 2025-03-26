@@ -287,12 +287,12 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | {{CleanLanguage}} | i18n #NS (all keys prefixed with "clean_") |
 | {{RavenNude}} | #C |
 | {{VampireCostumeSE}} | #NS |
-| {{CactusCostumeSE}} | #T |
-| {{DaisyCostumeSE}} | #T |
-| {{SunflowerCostumeSE}} | #T |
-| {{WeedCostumeSE}} | #T |
+| {{RavenCactusCostumeSE}} | #T |
+| {{RavenDaisyCostumeSE}} | #T |
+| {{RavenSunflowerCostumeSE}} | #T |
+| {{RavenWeedCostumeSE}} | #T |
 | {{RavenIndex}} | ###Delete |
-| {{EventExcludes}} | ###Delete |
+| {{RavenEventExcludes}} | ###Delete |
 
 | content.json: CustomLocations | Notes |
 | ------------- | ------------- |
@@ -306,7 +306,7 @@ GENERAL - FOCUS ON VANILLA MECHANICS FIRST
 | Spouse Room | ```data/maps/{{Raven}}SpouseRoom.tmx``` |
 | NPC Data | ```data/animationFrames.json```, ```data/concessionTastes.json```, ```data/NPCGiftTastes.json```, ```data/schedule.json```, ```data/events.json```, ```data/festivals.json```, ```data/mail.json```, ```data/character.json```, ```data/outfits.json```, ```data/home.json```, ```data/winterStarGifts.json```, ```data/triggerActions.json``` |
 | Dialogue | ```data/dialogue/dialogue.json```, ```data/dialogue/marriageDialogue.json```, ```data/dialogue/giftResponses.json```, ```data/dialogue/moviesReactions.json```, ```data/StringsFromCSFiles.json```, ```data/maps/StringsFromMaps.json```, ```data/dialogue/scheduleDialogue.json``` |
-| ModCompat | ```data/modCompat/CJBWarps.json```, ```data/modCompat/naturesBounty.json```, ```data/modCompat/eventExcludesDELETE.json```, ```data/modCompat/downtownZuzu.json```, ```data/modCompat/ridgesideVillage.json```, ```data/modCompat/pelicanTownPotluck.json```, ```data/modCompat/fireworksFestival.json```, ```data/modCompat/solsticeWinterStar.json```, ```data/modCompat/stardewValleyExpanded.json``` |
+| ModCompat | ```data/modCompat/CJBWarps.json```, ```data/modCompat/naturesBounty.json```, ```data/modCompat/RavenEventExcludesDELETE.json```, ```data/modCompat/downtownZuzu.json```, ```data/modCompat/ridgesideVillage.json```, ```data/modCompat/pelicanTownPotluck.json```, ```data/modCompat/fireworksFestival.json```, ```data/modCompat/solsticeWinterStar.json```, ```data/modCompat/stardewValleyExpanded.json``` |
 
 | manifest.json | Notes |
 | ------------- | ------------- |

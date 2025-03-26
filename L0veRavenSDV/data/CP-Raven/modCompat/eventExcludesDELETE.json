@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "eventExcludesDELETE.json - Winter Star (SDVE)",
+            "LogName": "RavenEventExcludesDELETE.json - Winter Star (SDVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -42,7 +42,7 @@
             },
         },
         {
-            "LogName": "eventExcludesDELETE.json - Winter Star (SVE)",
+            "LogName": "RavenEventExcludesDELETE.json - Winter Star (SVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -57,7 +57,7 @@
             }
         },
         {
-            "LogName": "eventExcludesDELETE.json - Winter Star (RSV)",
+            "LogName": "RavenEventExcludesDELETE.json - Winter Star (RSV)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -113,7 +113,7 @@
             }
         },
         {
-            "LogName": "eventExcludesDELETE.json - Flower Dance",
+            "LogName": "RavenEventExcludesDELETE.json - Flower Dance",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -154,7 +154,7 @@
             },
         },
         {
-            "LogName": "eventExcludesDELETE.json - Flower Dance (SVE)",
+            "LogName": "RavenEventExcludesDELETE.json - Flower Dance (SVE)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {
@@ -169,7 +169,7 @@
             }
         },
         {
-            "LogName": "eventExcludesDELETE.json - Flower Dance (RSV)",
+            "LogName": "RavenEventExcludesDELETE.json - Flower Dance (RSV)",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Fields": {

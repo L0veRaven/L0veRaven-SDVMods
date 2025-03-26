@@ -122,7 +122,7 @@
             "Entries": {
                 "{{Raven}}.Sunflower": {
                     "Id": "{{Raven}}.Sunflower",
-                    "Condition": "IS_EVENT festival_fall27, {{SunflowerCostumeSE |contains = true}}",
+                    "Condition": "IS_EVENT festival_fall27, {{RavenSunflowerCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Sunflower",
                     "Portrait": "Portraits/{{Raven}}Sunflower",
                     "IsIslandAttire": false,
@@ -139,7 +139,7 @@
             "Entries": {
                 "{{Raven}}.Daisy": {
                     "Id": "{{Raven}}.Daisy",
-                    "Condition": "IS_EVENT festival_fall27, {{DaisyCostumeSE |contains = true}}",
+                    "Condition": "IS_EVENT festival_fall27, {{RavenDaisyCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Daisy",
                     "Portrait": "Portraits/{{Raven}}Daisy",
                     "IsIslandAttire": false,
@@ -156,7 +156,7 @@
             "Entries": {
                 "{{Raven}}.Cactus": {
                     "Id": "{{Raven}}.Cactus",
-                    "Condition": "IS_EVENT festival_fall27, {{CactusCostumeSE |contains = true}}",
+                    "Condition": "IS_EVENT festival_fall27, {{RavenCactusCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Cactus",
                     "Portrait": "Portraits/{{Raven}}Cactus",
                     "IsIslandAttire": false,
@@ -173,7 +173,7 @@
             "Entries": {
                 "{{Raven}}.Weed": {
                     "Id": "{{Raven}}.Weed",
-                    "Condition": "IS_EVENT festival_fall27, {{WeedCostumeSE |contains = true}}",
+                    "Condition": "IS_EVENT festival_fall27, {{RavenWeedCostumeSE |contains = true}}",
                     "Sprite": "Characters/{{Raven}}Weed",
                     "Portrait": "Portraits/{{Raven}}Weed",
                     "IsIslandAttire": false,

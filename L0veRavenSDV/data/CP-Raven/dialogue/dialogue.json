@@ -28,13 +28,13 @@
                 "Year": "2"
             }
         },
-        //{{medsDialogue}}
+        //{{RavenMedsDialogue}}
         {
             "LogName": "dialogue.json: Birthday Doctor Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Thu": "{{medsDialogue}}"
+                "Thu": "{{RavenMedsDialogue}}"
             },
             "When": {
                 "Query: '{{Day}}' = '18'": "true"
