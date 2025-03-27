@@ -85,146 +85,144 @@
                         "Raven_eggFestival_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I would help set up the festival but I usually just end up getting in the way.$11#$b#It's more effort for people to explain how to get things done to me. It's better if I just stay off to the side during the setup.$12",
                         "Raven_eggFestival_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Imagine if people gave gifts during the Egg Festival!$1#$e#Would the gift theme just be anything related to eggs? Now I gotta think about it.$17",
                         "Raven_eggFestival_dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Are you gonna come to the Egg Festival today? It'd be awesome if you joined us!$1#$b#I completely understand if you're too busy though.",
-                    //token:{{eggFestTomo}} -> {{i18n:Raven_eggFestival_tomorrow_{{Random:{{Range:1,_}}}}}}
-                    //## TODO: CTRL+H
-                        "Raven_eggFestival_tomorrow_1": "The Egg festival was a ton of fun! I hope you managed to take a plate of food home with you.$1#$e#",
-                        "Raven_eggFestival_tomorrow_2": "Those deviled eggs were so good! I gotta try to convince Gus to sell them at the Saloon.$1#$e#He might need an egg supplier for that though.$17",
-                        "Raven_eggFestival_tomorrow_3": "The festival was pretty exhausting yesterday.$2#$e#I think I just got overwhelmed by being around people for so long.$11#$b#I actually have a limited social battery. I know it's pretty strange for someone like me.$11",
-                        "Raven_eggFestival_tomorrow_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-                        "Raven_eggFestival_tomorrow_5": "I think I used my legs way too much yesterday! My legs are hurting so bad right now.$2#$e#I'll definitely need to take it easy today.$11",
+                    //token:{{eggFestTomo}} -> {{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_eggFestival_dayAfter_1": "The Egg festival was a ton of fun! I hope you managed to take a plate of food home with you.$1#$e#",
+                        "Raven_eggFestival_dayAfter_2": "Those deviled eggs were so good! I gotta try to convince Gus to sell them at the Saloon.$1#$e#He might need an egg supplier for that though.$17",
+                        "Raven_eggFestival_dayAfter_3": "The festival was pretty exhausting yesterday.$2#$e#I think I just got overwhelmed by being around people for so long.$11#$b#I actually have a limited social battery. I know it's pretty strange for someone like me.$11",
+                        "Raven_eggFestival_dayAfter_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                        "Raven_eggFestival_dayAfter_5": "I think I used my legs way too much yesterday! My legs are hurting so bad right now.$2#$e#I'll definitely need to take it easy today.$11",
                 //bullet:Flower Dance
-                    //token:{{flowDanYest}} -> {{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_flowerDance_yesterday_1": "No one has asked me to the Flower Dance but I still practice every year just in case.$1",
-                        "Raven_flowerDance_yesterday_2": "Some people find the Flower Dance to be romantic so asking someone to dance is similar to asking them on a date.#$e#I don't think like that though.$1#$b#If you wanna dance with the homie then dance with the homie!$1",
-                        "Raven_flowerDance_yesterday_3": "I wanna fast-forward time so the Flower Dance can start finally!$3#$e#I wanna see a performance, not stand here all day.$17",
-                        "Raven_flowerDance_yesterday_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Flower Dance.$11",
-                        "Raven_flowerDance_yesterday_5": "How cool would it be if someone had their wedding during the Flower Dance?$6#$e#I feel like it would be super symbolic and romantic.$4",
-                    //token:{{flowDanToday}} -> {{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_flowerDance_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I can't wait to see the Flower Dance this year! Everyone dances so well.$3",
-                        "Raven_flowerDance_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if anyone will ask to dance with me this year.$1#$b#It probably won't happen. I don't talk to people enough for that to happen.$11",
-                        "Raven_flowerDance_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I bet the food at the Flower Dance is gonna taste good! Gus never lets us down when it comes to catering.$1",
-                        "Raven_flowerDance_today_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder what I'm gonna wear to the Flower Dance today...$16",
-                    //token:{{flowDanTomo}} -> {{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_flowerDance_tomorrow_1": "I'm pretty tired from the dance yesterday, but it was so much fun!$1",
-                        "Raven_flowerDance_tomorrow_2": "I wonder who came up with the flower dance in the first place.$17#$b#The movements are very graceful.$1",
-                        "Raven_flowerDance_tomorrow_3": "I wonder how many people are exhausted from the Flower Dance.$17#$b#I always get curious about that kind of thing.",
+                    //token:{{flowDanYest}} -> {{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_flowerDance_dayBefore_1": "No one has asked me to the Flower Dance but I still practice every year just in case.$1",
+                        "Raven_flowerDance_dayBefore_2": "Some people find the Flower Dance to be romantic so asking someone to dance is similar to asking them on a date.#$e#I don't think like that though.$1#$b#If you wanna dance with the homie then dance with the homie!$1",
+                        "Raven_flowerDance_dayBefore_3": "I wanna fast-forward time so the Flower Dance can start finally!$3#$e#I wanna see a performance, not stand here all day.$17",
+                        "Raven_flowerDance_dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Flower Dance.$11",
+                        "Raven_flowerDance_dayBefore_5": "How cool would it be if someone had their wedding during the Flower Dance?$6#$e#I feel like it would be super symbolic and romantic.$4",
+                    //token:{{flowDanToday}} -> {{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_flowerDance_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I can't wait to see the Flower Dance this year! Everyone dances so well.$3",
+                        "Raven_flowerDance_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if anyone will ask to dance with me this year.$1#$b#It probably won't happen. I don't talk to people enough for that to happen.$11",
+                        "Raven_flowerDance_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I bet the food at the Flower Dance is gonna taste good! Gus never lets us down when it comes to catering.$1",
+                        "Raven_flowerDance_dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder what I'm gonna wear to the Flower Dance today...$16",
+                    //token:{{flowDanTomo}} -> {{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_flowerDance_dayAfter_1": "I'm pretty tired from the dance yesterday, but it was so much fun!$1",
+                        "Raven_flowerDance_dayAfter_2": "I wonder who came up with the flower dance in the first place.$17#$b#The movements are very graceful.$1",
+                        "Raven_flowerDance_dayAfter_3": "I wonder how many people are exhausted from the Flower Dance.$17#$b#I always get curious about that kind of thing.",
                 //bullet:Luau
-                    //token:{{luauYest}} -> {{i18n:Raven_luau_yesterday_{{Random:{{Range:1,_}}}}}}
-                        "Raven_luau_yesterday_1": "I wonder what everyone's bringing the Luau tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
-                        "Raven_luau_yesterday_2": "Hopefully it's not too hot this year at the Luau.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
-                        "Raven_luau_yesterday_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Luau.$11",
-                    //token:{{luauToday}} -> {{i18n:Raven_luau_today_{{Random:{{Range:1,_}}}}}}
-                        "Raven_luau_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the Luau before I get there. When I see that food... it's on SIGHT.$1",
-                        "Raven_luau_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if the governor is gonna like the soup at the Luau this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
-                        "Raven_luau_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#It's kinda weird to have the governor come by for the Luau every year.$17#$b#I dunno... It just seems odd.$17",
-                    //token:{{luauTomo}} -> {{i18n:Raven_luau_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_luau_tomorrow_1": "Ugh... I'm nauseous... I ate too much food at the Luau.$2#$e#I should've listened to Gus when he told me to slow down.$12",
-                        "Raven_luau_tomorrow_2": "The food was absolutely amazing at the Luau yesterday!$1#$e#I wish there was leftovers.$2",
-                        "Raven_luau_tomorrow_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
+                    //token:{{luauYest}} -> {{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,_}}}}}}
+                        "Raven_luau_dayBefore_1": "I wonder what everyone's bringing the Luau tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+                        "Raven_luau_dayBefore_2": "Hopefully it's not too hot this year at the Luau.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+                        "Raven_luau_dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Luau.$11",
+                    //token:{{luauToday}} -> {{i18n:Raven_luau_dayOf_{{Random:{{Range:1,_}}}}}}
+                        "Raven_luau_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the Luau before I get there. When I see that food... it's on SIGHT.$1",
+                        "Raven_luau_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if the governor is gonna like the soup at the Luau this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+                        "Raven_luau_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#It's kinda weird to have the governor come by for the Luau every year.$17#$b#I dunno... It just seems odd.$17",
+                    //token:{{luauTomo}} -> {{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_luau_dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the Luau.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+                        "Raven_luau_dayAfter_2": "The food was absolutely amazing at the Luau yesterday!$1#$e#I wish there was leftovers.$2",
+                        "Raven_luau_dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
                 //bullet:Moonlight Jellies
-                    //token:{{MooJellYest}} -> {{i18n: Raven_moonlightJellies_yesterday_{{Random:{{Range:1,_}}}}}}
-                        "Raven_moonlightJellies_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-                        "Raven_moonlightJellies_yesterday_2": "I heard the Dance of the Moonlight Jellies is tomorrow! I hope you come watch.$3#$e#It's so beautiful. I wish we could see it happen more than once a year.$1",
-                        "Raven_moonlightJellies_yesterday_3": "I love going to the Dance of the Moonlight Jellies! Seeing all those colors in the water looks so magical.$1#$e#I hope you decide to go to the festival tomorrow. I promise you'll love it!",
-                    //token:{{MooJellToday}} -> {{i18n: Raven_moonlightJellies_today_{{Random:{{Range:1,_}}}}}}
-                        "Raven_moonlightJellies_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I can't wait to see the Moonlight Jellies tonight! It's gonna be stunning, I know it.$1",
-                        "Raven_moonlightJellies_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder how many Moonlight Jellies there are in the world. I bet it's a ton!$3",
-                        "Raven_moonlightJellies_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder if anyone is bringing food to the event.$17",
-                    //token:{{MooJellTomo}} -> {{i18n: Raven_moonlightJellies_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_moonlightJellies_tomorrow_1": "I think I stayed up too late last night. I'm so drowsy.$2",
-                        "Raven_moonlightJellies_tomorrow_2": "There were so many moonlight jellies last night! They were so cool to see in person!$3",
-                        "Raven_moonlightJellies_tomorrow_3": "I love how the weather yesterday was perfect to enjoy watching the moonlight jellies swim by.",
+                    //token:{{MooJellYest}} -> {{i18n:Raven_moonlightJellies_dayBefore_{{Random:{{Range:1,_}}}}}}
+                        "Raven_moonlightJellies_dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                        "Raven_moonlightJellies_dayBefore_2": "I heard the Dance of the Moonlight Jellies is tomorrow! I hope you come watch.$3#$e#It's so beautiful. I wish we could see it happen more than once a year.$1",
+                        "Raven_moonlightJellies_dayBefore_3": "I love going to the Dance of the Moonlight Jellies! Seeing all those colors in the water looks so magical.$1#$e#I hope you decide to go to the festival tomorrow. I promise you'll love it!",
+                    //token:{{MooJellToday}} -> {{i18n:Raven_moonlightJellies_dayOf_{{Random:{{Range:1,_}}}}}}
+                        "Raven_moonlightJellies_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I can't wait to see the Moonlight Jellies tonight! It's gonna be stunning, I know it.$1",
+                        "Raven_moonlightJellies_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder how many Moonlight Jellies there are in the world. I bet it's a ton!$3",
+                        "Raven_moonlightJellies_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder if anyone is bringing food to the event.$17",
+                    //token:{{MooJellTomo}} -> {{i18n:Raven_moonlightJellies_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_moonlightJellies_dayAfter_1": "I think I stayed up too late last night. I'm so drowsy.$2",
+                        "Raven_moonlightJellies_dayAfter_2": "There were so many moonlight jellies last night! They were so cool to see in person!$3",
+                        "Raven_moonlightJellies_dayAfter_3": "I love how the weather yesterday was perfect to enjoy watching the moonlight jellies swim by.",
                 //bullet:Stardew Valley Fair
-                    //token:{{FairYest}} -> {{i18n: Raven_stardewFair_yesterday_{{Random:{{Range:1,_}}}}}}
-                        "Raven_stardewFair_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-                        "Raven_stardewFair_yesterday_2": "Since the Stardew Valley Fair is tomorrow, I wonder what everyone likes about it.#$e#I know that some people only go to the fair to see the grange displays.#$b#Personally, I go for the carnival games! The fishing one is a blast!$3",
-                        "Raven_stardewFair_yesterday_3": "I wonder who's gonna enter the grange display contest at the fair tomorrow.$1",
-                    //token:{{FairToday}} -> {{i18n: Raven_stardewFair_today_{{Random:{{Range:1,_}}}}}}
-                        "Raven_stardewFair_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I know that I'll be going to the fair!$1#$b#If you decide to go, are you gonna focus on the carnival games or the grange displays?",
-                        "Raven_stardewFair_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I wonder who's gonna win the grange display contest this year.$3#$e#I guess we'll see!$1",
-                        "Raven_stardewFair_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#Once the fair is over, then everyone will be focusing on Spirit's Eve!$3",
-                    //token:{{FairTomo}} -> {{i18n: Raven_stardewFair_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "Raven_stardewFair_tomorrow_1": "I used up a lot of my energy yesterday, but I'm all good!$1#$e#I spent a lot of time at the fishing game.#$b#The guy running the booth probably got confused about me being there for over an hour straight.$11",
-                        "Raven_stardewFair_tomorrow_2": "The grange displays were really amazing this year!$1#$b#I bet next year will be even better$3",
-                        "Raven_stardewFair_tomorrow_3": "I wonder how long it took for everyone to pack up when the festival ended.$17#$b#The clown probably was the first to leave since they didn't have many props.",
+                    //token:{{FairYest}} -> {{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,_}}}}}}
+                        "Raven_stardewFair_dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                        "Raven_stardewFair_dayBefore_2": "Since the Stardew Valley Fair is tomorrow, I wonder what everyone likes about it.#$e#I know that some people only go to the fair to see the grange displays.#$b#Personally, I go for the carnival games! The fishing one is a blast!$3",
+                        "Raven_stardewFair_dayBefore_3": "I wonder who's gonna enter the grange display contest at the fair tomorrow.$1",
+                    //token:{{FairToday}} -> {{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,_}}}}}}
+                        "Raven_stardewFair_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I know that I'll be going to the fair!$1#$b#If you decide to go, are you gonna focus on the carnival games or the grange displays?",
+                        "Raven_stardewFair_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I wonder who's gonna win the grange display contest this year.$3#$e#I guess we'll see!$1",
+                        "Raven_stardewFair_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#Once the fair is over, then everyone will be focusing on Spirit's Eve!$3",
+                    //token:{{FairTomo}} -> {{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_stardewFair_dayAfter_1": "I used up a lot of my energy yesterday, but I'm all good!$1#$e#I spent a lot of time at the fishing game.#$b#The guy running the booth probably got confused about me being there for over an hour straight.$11",
+                        "Raven_stardewFair_dayAfter_2": "The grange displays were really amazing this year!$1#$b#I bet next year will be even better$3",
+                        "Raven_stardewFair_dayAfter_3": "I wonder how long it took for everyone to pack up when the festival ended.$17#$b#The clown probably was the first to leave since they didn't have many props.",
                 //bullet:Spirit's Eve
-                    //token:{{spiritsEveYest}} -> {{i18n: Raven_spiritsEve_yesterday_{{Random:{{Range:1,_}}}}}}
-                        "Raven_spiritsEve_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-                        "Raven_spiritsEve_yesterday_2": "I have a big collection of costumes for Spirit's Eve.#$e#I bet you can't guess what I'll wear tomorrow.$1",
-                        "Raven_spiritsEve_yesterday_3": "Spirit's Eve is tomorrow! I'm always excited for it.$1#$e#It's always fun embracing the spookier parts of life, you know?",
-                    //token:{{spiritsEveToday}} -> {{i18n: spiritsEve_today_{{Random:{{Range:1,_}}}}}}
-                    //## TODO: CTRL+H
-                        "spiritsEve_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder what people are bringing for Spirit's Eve.#$b#Or is Gus the one catering everything?#$b#No one tells me these things.$11",
-                        "spiritsEve_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#It's Spirit's Eve! It's Spirit's Eve!$3",
-                        "spiritsEve_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder who's gonna wear costumes this year...",
-                    //token:{{spiritsEveTomo}} -> {{i18n: spiritsEve_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "spiritsEve_tomorrow_1": "I definitely stayed up too late last night. I'm all kinds of drowsy right now.$2",
-                        "spiritsEve_tomorrow_2": "Damn, that food was so good! I'm glad I didn't skip Spirit's Eve this year.$1",
-                        "spiritsEve_tomorrow_3": "I'm so full from last night's food, but it was totally worth it.$1",
+                    //token:{{spiritsEveYest}} -> {{i18n:Raven_spiritsEve_dayBefore_{{Random:{{Range:1,_}}}}}}
+                        "Raven_spiritsEve_dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                        "Raven_spiritsEve_dayBefore_2": "I have a big collection of costumes for Spirit's Eve.#$e#I bet you can't guess what I'll wear tomorrow.$1",
+                        "Raven_spiritsEve_dayBefore_3": "Spirit's Eve is tomorrow! I'm always excited for it.$1#$e#It's always fun embracing the spookier parts of life, you know?",
+                    //token:{{spiritsEveToday}} -> {{i18n:Raven_spiritsEve_dayOf_{{Random:{{Range:1,_}}}}}}
+                        "Raven_spiritsEve_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder what people are bringing for Spirit's Eve.#$b#Or is Gus the one catering everything?#$b#No one tells me these things.$11",
+                        "Raven_spiritsEve_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#It's Spirit's Eve! It's Spirit's Eve!$3",
+                        "Raven_spiritsEve_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder who's gonna wear costumes this year...",
+                    //token:{{spiritsEveTomo}} -> {{i18n:Raven_spiritsEve_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_spiritsEve_dayAfter_1": "I definitely stayed up too late last night. I'm all kinds of drowsy right now.$2",
+                        "Raven_spiritsEve_dayAfter_2": "Damn, that food was so good! I'm glad I didn't skip Spirit's Eve this year.$1",
+                        "Raven_spiritsEve_dayAfter_3": "I'm so full from last night's food, but it was totally worth it.$1",
                 //bullet:Ice Festival
-                    //token:{{iceFestYest}} -> {{i18n: iceFestival_yesterday_{{Random:{{Range:1,_}}}}}}
-                        "iceFestival_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-                        "iceFestival_yesterday_2": "It'd be cool if Mayor Lewis had a snowperson competition at the Ice Festival! I'd try to make something super cool.$3#$e#I'd probaby make something cursed.$1#$b#Like a monster that only has two legs, a torso, and a head with one eye!$3",
-                        "iceFestival_yesterday_3": "Maybe one of these days I'll do the ice fishing competition at the Ice Festival.#$e#I'll need a fishing pole, though.$2",
-                    //token:{{iceFestToday}} -> {{i18n: iceFestival_today_{{Random:{{Range:1,_}}}}}}
-                        "iceFestival_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#The weather is perfect for the Ice Festival!$1",
-                        "iceFestival_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I wonder who's gonna win the fishing competition this year!$1",
-                        "iceFestival_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I'll be busy building snowpeople at the festival.#$b#I wonder what they're gonna look like.$1",
-                    //token:{{iceFestTomo}} -> {{i18n: iceFestival_tomorrow_{{Random:{{Range:1,_}}}}}}
-                        "iceFestival_tomorrow_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
-                        "iceFestival_tomorrow_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
-                        "iceFestival_tomorrow_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
-            //Meds
-                //token:{{RavenMedsDialogue}} -> {{i18n: medsDialogue_{{Random:{{Range:1,_}}}}}}
-                    "medsDialogue_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
-                    "medsDialogue_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
-            //Birthday & Checkup
-                //token:{{bdayCheckup}} -> {{i18n: bdayCheckup_{{Random:{{Range:1,_}}}}}}
-            "medsDialogueBDay_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
-            "medsDialogueBDay_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
-            //Winter Star
-                //token:{{winterStarYest}} -> {{i18n: winterStar_yesterday_{{Random:{{Range:1,_}}}}}}
-            "winterStar_yesterday_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-            "winterStar_yesterday_2": "I wonder what everyone's getting for the Winter Star.#$e#I wonder who my secret gift-giver is.$1",
-            "winterStar_yesterday_3": "I can't wait to see everyone at the festival tomorrow.$3#$b#I miss hanging out with the people in town.$2",
-                //token:{{winterStarToday}} -> {{i18n: winterStar_today_{{Random:{{Range:1,_}}}}}}
-            "winterStar_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I can't wait to see everyone today.$1",
-            "winterStar_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder what food is gonna be there this year.$3",
-            "winterStar_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder who my secret gift-giver is!$3",
-                //token:{{winterStarTomo}} -> {{i18n: winterStar_tomorrow_{{Random:{{Range:1,_}}}}}}
-            "winterStar_tomorrow_1": "It was great spending time with everyone yesterday.#$e#Everyone got really cool presents too!$1",
-            "winterStar_tomorrow_2": "I think I spent too much time at the festival.$2#$b#I got really worn out from talking to everyone.$11",
-            "winterStar_tomorrow_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
-            //Generic Dialogue
-                //token:{{generic}} -> {{i18n:generic_{{Random:{{Range:1,_}}}}}}
-            "generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
-            "generic_2": "%Raven says nothing but nods their head at you with a big smile.#$b#!$1",
-            "generic_3": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
-            "generic_4": "I hope you have time to relax every once in a while!$1#$e#It's good to not push yourself too hard.",
-            "generic_5": "Sorry, I'm not really in the mood to talk to people today.$2#$b#It's not you. I'm just having a rough time.$2",
-            "generic_6": "%Raven says nothing but has a sad look on their face.#$b#...$2",
-            "generic_7": "%Raven waves at you.#$b#!$1",
-            "generic_8": "Please don't take it personally if I don't speak to you verbally sometimes.#$b#I have moments where I struggle to speak sometimes.$11",
-            "generic_9": "If I have time, maybe I could play some video games today.$1",
-            "generic_10": "My feet are really sore today. I should take it easy.$2",
-            "generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
-            "generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
-                //token:{{genericspring}} -> {{i18n:genericspring_{{Random:{{Range:1,7}}}}}}
-            "genericspring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
-            "genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
-            "genericspring_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
-            "genericspring_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
-            "genericspring_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
-            "genericspring_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
-            "genericspring_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
-                //token:{{genericsummer}} -> {{i18n:genericsummer_{{Random:{{Range:1,7}}}}}}
-            "genericsummer_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
-            "genericsummer_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
-            "genericsummer_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
-            "genericsummer_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
-            "genericsummer_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
-            "genericsummer_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
-            "genericsummer_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+                    //token:{{iceFestYest}} -> {{i18n:Raven_iceFestival_dayBefore_{{Random:{{Range:1,_}}}}}}
+                        "Raven_iceFestival_dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                        "Raven_iceFestival_dayBefore_2": "It'd be cool if Mayor Lewis had a snowperson competition at the Ice Festival! I'd try to make something super cool.$3#$e#I'd probaby make something cursed.$1#$b#Like a monster that only has two legs, a torso, and a head with one eye!$3",
+                        "Raven_iceFestival_dayBefore_3": "Maybe one of these days I'll do the ice fishing competition at the Ice Festival.#$e#I'll need a fishing pole, though.$2",
+                    //token:{{iceFestToday}} -> {{i18n:Raven_iceFestival_dayOf_{{Random:{{Range:1,_}}}}}}
+                        "Raven_iceFestival_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#The weather is perfect for the Ice Festival!$1",
+                        "Raven_iceFestival_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I wonder who's gonna win the fishing competition this year!$1",
+                        "Raven_iceFestival_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I'll be busy building snowpeople at the festival.#$b#I wonder what they're gonna look like.$1",
+                    //token:{{iceFestTomo}} -> {{i18n:Raven_iceFestival_dayAfter_{{Random:{{Range:1,_}}}}}}
+                        "Raven_iceFestival_dayAfter_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
+                        "Raven_iceFestival_dayAfter_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
+                        "Raven_iceFestival_dayAfter_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
+            //label:Winter Star
+                //token:{{winterStarYest}} -> {{i18n:Raven_winterStar_dayBefore_{{Random:{{Range:1,_}}}}}}
+                    "Raven_winterStar_dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+                    "Raven_winterStar_dayBefore_2": "I wonder what everyone's getting for the Winter Star.#$e#I wonder who my secret gift-giver is.$1",
+                    "Raven_winterStar_dayBefore_3": "I can't wait to see everyone at the festival tomorrow.$3#$b#I miss hanging out with the people in town.$2",
+                //token:{{winterStarToday}} -> {{i18n:Raven_winterStar_dayOf_{{Random:{{Range:1,_}}}}}}
+                    "Raven_winterStar_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I can't wait to see everyone today.$1",
+                    "Raven_winterStar_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder what food is gonna be there this year.$3",
+                    "Raven_winterStar_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder who my secret gift-giver is!$3",
+                //token:{{winterStarTomo}} -> {{i18n:Raven_winterStar_dayAfter_{{Random:{{Range:1,_}}}}}}
+                    "Raven_winterStar_dayAfter_1": "It was great spending time with everyone yesterday.#$e#Everyone got really cool presents too!$1",
+                    "Raven_winterStar_dayAfter_2": "I think I spent too much time at the festival.$2#$b#I got really worn out from talking to everyone.$11",
+                    "Raven_winterStar_dayAfter_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
+            //label:Medication Dialogue
+                //token:{{RavenMedsDialogue}} -> {{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,_}}}}}}
+                    "Raven_medicationPickup_dayOf_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
+                    "Raven_medicationPickup_dayOf_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
+            //label:Birthday & Checkup
+                //token:{{bdayCheckup}} -> {{i18n:bdayCheckup_{{Random:{{Range:1,_}}}}}}
+                    "Raven_medicationPickup_dayOf_birthday_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
+                    "Raven_medicationPickup_dayOf_birthday_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
+            //label:Generic Dialogue
+                //token:{{generic}} -> {{i18n:Raven_generic_{{Random:{{Range:1,_}}}}}}
+                    "Raven_generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
+                    "Raven_generic_2": "%Raven says nothing but nods their head at you with a big smile.#$b#!$1",
+                    "Raven_generic_3": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
+                    "Raven_generic_4": "I hope you have time to relax every once in a while!$1#$e#It's good to not push yourself too hard.",
+                    "Raven_generic_5": "Sorry, I'm not really in the mood to talk to people today.$2#$b#It's not you. I'm just having a rough time.$2",
+                    "Raven_generic_6": "%Raven says nothing but has a sad look on their face.#$b#...$2",
+                    "Raven_generic_7": "%Raven waves at you.#$b#!$1",
+                    "Raven_generic_8": "Please don't take it personally if I don't speak to you verbally sometimes.#$b#I have moments where I struggle to speak sometimes.$11",
+                    "Raven_generic_9": "If I have time, maybe I could play some video games today.$1",
+                    "Raven_generic_10": "My feet are really sore today. I should take it easy.$2",
+                    "Raven_generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
+                    "Raven_generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
+                //token:{{genericspring}} -> {{i18n:Raven_genericspring_{{Random:{{Range:1,7}}}}}}
+                    "Raven_genericspring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
+                    "Raven_genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
+                    "Raven_genericspring_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
+                    "Raven_genericspring_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
+                    "Raven_genericspring_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
+                    "Raven_genericspring_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
+                    "Raven_genericspring_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
+                //token:{{genericsummer}} -> {{i18n:Raven_genericsummer_{{Random:{{Range:1,7}}}}}}
+                    "Raven_genericsummer_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
+                    "Raven_genericsummer_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
+                    "Raven_genericsummer_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
+                    "Raven_genericsummer_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
+                    "Raven_genericsummer_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
+                    "Raven_genericsummer_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
+                    "Raven_genericsummer_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
                 //token:{{genericfall}} -> {{i18n:genericfall_{{Random:{{Range:1,7}}}}}}
             "genericfall_1": "I love feeling the leaves crunch under my feet!$1",
             "genericfall_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
@@ -590,15 +588,15 @@
         
         //file:marriageDialogue.json
             //Seasonal
-                "married_genericspring_1": "I can never decide which season is my favorite, but I really do love how the weather in spring is.#$e#It's very relaxing!$1",
-                "married_genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
-                "married_genericspring_3": "With the flowers in bloom, the air smells wonderful!$1",
+                "married_Raven_genericspring_1": "I can never decide which season is my favorite, but I really do love how the weather in spring is.#$e#It's very relaxing!$1",
+                "married_Raven_genericspring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
+                "married_Raven_genericspring_3": "With the flowers in bloom, the air smells wonderful!$1",
 
-                "married_genericsummer_1": "It would be awesome if we had a pool to swim in during the super hot days!$1",
-                "married_genericsummer_2": "I'm gonna need to turn on the AC today. It's too hot to leave it turned off.$2",
-                "married_genericsummer_3": "Maybe I should go to the beach. It's so hot and the water would cool me down.$2",
-                "married_genericsummer_4": "Ugh, I'm definitely sweaty today. Damn it.$2",
-                "married_genericsummer_5": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+                "married_Raven_genericsummer_1": "It would be awesome if we had a pool to swim in during the super hot days!$1",
+                "married_Raven_genericsummer_2": "I'm gonna need to turn on the AC today. It's too hot to leave it turned off.$2",
+                "married_Raven_genericsummer_3": "Maybe I should go to the beach. It's so hot and the water would cool me down.$2",
+                "married_Raven_genericsummer_4": "Ugh, I'm definitely sweaty today. Damn it.$2",
+                "married_Raven_genericsummer_5": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
 
                 "married_genericfall_1": "It's pretty chilly, but I have clothes that'll keep me warm enough.#$e#Remember to dress warm today honey!",
                 "married_genericfall_2": "It'd be awesome if we had some Jack-O-Lanterns around the farm.#$b#I think it'd look awesome!$1",
@@ -1243,18 +1241,18 @@
             "fireworksFestival_2": "I wish we could do fireworks more often. Fireworks should be for all times of the year!$1",
         //file:modCompat/pelicanTownPotluck.json
             //Yesterday, Today, Tomorrow
-                //token:{{potluckYest}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}}
-                    "potluck_yesterday_1": "I wonder what everyone's bringing the potluck tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
-                    "potluck_yesterday_2": "Hopefully it's not too hot this year at the potluck.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
-                    "potluck_yesterday_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the potluck.$11",
-                //token:{{potluckToday}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}}
-                    "potluck_today_1": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the potluck before I get there. When I see that food... it's on SIGHT.$1",
-                    "potluck_today_2": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#I wonder if the governor is gonna like the soup at the potluck this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
-                    "potluck_today_3": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#It's kinda weird to have the governor come by for the potluck every year.$17#$b#I dunno... It just seems odd.$17",
-                //token:{{potluckTomo}} -> {{i18n:potluck_tomorrow_{{Random:{{Range:1,_}}}}}}
-                    "potluck_tomorrow_1": "Ugh... I'm nauseous... I ate too much food at the potluck.$2#$e#I should've listened to Gus when he told me to slow down.$12",
-                    "potluck_tomorrow_2": "The food was absolutely amazing at the potluck yesterday!$1#$e#I wish there was leftovers.$2",
-                    "potluck_tomorrow_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
+                //token:{{potluckYest}} -> {{i18n:potluck_dayAfter_{{Random:{{Range:1,_}}}}}}
+                    "potluck_dayBefore_1": "I wonder what everyone's bringing the potluck tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+                    "potluck_dayBefore_2": "Hopefully it's not too hot this year at the potluck.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+                    "potluck_dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the potluck.$11",
+                //token:{{potluckToday}} -> {{i18n:potluck_dayAfter_{{Random:{{Range:1,_}}}}}}
+                    "potluck_dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the potluck before I get there. When I see that food... it's on SIGHT.$1",
+                    "potluck_dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#I wonder if the governor is gonna like the soup at the potluck this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+                    "potluck_dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#It's kinda weird to have the governor come by for the potluck every year.$17#$b#I dunno... It just seems odd.$17",
+                //token:{{potluckTomo}} -> {{i18n:potluck_dayAfter_{{Random:{{Range:1,_}}}}}}
+                    "potluck_dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the potluck.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+                    "potluck_dayAfter_2": "The food was absolutely amazing at the potluck yesterday!$1#$e#I wish there was leftovers.$2",
+                    "potluck_dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
         //file:modCompat/naturesBounty.json
             //Gifts
                 "AcceptGift_NB_Bud": "Wait, you're giving this to me?#$b#Well shit, hand it over! I've been dying to get some and couldn't find any!#$b#Oh- sorry, that was rude of me. I appreciate it, thanks @.",
@@ -1308,9 +1306,14 @@
                     "Raven_SmokeSession_summary": "Raven offered you to join them for a smoke session. Why not join in?",
                     "Raven_SmokeSession_hint": "Visit Raven's tent.",
     //title:Zayden
+
+
+    //title:
         //file:
             //label:
                 //token:
+
+                
     //title:CJB Cheats Warps
     //## TODO: DELETE FOR PUBLIC RELEASE
         "warp-sections.pelican-valley-loft": "Pelican Valley Loft"

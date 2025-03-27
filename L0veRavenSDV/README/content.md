@@ -1231,8 +1231,8 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 
 | Name | Value | When |
 | --- | --- | --- |
-| `medsDialogue` |  `{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}` |  |
-| `medsDialogue` | `{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}` | `"Season": "winter"`, `"Day": "18",` |
+| `medsDialogue` |  `{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}` |  |
+| `medsDialogue` | `{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,3}}}}}}` | `"Season": "winter"`, `"Day": "18",` |
 
 <details>
     <summary>Expand Code</summary>
@@ -1240,11 +1240,11 @@ The `Name` corresponds with the emote I want to use. Rather than me memorizing t
 ```
 {
     "Name": "medsDialogue",
-    "Value": "{{i18n:medsDialogue_{{Random:{{Range:1,2}}}}}}",
+    "Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}",
 },
 {
     "Name": "medsDialogue",
-    "Value": "{{i18n:medsDialogueBDay_{{Random:{{Range:1,3}}}}}}",
+    "Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,3}}}}}}",
     "When": {
         "Season": "winter",
         "Day": "18",
@@ -1267,7 +1267,7 @@ Egg Festival
 ```
 {"Name": "Raven_eggFestival_dayBefore","Value": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",},
 {"Name": "eggFestToday","Value": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "eggFestTomo","Value": "{{i18n:Raven_eggFestival_tomorrow_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "eggFestTomo","Value": "{{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1281,9 +1281,9 @@ Flower Dance
     <summary>Expand Code</summary>
      
 ```
-{"Name": "flowDanYest","Value": "{{i18n:Raven_flowerDance_yesterday_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "flowDanToday","Value": "{{i18n:Raven_flowerDance_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanTomo","Value": "{{i18n:Raven_flowerDance_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanYest","Value": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "flowDanToday","Value": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanTomo","Value": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1299,9 +1299,9 @@ Luau
     <summary>Expand Code</summary>
      
 ```
-{"Name": "luauYest","Value": "{{i18n:Raven_luau_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauToday","Value": "{{i18n:Raven_luau_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauTomo","Value": "{{i18n:Raven_luau_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauYest","Value": "{{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauToday","Value": "{{i18n:Raven_luau_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "luauTomo","Value": "{{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1315,9 +1315,9 @@ Potluck
     <summary>Expand Code</summary>
      
 ```
-{"Name": "potluckYest","Value": "{{i18n:potluck_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "potluckToday","Value": "{{i18n:potluck_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "potluckTomo","Value": "{{i18n:potluck_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "potluckYest","Value": "{{i18n:potluck_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "potluckToday","Value": "{{i18n:potluck_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "potluckTomo","Value": "{{i18n:potluck_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1331,9 +1331,9 @@ Dance of the Moonlight Jellies
     <summary>Expand Code</summary>
      
 ```
-{"Name": "MooJellYest","Value": "{{i18n:Raven_moonlightJellies_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "MooJellToday","Value": "{{i18n:Raven_moonlightJellies_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "MooJellTomo","Value": "{{i18n:Raven_moonlightJellies_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellYest","Value": "{{i18n:Raven_moonlightJellies_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellToday","Value": "{{i18n:Raven_moonlightJellies_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "MooJellTomo","Value": "{{i18n:Raven_moonlightJellies_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1347,9 +1347,9 @@ Stardew Valley Fair
     <summary>Expand Code</summary>
      
 ```
-{"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudging","Value": "{{i18n:Fair_Judging_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudgeSkip","Value": "{{i18n:Fair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairJudgeLost","Value": "{{i18n:Fair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
@@ -1368,9 +1368,9 @@ Spirit's Eve
     <summary>Expand Code</summary>
      
 ```
-{"Name": "spiritsEveYest","Value": "{{i18n:Raven_spiritsEve_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "spiritsEveToday","Value": "{{i18n:spiritsEve_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "spiritsEveTomo","Value": "{{i18n:spiritsEve_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "spiritsEveYest","Value": "{{i18n:Raven_spiritsEve_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "spiritsEveToday","Value": "{{i18n:Raven_spiritsEve_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "spiritsEveTomo","Value": "{{i18n:Raven_spiritsEve_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1384,9 +1384,9 @@ Ice Festival
     <summary>Expand Code</summary>
      
 ```
-{"Name": "iceFestYest","Value": "{{i18n:iceFestival_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "iceFestToday","Value": "{{i18n:iceFestival_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "iceFestTomo","Value": "{{i18n:iceFestival_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "iceFestYest","Value": "{{i18n:Raven_iceFestival_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "iceFestToday","Value": "{{i18n:Raven_iceFestival_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "iceFestTomo","Value": "{{i18n:Raven_iceFestival_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1400,9 +1400,9 @@ Feast of the Winter Star
     <summary>Expand Code</summary>
      
 ```
-{"Name": "winterStarYest","Value": "{{i18n:winterStar_yesterday_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarToday","Value": "{{i18n:winterStar_today_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarTomo","Value": "{{i18n:winterStar_tomorrow_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarYest","Value": "{{i18n:Raven_winterStar_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarToday","Value": "{{i18n:Raven_winterStar_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarTomo","Value": "{{i18n:Raven_winterStar_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftBefore","Value": "{{i18n:WinterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:WinterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",},
@@ -1423,15 +1423,15 @@ Feast of the Winter Star
 
 ```
 //Generic
-{"Name": "generic","Value": "{{i18n:generic_{{Random:{{Range:1,14}}}}}}",},
+{"Name": "generic","Value": "{{i18n:Raven_generic_{{Random:{{Range:1,14}}}}}}",},
 
-{"Name": "genericSpring","Value": "{{i18n:genericspring_{{Random:{{Range:1,7}}}}}}",},
-{"Name": "genericSummer","Value": "{{i18n:genericsummer_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericSpring","Value": "{{i18n:Raven_genericspring_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericSummer","Value": "{{i18n:Raven_genericsummer_{{Random:{{Range:1,7}}}}}}",},
 {"Name": "genericFall","Value": "{{i18n:genericfall_{{Random:{{Range:1,7}}}}}}",},
 {"Name": "genericWinter","Value": "{{i18n:genericwinter_{{Random:{{Range:1,7}}}}}}",},
 
-{"Name": "marriedGenSpring","Value": "{{i18n:married_genericspring_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "marriedGenSummer","Value": "{{i18n:married_genericsummer_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "marriedGenSpring","Value": "{{i18n:married_Raven_genericspring_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "marriedGenSummer","Value": "{{i18n:married_Raven_genericsummer_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "marriedGenFall","Value": "{{i18n:married_genericfall_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "marriedGenWinter","Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",},
 ```
