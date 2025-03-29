@@ -71,7 +71,9 @@
             //Character Names
                 //Reference Character
                     {"Name": "Raven","Value": "L0veRaven_Raven"},
+                    {"Name": "RavenLC","Value": "l0veraven_raven"},
                     {"Name": "Zayden","Value": "L0veRaven_Zayden"},
+                    {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
 
                 //Display Name
                     {"Name": "RavenDisplayName","Value": "{{i18n:Raven_DisplayName}}"},
@@ -115,56 +117,28 @@
                 {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
         //file:dialogue/dialogue.json
             //label:Medication Pickup
-                {"Name": "RavenMedsDialogueNormal","Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "RavenMedsDialogueBDay","Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,2}}}}}}"},
+                {"Name": "RavenMedsDialogueBDay","Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}"},
                 {"Name": "RavenMedsDialogue","Value": "{{RavenMedsDialogueNormal}}",
                     "When": {"Query: '{{Season}}' = 'Winter'": false}},
-                {"Name": "RavenMedsDialogue","Value": "{{RavenMedsDialogueBDay}}",
+                {"Name": "RavenMedsDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,2}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Winter'": true}},
-                //{{RavenMedicationPickupDialogue}}
-                //## TODO: Delete on release
-                    //{{RavenMedsDialogueNormal}}
-                    //{{RavenMedsDialogueBDay}}   
-            //label:Festivals
-                {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}"},
-
-                {"Name": "FairJudging","Value": "{{i18n:Raven_sdvFair_Judging_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "FairJudgeSkip","Value": "{{i18n:Raven_sdvFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "FairJudgeLost","Value": "{{i18n:Raven_sdvFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "FairJudgeWon","Value": "{{i18n:Raven_sdvFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "FairJudged","Value": "{{i18n:Raven_sdvFair_Judged_{{Random:{{Range:1,3}}}}}}"},
-
-                {"Name": "winterStarGiftBefore","Value": "{{i18n:Raven_winterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:Raven_winterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}"},
             //token:{{RavenGenericSeason}}
-                {"Name": "genericSpring","Value": "{{i18n:Raven_genericSpring_{{Random:{{Range:1,7}}}}}}"},
-                {"Name": "genericSummer","Value": "{{i18n:Raven_genericSummer_{{Random:{{Range:1,7}}}}}}"},
-                {"Name": "genericFall","Value": "{{i18n:Raven_genericFall_{{Random:{{Range:1,7}}}}}}"},
-                {"Name": "genericWinter","Value": "{{i18n:Raven_genericWinter_{{Random:{{Range:1,7}}}}}}"},
-                {"Name": "genericSeason","Value": "{{genericSpring}}",
+                {"Name": "genericSeason","Value": "{{i18n:Raven_genericSpring_{{Random:{{Range:1,7}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Spring'": true}},
-                {"Name": "genericSeason","Value": "{{genericSummer}}",
+                {"Name": "genericSeason","Value": "{{i18n:Raven_genericSummer_{{Random:{{Range:1,7}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Summer'": true}},
-                {"Name": "genericSeason","Value": "{{genericFall}}",
+                {"Name": "genericSeason","Value": "{{i18n:Raven_genericFall_{{Random:{{Range:1,7}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Fall'": true}},
-                {"Name": "genericSeason","Value": "{{genericWinter}}",
+                {"Name": "genericSeason","Value": "{{i18n:Raven_genericWinter_{{Random:{{Range:1,7}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Winter'": true}},
             //token:{{marriedGenericSeason}}
-                {"Name": "marriedGenSpring","Value": "{{i18n:Raven_married_genericSpring_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "marriedGenSummer","Value": "{{i18n:Raven_married_genericSummer_{{Random:{{Range:1,5}}}}}}"},
-                {"Name": "marriedGenFall","Value": "{{i18n:Raven_married_genericFall_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "marriedGenWinter","Value": "{{i18n:Raven_married_genericWinter_{{Random:{{Range:1,5}}}}}}"},
-                {"Name": "marriedGenericSeason","Value": "{{marriedGenSpring}}",
+                {"Name": "marriedGenericSeason","Value": "{{i18n:Raven_married_genericSpring_{{Random:{{Range:1,3}}}}}}",
                     "When": {"Query: '{{Season}}' = 'spring'": true}},
-                {"Name": "marriedGenericSeason","Value": "{{marriedGenSummer}}",
+                {"Name": "marriedGenericSeason","Value": "{{i18n:Raven_married_genericSummer_{{Random:{{Range:1,5}}}}}}",
                     "When": {"Query: '{{Season}}' = 'summer'": true}},
-                {"Name": "marriedGenericSeason","Value": "{{marriedGenFall}}",
+                {"Name": "marriedGenericSeason","Value": "{{i18n:Raven_married_genericFall_{{Random:{{Range:1,3}}}}}}",
                     "When": {"Query: '{{Season}}' = 'fall'": true}},
-                {"Name": "marriedGenericSeason","Value": "{{marriedGenWinter}}",
+                {"Name": "marriedGenericSeason","Value": "{{i18n:Raven_married_genericWinter_{{Random:{{Range:1,5}}}}}}",
                     "When": {"Query: '{{Season}}' = 'Winter'": true}},
         //Married Dialogue
             {"Name": "inSpouseRoom","Value": "{{i18n:Raven_inSpouseRoom_{{Random:{{Range:1,3}}}}}}"},
@@ -184,13 +158,6 @@
                 {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}"},
                 {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}"},
                 {"Name": "divorcedRejectMPend","Value": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}"},
-        //Movie Invites
-            {"Name": "movieInvite","Value": "{{i18n:MovieInvitation_{{Random:{{Range:1,5}}}}}}"},
-            {"Name": "movieInviteSpouse","Value": "{{i18n:MovieInvite_Spouse_{{Random:{{Range:1,5}}}}}}"},
-            {"Name": "movieInviteAlrInv","Value": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "movieInviteAlrWat","Value": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "movieInviteDivorced","Value": "{{i18n:RejectMovieTicket_Divorced_{{Random:{{Range:1,5}}}}}}"},
-            {"Name": "movieInviteDislike","Value": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie_{{Random:{{Range:1,3}}}}}}"},
         //Island Dialogue
             {"Name": "resortD","Value": "{{i18n:Resort_{{Random:{{Range:1,3}}}}}}"},
             {"Name": "resortBarD","Value": "{{i18n:Resort_Bar_{{Random:{{Range:1,3}}}}}}"},
@@ -367,33 +334,33 @@
             "FromFile": "assets/tilesheets/z_L0veRaven_Tent.png"
         },
         {
-            "LogName": "Location Loads",
-            "Action": "Include",
-            "FromFile": "data/locations/Tent.json, data/locations/Apartment.json, data/locations/SpouseRoom.json, data/locations/SpousePatio.json"
-        },
-        {
-            "LogName": "content.json: Tent Inside (Vanilla)",
+            "LogName": "Tent Inside (Vanilla)",
             "Action": "Load",
             "Target": "Maps/Custom_{{Raven}}TentInside",
             "FromFile": "data/maps/{{Raven}}TentInside.tmx"
         },
         {
-            "LogName": "content.json: Tent Inside (SVE)",
+            "LogName": "Tent Inside (SVE)",
             "Action": "Load",
             "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
             "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
         },
         {
-            "LogName": "content.json: Spouse Patio",
+            "LogName": "Spouse Patio",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpousePatio",
             "FromFile": "data/maps/{{Raven}}SpousePatio.tmx"
         },
         {
-            "LogName": "content.json: Spouse Room",
+            "LogName": "Spouse Room",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpouseRoom",
             "FromFile": "data//maps/{{Raven}}SpouseRoom.tmx"
+        },
+        {
+            "LogName": "Raven - Location Loads",
+            "Action": "Include",
+            "FromFile": "data/CP-Raven/locations/Tent.json, data/CP-Raven/locations/Apartment.json, data/CP-Raven/locations/SpouseRoom.json, data/CP-Raven/locations/SpousePatio.json"
         },
         {
             "LogName": "Raven - NPC Data",

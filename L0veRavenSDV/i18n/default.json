@@ -1040,11 +1040,11 @@
             "Gift_Dislike": "Um, I'm not a fan of this, but I appreciate the thought.$11",
             "Gift_Hate": "I...#$b#Um, what am I supposed to do with this?$17",
             "Gift_Neutral": "Thanks, this is nice!",
-        //file:StringsFromCSFiles.json
+        //file:locations/Apartment.json,SpouseRoom.json,SpousePatio.json,Tent.json
             //label:Map Strings
                 "RavensTent_NameHover": "Raven's Tent",//Map Display Name
                 "LinusTent_NameHover": "Linus' Tent",//DEFAULT -> REPLACEMENT -> Map Display Name
-            //label:Raven's Desk with Paper
+            //bullet:Raven's Desk with Paper
                 "Raven_Desk_1": "DARKJACK VOL. I",
                 "Raven_Desk_2": "DARKJACK VOL. II",
                 "Raven_Desk_3": "DARKJACK VOL. III",
@@ -1075,65 +1075,65 @@
                 "Guitar_2": "The guitar looks pristine.",
                 "Guitar_3": "You strum the guitar. It's out of tune.",
                 "Guitar_4": "You strum the guitar. It sounds pleasant.",
-            //token:Loose Paper
+            //bullet:Loose Paper
                 "LoosePaper_1": "It's a to-do list.",
                 "LoosePaper_2": "It's sheet music.",
                 "LoosePaper_3": "It's a journal entry.",
                 "LoosePaper_4": "It's a bunch of random notes.",
-            //token:Piano Keyboard
+            //bullet:Piano Keyboard
                 "PianoKey_1": "The keyboard is turned on.",
                 "PianoKey_2": "The keyboard is turned off.",
-            //token:Yoba Shrine
-                "YobaShrine_1": "Raven's Yoba shrine looks pristine.",
-                "YobaShrine_2": "Raven's Yoba shrine looks dusty.",
-                "YobaShrine_3": "Raven's Yoba shrine looks unusually shiny.",
-            //token:Bookshelf (No randomization)
+            //bullet:Yoba Shrine
+                "Raven_yobaShrine_1": "Raven's Yoba shrine looks pristine.",
+                "Raven_yobaShrine_2": "Raven's Yoba shrine looks dusty.",
+                "Raven_yobaShrine_3": "Raven's Yoba shrine looks unusually shiny.",
+            //bullet:Bookshelf (No randomization)
                 "Bookshelf": "A variety of novels and manga are on the bookshelf.",
-            //token:Crystal
+            //bullet:Crystal
                 "Crystal_1": "The crystal looks really shiny today.",
                 "Crystal_2": "The crystal looks dusty today.",
                 "Crystal_3": "The crystal has specks of mud on it today.",
                 "Crystal_4": "The crystal has small spiderwebs on it today.",
-            //token:Mailbox
+            //bullet:Mailbox
                 "Mailbox_1": "The mailbox is empty.",
                 "Mailbox_2": "The mailbox has some letters.",
                 "Mailbox_3": "The mailbox has junk mail.",
-            //token:Trash Bag
+            //bullet:Trash Bag
                 "TrashBag_1": "The trash bag is empty.",
                 "TrashBag_2": "The trash bag is full.",
                 "TrashBag_3": "The trash bag is half full.",
                 "TrashBag_4": "The trash bag is half empty.",
                 "TrashBag_5": "The trash bag is torn.",
                 "TrashBag_6": "The trash bag is leaking.",
-            //token:Journal
+            //bullet:Journal
                 "Journal_1": "The journal has a page bookmarked. Raven has been drawing!",
                 "Journal_2": "The journal has a page bookmarked. Raven has been writing sheet music!",
                 "Journal_3": "The journal has a page bookmarked. Raven has been journaling!",
                 "Journal_4": "The journal has a page bookmarked. Raven has been writing recipes!",
-            //token:Stove
+            //bullet:Stove
                 "Stove_1": "The stove is clean.",
                 "Stove_2": "There are leftovers on the stove.",
                 "Stove_3": "The stove is dirty.",
-            //token:Stove
+            //bullet:Stove
                 "Stove2_1": "The stove is clean.",
                 "Stove2_2": "The stove is dirty.",
-            //token:Logs
+            //bullet:Logs
                 "Logs_1": "The log pile is full.",
                 "Logs_2": "The log pile is getting low.",
                 "Logs_3": "The log pile is is half full.",
                 "Logs_4": "The log pile is is half empty.",
                 "Logs_5": "The log pile smells fresh.",
-            //token:{{ravenFridge}} -> {{i18n:Fridge_{{Random:{{Range:1,_}}}}}} -> Fridge
+            //bullet:Fridge
                 "Fridge_1": "The fridge is full of food.",
                 "Fridge_2": "The fridge is getting low on food.",
                 "Fridge_3": "The fridge has food.",
                 "Fridge_4": "The fridge has leftovers.",
                 "Fridge_5": "The fridge smells of spoiled food.",
-            //token:{{ravenComputer}} -> {{i18n:Computer_{{Random:{{Range:1,_}}}}}} -> Computer
+            //bullet:Computer
                 "Computer_1": "L0veRaven's Twitch",
                 "Computer_2": "L0veRaven's Website",
                 "Computer_3": "L0veRaven's YouTube",
-            //token:{{ravenTrashBin}} -> {{i18n:TrashBin_{{Random:{{Range:1,_}}}}}} -> TrashBin
+            //bullet:TrashBin
                 "TrashBin_1": "The trash is empty.",
                 "TrashBin_2": "The trash is full.",
                 "TrashBin_3": "The trash is half full.",

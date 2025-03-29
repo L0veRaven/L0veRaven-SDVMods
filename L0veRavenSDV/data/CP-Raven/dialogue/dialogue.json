@@ -212,7 +212,7 @@
                     "Hearts:{{Raven}}": "10"
                 }
             },
-        //Logname:Weather
+        //logname:Weather
             //label:Spring
                 {
                     "LogName": "Weather - Spring Rain",
@@ -419,31 +419,31 @@
                         "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
                     }
                 },
-            //IN Festival
+        //logname:During Festivals
             {
                 "LogName": "dialogue.json: Festival Dialogue - In Events",
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    //Flower Dance
-                    "FlowerDance_Accept_Spouse": "{{flowDanAcceptSpouse}}",
-                    "FlowerDance_Accept": "{{flowDanAccept}}",
-                    "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",//danceRejection
-                    //Fair
-                    "Fair_Judging": "{{FairJudging}}",
-                    "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Raven_sdvFair_Judged_PlayerLost_PurpleShorts}}",
-                    "Fair_Judged_PlayerLost_Skipped": "{{FairJudgeSkip}}",
-                    "Fair_Judged_PlayerLost": "{{FairJudgeLost}}",
-                    "Fair_Judged_PlayerWon": "{{FairJudgeWon}}",
-                    "Fair_Judged": "{{FairJudged}}",
-                    //Winter Star
-                    "WinterStar_GiveGift_Before": "{{winterStarGiftBefore}}",
-                    "WinterStar_GiveGift_After": "{{winterStarGiftAfter}}",
-                    
-                    "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
-                    "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
-                    
-                    "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}"
+                    //bullet:Flower Dance
+                        "FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",
+                        "FlowerDance_Accept": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",
+                        "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",//danceRejection
+                    //bullet:Fair
+                        "Fair_Judging": "{{i18n:Raven_sdvFair_Judging_{{Random:{{Range:1,3}}}}}}",
+                        "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Raven_sdvFair_Judged_PlayerLost_PurpleShorts}}",
+                        "Fair_Judged_PlayerLost_Skipped": "{{i18n:Raven_sdvFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",
+                        "Fair_Judged_PlayerLost": "{{i18n:Raven_sdvFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",
+                        "Fair_Judged_PlayerWon": "{{i18n:Raven_sdvFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",
+                        "Fair_Judged": "{{i18n:Raven_sdvFair_Judged_{{Random:{{Range:1,3}}}}}}",
+                    //bullet:Winter Star
+                        "WinterStar_GiveGift_Before": "{{i18n:Raven_winterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",
+                        "WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",
+                        
+                        "WinterStar_GiveGift_Before_Spouse": "{{i18n:Raven_winterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",
+                        "WinterStar_GiveGift_After_Spouse": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",
+                        
+                        "WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}"
                 }
             },
             //Conversation Topics
@@ -503,12 +503,12 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "MovieInvitation": "{{movieInvite}}",
-                    "MovieInvite_Spouse_{{Raven}}": "{{movieInviteSpouse}}",
-                    "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{movieInviteAlrInv}}",
-                    "RejectMovieTicket_AlreadyWatchedThisWeek": "{{movieInviteAlrWat}}",
-                    "RejectMovieTicket_Divorced": "{{movieInviteDivorced}}",
-                    "RejectMovieTicket_DontWantToSeeThatMovie": "{{movieInviteDislike}}",
+                    "MovieInvitation": "{{i18n:MovieInvitation_{{Random:{{Range:1,5}}}}}}",
+                    "MovieInvite_Spouse_{{Raven}}": "{{i18n:MovieInvite_Spouse_{{Random:{{Range:1,5}}}}}}",
+                    "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse_{{Random:{{Range:1,3}}}}}}",
+                    "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek_{{Random:{{Range:1,3}}}}}}",
+                    "RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced_{{Random:{{Range:1,5}}}}}}",
+                    "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie_{{Random:{{Range:1,3}}}}}}",
                     "RejectMovieTicket": "{{i18n:RejectMovieTicket}}"
                 }
             },
@@ -587,30 +587,30 @@
                     "{{Raven}}1": "{{i18n:Raven_Engagement_1}}"
                 }
             },
-            //Marriage Topics
-            {
-                "LogName": "dialogue.json: Marriage Topics",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    //Proposal->Wedding
-                    "{{Raven}}_Engaged": "{{i18n:Raven_Engaged}}",//Gifted pendant
-                    //Household Dialogue
-                    "SpouseFarmhouseClutter": "{{i18n:Raven_SpouseFarmhouseClutter}}",
-                    "Spouse_MonstersInHouse": "{{i18n:Raven_Spouse_MonstersInHouse}}",
-                    "SpouseGiftJealous": "{{i18n:Raven_SpouseGiftJealous}}",
-                    "SpouseStardrop": "{{i18n:Raven_SpouseStardrop}}",
-                    //Mermaid Pendant
-                    "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
-                    "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Raven_RejectMermaidPendant_NeedHouseUpgrade}}",
-                    "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_NpcWithSomeoneElse}}",
-                    "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_PlayerWithSomeoneElse}}",
-                    "RejectMermaidPendant_Under8hearts": "{{i18n:Raven_RejectMermaidPendant_Under_8hearts}}",
-                    "RejectMermaidPendant_Under10Hearts": "{{i18n:Raven_RejectMermaidPendant_Under_10Hearts}}",
-                    "RejectMermaidPendant_Under10hearts_AskedAgain": "{{i18n:Raven_RejectMermaidPendant_Under_10hearts_AskedAgain}}"
-                }
-            },
-            //Summit Dialogue
+            //logname:Marriage Topics
+                {
+                    "LogName": "dialogue.json: Marriage Topics",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        //Proposal->Wedding
+                            "{{Raven}}_Engaged": "{{i18n:Raven_Engaged}}",//Gifted pendant
+                        //Household Dialogue
+                            "SpouseFarmhouseClutter": "{{i18n:Raven_SpouseFarmhouseClutter}}",
+                            "Spouse_MonstersInHouse": "{{i18n:Raven_Spouse_MonstersInHouse}}",
+                            "SpouseGiftJealous": "{{i18n:Raven_SpouseGiftJealous}}",
+                            "SpouseStardrop": "{{i18n:Raven_SpouseStardrop}}",
+                        //Mermaid Pendant
+                            "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
+                            "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Raven_RejectMermaidPendant_NeedHouseUpgrade}}",
+                            "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_NpcWithSomeoneElse}}",
+                            "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                            "RejectMermaidPendant_Under8hearts": "{{i18n:Raven_RejectMermaidPendant_Under_8hearts}}",
+                            "RejectMermaidPendant_Under10Hearts": "{{i18n:Raven_RejectMermaidPendant_Under_10Hearts}}",
+                            "RejectMermaidPendant_Under10hearts_AskedAgain": "{{i18n:Raven_RejectMermaidPendant_Under_10hearts_AskedAgain}}"
+                    }
+                },
+        //logname:Summit Dialogue
             {
                 "LogName": "dialogue.json: Summit Dialogue",
                 "Action": "EditData",
