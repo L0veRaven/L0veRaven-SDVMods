@@ -36,9 +36,9 @@
             "Target": "Strings/StringsFromMaps",
             "Entries": {
                 "L0veRavenRavenApartment.1": "{{i18n:YobaShrine_{{Random:{{Range:1,3}}}}}}",//Yoba Shrine
-                "L0veRavenRavenApartment.2": "{{i18n:Bookshelf}}",//Stove
+                "L0veRavenRavenApartment.2": "{{i18n:Bookshelf}}",//Bookshelf
                 "L0veRavenRavenApartment.3": "{{i18n:Fridge_{{Random:{{Range:1,5}}}}}}",//Fridge
-                "L0veRavenRavenApartment.4": "{{i18n:Stove_{{Random:{{Range:1,3}}}}}}",//Stove 2
+                "L0veRavenRavenApartment.4": "{{i18n:Stove2_{{Random:{{Range:1,2}}}}}}",//Stove 2
                 "L0veRavenRavenApartment.5": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}",//Computer
                 "L0veRavenRavenApartment.6": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",//Trash Bin
             }
