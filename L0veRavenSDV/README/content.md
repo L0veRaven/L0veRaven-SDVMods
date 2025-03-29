@@ -1266,8 +1266,8 @@ Egg Festival
      
 ```
 {"Name": "Raven_eggFestival_dayBefore","Value": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",},
-{"Name": "eggFestToday","Value": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "eggFestTomo","Value": "{{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "Raven_eggFestival_dayOf","Value": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "Raven_eggFestival_dayAfter","Value": "{{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1281,9 +1281,9 @@ Flower Dance
     <summary>Expand Code</summary>
      
 ```
-{"Name": "flowDanYest","Value": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "flowDanToday","Value": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanTomo","Value": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "Raven_flowerDance_dayBefore","Value": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "Raven_flowerDance_dayOf","Value": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "Raven_flowerDance_dayAfter","Value": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1299,9 +1299,9 @@ Luau
     <summary>Expand Code</summary>
      
 ```
-{"Name": "luauYest","Value": "{{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauToday","Value": "{{i18n:Raven_luau_dayOf_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "luauTomo","Value": "{{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "Raven_luau_dayBefore","Value": "{{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "Raven_luau_dayOf","Value": "{{i18n:Raven_luau_dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "Raven_luau_dayAfter","Value": "{{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1315,7 +1315,7 @@ Potluck
     <summary>Expand Code</summary>
      
 ```
-{"Name": "potluckYest","Value": "{{i18n:potluck_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "potluckYest","Value": "{{i18n:Raven_luauPotluck_dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckToday","Value": "{{i18n:potluck_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckTomo","Value": "{{i18n:potluck_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1350,11 +1350,11 @@ Stardew Valley Fair
 {"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudging","Value": "{{i18n:Fair_Judging_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeSkip","Value": "{{i18n:Fair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeLost","Value": "{{i18n:Fair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeWon","Value": "{{i18n:Fair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudged","Value": "{{i18n:Fair_Judged_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudging","Value": "{{i18n:Raven_sdvFair_Judging_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeSkip","Value": "{{i18n:Raven_sdvFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeLost","Value": "{{i18n:Raven_sdvFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeWon","Value": "{{i18n:Raven_sdvFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudged","Value": "{{i18n:Raven_sdvFair_Judged_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1403,8 +1403,8 @@ Feast of the Winter Star
 {"Name": "winterStarYest","Value": "{{i18n:Raven_winterStar_dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarToday","Value": "{{i18n:Raven_winterStar_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarTomo","Value": "{{i18n:Raven_winterStar_dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBefore","Value": "{{i18n:WinterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:WinterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBefore","Value": "{{i18n:Raven_winterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:Raven_winterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}",},
@@ -1425,15 +1425,15 @@ Feast of the Winter Star
 //Generic
 {"Name": "generic","Value": "{{i18n:Raven_generic_{{Random:{{Range:1,14}}}}}}",},
 
-{"Name": "genericSpring","Value": "{{i18n:Raven_genericspring_{{Random:{{Range:1,7}}}}}}",},
-{"Name": "genericSummer","Value": "{{i18n:Raven_genericsummer_{{Random:{{Range:1,7}}}}}}",},
-{"Name": "genericFall","Value": "{{i18n:genericfall_{{Random:{{Range:1,7}}}}}}",},
-{"Name": "genericWinter","Value": "{{i18n:genericwinter_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericSpring","Value": "{{i18n:Raven_genericSpring_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericSummer","Value": "{{i18n:Raven_genericSummer_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericFall","Value": "{{i18n:Raven_genericFall_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "genericWinter","Value": "{{i18n:Raven_genericWinter_{{Random:{{Range:1,7}}}}}}",},
 
-{"Name": "marriedGenSpring","Value": "{{i18n:married_Raven_genericspring_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "marriedGenSummer","Value": "{{i18n:married_Raven_genericsummer_{{Random:{{Range:1,5}}}}}}",},
-{"Name": "marriedGenFall","Value": "{{i18n:married_genericfall_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "marriedGenWinter","Value": "{{i18n:married_genericwinter_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "marriedGenSpring","Value": "{{i18n:Raven_married_genericSpring_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "marriedGenSummer","Value": "{{i18n:Raven_married_genericSummer_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "marriedGenFall","Value": "{{i18n:Raven_married_genericFall_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "marriedGenWinter","Value": "{{i18n:Raven_married_genericWinter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1450,7 +1450,7 @@ GreenRain
     <summary>Expand Code</summary>
 
 ```
-{"Name": "gRain3","Value": "{{i18n:GreenRain_3_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "gRain3","Value": "{{i18n:Raven_greenRain_3{{Random:{{Range:1,10}}}}}}",},
 {"Name": "gRain3Fin","Value": "{{i18n:GreenRainFinished_3_{{Random:{{Range:1,10}}}}}}",},
 ```
 </details>
@@ -1528,13 +1528,13 @@ Heart Dialogue
     <summary>Expand Code</summary>
 
 ```
-{"Name": "0hearts","Value": "{{i18n:0hearts_{{Random:{{Range:1,10}}}}}}",},
-{"Name": "2hearts","Value": "{{i18n:2hearts_{{Random:{{Range:1,8}}}}}}",},
-{"Name": "4hearts","Value": "{{i18n:4hearts_{{Random:{{Range:1,5}}}}}}",},
-{"Name": "6hearts","Value": "{{i18n:6hearts_{{Random:{{Range:1,10}}}}}}",},
-{"Name": "8hearts","Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}",},
-{"Name": "8heartsdating","Value": "{{i18n:8heartsdating_{{Random:{{Range:1,10}}}}}}",},
-{"Name": "10hearts","Value": "{{i18n:8hearts_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "0hearts","Value": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "2hearts","Value": "{{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}}",},
+{"Name": "Raven_4hearts","Value": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "Raven_6hearts","Value": "{{i18n:Raven_6hearts_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "Raven_8hearts","Value": "{{i18n:Raven_8hearts_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "Raven_8heartsdating","Value": "{{i18n:Raven_8heartsdating_{{Random:{{Range:1,10}}}}}}",},
+{"Name": "10hearts","Value": "{{i18n:Raven_8hearts_{{Random:{{Range:1,10}}}}}}",},
 ```
 </dialogue>
 
@@ -1564,10 +1564,10 @@ Married Dialogue
     <summary>Expand Code</summary>
 
 ```
-{"Name": "inSpouseRoom","Value": "{{i18n:inSpouseRoom_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "onSpousePatio","Value": "{{i18n:spousepatio_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "inSpouseRoom","Value": "{{i18n:Raven_inSpouseRoom_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "onSpousePatio","Value": "{{i18n:Raven_spousePatio_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "marRainDay","Value": "{{i18n:Rainy_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
-{"Name": "marRainNight","Value": "{{i18n:Rainy_Night_{{Random:Raven,0,{{Range:1,5}}}}}}",},
+{"Name": "marRainNight","Value": "{{i18n:Raven_rainyNight_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marIndDay","Value": "{{i18n:Indoor_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marIndNight","Value": "{{i18n:Indoor_Night_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marOutdoor","Value": "{{i18n:Outdoor_{{Random:Raven,0,{{Range:1,4}}}}}}",},
@@ -1678,7 +1678,7 @@ Strings - Map Objects
 
 ```
 //Mod Compat
-{"Name": "NBDialogue","Value": "{{i18n:NBDialogue_{{Random:{{Range:1,22}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
+{"Name": "NBDialogue","Value": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}","When": {"HasMod |contains={{NB}}": "true",},},
 
 ```
 </details>

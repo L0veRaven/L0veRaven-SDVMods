@@ -22,7 +22,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Tue": "{{NBDialogue}}","{{season}}_Thu": "{{NBDialogue}}",
+                "{{season}}_Tue": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}","{{season}}_Thu": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}",
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",

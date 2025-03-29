@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "L0veRavenRavenSpousePatio.1": "{{ravenYobaShrine}}",//Yoba Shrine
-                "L0veRavenRavenSpousePatio.2": "{{ravenCrystal}}",//Crystal
+                "L0veRavenRavenSpousePatio.1": "{{i18n:YobaShrine_1}}",//Yoba Shrine
+                "L0veRavenRavenSpousePatio.2": "{{i18n:Crystal_{{Random:{{Range:1,4}}}}}}",//Crystal
             }
         },
     ]

@@ -35,10 +35,10 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "L0veRavenRavenApartment.1": "{{ravenYobaShrine}}",//Yoba Shrine
+                "L0veRavenRavenApartment.1": "{{i18n:YobaShrine_{{Random:1,3}}}}",//Yoba Shrine
                 "L0veRavenRavenApartment.2": "{{i18n:Bookshelf}}",//Stove
                 "L0veRavenRavenApartment.3": "{{ravenFridge}}",//Fridge
-                "L0veRavenRavenApartment.4": "{{ravenStove2}}",//Stove 2
+                "L0veRavenRavenApartment.4": "{{i18n:Stove_{{Random:{{Range:1,_}}}}}}",//Stove 2
                 "L0veRavenRavenApartment.5": "{{ravenComputer}}",//Computer
                 "L0veRavenRavenApartment.6": "{{ravenTrashBin}}",//Trash Bin
             }

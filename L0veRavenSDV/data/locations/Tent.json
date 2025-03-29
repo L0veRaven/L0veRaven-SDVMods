@@ -87,8 +87,8 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "L0veRavenRavenTentOutdoors.1": "{{ravenMailbox}}",//Mailbox
-                "L0veRavenRavenTentOutdoors.2": "{{ravenTrashBag}}",//Trash Bag
+                "L0veRavenRavenTentOutdoors.1": "{{{i18n:Mailbox_{{Random:{{Range:1,3}}}}}}",//Mailbox
+                "L0veRavenRavenTentOutdoors.2": "{{i18n:TrashBag_{{Random:{{Range:1,6}}}}}}",//Trash Bag
             }
         },
         {
@@ -96,9 +96,9 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "L0veRavenRavenTentInside.1": "{{ravenJournal}}",//Journal
-                "L0veRavenRavenTentInside.2": "{{ravenStove}}",//Stove
-                "L0veRavenRavenTentInside.3": "{{ravenLogs}}",//Logs
+                "L0veRavenRavenTentInside.1": "{{i18n:Journal_{{Random:{{Range:1,4}}}}}}",//Journal
+                "L0veRavenRavenTentInside.2": "{{i18n:Stove_{{Random:{{Range:1,3}}}}}}",//Stove
+                "L0veRavenRavenTentInside.3": "{{i18n:Logs_{{Random:{{Range:1,5}}}}}}",//Logs
             }
         },
         {

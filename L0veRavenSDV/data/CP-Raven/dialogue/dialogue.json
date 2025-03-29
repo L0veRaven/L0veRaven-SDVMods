@@ -1,640 +1,623 @@
 {
     "Changes": [
-        //{{Raven_firstOfSeason}}
-        {
-            "LogName": "Raven_firstOfSeason - Year 1",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "summer_1": "{{Raven_firstOfSeason}}",
-                "fall_1": "{{Raven_firstOfSeason}}",
-                "winter_1": "{{Raven_firstOfSeason}}"
+        //logname:First of Season
+            {
+                "LogName": "First of Season - Year 1",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "summer_1": "{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}",
+                    "fall_1": "{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}",
+                    "winter_1": "{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}"
+                },
+                "When": {
+                    "Year": "1"
+                }
             },
-            "When": {
-                "Year": "1"
-            }
-        },
-        {
-            "LogName": "Raven_firstOfSeason - Year 2",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "spring_1": "{{Raven_firstOfSeason}}",
-                "summer_1": "{{Raven_firstOfSeason}}",
-                "fall_1": "{{Raven_firstOfSeason}}",
-                "winter_1": "{{Raven_firstOfSeason}}"
+            {
+                "LogName": "First of Season - Year 2",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "spring_1": "{{i18n:Raven_spring_first_{{Random:{{Range:1,4}}}}}}",
+                    "summer_1": "{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}",
+                    "fall_1": "{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}",
+                    "winter_1": "{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}"
+                },
+                "When": {
+                    "Year": "2"
+                }
             },
-            "When": {
-                "Year": "2"
-            }
-        },
-        //{{RavenMedsDialogue}}
-        {
-            "LogName": "dialogue.json: Birthday Doctor Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Thu": "{{RavenMedsDialogue}}"
+        //logname:token:Medication Pickup
+            {
+                "LogName": "Medication Pickup Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Thu": "{{RavenMedicationPickupDialogue}}"
+                },
+                "When": {
+                    "Query: '{{Day}}' = '18'": "true"
+                }
             },
-            "When": {
-                "Query: '{{Day}}' = '18'": "true"
-            }
-        },
-        //Festivals
-        {
-            "LogName": "dialogue.json: Festival Dialogue (Yesterday, Today, Tomorrow)",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //Egg Festival
-                "spring_12": "{{Raven_eggFestival_dayBefore}}",
-                "spring_13": "{{eggFestToday}}",
-                "spring_14": "{{eggFestTomo}}",
-                //Flower Dance
-                "spring_23": "{{flowDanYest}}",
-                "spring_24": "{{flowDanToday}}",
-                "spring_25": "{{flowDanTomo}}",
-                //Luau
-                "summer_10": "{{luauYest}}",
-                "summer_11": "{{luauToday}}",
-                "summer_12": "{{luauTomo}}",
-                //Midnight Jellies
-                "summer_27": "{{MooJellYest}}",
-                "summer_28": "{{MooJellToday}}",
-                "summer_29": "{{MooJellTomo}}",
-                //Stardew Fair
-                "fall_15": "{{FairYest}}",
-                "fall_16": "{{FairToday}}",
-                "fall_17": "{{FairTomo}}",
-                //Spirit's Eve
-                "fall_26": "{{spiritsEveYest}}",
-                "fall_27": "{{spiritsEveToday}}",
-                "fall_28": "{{spiritsEveTomo}}",
-                //Ice Festival
-                "winter_7": "{{iceFestYest}}",
-                "winter_8": "{{iceFestToday}}",
-                "winter_9": "{{iceFestTomo}}",
-                //Winter Star
-                "winter_24": "{{winterStarYest}}",
-                "winter_25": "{{winterStarToday}}",
-                "winter_26": "{{winterStarTomo}}"
-            }
-        },
-        //Plain Seasons
-        {
-            "LogName": "dialogue.json: Seasons (May Not Appear In-Game)",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "spring": "{{i18n:spring}}",
-                "summer": "{{i18n:summer}}",
-                "fall": "{{i18n:fall}}",
-                "winter": "{{i18n:winter}}"
-            }
-        },
-        //{{genericSeason}} (Mon, Thu)
-        {
-            "LogName": "dialogue.json: Generic Seasonal Dialogue (Mon, Thu)",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{genericSeason}}",
-                "Thu": "{{genericSeason}}"
+        //logname:Festivals
+            {
+                "LogName": "Festival Dialogue (Day Before, Day Of, Day After)",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //label:Egg Festival
+                        "spring_12": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",
+                        "spring_13": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",
+                        "spring_14": "{{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,5}}}}}}",
+                    //label:Flower Dance
+                        "spring_23": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",
+                        "spring_24": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "spring_25": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Luau
+                        "summer_10": "{{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "summer_11": "{{i18n:Raven_luau_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "summer_12": "{{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Midnight Jellies
+                        "summer_27": "{{i18n:Raven_moonlightJellies_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "summer_28": "{{i18n:Raven_moonlightJellies_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "summer_29": "{{i18n:Raven_moonlightJellies_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Stardew Fair
+                        "fall_15": "{{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "fall_16": "{{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "fall_17": "{{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Spirit's Eve
+                        "fall_26": "{{i18n:Raven_spiritsEve_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "fall_27": "{{i18n:Raven_spiritsEve_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "fall_28": "{{i18n:Raven_spiritsEve_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Ice Festival
+                        "winter_7": "{{i18n:Raven_iceFestival_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "winter_8": "{{i18n:Raven_iceFestival_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "winter_9": "{{i18n:Raven_iceFestival_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                    //label:Winter Star
+                        "winter_24": "{{i18n:Raven_winterStar_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "winter_25": "{{i18n:Raven_winterStar_dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "winter_26": "{{i18n:Raven_winterStar_dayAfter_{{Random:{{Range:1,3}}}}}}"
+                }
             },
-            "When": {
-                "Query: '{{day}}' = '18'": false
-            }
-        },
-        //{{generic}} (Tue, Sun)
-        {
-            "LogName": "dialogue.json: Generic Dialogue (Tue, Sun)",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Tue": "{{generic}}",
-                "Sun": "{{generic}}"
-            }
-        },
-        //Heart Dialogue (Wed, Fri, Sat)
-            //{{0hearts}}
-        {
-            "LogName": "dialogue.json: 0 Heart Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //{{Raven}}_CatLover, {{Raven}}_CheckIn
-                "Wed": "{{0hearts}}",
-                "Fri": "{{0hearts}}",
-                "Sat": "{{0hearts}}"
+        //logname:Plain Seasons
+            {
+                "LogName": "Seasons (May Not Appear In-Game)",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "spring": "{{i18n:Raven_spring}}",
+                    "summer": "{{i18n:Raven_summer}}",
+                    "fall": "{{i18n:Raven_fall}}",
+                    "winter": "{{i18n:Raven_winter}}"
+                }
             },
-            "When": {
-                "Hearts:{{Raven}}": "0, 1"
-            }
-        },
-            //{{2hearts}}
-        {
-            "LogName": "dialogue.json: 2 Heart Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{2hearts}} |{{i18n:WildClansQuery}}"
+        //logname:token:Generic Seasonal Dialogue (Mon, Thu)
+            {
+                "LogName": "Generic Seasonal Dialogue (Mon, Thu)",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Mon": "{{RavenGenericSeason}}",
+                    "Thu": "{{RavenGenericSeason}}"
+                },
+                "When": {
+                    "Query: '{{day}}' = '18'": false
+                }
             },
-            "When": {
-                "Hearts:{{Raven}}": "2, 3"
-            }
-        },
-            //{{4hearts}}
-        {
-            "LogName": "dialogue.json: 4 Heart Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "{{4hearts}}",
-                "Fri": "{{4hearts}}",
-                "Sat": "{{4hearts}}"
+            {
+                "LogName": "Generic Dialogue (Tue, Sun)",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Tue": "{{i18n:Raven_generic_{{Random:{{Range:1,12}}}}}}",
+                    "Sun": "{{i18n:Raven_generic_{{Random:{{Range:1,12}}}}}}"
+                }
             },
-            "When": {
-                "Hearts:{{Raven}}": "4, 5"
-            }
-        },
-            //{{6hearts}}
-        {
-            "LogName": "dialogue.json: 6 Heart Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{6hearts}} |{{i18n:JobInterviewQuery}}"
+        //logname:token:Heart Dialogue (Wed, Fri, Sat)
+            {
+                "LogName": "0 Heart Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //trigger:{{Raven}}_CatLover, {{Raven}}_CheckIn
+                        "Wed": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}",
+                        "Fri": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}",
+                        "Sat": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}"
+                },
+                "When": {
+                    "Hearts:{{Raven}}": "0, 1"
+                }
             },
-            "When": {
-                "Hearts:{{Raven}}": "6, 7"
-            }
-        },
-            //{{8hearts}}
-        {
-            "LogName": "dialogue.json: 8 Heart Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{8hearts}} |{{i18n:ApartmentQuery}}"
+            {
+                "LogName": "2 Heart Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //trigger:Letter _WildClans
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received"
+                },
+                "When": {
+                    "Hearts:{{Raven}}": "2, 3"
+                }
             },
-            "When": {
-                "Hearts:{{Raven}}": "8",
-                "Relationship:{{Raven}}": "Friendly"
-            }
-        },
-            //{{8heartsdating}}
-        {
-            "LogName": "dialogue.json: 8 Hearts - Dating",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "{{8heartsdating}}",
-                "Fri": "{{8heartsdating}}",
-                "Sat": "{{8heartsdating}}"
+            {
+                "LogName": "4 Heart Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Wed": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}",
+                    "Fri": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}",
+                    "Sat": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}"
+                },
+                "When": {
+                    "Hearts:{{Raven}}": "4, 5"
+                }
             },
-            "When": {
-                "Relationship:{{Raven}}": "Dating",
-                "Hearts:{{Raven}}": "8, 9"
-            }
-        },
-            //{{10hearts}}
-        {
-            "LogName": "dialogue.json: 10 Hearts",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Wed": "{{10hearts}}",
-                "Fri": "{{10hearts}}",
-                "Sat": "{{10hearts}}"
+            {
+                "LogName": "6 Heart Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //trigger:Add Letter _JobInterview
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
+                },
+                "When": {
+                    "Hearts:{{Raven}}": "6, 7"
+                }
             },
-            "When": {
-                "Relationship:{{Raven}}": "Dating",
-                "Hearts:{{Raven}}": "10"
-            }
-        },
-        //Weather
-            //Spring
-                //Rain
-        {
-            "LogName": "dialogue.json: Weather - Spring Rain",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}",
-                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{spRain}} |{{i18n:rainQuery}}"
+            {
+                "LogName": "8 Heart Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}"
+                },
+                "When": {
+                    "Hearts:{{Raven}}": "8",
+                    "Relationship:{{Raven}}": "Friendly"
+                }
             },
-            "When": {
-                "Weather": "Rain",
-                "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Storm
-        {
-            "LogName": "dialogue.json: Weather - Spring Storm",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{spStorm}}",
-                "Tue": "{{spStorm}}",
-                "Wed": "{{spStorm}}",
-                "Thu": "{{spStorm}}",
-                "Fri": "{{spStorm}}",
-                "Sat": "{{spStorm}}",
-                "Sun": "{{spStorm}}"
+            {
+                "LogName": "8 Hearts - Dating",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Wed": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}",
+                    "Fri": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}",
+                    "Sat": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}"
+                },
+                "When": {
+                    "Relationship:{{Raven}}": "Dating",
+                    "Hearts:{{Raven}}": "8, 9"
+                }
             },
-            "When": {
-                "Weather": "Storm",
-                "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Wind
-        {
-            "LogName": "dialogue.json: Weather - Spring Wind",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{spWind}}",
-                "Tue": "{{spWind}}",
-                "Wed": "{{spWind}}",
-                "Thu": "{{spWind}}",
-                "Fri": "{{spWind}}",
-                "Sat": "{{spWind}}",
-                "Sun": "{{spWind}}"
+            {
+                "LogName": "10 Hearts",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Wed": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}",
+                    "Fri": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}",
+                    "Sat": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}"
+                },
+                "When": {
+                    "Relationship:{{Raven}}": "Dating",
+                    "Hearts:{{Raven}}": "10"
+                }
             },
-            "When": {
-                "Weather": "Wind",
-                "Season": "Spring",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-            //Summer
-                //Green Rain
-        {
-            "LogName": "dialogue.json: Weather - Green Rain",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "GreenRain": "{{i18n:GreenRain_1}}",
-                "GreenRainFinished": "{{i18n:GreenRainFinished_1}}",
-                "GreenRain_2": "{{i18n:GreenRain_2}}",
-                "GreenRainFinished_2": "{{i18n:GreenRainFinished_2}}",
-                "GreenRain_3": "{{gRain3}}",
-                "GreenRainFinished_3": "{{gRain3Fin}}"
-            }
-        },
-                //Rain
-        {
-            "LogName": "dialogue.json: Weather - Summer Rain",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}",
-                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{suRain}} |{{i18n:rainQuery}}"
+        //Logname:Weather
+            //label:Spring
+                {
+                    "LogName": "Weather - Spring Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Spring Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Tue": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Wed": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Thu": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Fri": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Sat": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}",
+                        "Sun": "{{i18n:Raven_spring_Storm_{{Random:{{Range:1,5}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Spring Wind",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:Raven_spring_Wind_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Wind",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+            //label:Summer
+                {
+                    "LogName": "Weather - Green Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "GreenRain": "{{i18n:Raven_greenRain_1}}",
+                        "GreenRainFinished": "{{i18n:Raven_greenRain_Finished_1}}",
+                        "GreenRain_2": "{{i18n:Raven_greenRain_2}}",
+                        "GreenRainFinished_2": "{{i18n:Raven_greenRain_Finished_2}}",
+                        "GreenRain_3": "{{i18n:Raven_greenRain_3_{{Random:{{Range:1,10}}}}}}",
+                        "GreenRainFinished_3": "{{i18n:Raven_greenRain_Finished_3_{{Random:{{Range:1,10}}}}}}"
+                    }
+                },
+                {
+                    "LogName": "Weather - Summer Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Summer",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Summer Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:summerStorm_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Summer",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+            //label:Fall
+                {
+                    "LogName": "Weather - Fall Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Fall Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:Raven_fall_Storm_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Fall Wind",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:Raven_fall_Wind_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Wind",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Winter Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:Raven_winter_Rain_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Winter",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Snow",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Tue": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Wed": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Thu": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Fri": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Sat": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}",
+                        "Sun": "{{i18n:Raven_snow_{{Random:{{Range:1,5}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Snow",
+                        "Season": "Winter",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+            //IN Festival
+            {
+                "LogName": "dialogue.json: Festival Dialogue - In Events",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //Flower Dance
+                    "FlowerDance_Accept_Spouse": "{{flowDanAcceptSpouse}}",
+                    "FlowerDance_Accept": "{{flowDanAccept}}",
+                    "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",//danceRejection
+                    //Fair
+                    "Fair_Judging": "{{FairJudging}}",
+                    "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Raven_sdvFair_Judged_PlayerLost_PurpleShorts}}",
+                    "Fair_Judged_PlayerLost_Skipped": "{{FairJudgeSkip}}",
+                    "Fair_Judged_PlayerLost": "{{FairJudgeLost}}",
+                    "Fair_Judged_PlayerWon": "{{FairJudgeWon}}",
+                    "Fair_Judged": "{{FairJudged}}",
+                    //Winter Star
+                    "WinterStar_GiveGift_Before": "{{winterStarGiftBefore}}",
+                    "WinterStar_GiveGift_After": "{{winterStarGiftAfter}}",
+                    
+                    "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
+                    "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
+                    
+                    "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}"
+                }
             },
-            "When": {
-                "Weather": "Rain",
-                "Season": "Summer",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Storm
-        {
-            "LogName": "dialogue.json: Weather - Summer Storm",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{suStorm}}",
-                "Tue": "{{suStorm}}",
-                "Wed": "{{suStorm}}",
-                "Thu": "{{suStorm}}",
-                "Fri": "{{suStorm}}",
-                "Sat": "{{suStorm}}",
-                "Sun": "{{suStorm}}"
+            //Conversation Topics
+            {
+                "LogName": "dialogue.json: Conversation Topics - Default",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //General
+                    "Introduction": "{{i18n:Introduction}}",
+                    "willyCrabs": "{{i18n:willyCrabs}}",
+                    "pamHouseUpgrade": "{{i18n:pamHouseUpgrade}}",
+                    "pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous}}",
+                    "joja_Begin": "{{i18n:joja_Begin}}",
+                    "movieTheater": "{{i18n:movieTheater}}",
+                    "DumpsterDiveComment": "{{i18n:DumpsterDiveComment_{{Random:{{Range:1,10}}}}}}",
+                    "HitBySlingshot": "{{i18n:HitBySlingshot_{{Random:{{Range:1,10}}}}}}",
+                    //Community Center
+                    "cc_Begin": "{{i18n:cc_Begin}}",
+                    "cc_Minecart": "{{i18n:cc_Minecart}}",
+                    "cc_Greenhouse": "{{i18n:cc_Greenhouse}}",
+                    "cc_Bus": "{{i18n:cc_Bus}}",
+                    "cc_Bridge": "{{i18n:cc_Bridge}}",
+                    "cc_Boulder": "{{i18n:cc_Boulder}}",
+                    "cc_Complete": "{{i18n:cc_Complete}}",
+                    //Win Festival Events
+                    "wonEggHunt": "{{i18n:wonEggHunt}}",
+                    "wonGrange": "{{i18n:wonGrange}}",
+                    "wonIceFishing": "{{i18n:wonIceFishing}}",
+                    //Saloon Event (Rabbit's Foot)
+                    "dumped_Guys": "{{i18n:dumped}}",
+                    "secondchance_Guys": "{{i18n:secondchance}}",
+                    //Other Events
+                    "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
+                    "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
+                    "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}"
+                }
             },
-            "When": {
-                "Weather": "Storm",
-                "Season": "Summer",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-            //Fall
-                //Rain
-        {
-            "LogName": "dialogue.json: Weather - Fall Rain",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}",
-                "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{faRain}} |{{i18n:rainQuery}}"
+            //Conversation Topics - Farmer Marriage
+            {
+                "LogName": "dialogue.json: Conversation Topics - Marriage Settings",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "married": "{{i18n:married_farmer}}",
+                    "married_twice": "{{i18n:married_farmer}}",
+                    "divorced_once": "{{i18n:divorced_farmer}}",
+                    "divorced_twice": "{{i18n:divorced_farmer}}"
+                },
+                "When": {
+                    "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                }
             },
-            "When": {
-                "Weather": "Rain",
-                "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Storm
-        {
-            "LogName": "dialogue.json: Weather - Fall Storm",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{faStorm}}",
-                "Tue": "{{faStorm}}",
-                "Wed": "{{faStorm}}",
-                "Thu": "{{faStorm}}",
-                "Fri": "{{faStorm}}",
-                "Sat": "{{faStorm}}",
-                "Sun": "{{faStorm}}"
+            //Movie Invite/Reject
+            {
+                "LogName": "dialogue.json: Movies Invitation/Rejection",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "MovieInvitation": "{{movieInvite}}",
+                    "MovieInvite_Spouse_{{Raven}}": "{{movieInviteSpouse}}",
+                    "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{movieInviteAlrInv}}",
+                    "RejectMovieTicket_AlreadyWatchedThisWeek": "{{movieInviteAlrWat}}",
+                    "RejectMovieTicket_Divorced": "{{movieInviteDivorced}}",
+                    "RejectMovieTicket_DontWantToSeeThatMovie": "{{movieInviteDislike}}",
+                    "RejectMovieTicket": "{{i18n:RejectMovieTicket}}"
+                }
             },
-            "When": {
-                "Weather": "Storm",
-                "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Wind
-        {
-            "LogName": "dialogue.json: Weather - Fall Wind",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{faWind}}",
-                "Tue": "{{faWind}}",
-                "Wed": "{{faWind}}",
-                "Thu": "{{faWind}}",
-                "Fri": "{{faWind}}",
-                "Sat": "{{faWind}}",
-                "Sun": "{{faWind}}"
+            //Island
+            {
+                "LogName": "dialogue.json: Island Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Resort": "{{resortD}}",
+                    "Resort_Bar": "{{resortBarD}}",
+                    "Resort_Chair": "{{resortChairD}}",
+                    "Resort_Dance": "{{resortDanceD}}",
+                    "Resort_Entering": "{{resortEnteringD}}",
+                    "Resort_Leaving": "{{resortLeavingD}}",
+                    "Resort_Shore": "{{resortShoreD}}",
+                    "Resort_Towel": "{{resortTowelD}}",
+                    "Resort_Umbrella": "{{resortUmbrellaD}}",
+                    "Resort_Wander": "{{resortWanderD}}"
+                }
             },
-            "When": {
-                "Weather": "Wind",
-                "Season": "Fall",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-            //Winter
-        {
-            "LogName": "dialogue.json: Weather - Winter Rain",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{wiRain}}",
-                "Tue": "{{wiRain}}",
-                "Wed": "{{wiRain}}",
-                "Thu": "{{wiRain}}",
-                "Fri": "{{wiRain}}",
-                "Sat": "{{wiRain}}",
-                "Sun": "{{wiRain}}"
+            //Location Entry
+            {
+                "LogName": "dialogue.json: Location Entry Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "SeedShop_Entry": "{{i18n:SeedShop_Entry}}",
+                    "Blacksmith_Entry": "{{i18n:Blacksmith_Entry}}",
+                    "AnimalShop_Entry": "{{i18n:AnimalShop_Entry}}",
+                    "Beach_Entry": "{{i18n:Beach_Entry}}",
+                    "Hospital_Entry": "{{i18n:Hospital_Entry}}",
+                    "MovieTheater_Entry": "{{i18n:MovieTheater_Entry}}",
+                    "Saloon_Entry": "{{i18n:Saloon_Entry}}",
+                    "Trailer_Entry": "{{i18n:Trailer_Entry}}",
+                    "Trailor_Big_Entry": "{{i18n:Trailor_Big_Entry}}",
+                    "WizardHouse_Entry": "{{i18n:WizardHouse_Entry}}"
+                }
             },
-            "When": {
-                "Weather": "Rain",
-                "Season": "Winter",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-                //Snow
-        {
-            "LogName": "dialogue.json: Weather - Snow",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Mon": "{{snowingD}}",
-                "Tue": "{{snowingD}}",
-                "Wed": "{{snowingD}}",
-                "Thu": "{{snowingD}}",
-                "Fri": "{{snowingD}}",
-                "Sat": "{{snowingD}}",
-                "Sun": "{{snowingD}}"
+            //Bouquet / BreakUp
+            {
+                "LogName": "dialogue.json: Dating",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //Gifted wilted flowers
+                    "breakUp": "{{i18n:breakUp}}",
+                    //Bouquet
+                    "AcceptBouquet": "{{i18n:AcceptBouquet}}",
+                    "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
+                    "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
+                    "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
+                    "RejectBouquet": "{{i18n:RejectBouquet}}"
+                }
             },
-            "When": {
-                "Weather": "Snow",
-                "Season": "Winter",
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
-            }
-        },
-        //IN Festival
-        {
-            "LogName": "dialogue.json: Festival Dialogue - In Events",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //Flower Dance
-                "FlowerDance_Accept_Spouse": "{{flowDanAcceptSpouse}}",
-                "FlowerDance_Accept": "{{flowDanAccept}}",
-                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",//danceRejection
-                //Fair
-                "Fair_Judging": "{{FairJudging}}",
-                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts}}",
-                "Fair_Judged_PlayerLost_Skipped": "{{FairJudgeSkip}}",
-                "Fair_Judged_PlayerLost": "{{FairJudgeLost}}",
-                "Fair_Judged_PlayerWon": "{{FairJudgeWon}}",
-                "Fair_Judged": "{{FairJudged}}",
-                //Winter Star
-                "WinterStar_GiveGift_Before": "{{winterStarGiftBefore}}",
-                "WinterStar_GiveGift_After": "{{winterStarGiftAfter}}",
-                
-                "WinterStar_GiveGift_Before_Spouse": "{{winterStarGiftBeforeSpouse}}",
-                "WinterStar_GiveGift_After_Spouse": "{{winterStarGiftAfterSpouse}}",
-                
-                "WinterStar_ReceiveGift": "{{winterStarGiftReceive}}"
-            }
-        },
-        //Conversation Topics
-        {
-            "LogName": "dialogue.json: Conversation Topics - Default",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //General
-                "Introduction": "{{i18n:Introduction}}",
-                "willyCrabs": "{{i18n:willyCrabs}}",
-                "pamHouseUpgrade": "{{i18n:pamHouseUpgrade}}",
-                "pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous}}",
-                "joja_Begin": "{{i18n:joja_Begin}}",
-                "movieTheater": "{{i18n:movieTheater}}",
-                "DumpsterDiveComment": "{{dumpsterDive}}",
-                "HitBySlingshot": "{{hitSlingshot}}",
-                //Community Center
-                "cc_Begin": "{{i18n:cc_Begin}}",
-                "cc_Minecart": "{{i18n:cc_Minecart}}",
-                "cc_Greenhouse": "{{i18n:cc_Greenhouse}}",
-                "cc_Bus": "{{i18n:cc_Bus}}",
-                "cc_Bridge": "{{i18n:cc_Bridge}}",
-                "cc_Boulder": "{{i18n:cc_Boulder}}",
-                "cc_Complete": "{{i18n:cc_Complete}}",
-                //Win Festival Events
-                "wonEggHunt": "{{i18n:wonEggHunt}}",
-                "wonGrange": "{{i18n:wonGrange}}",
-                "wonIceFishing": "{{i18n:wonIceFishing}}",
-                //Saloon Event (Rabbit's Foot)
-                "dumped_Guys": "{{i18n:dumped}}",
-                "secondchance_Guys": "{{i18n:secondchance}}",
-                //Other Events
-                "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:gotPet_cat}} |{{i18n:gotPet_other}}",
-                "married": "{{i18n:married_farmer}}","married_twice": "{{i18n:married_farmer}}",
-                "divorced_once": "{{i18n:divorced_farmer}}","divorced_twice": "{{i18n:divorced_farmer}}"
-            }
-        },
-        //Conversation Topics - Farmer Marriage
-        {
-            "LogName": "dialogue.json: Conversation Topics - Marriage Settings",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "married": "{{i18n:married_farmer}}",
-                "married_twice": "{{i18n:married_farmer}}",
-                "divorced_once": "{{i18n:divorced_farmer}}",
-                "divorced_twice": "{{i18n:divorced_farmer}}"
+            //Divorced
+            {
+                "LogName": "dialogue.json: Divorced",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "WipedMemory": "{{i18n:WipedMemory}}",
+                    "divorced": "{{divorcedDialogue}}",
+                    "RejectGift_Divorced": "{{divorcedRejectGift}}",
+                    "RejectMermaidPendant_Divorced": "{{divorcedRejectMPend}}",
+                    "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}"
+                }
             },
-            "When": {
-                "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+            //Engagement Dialogue
+            {
+                "LogName": "dialogue.json: Engaged",
+                "Action": "EditData",
+                "Target": "data/EngagementDialogue",
+                "Entries": {
+                    "{{Raven}}0": "{{i18n:Raven_Engagement_0}}",
+                    "{{Raven}}1": "{{i18n:Raven_Engagement_1}}"
+                }
+            },
+            //Marriage Topics
+            {
+                "LogName": "dialogue.json: Marriage Topics",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //Proposal->Wedding
+                    "{{Raven}}_Engaged": "{{i18n:Raven_Engaged}}",//Gifted pendant
+                    //Household Dialogue
+                    "SpouseFarmhouseClutter": "{{i18n:Raven_SpouseFarmhouseClutter}}",
+                    "Spouse_MonstersInHouse": "{{i18n:Raven_Spouse_MonstersInHouse}}",
+                    "SpouseGiftJealous": "{{i18n:Raven_SpouseGiftJealous}}",
+                    "SpouseStardrop": "{{i18n:Raven_SpouseStardrop}}",
+                    //Mermaid Pendant
+                    "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
+                    "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Raven_RejectMermaidPendant_NeedHouseUpgrade}}",
+                    "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_NpcWithSomeoneElse}}",
+                    "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                    "RejectMermaidPendant_Under8hearts": "{{i18n:Raven_RejectMermaidPendant_Under_8hearts}}",
+                    "RejectMermaidPendant_Under10Hearts": "{{i18n:Raven_RejectMermaidPendant_Under_10Hearts}}",
+                    "RejectMermaidPendant_Under10hearts_AskedAgain": "{{i18n:Raven_RejectMermaidPendant_Under_10hearts_AskedAgain}}"
+                }
+            },
+            //Summit Dialogue
+            {
+                "LogName": "dialogue.json: Summit Dialogue",
+                "Action": "EditData",
+                "Target": "Data/ExtraDialogue",
+                "Entries": {
+                    "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Raven_Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Raven_Summit_2}}\""
+                }
             }
-        },
-        //Movie Invite/Reject
-        {
-            "LogName": "dialogue.json: Movies Invitation/Rejection",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "MovieInvitation": "{{movieInvite}}",
-                "MovieInvite_Spouse_{{Raven}}": "{{movieInviteSpouse}}",
-                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{movieInviteAlrInv}}",
-                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{movieInviteAlrWat}}",
-                "RejectMovieTicket_Divorced": "{{movieInviteDivorced}}",
-                "RejectMovieTicket_DontWantToSeeThatMovie": "{{movieInviteDislike}}",
-                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}"
-            }
-        },
-        //Island
-        {
-            "LogName": "dialogue.json: Island Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "Resort": "{{resortD}}",
-                "Resort_Bar": "{{resortBarD}}",
-                "Resort_Chair": "{{resortChairD}}",
-                "Resort_Dance": "{{resortDanceD}}",
-                "Resort_Entering": "{{resortEnteringD}}",
-                "Resort_Leaving": "{{resortLeavingD}}",
-                "Resort_Shore": "{{resortShoreD}}",
-                "Resort_Towel": "{{resortTowelD}}",
-                "Resort_Umbrella": "{{resortUmbrellaD}}",
-                "Resort_Wander": "{{resortWanderD}}"
-            }
-        },
-        //Location Entry
-        {
-            "LogName": "dialogue.json: Location Entry Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "SeedShop_Entry": "{{i18n:SeedShop_Entry}}",
-                "Blacksmith_Entry": "{{i18n:Blacksmith_Entry}}",
-                "AnimalShop_Entry": "{{i18n:AnimalShop_Entry}}",
-                "Beach_Entry": "{{i18n:Beach_Entry}}",
-                "Hospital_Entry": "{{i18n:Hospital_Entry}}",
-                "MovieTheater_Entry": "{{i18n:MovieTheater_Entry}}",
-                "Saloon_Entry": "{{i18n:Saloon_Entry}}",
-                "Trailer_Entry": "{{i18n:Trailer_Entry}}",
-                "Trailor_Big_Entry": "{{i18n:Trailor_Big_Entry}}",
-                "WizardHouse_Entry": "{{i18n:WizardHouse_Entry}}"
-            }
-        },
-        //Bouquet / BreakUp
-        {
-            "LogName": "dialogue.json: Dating",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //Gifted wilted flowers
-                "breakUp": "{{i18n:breakUp}}",
-                //Bouquet
-                "AcceptBouquet": "{{i18n:AcceptBouquet}}",
-                "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
-                "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
-                "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
-                "RejectBouquet": "{{i18n:RejectBouquet}}"
-            }
-        },
-        //Divorced
-        {
-            "LogName": "dialogue.json: Divorced",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                "WipedMemory": "{{i18n:WipedMemory}}",
-                "divorced": "{{divorcedDialogue}}",
-                "RejectGift_Divorced": "{{divorcedRejectGift}}",
-                "RejectMermaidPendant_Divorced": "{{divorcedRejectMPend}}",
-                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}"
-            }
-        },
-        //Engagement Dialogue
-        {
-            "LogName": "dialogue.json: Engaged",
-            "Action": "EditData",
-            "Target": "data/EngagementDialogue",
-            "Entries": {
-                "{{Raven}}0": "{{i18n:Raven_Engagement_0}}",
-                "{{Raven}}1": "{{i18n:Raven_Engagement_1}}"
-            }
-        },
-        //Marriage Topics
-        {
-            "LogName": "dialogue.json: Marriage Topics",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Raven}}",
-            "Entries": {
-                //Proposal->Wedding
-                "{{Raven}}_Engaged": "{{i18n:Raven_Engaged}}",//Gifted pendant
-                //Household Dialogue
-                "SpouseFarmhouseClutter": "{{i18n:Raven_SpouseFarmhouseClutter}}",
-                "Spouse_MonstersInHouse": "{{i18n:Raven_Spouse_MonstersInHouse}}",
-                "SpouseGiftJealous": "{{i18n:Raven_SpouseGiftJealous}}",
-                "SpouseStardrop": "{{i18n:Raven_SpouseStardrop}}",
-                //Mermaid Pendant
-                "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
-                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Raven_RejectMermaidPendant_NeedHouseUpgrade}}",
-                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_NpcWithSomeoneElse}}",
-                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Raven_RejectMermaidPendant_PlayerWithSomeoneElse}}",
-                "RejectMermaidPendant_Under8Hearts": "{{i18n:Raven_RejectMermaidPendant_Under8Hearts}}",
-                "RejectMermaidPendant_Under10Hearts": "{{i18n:Raven_RejectMermaidPendant_Under10Hearts}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Raven_RejectMermaidPendant_Under10Hearts_AskedAgain}}"
-            }
-        },
-        //Summit Dialogue
-        {
-            "LogName": "dialogue.json: Summit Dialogue",
-            "Action": "EditData",
-            "Target": "Data/ExtraDialogue",
-            "Entries": {
-                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:Raven_Summit_1}}\"/faceDirection {{Raven}} 3/pause 500/speak {{Raven}} \"{{i18n:Raven_Summit_2}}\""
-            }
-        }
     ]
 }
