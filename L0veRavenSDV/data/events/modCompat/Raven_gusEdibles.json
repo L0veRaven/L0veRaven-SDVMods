@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "{{Raven}}_GusEdibles/LocalMail {{Raven}}_Raven_StonerLetter": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
+                "{{Raven}}_GusEdibles/LocalMail {{Raven}}_StonerLetter": "Saloon/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
 --Farmer walks in and gets settled/
     animate Gus false true 120 18 19 20 19/pause 1000/
     warp farmer 14 24 true/playSound doorClose/textAboveHead Gus \"{{i18n:GusEdibles_speak_1}}\"/pause 300/

@@ -240,12 +240,6 @@
             "FromFile": "data/shared/artifact_item.json, data/shared/hidden_item.json"
         },
         {
-            "LogName": "Tilesheet Loads",
-            "Action": "Load",
-            "Target": "Maps/z_L0veRaven_Tent.png",
-            "FromFile": "assets/tilesheets/z_L0veRaven_Tent.png"
-        },
-        {
             "LogName": "Tent Inside (Vanilla)",
             "Action": "Load",
             "Target": "Maps/Custom_{{Raven}}TentInside",
@@ -258,16 +252,6 @@
             "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
         },
         {
-            "LogName": "Raven - Event Loads",
-            "Action": "Include",
-            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
-        },
-        {
-            "LogName": "ModCompat: Event Loads - Nature's Bounty",
-            "Action": "Include",
-            "FromFile": "data/events/modCompat/Raven_smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
-        },
-        {
             "LogName": "Spouse Patio",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpousePatio",
@@ -278,6 +262,16 @@
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpouseRoom",
             "FromFile": "data//maps/{{Raven}}SpouseRoom.tmx"
+        },
+        {
+            "LogName": "Raven - Event Loads",
+            "Action": "Include",
+            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
+        },
+        {
+            "LogName": "ModCompat: Event Loads - Nature's Bounty",
+            "Action": "Include",
+            "FromFile": "data/events/modCompat/Raven_smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
         },
         {
             "LogName": "Raven - Location Loads",

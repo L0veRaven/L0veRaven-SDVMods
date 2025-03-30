@@ -11,10 +11,10 @@
                 "AcceptGift_(O){{NB}}_Preroll": "{{i18n:Raven_AcceptGift_NB_Preroll}}",
                 "AcceptGift_(O){{NB}}_HempRollingPaper": "{{i18n:Raven_AcceptGift_NB_HempRollingPaper}}",
                 "AcceptGift_(O){{NB}}_SpecialBrownie": "{{i18n:Raven_AcceptGift_NB_SpecialBrownie}}",
-                "AcceptGift_(O){{NB}}_InfusedOil": "{{i18n:Raven_AcceptGift_NB_InfusedOil}}",
+                "AcceptGift_(O){{NB}}_InfusedOil": "{{i18n:Raven_AcceptGift_NB_InfusedOil}}"
             },
             "When": {
-                "HasMod |contains={{NB}}": "true",
+                "HasMod |contains={{NB}}": "true"
             },       
         },
         {
@@ -22,10 +22,11 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Tue": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}","{{season}}_Thu": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}",
+                "{{season}}_Tue": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}",
+                "{{season}}_Thu": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}"
             },
             "When": {
-                "HasMod |contains={{NB}}": "true",
+                "HasMod |contains={{NB}}": "true"
             }
         },
         {
@@ -33,10 +34,10 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{i18n:Raven_Forest_101_{{Random:{{Range:1,2}}}}}}",
+                "Forest.101": "{{i18n:Raven_Forest_101_{{Random:{{Range:1,2}}}}}}"
             },
             "When": {
-                "HasMod |contains={{NB}}": true,
+                "HasMod |contains={{NB}}": "true"
             }
         },
         {
@@ -44,11 +45,11 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Raven}}_LoveLetter_8": "{{i18n:LoveLetter_8}}",
+                "{{Raven}}_LoveLetter_8": "{{i18n:LoveLetter_8}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating,Engaged",
-                "HasMod |contains={{NB}}": "true",
+                "HasMod |contains={{NB}}": "true"
             }
         },
         {
@@ -56,12 +57,12 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Raven}}_StonerLetter": "{{i18n:StonerLetter}}", //Do edibles with farmer in saloon event
-                "{{Raven}}_StonerQuest": "{{i18n:StonerQuest}}", //Smoke session event
-                "{{Raven}}_SmokeSession": "{{i18n:StonerQuest}}", //Smoke session -> Tent
+                "{{Raven}}_StonerLetter": "{{i18n:StonerLetter}}",//Do edibles with farmer in saloon event
+                "{{Raven}}_StonerQuest": "{{i18n:StonerQuest}}",//Smoke session event
+                "{{Raven}}_SmokeSession": "{{i18n:StonerQuest}}"//Smoke session -> Tent
             },
             "When": {
-                "HasMod |contains={{NB}}": "true",
+                "HasMod |contains={{NB}}": "true"
             }
         },
         {
@@ -75,8 +76,8 @@
                 "{{Nexus}}00421": "Location/{{i18n:Raven_SmokeSession_headline}}/{{i18n:Raven_SmokeSession_summary}}/{{i18n:Raven_SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
             },
             "When": {
-                "HasMod |contains={{NB}}": "true",
+                "HasMod |contains={{NB}}": "true"
             }
-        },
+        }
     ]
 }
