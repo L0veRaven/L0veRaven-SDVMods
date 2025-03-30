@@ -258,6 +258,16 @@
             "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
         },
         {
+            "LogName": "Raven - Event Loads",
+            "Action": "Include",
+            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
+        },
+        {
+            "LogName": "ModCompat: Event Loads - Nature's Bounty",
+            "Action": "Include",
+            "FromFile": "data/events/modCompat/Raven_smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
+        },
+        {
             "LogName": "Spouse Patio",
             "Action": "Load",
             "Target": "Maps/{{Raven}}SpousePatio",
@@ -278,16 +288,6 @@
             "LogName": "Raven - NPC Data",
             "Action": "Include",
             "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/festivals.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
-        },
-        {
-            "LogName": "Raven - Events",
-            "Action": "Include",
-            "FromFile": "data/CP-Raven/events/catLover.json, data/CP-Raven/events/catAdoption.json, data/CP-Raven/events/checkIn.json, data/CP-Raven/events/wildClans.json, data/CP-Raven/events/cleansingFarmer.json, data/CP-Raven/events/cleansingFarmer2.json, data/CP-Raven/events/smokeSession.json, data/CP-Raven/events/gusEdibles.json, data/CP-Raven/events/apartment.json, data/CP-Raven/events/jobInterview.json, data/CP-Raven/events/marriageTalk.json"
-        },
-        {
-            "LogName": "Raven - ModCompat Events",
-            "Action": "Include",
-            "FromFile": "data/CP-Raven/modCompat/events/smokeSession.json, data/CP-Raven/modCompat/events/gusEdibles.json"
         },
         {
             "LogName": "Raven - Dialogue",

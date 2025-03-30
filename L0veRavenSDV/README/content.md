@@ -1284,8 +1284,8 @@ Flower Dance
 {"Name": "Raven_flowerDance_dayBefore","Value": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "Raven_flowerDance_dayOf","Value": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "Raven_flowerDance_dayAfter","Value": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanAccept","Value": "{{i18n:FlowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanAcceptSpouse","Value": "{{i18n:FlowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanAccept","Value": "{{i18nRaven_flowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanAcceptSpouse","Value": "{{i18nRaven_flowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1350,11 +1350,11 @@ Stardew Valley Fair
 {"Name": "FairYest","Value": "{{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairToday","Value": "{{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairTomo","Value": "{{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudging","Value": "{{i18n:Raven_sdvFair_Judging_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeSkip","Value": "{{i18n:Raven_sdvFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeLost","Value": "{{i18n:Raven_sdvFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeWon","Value": "{{i18n:Raven_sdvFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudged","Value": "{{i18n:Raven_sdvFair_Judged_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudging","Value": "{{i18n:Raven_stardewValleyFair_Judging_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeSkip","Value": "{{i18n:Raven_stardewValleyFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeLost","Value": "{{i18n:Raven_stardewValleyFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeWon","Value": "{{i18n:Raven_stardewValleyFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudged","Value": "{{i18n:Raven_stardewValleyFair_Judged_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 

@@ -5,13 +5,13 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "AcceptGift_(O){{NB}}_Bud": "{{i18n:AcceptGift_NB_Bud}}",
-                "AcceptGift_(O){{NB}}_HempFiber": "{{i18n:AcceptGift_NB_HempFiber}}",
-                "AcceptGift_(O){{NB}}_RoastedHempSeeds": "{{i18n:AcceptGift_NB_RoastedHempSeeds}}",
-                "AcceptGift_(O){{NB}}_Preroll": "{{i18n:AcceptGift_NB_Preroll}}",
-                "AcceptGift_(O){{NB}}_HempRollingPaper": "{{i18n:AcceptGift_NB_HempRollingPaper}}",
-                "AcceptGift_(O){{NB}}_SpecialBrownie": "{{i18n:AcceptGift_NB_SpecialBrownie}}",
-                "AcceptGift_(O){{NB}}_InfusedOil": "{{i18n:AcceptGift_NB_InfusedOil}}",
+                "AcceptGift_(O){{NB}}_Bud": "{{i18n:Raven_AcceptGift_NB_Bud}}",
+                "AcceptGift_(O){{NB}}_HempFiber": "{{i18n:Raven_AcceptGift_NB_HempFiber}}",
+                "AcceptGift_(O){{NB}}_RoastedHempSeeds": "{{i18n:Raven_AcceptGift_NB_RoastedHempSeeds}}",
+                "AcceptGift_(O){{NB}}_Preroll": "{{i18n:Raven_AcceptGift_NB_Preroll}}",
+                "AcceptGift_(O){{NB}}_HempRollingPaper": "{{i18n:Raven_AcceptGift_NB_HempRollingPaper}}",
+                "AcceptGift_(O){{NB}}_SpecialBrownie": "{{i18n:Raven_AcceptGift_NB_SpecialBrownie}}",
+                "AcceptGift_(O){{NB}}_InfusedOil": "{{i18n:Raven_AcceptGift_NB_InfusedOil}}",
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",
@@ -33,7 +33,7 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}",
+                "Forest.101": "{{i18n:Raven_Forest_101_{{Random:{{Range:1,2}}}}}}",
             },
             "When": {
                 "HasMod |contains={{NB}}": true,

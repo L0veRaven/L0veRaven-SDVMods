@@ -5,13 +5,13 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "summer_10": "{{potluckYest}}",
-                "summer_11": "{{potluckToday}}",
-                "summer_12": "{{potluckTomo}}",
+                "summer_10": "{{i18n:potluck_dayBefore_{{Random:{{Range:1,3}}}}}}",
+                "summer_11": "{{i18n:potluck_dayOf_{{Random:{{Range:1,3}}}}}}",
+                "summer_12": "{{i18n:potluck_dayAfter_{{Random:{{Range:1,3}}}}}}"
             },
             "When": {
-                "HasMod: |contains={{PTP}}": true,
-            },
-        },
+                "HasMod: |contains={{PTP}}": true
+            }
+        }
     ]
 }
