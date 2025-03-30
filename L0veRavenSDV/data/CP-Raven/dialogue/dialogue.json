@@ -19,10 +19,7 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "spring_1": "{{i18n:Raven_spring_first_{{Random:{{Range:1,4}}}}}}",
-                    "summer_1": "{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}",
-                    "fall_1": "{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}",
-                    "winter_1": "{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}"
+                    "{{season}}_1": "{{i18n:Raven_{{season}}_first_{{Random:{{Range:1,4}}}}}}",
                 },
                 "When": {
                     "Year": "2"
@@ -98,8 +95,8 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Mon": "{{RavenGenericSeason}}",
-                    "Thu": "{{RavenGenericSeason}}"
+                    "Mon": "{{i18n:Raven_generic_{{season}}_{{Random:{{Range:1,7}}}}}}",
+                    "Thu": "{{i18n:Raven_generic_{{season}}_{{Random:{{Range:1,7}}}}}}"
                 },
                 "When": {
                     "Query: '{{day}}' = '18'": false
@@ -518,16 +515,16 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Resort": "{{resortD}}",
-                    "Resort_Bar": "{{resortBarD}}",
-                    "Resort_Chair": "{{resortChairD}}",
-                    "Resort_Dance": "{{resortDanceD}}",
-                    "Resort_Entering": "{{resortEnteringD}}",
-                    "Resort_Leaving": "{{resortLeavingD}}",
-                    "Resort_Shore": "{{resortShoreD}}",
-                    "Resort_Towel": "{{resortTowelD}}",
-                    "Resort_Umbrella": "{{resortUmbrellaD}}",
-                    "Resort_Wander": "{{resortWanderD}}"
+                    "Resort": "{{i18n:Resort_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Bar": "{{i18n:Resort_Bar_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Chair": "{{i18n:Resort_Chair_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Dance": "{{i18n:Resort_Dance_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Entering": "{{i18n:Resort_Entering_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Leaving": "{{i18n:Resort_Leaving_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Shore": "{{i18n:Resort_Shore_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Towel": "{{i18n:Resort_Towel_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Umbrella": "{{i18n:Resort_Umbrella_{{Random:{{Range:1,3}}}}}}",
+                    "Resort_Wander": "{{i18n:Resort_Wander_{{Random:{{Range:1,3}}}}}}"
                 }
             },
             //Location Entry
@@ -571,9 +568,9 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     "WipedMemory": "{{i18n:WipedMemory}}",
-                    "divorced": "{{divorcedDialogue}}",
-                    "RejectGift_Divorced": "{{divorcedRejectGift}}",
-                    "RejectMermaidPendant_Divorced": "{{divorcedRejectMPend}}",
+                    "divorced": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}",
+                    "RejectGift_Divorced": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}",
+                    "RejectMermaidPendant_Divorced": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}",
                     "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}"
                 }
             },

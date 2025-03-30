@@ -33,8 +33,11 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{smokeBluntSchD}}",
+                "Forest.101": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}",
             },
+            "When": {
+                "HasMod |contains={{NB}}": true,
+            }
         },
         {
             "LogName": "naturesBounty.json: Love Letters",
@@ -67,10 +70,13 @@
             "Target": "Data/Quests",
             "Entries": {
                 //A Stoner's Request
-                "{{Nexus}}00004": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:Raven_AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00005/0/-1/false/{{i18n:Raven_AStonersRequest_giftResponse}}",
+                "{{Nexus}}00420": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:Raven_AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00421/0/-1/false/{{i18n:Raven_AStonersRequest_giftResponse}}",
                 //Smoke Session
-                "{{Nexus}}00005": "Location/{{i18n:Raven_SmokeSession_headline}}/{{i18n:Raven_SmokeSession_summary}}/{{i18n:Raven_SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
+                "{{Nexus}}00421": "Location/{{i18n:Raven_SmokeSession_headline}}/{{i18n:Raven_SmokeSession_summary}}/{{i18n:Raven_SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
             },
+            "When": {
+                "HasMod |contains={{NB}}": "true",
+            }
         },
     ]
 }

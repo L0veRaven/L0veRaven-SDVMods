@@ -5,10 +5,10 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Custom_{{Raven}}TentInside.001": "{{stoveSchD}}",
-                "SeedShop.001": "{{shoppingSSschD}}",
-                "Saloon.001": "{{standSaloonSchD}}",
-                "Saloon.002": "{{sweepSaloonSchD}}",
+                "Custom_{{Raven}}TentInside.001": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}",
+                "SeedShop.001": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.001": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.002": "{{i18n:Saloon_2_{{Random:{{Range:1,2}}}}}}",
             },
         },
     ]

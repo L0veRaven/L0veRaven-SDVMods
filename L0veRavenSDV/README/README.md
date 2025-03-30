@@ -34,56 +34,56 @@ Contact me at support@l0veraven.com or Discord at L0veRaven where I'll look at i
 
 | Location ```Token``` | Duration (HH:MM) |
 | ------------- | ------------- |
-| (Vanilla) Tent ```{{standStove}}``` to Saloon ```{{standJobSaloon1}}``` | 1:50 |
-| (Vanilla) Tent ```{{inBed}}``` to Beach ```{{relaxBeach}}``` | 2:00 |
-| (Vanilla) Tent ```{{inBed}}``` to Bus Stop ```{{standBusStop}}``` | 3:00 |
+| (Vanilla) Tent ```{{RavenStandStove}}``` to Saloon ```{{RavenSweepJobSaloon1}}``` | 1:50 |
+| (Vanilla) Tent ```{{RavenInBed}}``` to Beach ```{{RavenRelaxBeach}}``` | 2:00 |
+| (Vanilla) Tent ```{{RavenInBed}}``` to Bus Stop ```{{RavenStandBusStop}}``` | 3:00 |
 | ------------------------------------------------------------------------------- | ----- |
-| (SVE) Tent ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
-| (SVE) Tent ```{{inBed}}``` | ___ |
+| (SVE) Tent ```{{RavenStandStove}}``` to ___ ```{{___}}``` | ___ |
+| (SVE) Tent ```{{RavenInBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Apartment ```{{standStove}}``` to ___ ```{{___}}``` | ___ |
-| Apartment ```{{inBed}}``` | ___ |
+| Apartment ```{{RavenStandStove}}``` to ___ ```{{___}}``` | ___ |
+| Apartment ```{{RavenInBed}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Beach ```{{relaxBeach}}``` to (Vanilla) Tent ```{{standStove}}``` | 3:00 |
+| Beach ```{{RavenRelaxBeach}}``` to (Vanilla) Tent ```{{RavenStandStove}}``` | 3:00 |
 | ------------------------------------------------------------------------------- | ----- |
 | (Vanilla) Forest ```{{pissBush}}``` | ___ |
 | (SVE) Forest ```{{pissBush}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| (Vanilla) ```{{relaxForest}}``` | ___ |
-| (SVE) ```{{relaxForest}}``` | ___ |
+| (Vanilla) ```{{RavenRelaxForest}}``` | ___ |
+| (SVE) ```{{RavenRelaxForest}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| (Vanilla) ```{{standRiverForest}}``` | ___ |
-| (SVE) ```{{standRiverForest}}``` | ___ |
+| (Vanilla) ```{{RavenStandRiverForest}}``` | ___ |
+| (SVE) ```{{RavenStandRiverForest}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Town ```{{standCC}}``` | ___ |
-| Town ```{{relaxBushTown}}``` | ___ |
+| Town ```{{RavenStandCC}}``` | ___ |
+| Town ```{{RavenRelaxBushTown}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Clinic ```{{standMeds}}``` | ___ |
+| Clinic ```{{RavenStandMeds}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Saloon ```{{standJobSaloon1}}``` | ___ |
-| Saloon ```{{standJobSaloon2}}``` | ___ |
-| Saloon ```{{standJobSaloon3}}``` to Bus Stop ```{{standBusStop}}``` | 1:30 |
-| Saloon ```{{standJobSaloon3}}``` to (Vanilla) Tent ```{{standStove}}``` | 2:00 |
-| Saloon ```{{standTableSaloon}}``` | ___ |
+| Saloon ```{{RavenSweepJobSaloon1}}``` | ___ |
+| Saloon ```{{RavenSweepJobSaloon2}}``` | ___ |
+| Saloon ```{{RavenSweepJobSaloon3}}``` to Bus Stop ```{{RavenStandBusStop}}``` | 1:30 |
+| Saloon ```{{RavenSweepJobSaloon3}}``` to (Vanilla) Tent ```{{RavenStandStove}}``` | 2:00 |
+| Saloon ```{{RavenStandTableSaloon}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| (Vanilla) ArchaeologyHouse ```{{standBookcase}}``` | ___ |
-| (SVE) ArchaeologyHouse ```{{standBookcase}}``` | ___ |
+| (Vanilla) ArchaeologyHouse ```{{RavenStandBookcase}}``` | ___ |
+| (SVE) ArchaeologyHouse ```{{RavenStandBookcase}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Beach ```{{relaxBeach}}``` | ___ |
+| Beach ```{{RavenRelaxBeach}}``` | ___ |
 | ------------------------------------------------------------------------------- | ----- |
-| Mountain ```{{standMountain}}``` | ___ |
+| Mountain ```{{RavenStandMountain}}``` | ___ |
 
 ## Schedule Keys (in i18n)
 
 | Key | Meaning |
 | ------------- | ------------- |
-| standBusStop | ```BusStop 20 22 2``` |
+| RavenStandBusStop | ```BusStop 20 22 2``` |
 | ___ | ___ |
-| standRiverForest | ```Forest 39 75 3``` |
-| standRiverForest_SVE | ```Forest 64 89 3``` |
+| RavenStandRiverForest | ```Forest 39 75 3``` |
+| RavenStandRiverForest_SVE | ```Forest 64 89 3``` |
 | ___ | ___ |
-| relaxForest | ```Forest 56 81 3``` |
-| relaxForest_SVE | ```Forest 90 89 3``` |
+| RavenRelaxForest | ```Forest 56 81 3``` |
+| RavenRelaxForest_SVE | ```Forest 90 89 3``` |
 | ___ | ___ |
 | standStove | ```Custom_L0veRaven_RavenTentInside 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |
 | standStoveSVE | ```Custom_L0veRaven_RavenTentInsideSVE 2 3 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"``` |

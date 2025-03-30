@@ -186,12 +186,12 @@
                     "Raven_winterStar_dayAfter_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
             //label:Medication Dialogue
                 //token:{{RavenMedicationPickupDialogue}}
-                    "Raven_medicationPickup_dayOf_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
-                    "Raven_medicationPickup_dayOf_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
-            //label:Birthday & Checkup
-                //token:{{bdayCheckup}}
-                    "Raven_medicationPickup_dayOf_birthday_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
-                    "Raven_medicationPickup_dayOf_birthday_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
+                    //bullet:Normal Pickup
+                        "Raven_medicationPickup_dayOf_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
+                        "Raven_medicationPickup_dayOf_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
+                    //bullet:Birthday Med Pickup
+                        "Raven_medicationPickup_dayOf_birthday_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
+                        "Raven_medicationPickup_dayOf_birthday_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
             //label:Generic Dialogue
                 //token:{{RavenGeneric}}
                     "Raven_generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
@@ -207,37 +207,37 @@
                     "Raven_generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
                     "Raven_generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
                 //token:{{genericSpring}}
-                    "Raven_genericSpring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
-                    "Raven_genericSpring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
-                    "Raven_genericSpring_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
-                    "Raven_genericSpring_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
-                    "Raven_genericSpring_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
-                    "Raven_genericSpring_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
-                    "Raven_genericSpring_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
+                    "Raven_generic_spring_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
+                    "Raven_generic_spring_2": "My eyes are super itchy. I hate seasonal allergies.$2",
+                    "Raven_generic_spring_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
+                    "Raven_generic_spring_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
+                    "Raven_generic_spring_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
+                    "Raven_generic_spring_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
+                    "Raven_generic_spring_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
                 //token:{{genericSummer}}
-                    "Raven_genericSummer_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
-                    "Raven_genericSummer_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
-                    "Raven_genericSummer_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
-                    "Raven_genericSummer_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
-                    "Raven_genericSummer_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
-                    "Raven_genericSummer_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
-                    "Raven_genericSummer_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+                    "Raven_generic_summer_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
+                    "Raven_generic_summer_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
+                    "Raven_generic_summer_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
+                    "Raven_generic_summer_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
+                    "Raven_generic_summer_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
+                    "Raven_generic_summer_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
+                    "Raven_generic_summer_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
                 //token:{{genericfall}}
-                    "Raven_genericFall_1": "I love feeling the leaves crunch under my feet!$1",
-                    "Raven_genericFall_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
-                    "Raven_genericFall_3": "Since fall is normally the season people make wine, I wonder how much is being made right now.$17#$b#I just hope it tastes good!$1",
-                    "Raven_genericFall_4": "I love how it's not too cold outside today.#$b#It's much better than summer was!$1",
-                    "Raven_genericFall_5": "If the season of fall was a person, I think we'd be best friends!$1#$b#I connect with nature a lot better during this time of year.",
-                    "Raven_genericFall_6": "Imagine if instead of water raining from the sky during the fall, it was leaves falling from the sky?$3#$b#I think it'd be nature littering on itself if that were to happen, though.",
-                    "Raven_genericFall_7": "If you have an extra pumpkin lying around, I could definitely use one.#$b#I love making Jack-o-lanterns!$1",
+                    "Raven_generic_fall_1": "I love feeling the leaves crunch under my feet!$1",
+                    "Raven_generic_fall_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
+                    "Raven_generic_fall_3": "Since fall is normally the season people make wine, I wonder how much is being made right now.$17#$b#I just hope it tastes good!$1",
+                    "Raven_generic_fall_4": "I love how it's not too cold outside today.#$b#It's much better than summer was!$1",
+                    "Raven_generic_fall_5": "If the season of fall was a person, I think we'd be best friends!$1#$b#I connect with nature a lot better during this time of year.",
+                    "Raven_generic_fall_6": "Imagine if instead of water raining from the sky during the fall, it was leaves falling from the sky?$3#$b#I think it'd be nature littering on itself if that were to happen, though.",
+                    "Raven_generic_fall_7": "If you have an extra pumpkin lying around, I could definitely use one.#$b#I love making Jack-o-lanterns!$1",
                 //token:{{genericwinter}}
-                    "Raven_genericWinter_1": "I love how cold it is today! It feels just right.$1",
-                    "Raven_genericWinter_2": "It's s-so cold t-today.$2#$e#%Raven is shivering a lot.",
-                    "Raven_genericWinter_3": "I ate a bit of snow this morning.#$b#It tastes pretty good!$1#$e#Yes, I avoid snow that's not an... unnatural color.$2#$b#I wouldn't ever wanna touch discolored snow.$11",
-                    "Raven_genericWinter_4": "I don't know why, but the sound of snow falling on top of my tent is annoying.#$b#I never feel that way about rain though.$17",
-                    "Raven_genericWinter_5": "Be sure to stay warm! I wouldn't want you to freeze into a popsicle.",
-                    "Raven_genericWinter_6": "I might build a snowperson today...$17#$b#I'm still deciding.",
-                    "Raven_genericWinter_7": "What's something you enjoy about winter?#$b#I always get curious abouut that kind of thing.$1#$e#That's pretty neat!$1",
+                    "Raven_generic_winter_1": "I love how cold it is today! It feels just right.$1",
+                    "Raven_generic_winter_2": "It's s-so cold t-today.$2#$e#%Raven is shivering a lot.",
+                    "Raven_generic_winter_3": "I ate a bit of snow this morning.#$b#It tastes pretty good!$1#$e#Yes, I avoid snow that's not an... unnatural color.$2#$b#I wouldn't ever wanna touch discolored snow.$11",
+                    "Raven_generic_winter_4": "I don't know why, but the sound of snow falling on top of my tent is annoying.#$b#I never feel that way about rain though.$17",
+                    "Raven_generic_winter_5": "Be sure to stay warm! I wouldn't want you to freeze into a popsicle.",
+                    "Raven_generic_winter_6": "I might build a snowperson today...$17#$b#I'm still deciding.",
+                    "Raven_generic_winter_7": "What's something you enjoy about winter?#$b#I always get curious abouut that kind of thing.$1#$e#That's pretty neat!$1",
             //label:Heart Dialogue
                 //token:{{Raven0hearts}}
                     "Raven_0hearts_1": "Some of the people here say that I have a lot to say.#$e#I can't tell if that's supposed to be a bad thing or not, though.$17",
@@ -736,52 +736,6 @@
             //label:The Zuzu City Express - Winter 1
                 "movie_tzce_during": "Raven has tears welling up in their eyes.",
                 "movie_tzce_after": "I hate cliffhangers, but it was well done in this one!#$b#There's a charm to the movies from that era that I don't think I could ever get sick of.",
-        //file:schedule.json -> DO NOT TOUCH - NO TOCAR
-            //label:Locations
-                //bullet:Bus Stop
-                    "standBusStop": "BusStop 20 22 2",
-                //bullet:Forest
-                    "relaxForest": "Forest 56 81 3",
-                    "relaxForestSVE": "Forest 90 89 3",
-
-                    "standRiverForest": "Forest 39 75 3",
-                    "standRiverForestSVE": "Forest 64 89 3",
-                //bullet:Tent
-                    "tentInside": "Custom_L0veRaven_RavenTentInside",
-                    "tentInsideSVE": "Custom_L0veRaven_RavenTentInsideSVE",
-
-                    "standStove": "3 2 0",
-                    "standStoveSVE": "3 2 0",
-
-                    "inBed": "3 4 1",
-                    "inBedSVE": "3 4 1",
-                //bullet:Apartment
-                    "apartment": "FRL_NPCApt_Floor1",
-
-                    "standStoveApt": "FRL_NPCApt_Floor1 13 13 0",
-
-                    "inBedApt": "FRL_NPCApt_Floor1 7 13 0",
-                //bullet:Town
-                    "standCC": "Town 60 17 2",
-
-                    "relaxBushTown": "Town 47 77 2",
-                //bullet:Clinic
-                    "standMeds": "Hospital 5 17 0",
-                //bullet:Seed Shop
-                    "shoppingSS": "SeedShop 16 28 3",
-                //bullet:Saloon
-                    "standJobSaloon1": "Saloon 5 17 2",
-                    "standJobSaloon2": "Saloon 23 22 2",
-                    "standJobSaloon3": "Saloon 33 8 2",
-
-                    "standTableSaloon": "Saloon 43 22 2",
-                //bullet:ArchaeologyHouse
-                    "standBookcase": "ArchaeologyHouse 8 13 1",
-                    "standBookcaseSVE": "ArchaeologyHouse 7 18 3",
-                //bullet:Beach
-                    "relaxBeach": "Beach 43 23 2",
-                //bullet:Mountain
-                    "standMountain": "Mountain 57 33 1",
         //file:scheduleDialogue.json -> Pair with animations
             //label:Custom_L0veRaven_RavenTentInside
                 //token:{{stoveSchD}}
@@ -794,7 +748,7 @@
                 //token:{{sweepSaloonSchD}}
                     "Saloon_2_1": "There's so much dirt...$2",
                     "Saloon_2_2": "There's so much dust that I'm sneezing. I hate it.$2",
-                //token:{{shoppingSSschD}}
+                //token:{{RavenShoppingSSschD}}
                     "shoppingSS_1_1": "I've noticed that Pierre's crops are inconsistent in quality. Some days, I see lots of amazing produce!#$e#Other days... I question him.$12",
                     "shoppingSS_1_2": "It's more convenient for me to shop here since it's closer to my home and job.#$e#I also never pay attention to JojaMart's sales.$11",
             //label:Town
@@ -1287,13 +1241,14 @@
                 "Raven_SmokeSession_headline": "Smoke Session",
                 "Raven_SmokeSession_summary": "Raven offered you to join them for a smoke session. Why not join in?",
                 "Raven_SmokeSession_hint": "Visit Raven's tent.",
-    //title:Zayden
+    //title:Zayden NPC
 
 
     //title:
         //file:
             //label:
                 //token:
+                    //bullet:
 
 
     //title:CJB Cheats Warps

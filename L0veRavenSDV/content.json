@@ -1,14 +1,20 @@
 {
+    //title:
+    //file:
+    //label:
+    //token:
+    //bullet:
+    //logname:
     "Format": "2.4.4",
 
     "ConfigSchema": {
         //label:General Settings
-        //## TODO: ADD
+            //## TODO: ADD
             //"CleanLanguage": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "GeneralSettings","Description": null},
 
         //label:Raven Settings
             //bullet:Spirit's Eve Costumes: Toggles
-            //## TODO: ADD
+                //## TODO: ADD
                 // "RavenVampireCostumeSE": {Default": "true",AllowValues": "true, false",AllowBlank": false,Section": "RavenSpiritsEveCostumes",Description": null},
                 "RavenCactusCostumeSE": {
                     "Default": "false",
@@ -63,25 +69,23 @@
                     "AllowValues": "Raven, Zayden, None",
                     "Section": "ModderSettings",
                     "Description": null
-                },
+                }
     },
 
     "DynamicTokens": [
-        //Basic Information
-            //Character Names
-                //Reference Character
+        //title:Basic Information
+            //label:Character Names
+                //bullet:Internal Names
                     {"Name": "Raven","Value": "L0veRaven_Raven"},
                     {"Name": "RavenLC","Value": "l0veraven_raven"},
                     {"Name": "Zayden","Value": "L0veRaven_Zayden"},
                     {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
-
-                //Display Name
+                //bullet:Display Name
                     {"Name": "RavenDisplayName","Value": "{{i18n:Raven_DisplayName}}"},
-                        
-                //Nexus ID
-                    {"Name": "Nexus","Value": "27407"},
-        
-            //Mod Nicknames -> External ModId's
+                    {"Name": "ZaydenDisplayName","Value": "{{i18n:Zayden_DisplayName}}"},   
+            //bullet:Nexus ID
+                {"Name": "Nexus","Value": "27407"},
+            //bullet:Mod Nicknames -> External ModId's
                 {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
                 {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
                 {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
@@ -90,10 +94,10 @@
                 {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
                 {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar"},
                 {"Name": "FF","Value": "violetlizabet.CP.FireworksFestival"},
-
-        //file:events.json
+            //bullet:Locations
+                {"Name": "apartment","Value": "FRL_NPCApt_Floor1"},
             //label:Emotes
-            //## TODO: Delete on release
+                //## TODO: Delete on release
                 {"Name": "emoteEmptyCan","Value": "4"},
                 {"Name": "emoteQuestion","Value": "8"},
                 {"Name": "emoteAngry","Value": "12"},
@@ -107,178 +111,120 @@
                 {"Name": "emoteVideoGame","Value": "52"},
                 {"Name": "emoteMusic","Value": "56"},
                 {"Name": "emoteBlush","Value": "60"},
-
-        //file:schedule.json,events.json
+            //label:Event Commands
+                {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
             //label:Time
-            //## TODO: Delete on release
+                //## TODO: Delete on release
                 {"Name": "6am","Value": "600"},{"Name": "610am","Value": "610"},{"Name": "620am","Value": "620"},{"Name": "630am","Value": "630"},{"Name": "640am","Value": "640"},{"Name": "650am","Value": "650"},{"Name": "7am","Value": "700"},{"Name": "710am","Value": "710"},{"Name": "720am","Value": "720"},{"Name": "730am","Value": "730"},{"Name": "740am","Value": "740"},{"Name": "750am","Value": "750"},{"Name": "8am","Value": "800"},{"Name": "810am","Value": "810"},{"Name": "820am","Value": "820"},{"Name": "830am","Value": "830"},{"Name": "840am","Value": "840"},{"Name": "850am","Value": "850"},{"Name": "9am","Value": "900"},{"Name": "910am","Value": "910"},{"Name": "920am","Value": "920"},{"Name": "930am","Value": "930"},{"Name": "940am","Value": "940"},{"Name": "950am","Value": "950"},{"Name": "10am","Value": "1000"},{"Name": "1010am","Value": "1010"},{"Name": "1020am","Value": "1020"},{"Name": "1030am","Value": "1030"},{"Name": "1040am","Value": "1040"},{"Name": "1050am","Value": "1050"},{"Name": "11am","Value": "1100"},{"Name": "1110am","Value": "1110"},{"Name": "1120am","Value": "1120"},{"Name": "1130am","Value": "1130"},{"Name": "1140am","Value": "1140"},{"Name": "1150am","Value": "1150"},{"Name": "12pm","Value": "1200"},{"Name": "1210pm","Value": "1210"},{"Name": "1220pm","Value": "1220"},{"Name": "1230pm","Value": "1230"},{"Name": "1240pm","Value": "1240"},{"Name": "1250pm","Value": "1250"},{"Name": "1pm","Value": "1300"},{"Name": "110pm","Value": "1310"},{"Name": "120pm","Value": "1320"},{"Name": "130pm","Value": "1330"},{"Name": "140pm","Value": "1340"},{"Name": "150pm","Value": "1350"},{"Name": "2pm","Value": "1400"},{"Name": "210pm","Value": "1410"},{"Name": "220pm","Value": "1420"},{"Name": "230pm","Value": "1430"},{"Name": "240pm","Value": "1440"},{"Name": "250pm","Value": "1450"},{"Name": "3pm","Value": "1500"},{"Name": "310pm","Value": "1510"},{"Name": "320pm","Value": "1520"},{"Name": "330pm","Value": "1530"},{"Name": "340pm","Value": "1540"},{"Name": "350pm","Value": "1550"},{"Name": "4pm","Value": "1600"},{"Name": "410pm","Value": "1610"},{"Name": "420pm","Value": "1620"},{"Name": "430pm","Value": "1630"},{"Name": "440pm","Value": "1640"},{"Name": "450pm","Value": "1650"},{"Name": "5pm","Value": "1700"},{"Name": "510pm","Value": "1710"},{"Name": "520pm","Value": "1720"},{"Name": "530pm","Value": "1730"},{"Name": "540pm","Value": "1740"},{"Name": "550pm","Value": "1750"},{"Name": "6pm","Value": "1800"},{"Name": "610pm","Value": "1810"},{"Name": "620pm","Value": "1820"},{"Name": "630pm","Value": "1830"},{"Name": "640pm","Value": "1840"},{"Name": "650pm","Value": "1850"},{"Name": "7pm","Value": "1900"},{"Name": "710pm","Value": "1910"},{"Name": "720pm","Value": "1920"},{"Name": "730pm","Value": "1930"},{"Name": "740pm","Value": "1940"},{"Name": "750pm","Value": "1950"},{"Name": "8pm","Value": "2000"},{"Name": "810pm","Value": "2010"},{"Name": "820pm","Value": "2020"},{"Name": "830pm","Value": "2030"},{"Name": "840pm","Value": "2040"},{"Name": "850pm","Value": "2050"},{"Name": "9pm","Value": "2100"},{"Name": "910pm","Value": "2110"},{"Name": "920pm","Value": "2120"},{"Name": "930pm","Value": "2130"},{"Name": "940pm","Value": "2140"},{"Name": "950pm","Value": "2150"},{"Name": "10pm","Value": "2200"},{"Name": "1010pm","Value": "2210"},{"Name": "1020pm","Value": "2220"},{"Name": "1030pm","Value": "2230"},{"Name": "1040pm","Value": "2240"},{"Name": "1050pm","Value": "2250"},{"Name": "11pm","Value": "2300"},{"Name": "1110pm","Value": "2310"},{"Name": "1120pm","Value": "2320"},{"Name": "1130pm","Value": "2330"},{"Name": "1140pm","Value": "2340"},{"Name": "1150pm","Value": "2350"},{"Name": "12am","Value": "2400"},{"Name": "1210am","Value": "2410"},{"Name": "1220am","Value": "2420"},{"Name": "1230am","Value": "2430"},{"Name": "1240am","Value": "2440"},{"Name": "1250am","Value": "2450"},{"Name": "1am","Value": "2500"},{"Name": "110am","Value": "2510"},{"Name": "120am","Value": "2520"},{"Name": "130am","Value": "2530"},{"Name": "140am","Value": "2540"},{"Name": "150am","Value": "2550"},
             //label:Directions
-            //## TODO: Delete on release
+                //## TODO: Delete on release
                 {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
-        //file:dialogue/dialogue.json
-            //label:Medication Pickup
-                {"Name": "RavenMedsDialogueBDay","Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "RavenMedsDialogue","Value": "{{RavenMedsDialogueNormal}}",
-                    "When": {"Query: '{{Season}}' = 'Winter'": false}},
-                {"Name": "RavenMedsDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,2}}}}}}",
-                    "When": {"Query: '{{Season}}' = 'Winter'": true}},
-            //token:{{RavenGenericSeason}}
-                {"Name": "genericSeason","Value": "{{i18n:Raven_genericSpring_{{Random:{{Range:1,7}}}}}}",
-                    "When": {"Query: '{{Season}}' = 'Spring'": true}},
-                {"Name": "genericSeason","Value": "{{i18n:Raven_genericSummer_{{Random:{{Range:1,7}}}}}}",
-                    "When": {"Query: '{{Season}}' = 'Summer'": true}},
-                {"Name": "genericSeason","Value": "{{i18n:Raven_genericFall_{{Random:{{Range:1,7}}}}}}",
-                    "When": {"Query: '{{Season}}' = 'Fall'": true}},
-                {"Name": "genericSeason","Value": "{{i18n:Raven_genericWinter_{{Random:{{Range:1,7}}}}}}",
-                    "When": {"Query: '{{Season}}' = 'Winter'": true}},
-        //Divorce Dialogue
-                {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}"},
-                {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}"},
-                {"Name": "divorcedRejectMPend","Value": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}"},
-        //Island Dialogue
-            {"Name": "resortD","Value": "{{i18n:Resort_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortBarD","Value": "{{i18n:Resort_Bar_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortChairD","Value": "{{i18n:Resort_Chair_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortDanceD","Value": "{{i18n:Resort_Dance_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortEnteringD","Value": "{{i18n:Resort_Entering_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortLeavingD","Value": "{{i18n:Resort_Leaving_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortShoreD","Value": "{{i18n:Resort_Shore_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortTowelD","Value": "{{i18n:Resort_Towel_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortUmbrellaD","Value": "{{i18n:Resort_Umbrella_{{Random:{{Range:1,3}}}}}}"},
-            {"Name": "resortWanderD","Value": "{{i18n:Resort_Wander_{{Random:{{Range:1,3}}}}}}"},
-        //Animations
-            {"Name": "aniSweep","Value": "l0veraven_raven_sweep"},
-            {"Name": "aniRead","Value": "l0veraven_raven_read"},
-            {"Name": "aniStand","Value": "l0veraven_raven_stand"},
+        //title:Raven
+            //file:dialogue/dialogue.json
+                //label:Medication Pickup
+                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
+                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
+            //file:animationFrames.json
+                {"Name": "RavenSweep","Value": "l0veraven_raven_sweep"},
+                {"Name": "RavenRead","Value": "l0veraven_raven_read"},
+                {"Name": "RavenStand","Value": "l0veraven_raven_stand"},
+                    //Nature's Bounty
+                        {"Name": "RavenBlunt","Value": "l0veraven_raven_blunt"},
+                        {"Name": "RavenEdible","Value": "l0veraven_raven_edible"},
+            //file:schedule.json
+                //label:Positions
+                    //bullet:Bus Stop
+                        {"Name": "RavenStandBusStop","Value": "BusStop 20 22 2"},
+                    //label:Forest
+                        //bullet:Vanilla
+                            {"Name": "RavenRelaxForest","Value": "Forest 56 81 3","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false"}},
+                            {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInside","When": {"HasMod |contains={{SVE}}": "false"}},
+                            {"Name": "RavenStandRiverForest","Value": "Forest 39 75 3","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false"}},
+                        //bullet:Stardew Valley Expanded
+                            {"Name": "RavenRelaxForest","Value": "Forest 90 89 3","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false"}},
+                            {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInsideSVE","When": {"HasMod |contains={{SVE}}": "true"}},
+                            {"Name": "RavenStandRiverForest","Value": "Forest 64 89 3","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false"}},
+                        //bullet:Nature's Bounty
+                            {"Name": "RavenRelaxForest","Value": "{{Random:Forest 56 81 3,Forest 56 81 3 {{RavenLC}}_blunt,Forest 56 81 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
+                            {"Name": "RavenRelaxForest","Value": "{{Random:Forest 90 89 3,Forest 90 89 3 {{RavenLC}}_blunt,Forest 90 89 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
+                            
+                            {"Name": "RavenStandRiverForest","Value": "{{Random:Forest 39 75 3,Forest 39 75 3 {{RavenLC}}_blunt,Forest 39 75 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
+                            {"Name": "RavenStandRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{RavenLC}}_blunt,Forest 64 89 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
+                    //Custom_L0veRaven_RavenTentInside
+                        {"Name": "RavenStandStove","Value": "{{RavenTentInside}} 3 2 0 \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
+                            "When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}_Apartment": false}},
+                        {"Name": "RavenStandStove","Value": "{{RavenTentInside}} 3 2 0 \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
+                            "When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}_Apartment": false}},
 
-        //Nature's Bounty
-            {"Name": "aniBlunt","Value": "l0veraven_raven_blunt"},
-            {"Name": "aniEdible","Value": "l0veraven_raven_edible"},
-        //Schedules
-            //Schedule Dialogue
-                {"Name": "stoveSchD","Value": "{{i18n:Custom_L0veRaven_RavenTentInside_1_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "standSaloonSchD","Value": "{{i18n:Saloon_1_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "sweepSaloonSchD","Value": "{{i18n:Saloon_2_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "shoppingSSschD","Value": "{{i18n:shoppingSS_1_{{Random:{{Range:1,2}}}}}}"},
-                {"Name": "smokeBluntSchD","Value": "{{i18n:Forest_101_{{Random:{{Range:1,2}}}}}}",
-                    "When": {"HasMod |contains={{NB}}": "true"}},
-        //Locations
-            //Bus Stop
-                {"Name": "standBusStop","Value": "{{i18n:standBusStop}}"},
-            //Forest
-                {"Name": "relaxForest","Value": "{{i18n:relaxForest}}",
-                    "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false"}},
-                {"Name": "relaxForest","Value": "{{i18n:relaxForestSVE}}",
-                    "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false"}},
+                        {"Name": "RavenInBed","Value": "{{RavenTentInside}} 3 4 1 l0veraven_raven_sleep"},
+                    //FRL_NPCApt_Floor1
+                        {"Name": "RavenStandStove","Value": "FRL_NPCApt_Floor1 13 13 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
+                            "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
+                        {"Name": "RavenInBed","Value": "FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep",
+                            "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
+                    //Town
+                        {"Name": "RavenStandCC","Value": "Town 60 17 2"},
 
-                {"Name": "standRiverForest","Value": "{{i18n:standRiverForest}}",
-                    "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "false"}},
-                {"Name": "standRiverForest","Value": "{{i18n:standRiverForestSVE}}",
-                    "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "false"}},
-        //Custom_L0veRaven_RavenTentInside[SVE]
-            {"Name": "tentInside","Value": "{{i18n:tentInside}}",
-                "When": {"HasMod |contains={{SVE}}": "false"}},
-            {"Name": "tentInside","Value": "{{i18n:tentInsideSVE}}",
-                "When": {"HasMod |contains={{SVE}}": "true"}},
+                        {"Name": "RavenRelaxBushTown","Value": "Town 47 77 2",
+                            "When": {"HasMod |contains={{NB}}": "false"}},
+                        {"Name": "RavenRelaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{RavenLC}}_blunt,Town 47 77 2 {{RavenLC}}_edible}}",
+                            "When": {"HasMod |contains={{NB}}": "true"}},
+                    //Hospital
+                        {"Name": "RavenStandMeds","Value": "Hospital 5 17 0"},
+                    //SeedShop
+                        {"Name": "RavenShoppingSS","Value": "SeedShop 16 28 3 \"Strings\\schedules\\{{Raven}}:SeedShop.001\""},
+                    //Saloon
+                        {"Name": "RavenSweepJobSaloon1","Value": "Saloon 5 17 2 {{RavenSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
+                        {"Name": "RavenSweepJobSaloon2","Value": "Saloon 23 22 2 {{RavenSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
+                        {"Name": "RavenSweepJobSaloon3","Value": "Saloon 33 8 2 {{RavenSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
+                        {"Name": "RavenStandTableSaloon","Value": "Saloon 43 22 2"},
+                    //ArchaeologyHouse
+                        {"Name": "RavenStandBookcase","Value": "ArchaeologyHouse 8 13 1",
+                            "When": {"HasMod |contains={{SVE}}": "false"}},
+                        {"Name": "RavenStandBookcase","Value": "ArchaeologyHouse 7 18 3",
+                            "When": {"HasMod |contains={{SVE}}": "true"}},
+                    //Beach
+                        {"Name": "RavenRelaxBeach","Value": "Beach 43 23 2"},
+                    //Mountain
+                        {"Name": "RavenStandMountain","Value": "Mountain 57 33 1"},
+                    //Mod Compat: Nature's Bounty
+                        //Town
+                            {"Name": "RavenRelaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{RavenLC}}_blunt,Town 47 77 2 {{RavenLC}}_edible}}",
+                                "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
+                            {"Name": "RavenRelaxBushTown","Value": "{{Random:Town 47 77 2,Town 47 77 2 {{RavenLC}}_blunt,Town 47 77 2 {{RavenLC}}_edible}}",
+                                "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
+            //file:schedule.json
+                //label:Schedule Randomizers
+                    //bullet:Clinic Day
+                        {"Name": "RavenGoToClinic","Value": "{{610am}} {{RavenStandMeds}}"},
+                        {"Name": "RavenPostClinic","Value": "{{Random:{{RavenStandMountain}},{{RavenRelaxBeach}},{{RavenStandBookcase}},{{RavenStandCC}}}}"},
+                    //bullet:Morning/Night
+                        {"Name": "RavenGoodMorning","Value": "{{610am}} {{RavenStandStove}}"},
+                        {"Name": "RavenGoodMorningBus","Value": "{{610am}} {{RavenStandBusStop}}"},
+                        {"Name": "RavenGoodNight","Value": "{{10pm}} {{RavenStandStove}}/{{130am}} {{RavenInBed}}"},
+                    //bullet:Job Schedules (Arrive at 9:50 from Tent)
+                        {"Name": "RavenStandNearHome","Value": "{{RavenStandMountain}}","When": {"HasReadLetter": "{{Raven}}_Apartment"}},
+                        {"Name": "RavenStandNearHome","Value": "{{Random:{{RavenRelaxForest}},{{RavenStandRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}_Apartment": false}},
+                    //bullet:Free Days
+                        {"Name": "RavenFreeDay1","Value": "{{RavenGoodMorning}}/{{7am}} {{RavenStandRiverForest}}/{{1130am}} {{RavenRelaxBeach}} {{RavenRead}}/{{6pm}} {{RavenStandStove}}/{{10pm}} {{RavenInBed}}"},
+                        {"Name": "RavenFreeDay2","Value": "{{RavenGoodMorning}}/{{7am}} {{RavenRelaxBushTown}}/{{1130am}} {{RavenStandTableSaloon}}/{{6pm}} {{RavenStandStove}}/{{10pm}} {{RavenInBed}}"},
+                        {"Name": "RavenFreeDay3","Value": "{{2pm}} {{RavenStandStove}}/{{4pm}} {{RavenRelaxBushTown}}/{{8pm}} {{RavenRelaxBeach}}/{{10pm}} {{RavenInBed}}"},
+                        {"Name": "RavenFreeDay4","Value": "{{4pm}} {{RavenStandTableSaloon}}/{{8pm}} {{RavenStandCC}}/{{10pm}} {{RavenInBed}}"},
 
-            {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStove}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
-                "When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}_Apartment": false}},
-            {"Name": "standStove","Value": "{{tentInside}} {{i18n:standStoveSVE}} \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
-                "When": {"HasMod |contains={{SVE}}": "true","HasFlag: |contains={{Raven}}_Apartment": false}},
-
-            {"Name": "inBed","Value": "{{tentInside}} {{i18n:inBed}} l0veraven_raven_sleep"},
-        //FRL_NPCApt_Floor1
-            {"Name": "apartment","Value": "{{i18n:apartment}}"},
-
-            {"Name": "standStove","Value": "{{i18n:standStoveApt}} \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
-                "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-            {"Name": "inBed","Value": "{{i18n:inBedApt}} l0veraven_raven_sleep",
-                "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-        //Town
-            {"Name": "standCC","Value": "{{i18n:standCC}}"},
-
-            {"Name": "relaxBushTown","Value": "{{i18n:relaxBushTown}}",
-                "When": {"HasMod |contains={{NB}}": "false"}},
-            {"Name": "relaxBushTown","Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-                "When": {"HasMod |contains={{NB}}": "true"}},
-        //Hospital
-            {"Name": "standMeds","Value": "{{i18n:standMeds}}"},
-        //SeedShop
-            {"Name": "shoppingSS","Value": "{{i18n:shoppingSS}} \"Strings\\schedules\\{{Raven}}:SeedShop.001\""},
-        //Saloon
-            {"Name": "standJobSaloon1","Value": "{{i18n:standJobSaloon1}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-                //Saloon 5 17 2 l0veraven_raven_sweep
-            {"Name": "standJobSaloon2","Value": "{{i18n:standJobSaloon2}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-                //Saloon 23 22 2 l0veraven_raven_sweep
-            {"Name": "standJobSaloon3","Value": "{{i18n:standJobSaloon3}} {{aniSweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-                //Saloon 33 8 2 l0veraven_raven_sweep
-                {"Name": "standTableSaloon","Value": "{{i18n:standTableSaloon}}"},
-        //ArchaeologyHouse
-            {"Name": "standBookcase","Value": "{{i18n:standBookcase}}",
-                "When": {"HasMod |contains={{SVE}}": "false"}},
-            {"Name": "standBookcase","Value": "{{i18n:standBookcaseSVE}}",
-                "When": {"HasMod |contains={{SVE}}": "true"}},
-        //Beach
-            {"Name": "relaxBeach","Value": "{{i18n:relaxBeach}}"},
-        //Mountain
-            {"Name": "standMountain","Value": "{{i18n:standMountain}}"},
-        //Mod Compat: Nature's Bounty
-            //Forest
-                {"Name": "relaxForest","Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
-                {"Name": "relaxForest","Value": "{{Random:{{i18n:relaxForest}},{{i18n:relaxForest}} {{aniBlunt}},{{i18n:relaxForest}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
-
-                {"Name": "standRiverForest","Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
-                {"Name": "standRiverForest","Value": "{{Random:{{i18n:standRiverForest}},{{i18n:standRiverForest}} {{aniBlunt}},{{i18n:standRiverForest}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
-            //Town
-                {"Name": "relaxBushTown","Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
-                {"Name": "relaxBushTown","Value": "{{Random:{{i18n:relaxBushTown}},{{i18n:relaxBushTown}} {{aniBlunt}},{{i18n:relaxBushTown}} {{aniEdible}}}}",
-                    "When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
-        //Clinic Day Randomizer
-            {"Name": "goToClinic","Value": "{{610am}} {{standMeds}}"},
-            {"Name": "postClinic","Value": "{{Random:{{standMountain}},{{relaxBeach}},{{standBookcase}},{{standCC}}}}"},
-        //Morning/Night
-            {"Name": "goodMorning","Value": "{{610am}} {{standStove}}"},
-            {"Name": "goodMorningBus","Value": "{{610am}} {{standBusStop}}"},
-            {"Name": "goodNight","Value": "{{10pm}} {{standStove}}/{{130am}} {{inBed}}"},
-        //Job Schedules (Arrive at 9:50 from Tent)
-            {"Name": "standNearHome","Value": "{{standMountain}}",
-                "When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-            {"Name": "standNearHome","Value": "{{Random:{{relaxForest}},{{standRiverForest}}}}",
-                "When": {"HasFlag: |contains={{Raven}}_Apartment": false}},
-        //Free Days
-            {"Name": "freeDay1","Value": "{{goodMorning}}/{{7am}} {{standRiverForest}}/{{1130am}} {{relaxBeach}} {{aniRead}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}"},
-            {"Name": "freeDay2","Value": "{{goodMorning}}/{{7am}} {{relaxBushTown}}/{{1130am}} {{standTableSaloon}}/{{6pm}} {{standStove}}/{{10pm}} {{inBed}}"},
-            {"Name": "freeDay3","Value": "{{2pm}} {{standStove}}/{{4pm}} {{relaxBushTown}}/{{8pm}} {{relaxBeach}}/{{10pm}} {{inBed}}"},
-            {"Name": "freeDay4","Value": "{{4pm}} {{standTableSaloon}}/{{8pm}} {{standCC}}/{{10pm}} {{inBed}}"},
-            {"Name": "freeDays","Value": "{{Random:{{freeDay1}},{{freeDay2}},{{freeDay3}},{{freeDay4}}}}"},
-            {"Name": "freeDaysRandom","Value": "{{freeDays}}"},
-            {"Name": "freeDay","Value": "{{freeDaysRandom}}"},
-        //Free Day Shop
-            {
-                "Name": "fds1",
-                "Value": "{{7am}} {{standRiverForest}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standMountain}}/{{5pm}} {{relaxForest}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}"
-            },
-            {
-                "Name": "fds2",
-                "Value": "{{7am}} {{standCC}}/{{11am}} {{shoppingSS}}/{{1pm}} {{standBusStop}}/{{5pm}} {{relaxBushTown}}/{{9pm}} {{standStove}}/{{12am}} {{inBed}}"
-            },
-            {"Name": "freeDayShopRandom","Value": "{{Random:{{fds1}},{{fds2}}}}"},
-            {"Name": "freeDayShop","Value": "{{freeDayShopRandom}}"},
-        //Job Randomizers
-            {"Name": "jobTasksSaloon","Value": "{{7am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}"},
-            {"Name": "jobTasksSaloon_married","Value": "{{8am}} {{standJobSaloon1}}/{{1250pm}} {{standJobSaloon2}}/{{350pm}} {{standJobSaloon3}}"},
-            {"Name": "postJobSaloon","Value": "{{6pm}} {{Random:{{standNearHome}},{{relaxBeach}},{{standBusStop}},{{standCC}}}}"},
-        //Schedule Randomizers
-            //Random Tokens
-                {"Name": "workDay","Value": "{{goodMorning}}/{{jobTasksSaloon}}/{{postJobSaloon}}/{{goodNight}}"},
-                {"Name": "medsDay","Value": "{{goToClinic}}/{{10am}} {{postClinic}}/{{goodNight}}"},
-            //Event Commands
-                {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"}
+                        {"Name": "RavenFreeDays","Value": "{{Random:{{RavenFreeDay1}},{{RavenFreeDay2}},{{RavenFreeDay3}},{{RavenFreeDay4}}}}"},
+                        {"Name": "RavenFreeDay","Value": "{{RavenFreeDays}}"},//USE THIS COMMAND
+                    //bullet:Free Day - Shopping
+                        {"Name": "RavenFreeDayShop1","Value": "{{7am}} {{RavenStandRiverForest}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{RavenStandMountain}}/{{5pm}} {{RavenRelaxForest}}/{{9pm}} {{RavenStandStove}}/{{12am}} {{RavenInBed}}"},
+                        {"Name": "RavenFreeDayShop2","Value": "{{7am}} {{RavenStandCC}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{RavenStandBusStop}}/{{5pm}} {{RavenRelaxBushTown}}/{{9pm}} {{RavenStandStove}}/{{12am}} {{RavenInBed}}"},
+                        {"Name": "RavenFreeDayShopRandom","Value": "{{Random:{{RavenFreeDayShop1}},{{RavenFreeDayShop2}}}}"},
+                        {"Name": "RavenFreeDayShop","Value": "{{RavenFreeDayShopRandom}}"},
+                    //bullet:Job Randomizers
+                        {"Name": "RavenJobTasksSaloon","Value": "{{7am}} {{RavenSweepJobSaloon1}}/{{1250pm}} {{RavenSweepJobSaloon2}}/{{350pm}} {{RavenSweepJobSaloon3}}"},
+                        {"Name": "RavenJobTasksSaloon_married","Value": "{{8am}} {{RavenSweepJobSaloon1}}/{{1250pm}} {{RavenSweepJobSaloon2}}/{{350pm}} {{RavenSweepJobSaloon3}}"},
+                        {"Name": "RavenPostJobSaloon","Value": "{{6pm}} {{Random:{{RavenStandNearHome}},{{RavenRelaxBeach}},{{RavenStandBusStop}},{{RavenStandCC}}}}"},
+                    //bullets:Work and Meds
+                        {"Name": "RavenWorkDay","Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"},
+                        {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"}
     ],
 
     "Changes": [
@@ -337,6 +283,11 @@
             "LogName": "Raven - Events",
             "Action": "Include",
             "FromFile": "data/CP-Raven/events/catLover.json, data/CP-Raven/events/catAdoption.json, data/CP-Raven/events/checkIn.json, data/CP-Raven/events/wildClans.json, data/CP-Raven/events/cleansingFarmer.json, data/CP-Raven/events/cleansingFarmer2.json, data/CP-Raven/events/smokeSession.json, data/CP-Raven/events/gusEdibles.json, data/CP-Raven/events/apartment.json, data/CP-Raven/events/jobInterview.json, data/CP-Raven/events/marriageTalk.json"
+        },
+        {
+            "LogName": "Raven - ModCompat Events",
+            "Action": "Include",
+            "FromFile": "data/CP-Raven/modCompat/events/smokeSession.json, data/CP-Raven/modCompat/events/gusEdibles.json"
         },
         {
             "LogName": "Raven - Dialogue",
