@@ -54,8 +54,7 @@
                 //ADD"{{Raven}}_spouse": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
                 "{{Raven}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
                 //ADD"{{Raven}}_spouse_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
-            },
-
+            }
         }
     ]
 }
