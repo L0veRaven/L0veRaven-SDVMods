@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {	
+            "LogName": "Raven - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+            //Year 1
+                {//Pre-Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Raven}} 18 74 right",
+                    "Delimiter": "/",
+                },
+                {//Egg hunt
+                "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Raven}} 21 73 right",
+                    "Delimiter": "/",
+                },
+                {//After Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Raven}} 21 73 right",
+                    "Delimiter": "/",
+                },
+            //Year 2
+                {//Pre-Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 34 80 left",
+                    "Delimiter": "/",
+                },
+                //ADD{//Egg hunt
+                //ADD"Operation": "Append",
+                //ADD    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                //ADD    "Value": "{{Raven}} 21 73 right",
+                //ADD    "Delimiter": "/",
+                //ADD},
+                //ADD{//After Egg hunt
+                //ADD    "Operation": "Append",
+                //ADD    "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                //ADD    "Value": "{{Raven}} 38 68 left",
+                //ADD    "Delimiter": "/",
+                //ADD},
+            ],
+        },
+        {
+            "LogName": "festivals.json: Egg Festival - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "{{Raven}}": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:eggFestival_{{Random:{{Range:1,5}}}}}}",
+            },
+
+        }
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+//"Operation": "Append",
+//"Target": ["Fields", "set-up", 5],
+//"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

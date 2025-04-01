@@ -281,17 +281,28 @@
         {
             "LogName": "Raven - NPC Data",
             "Action": "Include",
-            "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/festivals.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
+            "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
         },
         {
             "LogName": "Raven - Dialogue",
             "Action": "Include",
             "FromFile": "data/CP-Raven/dialogue/dialogue.json, data/CP-Raven/dialogue/marriageDialogue.json, data/CP-Raven/dialogue/giftResponses.json, data/CP-Raven/dialogue/moviesReactions.json, data/CP-Raven/StringsFromCSFiles.json, data/CP-Raven/dialogue/scheduleDialogue.json"
         },
+        },
+        {
+            "LogName": "Raven - Festivals",
+            "Action": "Include",
+            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
+        },
         {
             "LogName": "Raven - ModCompat",
             "Action": "Include",
-            "FromFile": "data/CP-Raven/modCompat/naturesBounty.json, data/shared/eventExcludesDELETE.json, data/CP-Raven/modCompat/downtownZuzu.json, data/CP-Raven/modCompat/ridgesideVillage.json, data/CP-Raven/modCompat/pelicanTownPotluck.json, data/CP-Raven/modCompat/fireworksFestival.json, data/CP-Raven/modCompat/solsticeWinterStar.json, data/CP-Raven/modCompat/stardewValleyExpanded.json"
+            "FromFile": "data/CP-Raven/modCompat/naturesBounty.json, data/CP-Raven/modCompat/downtownZuzu.json, data/CP-Raven/modCompat/ridgesideVillage.json, data/CP-Raven/modCompat/pelicanTownPotluck.json, data/CP-Raven/modCompat/fireworksFestival.json, data/CP-Raven/modCompat/solsticeWinterStar.json, data/CP-Raven/modCompat/stardewValleyExpanded.json"
+        },
+        {
+            "LogName": "Modder Stuff - DELETE ON RELEASE",
+            "Action": "Include",
+            "FromFile": "data/shared/eventExcludesDELETE.json"
         }
     ]
 }

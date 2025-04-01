@@ -1,0 +1,7 @@
+{
+    "config.BedForSale.name": "Bed For Sale",
+    "config.BedForSale.description": "\"True\" allows the bed to be purchased from Robin. \"False\" has the default bed texture replaced.",
+
+    "galaxyBedName": "Galaxy Bed",
+    "galaxyBedChildName": "Galaxy Bed - Child"
+}
