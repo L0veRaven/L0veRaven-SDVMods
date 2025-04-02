@@ -8,42 +8,42 @@
                 "{{Raven}}_GusEdibles/LocalMail {{Raven}}_StonerLetter": "Saloon/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
 --Farmer walks in and gets settled/
     animate Gus false true 120 18 19 20 19/pause 1000/
-    warp farmer 14 24 true/playSound doorClose/textAboveHead Gus \"{{i18n:GusEdibles_speak_1}}\"/pause 300/
+    warp farmer 14 24 true/playSound doorClose/textAboveHead Gus \"{{i18n:nb.event.gusEdibles.speak_1}}\"/pause 300/
     move farmer 0 -4 {{up}}/pause 500/
     faceDirection {{Raven}} {{right}} true/faceDirection farmer {{left}} true/playSound grassyStep/pause 1000/
 --Raven tells farmer Gus made special brownies/
-    speak {{Raven}} \"{{i18n:GusEdibles_speak_2}}\"/pause 300/
+    speak {{Raven}} \"{{i18n:nb.event.gusEdibles.speak_2}}\"/pause 300/
     faceDirection {{Raven}} {{up}} true/faceDirection farmer {{up}} true/playSound grassyStep/pause 300/
     stopAnimation Gus 0/pause 800/
 --Gus invites the farmer to join/
-    speak Gus \"{{i18n:GusEdibles_speak_3}}\"/pause 300/
+    speak Gus \"{{i18n:nb.event.gusEdibles.speak_3}}\"/pause 300/
     emote farmer {{emoteMusic}}/pause 300/
 --Gus speaks/
-    speak Gus \"{{i18n:GusEdibles_speak_4}}\"/pause 300/
+    speak Gus \"{{i18n:nb.event.gusEdibles.speak_4}}\"/pause 300/
     faceDirection farmer {{down}} true/faceDirection {{Raven}} {{down}} true/playSound grassyStep/pause 500/
 --Eat edibles/
     farmerEat {{NB}}_SpecialBrownie/animate {{Raven}} false true 120 36 37/pause 2000/
     stopAnimation {{Raven}} 0/pause 3000/
     faceDirection {{Raven}} {{right}}/playSound grassyStep/pause 300/
 --Raven and Gus speak/
-    speak {{Raven}} \"{{i18n:GusEdibles_speak_5}}\"/pause 300/
+    speak {{Raven}} \"{{i18n:nb.event.gusEdibles.speak_5}}\"/pause 300/
     animate farmer false true 500 16 0/pause 500/
-    speak Gus \"{{i18n:GusEdibles_speak_6}}\"/pause 500/
+    speak Gus \"{{i18n:nb.event.gusEdibles.speak_6}}\"/pause 500/
 --Farmer passes out/
     stopAnimation farmer/
     animate farmer false false 250 16 0 4 5/pause 300/showFrame farmer 5/
 --Raven screams and turns to Gus/
     jump {{Raven}} 8/showFrame {{Raven}} 16/playSound batScreech/shake {{Raven}} 1500/pause 1500/showFrame {{Raven}} 8/
 --Raven and Gus speak/
-    speak {{Raven}} \"{{i18n:GusEdibles_speak_7}}\"/emote {{Raven}} {{emoteSweat}} true/playSound dwop/pause 1000/speak Gus \"{{i18n:GusEdibles_speak_8}}\"/pause 300/
+    speak {{Raven}} \"{{i18n:nb.event.gusEdibles.speak_7}}\"/emote {{Raven}} {{emoteSweat}} true/playSound dwop/pause 1000/speak Gus \"{{i18n:nb.event.gusEdibles.speak_8}}\"/pause 300/
 --Farmer gets resurrected/
     faceDirection {{Raven}} {{right}}/pause 300/emote {{Raven}} {{emotePause}} true/emote Gus {{emotePause}}/pause 800/animate farmer false false 150 5 4 16 0/pause 300/
 --Raven speaks, then farmer turns to Gus/
-    speak {{Raven}} \"{{i18n:GusEdibles_speak_9}}\"/pause 300/faceDirection farmer {{up}}/emote farmer {{emoteSweat}} true/playSound dwop/pause 500/
+    speak {{Raven}} \"{{i18n:nb.event.gusEdibles.speak_9}}\"/pause 300/faceDirection farmer {{up}}/emote farmer {{emoteSweat}} true/playSound dwop/pause 500/
 --Gus speaks/
-    speak Gus \"{{i18n:GusEdibles_speak_10}}\"/pause 300/faceDirection farmer {{up}}/pause 300/emote farmer {{emoteHappy}}/pause 800/
+    speak Gus \"{{i18n:nb.event.gusEdibles.speak_10}}\"/pause 300/faceDirection farmer {{up}}/pause 300/emote farmer {{emoteHappy}}/pause 800/
 --End with dialogue/
-                end dialogue {{Raven}} \"{{i18n:GusEdibles_end_1}}\" dialogue Gus \"{{i18n:GusEdible_end_2}}\"",
+                end dialogue {{Raven}} \"{{i18n:nb.event.gusEdibles.end_1}}\" dialogue Gus \"{{i18n:nb.event.gusEdibles.end_2}}\"",
             },
             "When": {
                 "HasMod |contains={{NB}}": "true",

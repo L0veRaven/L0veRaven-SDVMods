@@ -48,10 +48,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
             "Entries": {
-                "{{Raven}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                "{{Raven}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}": "{{i18n:Raven_festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:Raven_festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}_y2": "{{i18n:Raven_festivalOfIce_{{Random:{{Range:1,3}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:Raven_festivalOfIce_{{Random:{{Range:1,3}}}}}}",
             },
         }
     ]

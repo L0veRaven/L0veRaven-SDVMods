@@ -22,8 +22,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "{{season}}_Tue": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}",
-                "{{season}}_Thu": "{{i18n:Raven_NB_dialogue_{{Random:{{Range:1,22}}}}}}"
+                "{{season}}_Tue": "{{i18n:dialogue.raven.NB.generic_{{Random:{{Range:1,22}}}}}}",
+                "{{season}}_Thu": "{{i18n:dialogue.raven.NB.generic_{{Random:{{Range:1,22}}}}}}"
             },
             "When": {
                 "HasMod |contains={{NB}}": "true"
@@ -34,7 +34,7 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{i18n:Raven_Forest_101_{{Random:{{Range:1,2}}}}}}"
+                "Forest.101": "{{i18n:nb.dialogue.raven.forest.101_{{Random:{{Range:1,2}}}}}}"
             },
             "When": {
                 "HasMod |contains={{NB}}": "true"
@@ -45,7 +45,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Raven}}_LoveLetter_8": "{{i18n:LoveLetter_8}}"
+                "{{Raven}}_LoveLetter_8": "{{i18n:NB.mail.raven.loveLetter_8}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating,Engaged",
@@ -71,9 +71,9 @@
             "Target": "Data/Quests",
             "Entries": {
                 //A Stoner's Request
-                "{{Nexus}}00420": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:Raven_AStonersRequest_hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00421/0/-1/false/{{i18n:Raven_AStonersRequest_giftResponse}}",
+                "{{Nexus}}00420": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:quest.aStonersRequest.NB.hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00421/0/-1/false/{{i18n:quest.aStonersRequest.NB.giftResponse}}",
                 //Smoke Session
-                "{{Nexus}}00421": "Location/{{i18n:Raven_SmokeSession_headline}}/{{i18n:Raven_SmokeSession_summary}}/{{i18n:Raven_SmokeSession_hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
+                "{{Nexus}}00421": "Location/{{i18n:quest.smokeSession.NB.headline}}/{{i18n:quest.smokeSession.NB.summary}}/{{i18n:quest.smokeSession.NB.hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
             },
             "When": {
                 "HasMod |contains={{NB}}": "true"

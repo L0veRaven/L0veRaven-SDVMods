@@ -30,11 +30,11 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
             "Entries": {
-                "{{Raven}}": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
-                "{{Raven}}_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:Raven_luau_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:Raven_luau_{{Random:{{Range:1,2}}}}}}",
                 
-                "{{Raven}}_spouse": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
-                "{{Raven}}_spouse_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}"
+                "{{Raven}}_spouse": "{{i18n:Raven_luau_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_spouse_y2": "{{i18n:Raven_luau_{{Random:{{Range:1,2}}}}}}"
             }
         }
     ]

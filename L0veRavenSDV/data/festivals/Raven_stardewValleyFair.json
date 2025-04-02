@@ -3,18 +3,18 @@
         {	
             "LogName": "Raven - Positions",
             "Action": "EditData",
-            "Target": "Data/Festivals/fall27",
+            "Target": "Data/Festivals/fall16",
             "TextOperations": [
-                {//Set Up: Year 1
+                {
                     "Operation": "Append",
                     "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} ## ## down",
+                    "Value": "{{Raven}} ## ## right",
                     "Delimiter": "/"
                 },
-                //ADD{//Set Up: Year 2
+                //ADD{
                     //ADD"Operation": "Append",
                     //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    //ADD"Value": "{{Raven}} ## ## down",
+                    //ADD"Value": "{{Raven}} ## ## right",
                     //ADD"Delimiter": "/"
                 //ADD},
             ],
@@ -22,12 +22,12 @@
         {	
             "LogName": "Raven - Dialogue",
             "Action": "EditData",
-            "Target": "Data/Festivals/fall27",
+            "Target": "Data/Festivals/fall16",
             "Entries": {
-                "{{Raven}}": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                "{{Raven}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Raven}}": "{{i18n:Raven_stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:Raven_stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:Raven_stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:Raven_stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
             },
         }
     ]

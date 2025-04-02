@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "MapPage.cs.{{Nexus}}001": "{{i18n:Ravens_Tent_NameHover}}"
+                "MapPage.cs.{{Nexus}}001": "{{i18n:locationName.ravenTent_NameHover}}"
             }
         },
         {

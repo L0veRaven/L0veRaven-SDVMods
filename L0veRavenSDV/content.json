@@ -81,8 +81,8 @@
                     {"Name": "Zayden","Value": "L0veRaven_Zayden"},
                     {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
                 //bullet:Display Name
-                    {"Name": "RavenDisplayName","Value": "{{i18n:Raven_DisplayName}}"},
-                    {"Name": "ZaydenDisplayName","Value": "{{i18n:Zayden_DisplayName}}"},   
+                    {"Name": "RavenDisplayName","Value": "{{i18n:displayName.Raven}}"},
+                    {"Name": "ZaydenDisplayName","Value": "{{i18n:displayName.Zayden}}"},   
             //bullet:Nexus ID
                 {"Name": "Nexus","Value": "27407"},
             //bullet:Mod Nicknames -> External ModId's
@@ -122,8 +122,8 @@
         //title:Raven
             //file:dialogue/dialogue.json
                 //label:Medication Pickup
-                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
-                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:Raven_medicationPickup_dayOf_birthday_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
+                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
+                    {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
             //file:animationFrames.json
                 {"Name": "RavenSweep","Value": "l0veraven_raven_sweep"},
                 {"Name": "RavenRead","Value": "l0veraven_raven_read"},
@@ -266,12 +266,12 @@
         {
             "LogName": "Raven - Event Loads",
             "Action": "Include",
-            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
+            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/mail.raven.cleansingFarmer.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
         },
         {
             "LogName": "ModCompat: Event Loads - Nature's Bounty",
             "Action": "Include",
-            "FromFile": "data/events/modCompat/Raven_smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
+            "FromFile": "data/events/modCompat/mail.raven.smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
         },
         {
             "LogName": "Raven - Location Loads",
@@ -287,7 +287,6 @@
             "LogName": "Raven - Dialogue",
             "Action": "Include",
             "FromFile": "data/CP-Raven/dialogue/dialogue.json, data/CP-Raven/dialogue/marriageDialogue.json, data/CP-Raven/dialogue/giftResponses.json, data/CP-Raven/dialogue/moviesReactions.json, data/CP-Raven/StringsFromCSFiles.json, data/CP-Raven/dialogue/scheduleDialogue.json"
-        },
         },
         {
             "LogName": "Raven - Festivals",

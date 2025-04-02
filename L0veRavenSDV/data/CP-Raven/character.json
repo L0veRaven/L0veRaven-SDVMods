@@ -6,7 +6,7 @@
             "Target": "Data/Characters",
             "Entries": {
                 "{{Raven}}": {
-                    "DisplayName": "{{i18n:Raven_DisplayName}}",
+                    "DisplayName": "{{i18n:displayName.Raven}}",
                     "BirthSeason": "winter",
                     "BirthDay": 18,
                     "HomeRegion": "Town",

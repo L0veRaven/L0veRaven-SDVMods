@@ -5,12 +5,12 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "L0veRavenRavenSpouseRoom.1": "{{i18n:Raven_Desk_{{Random:{{Range:1,25}}}}}}",//Desk w/ Paper
-                "L0veRavenRavenSpouseRoom.2": "{{i18n:Guitar_{{Random:{{Range:1,4}}}}}}",//Guitar
-                "L0veRavenRavenSpouseRoom.3": "{{i18n:LoosePaper_{{Random:{{Range:1,4}}}}}}",//Loose Paper
-                "L0veRavenRavenSpouseRoom.4": "{{i18n:PianoKey_{{Random:{{Range:1,2}}}}}}",//Piano Keyboard
-                "L0veRavenRavenSpouseRoom.5": "{{i18n:YobaShrine_{{Random:{{Range:1,3}}}}}}",//Yoba Shrine
-                "L0veRavenRavenSpouseRoom.6": "{{i18n:Bookshelf}}",//Bookshelf
+                "L0veRavenRavenSpouseRoom.1": "{{i18n:mapString.ravenDesk_{{Random:{{Range:1,25}}}}}}",//Desk w/ Paper
+                "L0veRavenRavenSpouseRoom.2": "{{i18n:mapString.ravenGuitar_{{Random:{{Range:1,4}}}}}}",//Guitar
+                "L0veRavenRavenSpouseRoom.3": "{{i18n:mapString.ravenLoosePaper_{{Random:{{Range:1,4}}}}}}",//Loose Paper
+                "L0veRavenRavenSpouseRoom.4": "{{i18n:mapString.ravenPianoKey_{{Random:{{Range:1,2}}}}}}",//Piano Keyboard
+                "L0veRavenRavenSpouseRoom.5": "{{i18n:mapString.ravenYobaShrine_{{Random:{{Range:1,3}}}}}}",//Yoba Shrine
+                "L0veRavenRavenSpouseRoom.6": "{{i18n:mapString.ravenBookshelf_}}",//Bookshelf
             }
         }
     ]

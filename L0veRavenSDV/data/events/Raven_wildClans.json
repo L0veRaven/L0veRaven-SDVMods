@@ -10,11 +10,11 @@
         move farmer 2 0 {{down}} true/move farmer 0 5 {{down}}/pause 300/
         faceDirection {{Raven}} {{up}}/pause 300/
     --Raven starts conversation/
-        speak {{Raven}} \"{{i18n:WildClans_speak_1}}\"/pause 300/
+        speak {{Raven}} \"{{i18n:event.WildClans_speak_1}}\"/pause 300/
         emote farmer {{emoteHappy}}/pause 300/
     --Raven searches for a library book and succeeds, offering to show the farmer/
         emote {{Raven}} {{emotePause}} true/faceDirection {{Raven}} {{left}}/pause 1000/
-        speak {{Raven}} \"{{i18n:WildClans_speak_2}}\"/pause 800/speak {{Raven}} \"{{i18n:WildClans_speak_3}}\"/pause 300/
+        speak {{Raven}} \"{{i18n:event.WildClans_speak_2}}\"/pause 800/speak {{Raven}} \"{{i18n:event.WildClans_speak_3}}\"/pause 300/
     --Farmer walks up to Raven and Raven faces the farmer, explaining the book/
         move farmer 1 0 {{down}} true/move farmer 0 3 {{left}}/faceDirection {{Raven}} {{right}}/pause 300/speak {{Raven}} \"It's called Wild Clans where a bunch of cats have their own territories and rival with each other.#$b#I've loved this series ever since I read it back in elementary school.$1\"/pause 1000/
     --quickQuestion Do you like reading books?/

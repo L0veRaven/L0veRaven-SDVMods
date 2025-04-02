@@ -6,9 +6,9 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "summer_1": "{{i18n:Raven_summer_first_{{Random:{{Range:1,4}}}}}}",
-                    "fall_1": "{{i18n:Raven_fall_first_{{Random:{{Range:1,4}}}}}}",
-                    "winter_1": "{{i18n:Raven_winter_first_{{Random:{{Range:1,4}}}}}}"
+                    "summer_1": "{{i18n:dialogue.raven.summer.first_{{Random:{{Range:1,4}}}}}}",
+                    "fall_1": "{{i18n:dialogue.raven.fall.first_{{Random:{{Range:1,4}}}}}}",
+                    "winter_1": "{{i18n:dialogue.raven.winter.first_{{Random:{{Range:1,4}}}}}}"
                 },
                 "When": {
                     "Year": "1"
@@ -19,7 +19,7 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "{{season}}_1": "{{i18n:Raven_{{season}}_first_{{Random:{{Range:1,4}}}}}}",
+                    "{{season}}_1": "{{i18n:dialogue.raven.{{season}}.first_{{Random:{{Range:1,4}}}}}}",
                 },
                 "When": {
                     "Year": "2"
@@ -44,37 +44,37 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     //label:Egg Festival
-                        "spring_12": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",
-                        "spring_13": "{{i18n:Raven_eggFestival_dayOf_{{Random:{{Range:1,4}}}}}}",
-                        "spring_14": "{{i18n:Raven_eggFestival_dayAfter_{{Random:{{Range:1,5}}}}}}",
+                        "spring_12": "{{i18n:dialogue.raven.eggFestival.dayBefore_{{Random:{{Range:1,4}}}}}}",
+                        "spring_13": "{{i18n:dialogue.raven.eggFestival.dayOf_{{Random:{{Range:1,4}}}}}}",
+                        "spring_14": "{{i18n:dialogue.raven.eggFestival.dayAfter_{{Random:{{Range:1,5}}}}}}",
                     //label:Flower Dance
-                        "spring_23": "{{i18n:Raven_flowerDance_dayBefore_{{Random:{{Range:1,4}}}}}}",
-                        "spring_24": "{{i18n:Raven_flowerDance_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "spring_25": "{{i18n:Raven_flowerDance_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "spring_23": "{{i18n:dialogue.raven.flowerDance.dayBefore_{{Random:{{Range:1,4}}}}}}",
+                        "spring_24": "{{i18n:dialogue.raven.flowerDance.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "spring_25": "{{i18n:dialogue.raven.flowerDance.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Luau
-                        "summer_10": "{{i18n:Raven_luau_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "summer_11": "{{i18n:Raven_luau_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "summer_12": "{{i18n:Raven_luau_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "summer_10": "{{i18n:dialogue.raven.luau.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "summer_11": "{{i18n:dialogue.raven.luau.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "summer_12": "{{i18n:dialogue.raven.luau.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Midnight Jellies
-                        "summer_27": "{{i18n:Raven_moonlightJellies_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "summer_28": "{{i18n:Raven_moonlightJellies_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "summer_29": "{{i18n:Raven_moonlightJellies_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "summer_27": "{{i18n:dialogue.raven.moonlightJellies.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "summer_28": "{{i18n:dialogue.raven.moonlightJellies.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "summer_29": "{{i18n:dialogue.raven.moonlightJellies.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Stardew Fair
-                        "fall_15": "{{i18n:Raven_stardewFair_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "fall_16": "{{i18n:Raven_stardewFair_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "fall_17": "{{i18n:Raven_stardewFair_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "fall_15": "{{i18n:dialogue.raven.stardewValleyFair.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "fall_16": "{{i18n:dialogue.raven.stardewValleyFair.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "fall_17": "{{i18n:dialogue.raven.stardewValleyFair.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Spirit's Eve
-                        "fall_26": "{{i18n:Raven_spiritsEve_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "fall_27": "{{i18n:Raven_spiritsEve_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "fall_28": "{{i18n:Raven_spiritsEve_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "fall_26": "{{i18n:dialogue.raven.spiritsEve.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "fall_27": "{{i18n:dialogue.raven.spiritsEve.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "fall_28": "{{i18n:dialogue.raven.spiritsEve.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Ice Festival
-                        "winter_7": "{{i18n:Raven_iceFestival_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "winter_8": "{{i18n:Raven_iceFestival_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "winter_9": "{{i18n:Raven_iceFestival_dayAfter_{{Random:{{Range:1,3}}}}}}",
+                        "winter_7": "{{i18n:dialogue.raven.festivalOfIce.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "winter_8": "{{i18n:dialogue.raven.festivalOfIce.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "winter_9": "{{i18n:dialogue.raven.festivalOfIce.dayAfter_{{Random:{{Range:1,3}}}}}}",
                     //label:Winter Star
-                        "winter_24": "{{i18n:Raven_winterStar_dayBefore_{{Random:{{Range:1,3}}}}}}",
-                        "winter_25": "{{i18n:Raven_winterStar_dayOf_{{Random:{{Range:1,3}}}}}}",
-                        "winter_26": "{{i18n:Raven_winterStar_dayAfter_{{Random:{{Range:1,3}}}}}}"
+                        "winter_24": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                        "winter_25": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayOf_{{Random:{{Range:1,3}}}}}}",
+                        "winter_26": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayAfter_{{Random:{{Range:1,3}}}}}}"
                 }
             },
         //logname:Plain Seasons
@@ -83,10 +83,10 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "spring": "{{i18n:Raven_spring}}",
-                    "summer": "{{i18n:Raven_summer}}",
-                    "fall": "{{i18n:Raven_fall}}",
-                    "winter": "{{i18n:Raven_winter}}"
+                    "spring": "{{i18n:dialogue.raven.spring}}",
+                    "summer": "{{i18n:dialogue.raven.summer}}",
+                    "fall": "{{i18n:dialogue.raven.fall}}",
+                    "winter": "{{i18n:dialogue.raven.winter}}"
                 }
             },
         //logname:token:Generic Seasonal Dialogue (Mon, Thu)
@@ -95,8 +95,8 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Mon": "{{i18n:Raven_generic_{{season}}_{{Random:{{Range:1,7}}}}}}",
-                    "Thu": "{{i18n:Raven_generic_{{season}}_{{Random:{{Range:1,7}}}}}}"
+                    "Mon": "{{i18n:dialogue.raven.generic_{{season}}_{{Random:{{Range:1,7}}}}}}",
+                    "Thu": "{{i18n:dialogue.raven.generic_{{season}}_{{Random:{{Range:1,7}}}}}}"
                 },
                 "When": {
                     "Query: '{{day}}' = '18'": false
@@ -107,8 +107,8 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Tue": "{{i18n:Raven_generic_{{Random:{{Range:1,12}}}}}}",
-                    "Sun": "{{i18n:Raven_generic_{{Random:{{Range:1,12}}}}}}"
+                    "Tue": "{{i18n:dialogue.raven.generic_{{Random:{{Range:1,12}}}}}}",
+                    "Sun": "{{i18n:dialogue.raven.generic_{{Random:{{Range:1,12}}}}}}"
                 }
             },
         //logname:token:Heart Dialogue (Wed, Fri, Sat)
@@ -118,9 +118,9 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     //trigger:{{Raven}}_CatLover, {{Raven}}_CheckIn
-                        "Wed": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}",
-                        "Fri": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}",
-                        "Sat": "{{i18n:Raven_0hearts_{{Random:{{Range:1,10}}}}}}"
+                        "Wed": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "0, 1"
@@ -132,9 +132,9 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     //trigger:Letter _WildClans
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:Raven_2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:Raven_WildClansQuery}}#$action AddMail Current {{Raven}}_WildClans received"
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "2, 3"
@@ -145,9 +145,9 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Wed": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}",
-                    "Fri": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}",
-                    "Sat": "{{i18n:Raven_4hearts_{{Random:{{Range:1,5}}}}}}"
+                    "Wed": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
+                    "Fri": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
+                    "Sat": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "4, 5"
@@ -159,9 +159,9 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     //trigger:Add Letter _JobInterview
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:Raven_6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_JobInterview_Query}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "6, 7"
@@ -172,9 +172,9 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:Raven_8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:Raven_Apartment_Query}}"
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "8",
@@ -186,9 +186,9 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Wed": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}",
-                    "Fri": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}",
-                    "Sat": "{{i18n:Raven_8hearts_dating_{{Random:{{Range:1,2}}}}}}"
+                    "Wed": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
+                    "Fri": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
+                    "Sat": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}"
                 },
                 "When": {
                     "Relationship:{{Raven}}": "Dating",
@@ -200,9 +200,9 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Wed": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}",
-                    "Fri": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}",
-                    "Sat": "{{i18n:Raven_10hearts_{{Random:{{Range:1,2}}}}}}"
+                    "Wed": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
+                    "Fri": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
+                    "Sat": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}"
                 },
                 "When": {
                     "Relationship:{{Raven}}": "Dating",
@@ -216,13 +216,13 @@
                     "Action": "EditData",
                     "Target": "Characters/Dialogue/{{Raven}}",
                     "Entries": {
-                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_spring_Rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
                     },
                     "When": {
                         "Weather": "Rain",
@@ -274,12 +274,12 @@
                     "Action": "EditData",
                     "Target": "Characters/Dialogue/{{Raven}}",
                     "Entries": {
-                        "GreenRain": "{{i18n:Raven_greenRain_1}}",
-                        "GreenRainFinished": "{{i18n:Raven_greenRain_Finished_1}}",
-                        "GreenRain_2": "{{i18n:Raven_greenRain_2}}",
-                        "GreenRainFinished_2": "{{i18n:Raven_greenRain_Finished_2}}",
-                        "GreenRain_3": "{{i18n:Raven_greenRain_3_{{Random:{{Range:1,10}}}}}}",
-                        "GreenRainFinished_3": "{{i18n:Raven_greenRain_Finished_3_{{Random:{{Range:1,10}}}}}}"
+                        "GreenRain": "{{i18n:dialogue.raven.greenRain_1}}",
+                        "GreenRainFinished": "{{i18n:dialogue.raven.greenRain_Finished_1}}",
+                        "GreenRain_2": "{{i18n:dialogue.raven.greenRain_2}}",
+                        "GreenRainFinished_2": "{{i18n:dialogue.raven.greenRain_Finished_2}}",
+                        "GreenRain_3": "{{i18n:dialogue.raven.greenRain_3_{{Random:{{Range:1,10}}}}}}",
+                        "GreenRainFinished_3": "{{i18n:dialogue.raven.greenRain_Finished_3_{{Random:{{Range:1,10}}}}}}"
                     }
                 },
                 {
@@ -287,13 +287,13 @@
                     "Action": "EditData",
                     "Target": "Characters/Dialogue/{{Raven}}",
                     "Entries": {
-                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_summer_Rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
                     },
                     "When": {
                         "Weather": "Rain",
@@ -326,13 +326,13 @@
                     "Action": "EditData",
                     "Target": "Characters/Dialogue/{{Raven}}",
                     "Entries": {
-                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
-                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:Raven_rain_query}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:Raven_fall_Rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
                     },
                     "When": {
                         "Weather": "Rain",
@@ -474,7 +474,7 @@
                     "dumped_Guys": "{{i18n:Raven_dumped}}",
                     "secondchance_Guys": "{{i18n:Raven_secondchance}}",
                     //Other Events
-                    "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:Raven_gotPet_cat}} |{{i18n:Raven_gotPet_other}}",
+                    "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:Raven_gotPet_cat}} |{{i18n:Raven_gotPet_other}}"
                 }
             },
         //logname:Conversation Topics - Farmer Marriage
