@@ -273,170 +273,167 @@
                 "dialogue.raven.winter": "Winter... It's... so... cold...",
 
             //label:Weather Dialogue
-                //label:Green Rain
-                    //bullet:Year 1
-                        "dialogue.raven.greenRain_1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
-                        "dialogue.raven.greenRain_Finished_1": "No one died from the rain, so that's good!#$b#What? I thought it might've been caused by pollution or something.",
-                    //bullet:Year 2
-                        "dialogue.raven.greenRain_2": "This green rain smells amazing!#$e#I wonder if people will find a way to turn this into a candle scent.",
-                        "dialogue.raven.greenRain_Finished_2": "Two years in a row of this rain is kinda weird, but I'm not bothered by it.",
-                    //bullet:Year 3+
-                        "dialogue.raven.greenRain_3_1": "One thing I hate about green rain is how much moss there is.#$e#It's a texture thing, blame the autism.",
-                        "dialogue.raven.greenRain_3_2": "I wonder what makes the rain green.#$e#I could probably ask Demetrius. He's really good at that stuff.",
-                        "dialogue.raven.greenRain_3_3": "I'm not sure if you noticed it, but does the green rain feel different from normal rain?#$e#I could be just imagining things, but it definitely feels different to me.",
-                        "dialogue.raven.greenRain_3_4": "I figured that I would gather some moss today. There's so much right now!",
-                        "dialogue.raven.greenRain_3_5": "I noticed something really strange. How come some trees and weeds either change or vanish overnight?#$e#It reminds me of a movie...#$b#The one where the guy gets eaten by a tentacle monster and everyone is in a grocery store.#$b#It's one of my childhood favorites!",
-                        "dialogue.raven.greenRain_3_6": "Do you do anything different when there's green rain?#$e#That's interesting. Well, keep doing your thing!",
-                        "dialogue.raven.greenRain_3_7": "I've never been able to climb trees, but I think it'd be fun to sit on the branches and watch the rain.#$e#I just enjoy nature a lot. It's so beautiful!",
-                        "dialogue.raven.greenRain_3_8": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-                        "dialogue.raven.greenRain_3_9": "Is it just me or does the green rain feel more wet than normal rain?#$e#I should ask Demetrius about it.",
-                        "dialogue.raven.greenRain_3_10": "I wonder what it would feel like to take a bath in green rain.#$e#I'm talking, like, a bath tub full of green rain.",
+                "dialogue.raven.greenRain.year1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
+                "dialogue.raven.greenRain.after.year1": "No one died from the rain, so that's good!#$b#What? I thought it might've been caused by pollution or something.",
 
-                        "dialogue.raven.greenRain_Finished_3_1": "A rare weather pattern that happens every year? What a joke.",
-                        "dialogue.raven.greenRain_Finished_3_2": "I bet Demetrius has fun researching green rain when it comes around.",
-                        "dialogue.raven.greenRain_Finished_3_3": "I think it took longer than usual for my clothes to dry off.#$e#How did it make my clothes more wet than normal rain?",
-                        "dialogue.raven.greenRain_Finished_3_4": "I wonder if there's any supernatural explanation for green rain.",
-                        "dialogue.raven.greenRain_Finished_3_5": "I noticed there's a 'day after' smell with green rain. I like it!",
-                        "dialogue.raven.greenRain_Finished_3_6": "Even though this is a 'rare weather pattern', I wonder if people found a way to profit off of it.",
-                        "dialogue.raven.greenRain_Finished_3_7": "Imagine if somehow the green rain managed to give us superpowers!#$e#Watch out, I might end up getting super speed and break the speed limit!#$b#Just kidding!",
-                        "dialogue.raven.greenRain_Finished_3_8": "I can't play my video games when there's green rain.#$e#I think the rain causes interference with tech.",
-                        "dialogue.raven.greenRain_Finished_3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
-                        "dialogue.raven.greenRain_Finished_3_10": "I think green rain is cool. I never get mad when it comes around!",
-                //label:Rain
-                    "query.raven.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.greenRain.year2": "This green rain smells amazing!#$e#I wonder if people will find a way to turn this into a candle scent.",
+                "dialogue.raven.greenRain.after.year2": "Two years in a row of this rain is kinda weird, but I'm not bothered by it.",
 
-                    "Raven_spring_Rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
-                    "Raven_spring_Rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-                    "Raven_spring_Rain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
-                    "Raven_spring_Rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
-                    "Raven_spring_Rain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
-                    "Raven_spring_Rain_6": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.",
+                "dialogue.raven.greenRain.year3_1": "One thing I hate about green rain is how much moss there is.#$e#It's a texture thing, blame the autism.",
+                "dialogue.raven.greenRain.year3_2": "I wonder what makes the rain green.#$e#I could probably ask Demetrius. He's really good at that stuff.",
+                "dialogue.raven.greenRain.year3_3": "I'm not sure if you noticed it, but does the green rain feel different from normal rain?#$e#I could be just imagining things, but it definitely feels different to me.",
+                "dialogue.raven.greenRain.year3_4": "I figured that I would gather some moss today. There's so much right now!",
+                "dialogue.raven.greenRain.year3_5": "I noticed something really strange. How come some trees and weeds either change or vanish overnight?#$e#It reminds me of a movie...#$b#The one where the guy gets eaten by a tentacle monster and everyone is in a grocery store.#$b#It's one of my childhood favorites!",
+                "dialogue.raven.greenRain.year3_6": "Do you do anything different when there's green rain?#$e#That's interesting. Well, keep doing your thing!",
+                "dialogue.raven.greenRain.year3_7": "I've never been able to climb trees, but I think it'd be fun to sit on the branches and watch the rain.#$e#I just enjoy nature a lot. It's so beautiful!",
+                "dialogue.raven.greenRain.year3_8": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                "dialogue.raven.greenRain.year3_9": "Is it just me or does the green rain feel more wet than normal rain?#$e#I should ask Demetrius about it.",
+                "dialogue.raven.greenRain.year3_10": "I wonder what it would feel like to take a bath in green rain.#$e#I'm talking, like, a bath tub full of green rain.",
 
-                    "Raven_summer_Rain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
-                    "Raven_summer_Rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-                    "Raven_summer_Rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-                    "Raven_summer_Rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                "dialogue.raven.greenRain.after.year3_1": "A rare weather pattern that happens every year? What a joke.",
+                "dialogue.raven.greenRain.after.year3_2": "I bet Demetrius has fun researching green rain when it comes around.",
+                "dialogue.raven.greenRain.after.year3_3": "I think it took longer than usual for my clothes to dry off.#$e#How did it make my clothes more wet than normal rain?",
+                "dialogue.raven.greenRain.after.year3_4": "I wonder if there's any supernatural explanation for green rain.",
+                "dialogue.raven.greenRain.after.year3_5": "I noticed there's a 'day after' smell with green rain. I like it!",
+                "dialogue.raven.greenRain.after.year3_6": "Even though this is a 'rare weather pattern', I wonder if people found a way to profit off of it.",
+                "dialogue.raven.greenRain.after.year3_7": "Imagine if somehow the green rain managed to give us superpowers!#$e#Watch out, I might end up getting super speed and break the speed limit!#$b#Just kidding!",
+                "dialogue.raven.greenRain.after.year3_8": "I can't play my video games when there's green rain.#$e#I think the rain causes interference with tech.",
+                "dialogue.raven.greenRain.after.year3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
+                "dialogue.raven.greenRain.after.year3_10": "I think green rain is cool. I never get mad when it comes around!",
+            //label:Rain
+                "query.raven.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
 
-                    "Raven_fall_Rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
-                    "Raven_fall_Rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-                    "Raven_fall_Rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-                    "Raven_fall_Rain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
-                    "Raven_fall_Rain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                "dialogue.raven.spring.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+                "dialogue.raven.spring.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                "dialogue.raven.spring.rain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
+                "dialogue.raven.spring.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                "dialogue.raven.spring.rain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
+                "dialogue.raven.spring.rain_6": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.",
 
-                    "Raven_winter_Rain_1": "... It never rains during winter, what the hell?$17",
-                    "Raven_winter_Rain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
-                    "Raven_winter_Rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-                //label:Storm
-                    "Raven_spring_Storm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
-                    "Raven_spring_Storm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
-                    "Raven_spring_Storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
-                    "Raven_spring_Storm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
-                    "Raven_spring_Storm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.summer.rain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
+                "dialogue.raven.summer.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                "dialogue.raven.summer.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.summer.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
 
-                    "Raven_summer_Storm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
-                    "Raven_summer_Storm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
-                    "Raven_summer_Storm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.fall.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+                "dialogue.raven.fall.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                "dialogue.raven.fall.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.fall.rain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
+                "dialogue.raven.fall.rain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
 
-                    "Raven_fall_Storm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-                    "Raven_fall_Storm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
-                    "Raven_fall_Storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
-                //Label:Wind
-                    "Raven_spring_Wind_1": "Seeing the petals flying in the wind like this is so calming.$1",
-                    "Raven_spring_Wind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
-                    "Raven_spring_Wind_3": "Ow!$8#$b#Some dirt flew into my eye.$2#$e#Now I'm gonna be blinking like crazy for the next minute.$5",
+                "dialogue.raven.winter.rain_1": "... It never rains during winter, what the hell?$17",
+                "dialogue.raven.winter.rain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
+                "dialogue.raven.winter.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
 
-                    "Raven_fall_Wind_1": "Hold up- I think I got some dirt in my eye.$2#$b#OUCH!$8#$b#Ugh, I got it out. That hurt.$13",
-                    "Raven_fall_Wind_2": "Even though the wind is strong, at least it's not strong enough to make rocks fly in the wind!",
-                    "Raven_fall_Wind_3": "It's fun watching the wind blow the leaves around.$1",
-                //label:Snow
-                    "Raven_snow_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
-                    "Raven_snow_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
-                    "Raven_snow_3": "The snow is so pretty! I could watch the snow fall all day.$1#$e#Do you like snow?",
-                    "Raven_snow_4": "It's so pretty outside since it's snowing, but it's too cold for me to stay outside for too long.$2#$e#I wonder what it would be like if snow could happen while it's still warm outside.#$b#It might be a lot easier for people to tolerate!$1",
-                    "Raven_snow_5": "One time, I tried taking some snow home with me on a road trip back when I was younger.#$b#Unfortunately, the snow all fused together and was half-melted by the time I got back home.$11#$e#It was pretty cool seeing how long the snow managed to last, though.",
+                "dialogue.raven.spring.storm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
+                "dialogue.raven.spring.storm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
+                "dialogue.raven.spring.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+                "dialogue.raven.spring.storm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
+                "dialogue.raven.spring.storm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+
+                "dialogue.raven.summer.storm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
+                "dialogue.raven.summer.storm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
+                "dialogue.raven.summer.storm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+
+                "dialogue.raven.fall.storm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                "dialogue.raven.fall.storm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
+                "dialogue.raven.fall.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+
+                "dialogue.raven.spring.wind_1": "Seeing the petals flying in the wind like this is so calming.$1",
+                "dialogue.raven.spring.wind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
+                "dialogue.raven.spring.wind_3": "Ow!$8#$b#Some dirt flew into my eye.$2#$e#Now I'm gonna be blinking like crazy for the next minute.$5",
+
+                "dialogue.raven.fall.wind_1": "Hold up- I think I got some dirt in my eye.$2#$b#OUCH!$8#$b#Ugh, I got it out. That hurt.$13",
+                "dialogue.raven.fall.wind_2": "Even though the wind is strong, at least it's not strong enough to make rocks fly in the wind!",
+                "dialogue.raven.fall.wind_3": "It's fun watching the wind blow the leaves around.$1",
+
+                "dialogue.raven.snow_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
+                "dialogue.raven.snow_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
+                "dialogue.raven.snow_3": "The snow is so pretty! I could watch the snow fall all day.$1#$e#Do you like snow?",
+                "dialogue.raven.snow_4": "It's so pretty outside since it's snowing, but it's too cold for me to stay outside for too long.$2#$e#I wonder what it would be like if snow could happen while it's still warm outside.#$b#It might be a lot easier for people to tolerate!$1",
+                "dialogue.raven.snow_5": "One time, I tried taking some snow home with me on a road trip back when I was younger.#$b#Unfortunately, the snow all fused together and was half-melted by the time I got back home.$11#$e#It was pretty cool seeing how long the snow managed to last, though.",
             //label:Festival Event Dialogue
-                //bullet:Flower Dance
-                    "Raven_flowerDance_Decline": "Sorry, but I plan on just watching the dance this year.#$b#I appreciate you asking though!",
+                "festival.raven.flowerDance.decline": "Sorry, but I plan on just watching the dance this year.#$b#I appreciate you asking though!",
 
-                    "Raven_flowerDance_Accept_1": "Wait, you actually want to dance with me?#$b#I appreciate it! I hope I don't accidentally step on your toes.",
-                    "Raven_flowerDance_Accept_2": "Aw, I'm really happy you asked! Sure I'll dance with you.",
-                    "Raven_flowerDance_Accept_3": "Really? Me?#$b#Awesome, I can't wait! We're gonna do great out there.",
+                "festival.raven.flowerDance.accept_1": "Wait, you actually want to dance with me?#$b#I appreciate it! I hope I don't accidentally step on your toes.",
+                "festival.raven.flowerDance.accept_2": "Aw, I'm really happy you asked! Sure I'll dance with you.",
+                "festival.raven.flowerDance.accept_3": "Really? Me?#$b#Awesome, I can't wait! We're gonna do great out there.",
 
-                    "Raven_flowerDance_Accept_Spouse_1": "You don't need to ask, of course I'll dance with you!$1",
-                    "Raven_flowerDance_Accept_Spouse_2": "I'll dance with you any day! I'll see you when the dance starts.$6",
-                    "Raven_flowerDance_Accept_Spouse_3": "Aw, you're so sweet! I'll definitely dance with you honey.$4",
-                //bullet:Stardew Valley Fair
-                    "Raven_stardewValleyFair_Judging_1": "It'd be awesome if you won this year!#$b#Your crops always have a wonderful taste to them.",
-                    "Raven_stardewValleyFair_Judging_2": "I wonder what the grossest thing Lewis has ever came across while judging.",
-                    "Raven_stardewValleyFair_Judging_3": "Even though I never participate, I still get excited to see who wins the grange display contest!",
+                "festival.raven.flowerDance.spouse.accept_1": "You don't need to ask, of course I'll dance with you!$1",
+                "festival.raven.flowerDance.spouse.accept_2": "I'll dance with you any day! I'll see you when the dance starts.$6",
+                "festival.raven.flowerDance.spouse.accept_3": "Aw, you're so sweet! I'll definitely dance with you honey.$4",
 
-                    "Raven_stardewValleyFair_Judged_PlayerLost_PurpleShorts": "It seems like I'm not the only one that knows about Mayor Lewis' secrets.#$b#Let's give him hell.",
+                "festival.raven.stardewValleyFair.judging_1": "It'd be awesome if you won this year!#$b#Your crops always have a wonderful taste to them.",
+                "festival.raven.stardewValleyFair.judging_2": "I wonder what the grossest thing Lewis has ever came across while judging.",
+                "festival.raven.stardewValleyFair.judging_3": "Even though I never participate, I still get excited to see who wins the grange display contest!",
 
-                    "Raven_stardewValleyFair_Judged_PlayerLost_Skipped_1": "Hopefully you participate next year! It'd be awesome to see what you put on display.",
-                    "Raven_stardewValleyFair_Judged_PlayerLost_Skipped_2": "I understand if you skipped the competition because of nervousness.#$b#I can imagine not every season can get you the best crops. Nature is a massive lottery if you think about it.",
-                    "Raven_stardewValleyFair_Judged_PlayerLost_Skipped_3": "I was looking forward to seeing your display this year, but it's okay.#$b#I can always visit the farm to take a look at how things are going.",
+                "festival.raven.stardewValleyFair.judged.playerLost.purpleShorts": "It seems like I'm not the only one that knows about Mayor Lewis' secrets.#$b#Let's give him hell.",
 
-                    "Raven_stardewValleyFair_Judged_PlayerLost_1": "You did your best, @.#$b#I know that Mayor Lewis is quite biased when it comes to competitions he hosts though.",
-                    "Raven_stardewValleyFair_Judged_PlayerLost_2": "Don't worry about losing. You still put up some cool stuff!#$e#You're an underrated artist.#$b#Yeah, crops can be considered art. Leah would probably agree with you.",
-                    "Raven_stardewValleyFair_Judged_PlayerLost_3": "Keep your head up! Your display was still awesome.",
+                "festival.raven.stardewValleyFair.judged.playerLost.skipped_1": "Hopefully you participate next year! It'd be awesome to see what you put on display.",
+                "festival.raven.stardewValleyFair.judged.playerLost.skipped_2": "I understand if you skipped the competition because of nervousness.#$b#I can imagine not every season can get you the best crops. Nature is a massive lottery if you think about it.",
+                "festival.raven.stardewValleyFair.judged.playerLost.skipped_3": "I was looking forward to seeing your display this year, but it's okay.#$b#I can always visit the farm to take a look at how things are going.",
 
-                    "Raven_stardewValleyFair_Judged_PlayerWon_1": "I'm really proud of you! I was hoping you'd win.",
-                    "Raven_stardewValleyFair_Judged_PlayerWon_2": "Nice fuckin' job!$1#$b#Oh shit, do you think Mayor Lewis heard me cuss?$17#$e#I feel like Mayor Lewis would have a heart attack if he heard anyone cuss around him.$11",
-                    "Raven_stardewValleyFair_Judged_PlayerWon_3": "Ayy, look at this year's winner!",
+                "festival.raven.stardewValleyFair.judged.playerLost_1": "You did your best, @.#$b#I know that Mayor Lewis is quite biased when it comes to competitions he hosts though.",
+                "festival.raven.stardewValleyFair.judged.playerLost_2": "Don't worry about losing. You still put up some cool stuff!#$e#You're an underrated artist.#$b#Yeah, crops can be considered art. Leah would probably agree with you.",
+                "festival.raven.stardewValleyFair.judged.playerLost_3": "Keep your head up! Your display was still awesome.",
 
-                    "Raven_stardewValleyFair_Judged_1": "Everyone did great this year.$1#$b#I kinda wonder what I would put on a grange display.",
-                    "Raven_stardewValleyFair_Judged_2": "Everyone did great this year.$1#$b#I love seeing the creativity!$1",
-                    "Raven_stardewValleyFair_Judged_3": "Everyone did great this year.$1#$b#Do you think the kids would ever make their own grange displays?$17",
-                //bullet:Winter Star -> Gift Exchange
-                    "Raven_winterStar_GiveGift_Before_Spouse_1": "Surprise! I'm your secret gift giver!#$b#I have a feeling you'll love it.",
-                    "Raven_winterStar_GiveGift_Before_Spouse_2": "Hi babe, you managed to get me this year!#$b#I worked had to get this ready for you.",
-                    "Raven_winterStar_GiveGift_Before_Spouse_3": "Guess who you got, honey!#$b#I hope you didn't find the gift early and try to sneak a peek already.",
+                "festival.raven.stardewValleyFair.judged.playerWon_1": "I'm really proud of you! I was hoping you'd win.",
+                "festival.raven.stardewValleyFair.judged.playerWon_2": "Nice fuckin' job!$1#$b#Oh shit, do you think Mayor Lewis heard me cuss?$17#$e#I feel like Mayor Lewis would have a heart attack if he heard anyone cuss around him.$11",
+                "festival.raven.stardewValleyFair.judged.playerWon_3": "Ayy, look at this year's winner!",
 
-                    "Raven_winterStar_GiveGift_Before_1": "Surprise, @! I'm your secret gift giver.#$b#I had a hard time thinking of something but I think this is perfect.",
-                    "Raven_winterStar_GiveGift_Before_2": "Hi, @, I'm your secret gift giver!#$b#Go ahead and open it. I wanna see your reaction!",
-                    "Raven_winterStar_GiveGift_Before_3": "Guess who it is?#$b#Open it up, I'm excited to see your face.",
+                "festival.raven.stardewValleyFair.judged_1": "Everyone did great this year.$1#$b#I kinda wonder what I would put on a grange display.",
+                "festival.raven.stardewValleyFair.judged_2": "Everyone did great this year.$1#$b#I love seeing the creativity!$1",
+                "festival.raven.stardewValleyFair.judged_3": "Everyone did great this year.$1#$b#Do you think the kids would ever make their own grange displays?$17",
 
-                    "Raven_winterStar_GiveGift_After_Spouse_1": "I really hope you enjoy the gift, love! I spent a lot of time putting it together.",
-                    "Raven_winterStar_GiveGift_After_Spouse_2": "Now I gotta think about what to get you next year if I get picked for you again!#$b#But I'll do it gladly.",
-                    "Raven_winterStar_GiveGift_After_Spouse_3": "There's more presents waiting for you at home, darling. I wanna make sure I can spoil you.",
+                "festival.raven.winterStar.giveGift.spouse.before_1": "Surprise! I'm your secret gift giver!#$b#I have a feeling you'll love it.",
+                "festival.raven.winterStar.giveGift.spouse.before_2": "Hi babe, you managed to get me this year!#$b#I worked had to get this ready for you.",
+                "festival.raven.winterStar.giveGift.spouse.before_3": "Guess who you got, honey!#$b#I hope you didn't find the gift early and try to sneak a peek already.",
 
-                    "Raven_winterStar_GiveGift_After_1": "I really hope you enjoy the gift! It took a while to put together.",
-                    "Raven_winterStar_GiveGift_After_2": "I hope you get a lot of use out of your present!",
-                    "Raven_winterStar_GiveGift_After_3": "If you ever need a replacement because you lost or broke your gift, let me know and I'll add it to next year's gift!",
+                "festival.raven.winterStar.giveGift.before_1": "Surprise, @! I'm your secret gift giver.#$b#I had a hard time thinking of something but I think this is perfect.",
+                "festival.raven.winterStar.giveGift.before_2": "Hi, @, I'm your secret gift giver!#$b#Go ahead and open it. I wanna see your reaction!",
+                "festival.raven.winterStar.giveGift.before_3": "Guess who it is?#$b#Open it up, I'm excited to see your face.",
 
-                    "Raven_winterStar_ReceiveGift_1": "Oh, thanks so much! I can tell you put a lot of thought into it.",
-                    "Raven_winterStar_ReceiveGift_2": "Aw, thanks for the gift! It's always great to see who my secret gift giver is for the year.",
-                    "Raven_winterStar_ReceiveGift_3": "I bet it took a while to get this for me, thanks!",
+                "festival.raven.winterStar.giveGift.spouse.after_1": "I really hope you enjoy the gift, love! I spent a lot of time putting it together.",
+                "festival.raven.winterStar.giveGift.spouse.after_2": "Now I gotta think about what to get you next year if I get picked for you again!#$b#But I'll do it gladly.",
+                "festival.raven.winterStar.giveGift.spouse.after_3": "There's more presents waiting for you at home, darling. I wanna make sure I can spoil you.",
+
+                "festival.raven.winterStar.giveGift.after_1": "I really hope you enjoy the gift! It took a while to put together.",
+                "festival.raven.winterStar.giveGift.after_2": "I hope you get a lot of use out of your present!",
+                "festival.raven.winterStar.giveGift.after_3": "If you ever need a replacement because you lost or broke your gift, let me know and I'll add it to next year's gift!",
+
+                "festival.raven.winterStar.receiveGift_1": "Oh, thanks so much! I can tell you put a lot of thought into it.",
+                "festival.raven.winterStar.receiveGift_2": "Aw, thanks for the gift! It's always great to see who my secret gift giver is for the year.",
+                "festival.raven.winterStar.receiveGift_3": "I bet it took a while to get this for me, thanks!",
             //label:Conversation Topics
                 //bullet:General
-                    "Raven_Introduction": "Ah, you're @! It's great to meet you, I'm Raven.#$b#I've heard word going around that we'd be seeing someone new soon.#$e#You'll find me all kinds of places, so you might have a hard time flagging me down for things.",
-                    "Raven_willyCrabs": "Gus told me that a bunch of crabs went loose at Willy's shop!#$e#I'd be too scared to even think about getting the place cleaned up.#$b#At that point, the shop is theirs.",
-                    "Raven_pamHouseUpgrade": "I think you did a really sweet thing having Pam's trailer turned into a house.#$e#It must take a lot for Pam to swallow her pride, but it's something that they've needed for a long time.",
-                    "Raven_pamHouseUpgradeAnonymous": "I don't know who got Pam's trailer turned into a house, but whoever did it must've really cared.#$e#It's nice to see people investing in the community.",
-                    "Raven_joja_Begin": "I know that the community center is gonna be taken over by Joja, but Mayor Lewis could've paid to get it restored if he actually cared about it.$2#$e#I know that man's secrets. He has the money for it, but hoped to get someone to volunteer to get it done.#$b#What a lazy hack of a mayor.",
-                    "Raven_movieTheater": "I'm surprised that Pelican Town is getting it's own movie theater! It'll be a ton of fun.#$e#Is it sad to say that I've only been to the movies once in my life?",
+                    "conversationTopic.raven.introduction": "Ah, you're @! It's great to meet you, I'm Raven.#$b#I've heard word going around that we'd be seeing someone new soon.#$e#You'll find me all kinds of places, so you might have a hard time flagging me down for things.",
+                    "conversationTopic.raven.willyCrabs": "Gus told me that a bunch of crabs went loose at Willy's shop!#$e#I'd be too scared to even think about getting the place cleaned up.#$b#At that point, the shop is theirs.",
+                    "conversationTopic.raven.pamHouseUpgrade": "I think you did a really sweet thing having Pam's trailer turned into a house.#$e#It must take a lot for Pam to swallow her pride, but it's something that they've needed for a long time.",
+                    "conversationTopic.raven.pamHouseUpgradeAnonymous": "I don't know who got Pam's trailer turned into a house, but whoever did it must've really cared.#$e#It's nice to see people investing in the community.",
+                    "conversationTopic.raven.joja_Begin": "I know that the community center is gonna be taken over by Joja, but Mayor Lewis could've paid to get it restored if he actually cared about it.$2#$e#I know that man's secrets. He has the money for it, but hoped to get someone to volunteer to get it done.#$b#What a lazy hack of a mayor.",
+                    "conversationTopic.raven.movieTheater": "I'm surprised that Pelican Town is getting it's own movie theater! It'll be a ton of fun.#$e#Is it sad to say that I've only been to the movies once in my life?",
                 //bullet:Dumpster Diving
-                    "Raven_DumpsterDiveComment_1": "Did you find anything good in there?#$b#If you find anything useful that you don't want, let me know!",
-                    "Raven_DumpsterDiveComment_2": "Don't let anything go to waste if you know you it can be used!",
-                    "Raven_DumpsterDiveComment_3": "Hey, @, if you see any food in there, could you split it with me.#$b#Y-you don't have to though!",
-                    "Raven_DumpsterDiveComment_4": "Did you come across any algae?#$b#I wonder how people find algae in town. Isn't it a weird place to see it?",
-                    "Raven_DumpsterDiveComment_5": "Just a little advice, you might not wanna be too loud or obvious with dumpster diving.#$b#They WILL look at you weird for it. I just don't want them to judge you, you know?#$b#You're doing great though, I don't mind it.",
-                    "Raven_DumpsterDiveComment_6": "Do you ever wonder why some people throw perfectly good food away?#$b#It's like humans are incapable of eating leftovers. Leftovers aren't even bad!#$b#I feel like those kinds of people are spoiled.",
-                    "Raven_DumpsterDiveComment_7": "If you come across soggy newspaper, save it so you can recycle it later.#$b#Sometimes you get some cool stuff in return!",
-                    "Raven_DumpsterDiveComment_8": "How come the people never toss their old clothes in the trash?#$b#We don't have a thrift store in Pelican Town. Maybe they mail it out to thrift stores in Zuzu or something.",
-                    "Raven_DumpsterDiveComment_9": "Find anything weird in the trash?",
-                    "Raven_DumpsterDiveComment_10": "Oooh, that looks cool!",
+                    "conversationTopic.raven.dumpsterDiveComment_1": "Did you find anything good in there?#$b#If you find anything useful that you don't want, let me know!",
+                    "conversationTopic.raven.dumpsterDiveComment_2": "Don't let anything go to waste if you know you it can be used!",
+                    "conversationTopic.raven.dumpsterDiveComment_3": "Hey, @, if you see any food in there, could you split it with me.#$b#Y-you don't have to though!",
+                    "conversationTopic.raven.dumpsterDiveComment_4": "Did you come across any algae?#$b#I wonder how people find algae in town. Isn't it a weird place to see it?",
+                    "conversationTopic.raven.dumpsterDiveComment_5": "Just a little advice, you might not wanna be too loud or obvious with dumpster diving.#$b#They WILL look at you weird for it. I just don't want them to judge you, you know?#$b#You're doing great though, I don't mind it.",
+                    "conversationTopic.raven.dumpsterDiveComment_6": "Do you ever wonder why some people throw perfectly good food away?#$b#It's like humans are incapable of eating leftovers. Leftovers aren't even bad!#$b#I feel like those kinds of people are spoiled.",
+                    "conversationTopic.raven.dumpsterDiveComment_7": "If you come across soggy newspaper, save it so you can recycle it later.#$b#Sometimes you get some cool stuff in return!",
+                    "conversationTopic.raven.dumpsterDiveComment_8": "How come the people never toss their old clothes in the trash?#$b#We don't have a thrift store in Pelican Town. Maybe they mail it out to thrift stores in Zuzu or something.",
+                    "conversationTopic.raven.dumpsterDiveComment_9": "Find anything weird in the trash?",
+                    "conversationTopic.raven.dumpsterDiveComment_10": "Oooh, that looks cool!",
                 //bullet:Hit By Slingshot
-                    "Raven_HitBySlingshot_1": "What the fuck is wrong with you?! Don't do that!#$e#%Raven is glaring at you. It feels like a threat.",
-                    "Raven_HitBySlingshot_2": "Who did that?!#$b#Wait, @! You know better than to do this! You're a grown adult.#$b#I swear to Yoba... *mutters angrily to themself*#$e#%Raven refuses to speak to you. Maybe you messed up.",
-                    "Raven_HitBySlingshot_3": "!!!#$b#Were it not for the laws of this land I-#$b#...#$b#Just screw you!#$e#%Raven looks close to fighting you. Maybe you should leave them alone.",
-                    "Raven_HitBySlingshot_4": "You little shit, get out of here!#$e#%Raven refuses to look at you.",
-                    "Raven_HitBySlingshot_5": "Do you want me to tell Mayor Lewis about this?!#$b#I'm sure he could get your ass kicked out of here if you keep this shit up!",
-                    "Raven_HitBySlingshot_6": "%Raven's eye twitches.#$b#What the fuck did you just do to me you little shit?#$b#I'll have you know I graduated top of my class in the Ferngill Navy and I've been involved in numerous secret raids on top secret groups.#$b#AND I have over 300 confirmed kills.#$b#I am trained in geurilla warfare and I'm the top sniper in the entire armed forces.#$b#You are nothing to me but just another target.#$e#I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth. Mark my fucking words.#$b#You think you can get away with saying that shit to me to my fucking face? Think again, fucker.#$e#As we speak, I am contacting my secret network of spies across the Ferngill Republic and you're being traced right now.#$b#So you better prepare for the storm, maggot.#$b#The storm that wipes out the pathetic little thing you call your life.#$e#You're fucking dead, kid.#$b#I can be anywhere, anytime, and I can kill you in over seven hundred ways.#$b#And that's just with my bare hands.#$e#Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the military.#$b#I will use it to its full extent to wipe your miserable ass off the face of the continent.#$b#You little shit.#$e#If only you could have known what unholy retribution your little clever comment was about to bring upon you.#$b#Maybe you would have held your fucking tongue. But you couldn't. You didn't.#$b#And now your're paying the price, you goddamn idiot.#$e#I will shit fury all over you and you will drown in it.#$b#You're fucking dead, kiddo.#$e#*sigh* Okay, maybe that stuff isn't true, but still. Don't do that to people. It's rude.",
-                    "Raven_HitBySlingshot_7": "I...#$b#I HATE YOU, THAT HURT!#$e#Don't apologize. Get away from me!",
-                    "Raven_HitBySlingshot_8": "AAAAAAAA#$b#AAAAAAAAA#$b#AAAAAAAAAAAGH!#$e#Screw you!!!",
-                    "Raven_HitBySlingshot_9": "How would you like it if I hit you with a fucking slingshot?!#$b#You wouldn't like it, would you?!",
-                    "Raven_HitBySlingshot_10": "I hope you get hit with a ton of rocks you asshat!",
+                    "conversationTopic.raven.hitBySlingshot_1": "What the fuck is wrong with you?! Don't do that!#$e#%Raven is glaring at you. It feels like a threat.",
+                    "conversationTopic.raven.hitBySlingshot_2": "Who did that?!#$b#Wait, @! You know better than to do this! You're a grown adult.#$b#I swear to Yoba... *mutters angrily to themself*#$e#%Raven refuses to speak to you. Maybe you messed up.",
+                    "conversationTopic.raven.hitBySlingshot_3": "!!!#$b#Were it not for the laws of this land I-#$b#...#$b#Just screw you!#$e#%Raven looks close to fighting you. Maybe you should leave them alone.",
+                    "conversationTopic.raven.hitBySlingshot_4": "You little shit, get out of here!#$e#%Raven refuses to look at you.",
+                    "conversationTopic.raven.hitBySlingshot_5": "Do you want me to tell Mayor Lewis about this?!#$b#I'm sure he could get your ass kicked out of here if you keep this shit up!",
+                    "conversationTopic.raven.hitBySlingshot_6": "%Raven's eye twitches.#$b#What the fuck did you just do to me you little shit?#$b#I'll have you know I graduated top of my class in the Ferngill Navy and I've been involved in numerous secret raids on top secret groups.#$b#AND I have over 300 confirmed kills.#$b#I am trained in geurilla warfare and I'm the top sniper in the entire armed forces.#$b#You are nothing to me but just another target.#$e#I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth. Mark my fucking words.#$b#You think you can get away with saying that shit to me to my fucking face? Think again, fucker.#$e#As we speak, I am contacting my secret network of spies across the Ferngill Republic and you're being traced right now.#$b#So you better prepare for the storm, maggot.#$b#The storm that wipes out the pathetic little thing you call your life.#$e#You're fucking dead, kid.#$b#I can be anywhere, anytime, and I can kill you in over seven hundred ways.#$b#And that's just with my bare hands.#$e#Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the military.#$b#I will use it to its full extent to wipe your miserable ass off the face of the continent.#$b#You little shit.#$e#If only you could have known what unholy retribution your little clever comment was about to bring upon you.#$b#Maybe you would have held your fucking tongue. But you couldn't. You didn't.#$b#And now your're paying the price, you goddamn idiot.#$e#I will shit fury all over you and you will drown in it.#$b#You're fucking dead, kiddo.#$e#*sigh* Okay, maybe that stuff isn't true, but still. Don't do that to people. It's rude.",
+                    "conversationTopic.raven.hitBySlingshot_7": "I...#$b#I HATE YOU, THAT HURT!#$e#Don't apologize. Get away from me!",
+                    "conversationTopic.raven.hitBySlingshot_8": "AAAAAAAA#$b#AAAAAAAAA#$b#AAAAAAAAAAAGH!#$e#Screw you!!!",
+                    "conversationTopic.raven.hitBySlingshot_9": "How would you like it if I hit you with a fucking slingshot?!#$b#You wouldn't like it, would you?!",
+                    "conversationTopic.raven.hitBySlingshot_10": "I hope you get hit with a ton of rocks you asshat!",
                 //bullet:Community Center
                     "Raven_cc_Begin": "It seems like there's some activity going on in the Community Center.#$e#Is Mayor Lewis finally getting his shit together and resotring it?#$b#Wait, you're restoring it?#$b#Well, hopefully you aren't mad about not getting compensated for your labor.",
                     "Raven_cc_Complete": "The fact the Community Center got repaired is a miracle! You did a great job.#$e#You should get paid for the work you did though. I'll try and talk to Mayor Lewis about it.",
@@ -505,7 +502,7 @@
                 "Raven_AnimalShop_Entry": "Hi Marnie!/Hi, I'm just stopping by to say hi.",
                 "Raven_Beach_Entry": "I love how the air feels./I'm gonna get sand in my shoes.../Time to look for shells!",
                 "Raven_Hospital_Entry": "Hi, I have a checkup scheduled.",
-                "Raven_MovieTheater_Entry": "The popcorn smells SO good!/So many flashing lights...",
+                "conversationTopic.raven.movieTheater_Entry": "The popcorn smells SO good!/So many flashing lights...",
                 "Raven_Saloon_Entry": "Hi Gus!/Should I get spaghetti again?",
                 "Raven_Trailer_Entry": "Ayo!",
                 "Raven_Trailor_Big_Entry": "Ayo!/I love how much space there is in here!",
@@ -773,25 +770,25 @@
                 "Raven_festivalOfIce_2": "I wonder when Lewis is gonna start the fishing competition.#$e#I wanna see how many fish everyone catches!",
                 "Raven_festivalOfIce_3": "Hm... I think I wanna play a prank on Mayor Lewis, but I don't know what to do.$17#$e#Maybe you can help me figure something out?",
             //label:Feast of the Winter Star
-                "Raven_winterStar_1": "I love seeing everyone smiling and having a good time!#$e#Maybe one of these days I can have a family of my own to spend festivals with.",
-                "Raven_winterStar_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
-                "Raven_winterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
-                "Raven_winterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully you get something you like!",
-                "Raven_winterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+                "festival.raven.winterStar.1": "I love seeing everyone smiling and having a good time!#$e#Maybe one of these days I can have a family of my own to spend festivals with.",
+                "festival.raven.winterStar.2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+                "festival.raven.winterStar.3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+                "festival.raven.winterStar.4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully you get something you like!",
+                "festival.raven.winterStar.5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
 
-                "Raven_winterStar_spouse_1": "I love seeing everyone smiling and having a good time!#$e#I especially love to spend time with you, honey.$4",
-                "Raven_winterStar_spouse_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
-                "Raven_winterStar_spouse_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
-                "Raven_winterStar_spouse_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully I get you as my secret gift giver.$4",
-                "Raven_winterStar_spouse_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
-            //label:Ember of Resolutions
-                "Raven_emberOfResolutions_1": "My resolution is to take my medications on time every single day.$1#$e#Don't ask me how realistic that is. My memory is notoriously unreliable.$11",
-                "Raven_emberOfResolutions_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1",
-                "Raven_emberOfResolutions_3": "My resolution is to read more books next year.$1",
+                "festival.raven.winterStar.spouse_1": "I love seeing everyone smiling and having a good time!#$e#I especially love to spend time with you, honey.$4",
+                "festival.raven.winterStar.spouse_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+                "festival.raven.winterStar.spouse_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+                "festival.raven.winterStar.spouse_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully I get you as my secret gift giver.$4",
+                "festival.raven.winterStar.spouse_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
 
-                "Raven_emberOfResolutions_spouse_1": "My resolution is to take my medications on time every single day.$1#$e#You already know how bad my memory is, @. We'll see how long it lasts honey.$11",
-                "Raven_emberOfResolutions_spouse_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1#$b#Unless you have any suggestions?",
-                "Raven_emberOfResolutions_spouse_3": "My resolution is to read more books next year.$1",
+                "festival.raven.emberOfResolutions_1": "My resolution is to take my medications on time every single day.$1#$e#Don't ask me how realistic that is. My memory is notoriously unreliable.$11",
+                "festival.raven.emberOfResolutions_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1",
+                "festival.raven.emberOfResolutions_3": "My resolution is to read more books next year.$1",
+
+                "festival.raven.emberOfResolutions.spouse_1": "My resolution is to take my medications on time every single day.$1#$e#You already know how bad my memory is, @. We'll see how long it lasts honey.$11",
+                "festival.raven.emberOfResolutions.spouse_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1#$b#Unless you have any suggestions?",
+                "festival.raven.emberOfResolutions.spouse_3": "My resolution is to read more books next year.$1",
         //file:mail.json
             //token:{{Raven}}_CheckIn - Event
                 "mail.eventEnd.raven.checkIn_1": "Hey @,^^I'm glad you've been having a good time in Pelican Town. I figured I'd send a letter to show my appreciation. I could show you some things to do in town if you have time in case you get bored.^^I know you'll need breaks from the farm sometimes, so we should hang out when that time comes!^^~ Raven[#]Raven Checking In",
@@ -826,7 +823,6 @@
         //file:locations/Apartment.json,SpouseRoom.json,SpousePatio.json,Tent.json
             //label:Map Strings
                 "RavensTent_NameHover": "Raven's Tent",//Map Display Name
-                "LinusTent_NameHover": "Linus' Tent",//SVE modCompat -> Map Display Name ## TODO: DELETE
             //bullet:Raven's Desk with Paper
                 "mapString.ravenDesk_1": "DARKJACK VOL. I",
                 "mapString.ravenDesk_2": "DARKJACK VOL. II",
@@ -1000,7 +996,6 @@
                 "Raven_RejectItem_Fertilizer_married": "No, we use fertilizer for the farm. Try to find a place for this, will you?$2",
                 "Raven_RejectItem_Seeds_married": "@, please don't waste your seeds on me. I'd rather it used for the farm and not on me.$11",
         //file:modCompat/CJBWarps.json
-            "CJB_RavensTent": "Raven's Tent",
             "CJB_RavensApartment": "Apt 1A: Raven",
         //file:modCompat/downtownZuzu.json
             //label:Conversation Topics
@@ -1022,13 +1017,13 @@
                 "Raven_potluck_dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
         //file:modCompat/naturesBounty.json
             //label:Gifts
-                "Raven_AcceptGift_NB_Bud": "Wait, you're giving this to me?#$b#Well shit, hand it over! I've been dying to get some and couldn't find any!#$b#Oh- sorry, that was rude of me. I appreciate it, thanks @.",
-                "Raven_AcceptGift_NB_HempFiber": "I don't know what to do with this, but I'll try to figure out something.$11",
-                "Raven_AcceptGift_NB_RoastedHempSeeds": "This ain't bad! Keep up the good work.",
-                "Raven_AcceptGift_NB_Preroll": "Ahhh, that's what I needed.#$b#If you see me moving slow or talking slow, no you didn't.",
-                "Raven_AcceptGift_NB_HempRollingPaper": "This is great! I can practice rolling my own blunts.",
-                "Raven_AcceptGift_NB_SpecialBrownie": "Yo, you're not gonna be missing that brownie, right?#$b#Why?#$b#I already ate it, that's why.",
-                "Raven_AcceptGift_NB_InfusedOil": "Ooo, I think Linus can help me use this to make us some good food!#$b#You're the best @.",
+                "nb.gift.raven.bud": "Wait, you're giving this to me?#$b#Well shit, hand it over! I've been dying to get some and couldn't find any!#$b#Oh- sorry, that was rude of me. I appreciate it, thanks @.",
+                "nb.gift.raven.hempFiber": "I don't know what to do with this, but I'll try to figure out something.$11",
+                "nb.gift.raven.roastedHempSeeds": "This ain't bad! Keep up the good work.",
+                "nb.gift.raven.preroll": "Ahhh, that's what I needed.#$b#If you see me moving slow or talking slow, no you didn't.",
+                "nb.gift.raven.hempRollingPaper": "This is great! I can practice rolling my own blunts.",
+                "nb.gift.raven.specialBrownie": "Yo, you're not gonna be missing that brownie, right?#$b#Why?#$b#I already ate it, that's why.",
+                "nb.gift.raven.infusedOil": "Ooo, I think Linus can help me use this to make us some good food!#$b#You're the best @.",
             //token:{{NBDialogue}}
                 "dialogue.raven.NB.generic_1": "I sometimes eat edibles. Gus sells them for a really good price at the Stardrop Saloon.#$e#The employee discount also works on special brownies, can you believe it?",
                 "dialogue.raven.NB.generic_2": "It'd be awesome if Pelican Town had a dispensary. But no, Mayor Lewis says it's not appropriate.#$e#He's just a loser.",
@@ -1158,18 +1153,18 @@
             "event.marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//Gus
             "event.marriageTalk_speak_6": "I hope I get a relationship like that one of these days.$4",//Raven
         //file:Raven_apartment.json
-            "event.Apartment_1": "That's the last one!",//Raven
-            "event.Apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
-            "event.Apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
-            "event.Apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
-            "event.Apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
-            "event.Apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
-            "event.Apartment_7": "...#$b#I feel... normal again.$13",//Raven
-            "event.Apartment_8": "*sniff*",//Raven
-            "event.Apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//Raven
-            "event.Apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
+            "event.apartment_1": "That's the last one!",//Raven
+            "event.apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
+            "event.apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
+            "event.apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
+            "event.apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
+            "event.apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
+            "event.apartment_7": "...#$b#I feel... normal again.$13",//Raven
+            "event.apartment_8": "*sniff*",//Raven
+            "event.apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//Raven
+            "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
 
-            "event.Apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
+            "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
     //title:Event/ModCompat
         //file:Raven_gusEdibles.json
             "nb.event.gusEdibles.speak_1": "Welcome!",//Gus

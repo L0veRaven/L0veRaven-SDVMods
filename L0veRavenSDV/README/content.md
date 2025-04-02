@@ -1284,8 +1284,8 @@ Flower Dance
 {"Name": "Raven_flowerDance_dayBefore","Value": "{{i18n:dialogue.raven.flowerDance.dayBefore_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "Raven_flowerDance_dayOf","Value": "{{i18n:dialogue.raven.flowerDance.dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "Raven_flowerDance_dayAfter","Value": "{{i18n:dialogue.raven.flowerDance.dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanAccept","Value": "{{i18nRaven_flowerDance_Accept_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "flowDanAcceptSpouse","Value": "{{i18nRaven_flowerDance_Accept_Spouse_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanAccept","Value": "{{i18nfestival.raven.flowerDance.accept_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "flowDanAcceptSpouse","Value": "{{i18nfestival.raven.flowerDance.spouse.accept_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1350,11 +1350,11 @@ Stardew Valley Fair
 {"Name": "FairYest","Value": "{{i18n:dialogue.raven.stardewValleyFair.dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairToday","Value": "{{i18n:dialogue.raven.stardewValleyFair.dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "FairTomo","Value": "{{i18n:dialogue.raven.stardewValleyFair.dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudging","Value": "{{i18n:Raven_stardewValleyFair_Judging_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeSkip","Value": "{{i18n:Raven_stardewValleyFair_Judged_Skipped{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeLost","Value": "{{i18n:Raven_stardewValleyFair_Judged_PlayerLost_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudgeWon","Value": "{{i18n:Raven_stardewValleyFair_Judged_PlayerWon_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "FairJudged","Value": "{{i18n:Raven_stardewValleyFair_Judged_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudging","Value": "{{i18n:festival.raven.stardewValleyFair.judging_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeSkip","Value": "{{i18n:festival.raven.stardewValleyFair.judged_Skipped{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeLost","Value": "{{i18n:festival.raven.stardewValleyFair.judged.playerLost.{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudgeWon","Value": "{{i18n:festival.raven.stardewValleyFair.judged.playerWon_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "FairJudged","Value": "{{i18n:festival.raven.stardewValleyFair.judged_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1403,8 +1403,8 @@ Feast of the Winter Star
 {"Name": "winterStarYest","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarToday","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarTomo","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBefore","Value": "{{i18n:Raven_winterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:Raven_winterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBefore","Value": "{{i18n:festival.raven.winterStar.GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:festival.raven.winterStar.GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}",},

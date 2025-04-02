@@ -20,17 +20,6 @@
             }
         },
         {//Verified
-            "LogName": "StringsFromCSFiles.json: General (SVE)",
-            "Action": "EditData",
-            "Target": "Strings/StringsFromCSFiles",
-            "Entries": {
-                "MapPage.cs.11097": "{{i18n:LinusTent_NameHover}}"//REPLACES DEFAULT CS STRING
-            },
-            "When": {
-                "HasMod |contains={{SVE}}": true
-            }
-        },
-        {//Verified
             "LogName": "StringsFromCSFiles.json: Engaged Dialogue",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",

@@ -8,7 +8,7 @@
             "Entries": {
                 "{{ModId}}_RavensTent": {
                     "Id": "{{ModId}}_RavensTent",
-                    "DisplayName": "{{i18n:CJB_RavensTent}}",
+                    "DisplayName": "{{i18n:locationName.ravenTent}}",
                     "Location": "Forest",
                     "Tile": "52, 76",
                     "SectionId": "forest",
@@ -29,7 +29,7 @@
             "Entries": {
                 "{{ModId}}_RavensTentSVE": {
                     "Id": "{{ModId}}_RavensTentSVE",
-                    "DisplayName": "{{i18n:CJB_RavensTent}}",
+                    "DisplayName": "{{i18n:locationName.ravenTent}}",
                     "Location": "Forest",
                     "Tile": "88, 89",
                     "SectionId": "forest",
