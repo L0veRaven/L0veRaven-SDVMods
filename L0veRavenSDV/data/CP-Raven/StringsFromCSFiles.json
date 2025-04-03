@@ -13,7 +13,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "Game1.cs.2782": "{{i18n:Raven_AfterWedding}}"
+                "Game1.cs.2782": "{{i18n:spouse.raven.afterWedding}}"
             },
             "When": {
                 "Spouse": "{{Raven}}"
@@ -24,7 +24,7 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "NPC.cs.3980": "{{i18n:Raven_Engaged}}"
+                "NPC.cs.3980": "{{i18n:mermaidPendant.raven.accepted}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating"

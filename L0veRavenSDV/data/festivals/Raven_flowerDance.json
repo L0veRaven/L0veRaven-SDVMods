@@ -36,10 +36,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
             "Entries": {
-                "{{Raven}}": "{{i18n:Raven_flowerDance_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:Raven_flowerDance_{{Random:{{Range:1,2}}}}}}",
-                "{{Raven}}_y2": "{{i18n:Raven_flowerDance_{{Random:{{Range:1,2}}}}}}"
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:Raven_flowerDance_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.flowerDance_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.flowerDance_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festival.dialogue.raven.flowerDance_{{Random:{{Range:1,2}}}}}}"
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:festival.dialogue.raven.flowerDance_{{Random:{{Range:1,2}}}}}}",
             }
         }
     ]

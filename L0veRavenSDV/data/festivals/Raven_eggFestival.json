@@ -50,10 +50,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries": {
-                "{{Raven}}": "{{i18n:Raven_eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:Raven_eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{Raven}}_y2": "{{i18n:Raven_eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:Raven_eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festival.dialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:festival.dialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
             }
         }
     ]

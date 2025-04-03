@@ -19,7 +19,7 @@
             "Entries": {
                 "{{NPCA}}_Apartment1A": {
                     "Id": "{{NPCA}}_Apartment1A",
-                    "DisplayName": "{{i18n:CJB_RavensApartment}}",
+                    "DisplayName": "{{i18n:CJB.ravenApartment}}",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": "10, 23",
                     "SectionId": "{{NPCA}}_PelicanValleyLoft",
@@ -37,10 +37,10 @@
             "Entries": {
                 "L0veRavenRavenApartment.1": "{{i18n:mapString.ravenYobaShrine_{{Random:{{Range:1,3}}}}}}",//Yoba Shrine
                 "L0veRavenRavenApartment.2": "{{i18n:mapString.ravenBookshelf_}}",//Bookshelf
-                "L0veRavenRavenApartment.3": "{{i18n:Raven_Fridge_{{Random:{{Range:1,5}}}}}}",//Fridge
-                "L0veRavenRavenApartment.4": "{{i18n:Raven_Stove2_{{Random:{{Range:1,2}}}}}}",//Stove 2
-                "L0veRavenRavenApartment.5": "{{i18n:Raven_Computer_{{Random:{{Range:1,3}}}}}}",//Computer
-                "L0veRavenRavenApartment.6": "{{i18n:Raven_TrashBin_{{Random:{{Range:1,4}}}}}}",//Trash Bin
+                "L0veRavenRavenApartment.3": "{{i18n:mapString.ravenFridge_{{Random:{{Range:1,5}}}}}}",//Fridge
+                "L0veRavenRavenApartment.4": "{{i18n:mapString.ravenStoveApartment_{{Random:{{Range:1,2}}}}}}",//Stove 2
+                "L0veRavenRavenApartment.5": "{{i18n:mapString.ravenComputer_{{Random:{{Range:1,3}}}}}}",//Computer
+                "L0veRavenRavenApartment.6": "{{i18n:mapString.ravenTrashBin_{{Random:{{Range:1,4}}}}}}",//Trash Bin
             }
         },
         {
@@ -82,7 +82,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Dialogue {{i18n:Raven_CoatRack}}"
+                        "Action": "Dialogue {{i18n:mapString.ravenCoatRack}}"
                     }
                 }
             ],

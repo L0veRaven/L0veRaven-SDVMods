@@ -291,7 +291,7 @@
         {
             "LogName": "Raven - Festivals",
             "Action": "Include",
-            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
+            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/festival.dialogue.raven.eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/festival.dialogue.raven.festivalOfIce.json, data/festivals/festival.dialogue.raven.flowerDance.json, data/festivals/festival.dialogue.raven.luau.json, data/festivals/festival.dialogue.raven.spiritsEve.json, data/festivals/festival.dialogue.raven.stardewValleyFair.json"
         },
         {
             "LogName": "Raven - ModCompat",

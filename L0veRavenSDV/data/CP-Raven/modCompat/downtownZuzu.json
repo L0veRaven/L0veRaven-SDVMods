@@ -5,11 +5,11 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "cc_Bus": "{{i18n:Raven_cc_Bus.DTZ}}",
+                "cc_Bus": "{{i18n:conversationTopic.raven.communityCenter.bus.DTZ}}"
             },
             "When": {
-                "HasMod |contains={{DTZ}}": "true",
+                "HasMod |contains={{DTZ}}": "true"
             }
-        },
+        }
     ]
 }

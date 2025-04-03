@@ -1265,9 +1265,9 @@ Egg Festival
     <summary>Expand Code</summary>
      
 ```
-{"Name": "Raven_eggFestival_dayBefore","Value": "{{i18n:Raven_eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",},
-{"Name": "Raven_eggFestival_dayOf","Value": "{{i18n:dialogue.raven.eggFestival.dayOf_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "Raven_eggFestival_dayAfter","Value": "{{i18n:dialogue.raven.eggFestival.dayAfter_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "festival.dialogue.raven.eggFestival_dayBefore","Value": "{{i18n:festival.dialogue.raven.eggFestival_dayBefore{{Random:{{Range:1,4}}}}}}",},
+{"Name": "festival.dialogue.raven.eggFestival_dayOf","Value": "{{i18n:dialogue.raven.eggFestival.dayOf_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "festival.dialogue.raven.eggFestival_dayAfter","Value": "{{i18n:dialogue.raven.eggFestival.dayAfter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1281,9 +1281,9 @@ Flower Dance
     <summary>Expand Code</summary>
      
 ```
-{"Name": "Raven_flowerDance_dayBefore","Value": "{{i18n:dialogue.raven.flowerDance.dayBefore_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "Raven_flowerDance_dayOf","Value": "{{i18n:dialogue.raven.flowerDance.dayOf_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "Raven_flowerDance_dayAfter","Value": "{{i18n:dialogue.raven.flowerDance.dayAfter_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "festival.dialogue.raven.flowerDance_dayBefore","Value": "{{i18n:dialogue.raven.flowerDance.dayBefore_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "festival.dialogue.raven.flowerDance_dayOf","Value": "{{i18n:dialogue.raven.flowerDance.dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "festival.dialogue.raven.flowerDance_dayAfter","Value": "{{i18n:dialogue.raven.flowerDance.dayAfter_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAccept","Value": "{{i18nfestival.raven.flowerDance.accept_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "flowDanAcceptSpouse","Value": "{{i18nfestival.raven.flowerDance.spouse.accept_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1299,9 +1299,9 @@ Luau
     <summary>Expand Code</summary>
      
 ```
-{"Name": "Raven_luau_dayBefore","Value": "{{i18n:dialogue.raven.luau.dayBefore_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "Raven_luau_dayOf","Value": "{{i18n:dialogue.raven.luau.dayOf_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "Raven_luau_dayAfter","Value": "{{i18n:dialogue.raven.luau.dayAfter_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "festival.dialogue.raven.luau_dayBefore","Value": "{{i18n:dialogue.raven.luau.dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "festival.dialogue.raven.luau_dayOf","Value": "{{i18n:dialogue.raven.luau.dayOf_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "festival.dialogue.raven.luau_dayAfter","Value": "{{i18n:dialogue.raven.luau.dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1315,7 +1315,7 @@ Potluck
     <summary>Expand Code</summary>
      
 ```
-{"Name": "potluckYest","Value": "{{i18n:Raven_luauPotluck_dayBefore_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "potluckYest","Value": "{{i18n:festival.dialogue.raven.luauPotluck_dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckToday","Value": "{{i18n:potluck_dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "potluckTomo","Value": "{{i18n:potluck_dayAfter_{{Random:{{Range:1,3}}}}}}",},
 ```
@@ -1403,8 +1403,8 @@ Feast of the Winter Star
 {"Name": "winterStarYest","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayBefore_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarToday","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayOf_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarTomo","Value": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayAfter_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBefore","Value": "{{i18n:festival.raven.winterStar.GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:festival.raven.winterStar.GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBefore","Value": "{{i18n:festival.dialogue.raven.winterStar_GiveGift_Before_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "winterStarGiftBeforeSpouse","Value": "{{i18n:festival.dialogue.raven.winterStar_GiveGift_Before_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfter","Value": "{{i18n:WinterStar_GiveGift_After_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftAfterSpouse","Value": "{{i18n:WinterStar_GiveGift_After_Spouse_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "winterStarGiftReceive","Value": "{{i18n:WinterStar_ReceiveGift_{{Random:{{Range:1,3}}}}}}",},
@@ -1430,10 +1430,10 @@ Feast of the Winter Star
 {"Name": "genericFall","Value": "{{i18n:Raven_genericFall_{{Random:{{Range:1,7}}}}}}",},
 {"Name": "genericWinter","Value": "{{i18n:Raven_genericWinter_{{Random:{{Range:1,7}}}}}}",},
 
-{"Name": "marriedGenSpring","Value": "{{i18n:Raven_married_genericSpring_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "marriedGenSummer","Value": "{{i18n:Raven_married_genericSummer_{{Random:{{Range:1,5}}}}}}",},
-{"Name": "marriedGenFall","Value": "{{i18n:Raven_married_genericFall_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "marriedGenWinter","Value": "{{i18n:Raven_married_genericWinter_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "marriedGenSpring","Value": "{{i18n:dialogue.raven.married.generic.spring{{Random:{{Range:1,3}}}}}}",},
+{"Name": "marriedGenSummer","Value": "{{i18n:dialogue.raven.married.generic.summer_{{Random:{{Range:1,5}}}}}}",},
+{"Name": "marriedGenFall","Value": "{{i18n:dialogue.raven.married.generic.fall_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "marriedGenWinter","Value": "{{i18n:dialogue.raven.married.generic.winter_{{Random:{{Range:1,5}}}}}}",},
 ```
 </details>
 
@@ -1564,10 +1564,10 @@ Married Dialogue
     <summary>Expand Code</summary>
 
 ```
-{"Name": "inSpouseRoom","Value": "{{i18n:Raven_inSpouseRoom_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "onSpousePatio","Value": "{{i18n:Raven_spousePatio_{{Random:{{Range:1,4}}}}}}",},
+{"Name": "inSpouseRoom","Value": "{{i18n:dialogue.raven.married.spouseRoom_{{Random:{{Range:1,3}}}}}}",},
+{"Name": "onSpousePatio","Value": "{{i18n:dialogue.raven.married.spousePatio_{{Random:{{Range:1,4}}}}}}",},
 {"Name": "marRainDay","Value": "{{i18n:Rainy_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
-{"Name": "marRainNight","Value": "{{i18n:Raven_rainyNight_{{Random:Raven,0,{{Range:1,5}}}}}}",},
+{"Name": "marRainNight","Value": "{{i18n:dialogue.raven.married.rainyNight_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marIndDay","Value": "{{i18n:Indoor_Day_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marIndNight","Value": "{{i18n:Indoor_Night_{{Random:Raven,0,{{Range:1,5}}}}}}",},
 {"Name": "marOutdoor","Value": "{{i18n:Outdoor_{{Random:Raven,0,{{Range:1,4}}}}}}",},
@@ -1592,7 +1592,7 @@ Divorce Dialogue
 ```
 {"Name": "divorcedDialogue","Value": "{{i18n:divorced_{{Random:{{Range:1,8}}}}}}",},
 {"Name": "divorcedRejectGift","Value": "{{i18n:RejectGift_Divorced_{{Random:{{Range:1,3}}}}}}",},
-{"Name": "divorcedRejectMPend","Value": "{{i18n:Raven_RejectMermaidPendant_Divorced{{Random:{{Range:1,3}}}}}}",},
+{"Name": "divorcedRejectMPend","Value": "{{i18n:mermaidPendant.dialogue.raven.divorced{{Random:{{Range:1,3}}}}}}",},
 ```
 </details>
 
@@ -1662,7 +1662,7 @@ Strings - Map Objects
 {"Name": "ravenFridge","Value": "{{i18n:Fridge_{{Random:{{Range:1,5}}}}}}",},
 {"Name": "ravenComputer","Value": "{{i18n:Computer_{{Random:{{Range:1,3}}}}}}",},
 {"Name": "ravenTrashBin","Value": "{{i18n:TrashBin_{{Random:{{Range:1,4}}}}}}",},
-{"Name": "ravenCoatRack","Value": "{{i18n:Raven_CoatRack_{{Random:{{Range:1,7}}}}}}",},
+{"Name": "ravenCoatRack","Value": "{{i18n:mapString.ravenCoatRack_{{Random:{{Range:1,7}}}}}}",},
 ```
 </details>
 

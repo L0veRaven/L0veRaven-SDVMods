@@ -34,7 +34,7 @@
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
-                "Forest.101": "{{i18n:nb.dialogue.raven.forest.101_{{Random:{{Range:1,2}}}}}}"
+                "Forest.101": "{{i18n:nb.scheduleDialogue.raven.forest.101_{{Random:{{Range:1,2}}}}}}"
             },
             "When": {
                 "HasMod |contains={{NB}}": "true"

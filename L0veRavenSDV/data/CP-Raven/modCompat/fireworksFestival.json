@@ -21,7 +21,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer20",
             "Entries": {
-                "{{Raven}}": "{{i18n:Raven_fireworksFestival_{{Random:{{Range:1,2}}}}}}"
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.fireworksFestival_{{Random:{{Range:1,2}}}}}}"
             },
             "When": {
                 "HasMod: |contains={{FF}}": true

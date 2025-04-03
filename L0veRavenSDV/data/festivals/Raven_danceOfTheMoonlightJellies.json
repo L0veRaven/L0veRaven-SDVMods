@@ -38,10 +38,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "Entries": {
-                "{{Raven}}": "{{i18n:Raven_moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:Raven_moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                "{{Raven}}_y2": "{{i18n:Raven_moonlightJellies_{{Random:{{Range:1,2}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:Raven_moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festival.dialogue.raven.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:festival.dialogue.raven.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
             },
         }
     ]
