@@ -266,12 +266,12 @@
         {
             "LogName": "Raven - Event Loads",
             "Action": "Include",
-            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/mail.raven.cleansingFarmer.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
+            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json, data/events/Raven_marriageTalk.json"
         },
         {
             "LogName": "ModCompat: Event Loads - Nature's Bounty",
             "Action": "Include",
-            "FromFile": "data/events/modCompat/mail.raven.smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
+            "FromFile": "data/events/modCompat/Raven_smokeSession.json, data/events/modCompat/Raven_gusEdibles.json"
         },
         {
             "LogName": "Raven - Location Loads",
@@ -291,7 +291,7 @@
         {
             "LogName": "Raven - Festivals",
             "Action": "Include",
-            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/festival.dialogue.raven.eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/festival.dialogue.raven.festivalOfIce.json, data/festivals/festival.dialogue.raven.flowerDance.json, data/festivals/festival.dialogue.raven.luau.json, data/festivals/festival.dialogue.raven.spiritsEve.json, data/festivals/festival.dialogue.raven.stardewValleyFair.json"
+            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
         },
         {
             "LogName": "Raven - ModCompat",

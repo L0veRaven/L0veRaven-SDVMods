@@ -1,0 +1,41 @@
+{
+    "Format": "2.3.0",
+
+//    "ConfigSchema": {
+//        "BabyMobileStyle": {
+//            "AllowValues": "Bear, Bunny, Pig",
+//            "Default": "Bear",
+//        },
+//    },
+    
+    "Changes": [
+        {
+            "LogName": "Baby Mobile - Bear",
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/z_L0veRaven_babyMobile_bear.png",
+            "Patchmode": "Overlay",
+            "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 74 },
+            "ToArea": { "X": 80, "Y": 240, "Width": 96, "Height": 74 },
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "FarmHouse, Cabin",
+//                "BabyMobileStyle": "Bear",
+            }
+        },
+ //       {
+ //           "LogName": "Baby Mobile - Bunny",
+ //           "Action": "EditImage",
+ //           "Target": "Maps/farmhouse_tiles",
+//            "FromFile": "assets/z_L0veRaven_babyMobile_bunny.png",
+//            "Patchmode": "Overlay",
+//            "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 74 },
+ //           "ToArea": { "X": 80, "Y": 240, "Width": 96, "Height": 74 },
+ //           "Update": "OnLocationChange",
+ //           "When": {
+ //               "LocationName": "FarmHouse, Cabin",
+//                "BabyMobileStyle": "Bunny",
+    //        }
+  //      },
+    ]
+}

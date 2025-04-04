@@ -1,0 +1,13 @@
+{
+    "Name": "Baby Mobiles",
+    "Author": "L0veRaven",
+    "Description": "Adds customizable baby mobiles to cribs for when the baby is in early infancy and when sleeping.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.BabyMobile",
+    "UpdateKeys": [
+        "Nexus:"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+}
