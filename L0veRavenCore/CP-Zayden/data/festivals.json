@@ -1,0 +1,331 @@
+{
+    "Changes": [
+        //Egg Festival
+        {	
+            "LogName": "festivals.json: Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                //Year 1
+                {//Pre-Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 20 74 left",
+                    "Delimiter": "/",
+                },
+                {//Egg hunt
+                "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 21 72 right",
+                    "Delimiter": "/",
+                },
+                {//After Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Zayden}} 21 72 right",
+                    "Delimiter": "/",
+                },
+                //Year 2
+                {//Pre-Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 32 80 right",
+                    "Delimiter": "/",
+                },
+                {//Egg hunt
+                "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 32 80 down",
+                    "Delimiter": "/",
+                },
+                {//After Egg hunt
+                    "Operation": "Append",
+                    "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 25 72 up",
+                    "Delimiter": "/",
+                },
+            ],
+            "Entries": {
+                "{{Zayden}}": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:eggFestival_{{Random:{{Range:1,3}}}}}}",
+            },
+        },
+        //Flower Dance
+        {	
+            "LogName": "festivals.json: Flower Dance - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                //Year 1
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 3 24 right",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 3 24 right",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 3 29 right",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 3 29 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "festivals.json: Flower Dance - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "{{Zayden}}": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:flowerDance_{{Random:{{Range:1,2}}}}}}"
+            }
+        },
+        //Luau
+        {
+            "LogName": "festivals.json: Luau - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                //Year 1
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 51 10 down",
+                    "Delimiter": "/",
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 51 10 down",
+                    "Delimiter": "/",
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 17 16 down",
+                    "Delimiter": "/",
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 19 16 right",
+                    "Delimiter": "/",
+                },
+            ],
+        },
+        {
+            "LogName": "festivals.json: Luau/Potluck (PTP) - dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Zayden}}": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:luauPotluck_{{Random:{{Range:1,2}}}}}}",
+            },
+        },
+        // Dance of the Moonlight Jellies
+        {	
+            "LogName": "festivals.json: Dance of the Moonlight Jellies - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                //Year 1
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 11 18 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 11 18 left",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 11 35 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 11 35 left",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {
+            "LogName": "festivals.json: Dance of the Moonlight Jellies - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "{{Zayden}}": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+            },
+        },
+        // Stardew Valley Fair
+        {	
+            "LogName": "festivals.json: Stardew Valley Fair - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 73 73 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 66 63 right",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {	
+            "LogName": "festivals.json: Stardew Valley Fair - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "{{Zayden}}": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+            },
+        },
+        // Spirit's Eve
+        {	
+            "LogName": "festivals.json: Spirit's Eve - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {//Year 1
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 37 35 right",
+                    "Delimiter": "/"
+                },
+                {//Year 2
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 13 12 right",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+        {	
+            "LogName": "festivals.json: Spirit's Eve - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "{{Zayden}}": "{{i18n:spiritsEve_{{Random:{{Range:1,3}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:spiritsEve_{{Random:{{Range:1,3}}}}}}",
+            },
+        },
+        // Festival of Ice
+        {	
+            "LogName": "festivals.json: Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                //Year 1
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 96 31 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 80 33 left",
+                    "Delimiter": "/"
+                },
+                {//Ice Fishing Results
+                    "Operation": "Append",
+                    "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
+                    "Value": "{{Zayden}} 80 33 left",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Pre-Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 57 29 left",
+                    "Delimiter": "/"
+                },
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 62 34 right",
+                    "Delimiter": "/"
+                },
+                {//After Ice Fishing
+                    "Operation": "Append",
+                    "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 62 34 right",
+                    "Delimiter": "/"
+                },
+            ],
+            "Entries": {
+                "{{Zayden}}": "{{i18n:festivalOfIce_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:festivalOfIce_{{Random:{{Range:1,2}}}}}}",
+            },
+        },
+        // Feast of the Winter Star
+        {	
+            "LogName": "festivals.json: Feast of the Winter Star - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                //Year 1
+                {//Set Up
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 42 72 left",
+                    "Delimiter": "/"
+                },
+                {//Secret Santa
+                    "Operation": "Append",
+                    "Target": ["Entries", "SecretSanta_additionalCharacters"],
+                    "Value": "{{Zayden}} 42 72 left",
+                    "Delimiter": "/"
+                },
+                //Year 2
+                {//Set Up
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 22 76 right",
+                    "Delimiter": "/"
+                },
+                {//Secret Santa
+                    "Operation": "Append",
+                    "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 22 76 right",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+    //"Operation": "Append",
+    //"Target": ["Fields", "set-up", 5],
+    //"Value": "/animate {{Zayden}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

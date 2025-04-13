@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raven - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {//Pre-Event: Year 1
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Raven}} ## ## down",
+                    "Delimiter": "/"
+                },
+                //ADD{//Pre-Event: Year 2
+                    //ADD"Operation": "Append",
+                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    //ADD"Value": "{{Raven}} ## ## down",
+                    //ADD"Delimiter": "/",
+                //ADD},
+                {//Main Event
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Raven}} 38 68 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Raven - dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.luau_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festival.dialogue.raven.luau_{{Random:{{Range:1,2}}}}}}",
+                
+                "{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.luau_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_spouse_y2": "{{i18n:festival.dialogue.raven.luau_{{Random:{{Range:1,2}}}}}}"
+            }
+        }
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+    //"Operation": "Append",
+    //"Target": ["Fields", "set-up", 5],
+    //"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

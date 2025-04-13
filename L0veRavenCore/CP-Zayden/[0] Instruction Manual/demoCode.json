@@ -1,0 +1,161 @@
+// USING DYNAMIC TOKENS WITHIN DIALOGUE
+// Dynamic Token: {{Nickname}}
+
+// i18n/default.json -> "{{ModID}}.Mon6": "Hello, {{Nickname}}! Happy Monday!"
+// data/dialogue.json -> "Mon6": "{{i18n: {{ModID}}.Mon6|Nickname={{Nickname}}}}"
+    // DO NOT -> "Mon6": "{{i18n: {{ModID}}.Mon6}}"
+        // NPC would say {{Nickname}} as plain text instead of using token
+
+// QUESTION TEMPLATE
+    // $q -> Starts the question
+    // 11111/22222 -> Numerical IDs for your question
+        // Similar to event IDs
+        // NEED EXACTLY two per question
+            // Regardless of response quantity
+    // QuestionName_old -> Fallback key ID
+        // This indicates the dialogue key that will display the preceding weeks if the question was already answered.
+    // Response1, Response2, Response -> Response keys
+
+    // QUESTION FORMATTING
+        // "<Text before asking question>
+            // When fallback dialogue occurs in future weeks, it'll look like: <Text before asking question>#$b#{{QuestionName_Old}}
+        // #$b#
+        // $q
+        // 11111/22222
+        // QuestionName_old#<Question prompt text>
+            // Question being asked
+        // #$r 11111 30 Response1#<response text>
+            // QuestionResponseID -> Friendship points -> Player response 1
+        // #$r 22222 0 Response2#<response text>
+            // QuestionResponseID -> Friendship points -> Player response 2
+        // #$r 22222 -30 Response3#<response text>",
+            // QuestionResponseID -> Friendship points -> Player response 3
+        // "QuestionName_old": "<NPC text>",
+            // Fallback dialogue when talking again next week
+        // "Response1": "<NPC reply to player response>.",
+        // "Response2": "<NPC reply to player response>.",
+        // "Response3": "<NPC reply to player response>.",
+
+    // QUESTION EXAMPLE
+        // "summer_Thu":
+            // What day text appears
+        // "Sorry, I was just thinking about some gadgets I'm making.
+        // #$q 35/36
+        // Thu_01_old#I've decided I'm going to build a robot someday.
+        // #$r 35 30 Thu_0#That should be very easy for you
+        // #$r 36 -50 Thu_01_01#You should be more realistic
+        // #$r 35 40 Thu_01_02#It sounds challenging",
+        // "Thu_01_old": "See you later.",
+        // "Thu_0": "Really? Are you sure you're not just trying to flatter me?",
+        // "Thu_01_01": "You don't think I could do it?$s",
+        // "Thu_01_02": "You're right, but I love a challenge!$h",
+
+// quickQuestion
+    // quickQuestion <question>#<answer1>#<answer2>#<answer3>(break)<answer1 script>(break)<answer2 script>(break)<answer3 script>
+        // Show a dialogue box with an optional question and some answers
+        // Answer scripts are sequences of commands separated by \\
+        // When the player chooses an answer, the relevant answer script is executed and then the event continues
+            // Usually used when an NPC's response will depend on the answer chosen but nothing else in the event has to depend on it
+        // If quickQuestion is used immediately at the start of an event block
+            // (Example: "ExampleEvent": "quickQuestion [rest of the event]")
+        // It will cause a dialogue loop. Adding another command in front of quickQuestion resolves this issue
+            // (Example: "ExampleEvent": "pause 1/quickQuestion [rest of the event]").
+    // Example:
+        // quickQuestion
+        // #You're not old! -> answer1
+        // #You're allowed to be sad - you've been through a lot! -> answer2
+        // #Please, let me help. -> answer3
+        // (break)speak <NPCID> \"(response1)\"
+        // (break)speak <NPCID> \"(response 2)\"
+        // (break)speak <NPCID> \"(response 3)\"/
+
+//Generic Mod Config -> How to apply
+    // GMC Settings
+        //"ConfigSchema": {
+        //    "Material": {     <--- This will be used as tokens or conditions
+        //        "AllowValues": "Wood, Metal",
+        //        "Default": "Wood"
+        //    }
+        //},
+    // Apply to Code
+        //"Changes": [
+            // as a token
+        //    {
+        //        "Action": "Load",
+        //        "Target": "LooseSprites/Billboard",
+        //        "FromFile": "assets/material_{{Material}}.png"    // <--- The token is here!
+        //    },
+
+            // as a condition
+        //    {
+        //        "Action": "Load",
+        //        "Target": "LooseSprites/Billboard",
+        //        "FromFile": "assets/material_wood.png",
+        //        "When": {
+        //            "Material": "Wood"    // <--- The condition is here!
+        //        }
+        //    }
+        //]
+
+// =====================================================================
+
+
+//"$query !PLAYER_VISITED_LOCATION Current Mine#Did you know there's an old abandoned mine up in the mountain? Apparently it's crawling with monsters!|I heard you went into the old mines up in the mountain!#Did you find anything tasty?$h"
+    
+{
+"LogName": "mapPatches.json: WorldMap.json",
+"Action": "EditData",
+"Target": "Data/WorldMap",
+"TargetField": ["Valley", "MapAreas"],
+"Entries":
+    {
+    "{{ModId}}_IndoorTownMap_L0veRavenRaven_TentInside":
+        {
+        "Id": "Custom_L0veRavenRaven_TentInside",
+        "PixelArea": {"X":0,"Y":0,"Width":300,"Height":180,},
+        "ScrollText": "NPCMapLocation_L0veRavenRaven_TentInside",
+        "WorldPositions":
+            [{
+            "Id": "Custom_L0veRavenRaven_TentInside",
+            "LocationName": "Custom_L0veRavenRaven_TentInside",
+            "MapPixelArea": {"X":104,"Y":141,"Width":0,"Height":0},//Position of Entryway
+            }]
+        },
+    "{{ModId}}_IndoorTownMap_L0veRavenRaven_TentBasement"://Pixels stay the same for sub-locations -> TLDR: Don't change parent's values
+        {
+        "Id": "Custom_L0veRavenRaven_TentBasement",
+        "PixelArea": {"X":0,"Y":0,"Width":300,"Height":180,},
+        "ScrollText": "NPCMapLocation_L0veRavenRaven_TentInside",
+        "WorldPositions":
+            [{
+            "Id": "Custom_L0veRavenRaven_TentBasement",
+            "LocationName": "Custom_L0veRavenRaven_TentBasement",
+            "MapPixelArea": {"X":104,"Y":141,"Width":0,"Height":0},
+            }]
+        },
+    "{{ModId}}_TownMap_Tent"://Tent's range on map
+        {
+        "Id": "{{ModId}}_TownMap_Ravens",
+        "PixelArea": {"X":102,"Y":140,"Width":5,"Height":5,},
+        "Tooltips":
+            [{
+            "Id": "{{ModId}}_Town_Ravens",
+            "Text": "{{i18n:NPCMapLocation.RavensTent}}",
+            "MapPixelArea": {"X":104,"Y":141,"Width":0,"Height":0},
+            }]
+        },
+    }
+},
+
+
+
+
+
+
+
+//Apartment Information
+{
+    "Unit": "1A",
+    "Bed": "7, 13",
+    "Door": "10, 21",
+}

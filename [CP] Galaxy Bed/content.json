@@ -1,0 +1,87 @@
+{
+    "Format": "2.3.0",
+
+    "ConfigSchema": {
+        "BedForSale": {
+            "AllowValues": "True, False",
+            "Default": "True"
+        }
+    },
+    
+    "Changes": [
+        {
+            "LogName": "Texture Replacement - Bed 1",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture, TileSheets/furniture.ja-JP, TileSheets/furniture.ko-KR, TileSheets/furniture.zh-CN",
+            "FromFile": "assets/z_L0veRaven_galaxyBed.png",
+            "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 64},
+            "ToArea": { "X": 0, "Y": 1024, "Width": 64, "Height": 64 },
+            "When": {"BedForSale": "False"}
+        },
+        {
+            "LogName": "Texture Replacement - Bed 2",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture, TileSheets/furniture.ja-JP, TileSheets/furniture.ko-KR, TileSheets/furniture.zh-CN",
+            "FromFile": "assets/z_L0veRaven_galaxyBed.png",
+            "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 64},
+            "ToArea": { "X": 448, "Y": 1024, "Width": 64, "Height": 64 },
+            "When": {"BedForSale": "False"}
+        },
+        {
+            "LogName": "Texture Replacement - Bed 3",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture, TileSheets/furniture.ja-JP, TileSheets/furniture.ko-KR, TileSheets/furniture.zh-CN",
+            "FromFile": "assets/z_L0veRaven_galaxyBed.png",
+            "FromArea": {"X": 0, "Y": 0, "Width": 64, "Height": 64},
+            "ToArea": { "X": 448, "Y": 1088, "Width": 64, "Height": 64 },
+            "When": {"BedForSale": "False"}
+        },
+        {
+            "LogName": "Galaxy Bed - Furniture Sale Tilesheet Load",
+            "Action": "Load",
+            "Target": "Mods/L0veRaven.GalaxyBed/assets/z_L0veRaven_galaxyBed",
+            "FromFile": "assets/z_L0veRaven_galaxyBed.png"
+        },
+        {
+            "LogName": "Galaxy Bed - Furniture Strings",
+            "Action": "EditData",
+            "Target": "Strings/Furniture",
+            "Entries": {
+                "L0veRaven.GalaxyBed_GALAXYBED.Name": "{{i18n:galaxyBedName}}",
+                "L0veRaven.GalaxyBed_GALAXYBEDCHILD.Name": "{{i18n:galaxyBedChildName}}"
+            },
+            "When": {"BedForSale": "True"}
+        },
+        {
+            "LogName": "Galaxy Bed - Furniture Information",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "L0veRaven.GalaxyBed_GALAXYBED": "L0veRaven.GalaxyBed_GALAXYBED/bed/2 4/2 3/1/1500/-1/[LocalizedText Strings\\Furniture:L0veRaven.GalaxyBed_GALAXYBED.Name]/0/Mods\\L0veRaven.GalaxyBed\\assets\\z_L0veRaven_galaxyBed",
+                "L0veRaven.GalaxyBed_GALAXYBEDCHILD": "L0veRaven.GalaxyBed_GALAXYBED/bed child/2 4/2 3/1/2000/-1/[LocalizedText Strings\\Furniture:L0veRaven.GalaxyBed_GALAXYBEDCHILD.Name]/0/Mods\\L0veRaven.GalaxyBed\\assets\\z_L0veRaven_galaxyBed",
+            },
+            "When": {"BedForSale": "True"}
+        },
+        {
+            "LogName": "Galaxy Bed - Robin's Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+                "(F)L0veRaven.GalaxyBed_GALAXYBED": {
+                    "Price": 1500,
+                    "AvailableStock": -1,
+                    "Id": "(F)L0veRaven.GalaxyBed_GALAXYBED",
+                    "ItemId": "(F)L0veRaven.GalaxyBed_GALAXYBED"
+                },
+                "(F)L0veRaven.GalaxyBed_GALAXYBEDCHILD": {
+                    "Price": 2000,
+                    "AvailableStock": -1,
+                    "Id": "(F)L0veRaven.GalaxyBed_GALAXYBEDCHILD",
+                    "ItemId": "(F)L0veRaven.GalaxyBed_GALAXYBEDCHILD"
+                }
+            },
+            "When": {"BedForSale": "True"}
+        }
+    ]
+}

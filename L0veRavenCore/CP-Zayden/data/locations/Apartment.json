@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "LogName": "Warp Section: Pelican Valley Loft",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "Entries": {
+                "{{NPCA}}_PelicanValleyLoft": {
+                    "Id": "{{NPCA}}_PelicanValleyLoft",
+                    "DisplayName": "{{i18n:warp-sections.pelican-valley-loft}}"
+                }
+            }
+        },
+        {
+            "LogName": "CJB Cheats (Warps): Zayden's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange, OnTimeChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1J": {
+                    "Id": "{{NPCA}}_Apartment1J",
+                    "DisplayName": "{{i18n:CJB_ZaydensApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "54, 27",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft",
+                },
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+            }
+        },
+        {
+            "LogName": "data/locations/MapPatches.json: Zayden's Apartment",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/maps/{{Zayden}}Apartment.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 49, "Y": 27, "Width": 11, "Height": 11
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+            }
+        },
+        {
+            "LogName": "data/locations/Apartment.json: StringsFromMaps - Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenZaydenApartment.1": "{{i18n:fridge}}",
+            }
+        },
+    ]
+}

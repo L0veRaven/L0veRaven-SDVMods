@@ -1,0 +1,21 @@
+{
+    "Name": "(CP) Zayden",
+    "Author": "L0veRaven",
+    "Description": "A vampire NPC is added to the game.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.Zayden",
+    "UpdateKeys": ["Nexus:27407"],
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
+    "Dependencies": [        
+        {"UniqueID": "Airyn.CPSolsticeWinterStar","IsRequired": "false"},
+        {"UniqueID": "CJBok.CheatsMenu","IsRequired": "false"},
+        {"UniqueID": "DTZ.DowntownZuzuDLL","IsRequired": "false"},
+        {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
+        {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"},
+        {"UniqueID": "LenneDalben.PelicanTownPotluck","IsRequired": "false"},
+        {"UniqueID": "Rafseazz.RSVCP","IsRequired": "false"},
+        {"UniqueID": "Raspb3rryfields.NaturesBounty","IsRequired": "false"},
+        {"UniqueID": "spacechase0.SpaceCore","IsRequired": "true"},
+        {"UniqueID": "violetlizabet.CP.FireworksFestival","IsRequired": "false"}
+    ]
+}

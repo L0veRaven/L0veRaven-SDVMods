@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "events.json: CatAdoption",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H": null,//Removes default event
+                "1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H/e {{Raven}}_CatLover": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:event.CatAdoption_speak_1}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound cat/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:event.CatAdoption_speak_2}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound cat/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:event.CatAdoption_speak_3}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:event.CatAdoption_speak_4}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound cat/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/{{fadeout}}/end",
+            },
+        }
+    ]
+}

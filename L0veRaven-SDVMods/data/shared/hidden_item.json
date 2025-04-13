@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "LogName": "hidden_item.json - Lumber",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["30","ContextTags"],
+            "Entries": {"hidden_item": "hidden_item",},
+        }
+    ]
+}

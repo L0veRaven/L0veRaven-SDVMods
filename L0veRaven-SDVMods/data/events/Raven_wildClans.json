@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "LogName": "events.json: 2 Heart - WildClans",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "{{Raven}}_WildClans/p {{Raven}}/LocalMail {{Raven}}_WildClans": "libraryTheme/8 17/farmer 5 10 {{up}} {{Raven}} 7 18 {{left}} Gunther 5 8 {{down}}/skippable/pause 1000/
+    --Farmer walks towards Raven and Raven faces farmer/
+        move farmer 2 0 {{down}} true/move farmer 0 5 {{down}}/pause 300/
+        faceDirection {{Raven}} {{up}}/pause 300/
+    --Raven starts conversation/
+        speak {{Raven}} \"{{i18n:event.WildClans_speak_1}}\"/pause 300/
+        emote farmer {{emoteHappy}}/pause 300/
+    --Raven searches for a library book and succeeds, offering to show the farmer/
+        emote {{Raven}} {{emotePause}} true/faceDirection {{Raven}} {{left}}/pause 1000/
+        speak {{Raven}} \"{{i18n:event.WildClans_speak_2}}\"/pause 800/speak {{Raven}} \"{{i18n:event.WildClans_speak_3}}\"/pause 300/
+    --Farmer walks up to Raven and Raven faces the farmer, explaining the book/
+        move farmer 1 0 {{down}} true/move farmer 0 3 {{left}}/faceDirection {{Raven}} {{right}}/pause 300/speak {{Raven}} \"It's called Wild Clans where a bunch of cats have their own territories and rival with each other.#$b#I've loved this series ever since I read it back in elementary school.$1\"/pause 1000/
+    --quickQuestion Do you like reading books?/
+        quickQuestion Do you like reading books?#I love reading books!#I read a lot of fanfics.#I prefer reading manga, actually.#I read sometimes.#I'm not super into books.
+            (break)friendship {{Raven}} 20\\emote farmer {{emoteMusic}}\\pause 300\\speak {{Raven}} \"That's awesome!$3#$b#I don't read as much as I would like to, but I really do love reading fantasy books.\"\\faceDirection {{Raven}} 2\\pause 300\\speak {{Raven}} \"It could be because I used books as an escape mechanism way back when...$2#$b#But they're always enjoyable, regardless of how I'm feeling in the moment.$1\"\\pause 300\\faceDirection {{Raven}} 1\\pause 300\\emote {{Raven}} {{emoteExclaim}}\\pause 150\\speak {{Raven}} \"Maybe I can check out some books that you like? I need to branch out with what I read, to be honest.\"\\pause 300\\emote farmer {{emoteHappy}}\\speak {{Raven}} \"That awesome!$3#$b#Are there any books you like here that you can show me?\"\\pause 300\\emote farmer {{emoteMusic}}\\pause 300\\move farmer 0 -5 {{right}} true\\move {{Raven}} 0 -5 {{right}} false
+            (break)friendship {{Raven}} 20\\emote farmer {{emoteBlush}}\\pause 300\\speak {{Raven}} \"Fanfic is so underrated.$3#$b#Sometimes, fanfic is written much better than novels by published authors.#$b#It kinda makes you wonder what the quality control is like with book publishers.$17\"\\pause 300\\faceDirection {{Raven}} 3\\pause 300\\speak {{Raven}} \"It's actually pretty funny. Sometimes, fanfics are so good that publishers will offer to distribute it.$1#$b#It's happened quite a few times already. Some even got adapted into movies!\"\\pause 300\\faceDirection {{Raven}} 1\\speak {{Raven}} \"Damn, I was hoping I could find another interesting book today, but I guess that's all for now.$2\"\\pause 300\\speak {{Raven}} \"I don't wanna keep you from what you're doing for too long, but it was great seeing you again!\"\\pause 300\\emote farmer {{emoteHappy}} true\\emote {{Raven}} {{emoteHappy}}
+            (break)friendship {{Raven}} 20\\emote farmer {{emoteBlush}}\\pause 300\\speak {{Raven}} \"I love manga too!$1#$b#I'm pretty sure I've read all the manga books here in the library.$11#$b#We don't have that many here...$2\"\\pause 300\\faceDirection {{Raven}} 3\\pause 300\\speak {{Raven}} \"Let me see... I think I have a manga to show you...$17\"\\pause 300\\speak {{Raven}} \"I found it!$1\"\\pause 300\\faceDirection {{Raven}} 1 true\\emote farmer {{emoteQuestion}}\\pause 300\\speak {{Raven}} \"This manga is called DarkJack. It's about a surgeon that works in the black market for a shit ton of money.#$b#He's not exactly good or bad, though.$17#$b#He seems to care more about money than helping his patients with surgeries, but he shows his softer side when working with them sometimes.$17#$b#Since the creator of the manga has a medical background, the illustrations of the surgeries are very realistic.$1#$b#Pretty cool, right?\"\\pause 300\\faceDirection {{Raven}} 3\\pause 300\\pause 300\\speak {{Raven}} \"Damn, I was hoping I could find another interesting book today, but I guess that's all for now.$2\"\\pause 300\\faceDirection {{Raven}} 1\\pause 300\\speak {{Raven}} \"I don't wanna keep you from what you're doing for too long, but it was great seeing you again!\"\\pause 300\\emote farmer {{emoteHappy}} true\\emote {{Raven}} {{emoteHappy}}
+            (break)friendship {{Raven}} 15\\speak {{Raven}} \"It's okay to not read all the time.$1#$b#Sometimes, it's also just hard finding books that you like.#$b#Trust me, we all judge books by their covers or else we'd be reading so many horrible books right now.$11#$b#Sometimes, book covers and titles can be misleading, so I don't blame people for being picky with what they read.\"\\pause 300\\emote farmer {{emoteMusic}}\\pause 300\\faceDirection {{Raven}} {{down}}\\pause 300\\speak {{Raven}} \"When I judge books by their covers, I normally avoid the adult romance novel section because the covers look really odd and tacky to me.$11#$b#I wonder if they're any good though...$17#$b#I think I'll wait until someone recommends one of them to me.$1\"\\pause 300\\faceDirection {{Raven}} {{right}}\\pause 300\\speak {{Raven}} \"I don't wanna keep you from what you're doing for too long, but it was great seeing you again!\"\\pause 300\\emote farmer {{emoteHappy}} true\\emote {{Raven}} {{emoteHappy}}
+            (break)friendship {{Raven}} 10\\emote farmer {{emoteSweat}}\\playSound dwop\\speak {{Raven}} \"That's okay, not everyone likes books.#$b#I know I get huge headaches sometimes because after reading for so long, it's like my head is getting filled with too much information at once.$11#$b#I really appreciate your honesty, though.\"\\pause 300\\speak {{Raven}} \"I don't wanna keep you from what you're doing for too long, but it was great seeing you again!\"\\pause 300\\emote farmer {{emoteHappy}} true\\emote {{Raven}} {{emoteHappy}}/
+    --End with dialogue/
+        end dialogue {{Raven}} \"We should hang out again!$1#$b#It was fun spending time with you earlier.\"",
+            }
+        }
+    ]
+}

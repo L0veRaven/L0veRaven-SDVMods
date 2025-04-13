@@ -1,0 +1,1809 @@
+{
+//===================
+//Furniture (F)
+//===================
+	
+Oak Chair
+0
+	
+Walnut Chair
+3
+	
+Birch Chair
+6
+	
+Mahogany Chair
+9
+	
+Red Diner Chair
+12
+	
+Blue Diner Chair
+15
+	
+Country Chair
+18
+	
+Breakfast Chair
+21
+	
+Pink Office Chair
+24
+	
+Purple Office Chair
+27
+	
+Green Office Stool
+30
+	
+Orange Office Stool
+31
+	
+Dark Throne
+64
+	
+Dining Chair
+67
+	
+Dining Chair
+70
+	
+Green Plush Seat
+73
+	
+Pink Plush Seat
+76
+	
+Winter Chair
+79
+	
+Groovy Chair
+82
+	
+Cute Chair
+85
+	
+Stump Seat
+88
+	
+Metal Chair
+91
+	
+Green Stool
+94
+	
+Blue Stool
+95
+	
+King Chair
+128
+	
+Crystal Chair
+131
+	
+Tropical Chair
+134
+	
+Oak Bench
+192
+	
+Walnut Bench
+197
+	
+Birch Bench
+202
+	
+Mahogany Bench
+207
+	
+Modern Bench
+212
+	
+Blue Armchair
+288
+	
+Red Armchair
+294
+	
+Green Armchair
+300
+	
+Yellow Armchair
+306
+	
+Brown Armchair
+312
+	
+Blue Couch
+416
+	
+Red Couch
+424
+	
+Green Couch
+432
+	
+Yellow Couch
+440
+	
+Brown Couch
+512
+	
+Dark Couch
+520
+	
+Wizard Couch
+528
+	
+Woodsy Couch
+536
+	
+Oak Dresser
+704
+	
+Walnut Dresser
+709
+	
+Birch Dresser
+714
+	
+Mahogany Dresser
+719
+	
+Coffee Table
+724
+	
+Stone Slab
+727
+	
+Winter Dining Table
+800
+	
+Festive Dining Table
+807
+	
+Mahogany Dining Table
+814
+	
+Modern Dining Table
+821
+	
+Long Cactus
+984
+	
+Long Palm
+985
+	
+Exotic Tree
+986
+	
+Deluxe Tree
+989
+	
+Oak Table
+1120
+	
+Walnut Table
+1122
+	
+Birch Table
+1124
+	
+Mahogany Table
+1126
+	
+Sun Table
+1128
+	
+Moon Table
+1130
+	
+Modern Table
+1132
+	
+Pub Table
+1134
+	
+Luxury Table
+1136
+	
+Diviner Table
+1138
+	
+Neolithic Table
+1140
+	
+Puzzle Table
+1142
+	
+Winter Table
+1144
+	
+Candy Table
+1146
+	
+Luau Table
+1148
+	
+Dark Table
+1150
+	
+Oak Tea-Table
+1216
+	
+Walnut Tea-Table
+1218
+	
+Birch Tea-Table
+1220
+	
+Mahogany Tea-Table
+1222
+	
+Modern Tea-Table
+1224
+	
+Furniture Catalogue
+1226
+	
+Oceanic Rug
+1228
+	
+China Cabinet
+1280
+	
+Artist Bookcase
+1283
+	
+Luxury Bookcase
+1285
+	
+Modern Bookcase
+1287
+	
+Dark Bookcase
+1289
+	
+Ceramic Pillar
+1291
+	
+Gold Pillar
+1292
+	
+Industrial Pipe
+1293
+	
+Indoor Palm
+1294
+	
+Totem Pole
+1295
+	
+Manicured Pine
+1296
+	
+Topiary Tree
+1297
+	
+Standing Geode
+1298
+	
+Obsidian Vase
+1299
+	
+Singing Stone
+1300
+	
+Sloth Skeleton L
+1301
+	
+Sloth Skeleton M
+1302
+	
+Sloth Skeleton R
+1303
+	
+Skeleton
+1304
+	
+Chicken Statue
+1305
+	
+Leah's Sculpture
+1306
+	
+Dried Sunflowers
+1307
+	
+Catalogue
+1308
+	
+Sam's Boombox
+1309
+	
+Small Plant
+1362
+	
+Table Plant
+1363
+	
+Decorative Bowl
+1364
+	
+Futan Bear
+1365
+	
+Globe
+1366
+	
+Model Ship
+1367
+	
+Small Crystal
+1368
+	
+Decorative Lantern
+1369
+	
+Wumbus Statue
+1371
+	
+Bobo Statue
+1373
+	
+Purple Serpent Statue
+1375
+	
+House Plant
+1376
+	
+House Plant
+1377
+	
+House Plant
+1378
+	
+House Plant
+1379
+	
+House Plant
+1380
+	
+House Plant
+1381
+	
+House Plant
+1382
+	
+House Plant
+1383
+	
+House Plant
+1384
+	
+House Plant
+1385
+	
+House Plant
+1386
+	
+House Plant
+1387
+	
+House Plant
+1388
+	
+House Plant
+1389
+	
+House Plant
+1390
+	
+Oak End Table
+1391
+	
+Walnut End Table
+1393
+	
+Birch End Table
+1395
+	
+Mahogany End Table
+1397
+	
+Modern End Table
+1399
+	
+Grandmother End Table
+1400
+	
+Winter End Table
+1401
+	
+Calendar
+1402
+	
+Tree of the Winter Star
+1440
+	
+Country Lamp
+1443
+	
+Box Lamp
+1445
+	
+Modern Lamp
+1447
+	
+Classic Lamp
+1449
+	
+Red Rug
+1451
+	
+Patchwork Rug
+1456
+	
+Dark Rug
+1461
+	
+Budget TV
+1466
+	
+Plasma TV
+1468
+	
+Green Serpent Statue
+1471
+	
+'The Muzzamaroo'
+1539
+	
+'A Night On Eco-Hill'
+1541
+	
+'Pathways'
+1543
+	
+'Burnt Offering'
+1545
+	
+'Queen of the Gem Sea'
+1547
+	
+'Vanilla Villa'
+1550
+	
+'Primal Motion'
+1552
+	
+'Jade Hills'
+1554
+	
+'Sun #44'
+1557
+	
+Wallflower Pal
+1559
+	
+'Spires'
+1561
+	
+'Highway 89'
+1563
+	
+Calico Falls
+1565
+	
+Needlepoint Flower
+1567
+	
+Skull Poster
+1600
+	
+'Sun #45'
+1601
+	
+'Little Tree'
+1602
+	
+'Blueberries'
+1603
+	
+'Blue City'
+1604
+	
+Little Photos
+1605
+	
+'Dancing Grass'
+1606
+	
+'VGA Paradise'
+1607
+	
+J. Cola Light
+1609
+	
+'Kaster '95'
+1612
+	
+Basic Window
+1614
+	
+Small Window
+1616
+	
+Red Cottage Rug
+1618
+	
+Green Cottage Rug
+1623
+	
+Monster Rug
+1628
+	
+Boarded Window
+1630
+	
+Mystic Rug
+1664
+	
+Lg. Futan Bear
+1669
+	
+Bear Statue
+1671
+	
+Porthole
+1673
+	
+Anchor
+1675
+	
+World Map
+1676
+	
+Ornate Window
+1678
+	
+Floor TV
+1680
+	
+Carved Window
+1682
+	
+Colorful Set
+1684
+	
+Cloud Decal
+1687
+	
+Cloud Decal
+1692
+	
+Junimo Plush
+1733
+	
+Nautical Rug
+1737
+	
+Burlap Rug
+1742
+	
+Tree Column
+1744
+	
+L. Light String
+1745
+	
+S. Pine
+1747
+	
+Bonsai Tree
+1748
+	
+Metal Window
+1749
+	
+Candle Lamp
+1751
+	
+Miner's Crest
+1753
+	
+Bamboo Mat
+1755
+	
+Ornate Lamp
+1758
+	
+Small Junimo Plush
+1760
+	
+Small Junimo Plush
+1761
+	
+Small Junimo Plush
+1762
+	
+Small Junimo Plush
+1763
+	
+Futan Rabbit
+1764
+	
+Woodcut Rug
+1777
+	
+Brick Fireplace
+1792
+	
+Stone Fireplace
+1794
+	
+Iridium Fireplace
+1796
+	
+Stove Fireplace
+1798
+	
+Monster Fireplace
+1800
+	
+My First Painting
+1802
+	
+Hanging Shield
+1811
+	
+Monster Danglers
+1812
+	
+Ceiling Flags
+1814
+	
+Ceiling Leaves
+1817
+	
+Ceiling Leaves
+1818
+	
+Ceiling Leaves
+1819
+	
+Ceiling Leaves
+1820
+	
+Ceiling Leaves
+1821
+	
+'Red Eagle'
+1838
+	
+'Portrait Of A Mermaid'
+1840
+	
+'Solar Kingdom'
+1842
+	
+'Clouds'
+1844
+	
+'1000 Years From Now'
+1846
+	
+'Three Trees'
+1848
+	
+'The Serpent'
+1850
+	
+'Tropical Fish #173'
+1852
+	
+'Land Of Clay'
+1854
+	
+Elegant Fireplace
+1866
+	
+Pirate Flag
+1900
+	
+Pirate Rug
+1902
+	
+Strawberry Decal
+1907
+	
+Fruit Salad Rug
+1909
+	
+Night Sky Decal #1
+1914
+	
+Night Sky Decal #2
+1915
+	
+Night Sky Decal #3
+1916
+	
+Wall Pumpkin
+1917
+	
+Small Wall Pumpkin
+1918
+	
+'The Brave Little Sapling'
+1952
+	
+'Mysterium'
+1953
+	
+'Journey Of The Prairie King: The Motion Picture'
+1954
+	
+'Wumbus'
+1955
+	
+'The Zuzu City Express'
+1956
+	
+'The Miracle At Coldstar Ranch'
+1957
+	
+'Natural Wonders: Exploring Our Vibrant World'
+1958
+	
+'It Howls In The Rain'
+1959
+	
+Indoor Hanging Basket
+1960
+	
+Winter Tree Decal
+1961
+	
+Bone Rug
+1964
+	
+Butterfly Hutch
+1971
+	
+Wall Flower
+1973
+	
+S. Wall Flower
+1974
+	
+Clouds Banner
+1975
+	
+Snowy Rug
+1978
+	
+Bed
+2048
+	
+Double Bed
+2052
+	
+Starry Double Bed
+2058
+	
+Strawberry Double Bed
+2064
+	
+Pirate Double Bed
+2070
+	
+Child Bed
+2076
+	
+Tropical Bed
+2176
+	
+Tropical Double Bed
+2180
+	
+Deluxe Red Double Bed
+2186
+	
+Modern Double Bed
+2192
+	
+Large Fish Tank
+2304
+	
+Deluxe Fish Tank
+2312
+	
+Small Fish Tank
+2322
+	
+Tropical TV
+2326
+	
+'Volcano' Photo
+2329
+	
+Jungle Torch
+2331
+	
+Gourmand Statue
+2332
+	
+Pyramid Decal
+2334
+	
+Palm Wall Ornament
+2393
+	
+Iridium Krobus
+2396
+	
+Plain Torch
+2397
+	
+Stump Torch
+2398
+	
+Aquatic Sanctuary
+2400
+	
+Modern Fish Tank
+2414
+	
+Lifesaver
+2418
+	
+Foliage Print
+2419
+	
+'Boat'
+2421
+	
+'Vista'
+2423
+	
+Wall Basket
+2425
+	
+Decorative Trash Can
+2427
+	
+Light Green Rug
+2488
+	
+Wild Double Bed
+2496
+	
+Fisher Double Bed
+2502
+	
+Birch Double Bed
+2508
+	
+Exotic Double Bed
+2514
+	
+'Jade Hills Extended'
+2584
+	
+Pastel Banner
+2624
+	
+Winter Banner
+2625
+	
+Moonlight Jellies Banner
+2626
+	
+Jungle Decal
+2627
+	
+Jungle Decal
+2628
+	
+Jungle Decal
+2629
+	
+Jungle Decal
+2630
+	
+Starport Decal
+2631
+	
+Decorative Pitchfork
+2632
+	
+Wood Panel
+2633
+	
+Decorative Axe
+2634
+	
+Log Panel
+2635
+	
+Log Panel
+2636
+	
+Floor Divider R
+2637
+	
+Floor Divider L
+2638
+	
+Floor Divider R
+2639
+	
+Floor Divider L
+2640
+	
+Floor Divider R
+2641
+	
+Floor Divider L
+2642
+	
+Floor Divider R
+2643
+	
+Floor Divider L
+2644
+	
+Floor Divider R
+2645
+	
+Floor Divider L
+2646
+	
+Floor Divider R
+2647
+	
+Floor Divider L
+2648
+	
+Floor Divider R
+2649
+	
+Floor Divider L
+2650
+	
+Floor Divider R
+2651
+	
+Floor Divider L
+2652
+	
+Icy Banner
+2653
+	
+Wall Palm
+2654
+	
+Wall Cactus
+2655
+	
+Large Brown Couch
+2720
+	
+'Frozen Dreams'
+2730
+	
+'Physics 101'
+2732
+	
+Wall Sconce
+2734
+	
+Wall Sconce
+2736
+	
+Wall Sconce
+2738
+	
+Wall Sconce
+2740
+	
+Blossom Rug
+2742
+	
+Wall Sconce
+2748
+	
+Wall Sconce
+2750
+	
+Large Green Rug
+2784
+	
+Icy Rug
+2790
+	
+Old World Rug
+2794
+	
+Large Red Rug
+2798
+	
+Large Cottage Rug
+2802
+	
+Wall Sconce
+2812
+	
+Squirrel Figurine
+2814
+	
+Funky Rug
+2870
+	
+Modern Rug
+2875
+	
+Cactus
+FreeCactus
+	
+Hanging Fish
+HangingFish
+	
+Retro TV
+RetroTV
+	
+Art Photo
+ArtPhoto
+	
+Art Photo 2
+ArtPhoto2
+	
+Short Bookcase
+ShortBookcase
+	
+Pierre's Sign
+PierresSign
+	
+Sam's Skateboard
+SamsSkateboard
+	
+Chicken Decal
+ChickenDecal
+	
+Exotic Palace
+ExoticPalace
+	
+Periodic Table
+PeriodicTable
+	
+Dusty Skull
+DustySkull
+	
+Radio Desk
+RadioDesk
+	
+Model Planes
+ModelPlanes
+	
+Calico Statue
+CatStatue
+	
+Sun Dunes
+SunDunes
+	
+Desert Table
+DesertTable
+	
+Desert Chair
+DesertChair
+	
+Desert Fireplace
+DesertFireplace
+	
+Sandy Rug
+SandyRug
+	
+Desert Rug
+DesertRug
+	
+Desert End Table
+DesertEndTable
+	
+Desert Flags
+DesertFlags
+	
+Decorative Barrel
+DecorativeBarrel
+	
+Mounted Trout
+MountedTrout_Painting
+	
+'Squid Kid'
+SquidKid_Painting
+	
+Cow Decal
+CowDecal
+	
+Blue Pinstripe Bed
+BluePinstripeBed
+	
+Jungle Tank
+JungleTank
+	
+CCFishTank
+CCFishTank
+	
+Blue Pinstripe Double Bed
+BluePinstripeDoubleBed
+	
+Joja Bed
+JojaBed
+	
+Joja Vault
+JojaVault
+	
+Joja Chair
+JojaChair
+	
+J
+J
+	
+Joja Cola Tea Table
+JojaColaTeaTable
+	
+Joja Table
+JojaTable
+	
+J. Painting
+JPainting
+	
+J. Light
+JLight
+	
+Joja Furniture Catalogue
+JojaCatalogue
+	
+Joja Cola Painting
+JojaColaPainting
+	
+Joja Cola Ornament
+JojaColaOrnament
+	
+Joja Fireplace
+JojaFireplace
+	
+Joja Cola Cans
+JojaColaCans
+	
+Cash Register
+CashRegister
+	
+Plastic Plant
+PlasticPlant
+	
+Plastic Sapling
+PlasticSapling
+	
+Gray Joja Cushion
+GrayJojaCushion
+	
+Joja Cushion
+JojaCushion
+	
+Stacked Joja Boxes
+StackedJojaCrates
+	
+Joja Couch
+JojaCouch
+	
+Manager of the Year
+MorrisPortrait
+	
+Joja HQ Painting
+JojaHQPainting
+	
+Joja Crate
+JojaCrate
+	
+Joja Shopping Cart
+JojaShoppingCart
+	
+Large Joja Crate
+LargeJojaCrate
+	
+Joja Cola Fridge
+JojaColaFridge
+	
+Joja Dresser
+JojaDresser
+	
+Gray Joja Dresser
+GrayJojaDresser
+	
+Large Joja Rug
+LargeJojaRug
+	
+Small Joja Rug
+SmallJojaRug
+	
+Square Joja Rug
+SquareJojaRug
+	
+Joja Rug
+JojaRug
+	
+Joja Coffee Table
+JojaCoffeeTable
+	
+Gray Joja Coffee Table
+GrayJojaCoffeeTable
+	
+Joja Lamp
+JojaLamp
+	
+Gray Joja Bookcase
+GrayJojaBookcase
+	
+Joja Bookcase
+JojaBookcase
+	
+Joja Stool
+JojaStool
+	
+Joja End Table
+JojaEndTable
+	
+Gray Joja End Table
+GrayJojaEndTable
+	
+Decorative Joja Door
+DecorativeJojaDoor
+	
+Wizard Bed
+WizardBed
+	
+Large Wizard Bookcase
+LargeWizardBookcase
+	
+Wizard Bookcase
+WizardBookcase
+	
+Short Wizard Bookcase
+ShortWizardBookcase
+	
+Small Wizard Bookcase
+SmallWizardBookcase
+	
+Wizard Stool
+WizardStool
+	
+Wizard Fireplace
+WizardFireplace
+	
+Wizard Dresser
+WizardDresser
+	
+Wizard Study
+WizardStudy
+	
+Wizard End Table
+WizardEndTable
+	
+Witch's Broom
+WitchBroom
+	
+Cauldron
+Cauldron
+	
+Curly Tree
+CurlyTree
+	
+Swamp Plant
+LeafyPlant
+	
+Wizard Chair
+WizardChair
+	
+Wizard Table
+WizardTable
+	
+Wizard Cushion
+WizardCushion
+	
+Dark Wizard Cushion
+DarkWizardCushion
+	
+Wizard Tea Table
+WizardTeaTable
+	
+Small Elixir Shelf
+SmallElixirShelf
+	
+Elixir Shelf
+ElixirShelf
+	
+Small Stacked Elixir Shelf
+SmallStackedElixirShelf
+	
+Stacked Elixir Shelf
+StackedElixirShelf
+	
+Elixir Bundle
+ElixirBundle
+	
+Two Elixirs
+CoupleElixirs
+	
+Elixir Table
+ElixirTable
+	
+Long Elixir Table
+LongElixirTable
+	
+Wizard Lamp
+WizardLamp
+	
+'Runes'
+Runes
+	
+'Wizard's Tower'
+WizardTower
+	
+Potted Red Mushroom
+PottedRedMushroom
+	
+Wizard Catalogue
+WizardCatalogue
+	
+'Void Swirls'
+VoidSwirls
+	
+Wizard Bookshelf
+WizardBookshelf
+	
+Glyph
+Glyph
+	
+Stone Flooring
+StoneFlooring
+	
+Rune Rug
+RuneRug
+	
+Swirl Rug
+SwirlRug
+	
+Starry Moon Rug
+StarryMoonRug
+	
+Crystal Ball
+CrystalBall
+	
+Amethyst Crystal Ball
+AmethystCrystalBall
+	
+Topaz Crystal Ball
+TopazCrystalBall
+	
+Aquamarine Crystal Ball
+AquamarineCrystalBall
+	
+Emerald Crystal Ball
+EmeraldCrystalBall
+	
+Ruby Crystal Ball
+RubyCrystalBall
+	
+Small Book Stack
+SmallBookStack
+	
+Book Stack
+BookStack
+	
+Large Book Stack
+LargeBookStack
+	
+Purple Book
+PurpleBook
+	
+Blue Book
+BlueBook
+	
+Yellow Book
+YellowBook
+	
+Red Book
+RedBook
+	
+Green Book
+GreenBook
+	
+Brown Book
+BrownBook
+	
+Fallen Purple Book
+FallenPurpleBook
+	
+Fallen Blue Book
+FallenBlueBook
+	
+Fallen Yellow Book
+FallenYellowBook
+	
+Fallen Red Book
+FallenRedBook
+	
+Fallen Green Book
+FallenGreenBook
+	
+Fallen Brown Book
+FallenBrownBook
+	
+Small Book Pile
+SmallBookPile
+	
+Book Pile
+BookPile
+	
+Large Book Pile
+LargeBookPile
+	
+Decorative Wizard Door
+DecorativeWizardDoor
+	
+Junimo Bed
+JunimoBed
+	
+Junimo Hut
+JunimoHut
+	
+Large Junimo Hut
+LargeJunimoHut
+	
+Small Junimo Hut
+SmallJunimoHut
+	
+Junimo Fireplace
+JunimoFireplace
+	
+Junimo Bookcase
+JunimoBookcase
+	
+Junimo Pot
+JunimoPot
+	
+Junimo Bag
+JunimoBag
+	
+Junimo Bundle
+JunimoBundle
+	
+Junimo Stool
+JunimoStool
+	
+Junimo Table
+JunimoTable
+	
+Junimo Chair
+JunimoChair
+	
+Small Junimo Pot
+SmallJunimoPot
+	
+Junimo Flower
+JunimoFlower
+	
+Junimo End Table
+JunimoEndTable
+	
+Junimo Catalogue
+JunimoCatalogue
+	
+Junimo Tea Table
+JunimoTeaTable
+	
+Junimo Dresser
+JunimoDresser
+	
+Junimo Lamp
+JunimoLamp
+	
+Junimo Plant
+JunimoPlant
+	
+Junimo Wall Plaque
+JunimoWallPlaque
+	
+Junimo Plaque
+JunimoPlaque
+	
+Junimo Cushion
+JunimoCushion
+	
+Dark Junimo Cushion
+DarkJunimoCushion
+	
+Junimo Tree
+JunimoTree
+	
+Junimo Couch
+JunimoCouch
+	
+Green Sleeping Junimo
+GreenSleepingJunimo
+	
+Blue Sleeping Junimo
+BlueSleepingJunimo
+	
+Red Sleeping Junimo
+RedSleepingJunimo
+	
+Purple Sleeping Junimo
+PurpleSleepingJunimo
+	
+Yellow Sleeping Junimo
+YellowSleepingJunimo
+	
+Orange Sleeping Junimo
+OrangeSleepingJunimo
+	
+Gray Sleeping Junimo
+GraySleepingJunimo
+	
+Square Junimo Rug
+SquareJunimoRug
+	
+Junimo Rug
+JunimoRug
+	
+Junimo Mat
+JunimoMat
+	
+Circular Junimo Rug
+CircularJunimoRug
+	
+Small Junimo Mat
+SmallJunimoMat
+	
+'Community Center'
+CommunityCenter
+	
+'Little Buddies'
+LittleBuddies
+	
+'Stardrop'
+Stardrop
+	
+'Hut'
+Hut
+	
+Abigail Portrait
+AbigailPortrait
+	
+Emily Portrait
+EmilyPortrait
+	
+Haley Portrait
+HaleyPortrait
+	
+Leah Portrait
+LeahPortrait
+	
+Maru Portrait
+MaruPortrait
+	
+Penny Portrait
+PennyPortrait
+	
+Alex Portrait
+AlexPortrait
+	
+Elliott Portrait
+ElliottPortrait
+	
+Harvey Portrait
+HarveyPortrait
+	
+Sam Portrait
+SamPortrait
+	
+Sebastian Portrait
+SebastianPortrait
+	
+Shane Portrait
+ShanePortrait
+	
+Krobus Portrait
+KrobusPortrait
+	
+Junimo Star
+JunimoStar
+	
+Bulletin Board
+BulletinBoard
+	
+Brochure Cabinet
+BrochureCabinet
+	
+Leafy Wall Panel
+LeafyWallPanel
+	
+Light Leafy Wall Panel
+LightLeafyWallPanel
+	
+Dark Leafy Wall Panel
+DarkLeafyWallPanel
+	
+Decorative Junimo Door
+DecorativeJunimoDoor
+	
+Retro Bed
+RetroBed
+	
+Retro Dresser
+RetroDresser
+	
+Retro Bookcase
+RetroBookcase
+	
+Retro Fireplace
+RetroFireplace
+	
+Retro Couch
+RetroCouch
+	
+Retro Cushion
+RetroCushion
+	
+Dark Retro Cushion
+DarkRetroCushion
+	
+Retro Stool
+RetroStool
+	
+Retro Flower
+RetroFlower
+	
+Retro Chair
+RetroChair
+	
+Retro Table
+RetroTable
+	
+Retro Plant
+RetroPlant
+	
+Retro End Table
+RetroEndTable
+	
+Retro Tea Table
+RetroTeaTable
+	
+Retro Catalogue
+RetroCatalogue
+	
+Retro Cabinet
+RetroCabinet
+	
+Retro Radio
+RetroRadio
+	
+Retro Banner
+RetroBanner
+	
+'Groovy'
+Groovy
+	
+Retro Lamp
+RetroLamp
+	
+Retro Rug
+RetroRug
+	
+Retro Square Rug
+RetroSquareRug
+	
+Retro Mat
+RetroMat
+	
+Large Retro Rug
+LargeRetroRug
+	
+'Abstract'
+Abstract
+	
+'Starship'
+Starship
+	
+'Binary'
+Binary
+	
+'Checkers'
+Checkers
+	
+'UFO'
+UFO
+	
+Decorative Retro Door
+DecorativeRetroDoor
+	
+Decorative Door
+DecorativeDoor1
+	
+Decorative Door
+DecorativeDoor2
+	
+Decorative Door
+DecorativeDoor3
+	
+Decorative Door
+DecorativeDoor4
+	
+"DecorativeDoor5": "Decorative Door",
+"DecorativeDoor6": "Decorative Door",
+"WallClock": "Wall Clock",
+"DecorativeHatch": "Decorative Hatch",
+"DecorativeOakLadder": "Decorative Oak Ladder",
+"DecorativeWalnutLadder": "Decorative Walnut Ladder",
+"UprightPiano": "Upright Piano",
+"CoatStand": "Coat Stand",
+"BirdHouse": "Bird House",
+"DecorativeShovel": "Decorative Shovel",
+"WallSword": "Wall Sword",
+"DecorativeSword": "Decorative Sword",
+"WineTable": "Wine Table",
+"SpiritsTable": "Spirits Table",
+"TallHousePlant": "Tall House Plant",
+"CornPlant": "Corn Plant",
+"BlueCushion": "Blue Cushion",
+"YellowCushion": "Yellow Cushion",
+"GreenCushion": "Green Cushion",
+"RedCushion": "Red Cushion",
+"BrownCushion": "Brown Cushion",
+"BlackCushion": "Black Cushion",
+"FoodPetBowl": "Food Pet Bowl",
+"WaterPetBowl": "Water Pet Bowl",
+"OakLampEndTable": "Oak Lamp End Table",
+"WalnutLampEndTable": "Walnut Lamp End Table",
+"BirchLampEndTable": "Birch Lamp End Table",
+"MahoganyLampEndTable": "Mahogany Lamp End Table",
+"TriangleWindow": "Triangle Window",
+"Clothesline": "Clothesline",
+"TrashCatalogue": "Trash Catalogue",
+"ElegantVase": "Elegant Vase",
+"CatTree": "Cat Tree",
+"DarkCatTree": "Dark Cat Tree",
+"LightSwitch": "Light Switch",
+"Outlet": "Outlet",
+"Doghouse": "Doghouse",
+"DarkDoghouse": "Dark Doghouse",
+"BountifulDiningTable": "Bountiful Dining Table",
+"PlasticLawnEndTable": "Plastic Lawn End Table",
+"PlasticLawnChair": "Plastic Lawn Chair",
+"BrokenTelevision": "Broken Television",
+"SixPackRings": "Six-Pack Rings",
+"GreenBottle": "Green Bottle",
+"PlasticBag": "Plastic Bag",
+"AluminumCan": "Aluminum Can",
+"BlueBottle": "Blue Bottle",
+"BuriedTire": "Buried Tire",
+"Tire": "Tire",
+"Wrapper": "Wrapper",
+"SpilledBeverage": "Spilled Beverage",
+"MessyShirt": "Messy Shirt",
+"MessyShorts": "Messy Shorts",
+"MoldyCouch": "Moldy Couch",
+"FancyTree1": "Fancy House Plant",
+"FancyTree2": "Fancy House Plant",
+"FancyTree3": "Fancy House Plant",
+"FancyHousePlant3": "House Plant",
+"FancyHousePlant1": "House Plant",
+"FancyHousePlant2": "House Plant",
+"FancyHousePlant4": "House Plant",
+"FancyHousePlant5": "House Plant",
+"PigPainting": "Pig Painting",
+"MidnightBeachBed": "Midnight Beach Bed",
+"MidnightBeachDoubleBed": "Midnight Beach Double Bed",
+"DarkPiano": "Dark Piano",
+}

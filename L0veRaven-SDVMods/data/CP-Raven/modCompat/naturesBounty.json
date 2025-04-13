@@ -1,0 +1,83 @@
+{
+    "Changes": [
+        {
+            "LogName": "naturesBounty.json: Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "AcceptGift_(O){{NB}}_Bud": "{{i18n:nb.gift.raven.bud}}",
+                "AcceptGift_(O){{NB}}_HempFiber": "{{i18n:nb.gift.raven.hempFiber}}",
+                "AcceptGift_(O){{NB}}_RoastedHempSeeds": "{{i18n:nb.gift.raven.roastedHempSeeds}}",
+                "AcceptGift_(O){{NB}}_Preroll": "{{i18n:nb.gift.raven.preroll}}",
+                "AcceptGift_(O){{NB}}_HempRollingPaper": "{{i18n:nb.gift.raven.hempRollingPaper}}",
+                "AcceptGift_(O){{NB}}_SpecialBrownie": "{{i18n:nb.gift.raven.specialBrownie}}",
+                "AcceptGift_(O){{NB}}_InfusedOil": "{{i18n:nb.gift.raven.infusedOil}}"
+            },
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
+        },
+        {
+            "LogName": "naturesBounty.json: Generic Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "{{season}}_Tue": "{{i18n:dialogue.raven.NB.generic_{{Random:{{Range:1,22}}}}}}",
+                "{{season}}_Thu": "{{i18n:dialogue.raven.NB.generic_{{Random:{{Range:1,22}}}}}}"
+            },
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
+        },
+        {
+            "LogName": "naturesBounty.json: Schedule Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Raven}}",
+            "Entries": {
+                "Forest.101": "{{i18n:nb.scheduleDialogue.raven.forest.101_{{Random:{{Range:1,2}}}}}}"
+            },
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
+        },
+        {
+            "LogName": "naturesBounty.json: Love Letters",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{Raven}}_LoveLetter_8": "{{i18n:NB.mail.raven.loveLetter_8}}"
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Dating,Engaged",
+                "HasMod |contains={{NB}}": "true"
+            }
+        },
+        {
+            "LogName": "naturesBounty.json: Quest Letters",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{Raven}}_StonerLetter": "{{i18n:StonerLetter}}",//Do edibles with farmer in saloon event
+                "{{Raven}}_StonerQuest": "{{i18n:StonerQuest}}",//Smoke session event
+                "{{Raven}}_SmokeSession": "{{i18n:StonerQuest}}"//Smoke session -> Tent
+            },
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
+        },
+        {
+            "LogName": "naturesBounty.json: Quests",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                //A Stoner's Request
+                "{{Nexus}}00420": "ItemDelivery/{{i18n:AStonersRequest_headline}}/{{i18n:AStonersRequest_summary}}/{{i18n:quest.aStonersRequest.NB.hint}}/Raspb3rryfields.NaturesBounty_Preroll/{{Nexus}}00421/0/-1/false/{{i18n:quest.aStonersRequest.NB.giftResponse}}",
+                //Smoke Session
+                "{{Nexus}}00421": "Location/{{i18n:quest.smokeSession.NB.headline}}/{{i18n:quest.smokeSession.NB.summary}}/{{i18n:quest.smokeSession.NB.hint}}/Custom_L0veRaven_RavenTentInside/-1/0/-1/false"
+            },
+            "When": {
+                "HasMod |contains={{NB}}": "true"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "LogName": "appearance.json: Character Loads",
+            "Action": "Load",
+            "Target": "Characters/{{Zayden}}, Characters/{{Zayden}}_Joja",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "appearance.json: Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Zayden}}, Portraits/{{Zayden}}_Joja",
+            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "appearance.json: Appearance Data - Default",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Zayden}}","Appearance"],
+            "Entries": {
+                "{{Zayden}}.Default": {
+                    "Id": "{{Zayden}}.Default",
+                    "Condition": "",
+                    "Sprite": "Characters/{{Zayden}}",
+                    "Portrait": "Portraits/{{Zayden}}",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                },
+                "{{Zayden}}.Joja": {
+                    "Id": "{{Zayden}}.Joja",
+                    "Condition": "LOCATION_NAME Target JojaMart",
+                    "Sprite": "Characters/{{Zayden}}_Joja",
+                    "Portrait": "Portraits/{{Zayden}}_Joja",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+    ]
+}

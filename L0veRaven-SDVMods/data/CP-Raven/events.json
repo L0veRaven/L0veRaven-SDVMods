@@ -1,0 +1,41 @@
+{
+    "Changes": [
+        //_MarriageTalk
+        {
+            "LogName": "events.json: 8 Heart - MarriageTalk: Married to Other NPC",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "{{Raven}}_marriageTalk/n {{Raven}}_MarriageTalkFlag/NpcVisibleHere {{Raven}}": "Saloon1/14 20/farmer -1000 -1000 {{up}} {{Raven}} 12 20 {{up}} Gus 14 18 {{down}}/skippable/friendship Gus 15/friendship {{Raven}} 15/
+--Farmer walks in and gets settled/
+animate Gus false true 120 18 19 20 19/pause 1000/
+warp farmer 14 24 true/playSound doorClose/textAboveHead Gus \"{{i18n:marriageTalk_gusWelcome}}\"/pause 300/
+move farmer 0 -4 {{up}}/pause 500/
+faceDirection {{Raven}} {{right}} true/faceDirection farmer {{left}} true/playSound grassyStep/pause 1000/
+--Raven says congrats on the marriage/
+speak {{Raven}} \"{{i18n:marriageTalk_speak_1}}\"/pause 300/
+--qQ How is the marriage/
+quickQuestion {{i18n:marriageTalk_qQ}}#{{i18n:marriageTalk_qQ_1}}#{{i18n:marriageTalk_qQ_2}}#{{i18n:marriageTalk_qQ_3}}
+    (break)pause 300\\emote farmer {{emoteHappy}} true\\emote farmer {{emoteHappy}} true\\pause 500\\speak {{Raven}} \"{{i18n:marriageTalk_qQ_1_1}}\"\\pause 300
+    (break)pause 300\\speak {{Raven}} \"{{i18n:marriageTalk_qQ_2_1}}\"\\pause 300
+    (break)pause 300\\emote farmer {{emoteSweat}} true\\emote {{Raven}} {{emoteSweat}} true\\playSound dwop\\pause 500\\speak {{Raven}} \"{{i18n:marriageTalk_qQ_3_1}}\"\\pause 300/
+--Raven explains that they're poly/
+emote farmer {{emoteQuestion}}/pause 300/
+speak {{Raven}} \"{{i18n:marriageTalk_speak_2}}\"/pause 300/
+--Gus talks about a friend that was in a flawed polycule/
+stopAnimation Gus 0/faceDirection {{Raven}} {{up}} true/faceDirection farmer {{up}} true/playSound grassyStep/pause 1000/
+speak Gus \"{{i18n:marriageTalk_speak_3}}\"/pause 300/
+--Raven is shocked and sympathises/
+jump {{Raven}} 8/showFrame {{Raven}} 16/playSound batScreech/shake {{Raven}} 1500/pause 1500/showFrame {{Raven}} 4/pause 100/
+speak {{Raven}} \"{{i18n:marriageTalk_speak_4}}\"/pause 300/
+--Gus explains the friend is doing fine now/
+speak Gus \"{{i18n:marriageTalk_speak_5}}\"/pause 300/
+--Raven fantasizes about marriage/
+emote {{Raven}} {{emoteHeart}}/pause 300/
+speak {{Raven}} \"{{i18n:marriageTalk_speak_6}}\"/pause 300/
+--End with dialogue/
+end",
+            }
+        }
+    ]
+}

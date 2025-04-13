@@ -1,5 +1,5 @@
 {
-  "GamerZone": "true",
-  "MusicCapsule": "true",
-  "TheaterReview": "true"
+  "GamerZone": "false",
+  "MusicCapsule": "false",
+  "TheaterReview": "false"
 }

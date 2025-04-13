@@ -1,8 +1,0 @@
-{"Changes": [// Raven #3
-    {
-    "LogName": "NPCGiftTastes.json","Action": "EditData","Target": "Data/NPCGiftTastes","Entries":
-        {
-        "{{ModId}}": "{{i18n:Gift_Love}}/-18 66 74 84 192 206 213 223 224 227 228 233 248 269 279 394 444 446 606 608 618 721 772 798 815 Book_PriceCatalogue {{NB}}_Bud {{NB}}_Preroll {{NB}}_SpecialBrownie {{NB}}_InfusedOil/{{i18n:Gift_Like}}/-4 -7 -26 -75 -80 60 62 64 80 82 194 203 216 423 613 634 635 636 637 638 724 746 768 769 787 Book_AnimalCatalogue Book_Trash SkillBook_1 {{NB}}_HempRollingPaper {{NB}}_RoastedHempSeeds/{{i18n:Gift_Dislike}}/-12 -19 -22 -74 68 70 86 199 205 220 262 605 222 274 304 305 309 310 311 373 403 797 Book_Friendship {{NB}}_HempFiber/{{i18n:Gift_Hate}}/fish_legendary artifact_item category_trinket -8 -15 -16 -24 72 78 148 156 158 159 162 164 165 128 154 155 169 195 225 226 253 265 308 430 440 445 447 456 271 535 536 537 684 720 725 726 729 749 766 767 795 796 799 807 873/{{i18n:Gift_Neutral}}/-5 -6 -23 -81 246 247 388 395 417 419 428 610 book_item/",
-        },
-    },
-]}

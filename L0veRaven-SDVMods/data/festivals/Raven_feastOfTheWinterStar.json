@@ -1,0 +1,41 @@
+{
+    "Changes": [
+        {	
+            "LogName": "festivals.json: Feast of the Winter Star - Positions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {//Set Up: Year 1
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Raven}} 38 68 left",
+                    "Delimiter": "/"
+                },
+                //ADD{//Set Up: Year 2
+                    //ADD"Operation": "Append",
+                    //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    //ADD"Value": "{{Raven}} 38 68 left",
+                    //ADD"Delimiter": "/"
+                //ADD},
+                {//Secret Santa: Year 1
+                    "Operation": "Append",
+                    "Target": ["Entries", "SecretSanta_additionalCharacters"],
+                    "Value": "{{Raven}} 38 68 left",
+                    "Delimiter": "/"
+                },
+                //ADD{//Secret Santa: Year 2
+                    //ADD"Operation": "Append",
+                    //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                    //ADD"Value": "{{Raven}} 38 68 left",
+                    //ADD"Delimiter": "/"
+                //ADD},
+            ]
+        }
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+    //"Operation": "Append",
+    //"Target": ["Fields", "set-up", 5],
+    //"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {	
+            "LogName": "fireworksFestival.json: Set Up",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+            "TextOperations": [ //SetUp
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Raven}} 12 20 down",
+                    "Delimiter": "/",
+                },
+            ],
+            "When": {
+                "HasMod: |contains={{FF}}": true,
+            },
+        },
+        {	
+            "LogName": "fireworksFestival.json: - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+            "Entries": {
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.fireworksFestival_{{Random:{{Range:1,2}}}}}}"
+            },
+            "When": {
+                "HasMod: |contains={{FF}}": true
+            }
+        }
+    ]
+}

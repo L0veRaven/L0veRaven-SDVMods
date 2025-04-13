@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "downtownZuzu.json - Conversation Topics",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "cc_Bus": "{{i18n:conversationTopic.raven.communityCenter.bus.DTZ}}"
+            },
+            "When": {
+                "HasMod |contains={{DTZ}}": "true"
+            }
+        }
+    ]
+}

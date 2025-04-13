@@ -1,0 +1,466 @@
+{
+"addBigProp _x_ _y_ _object ID_",
+    //Adds an object at the specified tile from the TileSheets\Craftables.png sprite sheet
+
+"addConversationTopic _ID_ [length]",
+    //Starts a conversation topic with the given ID and day length (or 4 days if no length given). Setting length as 0 will have the topic last only for the current day
+
+"addCookingRecipe _recipe_",
+    //Adds the specified cooking recipe to the player
+
+"addCraftingRecipe _recipe_",
+    //Adds the specified crafting recipe to the player
+
+"addFloorProp _prop index_ _x_ _y_ [solid width] [solid height] [display height]",
+    //Add a non-solid prop from the current festival texture. Default solid width/height is 1. Default display height is solid height
+
+"addLantern _row in texture_ _x_ _y_ _light radius_",
+    //Adds a glowing temporary sprite at the specified tile from the Maps\springobjects.png sprite sheet. A light radius of 0 just places the sprite
+
+"addMailReceived _letter ID_ [true / false]",
+    //Set a letter as received
+
+"addObject _x_ _y_ _sprite index_ [layer]",
+    //Adds a temporary sprite at the specified tile from the Maps\springobjects.png sprite sheet
+
+"addProp _prop index_ _x_ _y_ [solid width] [solid height] [display height]",
+    //Add a solid prop from the current festival texture. Default solid width/height is 1. Default display height is solid height
+
+"addQuest _quest ID_",	//Add the specified quest to the quest log
+
+"addTemporaryActor _character_ _sprite width_ _sprite height_ _tile x_ _tile y_ _facing_ [breather] [Character|Animal|Monster] [animal name]",
+    //Add a temporary actor. 'breather' is boolean. The category determines where the texture will be loaded from, default is Character. Animal name only applies to animal
+
+"addToTable _x_ _y_ _object ID_",
+    //Places an object on the furniture at a position. UNLESS the location is FarmHouse, then it will always try to place an item onto the first piece of furniture, regardless if it's a table or not (and probably throw an error if there's no furniture.) It'll also actually replace the item on that piece of furniture if there was one previously. Not recommended for use in the farmhouse. May not be used by vanilla at all
+
+"addTool _Sword|Wand_",
+    //Adds either a Battered Sword or Return Scepter to the player's inventory. The Battered Sword is unobtainable in vanilla and is incomplete and not implemented
+
+"advancedMove _actor_ _loop_ _x y_... OR _direction duration_",
+    //Set multiple movements for an actor. You can set True to have the actor walk the path continuously. Example: /advancedMove Robin false 0 3 2 0 0 2 -2 0 0 -2 2 0/
+
+    //To make the actor move along the x axis (left/right), use the number of tiles to move and 0. For example, -3 0 will cause the actor to walk three tiles to the left while facing left. 2 0 will cause the actor to walk two tiles to the right while facing right
+
+    //To make the actor move along the y axis (up/down), use 0 and the number of tiles to move. For example, 0 1 will cause the actor to walk one tile down while facing down. 0 -5 will cause the actor to walk five tiles up while facing up
+
+    //To make an actor pause, use the direction to face and the number of milliseconds to pause. 1 is right, 2 is down, 3 is left, and 4 is up. The reason 4 is up and not 0 is so that advancedMove can tell the difference between a pause command and a move up/down command
+
+    //The code can tell the difference between a move command and a pause command because a move command must have 0 for either x or y. A pause command must have non-zero numbers for both numbers in the pair
+
+    //Example: /advancedMove Clint true 4 0 2 5000 -4 0 1 3000/ Clint will have continuous movement moving 4 tiles to the right, facing down upon arriving, waiting for 5 seconds, then moving 4 tiles to the left, facing right upon arriving, then waiting for 3 seconds, then loops because the loop was set to true(see above)
+
+    //Example: /advancedMove Pam true 5 0 0 3 3 5000 -6 0 0 -4/ Pam first moves 5 tiles to the right, then directly moves 3 tiles downward, faces the to the left upon arriving then waits 5 seconds before moving 6 tiles to the left then moves up 4 tiles directly
+
+"ambientLight _r_ _g_ _b_",
+    //Modifies the ambient light level, with RGB values from 0 to 255
+
+"animalNaming",
+    //Show the animal naming menu if no other menu is open. Uses the current location as Coop. Appears to only work for 'hatched' animals
+
+"animate __actor__ __flip__ __loop__ __framesPerMillisecond__ __frames__",
+    //Animate a named actor, using one or more _frames_ from their sprite sheet, for _frame duration_ milliseconds per frame.
+    "frames": "Frame index number(s) (starts from zero)",
+    "flip": "True/False -> flip the sprite along the Y axis",
+    "loop": "True/False -> Repeat the animation until stopAnimation is used",
+    //Farmer animation reference -_ Modding:Farmer_sprite#Sprite_Index_Breakdown
+
+"attachCharacterToTempSprite _actor_",
+    //Attach an actor to the most recent temporary sprite
+
+"awardFestivalPrize",
+    //Awards the festival prize to the winner for the easter egg hunt and ice fishing contest
+
+"awardFestivalPrize _item type_",
+    //Awards the specified item to the player. Possible item types are "pan", "sculpture", "rod", "sword", "hero", "joja", "slimeegg", "emilyClothes", and "jukebox"
+
+"beginSimultaneousCommand",
+    //This command states that the next event commands will all be done at the same time. Must also have endSimultaneousCommand after the commands needed to execute at the same time
+
+"broadcastEvent": "Forces all connected players to also see the event",
+    //Used vanilla events (611439 - Community Center Intro)
+        //If the "local" option is given (not a boolean), players will see their own farmer as the "farmer" actor. [Unused in vanilla]
+
+"catQuestion",
+    //Trigger question about adopting your pet
+
+"cave",
+    //Trigger the question for the farm cave type. This will work again later, however changing from bats to mushrooms will not remove the mushroom spawning objects
+
+"changeLocation _location_",
+    //Change to another location and run the remaining event script there
+
+"changeMapTile _layer_ _x_ _y_ _tile index_",
+    //Change the specified tile to a particular value
+
+"changeName _actor_ _displayName_",
+    //Sets the display name of the actor to displayName, with underscores replaced by spaces
+
+"changePortrait _npc_ _portrait_",
+    //Change the NPC's portrait to be from "Portraits/_actor___portrait_"
+
+"changeSprite _actor_ _sprite_",
+    //Change the actor's sprite to be from "Characters/_actor___sprite_"
+
+"changeToTemporaryMap _map_ [pan]",
+    //Change the location to a temporary one loaded from the map file specified by _map_. If the [pan] argument is omitted, also pan to tile coordinates 0, 0 on the new map. If any value is given for [pan], no panning occurs
+
+"changeYSourceRectOffset _npc_ _offset_",
+    //Changes the NPC's vertical texture offset. Example: changeYSourceRectOffset Abigail 96 will offset her sprite sheet, showing her looking left instead of down. This persists for the rest of the event. This is only used in Emily's Clothing Therapy event to display the various outfits properly
+
+"characterSelect",
+    //Seemingly unused. Sets Game1.gameMode to 5 and Game1.menuChoice = 0
+
+"cutscene _cutscene_",
+    //Activate a cutscene. See cutscene list
+
+"doAction _x_ _y_",
+    //Acts as if the player had clicked the specified x/y coordinate and triggers any relevant action. It is commonly used to open doors from inside events, but it can be used for other purposes. If you use it on an NPC you will talk to them, and if the player is holding an item they will give that item as a gift. doAction activates objects in the main game world (their actual location outside of the event), so activating NPCs like this is very tricky, and their reaction varies depending on what the player is holding
+
+"dump _group_",
+    //Starts the special "cold shoulder" and "second chance" dialogue events for the given group (women if group is girls and men if it is anything else.) The cold shoulder event has an id of dumped_Girls or dumped_Guys and lasts 7 days; the second chance event has an id of secondChance_Girls or secondChance_Guys and lasts 14 days. During open beta testing of version 1.3 there was a second parameter which determined the amount of hearts lost, but support for that parameter was removed before release
+
+"endSimultaneousCommand",
+    //Sets the end of all commands that are to be done simultaneously. Format: beginSimultaneousCommand/_Event Commands_.../endSimultaneousCommand
+    //If something is meant to happen after an extended simCom, PUT A PAUSE THERE SO IT DOESN'T IGNORE THE COMMANDS
+
+"elliotbooktalk",
+    //Elliot book talk
+
+"emote _actor_ _emote ID_ [continue]",
+    //Make the given NPC name perform an emote, which is a little icon shown above the NPC's head. If continue is specified, the next command will play out immediately. Emotes are stored in Content\TileSheets\emotes.xnb; see list of emotes
+
+"end",
+    //Ends the current event by fading out, then resumes the game world and places the player on the square where they entered the zone. All end parameters do this by default unless otherwise stated
+
+"end bed",
+    //Same as end, but warps the player to the x/y coordinate of their most recent bed. This does not warp them to the farmhouse, only to the x/y coordinate of the bed regardless of map
+
+"end beginGame",
+    //Used only during the introduction sequence in the bus stop event. It sets the game mode to playingGameMode, warps the player to the farmhouse (9, 9), ends the current event, and starts a new day
+
+"end credits",
+    //Not used in any normal events. Clears debris weather, changes the music to wedding music, sets game mode to creditsMode and ends the current event
+
+"end dialogue _NPC_ [quotes]Text here[quotes]",
+    //Same as end, and additionally clears the existing NPC dialogue for the day and replaces it with the line(s) specified at the end of the command
+    //Example usage: end dialogue Abigail "It was fun talking to you today.$h"
+
+"end dialogueWarpOut _NPC_ [quotes]Text here[quotes]",
+    //See end dialogue and end warpOut
+
+"end invisible _NPC_",
+    //Same as end, and additionally turns the specified NPC invisible (cannot be interacted with until the next day)
+
+"end invisibleWarpOut _NPC_",
+    //See end invisible and end warpOut
+
+"end newDay",
+    //Ends both the event and the day (warping player to their bed, saving the game, selling everything in the shipping box, etc)
+"end position",
+    //_x_ _y_	Same as end, and additionally warps the player to the map coordinates specified in x y
+
+"end warpOut",
+    //Same as end, and additionally finds the first warp out of the current location (second warp if male and in the bathhouse), and warps the player to its endpoint
+
+"end wedding",
+    //Used only in the hardcoded wedding event. Changes the character's clothes back to normal, sets Lewis' post-event chat to "That was a beautiful ceremony. Congratulations!$h", and warps the player to their farm
+
+"eventSeen _event ID_ [true / false]",
+    //Used to prevent a mutually exclusive event from being seen. Has special logic where if the event ID is the current event, then it prevents the current event from being marked as seen when it ends or is skipped if it was set to false. Used for repeatable events
+
+"extendSourceRect _actor_ reset",
+    //Resets the actors sprite
+
+"extendSourceRect _actor_ _horizontal_ _vertical_ [ignoreUpdates]",
+    //TODO: Explain Character.extendSourceRect
+
+"eyes _eyes_ _blink_",
+    //Change the player's eyes. Eyes is represented by and Integer from 0 - 5 (open, closed, right, left, half closed, wide open). Blink is a timer that is represented with a negative number. -1000 is the default timer
+
+"faceDirection _actor_ _direction_ [continue]",
+    //Make a named NPC face a direction. If no parameter is supplied for [continue], the game will pause.
+
+"fade [unfade]",
+    //Fades out to black if no parameter is supplied. If the parameter is unfade (not true), fades in from black
+
+"farmerAnimation _anim_",
+    //Briefly sets the farmer's sprite to _anim_ for a variable (depending on sprite) interval. Only used once in vanilla events. Using showFrame farmer _sprite_ twice (to set a new frame and back) is more powerful as it lets you control the interval using pause n
+
+"farmerEat _objectID_",
+    //Make the player eat an object. (The farmer actually does eat the object, so buffs will apply, healing will occur, etc.)
+
+"fork [req] _eventID_",
+    //End the current command script and starts a different script with the given ID, but only if the [req] condition is met. (Example: /fork choseWizard finalBossWizard in the "Necromancer" script of Sebastian's 6-heart event.) The [req] condition can be a mail ID or dialogue answer ID; if not specified, it checks if the specialEventVariable1 variable was set (e.g., by a question event command or %fork dialogue command). The new script should have the same format as a normal event script, but without the mandatory three start fields
+
+"friendship _npc_ _amount_",
+    //Add the given number of friendship points with the named NPC. (There are 250 points per heart.)
+
+"globalFade [speed] [continue]",
+    //Fade to black at a particular speed (default 0.007). If continue is specified, the event continues as the fade occurs, else the event pauses until the fade is finished. The fade effect disappears when this command is done; to avoid that, use the viewport command to move the camera off-screen
+
+"globalFadeToClear [speed] [continue]",
+    //Fade to clear (unfade?) at a particular speed (default 0.007). If continue is specified, the event continues as the fade occurs, else the event pauses until the fade is finished
+
+"glow _r_ _g_ _b_ _hold_",
+    //Make the screen glow once, fading into and out of the _r_ _g_ _b_ values over the course of a second. If _hold_ is true it will fade to and hold that color until stopGlowing is used
+
+"halt",
+    //Make everyone stop.
+
+"hideShadow _actor_ _true/false_",
+    //Hide the shadow of the named actor. False unhides it.
+
+"hospitaldeath",
+    //Forces you to lose money and items, pulls up the dialogue box with Harvey. IS NOT THE SAME AS ANY OF THE END COMMANDS.
+
+"ignoreCollisions _character ID_",
+    //Make a character ignore collisions when moving for the remainder of the event. For example, they'll walk through walls if needed to reach their destination. The character ID can be farmer or an NPC name like Abigail.
+
+"ignoreEventTileOffset",
+    //Tile positions in farm events are offset to match the farmhouse position. If an event shouldn't be based on the farmhouse position, add an ignoreEventTileOffset command to disable the offset for that event. This must be the 4th command (after the 3 initial setup ones) to take effect.
+
+"itemAboveHead [type]",
+    //Show an item above the player's head. The [type] can be "pan", "hero", "sculpture", "joja", "slimeEgg", "rod", "sword", or "ore". If no item is specified, then they will 'hold' nothing? Arbitrary items are not supported.
+
+"jump _actor_ [intensity]",
+    //Make a the named NPC jump. The default intensity is 8.
+
+"loadActors _layer_",
+    //Load the actors from a layer in the map file.
+
+"makeInvisible _x_ _y_ [x-dimension] [y-dimension]",
+    //Temporarily hides selected objects or terrain features: the tile(s) will become passable for the duration of the event. Useful for clearing a walking area during events, especially in the FarmHouse. (Example: /makeInvisible 8 14 hides any object or terrain feature at tile 8, 14 in the current map.) The optional [x-dimension] and [y-dimension] arguments allow you to specify a larger area to be cleared. (Example: /makeInvisible 68 36 13 7 in Leah's 14-heart event clears a 13 × 7 tile rectangular area with the top-left corner at coordinate 68, 36.). Known bugs: some furniture may not re-appear immediately?
+
+"mail _letter ID_",
+    //Queue a letter to be received tomorrow (see Content\Data\mail.xnb for available mail).
+
+"message [quotes]Text here[quotes]",
+    //Show a dialogue box (no speaker). See dialogue format for the _text_ format.
+
+"minedeath",
+    //Forces you to lose money and items, pulls up the dialogue box with Harvey. IS NOT THE SAME AS ANY OF THE END COMMANDS.
+
+"money _amount_",
+    //Adds/removes the specified amount of money.
+
+"move _actor_ _x_ _y_ _facing_ _continue_",
+    //Make NPC move by tile offset along ONE axis only -_ face the given direction when done
+    //To move along multiple axes, you must specify multiple move commands
+    //By default the event pauses while a move command is occurring, but if _continue_ is set to true the movement is asynchronous and will run simultaneously with other event commands. You can also move multiple people at a time in a single event command with move - an example of /move Abigail 1 0 1 Sam 0 1 1 Sebastian 2 0 1/ will have Abigail, Sam, and Sebastian all move at the same time in their respective directions.
+
+"pause _duration_",
+    //Pause the game for the given number of milliseconds.
+
+"playMusic _track_",
+    //Play the specified music track ID. If the track is 'samBand', the track played will change depend on certain dialogue answers (76-79).
+
+"playSound _sound_",
+    //Play a given sound ID from the game's sound bank.
+
+"playerControl",
+    //Give the player control back.
+
+"positionOffset _actor_ _x_ _y_",
+    //Offset the position of the named NPC by the given number of pixels. This happens instantly, with no walking animation.
+
+"proceedPosition _actor_",
+    //Waits for the specified actor to stop moving before executing the next command.
+
+"question null [quotes]_question_#_answer1_#_answer2_[quotes]",
+    //Show a dialogue box with some answers and an optional question. When the player chooses an answer, the event script continues with no other effect.
+
+"question fork_answer index_ [quotes]_question_#_answer 0_#_answer 1_#...[quotes]",
+    //Show a dialogue with some answers and an optional question. When the player chooses the answer matching the fork_answer index_ (like fork0 for the first answer), the specialEventVariable1 variable is set. Usually followed by a fork command. Example: .../question fork0 \"#answer0#answer1#answer3\"/fork eventidhere/..."
+
+"quickQuestion _question_#_answer1_#_answer2_#_answer3_(break)_answer1 script_(break)_answer2 script_(break)_answer3 script_",
+    //Show a dialogue box with an optional question and some answers. The answer scripts are sequences of commands separated by \\. When the player chooses an answer, the relevant answer script is executed and then the event continues. Usually used when an NPC's response will depend on the answer chosen but nothing else in the event has to depend on it
+
+    //Note: If quickQuestion is used immediately at the start of an event block (Example: "ExampleEvent": "quickQuestion [rest of the event]"), it will cause a dialogue loop. Adding another command in front of quickQuestion resolves this issue (Example: "ExampleEvent": "pause 1/quickQuestion [rest of the event]")
+
+"removeItem _object ID_",
+    //Remove the first of an object from a player's inventory
+
+"removeObject _x_ _y_",
+    //Remove the prop at a position
+
+"removeQuest _quest ID_",
+    //Remove the specified quest from the quest log
+
+"removeSprite _x_ _y_",
+    //Remove the temporary sprite at a position
+
+"removeTemporarySprites",
+    //Remove all temporary sprites
+
+"removeTile _x_ _y_ _layer_",
+    //Remove a tile from the specified layer
+
+"resetVariable",
+    //Set the specialEventVariable1 to false
+
+"rustyKey",
+    //Gives the player the rusty key. (Sewer key)
+
+"screenFlash _alpha_",
+    //Flashes the screen white for an instant. An alpha value from 0 to 1 adjusts the brightness, and values from 1 and out flashes pure white for x seconds
+
+"setRunning",
+    //Set the player as running
+
+"shake _actor_ _duration_",
+    //Shake the named NPC for the given number of milliseconds
+
+"showFrame farmer _frame_ _flip_",
+    //Flip the farmer's current sprite along the Y axis. Farmer looks strange if not facing the correct direction prior to 1.6. Flip is a true/false value
+
+"showFrame _actor_ _frame ID_",
+    //Set the named NPC's current frame in their Content\Characters\*.xnb spritesheet. Note that setting the farmer's sprite only changes parts of the sprite (some times arms, some times arms and legs and torso but not the head, etc). To rotate the whole sprite, use faceDirection farmer _0/1/2/3_ first before modifying the sprite with showFrame. Frame ID starts from 0. If farmer is the one whose frame is being set, "farmer" can be eliminated, i.e., both showFrame farmer _frame ID_ and showFrame _frame ID_ would work
+
+"showRivalFrame _frame_",
+    //Set the 'rival' actor's sprite to a specific frame
+
+"skippable",
+    //Allow skipping this event
+
+"speak _character_ [quotes]Text here[quotes]",
+    //Show dialogue text from a named NPC; see dialogue format
+
+"specificTemporarySprite _sprite_",
+    //[other params]	Shows the given temporary sprite. Parameters change depending on the sprite. These are quite hardcoded and probably not easily reusable, other than the little heart
+
+"speed farmer _modifier_",
+    //Add a speed modifier to the farmer. Is persistent and you will have to use the command again to return to normal speed
+
+"speed _actor_ _speed_",
+    //Sets the named NPC's speed (default speed is 3). Not applicable to the farmer. Applies only through the end of the next movement or animation on that NPC
+
+"splitSpeak _actor_ [quotes]Text here[quotes]","",
+    //Dialogue, but chosen based on previous answer. ('~' is the separator used.)
+
+"startJittering",
+    //Make the player start jittering
+
+"stopAdvancedMoves",
+    //Stop movement from advancedMove
+
+"stopAnimation farmer",
+    //Stop the farmer's current animation
+
+"stopAnimation _actor_ [end frame]",
+    //Stop the named NPC's current animation. Not applicable to the farmer
+
+"stopGlowing",
+    //Make the screen stop glowing
+
+"stopJittering",
+    //Make the player stop jittering
+
+"stopMusic",
+    //Stop any currently playing music
+
+"stopRunning",
+    //Make the farmer stop running
+
+"stopSwimming _actor_",
+    //Make an actor stop swimming
+
+"swimming _actor_",
+    //Make an actor start swimming
+
+"switchEvent _event ID_",
+    //Changes the current event (ie. event commands) to another event in the same location
+
+"temporarySprite _x_ _y_ _row in texture_ _animation length_ _animation interval_ _flipped_ _layer depth_",
+    //Create a temporary sprite with the given parameters, from the resource TileSheets/animations
+
+"temporaryAnimatedSprite _texturename_ _source_x_ _source_y_ _source_width_ _source_height_ _interval_ _length_ _loops_ _tile_x_ _tile_y_ _flicker_ _flip_ _depth_ _fade_ _scale_ _scale_change_ _rotation_ _rotation_change_ +",
+    //Creates a temporary sprite with the given parameters. Can also accept the following optional, named parameters afterwards, in space-separated pairs. _color_ _hold_last_frame_ _ping_pong_ _motion_ _acceleration_ _acceleration_change_
+
+"textAboveHead _actor_ \"_text_\"",
+    //Show a small text bubble over the named NPC's head with the given text; see dialogue format
+
+"updateMinigame _event data_",
+    //Send an event to the current minigame
+
+"viewport move _x_ _y_ _duration_",
+    //Pan the the camera in the direction (and with the velocity) defined by x/y for the given duration in milliseconds. Example: "viewport move 2 -1 5000" moves the camera 2 pixels right and 1 pixel up for 5 seconds. The total distance moved is based on framerate, rather than time, and may be inconsistent
+
+"viewport _x_ _y_ [true [unfreeze]|clamp [true|unfreeze]]",
+    //Instantly reposition the camera to center on the given X, Y tile position. TODO: explain other parameters
+
+"waitForAllStationary",
+    //Waits for all actors to stop moving before executing the next command
+
+"waitForOtherPlayers",
+    //Wait for other players (vanilla MP)
+
+"warp _actor_ _x_ _y_",
+    //Warp the named NPC to a position to the given X, Y tile coordinate. This can be used to warp characters off-screen
+
+"weddingSprite _frame_",
+    //Sets the actor known as 'WeddingOutfits' to a particular frame
+
+//==========
+//==========
+// Comments
+//==========
+//==========    
+
+//Commands starting with "--" is ignored
+//Can insert comments/disable commands temporarily while debugging an event
+//Ends at the next slash delimiter (/) so it can't contain slashes
+//Comments cannot be added between the first three commands and after the music/viewport coordinates
+//Can add a comment after character setup.
+    //Example: "666/": "none/-1000 -1000/farmer 5 7 0/--you can add comments from here/skippable/viewport 5 7 10/--set viewport near door/pause 2000/end"
+
+//============
+//============
+// Directions
+//============ 
+//============ 
+
+"0", //Up
+
+"1", //Right
+
+"2", //Down
+
+"3", //Left
+
+//======================
+//======================
+// Commands I Won't Use
+//======================
+//======================
+
+"grandpaCandles",
+    //Do grandpa candles
+
+"grandpaEvaluation",
+    //Do grandpa evaluation
+
+"grandpaEvaluation2",
+    //Do grandpa evaluation (manually resummoned)
+
+"tutorialMenu",
+    //Show the tutorial menu if no other menu is open
+
+"taxvote",
+    //Trigger voting for or against a 3% shipping tax. (No effect on game)
+
+//============================
+//============================
+// Broken / Unusable Commands
+//============================
+//============================
+
+//Broken/Unusable Commands
+
+"grabObject _object ID_",
+    //Broken. Triggers a generic animation. The item ID is ignored and the item isn't added
+
+"end busIntro",
+    //Supposed to start the bus intro scene, presumably the one that was cut before release
+
+}
