@@ -1098,6 +1098,109 @@
         //"<conversationTopic>_<NPCifMoreThanOne>_reply_3_2": "NPC dialogue 2 for response #3",
         //"<conversationTopic>_<NPCifMoreThanOne>_reply_3_3": "NPC dialogue 3 for response #3",
     //title:Zayden NPC
+        //file:data/CP-Zayden/locations/Apartment.json
+            "CJB_ZaydensApartment": "1J: Zayden",
+            "fridge": "The fridge is stocked with food. The cheese is low...",
+        
+        //file:data/CP-Zayden/character.json
+            "DisplayName": "Zayden",
+        
+        //file:data/CP-Zayden/mail.json
+            //token:{{Zayden}}_Welcome
+                "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
+                "mail.zayden.WelcomeMail_message": "Hello there, this is Zayden.^^I'm mailing this before I come back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
+                "mail.zayden.WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
+            //token:{{Zayden}}_Greenhouse
+                "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
+                "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
+                "mail.zayden.GreenhouseMail_item": "%item object 433 5 %%",//5 Coffee Beans
+        
+        //file:data/CP-Zayden/dialogue/scheduleStrings.json
+            "scheduleDialogue.zayden.JojaMart_001": "...$6#$b#Oh, sorry. I'm focused on cleaning right now.#$e#...$4",
+        
+        //file:data/CP-Zayden/dialogue/dialogue.json
+            "dialogue.zayden.0hearts_1": "I normally stay away from direct sunlight.#$b#It's not that I sunburn easily, but too much sun isn't good for my skin.$2#$e#No, I don't care that the sun causes aging.#$b#*whispers* It's kinda a dumb reason to hate the sun...$3",
+            "dialogue.zayden.0hearts_2": "The heat isn't an issue for me. The problem is when the sun's directly on me for too long.#$e#What happens when I'm in the sun for too long?$9#$b#I get heat rashes. It's really uncomfortable.$4",
+            "dialogue.zayden.0hearts_3": "I'm curious about something...#$b#$y 'Are you gonna focus on raising animals, crops, or making artisan goods?_Raising animals_That'll be pretty profitable as long as you stay consistent. You'll do fine.$7_Raising crops_I hear that once you get sprinklers all over the farm that it gets way easier from there. You've got this._Artisan goods_Listen... If you end up making cheese, can you save some for me? I'll be sure to pay you for it.$2",
+            "dialogue.zayden.0hearts_4": "I know I'm not super expressive. I'm just not the type to really... care about putting on a performance?$2#$b#That's what it feels like to be really expressive. It's not really authentic for me.",
+            "dialogue.zayden.0hearts_5": "I smell like sunscreen? Well, yeah. I wear sunscreen.#$b#*whispers* Is it bad to have sensitive skin?$4",
+            "dialogue.zayden.0hearts_6": "$y 'You have a question?_Are you a vampire?_Well, yeah. It's not exactly a secret.$2_Show me your fangs._... No. That's weird to ask that.$4'",
+            "dialogue.zayden.0hearts_7": "$y 'You have a question?_Are you allergic to garlic?_No. It actually tastes really good in spaghetti._What do you think of mirrors?_They're okay I guess. They're not all too special.'",
+            
+            "dialogue.zayden.2hearts_1": "",
+            "dialogue.zayden.2hearts_2": "",
+            "dialogue.zayden.2hearts_3": "",
+            "dialogue.zayden.2hearts_4": "",
+            "dialogue.zayden.2hearts_5": "",
+            "dialogue.zayden.2hearts_6": "",
+            "dialogue.zayden.2hearts_7": "",
+            
+            "conversationTopic.zayden.Introduction": "Oh, you're @! Did you get the letter I sent you? I wrote it while I was still out of town.#$b#Gus and I are pretty close so he always lets me know about new things that happen.#$e#I hope you like it here.",
+            "conversationTopic.zayden.pamHouseUpgrade": "I heard that you helped Pam and Penny get a house. You're pretty selfless for that.#$b#Th-that's a good thing!$10",
+            "conversationTopic.zayden.pamHouseUpgradeAnonymous": "I wonder who helped Pam and Penny get a house.#$b#That couldn't have been cheap.$4",
+            "conversationTopic.zayden.joja_Begin": "It's about time the Community Center gets dealt with. Mayor Lewis clearly had no plans to keep it in usable condition.$2",
+            "conversationTopic.zayden.movieTheater": "Now we have something interesting to do in town.#$b#It'll give me more things to do at least.",
+            "conversationTopic.zayden.dumpsterDive": "...$4",
+            "conversationTopic.zayden.hitSlingshot": "Don't shoot me with your damn slingshot!$5#$e#Don't talk to me right now.$8",
+            "conversationTopic.zayden.cc_Minecart": "The minecarts are working again...#$b#Do you think Clint secretly worked on them?$9",
+            "conversationTopic.zayden.cc_Greenhouse": "You have a greenhouse now?#$b#Now that I think about it, I have some seeds that I can give you. You'll get it in the mail, so keep an eye out for it.",
+            "conversationTopic.zayden.cc_Bus": "It's good that the bus is fixed. Now I can see my doctor that's out of town.#$e#Why's my doctor out of town? She's a specialist since I have particular health needs that most doctors aren't experienced with.",
+            "conversationTopic.zayden.cc_Bridge": "The bridge got fixed?#$b#...#$b#What bridge?$4#$e#Oh, the bridge by the Adventurer's Guild? I never go that far into the mountains so I didn't notice.",
+            "conversationTopic.zayden.cc_Boulder": "Have you noticed the shiny stuff in the water? I think it's because of the boulder that vanished last night.#$b#There's no way it's a coincidence.",
+            "conversationTopic.zayden.cc_Complete": "I'm surprised the Community Center is fixed up.#$b#W-wait, YOU restored the Community Center?#$b#*whispers* Dear Yoba, I look like an idiot... $4#$e#Y-you did a good job with the Community Center.#$b#*whispers* Mayor Lewis should've paid you for the work, though.",
+            "conversationTopic.zayden.wonEggHunt": "Hey @, congrats on winning the egg hunt. It's pretty hard with Abigail out there. She's got a sharp eye.",
+            "conversationTopic.zayden.wonGrange": "You did really good with your grange display this year.#$b#To be honest, I love when anyone wins against Pierre.$1",
+            "conversationTopic.zayden.wonIceFishing": "Good job with the ice fishing!#$b#I'd love to try it, but I'm so bad at fishing.$4",
+            "conversationTopic.zayden.married_farmer": "Hey, @, congrats on getting married. I really hope you and your spouse have a good future.",
+            "conversationTopic.zayden.divorced_farmer": "... I heard that you got divorced. I've never done marriage before, but I hope it gets easier for you sooner rather than later.$4#$e#*whispers* I hope I said the right thing.$4",
+        
+        //file:data/CP-Zayden/dialogue/giftResponses.json
+            "gift.accept.zayden.bday_Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+            "gift.accept.zayden.bday_Liked": "Thanks for the birthday gift. It's really cool.",
+            "gift.accept.zayden.bday_Hated": "... Thanks for remembering my birthday.$4",
+            "gift.accept.zayden.bday_Disliked": "Oh, uh, thanks for remembering my birthday.",
+            "gift.accept.zayden.bday_Neutral": "Thanks for remembering my birthday.",
+            "gift.accept.zayden.bday": "Thanks for remembering my birthday.",
+
+            "gift.accept.zayden.Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+            "gift.accept.zayden.Liked": "Thanks for the birthday gift. It's really cool.",
+            "gift.accept.zayden.Hated": "... Thanks for remembering my birthday.$4",
+            "gift.accept.zayden.Disliked": "Oh, uh, thanks for remembering my birthday.",
+            "gift.accept.zayden.Neutral": "Thanks for remembering my birthday.",
+            
+            "gift.accept.zayden.Cheese": "Oh, this is for me? I won't let you leave empty-handed. I really appreciate it.#$action AddMoney 500",
+            
+            "gift.reject.zayden.hidden": "Um...#$b#No thanks.$4",
+        
+        //file:data/CP-Zayden/events.json
+            "event.Arrival_1": "Damn, that was a long trip to get back home.$2",
+            "event.Arrival_2": "Hm? Someone moved into the abandoned farm?",
+            "event.Arrival_3": "I just hope they don't cause too much trouble...$2",
+        
+        //file:data/CP-Zayden/festivals.json
+            //bullet:Egg Festival
+                "festival.zayden.eggFestival_1": "I kinda wish there were less people here.$9#$b#I don't like crowded places. I like the festival itself, though.",
+                "festival.zayden.eggFestival_2": "I stay in the shade so I don't irritate my skin.#$e#It sucks getting heat rashes...$4",
+                "festival.zayden.eggFestival_3": "Do you think people have tried cheating at egg hunts before?$9",
+            //bullet:Flower Dance
+                "festival.zayden.flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
+                "festival.zayden.flowerDance_2": "The flowers smell really nice this year.$1",
+            //bullet:Luau / Potluck
+                "festival.zayden.luauPotluck_1": "... I have a rash from the heat...$4",
+                "festival.zayden.luauPotluck_2": "Hopefully we get started soon... I might need to leave early if it takes much longer.$5",
+            //bullet:Dance of the Moonlight Jellies
+                "festival.zayden.moonlightJellies_1": "The jellyfish are pretty cool.#$e#It'd be nice if they came more often, though.$3",
+                "festival.zayden.moonlightJellies_2": "I bet it's nice to be a jellyfish. You can just go wherever the water takes you.",
+            //bullet:Stardew Valley Fair
+                "festival.zayden.stardewValleyFair_1": "The weather is very nice right now.$1#$e#I plan on doing the slingshot game. I have pretty good aim!$1",
+                "festival.zayden.stardewValleyFair_2": "The food is pretty good this year!$1#$e#I wish there was an ice cream truck so I could eat those ugly character popsicles.$2",
+            //bullet:Spirit's Eve
+                "festival.zayden.spiritsEve_1": "I do the maze with Raven every year. I get a kick out of their screams.$1#$b#Give Raven a little time and they'll get brave enough to keep going.$10",
+                "festival.zayden.spiritsEve_2": "The decorations are very well done this year!$1#$e#It'd be cool if we had an area where we could watch spooky movies, you know?$7",
+                "festival.zayden.spiritsEve_3": "I don't find it weird when people dress up as vampires for Spirit's Eve.#$b#I only have an issue when people dress up to make fun of vampires.$2",
+            //bullet:Festival of Ice
+                "festival.zayden.festivalOfIce_1": "It's so bright outside that I need to wear sunglasses.#$e#I wish the snow wasn't so reflective.$4",
+                "festival.zayden.festivalOfIce_2": "I love seeing how creative everyone gets during the festival.$1",
 
 
     //title:

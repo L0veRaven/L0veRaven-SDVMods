@@ -7,10 +7,88 @@
             "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
         {
-            "LogName": "outfits.json: Portrait Loads",
+            "LogName": "Raven - [Index] Portrait Loads",
             "Action": "Load",
-            "Target": "Portraits/index, Portraits/{{Raven}}, Portraits/{{Raven}}Neutral, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Summer, Portraits/{{Raven}}Fall, Portraits/{{Raven}}Winter, Portraits/{{Raven}}Beach, Portraits/{{Raven}}Spring, Portraits/{{Raven}}Sunflower, Portraits/{{Raven}}Daisy, Portraits/{{Raven}}Cactus, Portraits/{{Raven}}Weed, Portraits/{{Raven}}FlowerDance",
-            "FromFile": "assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/index",
+            "FromFile": "assets/Portraits/index.png"
+        },
+        {
+            "LogName": "Raven - [Index] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/index",
+            "FromFile": "assets/Portraits/index.png"
+        },
+        {
+            "LogName": "Raven - [Default] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}",
+            "FromFile": "assets/Portraits/{{Raven}}.png"
+        },
+        {
+            "LogName": "Raven - [Neutral] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Neutral",
+            "FromFile": "assets/Portraits/{{Raven}}Neutral.png"
+        },
+        {
+            "LogName": "Raven - [Spring] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Spring",
+            "FromFile": "assets/Portraits/{{Raven}}Spring.png"
+        },
+        {
+            "LogName": "Raven - [Summer] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Summer",
+            "FromFile": "assets/Portraits/{{Raven}}Summer.png"
+        },
+        {
+            "LogName": "Raven - [Fall] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Fall",
+            "FromFile": "assets/Portraits/{{Raven}}Fall.png"
+        },
+        {
+            "LogName": "Raven - [Winter] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Winter",
+            "FromFile": "assets/Portraits/{{Raven}}Winter.png"
+        },
+        {
+            "LogName": "Raven - [Beach] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Beach",
+            "FromFile": "assets/Portraits/{{Raven}}Beach.png"
+        },
+        {
+            "LogName": "Raven - [Sunflower] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Sunflower",
+            "FromFile": "assets/Portraits/{{Raven}}Sunflower.png"
+        },
+        {
+            "LogName": "Raven - [Daisy] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Daisy",
+            "FromFile": "assets/Portraits/{{Raven}}Daisy.png"
+        },
+        {
+            "LogName": "Raven - [Cactus] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Cactus",
+            "FromFile": "assets/Portraits/{{Raven}}Cactus.png"
+        },
+        {
+            "LogName": "Raven - [Weed] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}Weed",
+            "FromFile": "assets/Portraits/{{Raven}}Weed.png"
+        },
+        {
+            "LogName": "Raven - [FlowerDance] Portrait Loads",
+            "Action": "Load",
+            "Target": "Portraits/{{Raven}}FlowerDance",
+            "FromFile": "assets/Portraits/{{Raven}}FlowerDance.png"
         },
         {
             "LogName": "outfits.json: Appearance Data - Index",

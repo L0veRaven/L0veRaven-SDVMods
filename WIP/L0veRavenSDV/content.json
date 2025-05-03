@@ -224,74 +224,110 @@
                         {"Name": "RavenPostJobSaloon","Value": "{{6pm}} {{Random:{{RavenStandNearHome}},{{RavenRelaxBeach}},{{RavenStandBusStop}},{{RavenStandCC}}}}"},
                     //bullets:Work and Meds
                         {"Name": "RavenWorkDay","Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"},
-                        {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"}
+                        {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"},
+        //title:Zayden
+            //label:Animations
+                {"Name": "ZaydenSweep","Value": "l0veraven_zayden_sweep"},
+                {"Name": "ZaydenSleep","Value": "l0veraven_zayden_sleep"},
+            //label:Animation Strings
+                {"Name": "ZaydenSweepSchD","Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""},
+            //label:Schedule
+                {"Name": "JojaSweep1","Value": "JojaMart 3 7 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep2","Value": "JojaMart 1 21 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep3","Value": "JojaMart 5 15 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep4","Value": "JojaMart 10 12 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep5","Value": "JojaMart 13 15 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep6","Value": "JojaMart 16 25 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep7","Value": "JojaMart 18 16 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep8","Value": "JojaMart 21 15 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep9","Value": "JojaMart 22 12 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
+                {"Name": "JojaSweep10","Value": "JojaMart 26 6 2 {{ZaydenSweep}} {{ZaydenSweepSchD}}"},
     ],
 
     "Changes": [
-        {
-            "LogName": "Raven's Blank Loads",
-            "Action": "Load",
-            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
-            "FromFile": "data/shared/blank.json"
-        },
-        {
-            "LogName": "Miscellaneous Loads",
-            "Action": "Include",
-            "FromFile": "data/shared/artifact_item.json, data/shared/hidden_item.json"
-        },
-        {
-            "LogName": "Tent Inside (Vanilla)",
-            "Action": "Load",
-            "Target": "Maps/Custom_{{Raven}}TentInside",
-            "FromFile": "data/maps/{{Raven}}TentInside.tmx"
-        },
-        {
-            "LogName": "Tent Inside (SVE)",
-            "Action": "Load",
-            "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
-            "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
-        },
-        {
-            "LogName": "Spouse Patio",
-            "Action": "Load",
-            "Target": "Maps/{{Raven}}SpousePatio",
-            "FromFile": "data/maps/{{Raven}}SpousePatio.tmx"
-        },
-        {
-            "LogName": "Spouse Room",
-            "Action": "Load",
-            "Target": "Maps/{{Raven}}SpouseRoom",
-            "FromFile": "data//maps/{{Raven}}SpouseRoom.tmx"
-        },
-        {
-            "LogName": "Raven - Event Loads",
-            "Action": "Include",
-            "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json"
-        },
-        {
-            "LogName": "Raven - Location Loads",
-            "Action": "Include",
-            "FromFile": "data/CP-Raven/locations/Tent.json, data/CP-Raven/locations/Apartment.json, data/CP-Raven/locations/SpouseRoom.json, data/CP-Raven/locations/SpousePatio.json"
-        },
-        {
-            "LogName": "Raven - NPC Data",
-            "Action": "Include",
-            "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
-        },
-        {
-            "LogName": "Raven - Dialogue",
-            "Action": "Include",
-            "FromFile": "data/CP-Raven/dialogue/dialogue.json, data/CP-Raven/dialogue/marriageDialogue.json, data/CP-Raven/dialogue/giftResponses.json, data/CP-Raven/dialogue/moviesReactions.json, data/CP-Raven/StringsFromCSFiles.json, data/CP-Raven/dialogue/scheduleDialogue.json"
-        },
-        {
-            "LogName": "Raven - Festivals",
-            "Action": "Include",
-            "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
-        },
-        {
-            "LogName": "Modder Stuff - DELETE ON RELEASE",
-            "Action": "Include",
-            "FromFile": "data/shared/eventExcludesDELETE.json"
-        }
+        //General
+            {
+                "LogName": "Modder Stuff - DELETE ON RELEASE",
+                "Action": "Include",
+                "FromFile": "data/shared/eventExcludesDELETE.json"
+            },
+            {
+                "LogName": "Miscellaneous Loads",
+                "Action": "Include",
+                "FromFile": "data/shared/artifact_item.json, data/shared/hidden_item.json"
+            },
+            {
+                "LogName": "Tent Inside (Vanilla)",
+                "Action": "Load",
+                "Target": "Maps/Custom_{{Raven}}TentInside",
+                "FromFile": "data/maps/{{Raven}}TentInside.tmx"
+            },
+            {
+                "LogName": "Tent Inside (SVE)",
+                "Action": "Load",
+                "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
+                "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx"
+            },
+            {
+                "LogName": "Spouse Patio",
+                "Action": "Load",
+                "Target": "Maps/{{Raven}}SpousePatio",
+                "FromFile": "data/maps/{{Raven}}SpousePatio.tmx"
+            },
+            {
+                "LogName": "Spouse Room",
+                "Action": "Load",
+                "Target": "Maps/{{Raven}}SpouseRoom",
+                "FromFile": "data//maps/{{Raven}}SpouseRoom.tmx"
+            },
+        //Raven
+            {
+                "LogName": "Raven - Blank Loads",
+                "Action": "Load",
+                "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}, Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
+                "FromFile": "data/shared/blank.json"
+            },
+            {
+                "LogName": "Raven - Event Includes",
+                "Action": "Include",
+                "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json"
+            },
+            {
+                "LogName": "Raven - Location Includes",
+                "Action": "Include",
+                "FromFile": "data/CP-Raven/locations/Tent.json, data/CP-Raven/locations/Apartment.json, data/CP-Raven/locations/SpouseRoom.json, data/CP-Raven/locations/SpousePatio.json"
+            },
+            {
+                "LogName": "Raven - NPC Data Includes",
+                "Action": "Include",
+                "FromFile": "data/CP-Raven/animationFrames.json, data/CP-Raven/concessionTastes.json, data/CP-Raven/NPCGiftTastes.json, data/CP-Raven/schedule.json, data/CP-Raven/mail.json, data/CP-Raven/character.json, data/CP-Raven/outfits.json, data/CP-Raven/home.json, data/CP-Raven/winterStarGifts.json, data/CP-Raven/triggerActions.json"
+            },
+            {
+                "LogName": "Raven - Dialogue Includes",
+                "Action": "Include",
+                "FromFile": "data/CP-Raven/dialogue/dialogue.json, data/CP-Raven/dialogue/marriageDialogue.json, data/CP-Raven/dialogue/giftResponses.json, data/CP-Raven/dialogue/moviesReactions.json, data/CP-Raven/StringsFromCSFiles.json, data/CP-Raven/dialogue/scheduleDialogue.json"
+            },
+            {
+                "LogName": "Raven - Festivals Includes",
+                "Action": "Include",
+                "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
+            },
+        //Zayden
+            {
+                "LogName": "Zayden - Blank Loads",
+                "Action": "Load",
+                "Target": "Characters/Dialogue/{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
+                "FromFile": "data/shared/blank.json",
+            },
+            {
+                "LogName": "Zayden - Map Patch Includes",
+                "Action": "Include",
+                "FromFile": "data/CP-Zayden/locations/Apartment.json",
+            },
+            {
+                "LogName": "Zayden - [Main] NPC Data Includes",
+                "Action": "Include",
+                "FromFile": "data/CP-Zayden/character.json, data/CP-Zayden/appearance.json, data/CP-Zayden/animationFrames.json, data/CP-Zayden/schedule.json, data/CP-Zayden/events.json, data/CP-Zayden/festivals.json, data/CP-Zayden/giftTastes.json, data/CP-Zayden/mail.json, data/CP-Zayden/dialogue/scheduleStrings.json, data/CP-Zayden/dialogue/dialogue.json, data/CP-Zayden/dialogue/giftResponses.json",
+            },
     ]
 }
