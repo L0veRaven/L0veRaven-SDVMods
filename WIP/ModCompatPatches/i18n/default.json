@@ -1,0 +1,125 @@
+{
+    //Solstice Winter Star
+        "festival.dialogue.raven.solsticeWinterStar_1": "I love seeing everyone smiling and having a good time!#$e#Maybe one of these days I can have a family of my own to spend festivals with.",
+        "festival.dialogue.raven.solsticeWinterStar_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+        "festival.dialogue.raven.solsticeWinterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+        "festival.dialogue.raven.solsticeWinterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully you get something you like!",
+        "festival.dialogue.raven.solsticeWinterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+
+        "festival.dialogue.raven.spouse.solsticeWinterStar_1": "I love seeing everyone smiling and having a good time!#$e#I especially love to spend time with you, honey.$4",
+        "festival.dialogue.raven.spouse.solsticeWinterStar_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+        "festival.dialogue.raven.spouse.solsticeWinterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+        "festival.dialogue.raven.spouse.solsticeWinterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully I get you as my secret gift giver.$4",
+        "festival.dialogue.raven.spouse.solsticeWinterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+
+    //Fireworks Festival
+        "festival.dialogue.raven.fireworksFestival_1": "I'm just chilling out here until the fireworks start.#$e#Wanna chill with me?$1",
+        "festival.dialogue.raven.fireworksFestival_2": "I wish we could do fireworks more often. Fireworks should be for all times of the year!$1",
+
+    //Downtown Zuzu
+        //Conversation Topics
+        "conversationTopic.raven.communityCenter.bus.DTZ": "Shoot, I didn't even know the bus was getting repaired! Now I can travel to Downtown Zuzu.#$e#Depending on what it's like in the city, I might end up going broke from going out there a bunch!",
+
+    //Pelican Town Potluck
+        //Dialogue
+            "dialogue.raven.potluck.dayBefore_1": "I wonder what everyone's bringing the potluck tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+            "dialogue.raven.potluck.dayBefore_2": "Hopefully it's not too hot this year at the potluck.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+            "dialogue.raven.potluck.dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the potluck.$11",
+
+            "dialogue.raven.potluck.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the potluck before I get there. When I see that food... it's on SIGHT.$1",
+            "dialogue.raven.potluck.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#I wonder if the governor is gonna like the soup at the potluck this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+            "dialogue.raven.potluck.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the potluck is happening today.$1#$e#It's kinda weird to have the governor come by for the potluck every year.$17#$b#I dunno... It just seems odd.$17",
+
+            "dialogue.raven.potluck.dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the potluck.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+            "dialogue.raven.potluck.dayAfter_2": "The food was absolutely amazing at the potluck yesterday!$1#$e#I wish there was leftovers.$2",
+            "dialogue.raven.potluck.dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
+
+    //Nature's Bounty
+        //Gifts
+            "nb.gift.raven.bud": "Wait, you're giving this to me?#$b#Well shit, hand it over! I've been dying to get some and couldn't find any!#$b#Oh- sorry, that was rude of me. I appreciate it, thanks @.",
+            "nb.gift.raven.hempFiber": "I don't know what to do with this, but I'll try to figure out something.$11",
+            "nb.gift.raven.roastedHempSeeds": "This ain't bad! Keep up the good work.",
+            "nb.gift.raven.preroll": "Ahhh, that's what I needed.#$b#If you see me moving slow or talking slow, no you didn't.",
+            "nb.gift.raven.hempRollingPaper": "This is great! I can practice rolling my own blunts.",
+            "nb.gift.raven.specialBrownie": "Yo, you're not gonna be missing that brownie, right?#$b#Why?#$b#I already ate it, that's why.",
+            "nb.gift.raven.infusedOil": "Ooo, I think Linus can help me use this to make us some good food!#$b#You're the best @.",
+        //{{NBDialogue}}
+            "dialogue.raven.NB.generic_1": "I sometimes eat edibles. Gus sells them for a really good price at the Stardrop Saloon.#$e#The employee discount also works on special brownies, can you believe it?",
+            "dialogue.raven.NB.generic_2": "It'd be awesome if Pelican Town had a dispensary. But no, Mayor Lewis says it's not appropriate.#$e#He's just a loser.",
+            "dialogue.raven.NB.generic_3": "I'm down to share some weed with you if you're ever in the mood when I have some.#$b#It's fun when you get high with others, you know?",
+            "dialogue.raven.NB.generic_4": "I need to start stocking up on prerolls. I wanna have a day where I get absolutely STONED.#$e#No, I'd never smoke on a workday! I'm at least somewhat responsible.",
+            "dialogue.raven.NB.generic_5": "I've been learning how to make infused oil so Linus and I can try it with some of the food we make.#$e#Linus is trying to help me learn to cook. He's very patient with me, thankfully.",
+            "dialogue.raven.NB.generic_6": "I'm down to share some weed with you if you're ever in the mood when I have some.#$b#It's fun when you get high with others, you know?",
+            "dialogue.raven.NB.generic_7": "Imagine this: A community garden, but it's just hemp and marijuana.#$e#Communist weed gardens are gonna be what saves society!#$b#Just kidding.",
+            "dialogue.raven.NB.generic_8": "Shhh...#$b#The edible is hitting me right now.#$e#Everything feels funky so I'm not gonna have an comprehendable conversations with anyone.",
+            "dialogue.raven.NB.generic_9": "...#$b#Oh, sorry, I'm stuper stoned right now.#$e#Everything feels fuzzy but in a really cozy way.",
+            "dialogue.raven.NB.generic_10": "Sometimes, my dreams get really weird when I'm stoned.#$b#This one time, I was getting chased by a gigantic snowman! Then I had to jump into lava to escape.#$b#But the lava felt lukewarm. No sizzling. Strange, isn't it?",
+            "dialogue.raven.NB.generic_11": "Sometimes, my dreams get really weird when I'm stoned.#$b#This one time, I was in a Catholic boarding school, but it was super sketchy and I had to find different codes to find their big secret!#$b#Eventually, I got access to one of the rooms, but then a dinosaur steps on the building.#$e#My weed's gotta be strong if I'm getting weird dreams like that.",
+            "dialogue.raven.NB.generic_12": "Sometimes, my dreams get really weird when I'm stoned.#$b#This one time, I was back in elementary school doing an earthquake drill.#$b#And then you could see a giant ostrich walking past the windows. The footsteps were so loud that it caused an earthquake!#$e#You would definitely have a weird time in my dreams. They don't make much sense at all.",
+            "dialogue.raven.NB.generic_13": "Sometimes, my dreams get really weird when I'm stoned.#$b#This one time, I somehow was in the world of one of my favorite childhood TV shows.#$b#I was able to shoot some magic balls at the villains and they instantly got knocked out.#$b#It felt awesome to have a self-insert episode in my brain!",
+            "dialogue.raven.NB.generic_14": "Woah, your voice sounds, like, really loud right now.#$b#There we go, that's a good volume.#$e#Yeah, I'm stoned again. What about it?",
+            "dialogue.raven.NB.generic_15": "Catnip is pretty interesting for me. I've tried it before but it doesn't work on me I guess#$e#But weed definitely works on me!",
+            "dialogue.raven.NB.generic_16": "...#$b#...#$e#Hey, what's up?",
+            "dialogue.raven.NB.generic_17": "My ears sound so fuzzy. It's weird.",
+            "dialogue.raven.NB.generic_18": "Why can't humans just evolve to do photosynthesis?#$b#It would make things so much easier.#$e#Maybe I did smoke a blunt earlier. What are you, a cop?",
+            "dialogue.raven.NB.generic_19": "My body feels like what a static tv screen looks like.#$e@It's wild dude.",
+            "dialogue.raven.NB.generic_20": "I'm surprised Harvey doesn't sell CBD products. I feel like that'd help boost his income.",
+            "dialogue.raven.NB.generic_21": "$query PLAYER_HAS_SEEN_EVENT Current 27407100 # Gus is making his special brownies again. I can't wait to eat some!$1 |Gus is gonna be making his special brownies tomorrow. I can't wait to eat some!$1##$action AddMail Current {{Raven}}_mail.raven.stonerLetter tomorrow#$b#You should come try some too. Gus could always use additional taste testers!",
+            "dialogue.raven.NB.generic_22": "$query PLAYER_HAS_SEEN_EVENT Current 27407101 # ______ |______",
+        //Schedule Dialogue
+            "nb.scheduleDialogue.raven.forest.101_1": "%Raven is speaking slower than usual.#$b#I'm just having a little smoke break right now.#$b#I sure am having one hell of a blast!",
+            "nb.scheduleDialogue.raven.forest.101_2": "%Raven is speaking slower than usual.#$b#What's up @? Do you want some? Here you go.[(O)Raspb3rryfields.NaturesBounty_Preroll]",
+        //Mail
+            "mail.raven.stonerLetter": "Hi @!^^Gus is gonna be making his special brownies today. Come stop by the Saloon when you can and try them out! Trust me, it's good stuff.^^~ Raven[#]A Stoner's Invite",
+            "mail.raven.stonerQuest": "Hi @,^^We should do some weed together at some point. Trust me, it'll fun as hell!^^~ Raven[#]A Stoner's Request",
+            "mail.raven.smokeSession": "Hi @,^^Thanks for the weed. You know, you should come see me at my tent so we can smoke together.^^~ Raven[#]Smoke Session",
+        //Quests
+            //A Stoner's Request
+                "quest.aStonersRequest.NB.headline": "A Stoner's Request",
+                "quest.aStonersRequest.NB.summary": "Raven sent a letter about wanting some weed. Did they write it while they were high already?",
+                "quest.aStonersRequest.NB.hint": "Bring Raven a preroll.",
+                "quest.aStonersRequest.NB.giftResponse": "That's gonna be perfect!$3#$b#Hey, meet me at my tent and we can share the preroll. I'll be waiting for you.$1#$action AddMail Current L0veRaven.mail.raven.smokeSession tomorrow",
+            //Smoke Session
+                "quest.smokeSession.NB.headline": "Smoke Session",
+                "quest.smokeSession.NB.summary": "Raven offered you to join them for a smoke session. Why not join in?",
+                "quest.smokeSession.NB.hint": "Visit Raven's tent.",
+        //Events
+            //Raven_gusEdibles
+                "nb.event.gusEdibles.speak_1": "Welcome!",//Gus
+                "nb.event.gusEdibles.speak_2": "Hey there, @.$1#$b#Gus just pulled some special brownies from the oven.",//Raven
+                "nb.event.gusEdibles.speak_3": "You're more than welcome to have some, @. There's plenty to go around!",//Gus
+                "nb.event.gusEdibles.speak_4": "Dig in!$1",//Gus
+                "nb.event.gusEdibles.speak_5": "I wonder how long it's gonna take for it to kick in.",//Raven
+                "nb.event.gusEdibles.speak_6": "I think it's already kicking in for @.",//Gus
+                "nb.event.gusEdibles.speak_7": "Dear Yoba... Did we kill @?!$9",//Raven
+                "nb.event.gusEdibles.speak_8": "Maybe the batch was a little too strong...$2#$b#@ should be fine. Just wait for a couple seconds.",//Gus
+                "nb.event.gusEdibles.speak_9": "You're alive!$3#$b#You had me scared there for a second.$5",//Raven
+                "nb.event.gusEdibles.speak_10": "Welcome back, @! How are you feeling?",//Gus
+                "nb.event.gusEdibles.end_1": "Hehe... I'm feeling good right now. What about you?$6",//Raven
+                "nb.event.gusEdibles.end_2": "I hope you liked the special brownie. My special ingredient is infused oil.#$b#And... sorry if the brownie was too strong for you.$2",//Gus
+            //Raven_smokeSession
+                "nb.event.smokeSession.textAboveHead": "You came!",
+                "nb.event.smokeSession.speak_1": "It's great seeing you!$1#$b#So, are you gonna have some weed?",
+                "nb.event.smokeSession.speak_2": "That's amazing!$1#$b#Oh, but I do have to ask...$17",
+                "nb.event.smokeSession.qQ": "Do you wanna have a preroll or a brownie?",
+                "nb.event.smokeSession.qQ_1": "Preroll",
+                "nb.event.smokeSession.qQ_1_1": "Alright, here you go!$1",
+                "nb.event.smokeSession.qQ_2": "Special Brownie",
+                "nb.event.smokeSession.qQ_2_1": "Alright, here you go!$1",
+   
+    //Ridgeside Village
+        //Ridgeside Gathering
+            "festival.dialogue.raven.ridgesideGathering_1": "I can't wait to taste what Gus and Yoshi made for the gathering today!$1",
+            "festival.dialogue.raven.ridgesideGathering_2": "It's nice to spend time with neighboring communities.#$b#It's better than it being just Pelican Town!$1",
+
+            "festival.dialogue.raven.spouse.ridgesideGathering_1": "I can't wait to taste what Gus and Yoshi made for the gathering today!$1",
+            "festival.dialogue.raven.spouse.ridgesideGathering_2": "It's nice to spend time with neighboring communities.#$b#It's better than it being just Pelican Town!$1",
+        //Ember of Resolutions
+            "festival.dialogue.raven.emberOfResolutions_1": "My resolution is to take my medications on time every single day.$1#$e#Don't ask me how realistic that is. My memory is notoriously unreliable.$11",
+            "festival.dialogue.raven.emberOfResolutions_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1",
+            "festival.dialogue.raven.emberOfResolutions_3": "My resolution is to read more books next year.$1",
+
+            "festival.dialogue.raven.spouse.emberOfResolutions_1": "My resolution is to take my medications on time every single day.$1#$e#You already know how bad my memory is, @. We'll see how long it lasts honey.$11",
+            "festival.dialogue.raven.spouse.emberOfResolutions_2": "I can't think of a resolution this year, so I guess I'll just have to stay on my toes!$1#$b#Unless you have any suggestions?",
+            "festival.dialogue.raven.spouse.emberOfResolutions_3": "My resolution is to read more books next year.$1",
+}

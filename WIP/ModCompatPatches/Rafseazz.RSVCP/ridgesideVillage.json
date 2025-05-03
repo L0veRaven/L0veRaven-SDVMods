@@ -27,8 +27,8 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall20",
             "Entries":  {
-                "{{Raven}}": "{{i18n:ridgesideGathering_{{Random:{{Range:1,2}}}}}}",
-                "{{Raven}}_spouse": "{{i18n:ridgesideGathering_spouse_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.ridgesideGathering_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.spouse.ridgesideGathering_{{Random:{{Range:1,2}}}}}}",
             },
             "When": {
                 "HasMod |contains={{RSV}}": "true",
@@ -61,8 +61,8 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter28",
             "Entries": {
-                "{{Raven}}": "{{i18n:emberOfResolutions_{{Random:{{Range:1,3}}}}}}",
-                "{{Raven}}_spouse": "{{i18n:emberOfResolutions_spouse_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}": "{{i18n:festival.dialogue.raven.emberOfResolutions_{{Random:{{Range:1,3}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.spouse.emberOfResolutions_{{Random:{{Range:1,3}}}}}}",
             },
             "When": {
                 "HasMod |contains={{RSV}}": "true",

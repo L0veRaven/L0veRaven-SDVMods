@@ -41,25 +41,13 @@
             }
         },
         {
-            "LogName": "naturesBounty.json: Love Letters",
-            "Action": "EditData",
-            "Target": "Data/mail",
-            "Entries": {
-                "{{Raven}}_LoveLetter_8": "{{i18n:NB.mail.raven.loveLetter_8}}"
-            },
-            "When": {
-                "Relationship:{{Raven}}": "Dating,Engaged",
-                "HasMod |contains={{NB}}": "true"
-            }
-        },
-        {
             "LogName": "naturesBounty.json: Quest Letters",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{Raven}}_StonerLetter": "{{i18n:StonerLetter}}",//Do edibles with farmer in saloon event
-                "{{Raven}}_StonerQuest": "{{i18n:StonerQuest}}",//Smoke session event
-                "{{Raven}}_SmokeSession": "{{i18n:StonerQuest}}"//Smoke session -> Tent
+                "{{Raven}}_StonerLetter": "{{i18n:mail.raven.stonerLetter}}",//Do edibles with farmer in saloon event
+                "{{Raven}}_StonerQuest": "{{i18n:mail.raven.stonerQuest}}",//Smoke session event
+                "{{Raven}}_SmokeSession": "{{i18n:mail.raven.smokeSession}}"//Smoke session -> Tent
             },
             "When": {
                 "HasMod |contains={{NB}}": "true"
