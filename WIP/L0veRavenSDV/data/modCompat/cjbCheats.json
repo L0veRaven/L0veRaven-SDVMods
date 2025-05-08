@@ -1,0 +1,75 @@
+{
+    "Changes": [
+        {//Adds warp "Raven's Tent" [Vanilla] [When: "{{Raven}}_Apartment" = False]
+            "LogName": "CJB Cheats (Warps) - Raven's Tent",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange, OnTimeChange",
+            "Entries": {
+                "{{ModId}}_RavensTent": {
+                    "Id": "{{ModId}}_RavensTent",
+                    "DisplayName": "{{i18n:locationName.ravenTent}}",
+                    "Location": "Forest",
+                    "Tile": "52, 76",
+                    "SectionId": "forest"
+                }
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+                "HasMod |contains={{SVE}}": "false",
+                "HasFlag: |contains={{Raven}}_Apartment": false
+            }
+        },
+        {//Adds section "Pelican Valley Loft"
+            "LogName": "CJB Cheats [Section] Pelican Valley Loft",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "Entries": {
+                "{{NPCA}}_PelicanValleyLoft": {
+                    "Id": "{{NPCA}}_PelicanValleyLoft",
+                    "DisplayName": "{{i18n:warp-sections.pelican-valley-loft}}"
+                }
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true"
+            }
+        },
+        {//Adds warp "Raven's Apartment" ["{{Raven}}_Apartment" = True]
+            "LogName": "CJB Cheats [Warp] Raven's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange, OnTimeChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1A": {
+                    "Id": "{{NPCA}}_Apartment1A",
+                    "DisplayName": "{{i18n:CJB.ravenApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "10, 23",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft"
+                }
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true",
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
+        },
+        {//Adds warp "Zayden's Apartment"
+            "LogName": "CJB Cheats [Warp] Zayden's Apartment",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Update": "OnLocationChange, OnTimeChange",
+            "Entries": {
+                "{{NPCA}}_Apartment1J": {
+                    "Id": "{{NPCA}}_Apartment1J",
+                    "DisplayName": "{{i18n:CJB_ZaydensApartment}}",
+                    "Location": "FRL_NPCApt_Floor1",
+                    "Tile": "54, 27",
+                    "SectionId": "{{NPCA}}_PelicanValleyLoft"
+                }
+            },
+            "When": {
+                "HasMod |contains={{CJBC}}": "true"
+            }
+        }
+    ]
+}

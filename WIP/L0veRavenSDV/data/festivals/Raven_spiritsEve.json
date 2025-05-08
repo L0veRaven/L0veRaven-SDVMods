@@ -24,10 +24,10 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
             "Entries": {
-                "{{Raven}}": "{{i18n:festival.dialogue.raven.spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:festival.dialogue.raven.spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                "{{Raven}}_y2": "{{i18n:festival.dialogue.raven.spiritsEve_{{Random:{{Range:1,4}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:festival.dialogue.raven.spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Raven}}": "{{i18n:raven.festival.dialogue.spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                "{{Raven}}_y2": "{{i18n:raven.festival.dialogue.spiritsEve_{{Random:{{Range:1,4}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.spiritsEve_{{Random:{{Range:1,4}}}}}}",
             },
         }
     ]

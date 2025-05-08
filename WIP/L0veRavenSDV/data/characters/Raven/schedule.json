@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "LogName": "schedule.json: Medication Pick-ups (18th of Each Month)",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                "spring_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                "summer_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                "fall_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                "winter_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"
+            }
+        },
+        {
+            "LogName": "schedule.json: Festival Days",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                //Egg Festival: 9am - 2pm
+                "spring_13": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBushTown}}/{{210pm}} {{RavenRelaxBeach}}/{{RavenGoodNight}}",
+                //Flower Dance: 9am - 2pm
+                "spring_24": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandRiverForest}}/{{210pm}} {{Raven_Animation_StandMountain}}/{{RavenGoodNight}}",
+                //Luau: 9am - 2pm
+                "summer_11": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBeach}}/{{210pm}} {{Raven_Animation_StandCC}}/{{RavenGoodNight}}",
+                //Moonlight Jellies: 10pm - 12am
+                "summer_28": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandStove}}/{{210pm}} {{Raven_Animation_StandBookcase}}/{{8pm}} {{RavenRelaxBeach}}/{{1210am}} {{RavenInBed}}",
+                //Stardew Fair: 9am - 3pm
+                "fall_16": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandCC}}/{{310pm}} {{Raven_Animation_StandMountain}}/{{4pm}} {{Raven_Animation_StandTableSaloon}}/{{RavenGoodNight}}",
+                //Spirit's Eve: 10pm - 11:50pm
+                "fall_27": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandStove}}/{{210pm}} {{Raven_Animation_StandMountain}}/{{8pm}} {{RavenRelaxBushTown}}/{{1210am}} {{RavenInBed}}",
+                //Ice Festival: 9am - 2pm
+                "winter_8": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandRiverForest}}/{{210pm}} {{RavenRelaxBushTown}}/{{5pm}} {{Raven_Animation_StandCC}}/{{RavenGoodNight}}",
+                //Winter Star: 9am - 2pm
+                "winter_25": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBushTown}}/{{210pm}} {{Raven_Animation_StandRiverForest}}/{{RavenGoodNight}}"
+            }
+        },
+        {
+            "LogName": "schedule.json: General",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                "Mon": "{{RavenWorkDay}}",
+                "Tue": "{{RavenFreeDayShop}}",
+                "Wed": "{{RavenFreeDay}}",
+                "Thu": "{{RavenFreeDay}}",
+                "Fri": "{{RavenWorkDay}}",
+                "Sat": "{{RavenWorkDay}}",
+                "Sun": "{{RavenWorkDay}}",
+                
+                "spring": "{{RavenGoodMorning}}/{{RavenInBed}}"
+            }
+        },
+        {
+            "LogName": "schedule.json: Marriage",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Raven}}",
+            "Entries": {
+                //Medication Pick-Up
+                "marriage_{{season}}_18": "{{RavenMedsDay}}",
+
+                //Marriage
+                "marriage_Sat": "{{RavenJobTasksSaloon_married}}/{{6pm}} bed",
+                "marriage_Sun": "{{RavenJobTasksSaloon_married}}/{{6pm}} bed"
+            }
+        }
+    ]
+}

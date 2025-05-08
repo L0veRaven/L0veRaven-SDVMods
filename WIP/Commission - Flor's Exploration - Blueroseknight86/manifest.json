@@ -1,0 +1,17 @@
+{
+    "Name": "Flor's Exploration (18+)",
+    "Author": "L0veRaven",
+    "Description": "Adds more events with themes of Flor exploring her sexuality with the player.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.FlorsExploration",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Rafseazz.RSVCP",
+            "IsRequired": "true"
+        }
+    ]
+}

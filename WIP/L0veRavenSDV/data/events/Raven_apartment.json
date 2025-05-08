@@ -30,7 +30,7 @@ speak {{Raven}} \"{{i18n:event.apartment_10}}\"/pause 300/
 emote farmer {{emoteHappy}} true/emote Raven {{emoteHappy}}/pause 500/
 --End with dialogue/
 end dialogue {{Raven}} \"{{i18n:event.apartment_end}}\"",
-            },
-        },
+            }
+        }
     ]
 }

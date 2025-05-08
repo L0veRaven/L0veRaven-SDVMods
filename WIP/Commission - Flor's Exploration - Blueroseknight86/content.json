@@ -1,0 +1,91 @@
+{
+    "Format": "2.6.1",
+
+    "ConfigSchema": {
+        "modEnable": {
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowValues": "true, false",
+            "Description": null
+        }
+    },
+
+    "DynamicTokens": [
+        //Basic Information
+            //label:Emotes
+                //## TODO: Delete on release
+                {"Name": "emoteEmptyCan","Value": "4"},
+                {"Name": "emoteQuestion","Value": "8"},
+                {"Name": "emoteAngry","Value": "12"},
+                {"Name": "emoteExclaim","Value": "16"},
+                {"Name": "emoteHeart","Value": "20"},
+                {"Name": "emoteSleep","Value": "24"},
+                {"Name": "emoteSweat","Value": "28"},
+                {"Name": "emoteHappy","Value": "32"},
+                {"Name": "emoteX","Value": "36"},
+                {"Name": "emotePause","Value": "40"},
+                {"Name": "emoteVideoGame","Value": "52"},
+                {"Name": "emoteMusic","Value": "56"},
+                {"Name": "emoteBlush","Value": "60"},
+            //label:Event Commands
+                {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
+            //label:Time
+                //## TODO: Delete on release
+                {"Name": "6am","Value": "600"},{"Name": "610am","Value": "610"},{"Name": "620am","Value": "620"},{"Name": "630am","Value": "630"},{"Name": "640am","Value": "640"},{"Name": "650am","Value": "650"},{"Name": "7am","Value": "700"},{"Name": "710am","Value": "710"},{"Name": "720am","Value": "720"},{"Name": "730am","Value": "730"},{"Name": "740am","Value": "740"},{"Name": "750am","Value": "750"},{"Name": "8am","Value": "800"},{"Name": "810am","Value": "810"},{"Name": "820am","Value": "820"},{"Name": "830am","Value": "830"},{"Name": "840am","Value": "840"},{"Name": "850am","Value": "850"},{"Name": "9am","Value": "900"},{"Name": "910am","Value": "910"},{"Name": "920am","Value": "920"},{"Name": "930am","Value": "930"},{"Name": "940am","Value": "940"},{"Name": "950am","Value": "950"},{"Name": "10am","Value": "1000"},{"Name": "1010am","Value": "1010"},{"Name": "1020am","Value": "1020"},{"Name": "1030am","Value": "1030"},{"Name": "1040am","Value": "1040"},{"Name": "1050am","Value": "1050"},{"Name": "11am","Value": "1100"},{"Name": "1110am","Value": "1110"},{"Name": "1120am","Value": "1120"},{"Name": "1130am","Value": "1130"},{"Name": "1140am","Value": "1140"},{"Name": "1150am","Value": "1150"},{"Name": "12pm","Value": "1200"},{"Name": "1210pm","Value": "1210"},{"Name": "1220pm","Value": "1220"},{"Name": "1230pm","Value": "1230"},{"Name": "1240pm","Value": "1240"},{"Name": "1250pm","Value": "1250"},{"Name": "1pm","Value": "1300"},{"Name": "110pm","Value": "1310"},{"Name": "120pm","Value": "1320"},{"Name": "130pm","Value": "1330"},{"Name": "140pm","Value": "1340"},{"Name": "150pm","Value": "1350"},{"Name": "2pm","Value": "1400"},{"Name": "210pm","Value": "1410"},{"Name": "220pm","Value": "1420"},{"Name": "230pm","Value": "1430"},{"Name": "240pm","Value": "1440"},{"Name": "250pm","Value": "1450"},{"Name": "3pm","Value": "1500"},{"Name": "310pm","Value": "1510"},{"Name": "320pm","Value": "1520"},{"Name": "330pm","Value": "1530"},{"Name": "340pm","Value": "1540"},{"Name": "350pm","Value": "1550"},{"Name": "4pm","Value": "1600"},{"Name": "410pm","Value": "1610"},{"Name": "420pm","Value": "1620"},{"Name": "430pm","Value": "1630"},{"Name": "440pm","Value": "1640"},{"Name": "450pm","Value": "1650"},{"Name": "5pm","Value": "1700"},{"Name": "510pm","Value": "1710"},{"Name": "520pm","Value": "1720"},{"Name": "530pm","Value": "1730"},{"Name": "540pm","Value": "1740"},{"Name": "550pm","Value": "1750"},{"Name": "6pm","Value": "1800"},{"Name": "610pm","Value": "1810"},{"Name": "620pm","Value": "1820"},{"Name": "630pm","Value": "1830"},{"Name": "640pm","Value": "1840"},{"Name": "650pm","Value": "1850"},{"Name": "7pm","Value": "1900"},{"Name": "710pm","Value": "1910"},{"Name": "720pm","Value": "1920"},{"Name": "730pm","Value": "1930"},{"Name": "740pm","Value": "1940"},{"Name": "750pm","Value": "1950"},{"Name": "8pm","Value": "2000"},{"Name": "810pm","Value": "2010"},{"Name": "820pm","Value": "2020"},{"Name": "830pm","Value": "2030"},{"Name": "840pm","Value": "2040"},{"Name": "850pm","Value": "2050"},{"Name": "9pm","Value": "2100"},{"Name": "910pm","Value": "2110"},{"Name": "920pm","Value": "2120"},{"Name": "930pm","Value": "2130"},{"Name": "940pm","Value": "2140"},{"Name": "950pm","Value": "2150"},{"Name": "10pm","Value": "2200"},{"Name": "1010pm","Value": "2210"},{"Name": "1020pm","Value": "2220"},{"Name": "1030pm","Value": "2230"},{"Name": "1040pm","Value": "2240"},{"Name": "1050pm","Value": "2250"},{"Name": "11pm","Value": "2300"},{"Name": "1110pm","Value": "2310"},{"Name": "1120pm","Value": "2320"},{"Name": "1130pm","Value": "2330"},{"Name": "1140pm","Value": "2340"},{"Name": "1150pm","Value": "2350"},{"Name": "12am","Value": "2400"},{"Name": "1210am","Value": "2410"},{"Name": "1220am","Value": "2420"},{"Name": "1230am","Value": "2430"},{"Name": "1240am","Value": "2440"},{"Name": "1250am","Value": "2450"},{"Name": "1am","Value": "2500"},{"Name": "110am","Value": "2510"},{"Name": "120am","Value": "2520"},{"Name": "130am","Value": "2530"},{"Name": "140am","Value": "2540"},{"Name": "150am","Value": "2550"},
+            //label:Directions
+                //## TODO: Delete on release
+                {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
+            //label:Mod Name
+                {"Name": "modName", "Value": "L0veRaven.FlorsExploration"}
+        ],
+
+    "Changes": [
+        //Event 1 - Town
+            {
+                "LogName": "Event 1 - Confessing to Farmer",
+                "Action": "EditData",
+                "Target": "Data/Events/Town",
+                "Entries": {
+                    "{{modName}}_confession/Dating Flor": "playful/62 17/farmer 63 21 {{up}} Flor 62 17 {{down}}/skippable/pause 1000/--Start/emote Flor {{emoteHeart}} true/move farmer 0 -4 {{left}}/faceDirection Flor {{right}}/--Flor starts talking/speak Flor \"Hi @, I hope your morning has been well.\"/pause 150/emote farmer {{emoteHappy}}/pause 150/--Flor continues/speak Flor \"That's good to hear.$1\"/pause 200/faceDirection Flor {{down}}/pause 200/speak Flor \"You know... There's something that I think might be worth mentioning...$2\"/pause 150/emote farmer {{emoteQuestion}}/pause 200/faceDirection Flor {{right}}/pause 150/speak Flor \"... Please forgive me for being so forward about it, but I...#$b#I haven't had sex with anyone before.$14\"/faceDirection Flor {{down}}/pause 200/speak Flor \"I figured I'd mention it in case things ended up getting... *that* intimate between us.\"/pause 200/emote farmer {{emoteBlush}}/pause 200/faceDirection Flor {{right}}/speak Flor \"... You're not bothered by it?$13#$b#That's such a relief!$1\"/pause 200/--Flor walks downward/move Flor 0 2 {{down}} true/faceDirection farmer {{down}}/pause 500/faceDirection Flor {{up}}/speak Flor \"I want to make sure I get everything right the first time we do... *it*.$4#$b#I'll do plenty of research! I promise!$1\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/speak Flor \"I want to make sure I don't mess anything up. I'll take a look at some literature to make sure I know what I'm doing.$1\"/faceDirection Flor {{down}}/pause 200/speak Flor \"I don't want to hold you up for too long, but I'll see you later.#$b#I have lots of reading to get done!$1\"/pause 200/move Flor 0 20 {{down}} true/emote farmer {{emoteSweat}}/pause 200/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.confession.endDialogue}}\""
+                },
+                "When": {"modEnable": "true"}
+            },
+        //Event 2 - ArchaeologyHouse
+            {
+                "LogName": "Event 2 - Library Book",
+                "Action": "EditData",
+                "Target": "Data/Events/ArchaeologyHouse",
+                "Entries": {
+                    "{{modName}}_libraryBook/SawEvent {{modName}}_confession/Friendship Flor 2250": "libraryTheme/16 5/farmer 9 5 {{up}} Flor 15 5 {{left}}/skippable/action AddMail current {{modName}}_safewordPracticeLetter/showFrame Flor 16 true/pause 500/--Start/move farmer 4 0 {{right}}/pause 200/speak Flor \"...$6\"/move farmer 1 0 {{right}}/pause 200/speak Flor \"...$6#$b#Oh, @! I found a book that fits exactly what I was looking for.$7\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/showFrame Flor 39/pause 200/speak Flor \"This book is called 'Exploring The Body and Mind'. It's all about the fundamentals of sex. I've been able to learn a lot from just this book alone!$7\"/pause 300/shake Flor 2000/pause 1000/speak Flor \"I need to take these glasses off for a moment. My eyes are hurting.$6\"/pause 500/showFrame Flor 0/pause 200/speak Flor \"Much better.$1\"/pause 200/faceDirection Flor {{left}}/speak Flor \"So, about the book. It mentioned how having a 'safeword' is ideal for sex. It's good for if a partner needs to stop or take a break.#$b#I think having a safeword would be perfect, just for the sake of taking precautions.$13\"/pause 200/emote farmer {{emoteMusic}}/pause 200/speak Flor \"You want to use 'meningitis' as a safeword?$3#$b#How about something more memorable like... 'marshmallow'?$12\"/pause 200/emote farmer {{emoteHeart}}/pause 200/speak Flor \"I'm glad that sounds great to you.$1#$b#I still have much more reading to do, but I'll let you know when I have new information to share.#$b#... I love you.$4\"/pause 200/emote farmer {{emoteBlush}} true/emote Flor {{emoteHeart}}/pause 300/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.libraryBook.endDialogue}}\""
+                },
+                "When": {"modEnable": "true"}
+            },
+        //Letter [Event 3]
+            {
+                "LogName": "Letter for Event 3 - Safeword Practice",
+                "Action": "EditData",
+                "Target": "Data/mail",
+                "Entries": {
+                    "{{modName}}_safewordPracticeLetter": "{{i18n:mail.safewordPractice.body}}[#]{{i18n:mail.safewordPractice.title}}"
+                },
+                "When": {"modEnable": "true"}
+            },
+        //Event 3 - Safeword Practice
+            {
+                "LogName": "Letter for Event 3 - Safeword Practice",
+                "Action": "EditData",
+                "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
+                "Entries": {
+                    "{{modName}}_safewordPractice/LocalMail {{modName}}_safewordPracticeLetter/Friendship Flor 2250": "sweet/9 5/farmer 6 6 {{left}} Flor 5 6 {{right}}/skippable/pause 500/--Start/speak Flor \"Thanks for meeting me here, @. It really means a lot to me that you're willing to try this out.\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/pause 200/speak Flor \"So I've re-read this chapter about safewords some more and like I said in the letter I wrote you, we should practice using our safeword.#$b#I admit, I am a little shy about trying it out, but I know you're someone I can trust.$12\"/pause 200/emote farmer {{emoteBlush}}/pause 200/
+                    quickQuestion Before we start, do you remember the safeword we agreed on using?#Meningitis#Mosquito#Marshmallow#Mint
+                    (break)pause 200\\emote Flor {{emoteSweat}}\\pause 200\\speak Flor \"Not quite... The safe word we agreed on was 'marshmallow'.$2\"\\pause 200\\emote farmer {{emoteSweat}}\\pause 200\\speak Flor \"It's okay, that's why we're practicing right now.$1\"\\pause 200
+                    (break)pause 200\\emote Flor {{emoteSweat}}\\pause 200\\speak Flor \"Not quite... The safe word we agreed on was 'marshmallow'.$2\"\\pause 200\\emote farmer {{emoteSweat}}\\pause 200\\speak Flor \"It's okay, that's why we're practicing right now.$1\"\\pause 200
+                    (break)pause 200\\emote Flor {{emoteHeart}}\\action AddFriendshipPoints Flor 80\\speak Flor \"I'm really happy that you remembered it!$12#$b#It's good to know you're listening during our conversations.$1#$b#I hope I'm a good listener when you're talking, too.$4\"\\pause 200\\emote farmer {{emoteBlush}}\\pause 200\\speak Flor \"It's okay, that's why we're practicing right now.$1\"\\pause 200
+                    (break)pause 200\\emote Flor {{emoteSweat}}\\pause 200\\speak Flor \"Not quite... The safe word we agreed on was 'marshmallow'.$2\"\\pause 200\\emote farmer {{emoteSweat}}\\pause 200\\speak Flor \"It's okay, that's why we're practicing right now.$1\"\\pause 200/
+                    faceDirection farmer {{down}} true/move Flor 0 2 {{down}}/pause 500/faceDirection Flor {{up}}/pause 200/
+                    {{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:replace}}\""
+                },
+                "When": {"modEnable": "true"}
+            }
+    ]
+}

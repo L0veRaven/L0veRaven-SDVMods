@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {//Verified
+            "LogName": "StringsFromCSFiles.json: General",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "MapPage.cs.{{Nexus}}001": "{{i18n:locationName.ravenTent_NameHover}}"
+            }
+        },
+        {
+            "LogName": "StringsFromCSFiles.json: Post-Wedding Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Game1.cs.2782": "{{i18n:raven.spouse.afterWedding}}"
+            },
+            "When": {
+                "Spouse": "{{Raven}}"
+            }
+        },
+        {//Verified
+            "LogName": "StringsFromCSFiles.json: Engaged Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3980": "{{i18n:raven.mermaidPendant.accepted}}"
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Dating"
+            }
+        }
+    ]
+}

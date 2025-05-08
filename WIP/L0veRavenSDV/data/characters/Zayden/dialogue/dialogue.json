@@ -1,0 +1,61 @@
+{
+    "Changes": [
+        {
+            "LogName": "dialogue.json: 0 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Tue": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Wed": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Thu": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Fri": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sat": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sun": "{{i18n:zayden.dialogue.0hearts_{{Random:{{Range:1,7}}}}}}",
+            },
+        },
+        {
+            "LogName": "dialogue.json: 2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Tue2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Wed2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Thu2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Fri2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sat2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sun2": "{{i18n:zayden.dialogue.2hearts_{{Random:{{Range:1,7}}}}}}",
+            },
+        },
+        {
+            "LogName": "dialogue.json: Conversation Topics",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                //General
+                "Introduction": "{{i18n:zayden.conversationTopic.Introduction}}",
+                "pamHouseUpgrade": "{{i18n:zayden.conversationTopic.pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:zayden.conversationTopic.pamHouseUpgradeAnonymous}}",
+                "joja_Begin": "{{i18n:zayden.conversationTopic.joja_Begin}}",
+                "movieTheater": "{{i18n:zayden.conversationTopic.movieTheater}}",
+                "DumpsterDiveComment": "{{i18n:zayden.conversationTopic.dumpsterDive}}",
+                "HitBySlingshot": "{{i18n:zayden.conversationTopic.hitSlingshot}}",
+                //Community Center
+                "cc_Minecart": "{{i18n:zayden.conversationTopic.cc_Minecart}}",
+                "cc_Greenhouse": "{{i18n:zayden.conversationTopic.cc_Greenhouse}}#$action AddMail {{Zayden}}_Greenhouse tomorrow",
+                "cc_Bus": "{{i18n:zayden.conversationTopic.cc_Bus}}",
+                "cc_Bridge": "{{i18n:zayden.conversationTopic.cc_Bridge}}",
+                "cc_Boulder": "{{i18n:zayden.conversationTopic.cc_Boulder}}",
+                "cc_Complete": "{{i18n:zayden.conversationTopic.cc_Complete}}",
+                //Win Festival Events
+                "wonEggHunt": "{{i18n:zayden.conversationTopic.wonEggHunt}}",
+                "wonGrange": "{{i18n:zayden.conversationTopic.wonGrange}}",
+                "wonIceFishing": "{{i18n:zayden.conversationTopic.wonIceFishing}}",
+
+                "married": "{{i18n:zayden.conversationTopic.married_farmer}}","married_twice": "{{i18n:zayden.conversationTopic.married_farmer}}",
+                "divorced_once": "{{i18n:zayden.conversationTopic.divorced_farmer}}","divorced_twice": "{{i18n:zayden.conversationTopic.divorced_farmer}}"
+            },
+        },
+    ]
+}

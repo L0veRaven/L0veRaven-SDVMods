@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "scheduleDialogue.json",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Raven}}",
+            "Entries": {
+                "Custom_{{Raven}}TentInside.001": "{{i18n:raven.scheduleDialogue.standStove_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.001": "{{i18n:raven.scheduleDialogue.relaxSaloon_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.002": "{{i18n:raven.scheduleDialogue.workSaloon_{{Random:{{Range:1,2}}}}}}",
+                "SeedShop.001": "{{i18n:raven.scheduleDialogue.seedShop.shopping_{{Random:{{Range:1,2}}}}}}"
+            }
+        }
+    ]
+}
