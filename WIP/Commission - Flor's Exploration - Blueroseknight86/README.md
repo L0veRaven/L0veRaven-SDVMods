@@ -1,19 +1,19 @@
 # Mod Commands
 >Reload Mod<br/>
 
-patch reload L0veRaven.FlorsExploration
+patch reload id
 
 >Event 1<br/>
 
-debug ebi L0veRaven.FlorsExploration_confession
+debug ebi id_confession
 
 >Event 2<br/>
 
-debug ebi L0veRaven.FlorsExploration_libraryBook
+debug ebi id_libraryBook
 
 >Event 3<br/>
 
-debug ebi L0veRaven.FlorsExploration_safewordPractice
+debug ebi id_safewordPractice
 
 # RSV Commands
 >2 Hearts<br/>

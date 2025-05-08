@@ -36,7 +36,7 @@
                 //## TODO: Delete on release
                 {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
             //label:Mod Name
-                {"Name": "modName", "Value": "L0veRaven.FlorsExploration"}
+                {"Name": "modName", "Value": "id"}
         ],
 
     "Changes": [
