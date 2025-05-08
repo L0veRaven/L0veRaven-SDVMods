@@ -6,8 +6,10 @@ debug ebi L0veRaven.FlorsExploration_libraryBook
 
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
-# 2 Hearts
 debug ebi 75160128
+
+
+# 2 Hearts
 
 Oh! Uh... Hello, @.</br>
 
@@ -61,12 +63,19 @@ I'm sorry!</br>
 
 [Response 1]</br>
 >    Huh? ... R-Really?</br>
+
 >    That's good to know... I-I'm glad.</br>
+
 >    Umm. S-So.
+
 >    Thank you for telling me, @. A-And please, um... please don't tell anyone else?
+
 >    I know you won't, but I just... um. W-Wanted to ask...
+
 >    I-I hope you have a good day!
+
 >    C-Can I just go back to bed now?
+
 >    Yoba, I hope no one saw me last night...
 
 [Response 2]
