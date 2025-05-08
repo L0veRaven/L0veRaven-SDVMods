@@ -1,10 +1,14 @@
 patch reload L0veRaven.FlorsExploration
+
 debug ebi L0veRaven.FlorsExploration_confession
+
 debug ebi L0veRaven.FlorsExploration_libraryBook
+
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
 # 2 Hearts
 debug ebi 75160128
+
 Oh! Uh... Hello, @.</br>
 
 Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
