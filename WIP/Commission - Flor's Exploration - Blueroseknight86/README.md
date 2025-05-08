@@ -2,13 +2,16 @@
 >Reload Mod<br/>
 
 patch reload L0veRaven.FlorsExploration
->Event 2<br/>
+
+>Event 1<br/>
 
 debug ebi L0veRaven.FlorsExploration_confession
->Event 3<br/>
+
+>Event 2<br/>
 
 debug ebi L0veRaven.FlorsExploration_libraryBook
->Event 4<br/>
+
+>Event 3<br/>
 
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
