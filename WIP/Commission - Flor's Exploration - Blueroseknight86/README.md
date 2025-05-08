@@ -8,23 +8,23 @@ debug ebi L0veRaven.FlorsExploration_libraryBook
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
 # RSV Commands
->2 Hearts
+>2 Hearts<br/>
 debug ebi 75160128
 
->4 Hearts
+>4 Hearts<br/>
 debig ebi 75160129
 
->6 Hearts
+>6 Hearts<br/>
 debug ebi 75160130
 
->8 Hearts
+>8 Hearts<br/>
 debug ebi 75160225
 debug ebi 75160132
 
->10 Hearts
+>10 Hearts<br/>
 debug ebi 75160130
 
->14 Hearts
+>14 Hearts<br/>
 debug ebi 75160225
 debug ebi 75160226
 
