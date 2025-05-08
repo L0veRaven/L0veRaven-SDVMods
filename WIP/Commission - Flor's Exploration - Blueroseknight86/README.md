@@ -31,6 +31,7 @@ debug ebi 75160130
 >8 Hearts<br/>
 
 debug ebi 75160225
+
 debug ebi 75160132
 
 >10 Hearts<br/>
@@ -40,6 +41,7 @@ debug ebi 75160130
 >14 Hearts<br/>
 
 debug ebi 75160225
+
 debug ebi 75160226
 
 ## 2 Heart
