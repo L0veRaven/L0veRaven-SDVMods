@@ -8,9 +8,29 @@ debug ebi L0veRaven.FlorsExploration_libraryBook
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
 # RSV Commands
-## 2 Hearts
+>2 Hearts
 debug ebi 75160128
 
+>4 Hearts
+debig ebi 75160129
+
+>6 Hearts
+debug ebi 75160130
+
+>8 Hearts
+debug ebi 75160225
+debug ebi 75160132
+
+>10 Hearts
+debug ebi 75160130
+
+>14 Hearts
+debug ebi 75160225
+debug ebi 75160226
+
+
+
+## 2 Heart
 ### Scene Start
 >Oh! Uh... Hello, @.</br>
 
@@ -98,15 +118,3 @@ debug ebi 75160128
 >    P-Please leave, @...$2
 >    Now.$5
 ```
-# 4 Hearts
-debig ebi 75160129
-# 6 Hearts
-debug ebi 75160130
-# 8 Hearts
-debug ebi 75160225
-debug ebi 75160132
-# 10 Hearts
-debug ebi 75160130
-# 14 Hearts
-debug ebi 75160225
-debug ebi 75160226
