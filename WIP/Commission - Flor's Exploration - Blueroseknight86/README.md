@@ -6,62 +6,61 @@ debug ebi L0veRaven.FlorsExploration_libraryBook
 
 debug ebi L0veRaven.FlorsExploration_safewordPractice
 
+# 2 Hearts
 debug ebi 75160128
 
+## Scene Start
+>Oh! Uh... Hello, @.</br>
 
-# 2 Hearts
+>Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
 
-Oh! Uh... Hello, @.</br>
+>I was terriby drowsy after my bath...</br>
 
-Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
+>Oh, sorry! I'm fine! I just can't remember... I think I forgot something out here.</br>
 
-I was terriby drowsy after my bath...</br>
+>Not dressed? What are you saying?</br>
 
-Oh, sorry! I'm fine! I just can't remember... I think I forgot something out here.</br>
+>Of course I'm-</br>
 
-Not dressed? What are you saying?</br>
+>OH!</br>
 
-Of course I'm-</br>
+>O-Oh, Yoba! Oh, no!</br>
 
-OH!</br>
+>I... I... I fell asleep out here l-last night!</br>
 
-O-Oh, Yoba! Oh, no!</br>
+>EEP!!</br>
 
-I... I... I fell asleep out here l-last night!</br>
+>Oh my Yoba, oh my Yoba, oh my Yoba!</br>
 
-EEP!!</br>
+>T-That was... that was mortifying!</br>
 
-Oh my Yoba, oh my Yoba, oh my Yoba!</br>
+>Oh, Yoba, what if someone saw me last night?</br>
 
-T-That was... that was mortifying!</br>
+>It's a hotel, what are the chances someone didn't?!</br>
 
-Oh, Yoba, what if someone saw me last night?</br>
+>H-How am I ever going to look anyone in the face e-ever again?</br>
 
-It's a hotel, what are the chances someone didn't?!</br>
+>Breathe, Flor. Breathe.</br>
 
-H-How am I ever going to look anyone in the face e-ever again?</br>
+>Look on the bright side! A-at least @ told me before more people saw me!</br>
 
-Breathe, Flor. Breathe.</br>
+>Umm... @?</br>
 
-Look on the bright side! A-at least @ told me before more people saw me!</br>
+>I... uh...</br>
 
-Umm... @?</br>
+>Y-You can come in. I need to tell you something...</br>
 
-I... uh...</br>
+>H-Hey, Lila... I... um. T-Thank you for telling me about my... Uh... about the t-towel.</br>
 
-Y-You can come in. I need to tell you something...</br>
+>I'm really sorry you had to see that!</br>
 
-H-Hey, Lila... I... um. T-Thank you for telling me about my... Uh... about the t-towel.</br>
+>I know it's hard to believe, but I genuinely didn't notice!</br>
 
-I'm really sorry you had to see that!</br>
+>I just was so focused on my book and I've always slept like a log and been disoriented for a while right after I wake up and---</br>
 
-I know it's hard to believe, but I genuinely didn't notice!</br>
+>I'm sorry!</br>
 
-I just was so focused on my book and I've always slept like a log and been disoriented for a while right after I wake up and---</br>
-
-I'm sorry!</br>
-
-[Response 1]</br>
+### [Response 1]</br>
 >    Huh? ... R-Really?</br>
 
 >    That's good to know... I-I'm glad.</br>
@@ -78,7 +77,7 @@ I'm sorry!</br>
 
 >    Yoba, I hope no one saw me last night...
 
-[Response 2]
+### [Response 2]
 >    I-I-I know! I definitely will! Absolutely!
 >    This will never happen again!
 >    I-it can't, or I'd implode...
@@ -89,7 +88,7 @@ I'm sorry!</br>
 >    C-Can I just go back to bed now?
 >    Yoba, I hope no one saw me last night...
 
-[Response 3]
+### [Response 3]
 >    W-what? I-I... uh...
 >    ... {frown}
 >    ... {blush smile}
