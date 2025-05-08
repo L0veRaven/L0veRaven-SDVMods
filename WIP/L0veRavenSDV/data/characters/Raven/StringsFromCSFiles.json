@@ -20,7 +20,7 @@
             }
         },
         {//Verified
-            "LogName": "StringsFromCSFiles.json: Engaged Dialogue",
+            "LogName": "[StringsFromCSFiles] - Raven Engaged Dialogue",
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
