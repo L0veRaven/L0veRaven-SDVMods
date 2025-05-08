@@ -48,7 +48,7 @@ debug ebi 75160226
 ### Scene Start
 >Oh! Uh... Hello, @.</br>
 
->Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
+>Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?<br/>
 
 >I was terriby drowsy after my bath...</br>
 
@@ -97,45 +97,65 @@ debug ebi 75160226
 >I'm sorry!</br>
 
 #### It's okay. You were just really tired. I didn't see anything...</br>
->    Huh? ... R-Really?</br>
+>Huh? ... R-Really?</br>
 
->    That's good to know... I-I'm glad.</br>
+>That's good to know... I-I'm glad.</br>
 
->    Umm. S-So.
+>Umm. S-So.</br>
 
->    Thank you for telling me, @. A-And please, um... please don't tell anyone else?
+>Thank you for telling me, @. A-And please, um... please don't tell anyone else?
 
->    I know you won't, but I just... um. W-Wanted to ask...
+>I know you won't, but I just... um. W-Wanted to ask...
 
->    I-I hope you have a good day!
+>I-I hope you have a good day!
 
->    C-Can I just go back to bed now?
+>C-Can I just go back to bed now?
 
->    Yoba, I hope no one saw me last night...
+>Yoba, I hope no one saw me last night...
 
 #### Be more careful next time.
->    I-I-I know! I definitely will! Absolutely!
->    This will never happen again!
->    I-it can't, or I'd implode...
->    Umm. S-So.
->    Thank you for telling me, @. A-And please, um... please don't tell anyone else?
->    I know you won't, but I just... um. W-Wanted to ask...
->    I-I hope you have a good day!
->    C-Can I just go back to bed now?
->    Yoba, I hope no one saw me last night...
+>I-I-I know! I definitely will! Absolutely!
+
+>This will never happen again!
+
+>I-it can't, or I'd implode...
+
+>Umm. S-So.
+
+>Thank you for telling me, @. A-And please, um... please don't tell anyone else?
+
+>I know you won't, but I just... um. W-Wanted to ask...
+
+>I-I hope you have a good day!
+
+>C-Can I just go back to bed now?
+
+>Yoba, I hope no one saw me last night...
 
 #### I didn't mind. You're cute.
->    W-what? I-I... uh...$2
->    ...$2
->    ...$13
->    ...$2
->    P-Please leave, @...$2
->    Now.$5
+>W-what? I-I... uh...$2
+
+>...$2
+
+>...$13
+
+>...$2
+
+>P-Please leave, @...$2
+
+>Now.$5
+
 ## 4 Heart
+
 ## 6 Heart
+
 ## 8 Heart - Part 1
+
 ## 8 Heart - Part 2
+
 ## 10 Heart
+
 ## 14 Heart - Part 1
+
 ## 14 Heart - Part 2
 ```
