@@ -29,8 +29,6 @@ debug ebi 75160130
 debug ebi 75160225
 debug ebi 75160226
 
-
-
 ## 2 Heart
 ### Scene Start
 >Oh! Uh... Hello, @.</br>
@@ -118,4 +116,11 @@ debug ebi 75160226
 >    ...$2
 >    P-Please leave, @...$2
 >    Now.$5
+## 4 Heart
+## 6 Heart
+## 8 Heart - Part 1
+## 8 Heart - Part 2
+## 10 Heart
+## 14 Heart - Part 1
+## 14 Heart - Part 2
 ```
