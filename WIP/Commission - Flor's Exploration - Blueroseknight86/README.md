@@ -6,8 +6,8 @@ debug ebi L0veRaven.FlorsExploration_safewordPractice
 # 2 Hearts
 debug ebi 75160128
 ```
-Oh! Uh... Hello, @.
-Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
+>Oh! Uh... Hello, @.
+>Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
 I was terriby drowsy after my bath...
 Oh, sorry! I'm fine! I just can't remember... I think I forgot something out here.
 Not dressed? What are you saying?
