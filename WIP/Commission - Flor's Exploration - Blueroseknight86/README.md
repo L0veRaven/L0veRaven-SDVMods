@@ -50,7 +50,7 @@ debug ebi 75160128
 
 >Y-You can come in. I need to tell you something...</br>
 
->H-Hey, Lila... I... um. T-Thank you for telling me about my... Uh... about the t-towel.</br>
+>H-Hey, Flor... I... um. T-Thank you for telling me about my... Uh... about the t-towel.</br>
 
 >I'm really sorry you had to see that!</br>
 
@@ -60,7 +60,7 @@ debug ebi 75160128
 
 >I'm sorry!</br>
 
-### [Response 1]</br>
+### It's okay. You were just really tired. I didn't see anything...</br>
 >    Huh? ... R-Really?</br>
 
 >    That's good to know... I-I'm glad.</br>
@@ -77,7 +77,7 @@ debug ebi 75160128
 
 >    Yoba, I hope no one saw me last night...
 
-### [Response 2]
+### Be more careful next time.
 >    I-I-I know! I definitely will! Absolutely!
 >    This will never happen again!
 >    I-it can't, or I'd implode...
@@ -88,13 +88,13 @@ debug ebi 75160128
 >    C-Can I just go back to bed now?
 >    Yoba, I hope no one saw me last night...
 
-### [Response 3]
->    W-what? I-I... uh...
->    ... {frown}
->    ... {blush smile}
->    ... {frown}
->    P-Please leave, @...
->    Now.
+### I didn't mind. You're cute.
+>    W-what? I-I... uh...$2
+>    ...$2
+>    ...$13
+>    ...$2
+>    P-Please leave, @...$2
+>    Now.$5
 ```
 # 4 Hearts
 debig ebi 75160129
