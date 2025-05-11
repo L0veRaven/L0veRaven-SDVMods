@@ -45,65 +45,65 @@ debug ebi 75160225
 debug ebi 75160226
 
 ## 2 Heart - Forgot to dress
-### Scene Start
+
 debug ebi 75160128
 
->Oh! Uh... Hello, @.</br>
+>Oh! Uh... Hello, @.
 
 >Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
 
->I was terriby drowsy after my bath...</br>
+>I was terriby drowsy after my bath...
 
->Oh, sorry! I'm fine! I just can't remember... I think I forgot something out here.</br>
+>Oh, sorry! I'm fine! I just can't remember... I think I forgot something out here.
 
->Not dressed? What are you saying?</br>
+>Not dressed? What are you saying?
 
->Of course I'm-</br>
+>Of course I'm-
 
->OH!</br>
+>OH!
 
->O-Oh, Yoba! Oh, no!</br>
+>O-Oh, Yoba! Oh, no!
 
->I... I... I fell asleep out here l-last night!</br>
+>I... I... I fell asleep out here l-last night!
 
->EEP!!</br>
+>EEP!!
 
->Oh my Yoba, oh my Yoba, oh my Yoba!</br>
+>Oh my Yoba, oh my Yoba, oh my Yoba!
 
->T-That was... that was mortifying!</br>
+>T-That was... that was mortifying!
 
->Oh, Yoba, what if someone saw me last night?</br>
+>Oh, Yoba, what if someone saw me last night?
 
->It's a hotel, what are the chances someone didn't?!</br>
+>It's a hotel, what are the chances someone didn't?!
 
->H-How am I ever going to look anyone in the face e-ever again?</br>
+>H-How am I ever going to look anyone in the face e-ever again?
 
->Breathe, Flor. Breathe.</br>
+>Breathe, Flor. Breathe.
 
->Look on the bright side! A-at least @ told me before more people saw me!</br>
+>Look on the bright side! A-at least @ told me before more people saw me!
 
->Umm... @?</br>
+>Umm... @?
 
->I... uh...</br>
+>I... uh...
 
->Y-You can come in. I need to tell you something...</br>
+>Y-You can come in. I need to tell you something...
 
->H-Hey, Flor... I... um. T-Thank you for telling me about my... Uh... about the t-towel.</br>
+>H-Hey, Flor... I... um. T-Thank you for telling me about my... Uh... about the t-towel.
 
->I'm really sorry you had to see that!</br>
+>I'm really sorry you had to see that!
 
->I know it's hard to believe, but I genuinely didn't notice!</br>
+>I know it's hard to believe, but I genuinely didn't notice!
 
->I just was so focused on my book and I've always slept like a log and been disoriented for a while right after I wake up and---</br>
+>I just was so focused on my book and I've always slept like a log and been disoriented for a while right after I wake up and---
 
->I'm sorry!</br>
+>I'm sorry!
 
-#### It's okay. You were just really tired. I didn't see anything...</br>
->Huh? ... R-Really?</br>
+#### It's okay. You were just really tired. I didn't see anything...
+>Huh? ... R-Really?
 
->That's good to know... I-I'm glad.</br>
+>That's good to know... I-I'm glad.
 
->Umm. S-So.</br>
+>Umm. S-So.
 
 >Thank you for telling me, @. A-And please, um... please don't tell anyone else?
 
@@ -148,10 +148,10 @@ debug ebi 75160128
 >Now.$5
 
 ## 4 Heart - Flor trips
-### Scene Start
+
 debug ebi 75160129
 
->Whoa!!</br>
+>Whoa!!
 
 >Oww...
 
@@ -232,10 +232,10 @@ debug ebi 75160129
 >Thank you so much, @.
 
 ## 6 Heart - Flor plans research
-### Scene Start
+
 debug ebi 75160129
 
->Hm?</br>
+>Hm?
 
 >Oh! ... I'm sorry, I was lost in thought.
 
@@ -303,10 +303,10 @@ debug ebi 75160129
 >Why do I always do this?
 
 ## 8 Heart - Flor's research (Romantic)
-### Scene Start
+
 debug ebi 75160132
 
->Okay. All set!</br>
+>Okay. All set!
 
 >@, thank you for agreeing to help me with this! You'll be acting as an independent observer.
 
@@ -375,108 +375,139 @@ debug ebi 75160132
 #### Flor seems to have become quite comfortable with you. And it sounds like her experiment was a success, too!
 
 ## 10 Heart - Flor locks herself out
-### Scene Start
+
 debug ebi 75160133
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
->___
-#### Response 1
+
+>@! Help me!
+
+>I accidentally locked myself out of my room...
+
+>Umm... I'm so sorry for this...
+
+>Umm... Please don't look at me too much.
+
+>I think we need to break down the door...
+
+>It's open!
+
+>Come on...
+
+>I'm really sorry again, @...
+
+>I appreciate you helping me...
+
+>I always seem to be getting into situations like this...
+
+>I'm really sorry...
+
+>I must be back luck, right?
+
+>Really, though... I don't know why I'm so clumsy...
+
+>I hope you still want me even though I'm like this...
+
+>Umm... I'm here all embarrassed in front of you again...
+
+>I'm thankful you're always willing to help me out, @.
+
+>I'm really happy I'm in your arms...
+
+>In all my years studying human social behavior and relationships to further better my skills as an occupational therapist...
+
+>I never thought I'd be able to experience such an amazing relationship with such an amazing person.
+
+>I... I love you, @.
+
+>Don't go yet...
+
+>Stay in my room for a while, please...
 
 ## 14 Heart - Flor's insecure - Part 1
-### Scene Start
-debug ebi 75160225
->___</br>
 
->___
-#### Response 1
+debug ebi 75160225
+
+>@?
+
+>Am I a good wife?
+
+>In terms of efficiency, quality, appearance, effort, honesty...
+
+#### Flor proceeds to mention many more variables.
+
+>Hmm... Did I miss anything?
+
+>No, wait. Before you answer that.
+
+>I think I'd need to undergo some practical test.
+
+>Ah! A date perhaps!
+
+>I shall orchestrate the perfect romantic activity for us!
+
+>I'm looking forward to it!
+
+>Until then, hold off your answer from my question earlier until after my evaluation.
+
+>Okay?
+
+>Meet me at the Log Cabin Hotel tonight, @.
+
+>Between 8PM and 10PM.
+
+>Dress up casually, or formally if you wish, alright?
+
+>I'll see you there!
 
 ## 14 Heart - Flor's Date - Part 2
-### Scene Start
-debug ebi 75160226
->___</br>
 
->___
-#### Response 1
-```
+debug ebi 75160226
+
+>Everything seems to be in order...
+
+>Wait... No. It feels like something's still incorrect.
+
+>@!
+
+>I feel like I'm missing something!
+
+>I don't think what I've prepared is enough!
+
+>See, look at this book!
+
+>I'm missing photographers, fireworks, more lights, rose petals-
+
+>You don't mind?
+
+>But-but!
+
+>I assumed the perfect date is only possible if I follow this book word-by-word.
+
+>I'm confused!
+
+>Won't this failure make for an unideal wife?
+
+#### You hug Flor.
+
+>@?
+
+>Wha-what's wrong?
+
+>You mean, I didn't have to do any of this?
+
+>I just wanted to make you happy.
+
+>I'm sorry if I was too much...
+
+>I must've given everyone a hard time with the last-minute favors.
+
+>I don't even know if this dress is appealing to you...
+
+>@...
+
+>I--
+
+>I'm happy...
+
+>I'm happy I married you...
+
+>I hope you are too...
