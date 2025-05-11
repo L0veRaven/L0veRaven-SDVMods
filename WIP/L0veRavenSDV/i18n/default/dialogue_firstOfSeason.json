@@ -1,0 +1,42 @@
+{
+    //Raven
+        "raven.dialogue.spring.first_1": "The sudden shift in weather always throws me off, but it's nice to finally get a break from the harsh winter.",
+        "raven.dialogue.spring.first_2": "It's such a relief to not have to deal with how cold the snow is.$1#$b#I'm gonna miss watching the snow fall, though.$2",
+        "raven.dialogue.spring.first_3": "Now that it's spring, it's time for me to start my spring cleaning!$1#$e#Do you think you'll do spring cleaning this year?",
+        "raven.dialogue.spring.first_4": "Finally! We can see nature thrive again.$1#$b#It's kinda boring just seeing a bunch of snow everywhere all the time. Flowers help give nature life!",
+
+        "raven.dialogue.summer.first_1": "Uh oh... Get ready for the heat.$12",
+        "raven.dialogue.summer.first_2": "I'm worried that there's gonna be a heatwave this year... We live close to Calico Desert after all.$12",
+        "raven.dialogue.summer.first_3": "The weather is giving me a headache right now... I need to drink some water.$11",
+        "raven.dialogue.summer.first_4": "Stay hydrated, @! It can get dangerous if you don't drink enough water.",
+
+        "raven.dialogue.fall.first_1": "Now that it's fall, I can start stomping on all the crunchy leaves!$1",
+        "raven.dialogue.fall.first_2": "I wonder if I can use the dead leaves I find today to fuel the campfire by my tent.$17#$e#My pockets aren't super deep, but it might be worth a shot!$1",
+        "raven.dialogue.fall.first_3": "I think fall is one of the best seasons because it's perfect for getting cozy, but without it being too hot or cold.",
+        "raven.dialogue.fall.first_4": "It's the season of Spirit's Eve! I can't wait for it to time to celebrate again.$3",
+
+        "raven.dialogue.winter.first_1": "Winter has officially started. I hope it doesn't get too cold this year.$2#$e#Be sure you have your blankets and heaters ready. It's gonna be chilly!",
+        "raven.dialogue.winter.first_2": "Do you have your warm clothes ready?#$e#It's gonna be a cold season.$2",
+        "raven.dialogue.winter.first_3": "Since today's the first day of winter...#$b#Do you think it's safe for me to eat some of the snow on the ground?$3#$e#Snow tastes so good.$1",
+        "raven.dialogue.winter.first_4": "Now that it's winter, make sure you stay warm.#$b#We don't want anyone getting hypothermia.$2",
+    //Zayden
+        "zayden.dialogue.spring.first_1": "zayden.dialogue.spring.first_1",
+        "zayden.dialogue.spring.first_2": "zayden.dialogue.spring.first_2",
+        "zayden.dialogue.spring.first_3": "zayden.dialogue.spring.first_3",
+        "zayden.dialogue.spring.first_4": "zayden.dialogue.spring.first_4",
+
+        "zayden.dialogue.summer.first_1": "zayden.dialogue.summer.first_1",
+        "zayden.dialogue.summer.first_2": "zayden.dialogue.summer.first_2",
+        "zayden.dialogue.summer.first_3": "zayden.dialogue.summer.first_3",
+        "zayden.dialogue.summer.first_4": "zayden.dialogue.summer.first_4",
+
+        "zayden.dialogue.fall.first_1": "zayden.dialogue.fall.first_1",
+        "zayden.dialogue.fall.first_2": "zayden.dialogue.fall.first_2",
+        "zayden.dialogue.fall.first_3": "zayden.dialogue.fall.first_3",
+        "zayden.dialogue.fall.first_4": "zayden.dialogue.fall.first_4",
+
+        "zayden.dialogue.winter.first_1": "zayden.dialogue.winter.first_1",
+        "zayden.dialogue.winter.first_2": "zayden.dialogue.winter.first_2",
+        "zayden.dialogue.winter.first_3": "zayden.dialogue.winter.first_3",
+        "zayden.dialogue.winter.first_4": "zayden.dialogue.winter.first_4",
+}

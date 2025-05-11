@@ -332,6 +332,11 @@
                 "Action": "Include",
                 "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
             },
+            {
+                "LogName": "General - Dialogue Includes",
+                "Action": "Include",
+                "FromFile": "data/dialogue/dialogue_firstOfSeason.json"
+            },
         //Data/Festivals
             {
                 "LogName": "[Festival] Includes",

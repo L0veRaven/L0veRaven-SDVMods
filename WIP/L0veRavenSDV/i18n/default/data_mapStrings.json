@@ -1,3 +1,102 @@
 {
-    "mapString.fridge": "The fridge is stocked with food. The cheese is low...",
+    //Raven
+        //Desk with Paper
+            "mapString.ravenDesk_1": "DARKJACK VOL. I",
+            "mapString.ravenDesk_2": "DARKJACK VOL. II",
+            "mapString.ravenDesk_3": "DARKJACK VOL. III",
+            "mapString.ravenDesk_4": "DARKJACK VOL. IV",
+            "mapString.ravenDesk_5": "DARKJACK VOL. V",
+            "mapString.ravenDesk_6": "DARKJACK VOL. VI",
+            "mapString.ravenDesk_7": "DARKJACK VOL. VII",
+            "mapString.ravenDesk_8": "DARKJACK VOL. VIII",
+            "mapString.ravenDesk_9": "DARKJACK VOL. IX",
+            "mapString.ravenDesk_10": "DARKJACK VOL. X",
+            "mapString.ravenDesk_11": "DARKJACK VOL. XI",
+            "mapString.ravenDesk_12": "DARKJACK VOL. XII",
+            "mapString.ravenDesk_13": "DARKJACK VOL. XIII",
+            "mapString.ravenDesk_14": "DARKJACK VOL. XIV",
+            "mapString.ravenDesk_15": "DARKJACK VOL. XV",
+            "mapString.ravenDesk_16": "DARKJACK VOL. XVI",
+            "mapString.ravenDesk_17": "DARKJACK VOL. XVII",
+            "mapString.ravenDesk_18": "DARKJACK VOL. XVIII",
+            "mapString.ravenDesk_19": "DARKJACK VOL. XIX",
+            "mapString.ravenDesk_20": "DARKJACK VOL. XX",
+            "mapString.ravenDesk_21": "DARKJACK VOL. XXI",
+            "mapString.ravenDesk_22": "DARKJACK VOL. XXII",
+            "mapString.ravenDesk_23": "DARKJACK VOL. XXIII",
+            "mapString.ravenDesk_24": "DARKJACK VOL. XXIV",
+            "mapString.ravenDesk_25": "DARKJACK VOL. XXV",
+        //Guitar
+            "mapString.ravenGuitar_1": "The guitar looks dusty.",
+            "mapString.ravenGuitar_2": "The guitar looks pristine.",
+            "mapString.ravenGuitar_3": "You strum the guitar. It's out of tune.",
+            "mapString.ravenGuitar_4": "You strum the guitar. It sounds pleasant.",
+        //Loose Paper
+            "mapString.ravenLoosePaper_1": "It's a to-do list.",
+            "mapString.ravenLoosePaper_2": "It's sheet music.",
+            "mapString.ravenLoosePaper_3": "It's a journal entry.",
+            "mapString.ravenLoosePaper_4": "It's a bunch of random notes.",
+        //Piano Keyboard
+            "mapString.ravenPianoKey_1": "The keyboard is turned on.",
+            "mapString.ravenPianoKey_2": "The keyboard is turned off.",
+        //Yoba Shrine
+            "mapString.ravenYobaShrine_1": "Raven's Yoba shrine looks pristine.",
+            "mapString.ravenYobaShrine_2": "Raven's Yoba shrine looks dusty.",
+            "mapString.ravenYobaShrine_3": "Raven's Yoba shrine looks unusually shiny.",
+        //Bookshelf (No randomization)
+            "mapString.ravenBookshelf_": "A variety of novels and manga are on the bookshelf.",
+        //Crystal
+            "mapString.ravenCrystal_1": "The crystal looks really shiny today.",
+            "mapString.ravenCrystal_2": "The crystal looks dusty today.",
+            "mapString.ravenCrystal_3": "The crystal has specks of mud on it today.",
+            "mapString.ravenCrystal_4": "The crystal has small spiderwebs on it today.",
+        //Mailbox
+            "mapString.ravenMailbox_1": "The mailbox is empty.",
+            "mapString.ravenMailbox_2": "The mailbox has some letters.",
+            "mapString.ravenMailbox_3": "The mailbox has junk mail.",
+        //Trash Bag
+            "mapString.ravenTrashBag_1": "The trash bag is empty.",
+            "mapString.ravenTrashBag_2": "The trash bag is full.",
+            "mapString.ravenTrashBag_3": "The trash bag is half full.",
+            "mapString.ravenTrashBag_4": "The trash bag is half empty.",
+            "mapString.ravenTrashBag_5": "The trash bag is torn.",
+            "mapString.ravenTrashBag_6": "The trash bag is leaking.",
+        //Journal
+            "mapString.ravenJournal_1": "The journal has a page bookmarked. Raven has been drawing!",
+            "mapString.ravenJournal_2": "The journal has a page bookmarked. Raven has been writing sheet music!",
+            "mapString.ravenJournal_3": "The journal has a page bookmarked. Raven has been journaling!",
+            "mapString.ravenJournal_4": "The journal has a page bookmarked. Raven has been writing recipes!",
+        //Stove
+            "mapString.ravenStoveTent_1": "The stove is clean.",
+            "mapString.ravenStoveTent_2": "There are leftovers on the stove.",
+            "mapString.ravenStoveTent_3": "The stove is dirty.",
+        //Stove
+            "mapString.ravenStoveApartment_1": "The stove is clean.",
+            "mapString.ravenStoveApartment_2": "The stove is dirty.",
+        //Logs
+            "mapString.ravenLogs_1": "The log pile is full.",
+            "mapString.ravenLogs_2": "The log pile is getting low.",
+            "mapString.ravenLogs_3": "The log pile is is half full.",
+            "mapString.ravenLogs_4": "The log pile is is half empty.",
+            "mapString.ravenLogs_5": "The log pile smells fresh.",
+        //Fridge
+            "mapString.ravenFridge_1": "The fridge is full of food.",
+            "mapString.ravenFridge_2": "The fridge is getting low on food.",
+            "mapString.ravenFridge_3": "The fridge has food.",
+            "mapString.ravenFridge_4": "The fridge has leftovers.",
+            "mapString.ravenFridge_5": "The fridge smells of spoiled food.",
+        //Computer
+            "mapString.ravenComputer_1": "L0veRaven's Twitch",
+            "mapString.ravenComputer_2": "L0veRaven's Website",
+            "mapString.ravenComputer_3": "L0veRaven's YouTube",
+        //TrashBin
+            "mapString.ravenTrashBin_1": "The trash is empty.",
+            "mapString.ravenTrashBin_2": "The trash is full.",
+            "mapString.ravenTrashBin_3": "The trash is half full.",
+            "mapString.ravenTrashBin_4": "The trash is half empty.",
+        //CoatRack
+            "mapString.ravenCoatRack": "I already stole money from Raven's clothes. It feels wrong to steal again.",
+    //Zayden
+        //Apartment
+            "mapString.fridge": "The fridge is stocked with food. The cheese is low...",
 }

@@ -1,0 +1,20 @@
+{
+    //Raven
+    //Zayden
+        "zayden.gift.accept.bday_Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+        "zayden.gift.accept.bday_Liked": "Thanks for the birthday gift. It's really cool.",
+        "zayden.gift.accept.bday_Hated": "... Thanks for remembering my birthday.$4",
+        "zayden.gift.accept.bday_Disliked": "Oh, uh, thanks for remembering my birthday.",
+        "zayden.gift.accept.bday_Neutral": "Thanks for remembering my birthday.",
+        "zayden.gift.accept.bday": "Thanks for remembering my birthday.",
+
+        "zayden.gift.accept.Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+        "zayden.gift.accept.Liked": "Thanks for the birthday gift. It's really cool.",
+        "zayden.gift.accept.Hated": "... Thanks for remembering my birthday.$4",
+        "zayden.gift.accept.Disliked": "Oh, uh, thanks for remembering my birthday.",
+        "zayden.gift.accept.Neutral": "Thanks for remembering my birthday.",
+        
+        "zayden.gift.accept.Cheese": "Oh, this is for me? I won't let you leave empty-handed. I really appreciate it.#$action AddMoney 500",
+        
+        "zayden.gift.reject.hidden": "Um...#$b#No thanks.$4",
+}
