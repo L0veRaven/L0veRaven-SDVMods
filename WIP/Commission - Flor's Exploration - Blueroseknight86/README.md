@@ -1,56 +1,56 @@
 # Mod Commands
->Reload Mod<br/>
+>Reload Mod
 
 patch reload id
 
->Event 1<br/>
+>Event 1
 
 debug ebi id_confession
 
->Event 2<br/>
+>Event 2
 
 debug ebi id_libraryBook
 
->Event 3<br/>
+>Event 3
 
 debug ebi id_safewordPractice
 
 # RSV Commands
->2 Hearts<br/>
+>2 Hearts
 
 debug ebi 75160128
 
->4 Hearts<br/>
+>4 Hearts
 
 debug ebi 75160129
 
->6 Hearts<br/>
+>6 Hearts
 
 debug ebi 75160130
 
->8 Hearts<br/>
+>8 Hearts
 
 debug ebi 75160225
 
 debug ebi 75160132
 
->10 Hearts<br/>
+>10 Hearts
 
 debug ebi 75160130
 
->14 Hearts<br/>
+>14 Hearts
 
 debug ebi 75160225
 
 debug ebi 75160226
 
-## 2 Heart
+## 2 Heart - Forgot to dress
 ### Scene Start
 debug ebi 75160128
 
 >Oh! Uh... Hello, @.</br>
 
->Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?<br/>
+>Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?
 
 >I was terriby drowsy after my bath...</br>
 
@@ -147,121 +147,121 @@ debug ebi 75160128
 
 >Now.$5
 
-## 4 Heart
+## 4 Heart - Flor trips
 ### Scene Start
 debug ebi 75160129
 
 >Whoa!!</br>
 
->Oww...<br/>
+>Oww...
 
->That hurt...<br/>
+>That hurt...
 
->Huh? @!?<br/>
+>Huh? @!?
 
->You caught me?<br/>
+>You caught me?
 
->I hope I didn't hurt you!<br/>
+>I hope I didn't hurt you!
 
->Umm... T-Thank you.<br/>
+>Umm... T-Thank you.
 
->Oh! I'm sorry!<br/>
+>Oh! I'm sorry!
 
->I'm really sorry!<br/>
+>I'm really sorry!
 
->Oh, I have given you the w-worst impressions of me...<br/>
+>Oh, I have given you the w-worst impressions of me...
 
->Um... I t-think I better go.<br/>
+>Um... I t-think I better go.
 
->I'm a mess...<br/>
+>I'm a mess...
 
->Ouch...<br/>
+>Ouch...
 
->Ow!!<br/>
+>Ow!!
 
->Owww...<br/>
+>Owww...
 
->I think I hurt my ankle...<br/>
+>I think I hurt my ankle...
 
->Can you help me up?<br/>
+>Can you help me up?
 
->Ouch! Ouch!<br/>
+>Ouch! Ouch!
 
->That hurts!<br/>
+>That hurts!
 
->Gently please, @...<br/>
+>Gently please, @...
 
->What did I do to myself now...<br/>
+>What did I do to myself now...
 
->@! Hey! You don't have to carry me! I'm fine!<br/>
+>@! Hey! You don't have to carry me! I'm fine!
 
->Really, I-- Agh!!<br/>
+>Really, I-- Agh!!
 
->M-Maybe I'm not that fine...<br/>
+>M-Maybe I'm not that fine...
 
->Okay, okay... Can you help me to the clinic?<br/>
+>Okay, okay... Can you help me to the clinic?
 
->Making more great impressions, Flor...<br/>
+>Making more great impressions, Flor...
 
->Okay, doctor...<br/>
+>Okay, doctor...
 
->Hey, uh... @?<br/>
+>Hey, uh... @?
 
->Thank you...<br/>
+>Thank you...
 
->I really appreciate you helping me all the way here...<br/>
+>I really appreciate you helping me all the way here...
 
->I should be able to at least get back on my own, now that my ankle's all wrapped up.<br/>
+>I should be able to at least get back on my own, now that my ankle's all wrapped up.
 
->So, um... Thank you.<br/>
+>So, um... Thank you.
 
->And... I'm sorry about all the awkward interactions w-we keep having...<br/>
+>And... I'm sorry about all the awkward interactions w-we keep having...
 
->I really must seem like a terrible mess...<br/>
+>I really must seem like a terrible mess...
 
->So... See you.<br/>
+>So... See you.
 
->Ow.<br/>
+>Ow.
 
->Okay, easy does it...<br/>
+>Okay, easy does it...
 
->What?<br/>
+>What?
 
->Um, I wouldn't mind if you accompanied me back to the hotel... That would actually be really helpful...<br/>
+>Um, I wouldn't mind if you accompanied me back to the hotel... That would actually be really helpful...
 
->Thank you so much, @.<br/>
+>Thank you so much, @.
 
-## 6 Heart
+## 6 Heart - Flor plans research
 ### Scene Start
-debug ebi 75160130
+debug ebi 75160129
 
 >Hm?</br>
 
->Oh! ... I'm sorry, I was lost in thought.<br/>
+>Oh! ... I'm sorry, I was lost in thought.
 
->Um... I'm actually trying ot figure something out.<br/>
+>Um... I'm actually trying to figure something out.
 
->Well, um... So...<br/>
+>Well, um... So...
 
->I've been inspired by a recent publication about interactions between peers with the same interests.<br/>
+>I've been inspired by a recent publication about interactions between peers with the same interests.
 
->I want to explore a similar research question, but wiht different subjects.<br/>
+>I want to explore a similar research question, but wiht different subjects.
 
->Come take a look at this.<br/>
+>Come take a look at this.
 
->So, um... I plan to use a similar protocol, but instead of peers with the same interests...<br/>
+>So, um... I plan to use a similar protocol, but instead of peers with the same interests...
 
->... I'll have peers with different interests try to converse with one another.<br/>
+>... I'll have peers with different interests try to converse with one another.
 
->I'll tell them to find *something* to talk about, anything, but otherwise leave them alone and see how they start a conversation. How long will it take?<br/>
+>I'll tell them to find *something* to talk about, anything, but otherwise leave them alone and see how they start a conversation. How long will it take?
 
->What will they talk about? What if they don't talk at all? Would people rather sit in silence than talk about something superficial?<br/>
+>What will they talk about? What if they don't talk at all? Would people rather sit in silence than talk about something superficial?
 
->Oh, excuse me for a moment.<br/>
+>Oh, excuse me for a moment.
 
->I get a migraine when I wear these for too long<br/>
+>I get a migraine when I wear these for too long
 
->So, as I was saying...<br/>
+>So, as I was saying...
 
 #### Flor goes into detail about the experiment she's planning. She seems nervous at first, as if she thinks she's boring you... but when you keep listening and then start to ask questions, she gets mroe and more enthusiastic.
 
@@ -271,74 +271,212 @@ debug ebi 75160130
 
 #### Eventually, seeming to realize that she's been making direct eye contact for a while, she trails off self-consciouslly and ducks behind her book again.
 
->Um, I'm sorry if I got carried away there...<br/>
+>Um, I'm sorry if I got carried away there...
 
->I know that was a  lot to unload on you when this isn't even your field... I mean, your field *of expertise*, not... with the crops... um...<br/>
+>I know that was a  lot to unload on you when this isn't even your field... I mean, your field *of expertise*, not... with the crops... um...
 
->So! Um... @...<br/>
+>So! Um... @...
 
->I... I was hoping you'd... You'd he-help me... with my... um...<br/>
+>I... I was hoping you'd... You'd he-help me... with my... um...
 
->Research... this research, I mean!<br/>
+>Research... this research, I mean!
 
->I... don't know anyone else well enough to ask them... so, um...<br/>
+>I... don't know anyone else well enough to ask them... so, um...
 
->Plea-please, @... I mean! If it's not an imposition...<br/>
+>Plea-please, @... I mean! If it's not an imposition...
 
->You will?! Thank you, @! I really appreciate this!<br/>
+>You will?! Thank you, @! I really appreciate this!
 
 #### Flor smiles, relieved.
 
->Um, I'll send you a letter when I've got all the forms and things ready...<br/>
+>Um, I'll send you a letter when I've got all the forms and things ready...
 
->I'm sorry for being so awkward. It's... it's hard for me to tell when I'm overstepping, um, socially...<br/>
+>I'm sorry for being so awkward. It's... it's hard for me to tell when I'm overstepping, um, socially...
 
->So... I hope to see you soon, @...<br/>
+>So... I hope to see you soon, @...
 
->And... um... yeah!<br/>
+>And... um... yeah!
 
 #### Flor whispers to herself:
->Calm down! It went fine. Everything's fine!<br/>
+>Calm down! It went fine. Everything's fine!
 
->Why do I always do this?<br/>
+>Why do I always do this?
 
-## 8 Heart - Part 1
-### Scene Start
-debug ebi 75160225
->___</br>
-
->___<br/>
-#### Response 1
-
-## 8 Heart - Part 2
+## 8 Heart - Flor's research (Romantic)
 ### Scene Start
 debug ebi 75160132
->___</br>
 
->___<br/>
-#### Response 1
+>Okay. All set!</br>
 
-## 10 Heart
+>@, thank you for agreeing to help me with this! You'll be acting as an independent observer.
+
+>That means you and I will record data about the participants' conversations separately. I've created a form we can use to standardize our observations.
+
+>When assessing subjective criteria, it's important to have multiple observers so the results aren't influenced by any one experimenter's cognitive biases.
+
+>Ready? Let's begin!
+
+>Welcome, Shane. Welcome, Ysabelle.
+
+>Today, the two of you will...
+
+#### Flor reads our a set of pre-written instructions.
+
+>That won't be a problem.
+
+>Go on, don't be shy. Talk about anything you want for the next 15 minutes.
+
+>Hmm... Interesting...
+
+#### Flor is intrigued.
+
+>... I still need to run a statistical analysis, but my preliminary conclusion... is that, um...
+
+>Ugh... I feel a migraine coming on.
+
+>Oh! Thank you, @.
+
+>There...
+
+>I can take those back n--
+
+>Whoa!
+
+#### Flor trips on a rock and lands in your arms.
+
+>Oh! Again!? ...
+
+>Thank... Thank you for catching me...
+
+>I'm sorry I'm so clumsy...
+
+>Hehe... Remember that time I fell down those stairs? You caught me then, too...
+
+>Um... @...
+
+>I, um...
+
+>Would... Would it be okay if I kissed you?
+
+>I'm so glad we're together, @.
+
+>Physical touch can be overwhelming for me... But I don't always mind it when it's you.
+
+>I'm sorry, I'm not good at expressing these things. I'm usually the one listening to someone else talk about their feelings...
+
+>But, um... I'll put it this way. I was about to tell you the preliminary conclusion to my research.
+
+>Every person has their own unique combination of traits, history, interests and personality...
+
+>And yet, even two individuals who are different in all of these respects can still connect, sometimes in unpredictable ways.
+
+>Like... Like how I got to connect with you.
+
+#### Flor seems to have become quite comfortable with you. And it sounds like her experiment was a success, too!
+
+## 10 Heart - Flor locks herself out
 ### Scene Start
-debug ebi 75160130
->___</br>
-
->___<br/>
+debug ebi 75160133
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
+>___
 #### Response 1
 
-## 14 Heart - Part 1
+## 14 Heart - Flor's insecure - Part 1
 ### Scene Start
 debug ebi 75160225
 >___</br>
 
->___<br/>
+>___
 #### Response 1
 
-## 14 Heart - Part 2
+## 14 Heart - Flor's Date - Part 2
 ### Scene Start
 debug ebi 75160226
 >___</br>
 
->___<br/>
+>___
 #### Response 1
 ```
