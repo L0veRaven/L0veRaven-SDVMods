@@ -235,52 +235,72 @@ debug ebi 75160129
 ### Scene Start
 debug ebi 75160130
 
->___</br>
+>Hm?</br>
 
->___<br/>
+>Oh! ... I'm sorry, I was lost in thought.<br/>
 
->___<br/>
+>Um... I'm actually trying ot figure something out.<br/>
 
->___<br/>
+>Well, um... So...<br/>
 
->___<br/>
+>I've been inspired by a recent publication about interactions between peers with the same interests.<br/>
 
->___<br/>
+>I want to explore a similar research question, but wiht different subjects.<br/>
 
->___<br/>
+>Come take a look at this.<br/>
 
->___<br/>
+>So, um... I plan to use a similar protocol, but instead of peers with the same interests...<br/>
 
->___<br/>
+>... I'll have peers with different interests try to converse with one another.<br/>
 
->___<br/>
+>I'll tell them to find *something* to talk about, anything, but otherwise leave them alone and see how they start a conversation. How long will it take?<br/>
 
->___<br/>
+>What will they talk about? What if they don't talk at all? Would people rather sit in silence than talk about something superficial?<br/>
 
->___<br/>
+>Oh, excuse me for a moment.<br/>
 
->___<br/>
+>I get a migraine when I wear these for too long<br/>
 
->___<br/>
+>So, as I was saying...<br/>
 
->___<br/>
+#### Flor goes into detail about the experiment she's planning. She seems nervous at first, as if she thinks she's boring you... but when you keep listening and then start to ask questions, she gets mroe and more enthusiastic.
 
->___<br/>
+#### As she's explaining the trickier points of designing ethical social experiments, she locks eyes with you and -- unusually for her -- doesn't immediately look away.
 
->___<br/>
+#### You're struck by how vulnerable she seems. You're seeing her eyes without thte barrier of her glasses; but more than that, you're seeing her passion, unchecked and unfiltered.
 
->___<br/>
+#### Eventually, seeming to realize that she's been making direct eye contact for a while, she trails off self-consciouslly and ducks behind her book again.
 
->___<br/>
+>Um, I'm sorry if I got carried away there...<br/>
 
->___<br/>
+>I know that was a  lot to unload on you when this isn't even your field... I mean, your field *of expertise*, not... with the crops... um...<br/>
 
->___<br/>
+>So! Um... @...<br/>
 
->___<br/>
+>I... I was hoping you'd... You'd he-help me... with my... um...<br/>
 
->___<br/>
-#### Response 1
+>Research... this research, I mean!<br/>
+
+>I... don't know anyone else well enough to ask them... so, um...<br/>
+
+>Plea-please, @... I mean! If it's not an imposition...<br/>
+
+>You will?! Thank you, @! I really appreciate this!<br/>
+
+#### Flor smiles, relieved.
+
+>Um, I'll send you a letter when I've got all the forms and things ready...<br/>
+
+>I'm sorry for being so awkward. It's... it's hard for me to tell when I'm overstepping, um, socially...<br/>
+
+>So... I hope to see you soon, @...<br/>
+
+>And... um... yeah!<br/>
+
+#### Flor whispers to herself:
+>Calm down! It went fine. Everything's fine!<br/>
+
+>Why do I always do this?<br/>
 
 ## 8 Heart - Part 1
 ### Scene Start
