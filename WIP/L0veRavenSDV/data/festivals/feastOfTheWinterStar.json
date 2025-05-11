@@ -13,25 +13,25 @@
                             "Value": "{{Raven}} 38 68 left",
                             "Delimiter": "/"
                         },
-                        //ADD{//Set Up: Year 2
-                            //ADD"Operation": "Append",
-                            //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} 38 68 left",
-                            //ADD"Delimiter": "/"
-                        //ADD},
-                    //Year 2
                         {//Secret Santa: Year 1
                             "Operation": "Append",
                             "Target": ["Entries", "SecretSanta_additionalCharacters"],
                             "Value": "{{Raven}} 38 68 left",
                             "Delimiter": "/"
                         },
-                        //ADD{//Secret Santa: Year 2
-                            //ADD"Operation": "Append",
-                            //ADD"Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} 38 68 left",
-                            //ADD"Delimiter": "/"
-                        //ADD},
+                    //Year 2
+                        {//Set Up: Year 2
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            "Value": "{{Raven}} 24 76 left",
+                            "Delimiter": "/"
+                        },
+                        {//Secret Santa: Year 2
+                            "Operation": "Append",
+                            "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                            "Value": "{{Raven}} 24 76 left",
+                            "Delimiter": "/"
+                        },
                 //Zayden
                     //Year 1
                         {//Set Up

@@ -22,7 +22,7 @@ debug ebi 75160128
 
 >4 Hearts<br/>
 
-debig ebi 75160129
+debug ebi 75160129
 
 >6 Hearts<br/>
 
@@ -146,16 +146,59 @@ debug ebi 75160226
 >Now.$5
 
 ## 4 Heart
+### Scene Start
+debug ebi 75160129
+
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 6 Heart
+### Scene Start
+debug ebi 75160130
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 8 Heart - Part 1
+### Scene Start
+debug ebi 75160225
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 8 Heart - Part 2
+### Scene Start
+debug ebi 75160132
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 10 Heart
+### Scene Start
+debug ebi 75160130
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 14 Heart - Part 1
+### Scene Start
+debug ebi 75160225
+>...</br>
+
+>...<br/>
+#### Response 1
 
 ## 14 Heart - Part 2
+### Scene Start
+debug ebi 75160226
+>...</br>
+
+>...<br/>
+#### Response 1
 ```

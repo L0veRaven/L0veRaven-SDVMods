@@ -265,12 +265,6 @@
     ],
 
     "Changes": [
-        //Delete on Release
-            {
-                "LogName": "DELETE ON RELEASE",
-                "Action": "Include",
-                "FromFile": "DELETE_eventExcludes.json, data/modCompat/cjbCheats.json"
-            },
         //Data/Objects
             {
                 "LogName": "[Data/Objects] Custom ContextTags",
@@ -365,6 +359,12 @@
                 "LogName": "[Dialogue] Zayden - Includes",
                 "Action": "Include",
                 "FromFile": "data/dialogue/zayden_dialogue.json, data/dialogue/zayden_giftResponses.json, data/dialogue/zayden_scheduleStrings.json"
+            },
+        //Delete on Release
+            {
+                "LogName": "DELETE ON RELEASE",
+                "Action": "Include",
+                "FromFile": "DELETE_eventExcludes.json, data/modCompat/cjbCheats.json"
             }
     ]
 }
