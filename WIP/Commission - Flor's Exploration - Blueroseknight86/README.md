@@ -46,6 +46,8 @@ debug ebi 75160226
 
 ## 2 Heart
 ### Scene Start
+debug ebi 75160128
+
 >Oh! Uh... Hello, @.</br>
 
 >Um... I'm so sorry, but I must have fallen asleep... I was reading a fascinating book on sequelae of specific adolescent adverse events... I probably wandered out here to get something..?<br/>
@@ -149,56 +151,174 @@ debug ebi 75160226
 ### Scene Start
 debug ebi 75160129
 
->...</br>
+>Whoa!!</br>
 
->...<br/>
-#### Response 1
+>Oww...<br/>
+
+>That hurt...<br/>
+
+>Huh? @!?<br/>
+
+>You caught me?<br/>
+
+>I hope I didn't hurt you!<br/>
+
+>Umm... T-Thank you.<br/>
+
+>Oh! I'm sorry!<br/>
+
+>I'm really sorry!<br/>
+
+>Oh, I have given you the w-worst impressions of me...<br/>
+
+>Um... I t-think I better go.<br/>
+
+>I'm a mess...<br/>
+
+>Ouch...<br/>
+
+>Ow!!<br/>
+
+>Owww...<br/>
+
+>I think I hurt my ankle...<br/>
+
+>Can you help me up?<br/>
+
+>Ouch! Ouch!<br/>
+
+>That hurts!<br/>
+
+>Gently please, @...<br/>
+
+>What did I do to myself now...<br/>
+
+>@! Hey! You don't have to carry me! I'm fine!<br/>
+
+>Really, I-- Agh!!<br/>
+
+>M-Maybe I'm not that fine...<br/>
+
+>Okay, okay... Can you help me to the clinic?<br/>
+
+>Making more great impressions, Flor...<br/>
+
+>Okay, doctor...<br/>
+
+>Hey, uh... @?<br/>
+
+>Thank you...<br/>
+
+>I really appreciate you helping me all the way here...<br/>
+
+>I should be able to at least get back on my own, now that my ankle's all wrapped up.<br/>
+
+>So, um... Thank you.<br/>
+
+>And... I'm sorry about all the awkward interactions w-we keep having...<br/>
+
+>I really must seem like a terrible mess...<br/>
+
+>So... See you.<br/>
+
+>Ow.<br/>
+
+>Okay, easy does it...<br/>
+
+>What?<br/>
+
+>Um, I wouldn't mind if you accompanied me back to the hotel... That would actually be really helpful...<br/>
+
+>Thank you so much, @.<br/>
 
 ## 6 Heart
 ### Scene Start
 debug ebi 75160130
->...</br>
 
->...<br/>
+>... </br>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
+
+>... <br/>
 #### Response 1
 
 ## 8 Heart - Part 1
 ### Scene Start
 debug ebi 75160225
->...</br>
+>... </br>
 
->...<br/>
+>... <br/>
 #### Response 1
 
 ## 8 Heart - Part 2
 ### Scene Start
 debug ebi 75160132
->...</br>
+>... </br>
 
->...<br/>
+>... <br/>
 #### Response 1
 
 ## 10 Heart
 ### Scene Start
 debug ebi 75160130
->...</br>
+>... </br>
 
->...<br/>
+>... <br/>
 #### Response 1
 
 ## 14 Heart - Part 1
 ### Scene Start
 debug ebi 75160225
->...</br>
+>... </br>
 
->...<br/>
+>... <br/>
 #### Response 1
 
 ## 14 Heart - Part 2
 ### Scene Start
 debug ebi 75160226
->...</br>
+>... </br>
 
->...<br/>
+>... <br/>
 #### Response 1
 ```
