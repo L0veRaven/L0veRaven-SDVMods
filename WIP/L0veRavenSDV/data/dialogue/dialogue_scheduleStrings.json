@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "scheduleDialogue.json",
+            "LogName": "[Strings/schedules] - Raven",
             "Action": "EditData",
             "Target": "Strings/schedules/{{Raven}}",
             "Entries": {
@@ -9,6 +9,14 @@
                 "Saloon.001": "{{i18n:raven.scheduleDialogue.relaxSaloon_{{Random:{{Range:1,2}}}}}}",
                 "Saloon.002": "{{i18n:raven.scheduleDialogue.workSaloon_{{Random:{{Range:1,2}}}}}}",
                 "SeedShop.001": "{{i18n:raven.scheduleDialogue.seedShop.shopping_{{Random:{{Range:1,2}}}}}}"
+            }
+        },
+        {
+            "LogName": "[Strings/schedules] - Zayden",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Zayden}}",
+            "Entries": {
+                "JojaMart.001": "{{i18n:zayden.scheduleDialogue.JojaMart_001}}"
             }
         }
     ]
