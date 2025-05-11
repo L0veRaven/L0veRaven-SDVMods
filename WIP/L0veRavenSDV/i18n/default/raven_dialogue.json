@@ -1,5 +1,12 @@
 {
-    //file:dialogue.json
+    //{{RavenMedicationPickupDialogue}}
+        //Spring, Summer, Fall
+            "raven.dialogue.medicationPickup.dayOf_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
+            "raven.dialogue.medicationPickup.dayOf_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
+        //Winter
+            "raven.dialogue.medicationPickup.birthday.dayOf_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
+            "raven.dialogue.medicationPickup.birthday.dayOf_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
+    //Generic (Tue, Sun)
         "raven.dialogue.generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
         "raven.dialogue.generic_2": "%Raven says nothing but nods their head at you with a big smile.#$b#!$1",
         "raven.dialogue.generic_3": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
@@ -12,288 +19,297 @@
         "raven.dialogue.generic_10": "My feet are really sore today. I should take it easy.$2",
         "raven.dialogue.generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
         "raven.dialogue.generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
+    //First of Season
+        //Spring
+            "raven.dialogue.spring.first_1": "The sudden shift in weather always throws me off, but it's nice to finally get a break from the harsh winter.",
+            "raven.dialogue.spring.first_2": "It's such a relief to not have to deal with how cold the snow is.$1#$b#I'm gonna miss watching the snow fall, though.$2",
+            "raven.dialogue.spring.first_3": "Now that it's spring, it's time for me to start my spring cleaning!$1#$e#Do you think you'll do spring cleaning this year?",
+            "raven.dialogue.spring.first_4": "Finally! We can see nature thrive again.$1#$b#It's kinda boring just seeing a bunch of snow everywhere all the time. Flowers help give nature life!",
+        //Summer
+            "raven.dialogue.summer.first_1": "Uh oh... Get ready for the heat.$12",
+            "raven.dialogue.summer.first_2": "I'm worried that there's gonna be a heatwave this year... We live close to Calico Desert after all.$12",
+            "raven.dialogue.summer.first_3": "The weather is giving me a headache right now... I need to drink some water.$11",
+            "raven.dialogue.summer.first_4": "Stay hydrated, @! It can get dangerous if you don't drink enough water.",
+        //Fall
+            "raven.dialogue.fall.first_1": "Now that it's fall, I can start stomping on all the crunchy leaves!$1",
+            "raven.dialogue.fall.first_2": "I wonder if I can use the dead leaves I find today to fuel the campfire by my tent.$17#$e#My pockets aren't super deep, but it might be worth a shot!$1",
+            "raven.dialogue.fall.first_3": "I think fall is one of the best seasons because it's perfect for getting cozy, but without it being too hot or cold.",
+            "raven.dialogue.fall.first_4": "It's the season of Spirit's Eve! I can't wait for it to time to celebrate again.$3",
+        //Winter
+            "raven.dialogue.winter.first_1": "Winter has officially started. I hope it doesn't get too cold this year.$2#$e#Be sure you have your blankets and heaters ready. It's gonna be chilly!",
+            "raven.dialogue.winter.first_2": "Do you have your warm clothes ready?#$e#It's gonna be a cold season.$2",
+            "raven.dialogue.winter.first_3": "Since today's the first day of winter...#$b#Do you think it's safe for me to eat some of the snow on the ground?$3#$e#Snow tastes so good.$1",
+            "raven.dialogue.winter.first_4": "Now that it's winter, make sure you stay warm.#$b#We don't want anyone getting hypothermia.$2",
+    //Seasonal Generic
+        //Spring
+            "raven.dialogue.spring.generic_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
+            "raven.dialogue.spring.generic_2": "My eyes are super itchy. I hate seasonal allergies.$2",
+            "raven.dialogue.spring.generic_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
+            "raven.dialogue.spring.generic_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
+            "raven.dialogue.spring.generic_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
+            "raven.dialogue.spring.generic_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
+            "raven.dialogue.spring.generic_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
+        //Summer
+            "raven.dialogue.summer.generic_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
+            "raven.dialogue.summer.generic_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
+            "raven.dialogue.summer.generic_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
+            "raven.dialogue.summer.generic_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
+            "raven.dialogue.summer.generic_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
+            "raven.dialogue.summer.generic_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
+            "raven.dialogue.summer.generic_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+        //Fall
+            "raven.dialogue.fall.generic_1": "I love feeling the leaves crunch under my feet!$1",
+            "raven.dialogue.fall.generic_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
+            "raven.dialogue.fall.generic_3": "Since fall is normally the season people make wine, I wonder how much is being made right now.$17#$b#I just hope it tastes good!$1",
+            "raven.dialogue.fall.generic_4": "I love how it's not too cold outside today.#$b#It's much better than summer was!$1",
+            "raven.dialogue.fall.generic_5": "If the season of fall was a person, I think we'd be best friends!$1#$b#I connect with nature a lot better during this time of year.",
+            "raven.dialogue.fall.generic_6": "Imagine if instead of water raining from the sky during the fall, it was leaves falling from the sky?$3#$b#I think it'd be nature littering on itself if that were to happen, though.",
+            "raven.dialogue.fall.generic_7": "If you have an extra pumpkin lying around, I could definitely use one.#$b#I love making Jack-o-lanterns!$1",
+        //Winter
+            "raven.dialogue.winter.generic_1": "I love how cold it is today! It feels just right.$1",
+            "raven.dialogue.winter.generic_2": "It's s-so cold t-today.$2#$e#%Raven is shivering a lot.",
+            "raven.dialogue.winter.generic_3": "I ate a bit of snow this morning.#$b#It tastes pretty good!$1#$e#Yes, I avoid snow that's not an... unnatural color.$2#$b#I wouldn't ever wanna touch discolored snow.$11",
+            "raven.dialogue.winter.generic_4": "I don't know why, but the sound of snow falling on top of my tent is annoying.#$b#I never feel that way about rain though.$17",
+            "raven.dialogue.winter.generic_5": "Be sure to stay warm! I wouldn't want you to freeze into a popsicle.",
+            "raven.dialogue.winter.generic_6": "I might build a snowperson today...$17#$b#I'm still deciding.",
+            "raven.dialogue.winter.generic_7": "What's something you enjoy about winter?#$b#I always get curious abouut that kind of thing.$1#$e#That's pretty neat!$1",
+    //Heart Dialogue
+        //0 Hearts
+            "raven.dialogue.0hearts_1": "Some of the people here say that I have a lot to say.#$e#I can't tell if that's supposed to be a bad thing or not, though.$17",
+            "raven.dialogue.0hearts_2": "If you take medications, you can go to Harvey's clinic.#$b#He also sells Ferngill Medical Board approved medications for exhaustion and energy. They work instantly!$1",
+            "raven.dialogue.0hearts_3": "I love the library here. There are so many books!$1$#b#There's not nearly enough fantasy in there though..$2",
+            "raven.dialogue.0hearts_4": "I know it's weird seeing me nap random places, but since I live out of a tent, I either sleep there or wherever else I can.$11#$e#I know living out of a tent isn't the best, but it's not like a house is gonna appear out of nowhere for me.$2#$b#Pelican Town needs more space for housing if they want more people to move in.$$11",
+            "raven.dialogue.0hearts_5": "Mayor Lewis has a strange vibe to him.$17#$b#I don't know what it is, but I feel like he's hiding some secrets.$5#$e#Don't take my word for it though. I could be completely wrong!$11",
+            "raven.dialogue.0hearts_6": "Pelican Town has quite the collection of secrets.#$e#I'm just saying, some people are worth side-eyeing.$17",
+            "raven.dialogue.0hearts_7": "If you ever talk to Clint... Just be careful. He's got an entire incel vibe to him.$2#$b#I figured I'd let you know.^I figured I'd let you know since I know you're his type.$2",
+            "raven.dialogue.0hearts_8": "It'd be nice if Pelican Town had more events. I like when everyone gets together.#$b#It also gives people days off from work.$1",
+            "raven.dialogue.0hearts_9": "Have you been getting along with people in town fine?#$e#That's interesting!$1",
+            "raven.dialogue.0hearts_10": "I work at the Saloon a few days a week. I really enjoy being a janitor there.#$e#Did you know that Gus lets staff sit down? We don't have to stand all the time!$3#$b#It's much better than my previous jobs.#$e#It's not like I spend my whole shift sitting, but if I need a breather, he won't judge us for it.$3",
+        //2 Hearts
+            "raven.query.wildClans": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
+            "raven.dialogue.2hearts_1": "I'm glad we have a library in town. It helps give me more things to do!$1",
+            "raven.dialogue.2hearts_2": "I love how I can learn more about the people in town just from working at the Saloon.#$b#Sometimes you feel bad for some of the people, though.$2",
+            "raven.dialogue.2hearts_3": "How are things going for you today?#$e#My day is just like any other day. Kinda boring.$11",
+            "raven.dialogue.2hearts_4": "Sometimes it's hard to figure out what to talk about since my life is pretty repetitive.$2#$e#When everything is the same all the time, there's nothing new to talk about.$11",
+            "raven.dialogue.2hearts_5": "",
+            "raven.dialogue.2hearts_6": "I've had people tell me that I'm really energetic in odd situations.$17#$b#Doctors and dentists always get confused because I'm so upbeat at appointments.$1",
+            "raven.dialogue.2hearts_7": "I wish there were more frogs here. They're so cool.$1",
+        //4 Hearts
+            "raven.dialogue.4hearts_1": "Sometimes I wonder if I should try to move back to the city again.$17#$b#I don't think I'd be able to afford it, though.$11",
+            "raven.dialogue.4hearts_2": "I'm thinking of also working at Pierre's Seed Shop.$17#$e#Sure, I'm working at the Saloon, but I think I'll be able to pull it off!$1#$b#I'm not certain about it yet, but we'll see.",
+            "raven.dialogue.4hearts_3": "I've been looking at books on managing finances lately, but it's not really that I spend too much money.$2#$b#The problem is that everything I need costs more than it should.$12#$e#At least I don't own a car. Those things are so expensive and break down at the worst times.$11",
+            "raven.dialogue.4hearts_4": "I've been thinking of moving in to the Pelican Valley Loft. It's more affordable than Zuzu City!#$b#The downside is that it'll take longer to move things from my storage unit in the city.$2#$e#I'm saving up my money first though.",
+            "raven.dialogue.4hearts_5": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
+        //6 Hearts
+            "raven.query.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
+            "raven.dialogue.6hearts_1": "*yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2",
+            "raven.dialogue.6hearts_2": "...",
+        //8 Hearts - Platonic
+            "raven.query.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
+            "raven.dialogue.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
+            "raven.dialogue.8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
+        //8 Hearts - Dating
+            "raven.dialogue.8hearts.dating_1": "This might be a lot to ask for, but could you put in a good word for me with Mayor Lewis?#$b#I'm trying to open a coffee shop, but I need him to trust that I'll do what I can to make sure it provides more jobs to people in town, you know?",
+            "raven.dialogue.8hearts.dating_2": "You know how some people in town don't have jobs? Well, I wanna try to change that.#$e#Everyone deserves a shot, even in small towns.",
+        //10 Hearts
+            "raven.dialogue.10hearts_1": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
+            "raven.dialogue.10hearts_2": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
+    //Festivals
+        //Egg Festival
+            "raven.dialogue.eggFestival.dayBefore_1": "Are you ready for the Egg Festival tomorrow?$3#$e#I'm won't join the egg hunt. I have more fun watching people frantically hunt for eggs!$1",
+            "raven.dialogue.eggFestival.dayBefore_2": "Mayor Lewis wanted me to remind you about the Egg Festival in case you forgot to check your mail.$1#$e#There's no pressure for you to participate though.#$b#You're an adult. Live your best life!",
+            "raven.dialogue.eggFestival.dayBefore_3": "It might be a little silly but I'm not feeling the Egg Festival vibe this year.$11#$e#Maybe Harvey needs to adjust my medication dosage or something...$17#$b#Don't mind me. I'm just thinking out loud.$11",
+            "raven.dialogue.eggFestival.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Egg Festival.$11",
 
-        "raven.dialogue.spring.first_1": "The sudden shift in weather always throws me off, but it's nice to finally get a break from the harsh winter.",
-        "raven.dialogue.spring.first_2": "It's such a relief to not have to deal with how cold the snow is.$1#$b#I'm gonna miss watching the snow fall, though.$2",
-        "raven.dialogue.spring.first_3": "Now that it's spring, it's time for me to start my spring cleaning!$1#$e#Do you think you'll do spring cleaning this year?",
-        "raven.dialogue.spring.first_4": "Finally! We can see nature thrive again.$1#$b#It's kinda boring just seeing a bunch of snow everywhere all the time. Flowers help give nature life!",
+            "raven.dialogue.eggFestival.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I can't wait for the Egg Festival to start! It's gonna be so much fun.$1",
+            "raven.dialogue.eggFestival.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I would help set up the festival but I usually just end up getting in the way.$11#$b#It's more effort for people to explain how to get things done to me. It's better if I just stay off to the side during the setup.$12",
+            "raven.dialogue.eggFestival.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Imagine if people gave gifts during the Egg Festival!$1#$e#Would the gift theme just be anything related to eggs? Now I gotta think about it.$17",
+            "raven.dialogue.eggFestival.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Are you gonna come to the Egg Festival today? It'd be awesome if you joined us!$1#$b#I completely understand if you're too busy though.",
 
-        "raven.dialogue.summer.first_1": "Uh oh... Get ready for the heat.$12",
-        "raven.dialogue.summer.first_2": "I'm worried that there's gonna be a heatwave this year... We live close to Calico Desert after all.$12",
-        "raven.dialogue.summer.first_3": "The weather is giving me a headache right now... I need to drink some water.$11",
-        "raven.dialogue.summer.first_4": "Stay hydrated, @! It can get dangerous if you don't drink enough water.",
+            "raven.dialogue.eggFestival.dayAfter_1": "The Egg festival was a ton of fun! I hope you managed to take a plate of food home with you.$1#$e#",
+            "raven.dialogue.eggFestival.dayAfter_2": "Those deviled eggs were so good! I gotta try to convince Gus to sell them at the Saloon.$1#$e#He might need an egg supplier for that though.$17",
+            "raven.dialogue.eggFestival.dayAfter_3": "The festival was pretty exhausting yesterday.$2#$e#I think I just got overwhelmed by being around people for so long.$11#$b#I actually have a limited social battery. I know it's pretty strange for someone like me.$11",
+            "raven.dialogue.eggFestival.dayAfter_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.eggFestival.dayAfter_5": "I think I used my legs way too much yesterday! My legs are hurting so bad right now.$2#$e#I'll definitely need to take it easy today.$11",
+        //Flower Dance
+            "raven.dialogue.flowerDance.dayBefore_1": "No one has asked me to the Flower Dance but I still practice every year just in case.$1",
+            "raven.dialogue.flowerDance.dayBefore_2": "Some people find the Flower Dance to be romantic so asking someone to dance is similar to asking them on a date.#$e#I don't think like that though.$1#$b#If you wanna dance with the homie then dance with the homie!$1",
+            "raven.dialogue.flowerDance.dayBefore_3": "I wanna fast-forward time so the Flower Dance can start finally!$3#$e#I wanna see a performance, not stand here all day.$17",
+            "raven.dialogue.flowerDance.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Flower Dance.$11",
+            "raven.dialogue.flowerDance.dayBefore_5": "How cool would it be if someone had their wedding during the Flower Dance?$6#$e#I feel like it would be super symbolic and romantic.$4",
 
-        "raven.dialogue.fall.first_1": "Now that it's fall, I can start stomping on all the crunchy leaves!$1",
-        "raven.dialogue.fall.first_2": "I wonder if I can use the dead leaves I find today to fuel the campfire by my tent.$17#$e#My pockets aren't super deep, but it might be worth a shot!$1",
-        "raven.dialogue.fall.first_3": "I think fall is one of the best seasons because it's perfect for getting cozy, but without it being too hot or cold.",
-        "raven.dialogue.fall.first_4": "It's the season of Spirit's Eve! I can't wait for it to time to celebrate again.$3",
+            "raven.dialogue.flowerDance.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I can't wait to see the Flower Dance this year! Everyone dances so well.$3",
+            "raven.dialogue.flowerDance.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if anyone will ask to dance with me this year.$1#$b#It probably won't happen. I don't talk to people enough for that to happen.$11",
+            "raven.dialogue.flowerDance.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I bet the food at the Flower Dance is gonna taste good! Gus never lets us down when it comes to catering.$1",
+            "raven.dialogue.flowerDance.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder what I'm gonna wear to the Flower Dance today...$16",
 
-        "raven.dialogue.winter.first_1": "Winter has officially started. I hope it doesn't get too cold this year.$2#$e#Be sure you have your blankets and heaters ready. It's gonna be chilly!",
-        "raven.dialogue.winter.first_2": "Do you have your warm clothes ready?#$e#It's gonna be a cold season.$2",
-        "raven.dialogue.winter.first_3": "Since today's the first day of winter...#$b#Do you think it's safe for me to eat some of the snow on the ground?$3#$e#Snow tastes so good.$1",
-        "raven.dialogue.winter.first_4": "Now that it's winter, make sure you stay warm.#$b#We don't want anyone getting hypothermia.$2",
+            "raven.dialogue.flowerDance.dayAfter_1": "I'm pretty tired from the dance yesterday, but it was so much fun!$1",
+            "raven.dialogue.flowerDance.dayAfter_2": "I wonder who came up with the flower dance in the first place.$17#$b#The movements are very graceful.$1",
+            "raven.dialogue.flowerDance.dayAfter_3": "I wonder how many people are exhausted from the Flower Dance.$17#$b#I always get curious about that kind of thing.",
+        //Luau
+            "raven.dialogue.luau.dayBefore_1": "I wonder what everyone's bringing the Luau tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+            "raven.dialogue.luau.dayBefore_2": "Hopefully it's not too hot this year at the Luau.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+            "raven.dialogue.luau.dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Luau.$11",
 
-        "raven.dialogue.spring.generic_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
-        "raven.dialogue.spring.generic_2": "My eyes are super itchy. I hate seasonal allergies.$2",
-        "raven.dialogue.spring.generic_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
-        "raven.dialogue.spring.generic_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
-        "raven.dialogue.spring.generic_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
-        "raven.dialogue.spring.generic_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
-        "raven.dialogue.spring.generic_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
+            "raven.dialogue.luau.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the Luau before I get there. When I see that food... it's on SIGHT.$1",
+            "raven.dialogue.luau.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if the governor is gonna like the soup at the Luau this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+            "raven.dialogue.luau.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#It's kinda weird to have the governor come by for the Luau every year.$17#$b#I dunno... It just seems odd.$17",
 
-        "raven.dialogue.summer.generic_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
-        "raven.dialogue.summer.generic_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
-        "raven.dialogue.summer.generic_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
-        "raven.dialogue.summer.generic_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
-        "raven.dialogue.summer.generic_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
-        "raven.dialogue.summer.generic_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
-        "raven.dialogue.summer.generic_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+            "raven.dialogue.luau.dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the Luau.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+            "raven.dialogue.luau.dayAfter_2": "The food was absolutely amazing at the Luau yesterday!$1#$e#I wish there was leftovers.$2",
+            "raven.dialogue.luau.dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
+        //Moonlight Jellies
+            "raven.dialogue.moonlightJellies.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.moonlightJellies.dayBefore_2": "I heard the Dance of the Moonlight Jellies is tomorrow! I hope you come watch.$3#$e#It's so beautiful. I wish we could see it happen more than once a year.$1",
+            "raven.dialogue.moonlightJellies.dayBefore_3": "I love going to the Dance of the Moonlight Jellies! Seeing all those colors in the water looks so magical.$1#$e#I hope you decide to go to the festival tomorrow. I promise you'll love it!",
 
-        "raven.dialogue.fall.generic_1": "I love feeling the leaves crunch under my feet!$1",
-        "raven.dialogue.fall.generic_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
-        "raven.dialogue.fall.generic_3": "Since fall is normally the season people make wine, I wonder how much is being made right now.$17#$b#I just hope it tastes good!$1",
-        "raven.dialogue.fall.generic_4": "I love how it's not too cold outside today.#$b#It's much better than summer was!$1",
-        "raven.dialogue.fall.generic_5": "If the season of fall was a person, I think we'd be best friends!$1#$b#I connect with nature a lot better during this time of year.",
-        "raven.dialogue.fall.generic_6": "Imagine if instead of water raining from the sky during the fall, it was leaves falling from the sky?$3#$b#I think it'd be nature littering on itself if that were to happen, though.",
-        "raven.dialogue.fall.generic_7": "If you have an extra pumpkin lying around, I could definitely use one.#$b#I love making Jack-o-lanterns!$1",
+            "raven.dialogue.moonlightJellies.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I can't wait to see the Moonlight Jellies tonight! It's gonna be stunning, I know it.$1",
+            "raven.dialogue.moonlightJellies.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder how many Moonlight Jellies there are in the world. I bet it's a ton!$3",
+            "raven.dialogue.moonlightJellies.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder if anyone is bringing food to the event.$17",
 
-        "raven.dialogue.winter.generic_1": "I love how cold it is today! It feels just right.$1",
-        "raven.dialogue.winter.generic_2": "It's s-so cold t-today.$2#$e#%Raven is shivering a lot.",
-        "raven.dialogue.winter.generic_3": "I ate a bit of snow this morning.#$b#It tastes pretty good!$1#$e#Yes, I avoid snow that's not an... unnatural color.$2#$b#I wouldn't ever wanna touch discolored snow.$11",
-        "raven.dialogue.winter.generic_4": "I don't know why, but the sound of snow falling on top of my tent is annoying.#$b#I never feel that way about rain though.$17",
-        "raven.dialogue.winter.generic_5": "Be sure to stay warm! I wouldn't want you to freeze into a popsicle.",
-        "raven.dialogue.winter.generic_6": "I might build a snowperson today...$17#$b#I'm still deciding.",
-        "raven.dialogue.winter.generic_7": "What's something you enjoy about winter?#$b#I always get curious abouut that kind of thing.$1#$e#That's pretty neat!$1",
+            "raven.dialogue.moonlightJellies.dayAfter_1": "I think I stayed up too late last night. I'm so drowsy.$2",
+            "raven.dialogue.moonlightJellies.dayAfter_2": "There were so many moonlight jellies last night! They were so cool to see in person!$3",
+            "raven.dialogue.moonlightJellies.dayAfter_3": "I love how the weather yesterday was perfect to enjoy watching the moonlight jellies swim by.",
+        //Stardew Valley Fair
+            "raven.dialogue.stardewValleyFair.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.stardewValleyFair.dayBefore_2": "Since the Stardew Valley Fair is tomorrow, I wonder what everyone likes about it.#$e#I know that some people only go to the fair to see the grange displays.#$b#Personally, I go for the carnival games! The fishing one is a blast!$3",
+            "raven.dialogue.stardewValleyFair.dayBefore_3": "I wonder who's gonna enter the grange display contest at the fair tomorrow.$1",
 
-        "raven.dialogue.0hearts_1": "Some of the people here say that I have a lot to say.#$e#I can't tell if that's supposed to be a bad thing or not, though.$17",
-        "raven.dialogue.0hearts_2": "If you take medications, you can go to Harvey's clinic.#$b#He also sells Ferngill Medical Board approved medications for exhaustion and energy. They work instantly!$1",
-        "raven.dialogue.0hearts_3": "I love the library here. There are so many books!$1$#b#There's not nearly enough fantasy in there though..$2",
-        "raven.dialogue.0hearts_4": "I know it's weird seeing me nap random places, but since I live out of a tent, I either sleep there or wherever else I can.$11#$e#I know living out of a tent isn't the best, but it's not like a house is gonna appear out of nowhere for me.$2#$b#Pelican Town needs more space for housing if they want more people to move in.$$11",
-        "raven.dialogue.0hearts_5": "Mayor Lewis has a strange vibe to him.$17#$b#I don't know what it is, but I feel like he's hiding some secrets.$5#$e#Don't take my word for it though. I could be completely wrong!$11",
-        "raven.dialogue.0hearts_6": "Pelican Town has quite the collection of secrets.#$e#I'm just saying, some people are worth side-eyeing.$17",
-        "raven.dialogue.0hearts_7": "If you ever talk to Clint... Just be careful. He's got an entire incel vibe to him.$2#$b#I figured I'd let you know.^I figured I'd let you know since I know you're his type.$2",
-        "raven.dialogue.0hearts_8": "It'd be nice if Pelican Town had more events. I like when everyone gets together.#$b#It also gives people days off from work.$1",
-        "raven.dialogue.0hearts_9": "Have you been getting along with people in town fine?#$e#That's interesting!$1",
-        "raven.dialogue.0hearts_10": "I work at the Saloon a few days a week. I really enjoy being a janitor there.#$e#Did you know that Gus lets staff sit down? We don't have to stand all the time!$3#$b#It's much better than my previous jobs.#$e#It's not like I spend my whole shift sitting, but if I need a breather, he won't judge us for it.$3",
+            "raven.dialogue.stardewValleyFair.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I know that I'll be going to the fair!$1#$b#If you decide to go, are you gonna focus on the carnival games or the grange displays?",
+            "raven.dialogue.stardewValleyFair.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I wonder who's gonna win the grange display contest this year.$3#$e#I guess we'll see!$1",
+            "raven.dialogue.stardewValleyFair.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#Once the fair is over, then everyone will be focusing on Spirit's Eve!$3",
 
-        "raven.query.wildClans": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
-        "raven.dialogue.2hearts_1": "I'm glad we have a library in town. It helps give me more things to do!$1",
-        "raven.dialogue.2hearts_2": "I love how I can learn more about the people in town just from working at the Saloon.#$b#Sometimes you feel bad for some of the people, though.$2",
-        "raven.dialogue.2hearts_3": "How are things going for you today?#$e#My day is just like any other day. Kinda boring.$11",
-        "raven.dialogue.2hearts_4": "Sometimes it's hard to figure out what to talk about since my life is pretty repetitive.$2#$e#When everything is the same all the time, there's nothing new to talk about.$11",
-        "raven.dialogue.2hearts_5": "",
-        "raven.dialogue.2hearts_6": "I've had people tell me that I'm really energetic in odd situations.$17#$b#Doctors and dentists always get confused because I'm so upbeat at appointments.$1",
-        "raven.dialogue.2hearts_7": "I wish there were more frogs here. They're so cool.$1",
+            "raven.dialogue.stardewValleyFair.dayAfter_1": "I used up a lot of my energy yesterday, but I'm all good!$1#$e#I spent a lot of time at the fishing game.#$b#The guy running the booth probably got confused about me being there for over an hour straight.$11",
+            "raven.dialogue.stardewValleyFair.dayAfter_2": "The grange displays were really amazing this year!$1#$b#I bet next year will be even better$3",
+            "raven.dialogue.stardewValleyFair.dayAfter_3": "I wonder how long it took for everyone to pack up when the festival ended.$17#$b#The clown probably was the first to leave since they didn't have many props.",
+        //Spirits Eve
+            "raven.dialogue.spiritsEve.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.spiritsEve.dayBefore_2": "I have a big collection of costumes for Spirit's Eve.#$e#I bet you can't guess what I'll wear tomorrow.$1",
+            "raven.dialogue.spiritsEve.dayBefore_3": "Spirit's Eve is tomorrow! I'm always excited for it.$1#$e#It's always fun embracing the spookier parts of life, you know?",
 
-        "raven.dialogue.4hearts_1": "Sometimes I wonder if I should try to move back to the city again.$17#$b#I don't think I'd be able to afford it, though.$11",
-        "raven.dialogue.4hearts_2": "I'm thinking of also working at Pierre's Seed Shop.$17#$e#Sure, I'm working at the Saloon, but I think I'll be able to pull it off!$1#$b#I'm not certain about it yet, but we'll see.",
-        "raven.dialogue.4hearts_3": "I've been looking at books on managing finances lately, but it's not really that I spend too much money.$2#$b#The problem is that everything I need costs more than it should.$12#$e#At least I don't own a car. Those things are so expensive and break down at the worst times.$11",
-        "raven.dialogue.4hearts_4": "I've been thinking of moving in to the Pelican Valley Loft. It's more affordable than Zuzu City!#$b#The downside is that it'll take longer to move things from my storage unit in the city.$2#$e#I'm saving up my money first though.",
-        "raven.dialogue.4hearts_5": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
+            "raven.dialogue.spiritsEve.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder what people are bringing for Spirit's Eve.#$b#Or is Gus the one catering everything?#$b#No one tells me these things.$11",
+            "raven.dialogue.spiritsEve.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#It's Spirit's Eve! It's Spirit's Eve!$3",
+            "raven.dialogue.spiritsEve.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder who's gonna wear costumes this year...",
 
-        "raven.query.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
-        "raven.dialogue.6hearts_1": "*yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2",
-        "raven.dialogue.6hearts_2": "...",
+            "raven.dialogue.spiritsEve.dayAfter_1": "I definitely stayed up too late last night. I'm all kinds of drowsy right now.$2",
+            "raven.dialogue.spiritsEve.dayAfter_2": "Damn, that food was so good! I'm glad I didn't skip Spirit's Eve this year.$1",
+            "raven.dialogue.spiritsEve.dayAfter_3": "I'm so full from last night's food, but it was totally worth it.$1",
+        //Festival of Ice
+            "raven.dialogue.festivalOfIce.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.festivalOfIce.dayBefore_2": "It'd be cool if Mayor Lewis had a snowperson competition at the Ice Festival! I'd try to make something super cool.$3#$e#I'd probaby make something cursed.$1#$b#Like a monster that only has two legs, a torso, and a head with one eye!$3",
+            "raven.dialogue.festivalOfIce.dayBefore_3": "Maybe one of these days I'll do the ice fishing competition at the Ice Festival.#$e#I'll need a fishing pole, though.$2",
 
-        "raven.query.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
-        "raven.dialogue.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
-        "raven.dialogue.8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
+            "raven.dialogue.festivalOfIce.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#The weather is perfect for the Ice Festival!$1",
+            "raven.dialogue.festivalOfIce.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I wonder who's gonna win the fishing competition this year!$1",
+            "raven.dialogue.festivalOfIce.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I'll be busy building snowpeople at the festival.#$b#I wonder what they're gonna look like.$1",
 
-        "raven.dialogue.8hearts.dating_1": "This might be a lot to ask for, but could you put in a good word for me with Mayor Lewis?#$b#I'm trying to open a coffee shop, but I need him to trust that I'll do what I can to make sure it provides more jobs to people in town, you know?",
-        "raven.dialogue.8hearts.dating_2": "You know how some people in town don't have jobs? Well, I wanna try to change that.#$e#Everyone deserves a shot, even in small towns.",
+            "raven.dialogue.festivalOfIce.dayAfter_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
+            "raven.dialogue.festivalOfIce.dayAfter_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
+            "raven.dialogue.festivalOfIce.dayAfter_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
+        //Feast of the Winter Star
+            "raven.dialogue.feastOfTheWinterStar.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+            "raven.dialogue.feastOfTheWinterStar.dayBefore_2": "I wonder what everyone's getting for the Winter Star.#$e#I wonder who my secret gift-giver is.$1",
+            "raven.dialogue.feastOfTheWinterStar.dayBefore_3": "I can't wait to see everyone at the festival tomorrow.$3#$b#I miss hanging out with the people in town.$2",
 
-        "raven.dialogue.10hearts_1": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
-        "raven.dialogue.10hearts_2": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
+            "raven.dialogue.feastOfTheWinterStar.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I can't wait to see everyone today.$1",
+            "raven.dialogue.feastOfTheWinterStar.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder what food is gonna be there this year.$3",
+            "raven.dialogue.feastOfTheWinterStar.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder who my secret gift-giver is!$3",
 
-        "raven.dialogue.eggFestival.dayBefore_1": "Are you ready for the Egg Festival tomorrow?$3#$e#I'm won't join the egg hunt. I have more fun watching people frantically hunt for eggs!$1",
-        "raven.dialogue.eggFestival.dayBefore_2": "Mayor Lewis wanted me to remind you about the Egg Festival in case you forgot to check your mail.$1#$e#There's no pressure for you to participate though.#$b#You're an adult. Live your best life!",
-        "raven.dialogue.eggFestival.dayBefore_3": "It might be a little silly but I'm not feeling the Egg Festival vibe this year.$11#$e#Maybe Harvey needs to adjust my medication dosage or something...$17#$b#Don't mind me. I'm just thinking out loud.$11",
-        "raven.dialogue.eggFestival.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Egg Festival.$11",
-
-        "raven.dialogue.eggFestival.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I can't wait for the Egg Festival to start! It's gonna be so much fun.$1",
-        "raven.dialogue.eggFestival.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I would help set up the festival but I usually just end up getting in the way.$11#$b#It's more effort for people to explain how to get things done to me. It's better if I just stay off to the side during the setup.$12",
-        "raven.dialogue.eggFestival.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Imagine if people gave gifts during the Egg Festival!$1#$e#Would the gift theme just be anything related to eggs? Now I gotta think about it.$17",
-        "raven.dialogue.eggFestival.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Are you gonna come to the Egg Festival today? It'd be awesome if you joined us!$1#$b#I completely understand if you're too busy though.",
-
-        "raven.dialogue.eggFestival.dayAfter_1": "The Egg festival was a ton of fun! I hope you managed to take a plate of food home with you.$1#$e#",
-        "raven.dialogue.eggFestival.dayAfter_2": "Those deviled eggs were so good! I gotta try to convince Gus to sell them at the Saloon.$1#$e#He might need an egg supplier for that though.$17",
-        "raven.dialogue.eggFestival.dayAfter_3": "The festival was pretty exhausting yesterday.$2#$e#I think I just got overwhelmed by being around people for so long.$11#$b#I actually have a limited social battery. I know it's pretty strange for someone like me.$11",
-        "raven.dialogue.eggFestival.dayAfter_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.eggFestival.dayAfter_5": "I think I used my legs way too much yesterday! My legs are hurting so bad right now.$2#$e#I'll definitely need to take it easy today.$11",
-
-        "raven.dialogue.flowerDance.dayBefore_1": "No one has asked me to the Flower Dance but I still practice every year just in case.$1",
-        "raven.dialogue.flowerDance.dayBefore_2": "Some people find the Flower Dance to be romantic so asking someone to dance is similar to asking them on a date.#$e#I don't think like that though.$1#$b#If you wanna dance with the homie then dance with the homie!$1",
-        "raven.dialogue.flowerDance.dayBefore_3": "I wanna fast-forward time so the Flower Dance can start finally!$3#$e#I wanna see a performance, not stand here all day.$17",
-        "raven.dialogue.flowerDance.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Flower Dance.$11",
-        "raven.dialogue.flowerDance.dayBefore_5": "How cool would it be if someone had their wedding during the Flower Dance?$6#$e#I feel like it would be super symbolic and romantic.$4",
-
-        "raven.dialogue.flowerDance.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I can't wait to see the Flower Dance this year! Everyone dances so well.$3",
-        "raven.dialogue.flowerDance.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if anyone will ask to dance with me this year.$1#$b#It probably won't happen. I don't talk to people enough for that to happen.$11",
-        "raven.dialogue.flowerDance.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I bet the food at the Flower Dance is gonna taste good! Gus never lets us down when it comes to catering.$1",
-        "raven.dialogue.flowerDance.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder what I'm gonna wear to the Flower Dance today...$16",
-
-        "raven.dialogue.flowerDance.dayAfter_1": "I'm pretty tired from the dance yesterday, but it was so much fun!$1",
-        "raven.dialogue.flowerDance.dayAfter_2": "I wonder who came up with the flower dance in the first place.$17#$b#The movements are very graceful.$1",
-        "raven.dialogue.flowerDance.dayAfter_3": "I wonder how many people are exhausted from the Flower Dance.$17#$b#I always get curious about that kind of thing.",
-
-        "raven.dialogue.luau.dayBefore_1": "I wonder what everyone's bringing the Luau tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
-        "raven.dialogue.luau.dayBefore_2": "Hopefully it's not too hot this year at the Luau.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
-        "raven.dialogue.luau.dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Luau.$11",
-
-        "raven.dialogue.luau.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the Luau before I get there. When I see that food... it's on SIGHT.$1",
-        "raven.dialogue.luau.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if the governor is gonna like the soup at the Luau this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
-        "raven.dialogue.luau.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#It's kinda weird to have the governor come by for the Luau every year.$17#$b#I dunno... It just seems odd.$17",
-
-        "raven.dialogue.luau.dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the Luau.$2#$e#I should've listened to Gus when he told me to slow down.$12",
-        "raven.dialogue.luau.dayAfter_2": "The food was absolutely amazing at the Luau yesterday!$1#$e#I wish there was leftovers.$2",
-        "raven.dialogue.luau.dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
-
-        "raven.dialogue.moonlightJellies.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.moonlightJellies.dayBefore_2": "I heard the Dance of the Moonlight Jellies is tomorrow! I hope you come watch.$3#$e#It's so beautiful. I wish we could see it happen more than once a year.$1",
-        "raven.dialogue.moonlightJellies.dayBefore_3": "I love going to the Dance of the Moonlight Jellies! Seeing all those colors in the water looks so magical.$1#$e#I hope you decide to go to the festival tomorrow. I promise you'll love it!",
-
-        "raven.dialogue.moonlightJellies.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I can't wait to see the Moonlight Jellies tonight! It's gonna be stunning, I know it.$1",
-        "raven.dialogue.moonlightJellies.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder how many Moonlight Jellies there are in the world. I bet it's a ton!$3",
-        "raven.dialogue.moonlightJellies.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder if anyone is bringing food to the event.$17",
-
-        "raven.dialogue.moonlightJellies.dayAfter_1": "I think I stayed up too late last night. I'm so drowsy.$2",
-        "raven.dialogue.moonlightJellies.dayAfter_2": "There were so many moonlight jellies last night! They were so cool to see in person!$3",
-        "raven.dialogue.moonlightJellies.dayAfter_3": "I love how the weather yesterday was perfect to enjoy watching the moonlight jellies swim by.",
-
-        "raven.dialogue.stardewValleyFair.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.stardewValleyFair.dayBefore_2": "Since the Stardew Valley Fair is tomorrow, I wonder what everyone likes about it.#$e#I know that some people only go to the fair to see the grange displays.#$b#Personally, I go for the carnival games! The fishing one is a blast!$3",
-        "raven.dialogue.stardewValleyFair.dayBefore_3": "I wonder who's gonna enter the grange display contest at the fair tomorrow.$1",
-
-        "raven.dialogue.stardewValleyFair.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I know that I'll be going to the fair!$1#$b#If you decide to go, are you gonna focus on the carnival games or the grange displays?",
-        "raven.dialogue.stardewValleyFair.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I wonder who's gonna win the grange display contest this year.$3#$e#I guess we'll see!$1",
-        "raven.dialogue.stardewValleyFair.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#Once the fair is over, then everyone will be focusing on Spirit's Eve!$3",
-
-        "raven.dialogue.stardewValleyFair.dayAfter_1": "I used up a lot of my energy yesterday, but I'm all good!$1#$e#I spent a lot of time at the fishing game.#$b#The guy running the booth probably got confused about me being there for over an hour straight.$11",
-        "raven.dialogue.stardewValleyFair.dayAfter_2": "The grange displays were really amazing this year!$1#$b#I bet next year will be even better$3",
-        "raven.dialogue.stardewValleyFair.dayAfter_3": "I wonder how long it took for everyone to pack up when the festival ended.$17#$b#The clown probably was the first to leave since they didn't have many props.",
-
-        "raven.dialogue.spiritsEve.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.spiritsEve.dayBefore_2": "I have a big collection of costumes for Spirit's Eve.#$e#I bet you can't guess what I'll wear tomorrow.$1",
-        "raven.dialogue.spiritsEve.dayBefore_3": "Spirit's Eve is tomorrow! I'm always excited for it.$1#$e#It's always fun embracing the spookier parts of life, you know?",
-
-        "raven.dialogue.spiritsEve.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder what people are bringing for Spirit's Eve.#$b#Or is Gus the one catering everything?#$b#No one tells me these things.$11",
-        "raven.dialogue.spiritsEve.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#It's Spirit's Eve! It's Spirit's Eve!$3",
-        "raven.dialogue.spiritsEve.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder who's gonna wear costumes this year...",
-
-        "raven.dialogue.spiritsEve.dayAfter_1": "I definitely stayed up too late last night. I'm all kinds of drowsy right now.$2",
-        "raven.dialogue.spiritsEve.dayAfter_2": "Damn, that food was so good! I'm glad I didn't skip Spirit's Eve this year.$1",
-        "raven.dialogue.spiritsEve.dayAfter_3": "I'm so full from last night's food, but it was totally worth it.$1",
-
-        "raven.dialogue.festivalOfIce.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.festivalOfIce.dayBefore_2": "It'd be cool if Mayor Lewis had a snowperson competition at the Ice Festival! I'd try to make something super cool.$3#$e#I'd probaby make something cursed.$1#$b#Like a monster that only has two legs, a torso, and a head with one eye!$3",
-        "raven.dialogue.festivalOfIce.dayBefore_3": "Maybe one of these days I'll do the ice fishing competition at the Ice Festival.#$e#I'll need a fishing pole, though.$2",
-
-        "raven.dialogue.festivalOfIce.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#The weather is perfect for the Ice Festival!$1",
-        "raven.dialogue.festivalOfIce.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I wonder who's gonna win the fishing competition this year!$1",
-        "raven.dialogue.festivalOfIce.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I'll be busy building snowpeople at the festival.#$b#I wonder what they're gonna look like.$1",
-
-        "raven.dialogue.festivalOfIce.dayAfter_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
-        "raven.dialogue.festivalOfIce.dayAfter_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
-        "raven.dialogue.festivalOfIce.dayAfter_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
-
-        "raven.dialogue.feastOfTheWinterStar.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
-        "raven.dialogue.feastOfTheWinterStar.dayBefore_2": "I wonder what everyone's getting for the Winter Star.#$e#I wonder who my secret gift-giver is.$1",
-        "raven.dialogue.feastOfTheWinterStar.dayBefore_3": "I can't wait to see everyone at the festival tomorrow.$3#$b#I miss hanging out with the people in town.$2",
-
-        "raven.dialogue.feastOfTheWinterStar.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I can't wait to see everyone today.$1",
-        "raven.dialogue.feastOfTheWinterStar.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder what food is gonna be there this year.$3",
-        "raven.dialogue.feastOfTheWinterStar.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder who my secret gift-giver is!$3",
-
-        "raven.dialogue.feastOfTheWinterStar.dayAfter_1": "It was great spending time with everyone yesterday.#$e#Everyone got really cool presents too!$1",
-        "raven.dialogue.feastOfTheWinterStar.dayAfter_2": "I think I spent too much time at the festival.$2#$b#I got really worn out from talking to everyone.$11",
-        "raven.dialogue.feastOfTheWinterStar.dayAfter_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
+            "raven.dialogue.feastOfTheWinterStar.dayAfter_1": "It was great spending time with everyone yesterday.#$e#Everyone got really cool presents too!$1",
+            "raven.dialogue.feastOfTheWinterStar.dayAfter_2": "I think I spent too much time at the festival.$2#$b#I got really worn out from talking to everyone.$11",
+            "raven.dialogue.feastOfTheWinterStar.dayAfter_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
         
-        //label:Plain Seasons -> Very unlikely to appear in-game
+        //Plain Seasons -> Very unlikely to appear in-game
             "raven.dialogue.spring": "Spring rarely ever brings down my mood. What about you?",
             "raven.dialogue.summer": "Summer doesn't really seem to end fast enough, does it?",
             "raven.dialogue.fall": "Fall is pretty cozy! I just wish it'd last a little longer, you know?",
             "raven.dialogue.winter": "Winter... It's... so... cold...",
 
-        //label:Weather Dialogue
-            "raven.dialogue.greenRain.year1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
-            "raven.dialogue.greenRain.after.year1": "No one died from the rain, so that's good!#$b#What? I thought it might've been caused by pollution or something.",
+        //Weather Dialogue
+            //Green Rain
+                //Year 1
+                    "raven.dialogue.greenRain.year1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
+                    "raven.dialogue.greenRain.after.year1": "No one died from the rain, so that's good!#$b#What? I thought it might've been caused by pollution or something.",
+                //Year 2
+                    "raven.dialogue.greenRain.year2": "This green rain smells amazing!#$e#I wonder if people will find a way to turn this into a candle scent.",
+                    "raven.dialogue.greenRain.after.year2": "Two years in a row of this rain is kinda weird, but I'm not bothered by it.",
+                //Year 3+
+                    "raven.dialogue.greenRain.year3_1": "One thing I hate about green rain is how much moss there is.#$e#It's a texture thing, blame the autism.",
+                    "raven.dialogue.greenRain.year3_2": "I wonder what makes the rain green.#$e#I could probably ask Demetrius. He's really good at that stuff.",
+                    "raven.dialogue.greenRain.year3_3": "I'm not sure if you noticed it, but does the green rain feel different from normal rain?#$e#I could be just imagining things, but it definitely feels different to me.",
+                    "raven.dialogue.greenRain.year3_4": "I figured that I would gather some moss today. There's so much right now!",
+                    "raven.dialogue.greenRain.year3_5": "I noticed something really strange. How come some trees and weeds either change or vanish overnight?#$e#It reminds me of a movie...#$b#The one where the guy gets eaten by a tentacle monster and everyone is in a grocery store.#$b#It's one of my childhood favorites!",
+                    "raven.dialogue.greenRain.year3_6": "Do you do anything different when there's green rain?#$e#That's interesting. Well, keep doing your thing!",
+                    "raven.dialogue.greenRain.year3_7": "I've never been able to climb trees, but I think it'd be fun to sit on the branches and watch the rain.#$e#I just enjoy nature a lot. It's so beautiful!",
+                    "raven.dialogue.greenRain.year3_8": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                    "raven.dialogue.greenRain.year3_9": "Is it just me or does the green rain feel more wet than normal rain?#$e#I should ask Demetrius about it.",
+                    "raven.dialogue.greenRain.year3_10": "I wonder what it would feel like to take a bath in green rain.#$e#I'm talking, like, a bath tub full of green rain.",
 
-            "raven.dialogue.greenRain.year2": "This green rain smells amazing!#$e#I wonder if people will find a way to turn this into a candle scent.",
-            "raven.dialogue.greenRain.after.year2": "Two years in a row of this rain is kinda weird, but I'm not bothered by it.",
+                    "raven.dialogue.greenRain.after.year3_1": "A rare weather pattern that happens every year? What a joke.",
+                    "raven.dialogue.greenRain.after.year3_2": "I bet Demetrius has fun researching green rain when it comes around.",
+                    "raven.dialogue.greenRain.after.year3_3": "I think it took longer than usual for my clothes to dry off.#$e#How did it make my clothes more wet than normal rain?",
+                    "raven.dialogue.greenRain.after.year3_4": "I wonder if there's any supernatural explanation for green rain.",
+                    "raven.dialogue.greenRain.after.year3_5": "I noticed there's a 'day after' smell with green rain. I like it!",
+                    "raven.dialogue.greenRain.after.year3_6": "Even though this is a 'rare weather pattern', I wonder if people found a way to profit off of it.",
+                    "raven.dialogue.greenRain.after.year3_7": "Imagine if somehow the green rain managed to give us superpowers!#$e#Watch out, I might end up getting super speed and break the speed limit!#$b#Just kidding!",
+                    "raven.dialogue.greenRain.after.year3_8": "I can't play my video games when there's green rain.#$e#I think the rain causes interference with tech.",
+                    "raven.dialogue.greenRain.after.year3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
+                    "raven.dialogue.greenRain.after.year3_10": "I think green rain is cool. I never get mad when it comes around!",
+            //Rain
+                "raven.query.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
 
-            "raven.dialogue.greenRain.year3_1": "One thing I hate about green rain is how much moss there is.#$e#It's a texture thing, blame the autism.",
-            "raven.dialogue.greenRain.year3_2": "I wonder what makes the rain green.#$e#I could probably ask Demetrius. He's really good at that stuff.",
-            "raven.dialogue.greenRain.year3_3": "I'm not sure if you noticed it, but does the green rain feel different from normal rain?#$e#I could be just imagining things, but it definitely feels different to me.",
-            "raven.dialogue.greenRain.year3_4": "I figured that I would gather some moss today. There's so much right now!",
-            "raven.dialogue.greenRain.year3_5": "I noticed something really strange. How come some trees and weeds either change or vanish overnight?#$e#It reminds me of a movie...#$b#The one where the guy gets eaten by a tentacle monster and everyone is in a grocery store.#$b#It's one of my childhood favorites!",
-            "raven.dialogue.greenRain.year3_6": "Do you do anything different when there's green rain?#$e#That's interesting. Well, keep doing your thing!",
-            "raven.dialogue.greenRain.year3_7": "I've never been able to climb trees, but I think it'd be fun to sit on the branches and watch the rain.#$e#I just enjoy nature a lot. It's so beautiful!",
-            "raven.dialogue.greenRain.year3_8": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-            "raven.dialogue.greenRain.year3_9": "Is it just me or does the green rain feel more wet than normal rain?#$e#I should ask Demetrius about it.",
-            "raven.dialogue.greenRain.year3_10": "I wonder what it would feel like to take a bath in green rain.#$e#I'm talking, like, a bath tub full of green rain.",
-
-            "raven.dialogue.greenRain.after.year3_1": "A rare weather pattern that happens every year? What a joke.",
-            "raven.dialogue.greenRain.after.year3_2": "I bet Demetrius has fun researching green rain when it comes around.",
-            "raven.dialogue.greenRain.after.year3_3": "I think it took longer than usual for my clothes to dry off.#$e#How did it make my clothes more wet than normal rain?",
-            "raven.dialogue.greenRain.after.year3_4": "I wonder if there's any supernatural explanation for green rain.",
-            "raven.dialogue.greenRain.after.year3_5": "I noticed there's a 'day after' smell with green rain. I like it!",
-            "raven.dialogue.greenRain.after.year3_6": "Even though this is a 'rare weather pattern', I wonder if people found a way to profit off of it.",
-            "raven.dialogue.greenRain.after.year3_7": "Imagine if somehow the green rain managed to give us superpowers!#$e#Watch out, I might end up getting super speed and break the speed limit!#$b#Just kidding!",
-            "raven.dialogue.greenRain.after.year3_8": "I can't play my video games when there's green rain.#$e#I think the rain causes interference with tech.",
-            "raven.dialogue.greenRain.after.year3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
-            "raven.dialogue.greenRain.after.year3_10": "I think green rain is cool. I never get mad when it comes around!",
-        //label:Rain
-            "raven.query.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-
-            "raven.dialogue.spring.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
-            "raven.dialogue.spring.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-            "raven.dialogue.spring.rain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
-            "raven.dialogue.spring.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
-            "raven.dialogue.spring.rain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
-            "raven.dialogue.spring.rain_6": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.",
-
-            "raven.dialogue.summer.rain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
-            "raven.dialogue.summer.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-            "raven.dialogue.summer.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-            "raven.dialogue.summer.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
-
-            "raven.dialogue.fall.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
-            "raven.dialogue.fall.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
-            "raven.dialogue.fall.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-            "raven.dialogue.fall.rain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
-            "raven.dialogue.fall.rain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
-
-            "raven.dialogue.winter.rain_1": "... It never rains during winter, what the hell?$17",
-            "raven.dialogue.winter.rain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
-            "raven.dialogue.winter.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-
-            "raven.dialogue.spring.storm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
-            "raven.dialogue.spring.storm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
-            "raven.dialogue.spring.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
-            "raven.dialogue.spring.storm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
-            "raven.dialogue.spring.storm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-
-            "raven.dialogue.summer.storm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
-            "raven.dialogue.summer.storm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
-            "raven.dialogue.summer.storm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-
-            "raven.dialogue.fall.storm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
-            "raven.dialogue.fall.storm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
-            "raven.dialogue.fall.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
-
-            "raven.dialogue.spring.wind_1": "Seeing the petals flying in the wind like this is so calming.$1",
-            "raven.dialogue.spring.wind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
-            "raven.dialogue.spring.wind_3": "Ow!$8#$b#Some dirt flew into my eye.$2#$e#Now I'm gonna be blinking like crazy for the next minute.$5",
-
-            "raven.dialogue.fall.wind_1": "Hold up- I think I got some dirt in my eye.$2#$b#OUCH!$8#$b#Ugh, I got it out. That hurt.$13",
-            "raven.dialogue.fall.wind_2": "Even though the wind is strong, at least it's not strong enough to make rocks fly in the wind!",
-            "raven.dialogue.fall.wind_3": "It's fun watching the wind blow the leaves around.$1",
-
-            "raven.dialogue.snow_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
-            "raven.dialogue.snow_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
-            "raven.dialogue.snow_3": "The snow is so pretty! I could watch the snow fall all day.$1#$e#Do you like snow?",
-            "raven.dialogue.snow_4": "It's so pretty outside since it's snowing, but it's too cold for me to stay outside for too long.$2#$e#I wonder what it would be like if snow could happen while it's still warm outside.#$b#It might be a lot easier for people to tolerate!$1",
-            "raven.dialogue.snow_5": "One time, I tried taking some snow home with me on a road trip back when I was younger.#$b#Unfortunately, the snow all fused together and was half-melted by the time I got back home.$11#$e#It was pretty cool seeing how long the snow managed to last, though.",
+                //Spring
+                    "raven.dialogue.spring.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+                    "raven.dialogue.spring.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                    "raven.dialogue.spring.rain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
+                    "raven.dialogue.spring.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                    "raven.dialogue.spring.rain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
+                    "raven.dialogue.spring.rain_6": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.",
+                //Summer
+                    "raven.dialogue.summer.rain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
+                    "raven.dialogue.summer.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                    "raven.dialogue.summer.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                    "raven.dialogue.summer.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                //Fall
+                    "raven.dialogue.fall.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+                    "raven.dialogue.fall.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+                    "raven.dialogue.fall.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                    "raven.dialogue.fall.rain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
+                    "raven.dialogue.fall.rain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+                //Winter
+                    "raven.dialogue.winter.rain_1": "... It never rains during winter, what the hell?$17",
+                    "raven.dialogue.winter.rain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
+                    "raven.dialogue.winter.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+            //Storm
+                //Spring
+                    "raven.dialogue.spring.storm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
+                    "raven.dialogue.spring.storm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
+                    "raven.dialogue.spring.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+                    "raven.dialogue.spring.storm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
+                    "raven.dialogue.spring.storm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                //Summer
+                    "raven.dialogue.summer.storm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
+                    "raven.dialogue.summer.storm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
+                    "raven.dialogue.summer.storm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                //Fall
+                    "raven.dialogue.fall.storm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+                    "raven.dialogue.fall.storm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
+                    "raven.dialogue.fall.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+            //Wind
+                //Spring
+                    "raven.dialogue.spring.wind_1": "Seeing the petals flying in the wind like this is so calming.$1",
+                    "raven.dialogue.spring.wind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
+                    "raven.dialogue.spring.wind_3": "Ow!$8#$b#Some dirt flew into my eye.$2#$e#Now I'm gonna be blinking like crazy for the next minute.$5",
+                //Fall
+                    "raven.dialogue.fall.wind_1": "Hold up- I think I got some dirt in my eye.$2#$b#OUCH!$8#$b#Ugh, I got it out. That hurt.$13",
+                    "raven.dialogue.fall.wind_2": "Even though the wind is strong, at least it's not strong enough to make rocks fly in the wind!",
+                    "raven.dialogue.fall.wind_3": "It's fun watching the wind blow the leaves around.$1",
+            //Winter - Snow
+                "raven.dialogue.snow_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
+                "raven.dialogue.snow_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
+                "raven.dialogue.snow_3": "The snow is so pretty! I could watch the snow fall all day.$1#$e#Do you like snow?",
+                "raven.dialogue.snow_4": "It's so pretty outside since it's snowing, but it's too cold for me to stay outside for too long.$2#$e#I wonder what it would be like if snow could happen while it's still warm outside.#$b#It might be a lot easier for people to tolerate!$1",
+                "raven.dialogue.snow_5": "One time, I tried taking some snow home with me on a road trip back when I was younger.#$b#Unfortunately, the snow all fused together and was half-melted by the time I got back home.$11#$e#It was pretty cool seeing how long the snow managed to last, though.",
         //label:Festival Event Dialogue
             "raven.festival.flowerDance.decline": "Sorry, but I plan on just watching the dance this year.#$b#I appreciate you asking though!",
 
@@ -916,6 +932,4 @@
             "raven.gift.reject.PriceCatalogue_married": "You're the one that's in charge of the finances now. It'd be best if you kept it.",
             "raven.gift.reject.Fertilizer_married": "No, we use fertilizer for the farm. Try to find a place for this, will you?$2",
             "raven.gift.reject.Seeds_married": "@, please don't waste your seeds on me. I'd rather it used for the farm and not on me.$11",
-    //file:modCompat/CJBWarps.json
-        "CJB.ravenApartment": "Apt 1A: Raven",
 }

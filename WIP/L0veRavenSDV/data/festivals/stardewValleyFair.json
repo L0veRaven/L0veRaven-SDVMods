@@ -1,0 +1,56 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                //Raven
+                    //Year 1
+                        {
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters"],
+                            "Value": "{{Raven}} 74 73 right",
+                            "Delimiter": "/"
+                        },
+                    //Year 2
+                        //ADD{
+                            //ADD"Operation": "Append",
+                            //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            //ADD"Value": "{{Raven}} ## ## right",
+                            //ADD"Delimiter": "/"
+                        //ADD},
+                //Zayden
+                    //Year 1
+                        {
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters"],
+                            "Value": "{{Zayden}} 73 73 left",
+                            "Delimiter": "/"
+                        },
+                    //Year 2
+                        {
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            "Value": "{{Zayden}} 66 63 right",
+                            "Delimiter": "/"
+                        }
+            ],
+            "Entries": {
+                "{{Raven}}": "{{i18n:raven.festival.dialogue.stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:raven.festival.dialogue.stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+
+                "{{Zayden}}": "{{i18n:zayden.festival.stardewValleyFair_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:zayden.festival.stardewValleyFair_{{Random:{{Range:1,2}}}}}}"
+            }
+        }
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+    //"Operation": "Append",
+    //"Target": ["Fields", "set-up", 5],
+    //"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                //Raven
+                    //Year 1
+                        {//Pre-Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters"],
+                            "Value": "{{Raven}} 14 24 down",
+                            "Delimiter": "/"
+                        },
+                        {//Main Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "MainEvent_additionalCharacters"],
+                            "Value": "{{Raven}} 38 68 left",
+                            "Delimiter": "/"
+                        },
+                    //Year 2
+                        {//Pre-Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            "Value": "{{Raven}} 38 68 left",
+                            "Delimiter": "/"
+                        },
+                        {//Main Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                            "Value": "{{Raven}} 38 68 left",
+                            "Delimiter": "/"
+                        },
+                //Zayden
+                    //Year 1
+                        {//Pre-Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters"],
+                            "Value": "{{Zayden}} 11 18 left",
+                            "Delimiter": "/"
+                        },
+                        {//Main Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "MainEvent_additionalCharacters"],
+                            "Value": "{{Zayden}} 11 18 left",
+                            "Delimiter": "/"
+                        },
+                    //Year 2
+                        {//Pre-Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            "Value": "{{Zayden}} 11 35 left",
+                            "Delimiter": "/"
+                        },
+                        {//Main Event
+                            "Operation": "Append",
+                            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                            "Value": "{{Zayden}} 11 35 left",
+                            "Delimiter": "/"
+                        }
+            ],
+            "Entries": {
+                "{{Raven}}": "{{i18n:raven.festival.dialogue.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Raven}}_y2": "{{i18n:raven.festival.dialogue.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                //ADD"{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                
+                "{{Zayden}}": "{{i18n:zayden.festival.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
+                "{{Zayden}}_y2": "{{i18n:zayden.festival.moonlightJellies_{{Random:{{Range:1,2}}}}}}"
+            }
+        }
+    ]
+}
+//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+//{
+    //"Operation": "Append",
+    //"Target": ["Fields", "set-up", 5],
+    //"Value": "/animate {{Raven}} false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+//},

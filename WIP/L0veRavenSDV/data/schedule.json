@@ -1,0 +1,100 @@
+{
+    "Changes": [
+        //Raven
+            {
+                "LogName": "[Characters/schedules] Raven - General",
+                "Action": "EditData",
+                "Target": "Characters/schedules/{{Raven}}",
+                "Entries": {
+                    "Mon": "{{RavenWorkDay}}",
+                    "Tue": "{{RavenFreeDayShop}}",
+                    "Wed": "{{RavenFreeDay}}",
+                    "Thu": "{{RavenFreeDay}}",
+                    "Fri": "{{RavenWorkDay}}",
+                    "Sat": "{{RavenWorkDay}}",
+                    "Sun": "{{RavenWorkDay}}",
+                    
+                    "spring": "{{RavenGoodMorning}}/{{RavenInBed}}"
+                }
+            },
+            {
+                "LogName": "[Characters/schedules] Raven - Medication Pick-ups (18th of Each Month)",
+                "Action": "EditData",
+                "Target": "Characters/schedules/{{Raven}}",
+                "Entries": {
+                    "spring_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                    "summer_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                    "fall_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}",
+                    "winter_18": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"
+                }
+            },
+            {
+                "LogName": "[Characters/schedules] Raven - Festival Days",
+                "Action": "EditData",
+                "Target": "Characters/schedules/{{Raven}}",
+                "Entries": {
+                    //Egg Festival: 9am - 2pm
+                    "spring_13": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBushTown}}/{{210pm}} {{RavenRelaxBeach}}/{{RavenGoodNight}}",
+                    //Flower Dance: 9am - 2pm
+                    "spring_24": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandRiverForest}}/{{210pm}} {{Raven_Animation_StandMountain}}/{{RavenGoodNight}}",
+                    //Luau: 9am - 2pm
+                    "summer_11": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBeach}}/{{210pm}} {{Raven_Animation_StandCC}}/{{RavenGoodNight}}",
+                    //Moonlight Jellies: 10pm - 12am
+                    "summer_28": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandStove}}/{{210pm}} {{Raven_Animation_StandBookcase}}/{{8pm}} {{RavenRelaxBeach}}/{{1210am}} {{RavenInBed}}",
+                    //Stardew Fair: 9am - 3pm
+                    "fall_16": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandCC}}/{{310pm}} {{Raven_Animation_StandMountain}}/{{4pm}} {{Raven_Animation_StandTableSaloon}}/{{RavenGoodNight}}",
+                    //Spirit's Eve: 10pm - 11:50pm
+                    "fall_27": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandStove}}/{{210pm}} {{Raven_Animation_StandMountain}}/{{8pm}} {{RavenRelaxBushTown}}/{{1210am}} {{RavenInBed}}",
+                    //Ice Festival: 9am - 2pm
+                    "winter_8": "{{RavenGoodMorningBus}}/{{910am}} {{Raven_Animation_StandRiverForest}}/{{210pm}} {{RavenRelaxBushTown}}/{{5pm}} {{Raven_Animation_StandCC}}/{{RavenGoodNight}}",
+                    //Winter Star: 9am - 2pm
+                    "winter_25": "{{RavenGoodMorningBus}}/{{910am}} {{RavenRelaxBushTown}}/{{210pm}} {{Raven_Animation_StandRiverForest}}/{{RavenGoodNight}}"
+                }
+            },
+            {
+                "LogName": "[Characters/schedules] Raven - Marriage",
+                "Action": "EditData",
+                "Target": "Characters/schedules/{{Raven}}",
+                "Entries": {
+                    //Medication Pick-Up
+                    "marriage_{{season}}_18": "{{RavenMedsDay}}",
+
+                    //Marriage
+                    "marriage_Sat": "{{RavenJobTasksSaloon_married}}/{{6pm}} bed",
+                    "marriage_Sun": "{{RavenJobTasksSaloon_married}}/{{6pm}} bed"
+                }
+            },
+        //Zayden
+            {
+                "LogName": "[Characters/schedules] Zayden",
+                "Action": "EditData",
+                "Target": "Characters/schedules/{{Zayden}}",
+                "Entries": {
+                    "Mon": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Tue": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Wed": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Thu": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Fri": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Sat": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Sun": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    
+                    "spring": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
+                    "summer": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
+                    "fall": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
+                    "winter": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
+                }
+            }
+            // Town 49, 32, 1 Stand Tree by Blacksmith
+
+            // JojaMart 3, 7, 2 l0veraven_zayden_sweep
+            // JojaMart 1, 21, 2 l0veraven_zayden_sweep
+            // JojaMart 5, 15, 2 l0veraven_zayden_sweep
+            // JojaMart 10, 12, 2 l0veraven_zayden_sweep
+            // JojaMart 13, 15, 2 l0veraven_zayden_sweep
+            // JojaMart 16, 25, 2 l0veraven_zayden_sweep
+            // JojaMart 18, 16, 2 l0veraven_zayden_sweep
+            // JojaMart 21, 15, 2 l0veraven_zayden_sweep
+            // JojaMart 22, 12, 2 l0veraven_zayden_sweep
+            // JojaMart 26, 6, 2 l0veraven_zayden_sweep
+    ]
+}

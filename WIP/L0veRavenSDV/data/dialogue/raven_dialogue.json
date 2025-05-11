@@ -1,6 +1,6 @@
 {
     "Changes": [
-        //logname:First of Season
+        //First of Season
             {
                 "LogName": "First of Season - Year 1",
                 "Action": "EditData",
@@ -19,22 +19,35 @@
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "{{season}}_1": "{{i18n:raven.dialogue.{{season}}.first_{{Random:{{Range:1,4}}}}}}",
+                    "{{season}}_1": "{{i18n:raven.dialogue.{{season}}.first_{{Random:{{Range:1,4}}}}}}"
                 },
                 "When": {
                     "Year": "2"
                 }
             },
-        //logname:token:Medication Pickup
+        //Medication Pickup
             {
-                "LogName": "Medication Pickup Dialogue",
+                "LogName": "Medication Pickup - Non-Winter",
                 "Action": "EditData",
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
-                    "Thu": "{{RavenMedicationPickupDialogue}}"
+                    "Thu": "{{i18n:raven.dialogue.medicationPickup.dayOf_{{Random:{{Range:1,2}}}}}}"
                 },
                 "When": {
-                    "Query: '{{Day}}' = '18'": "true"
+                    "Query: '{{Day}}' = '18'": "true",
+                    "Season": "Spring, Summer, Fall"
+                }
+            },
+            {
+                "LogName": "Medication Pickup - Winter",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "Thu": "{{i18n:raven.dialogue.medicationPickup.birthday.dayOf_{{Random:{{Range:1,2}}}}}}"
+                },
+                "When": {
+                    "Query: '{{Day}}' = '18'": "true",
+                    "Season": "Winter"
                 }
             },
         //logname:Festivals
@@ -604,7 +617,30 @@
                         "RejectMermaidPendant_Under10hearts_AskedAgain": "{{i18n:raven.mermaidPendant.under10hearts_askedAgain}}"
                 }
             },
-        //logname:Summit Dialogue
+        //Romantic Dialogue
+            {//Verified
+                "LogName": "[Strings/StringsFromCSFiles] - Raven Engaged Dialogue",
+                "Action": "EditData",
+                "Target": "Strings/StringsFromCSFiles",
+                "Entries": {
+                    "NPC.cs.3980": "{{i18n:raven.mermaidPendant.accepted}}"
+                },
+                "When": {
+                    "Relationship:{{Raven}}": "Dating"
+                }
+            },
+            {
+                "LogName": "[Strings/StringsFromCSFiles] Post-Wedding Dialogue",
+                "Action": "EditData",
+                "Target": "Strings/StringsFromCSFiles",
+                "Entries": {
+                    "Game1.cs.2782": "{{i18n:raven.spouse.afterWedding}}"
+                },
+                "When": {
+                    "Spouse": "{{Raven}}"
+                }
+            },
+        //Summit Dialogue
             {
                 "LogName": "Summit Dialogue",
                 "Action": "EditData",

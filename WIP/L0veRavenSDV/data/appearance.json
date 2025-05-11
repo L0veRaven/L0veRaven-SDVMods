@@ -1,0 +1,472 @@
+{
+    "Changes": [
+        //Index
+            {
+                "LogName": "Index - Character",
+                "Action": "Load",
+                "Target": "Characters/index",
+                "FromFile": "assets/Characters/index.png"
+            },
+            {
+                "LogName": "Index - Portrait",
+                "Action": "Load",
+                "Target": "Portraits/index",
+                "FromFile": "assets/Portraits/index.png"
+            },
+            {
+                "LogName": "[Appearance] Raven - Index",
+                "Action": "EditData",
+                "Target": "Data/Characters",
+                "TargetField": ["{{Raven}}","Appearance"],
+                "Entries": {
+                    "{{Raven}}.Index": {
+                        "Id": "{{Raven}}.Index",
+                        "Condition": "{{RavenIndex |contains = true}}",
+                        "Sprite": "Characters/index",
+                        "Portrait": "Portraits/index",
+                        "IsIslandAttire": false,
+                        "Precedence": 0,
+                        "Weight": 1
+                    }
+                }
+            },
+            {
+                "LogName": "[Appearance] Zayden - Index",
+                "Action": "EditData",
+                "Target": "Data/Characters",
+                "TargetField": ["{{Zayden}}","Appearance"],
+                "Entries": {
+                    "{{Raven}}.Index": {
+                        "Id": "{{Zayden}}.Index",
+                        "Condition": "{{ZaydenIndex |contains = true}}",
+                        "Sprite": "Characters/index",
+                        "Portrait": "Portraits/index",
+                        "IsIslandAttire": false,
+                        "Precedence": 0,
+                        "Weight": 1
+                    }
+                }
+            },
+        //Raven
+            //Default
+                {
+                    "LogName": "Raven (Default) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}",
+                    "FromFile": "assets/Characters/{{Raven}}.png"
+                },
+                {
+                    "LogName": "Raven (Default) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}",
+                    "FromFile": "assets/Portraits/{{Raven}}.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Default",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Default": {
+                            "Id": "{{Raven}}.Default",
+                            "Condition": "SEASON spring summer",
+                            "Sprite": "Characters/{{Raven}}",
+                            "Portrait": "Portraits/{{Raven}}",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Neutral
+                {
+                    "LogName": "Raven (Neutral) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Neutral",
+                    "FromFile": "assets/Characters/{{Raven}}Neutral.png"
+                },
+                {
+                    "LogName": "Raven (Neutral) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Neutral",
+                    "FromFile": "assets/Portraits/{{Raven}}Neutral.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Neutral",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Neutral": {
+                            "Id": "{{Raven}}.Neutral",
+                            "Condition": "SEASON spring summer fall winter",
+                            "Sprite": "Characters/{{Raven}}Neutral",
+                            "Portrait": "Portraits/{{Raven}}Neutral",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Spring
+                {
+                    "LogName": "Raven (Spring) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Spring",
+                    "FromFile": "assets/Characters/{{Raven}}Spring.png"
+                },
+                {
+                    "LogName": "Raven (Spring) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Spring",
+                    "FromFile": "assets/Portraits/{{Raven}}Spring.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Spring",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Spring": {
+                            "Id": "{{Raven}}.Spring",
+                            "Condition": "SEASON spring",
+                            "Sprite": "Characters/{{Raven}}Spring",
+                            "Portrait": "Portraits/{{Raven}}Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Summer
+                {
+                    "LogName": "Raven (Summer) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Summer",
+                    "FromFile": "assets/Characters/{{Raven}}Summer.png"
+                },
+                {
+                    "LogName": "Raven (Summer) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Summer",
+                    "FromFile": "assets/Portraits/{{Raven}}Summer.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Summer",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Summer": {
+                            "Id": "{{Raven}}.Summer",
+                            "Condition": "SEASON summer",
+                            "Sprite": "Characters/{{Raven}}Summer",
+                            "Portrait": "Portraits/{{Raven}}Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Fall
+                {
+                    "LogName": "Raven (Fall) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Fall",
+                    "FromFile": "assets/Characters/{{Raven}}Fall.png"
+                },
+                {
+                    "LogName": "Raven (Fall) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Fall",
+                    "FromFile": "assets/Portraits/{{Raven}}Fall.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Fall",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Fall": {
+                            "Id": "{{Raven}}.Fall",
+                            "Condition": "SEASON fall",
+                            "Sprite": "Characters/{{Raven}}Fall",
+                            "Portrait": "Portraits/{{Raven}}Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Winter
+                {
+                    "LogName": "Raven (Winter) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Winter",
+                    "FromFile": "assets/Characters/{{Raven}}Winter.png"
+                },
+                {
+                    "LogName": "Raven (Winter) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Winter",
+                    "FromFile": "assets/Portraits/{{Raven}}Winter.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Winter",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Winter": {
+                            "Id": "{{Raven}}.Winter",
+                            "Condition": "SEASON winter",
+                            "Sprite": "Characters/{{Raven}}Winter",
+                            "Portrait": "Portraits/{{Raven}}Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Beach
+                {
+                    "LogName": "Raven (Island/Beach) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Beach",
+                    "FromFile": "assets/Characters/{{Raven}}Beach.png"
+                },
+                {
+                    "LogName": "Raven (Island/Beach) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Beach",
+                    "FromFile": "assets/Portraits/{{Raven}}Beach.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Island/Beach",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Beach": {
+                            "Id": "{{Raven}}.Beach",
+                            "Sprite": "Characters/{{Raven}}Beach",
+                            "Portrait": "Portraits/{{Raven}}Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Sunflower
+                {
+                    "LogName": "Raven (Sunflower) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Sunflower",
+                    "FromFile": "assets/Characters/{{Raven}}Sunflower.png"
+                },
+                {
+                    "LogName": "Raven (Sunflower) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Sunflower",
+                    "FromFile": "assets/Portraits/{{Raven}}Sunflower.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Sunflower",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Sunflower": {
+                            "Id": "{{Raven}}.Sunflower",
+                            "Condition": "IS_EVENT festival_fall27, {{RavenSunflowerCostumeSE |contains = true}}",
+                            "Sprite": "Characters/{{Raven}}Sunflower",
+                            "Portrait": "Portraits/{{Raven}}Sunflower",
+                            "IsIslandAttire": false,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Daisy
+                {
+                    "LogName": "Raven (Daisy) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Daisy",
+                    "FromFile": "assets/Characters/{{Raven}}Daisy.png"
+                },
+                {
+                    "LogName": "Raven (Daisy) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Daisy",
+                    "FromFile": "assets/Portraits/{{Raven}}Daisy.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Daisy",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Daisy": {
+                            "Id": "{{Raven}}.Daisy",
+                            "Condition": "IS_EVENT festival_fall27, {{RavenDaisyCostumeSE |contains = true}}",
+                            "Sprite": "Characters/{{Raven}}Daisy",
+                            "Portrait": "Portraits/{{Raven}}Daisy",
+                            "IsIslandAttire": false,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Cactus
+                {
+                    "LogName": "Raven (Cactus) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Cactus",
+                    "FromFile": "assets/Characters/{{Raven}}Cactus.png"
+                },
+                {
+                    "LogName": "Raven (Cactus) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Cactus",
+                    "FromFile": "assets/Portraits/{{Raven}}Cactus.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Cactus",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Cactus": {
+                            "Id": "{{Raven}}.Cactus",
+                            "Condition": "IS_EVENT festival_fall27, {{RavenCactusCostumeSE |contains = true}}",
+                            "Sprite": "Characters/{{Raven}}Cactus",
+                            "Portrait": "Portraits/{{Raven}}Cactus",
+                            "IsIslandAttire": false,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Weed
+                {
+                    "LogName": "Raven (Weed) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}Weed",
+                    "FromFile": "assets/Characters/{{Raven}}Weed.png"
+                },
+                {
+                    "LogName": "Raven (Weed) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}Weed",
+                    "FromFile": "assets/Portraits/{{Raven}}Weed.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Weed",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.Weed": {
+                            "Id": "{{Raven}}.Weed",
+                            "Condition": "IS_EVENT festival_fall27, {{RavenWeedCostumeSE |contains = true}}",
+                            "Sprite": "Characters/{{Raven}}Weed",
+                            "Portrait": "Portraits/{{Raven}}Weed",
+                            "IsIslandAttire": false,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Flower Dance
+                {
+                    "LogName": "Raven (Flower Dance) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Raven}}FlowerDance",
+                    "FromFile": "assets/Characters/{{Raven}}FlowerDance.png"
+                },
+                {
+                    "LogName": "Raven (Flower Dance) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Raven}}FlowerDance",
+                    "FromFile": "assets/Portraits/{{Raven}}FlowerDance.png"
+                },
+                {
+                    "LogName": "[Appearance] Raven - Flower Dance",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Raven}}","Appearance"],
+                    "Entries": {
+                        "{{Raven}}.FlowerDance": {
+                            "Id": "{{Raven}}.FlowerDance",
+                            "Condition": "IS_EVENT festival_spring24",
+                            "Sprite": "Characters/{{Raven}}FlowerDance",
+                            "Portrait": "Portraits/{{Raven}}FlowerDance",
+                            "IsIslandAttire": false,
+                            "Precedence": -1,
+                            "Weight": 1
+                        }
+                    }
+                },
+        //Zayden
+            //Default
+                {
+                    "LogName": "Zayden (Default) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Zayden}}",
+                    "FromFile": "assets/Characters/{{Zayden}}.png"
+                },
+                {
+                    "LogName": "Zayden (Default) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Zayden}}",
+                    "FromFile": "assets/Portraits/{{Zayden}}.png"
+                },
+                {
+                    "LogName": "[Appearance] Zayden - Default",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Zayden}}","Appearance"],
+                    "Entries": {
+                        "{{Zayden}}.Default": {
+                            "Id": "{{Zayden}}.Default",
+                            "Condition": "",
+                            "Sprite": "Characters/{{Zayden}}",
+                            "Portrait": "Portraits/{{Zayden}}",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                },
+            //Joja
+                {
+                    "LogName": "Zayden (Joja) - Character",
+                    "Action": "Load",
+                    "Target": "Characters/{{Zayden}}_Joja",
+                    "FromFile": "assets/Characters/{{Zayden}}_Joja.png"
+                },
+                {
+                    "LogName": "Zayden (Joja) - Portrait",
+                    "Action": "Load",
+                    "Target": "Portraits/{{Zayden}}_Joja",
+                    "FromFile": "assets/Portraits/{{Zayden}}_Joja.png"
+                },
+                {
+                    "LogName": "[Appearance] Zayden - Joja",
+                    "Action": "EditData",
+                    "Target": "Data/Characters",
+                    "TargetField": ["{{Zayden}}","Appearance"],
+                    "Entries": {
+                        "{{Zayden}}.Joja": {
+                            "Id": "{{Zayden}}.Joja",
+                            "Condition": "LOCATION_NAME Target JojaMart",
+                            "Sprite": "Characters/{{Zayden}}_Joja",
+                            "Portrait": "Portraits/{{Zayden}}_Joja",
+                            "IsIslandAttire": false,
+                            "Precedence": 0,
+                            "Weight": 1
+                        }
+                    }
+                }
+    ]
+}

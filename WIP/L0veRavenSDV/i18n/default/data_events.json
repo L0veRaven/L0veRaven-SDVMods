@@ -1,0 +1,109 @@
+{
+    //Raven_catLover.json
+        "event.CatLover_speak_1": "Penny... Are you okay?$2",//Raven
+        "event.CatLover_speak_2": "Hi Raven.$3",//Penny
+        "event.CatLover_speak_3": "I can tell something's going on.$2#$b#Do you wanna to talk about it?$17",//Raven
+        "event.CatLover_speak_4": "I found a stray cat in town recently.$2#$b#I asked my mother if we could look after the cat until we find the owner.#$b#She started yelling at me about how we don't have enough space.$2#$b#I haven't seen the cat since then, but it seemed pretty scared of people.$3",//Penny
+        "event.CatLover_speak_5": "Hm... Let me think...$17#$b#Your mom definitely should've been kinder to you about it...$2",//Raven
+        "event.CatLover_speak_6": "Okay, I have some ideas about the cat.$1#$b#There's a chance it'll come back if we leave out some wet cat food.#$b#If the cat is too scared, then we could set a trap for it.$1",//Raven
+        "event.CatLover_speak_7": "That sounds horrible! I don't want the cat to be trapped.$12#$b#I just want to make sure that it's healthy.$2#$b#My mother surely won't let me keep it, though.$2",//Penny
+        "event.CatLover_speak_8": "I don't know of any vets nearby, but if we bring it to Marnie, she might be able to help.#$b#After all, she lets people adopt animals from her, so she has to know quite a bit about cats, right?$1",//Raven
+        "event.CatLover_speak_9": "I think you're right. Since you're a neko, you probably know a lot about cats, too.$1",//Penny
+        "event.CatLover_speak_10": "!!!$12#$b#Not exactly.$11",//Raven
+        "event.CatLover_speak_11": "Oh, hello there. Can we get your input really quick?$1#$b#I came across a stray cat, but since my mother won't let us keep it...$2",//Penny
+
+        "event.CatLover_qQ": "Should we capture it and take it to a local animal shelter?",//Penny
+
+        "event.CatLover_qQ_1": "You should leave the cat alone.",//qQ Answer
+        "event.CatLover_qQ_1_1": "Hm...$2",//Penny
+        "event.CatLover_qQ_1_2": "Actually, I think it's better if we bring the cat to Marnie.#$b#She can check if the cat is healthy and help it find a home.$1#$b#I appreciate you sharing your opinion, regardless.",//Penny
+
+        "event.CatLover_qQ_2": "You should take the cat to the shelter.",//qQ Answer
+        "event.CatLover_qQ_2_1": "Hm...$2",//Penny
+        "event.CatLover_qQ_2_2": "I agree with you.#$b#It'd be good to bring the cat to someone who knows a lot about animals and maybe even help it find a home.$1",//Penny
+
+        "event.CatLover_speak_final": "We shouldn't wait too long. We need supplies!$3",//Raven
+
+        "event.CatLover_end_1": "We'll get the stray cat, I know it!$1",
+        "event.CatLover_end_2": "Hopefully the cat is able to find a home soon...$2",
+
+    //Raven_catAdoption.json  -> ebi: 1590166 [DEFAULT EVENT]
+        "event.CatAdoption_speak_1": "Hello @!$h#$b#You see this cat here?",//Marnie
+        "event.CatAdoption_speak_2": "Raven and Penny brought it to me since it's a stray... poor little thing.$s",//Marnie
+        "event.CatAdoption_speak_3": "I think it likes this place! Hey, um.... Don't you think this farm could use a good cat? It's very healthy.$h",//Marnie
+        "event.CatAdoption_speak_4": "Well, little %pet... You be a good kitty now... okay?",//Marnie
+        
+    //Zayden_Arrival
+        "event.Arrival_1": "Damn, that was a long trip to get back home.$2",
+        "event.Arrival_2": "Hm? Someone moved into the abandoned farm?",
+        "event.Arrival_3": "I just hope they don't cause too much trouble...$2",
+
+    //Raven_checkIn.json -> Raven & farmer
+        "event.CheckIn_1": "Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?",
+        "event.CheckIn_2": "That's great!$1",
+        "event.CheckIn_3": "Everyone acted a little odd when they heard you were moving in.$17#$b#It's not that they didn't want you here, but it's just uncommon for people to move here, you know?$11",
+        "event.CheckIn_4": "Not many people move to Pelican Town unless they're trying to escape the life of the city...#$b#Or poverty...$12",
+        
+        "event.CheckIn_qQ": "Enough about the others. How've you been enjoying Pelican Town so far?",
+            //Path A: Doing great!
+                "event.CheckIn_qQ_1": "It's been great!",//Answer
+                "event.CheckIn_qQ_1_1": "I'm glad you've had a good experience here so far!$1#$b#It seems like you're already a pro, or at least have a very good head on your shoulders.",
+                "event.CheckIn_qQ_1_2": "Even if you make your farm completely automated one day, I just hope you won't forget the people here.#$b#It sucks when a person gets successful and then they suddenly act like the people around them never existed.$2",
+                "event.CheckIn_qQ_1_3": "Sorry, I didn't mean to get gloomy out of nowhere like that.$11#$b#I've had people in the past leave me behind whenever they find something better.$2#$b#I'm sure you'll be fine though! You're already wonderful from what I can tell.$1",
+            //Path B: Doing okay
+                "event.CheckIn_qQ_2": "It's been alright. Nothing too exciting.",//Answer
+                "event.CheckIn_qQ_2_1": "It takes a while to adjust to new places, but I believe in you.$1",
+                "event.CheckIn_qQ_2_2": "If you feel even a little left out, join in on the festivals! Everyone will be happy to see you there, trust me.",
+                "event.CheckIn_qQ_2_3": "I doubt anyone could forget you!#$b#I'm an expert in forgetting people after I first meet them, but you stand out enough for me to notice you there.#$b#In a good way, I promise!",
+            //Path C: Doing bad
+                "event.CheckIn_qQ_3": "It's been hard. It's hard to feel like I have a place here.",//Answer
+                "event.CheckIn_qQ_3_1": "That's a shame. Hopefully you're able to connect with some of the people here.",
+                "event.CheckIn_qQ_3_2": "It was actually pretty hard for me when I first moved here too.#$b#I wasn't able to really afford living in the city for long on my own. The pay and hours were so bad wtih Joja that I couldn't stand a chance.",
+                "event.CheckIn_qQ_3_3": "But it's different for you luckily!#$b#You inherited the farm from your grandpa, so it's really just maintenance you gotta worry about, right?",
+                "event.CheckIn_qQ_3_4": "Okay, I'm talking out of my ass. I don't know what it's like to own a plot of land, but at least you don't have to pay rent to a landlord, right?",
+                "event.CheckIn_qQ_3_5": "At least I got that part right!",
+        "event.CheckIn_5": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
+        "event.CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
+    //Raven_wildClans.json -> Only Raven speaks
+        "event.WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
+        "event.WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
+        "event.WildClans_speak_3": "I found it!$1#$b#Wanna see it?",
+    //Raven_cleansingFarmer.json
+    //mail.raven.cleansingFarmer.json
+        "event.CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
+    //Raven_jobInterview.json
+    //Raven_marriageTalk.json
+        "event.marriageTalk_gusWelcome": "Here comes the newlywed!",//Gus
+
+        "event.marriageTalk_speak_1": "Hey there, @! I'm on break right now.$1#$b#All of that cleaning tired me out so I need to take a breather before I get back to it.",//Raven
+
+        "event.marriageTalk_qQ": "How's the new marriage treating you?",
+
+        "event.marriageTalk_qQ_1": "It's awesome!",//Answer
+        "event.marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
+
+        "event.marriageTalk_qQ_2": "It doesn't feel like anything changed.",//Answer
+        "event.marriageTalk_qQ_2_1": "I suppose it's like that when you've already formed a super deep bond with each other.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
+
+        "event.marriageTalk_qQ_3": "I regret getting married.",//Answer
+        "event.marriageTalk_qQ_3_1": "Oh... That's tough, I'm sorry about that.$11#$b#Personally, I've always wanted to get married to someone or multiple someones.",//Raven
+
+        "event.marriageTalk_speak_2": "Yeah, I'm totally chill with being in a marriage involving multiple people.#$b#I love people, so I getting to share my love with multiple people at once is awesome!$1#$b#It's not for everybody, though. It can get pretty messy sometimes.",//Raven
+        "event.marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//Gus
+        "event.marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//Raven
+        "event.marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//Gus
+        "event.marriageTalk_speak_6": "I hope I get a relationship like that one of these days.$4",//Raven
+    //Raven_apartment.json
+        "event.apartment_1": "That's the last one!",//Raven
+        "event.apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
+        "event.apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
+        "event.apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
+        "event.apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
+        "event.apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
+        "event.apartment_7": "...#$b#I feel... normal again.$13",//Raven
+        "event.apartment_8": "*sniff*",//Raven
+        "event.apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//Raven
+        "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
+
+        "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
+}

@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "quests.json",
+            "LogName": "[Quests]",
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {

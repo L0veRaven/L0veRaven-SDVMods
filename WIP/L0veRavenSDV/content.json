@@ -1,21 +1,12 @@
 {
-    //title:
-    //file:
-    //label:
-    //token:
-    //bullet:
-    //logname:
     "Format": "2.4.4",
 
     "ConfigSchema": {
-        //label:General Settings
-            //## TODO: ADD
+        //General Settings
             //"CleanLanguage": {"Default": "false","AllowValues": "true, false","AllowBlank": false,"Section": "GeneralSettings","Description": null},
 
-        //label:Raven Settings
-            //bullet:Spirit's Eve Costumes: Toggles
-                //## TODO: ADD
-                // "RavenVampireCostumeSE": {Default": "true",AllowValues": "true, false",AllowBlank": false,Section": "RavenSpiritsEveCostumes",Description": null},
+        //Raven Settings
+            //Spirit's Eve Costumes: Toggles
                 "RavenCactusCostumeSE": {
                     "Default": "false",
                     "AllowBlank": false,
@@ -45,9 +36,9 @@
                     "Description": null
                 },
         
-        //label:Modder Settings
+        //Modder Settings
         //## TODO: DELETE ON RELEASE
-            //bullet:Index - Shows Raven with index numbers for sprites and portraits
+            //Index - Shows NPCs with index numbers for sprites and portraits
                 "RavenIndex": {
                     "Default": "false",
                     "AllowValues": "true, false",
@@ -62,7 +53,7 @@
                     "Section": "ModderSettings",
                     "Description": null
                 },
-            //bullet:Event Excludes: Toggle
+            //Event Excludes: Toggle
                 "EventExcludes": {
                     "Default": "None",
                     "AllowBlank": false,
@@ -73,19 +64,10 @@
     },
 
     "DynamicTokens": [
-        //title:Basic Information
-            //label:Character Names
-                //bullet:Internal Names
-                    {"Name": "Raven","Value": "L0veRaven_Raven"},
-                    {"Name": "RavenLC","Value": "l0veraven_raven"},
-                    {"Name": "Zayden","Value": "L0veRaven_Zayden"},
-                    {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
-                //bullet:Display Name
-                    {"Name": "RavenDisplayName","Value": "{{i18n:Raven.displayName}}"},
-                    {"Name": "ZaydenDisplayName","Value": "{{i18n:Zayden.displayName}}"},   
-            //bullet:Nexus ID
+        //Basic Information
+            //Nexus ID
                 {"Name": "Nexus","Value": "27407"},
-            //bullet:Mod Nicknames -> External ModId's
+            //ModCompat Nicknames -> External ModId's
                 {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
                 {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
                 {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
@@ -94,10 +76,18 @@
                 {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
                 {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar"},
                 {"Name": "FF","Value": "violetlizabet.CP.FireworksFestival"},
-            //bullet:Locations
+            //Character Names
+                //Internal Names
+                    {"Name": "Raven","Value": "L0veRaven_Raven"},
+                    {"Name": "RavenLC","Value": "l0veraven_raven"},
+                    {"Name": "Zayden","Value": "L0veRaven_Zayden"},
+                    {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
+                //Display Name
+                    {"Name": "RavenDisplayName","Value": "{{i18n:Raven.displayName}}"},
+                    {"Name": "ZaydenDisplayName","Value": "{{i18n:Zayden.displayName}}"},
+            //Locations
                 {"Name": "apartment","Value": "FRL_NPCApt_Floor1"},
-            //label:Emotes
-                //## TODO: Delete on release
+            //Emotes
                 {"Name": "emoteEmptyCan","Value": "4"},
                 {"Name": "emoteQuestion","Value": "8"},
                 {"Name": "emoteAngry","Value": "12"},
@@ -111,27 +101,29 @@
                 {"Name": "emoteVideoGame","Value": "52"},
                 {"Name": "emoteMusic","Value": "56"},
                 {"Name": "emoteBlush","Value": "60"},
-            //label:Event Commands
+            //Event Commands
                 {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
-            //label:Time
-                //## TODO: Delete on release
+            //Time
                 {"Name": "6am","Value": "600"},{"Name": "610am","Value": "610"},{"Name": "620am","Value": "620"},{"Name": "630am","Value": "630"},{"Name": "640am","Value": "640"},{"Name": "650am","Value": "650"},{"Name": "7am","Value": "700"},{"Name": "710am","Value": "710"},{"Name": "720am","Value": "720"},{"Name": "730am","Value": "730"},{"Name": "740am","Value": "740"},{"Name": "750am","Value": "750"},{"Name": "8am","Value": "800"},{"Name": "810am","Value": "810"},{"Name": "820am","Value": "820"},{"Name": "830am","Value": "830"},{"Name": "840am","Value": "840"},{"Name": "850am","Value": "850"},{"Name": "9am","Value": "900"},{"Name": "910am","Value": "910"},{"Name": "920am","Value": "920"},{"Name": "930am","Value": "930"},{"Name": "940am","Value": "940"},{"Name": "950am","Value": "950"},{"Name": "10am","Value": "1000"},{"Name": "1010am","Value": "1010"},{"Name": "1020am","Value": "1020"},{"Name": "1030am","Value": "1030"},{"Name": "1040am","Value": "1040"},{"Name": "1050am","Value": "1050"},{"Name": "11am","Value": "1100"},{"Name": "1110am","Value": "1110"},{"Name": "1120am","Value": "1120"},{"Name": "1130am","Value": "1130"},{"Name": "1140am","Value": "1140"},{"Name": "1150am","Value": "1150"},{"Name": "12pm","Value": "1200"},{"Name": "1210pm","Value": "1210"},{"Name": "1220pm","Value": "1220"},{"Name": "1230pm","Value": "1230"},{"Name": "1240pm","Value": "1240"},{"Name": "1250pm","Value": "1250"},{"Name": "1pm","Value": "1300"},{"Name": "110pm","Value": "1310"},{"Name": "120pm","Value": "1320"},{"Name": "130pm","Value": "1330"},{"Name": "140pm","Value": "1340"},{"Name": "150pm","Value": "1350"},{"Name": "2pm","Value": "1400"},{"Name": "210pm","Value": "1410"},{"Name": "220pm","Value": "1420"},{"Name": "230pm","Value": "1430"},{"Name": "240pm","Value": "1440"},{"Name": "250pm","Value": "1450"},{"Name": "3pm","Value": "1500"},{"Name": "310pm","Value": "1510"},{"Name": "320pm","Value": "1520"},{"Name": "330pm","Value": "1530"},{"Name": "340pm","Value": "1540"},{"Name": "350pm","Value": "1550"},{"Name": "4pm","Value": "1600"},{"Name": "410pm","Value": "1610"},{"Name": "420pm","Value": "1620"},{"Name": "430pm","Value": "1630"},{"Name": "440pm","Value": "1640"},{"Name": "450pm","Value": "1650"},{"Name": "5pm","Value": "1700"},{"Name": "510pm","Value": "1710"},{"Name": "520pm","Value": "1720"},{"Name": "530pm","Value": "1730"},{"Name": "540pm","Value": "1740"},{"Name": "550pm","Value": "1750"},{"Name": "6pm","Value": "1800"},{"Name": "610pm","Value": "1810"},{"Name": "620pm","Value": "1820"},{"Name": "630pm","Value": "1830"},{"Name": "640pm","Value": "1840"},{"Name": "650pm","Value": "1850"},{"Name": "7pm","Value": "1900"},{"Name": "710pm","Value": "1910"},{"Name": "720pm","Value": "1920"},{"Name": "730pm","Value": "1930"},{"Name": "740pm","Value": "1940"},{"Name": "750pm","Value": "1950"},{"Name": "8pm","Value": "2000"},{"Name": "810pm","Value": "2010"},{"Name": "820pm","Value": "2020"},{"Name": "830pm","Value": "2030"},{"Name": "840pm","Value": "2040"},{"Name": "850pm","Value": "2050"},{"Name": "9pm","Value": "2100"},{"Name": "910pm","Value": "2110"},{"Name": "920pm","Value": "2120"},{"Name": "930pm","Value": "2130"},{"Name": "940pm","Value": "2140"},{"Name": "950pm","Value": "2150"},{"Name": "10pm","Value": "2200"},{"Name": "1010pm","Value": "2210"},{"Name": "1020pm","Value": "2220"},{"Name": "1030pm","Value": "2230"},{"Name": "1040pm","Value": "2240"},{"Name": "1050pm","Value": "2250"},{"Name": "11pm","Value": "2300"},{"Name": "1110pm","Value": "2310"},{"Name": "1120pm","Value": "2320"},{"Name": "1130pm","Value": "2330"},{"Name": "1140pm","Value": "2340"},{"Name": "1150pm","Value": "2350"},{"Name": "12am","Value": "2400"},{"Name": "1210am","Value": "2410"},{"Name": "1220am","Value": "2420"},{"Name": "1230am","Value": "2430"},{"Name": "1240am","Value": "2440"},{"Name": "1250am","Value": "2450"},{"Name": "1am","Value": "2500"},{"Name": "110am","Value": "2510"},{"Name": "120am","Value": "2520"},{"Name": "130am","Value": "2530"},{"Name": "140am","Value": "2540"},{"Name": "150am","Value": "2550"},
-            //label:Directions
-                //## TODO: Delete on release
+            //Directions
                 {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
+            //Animation Frames
+                //Raven
+                    {"Name": "Raven_Animation_Sweep","Value": "l0veraven_raven_sweep"},
+                    {"Name": "Raven_Animation_Read","Value": "l0veraven_raven_read"},
+                    {"Name": "Raven_Animation_Stand","Value": "l0veraven_raven_stand"},
+                        //Nature's Bounty
+                            {"Name": "RavenBlunt","Value": "l0veraven_raven_blunt"},
+                            {"Name": "RavenEdible","Value": "l0veraven_raven_edible"},
+                //Zayden
+                    {"Name": "Zayden_Animation_Sweep","Value": "l0veraven_zayden_sweep"},
+                    {"Name": "Zayden_Animation_Sleep","Value": "l0veraven_zayden_sleep"},
 
         //title:Raven
             //file:dialogue/dialogue.json
                 //label:Medication Pickup
                     {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:raven.dialogue.medicationPickup.dayOf_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
                     {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:raven.dialogue.medicationPickup.dayOf_birthday_{{Random:{{Range:1,2}}}}}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
-            //file:animationFrames.json
-                {"Name": "Raven_Animation_Sweep","Value": "l0veraven_raven_sweep"},
-                {"Name": "Raven_Animation_Read","Value": "l0veraven_raven_read"},
-                {"Name": "Raven_Animation_Stand","Value": "l0veraven_raven_stand"},
-                    //Nature's Bounty
-                        {"Name": "RavenBlunt","Value": "l0veraven_raven_blunt"},
-                        {"Name": "RavenEdible","Value": "l0veraven_raven_edible"},
             //file:schedule.json
                 //label:Positions
                     //bullet:Bus Stop
@@ -228,9 +220,6 @@
                         {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"},
         //title:Zayden
             //label:Animations
-                {"Name": "Zayden_Animation_Sweep","Value": "l0veraven_zayden_sweep"},
-                {"Name": "Zayden_Animation_Sleep","Value": "l0veraven_zayden_sleep"},
-            
                 {"Name": "Zayden_ScheduleDialogue_JojaSweep","Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""},
             //label:Schedule
                 {
@@ -276,16 +265,19 @@
     ],
 
     "Changes": [
+        //Delete on Release
             {
                 "LogName": "DELETE ON RELEASE",
                 "Action": "Include",
-                "FromFile": "DELETE_eventExcludes.json"
+                "FromFile": "DELETE_eventExcludes.json, data/modCompat/cjbCheats.json"
             },
+        //Data/Objects
             {
                 "LogName": "[Data/Objects] Custom ContextTags",
                 "Action": "Include",
                 "FromFile": "data/objects/artifact_item.json, data/objects/hidden_item.json"
             },
+        //Maps
             {
                 "LogName": "[Maps] Load - Tent Inside (Vanilla)",
                 "Action": "Load",
@@ -310,11 +302,13 @@
                 "Target": "Maps/{{Raven}}SpouseRoom",
                 "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx"
             },
+        //Map Patch & Location Includes
             {
                 "LogName": "Map Patch & Location Includes",
                 "Action": "Include",
                 "FromFile": "data/locations/apartment.json, data/locations/ravenTent.json, data/locations/spouseRoom.json, data/locations/spousePatio.json"
             },
+        //Blank Loads
             {
                 "LogName": "[Data/Events] - Blank Loads for Custom Locations",
                 "Action": "Load",
@@ -333,6 +327,24 @@
                 "Target": "Characters/Dialogue/{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
                 "FromFile": "data/blank.json"
             },
+        //Data/Characters
+            {
+                "LogName": "[Character] Includes",
+                "Action": "Include",
+                "FromFile": "data/character.json, data/appearance.json, data/home.json, data/winterStarGifts.json, data/npcGiftTastes.json, data/schedule.json"
+            },
+            {
+                "LogName": "General - Data Includes",
+                "Action": "Include",
+                "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
+            },
+        //Data/Festivals
+            {
+                "LogName": "[Festival] Includes",
+                "Action": "Include",
+                "FromFile": "data/festivals/eggFestival.json, data/festivals/flowerDance.json, data/festivals/luau.json, data/festivals/danceOfTheMoonlightJellies.json, data/festivals/stardewValleyFair.json, data/festivals/spiritsEve.json, data/festivals/festivalOfIce.json, data/festivals/feastOfTheWinterStar.json"
+            },
+        //Data/Events
             {
                 "LogName": "Raven - Event Includes",
                 "Action": "Include",
@@ -343,32 +355,16 @@
                 "Action": "Include",
                 "FromFile": "data/events/Zayden_arrival.json"
             },
+        //Dialogue
             {
-                "LogName": "Raven - NPC Data Includes",
+                "LogName": "[Dialogue] Raven - Includes",
                 "Action": "Include",
-                "FromFile": "data/characters/Raven/animationFrames.json, data/characters/Raven/concessionTastes.json, data/characters/Raven/NPCGiftTastes.json, data/characters/Raven/schedule.json, data/characters/Raven/mail.json, data/characters/Raven/character.json, data/characters/Raven/appearance.json, data/characters/Raven/home.json, data/characters/Raven/winterStarGifts.json, data/characters/Raven/triggerActions.json"
+                "FromFile": "data/dialogue/raven_dialogue.json, data/dialogue/raven_marriageDialogue.json, data/dialogue/raven_giftResponses.json, data/dialogue/raven_moviesReactions.json, data/dialogue/raven_scheduleDialogue.json"
             },
             {
-                "LogName": "Raven - Dialogue Includes",
+                "LogName": "[Dialogue] Zayden - Includes",
                 "Action": "Include",
-                "FromFile": "data/characters/Raven/dialogue/dialogue.json, data/characters/Raven/dialogue/marriageDialogue.json, data/characters/Raven/dialogue/giftResponses.json, data/characters/Raven/dialogue/moviesReactions.json, data/characters/Raven/StringsFromCSFiles.json, data/characters/Raven/dialogue/scheduleDialogue.json"
-            },
-            {
-                "LogName": "Raven - Festivals Includes",
-                "Action": "Include",
-                "FromFile": "data/festivals/Raven_danceOfTheMoonlightJellies.json, data/festivals/Raven_eggFestival.json, data/festivals/Raven_feastOfTheWinterStar.json, data/festivals/Raven_festivalOfIce.json, data/festivals/Raven_flowerDance.json, data/festivals/Raven_luau.json, data/festivals/Raven_spiritsEve.json, data/festivals/Raven_stardewValleyFair.json"
-            },
-        //Zayden
-            {
-                "LogName": "Zayden - [Main] NPC Data Includes",
-                "Action": "Include",
-                "FromFile": "data/characters/Zayden/character.json, data/characters/Zayden/appearance.json, data/characters/Zayden/animationFrames.json, data/characters/Zayden/schedule.json, data/characters/Zayden/festivals.json, data/characters/Zayden/giftTastes.json, data/characters/Zayden/mail.json, data/characters/Zayden/dialogue/scheduleStrings.json, data/characters/Zayden/dialogue/dialogue.json, data/characters/Zayden/dialogue/giftResponses.json"
-            },
-        //ModCompat
-            {
-                "LogName": "ModCompat Includes",
-                "Action": "Include",
-                "FromFile": "data/modCompat/cjbCheats.json"
+                "FromFile": "data/dialogue/zayden_dialogue.json, data/dialogue/zayden_giftResponses.json, data/dialogue/zayden_scheduleStrings.json"
             }
     ]
 }

@@ -1,7 +1,7 @@
 {//ADD
     "Changes": [
         {
-            "LogName": "character.json: Disposition - SVE (Plain)",
+            "LogName": "[Data/Characters] Vanilla",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
@@ -35,17 +35,17 @@
                     "SpouseRoom": {
                         "MapAsset": "{{Raven}}SpouseRoom",
                         "MapSourceRect": {
-                            "X": 0, "Y": 0, "Width": 6, "Height": 9,
-                        },
+                            "X": 0, "Y": 0, "Width": 6, "Height": 9
+                        }
                     },
                     "SpousePatio": {
                         "MapAsset": "{{Raven}}SpousePatio",
                         "MapSourceRect": {
-                            "X": 0, "Y": 0, "Width": 4, "Height": 4,
+                            "X": 0, "Y": 0, "Width": 4, "Height": 4
                         },
                         "SpriteAnimationFrames": [ //Looping animation while on spousepatio, [frame, miliseconds]
-                            [0, 1500],
-                        ],
+                            [0, 1500]
+                        ]
                     },
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,
@@ -62,13 +62,13 @@
                     "Appearance": [], //New appearance system -> See "outfits.json"
                     "MugShotSourceRect": null, //Changes position of headshot in calendar/map/etc if they're shorter/taller than normal
                     "Size": {
-                        "X": 16,"Y": 32,
+                        "X": 16,"Y": 32
                     }, //Sprite dimensions
                     "Breather": true, //true,false -> Places the breathing animation over the npc
                     "BreathChestRect": null, //Changeable if you want to enlarge/shrink the breathing animation
                     "BreathChestPosition": null, //Changeable if NPC is taller/shorter than normal
                     "Shadow": null, //visible,offset,scale -> Visible is default, Offset to offset the shadow, scale to enlarge/shrink
-                    "EmoteOffset": {"X": 0,"Y": 0,}, //Whether to offset the emote bubble over the NPC or not
+                    "EmoteOffset": {"X": 0,"Y": 0}, //Whether to offset the emote bubble over the NPC or not
                     "ShakePortraits": [9],
                     "KissSpriteIndex": 19,
                     "KissSpriteFacingRight": true,
@@ -77,9 +77,67 @@
                     //ADD"HiddenProfileEmoteStartFrame": null, //Animation's starting frame
                     //ADD"HiddenProfileEmoteFrameCount": null, //How many frames the sprite index will go through, going left to right
                     //ADD"HiddenProfileEmoteFrameDuration": null, //Frames in milliseconds
-                    "CustomFields": null, //Used for C#
+                    "CustomFields": null //Used for C#
                 },
-            },
-        },
+
+                "{{Zayden}}": {
+                    "DisplayName": "{{i18n:Zayden.displayName}}",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 8,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "IsDarkSkinned": true,
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": null,
+                    "CanVisitIsland": null,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "TrailingGroup",
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 8,
+                    "FlowerDanceCanDance": false,
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": true,
+                    "UnlockConditions": "SEASON_DAY spring 7",
+                    "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
+                    "Home": [],
+                    "TextureName": null,
+                    "Appearance": null,
+                    "MugShotSourceRect": null, //change the position of their headshot //review
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "BreathChestRect": null,
+                    "BreathChestPosition": null,
+                    "Shadow": null,
+                    "EmoteOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "ShakePortraits": [], //ADD
+                    "HiddenProfileEmoteSound": null, //ADD
+                    "HiddenProfileEmoteDuration": 4000, //Duration in milliseconds
+                    "HiddenProfileEmoteStartFrame": 32, //Sprite index start for emote
+                    "HiddenProfileEmoteFrameCount": 2, //How many frames the sprite index will go through (left to right)
+                    "HiddenProfileEmoteFrameDuration": 200.0, //How long each frame lasts measured in milliseconds
+                    "FormerCharacterNames": [], //For old saves if internal NPC name has changed
+                    "CustomFields": null //For C#
+                }
+            }
+        }
     ]
 }

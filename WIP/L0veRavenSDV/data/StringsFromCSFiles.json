@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {//Verified
+            "LogName": "[Strings/StringsFromCSFiles] General",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "MapPage.cs.{{Nexus}}001": "{{i18n:locationName.ravenTent_NameHover}}"
+            }
+        }
+    ]
+}

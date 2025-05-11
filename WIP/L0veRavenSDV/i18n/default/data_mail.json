@@ -1,0 +1,10 @@
+{
+    //{{Zayden}}_Welcome
+        "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
+        "mail.zayden.WelcomeMail_message": "Hello there, this is Zayden.^^I'm mailing this before I come back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
+        "mail.zayden.WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
+    //{{Zayden}}_Greenhouse
+        "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
+        "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
+        "mail.zayden.GreenhouseMail_item": "%item object 433 5 %%",//5 Coffee Beans
+}

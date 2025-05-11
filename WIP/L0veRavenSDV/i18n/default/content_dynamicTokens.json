@@ -4,10 +4,4 @@
         "Zayden.displayName": "Zayden",
     //Location Names
         "locationName.ravenTent": "Raven's Tent",
-    //{{RavenMedicationPickupDialogue}} Spring, Summer, Fall
-        "raven.dialogue.medicationPickup.dayOf_1": "I gotta pick up my meds today at the clinic.#$e#Too bad they taste so horrible.$2",
-        "raven.dialogue.medicationPickup.dayOf_2": "I pick up my meds the same day of every month. It's harder to lose track that way.#$e#It also helps me remember my birthday when I have something important to do on that day.",
-    //{{RavenMedicationPickupDialogue}} Winter
-        "raven.dialogue.medicationPickup.birthday.dayOf_1": "It's my birthday today!$3#$e#Happy birthday to me~! Happy birthday to me~!$1",
-        "raven.dialogue.medicationPickup.birthday.dayOf_2": "Today's my birthday!$3#$b#My medication pickup is also scheduled for today, but that's not as important.$1",
-    }
+}
