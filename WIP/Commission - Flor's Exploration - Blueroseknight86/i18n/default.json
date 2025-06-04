@@ -40,7 +40,7 @@
     "event.safewordPractice.speak_6": "",
     "event.safewordPractice.speak_7": "",
     "event.safewordPractice.speak_8": "",
-    "event.safewordPractice.endDialogue": "Thanks for listening to our safeword. It's good to know that I can be safe with you.",
+    "event.safewordPractice.endDialogue": "Thanks for listening to our safeword. It's good to know that I can be safe with you.$1",
 }
 
 //Fresh graduate in clinical psychology
