@@ -45,7 +45,7 @@
     "event.safewordPractice.speak_10": "I'm glad you had a good time too, @.$4",
     "event.safewordPractice.speak_11": "I think I'd like to be alone for a little bit. It was good getting to practice using a safeword with you.",
     "event.safewordPractice.endDialogue": "Thanks for listening to our safeword. It's good to know that I can be safe with you.$1",
-
+    //Event 4
     "event.underTheStars.speak_1": "Hello dear. You decided to come out so late?",
     "event.underTheStars.speak_2": "You know, I never thought I would be lucky enough to end up with someone like you...",
     "event.underTheStars.speak_3": "P-please don't take it the wrong way!$3#$b#What I mean is that I've struggled for a long time when it comes to maintaining social connections.$2",
@@ -66,7 +66,12 @@
     "event.underTheStars.speak_17": "I-I'm going to cum!$29#$b#Fuck!!!$29",
     "event.underTheStars.message_2": "Flor speaks while trying to catch her breath.",
     "event.underTheStars.speak_18": "I... feel amazing. E-even though my legs are shaking, I had a great time.$19#$b#... Thank you, @.$19",
-    
+    //Event 5
+    "event.concernedForFarmer.speak_1": "...$4",
+    "event.concernedForFarmer.speak_2": "So... I had a great time when we had sex.$4#$b#... But I also feel like I messed up.$2",
+    "event.concernedForFarmer.speak_3": "_______________",
+    "event.concernedForFarmer.speak_": "_______________",
+
     "event._____.speak_": "_______________",
 }
 

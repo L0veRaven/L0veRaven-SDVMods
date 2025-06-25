@@ -115,14 +115,14 @@
                 "Action": "EditData",
                 "Target": "Data/Events/BusStop",
                 "Entries": {
-                    "{{modName}}_concernedForFarmer/SawEvent {{modName}}_underTheStars/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/move farmer -2 0 {{up}}/emote Flor {{emoteHeart}} true/emote farmer {{emoteHappy}} true/move farmer 0 -4 {{down}}/pause 2000/--END/end bed"
+                    "{{modName}}_concernedForFarmer/SawEvent {{modName}}_underTheStars/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/move farmer -2 0 {{up}}/emote Flor {{emoteHeart}} true/emote farmer {{emoteHappy}} true/move farmer 0 -4 {{down}}/pause 2000/speak Flor \"{{i18n:event.concernedForFarmer.speak_1}}\"/pause 500/shake Flor 1000/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{right}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_2}}\"/--END/end bed"
                 },
                 "When": {"modEnable": "true"}
             }
     ]
 }
-//        speak Flor \"{{i18n:event.concernedForFarmer.speak_1}}\"/
-//        speak Flor \"{{i18n:event.concernedForFarmer.speak_2}}\"/
+//        
+//        
 //        speak Flor \"{{i18n:event.concernedForFarmer.speak_3}}\"/
 //        speak Flor \"{{i18n:event.concernedForFarmer.speak_4}}\"/
 //        speak Flor \"{{i18n:event.concernedForFarmer.speak_5}}\"/
