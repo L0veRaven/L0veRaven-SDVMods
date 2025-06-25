@@ -1,19 +1,33 @@
 # Mod Commands
->Reload Mod
+
+### Reload Mod
 
 patch reload L0veRaven.FlorsExploration
 
->Event 1
+### Event 1
+#### Conditions: Town, Dating Flor, NPC is in Town, and saw event 75160132 (Flor's 8 Heart Event)
 
 debug ebi id_confession
 
->Event 2
+### Event 2
+#### Conditions: ArchaeologyHouse, saw event {{modName}}_confession, Flor 9 Hearts
 
 debug ebi id_libraryBook
 
->Event 3
+### Event 3
+#### Conditions: Custom_Ridgeside_LogCabinHotel2ndFloor, read letter {{modName}}_safewordPracticeLetter
 
 debug ebi id_safewordPractice
+
+### Event 4
+#### Conditions: Beach, saw event {{modName}}_safewordPractice, married to Flor, 8pm-2am
+
+debug ebi id_underTheStars
+
+### Event 5
+#### Conditions: BusStop, saw event {{modName}}_underTheStars, married to Flor, 8pm-2am
+
+debug ebi id_concernedForFarmer
 
 # RSV Commands
 >2 Hearts

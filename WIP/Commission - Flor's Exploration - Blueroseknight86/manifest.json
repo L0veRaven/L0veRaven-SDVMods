@@ -12,6 +12,10 @@
         {
             "UniqueID": "Rafseazz.RSVCP",
             "IsRequired": "true"
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": "false"
         }
     ]
 }
