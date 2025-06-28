@@ -69,8 +69,16 @@
     //Event 5
     "event.concernedForFarmer.speak_1": "...$4",
     "event.concernedForFarmer.speak_2": "So... I had a great time when we had sex.$4#$b#... But I also feel like I messed up.$2",
-    "event.concernedForFarmer.speak_3": "_______________",
-    "event.concernedForFarmer.speak_": "_______________",
+    "event.concernedForFarmer.speak_3": "You don't remember?$3#$b#Oh geez... Maybe I did mess up...$2#$b#I didn't make you cum and I ended up feeling really bad about it afterwards.$2",
+    "event.concernedForFarmer.message_1": "You explain that you still had a good time and didn't feel the need to orgasm at the same time as her.",
+    "event.concernedForFarmer.speak_4": "... But I still feel bad about it.$2#$b#The book I've been referencing says that it's not required to orgasm during sex, but... I feel like I'm doing something wrong if I can't make it happen.",
+    "event.concernedForFarmer.message_2": "You offer Flor a hug.",
+    "event.concernedForFarmer.speak_5": "So... it's okay?$4#$b#I promise I'll make sure you have a good time the next time we have sex.$1",
+    "event.concernedForFarmer.message_3": "You remind Flor that there's no pressure for her to be perfect during sex.",
+    "event.concernedForFarmer.speak_6": "...$8#$b#I-I'm sorry for crying... I'm just not used to someone being so nice to me about things...$8",
+    "event.concernedForFarmer.speak_7": "Thanks for being so kind to me, @. You're amazing.$13",
+    "event.concernedForFarmer.speak_8": "I think I'll keep enjoying the outdoors here. You're more than welcome to join me if you'd like.$1",
+    "event.concernedForFarmer.endDialogue": "Thanks for talking with me about things. I think I was just overthinking things.$4",
 
     "event._____.speak_": "_______________",
 }
