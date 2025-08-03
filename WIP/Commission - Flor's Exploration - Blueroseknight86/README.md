@@ -1,3 +1,6 @@
+## TODO: Before release
+~ Remove numbers from spritesheets and portraits
+
 # Mod Commands
 
 ### Reload Mod
