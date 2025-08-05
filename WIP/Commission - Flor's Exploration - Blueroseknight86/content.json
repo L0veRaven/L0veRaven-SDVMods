@@ -118,6 +118,16 @@
                     "{{modName}}_concernedForFarmer/SawEvent {{modName}}_underTheStars/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/move farmer -2 0 {{up}}/emote Flor {{emoteHeart}} true/emote farmer {{emoteHappy}} true/move farmer 0 -4 {{down}}/pause 2000/speak Flor \"{{i18n:event.concernedForFarmer.speak_1}}\"/pause 500/shake Flor 1000/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{right}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_2}}\"/pause 500/emote farmer {{emotePause}}/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_3}}\"/pause 500/emote farmer {{emoteBlush}}/pause 500/message \"{{i18n:event.concernedForFarmer.message_1}}\"/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_4}}\"/pause 500/faceDirection Flor {{down}} true/faceDirection farmer {{down}} true/emote farmer {{emoteBlush}} true/emote Flor {{emoteSweat}} true/pause 2000/message \"{{i18n:event.concernedForFarmer.message_2}}\"/pause 500/--Hug START/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/positionOffset Flor -10 0/positionOffset farmer 10 0/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/--Hug END/pause 500/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_5}}\"/pause 500/message \"{{i18n:event.concernedForFarmer.message_3}}\"/pause 500/faceDirection Flor {{down}} true/shake Flor 1000/faceDirection farmer {{down}}/pause 1500/speak Flor \"{{i18n:event.concernedForFarmer.speak_6}}\"/pause 500/move Flor 1 0 {{right}}/positionOffset Flor 10 0/showFrame Flor 28/emote farmer {{emoteBlush}}/pause 1000/positionOffset Flor -10 0/faceDirection Flor {{right}}/pause 500/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_7}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 1000/speak Flor \"{{i18n:event.concernedForFarmer.speak_8}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/end dialogue Flor \"{{i18n:event.concernedForFarmer.endDialogue}}\""
                 },
                 "When": {"modEnable": "true"}
+            },
+        //Event 6 - Why The Dark
+            {
+                "LogName": "Event 6 - Why The Dark",
+                "Action": "EditData",
+                "Target": "Data/Events/Mountain",
+                "Entries": {
+                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                },
+                "When": {"modEnable": "true"}
             }
     ]
 }
