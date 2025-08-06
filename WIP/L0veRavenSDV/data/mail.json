@@ -4,7 +4,7 @@
             {
                 "LogName": "[mail] Raven - Event Mail",
                 "Action": "EditData",
-                "Target": "Data/mail",
+                "Target": "Data/Mail",
                 "Entries": {
                     "{{Raven}}_CheckIn_1": "{{i18n:mail.eventEnd.raven.checkIn_1}}",
                     "{{Raven}}_CheckIn_2": "{{i18n:mail.eventEnd.raven.checkIn_2}}",

@@ -102,6 +102,16 @@
     "event.whyTheDark.speak_13": "Great, I'll see about scheduling an appointment with Paula. Hopefully she'll be able to help out.",
     "event.whyTheDark.speak_14": "So... Did you want to still spend some time with me?$4",
     "event.whyTheDark.endDialogue": "@... I love you. Thanks for not judging me about my insecurities.$4",
+    //Event 8 - Letter
+    "event.couplesCounselingLetter.body": "Hello @ and Flor,^^Thank you for registering for an appointment for couple's counseling.^^Here at Ridgeside Clinic, we take your care seriously.^^Please stop by at the clinic during business hours of 8am to 8pm and we will gladly see you for your first-time appointment.^^~ Paula Faheem with Ridgeside Clinic",
+    "event.couplesCounselingLetter.title": "First-Time Couple's Counseling Appointment",
+    //Event 8
+    "event.couplesCounseling.paula_1": "",
+    "event.couplesCounseling.flor_1": "",
+    "event.couplesCounseling.message_1": "",
+    "event.couplesCounseling.endDialogue": "Thanks for coming with me. I think this will be great for us.$4",
+
+    "event._____.endDialogue": "",
 }
 
 //Fresh graduate in clinical psychology

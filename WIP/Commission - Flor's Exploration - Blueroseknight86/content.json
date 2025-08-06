@@ -73,7 +73,7 @@
             {
                 "LogName": "Letter for Event 3 - Safeword Practice",
                 "Action": "EditData",
-                "Target": "Data/mail",
+                "Target": "Data/Mail",
                 "Entries": {
                     "{{modName}}_safewordPracticeLetter": "{{i18n:mail.safewordPractice.body}}[#]{{i18n:mail.safewordPractice.title}}"
                 },
@@ -125,7 +125,37 @@
                 "Action": "EditData",
                 "Target": "Data/Events/Mountain",
                 "Entries": {
-                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor/Time 1200 1900": "sweet/64 14/farmer 65 10 {{down}} Flor 64 14 {{down}}/skippable/pause 1000/--Start/move farmer 0 4 {{down}}/pause 1500/faceDirection Flor {{right}} true/emote Flor {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_1}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_2}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 2000/message \"{{i18n:event.whyTheDark.message_1}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_3}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_4}}\"/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/shake Flor 1000/pause 1500/speak Flor \"{{i18n:event.whyTheDark.speak_5}}\"/pause 2000/message \"{{i18n:event.whyTheDark.message_2}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_6}}\"/pause 2000/faceDirection Flor {{right}}/pause 1500/--Hug/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 1500/message \"{{i18n:event.whyTheDark.message_3}}\"/pause 1500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_7}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_4}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_8}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_5}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_9}}\"/pause 500/shake Flor 1000/pause 3000/faceDirection Flor {{down}}/speak Flor \"{{i18n:event.whyTheDark.speak_10}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_6}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_11}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_7}}\"/pause 1000/faceDirection Flor {{right}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_13}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_14}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 3000/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor/Time 1200 1900": "sweet/64 14/farmer 65 10 {{down}} Flor 64 14 {{down}}/skippable/action AddMail current {{modName}}_couplesCounselingLetter/pause 1000/--Start/move farmer 0 4 {{down}}/pause 1500/faceDirection Flor {{right}} true/emote Flor {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_1}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_2}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 2000/message \"{{i18n:event.whyTheDark.message_1}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_3}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_4}}\"/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/shake Flor 1000/pause 1500/speak Flor \"{{i18n:event.whyTheDark.speak_5}}\"/pause 2000/message \"{{i18n:event.whyTheDark.message_2}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_6}}\"/pause 2000/faceDirection Flor {{right}}/pause 1500/--Hug/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 1500/message \"{{i18n:event.whyTheDark.message_3}}\"/pause 1500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_7}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_4}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_8}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_5}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_9}}\"/pause 500/shake Flor 1000/pause 3000/faceDirection Flor {{down}}/speak Flor \"{{i18n:event.whyTheDark.speak_10}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_6}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_11}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_7}}\"/pause 1000/faceDirection Flor {{right}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_13}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_14}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 3000/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                },
+                "When": {"modEnable": "true"}
+            },
+        //Event 7 - Letter
+            {
+                "LogName": "Letter for Event 7 - Couple's Counseling",
+                "Action": "EditData",
+                "Target": "Data/Mail",
+                "Entries": {
+                    "{{modName}}_couplesCounselingLetter": "{{i18n:mail.couplesCounseling.body}}[#]{{i18n:mail.couplesCounseling.title}}",
+                }
+            },    
+        //Event 7 - Couple's Counseling
+            {
+                "LogName": "Event 7 - Couple's Counseling",
+                "Action": "EditData",
+                "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
+                "Entries": {
+                    "{{modName}}_couplesCounseling/SawEvent {{modName}}_whyTheDark/LocalMail {{modName}}_couplesCounselingLetter/Spouse Flor/Time 800 2000": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/
+                    speak Paula \"Thanks for taking the time to meet with me today.$1#$b#I know you scheduled yourselves for couple's counseling, but what specifically brings you in ?$6\"/
+                    pause 500/faceDirection Flor {{right}}/pause 2000/faceDirection farmer {{left}}/shake Flor 1500/emote farmer {{emoteSweat}} true/emote Flor {{emoteSweat}}/pause 1500/
+                    message \"Flor looks to you to answer for her, but you gave her an encouraging look so she felt confident to say it herself.\"/
+                    pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 500/
+                    speak Flor \"... I'm too nervous to have sex with the lights on, so we always have the lights off whenever we have sex.$2\"/
+
+                    speak Paula \"\"/
+                    speak Flor \"\"/
+                    message \"\"/
+                    
+                    /pause 1000/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
                 },
                 "When": {"modEnable": "true"}
             }
