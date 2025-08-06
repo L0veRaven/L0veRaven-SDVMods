@@ -125,7 +125,7 @@
                 "Action": "EditData",
                 "Target": "Data/Events/Mountain",
                 "Entries": {
-                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor": "sweet/64 14/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start//end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
                 },
                 "When": {"modEnable": "true"}
             }
