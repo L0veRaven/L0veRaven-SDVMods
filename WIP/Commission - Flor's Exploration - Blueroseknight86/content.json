@@ -150,8 +150,8 @@
                     message \"Flor looks to you to answer for her, but you gave her an encouraging look so she felt confident to say it herself.\"/
                     pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 500/
                     speak Flor \"... I'm too nervous to have sex with the lights on, so we always have the lights off whenever we have sex.$2\"/
-
-                    speak Paula \"\"/
+                    pause 1000/
+                    speak Paula \"I see...\"/
                     speak Flor \"\"/
                     message \"\"/
                     
