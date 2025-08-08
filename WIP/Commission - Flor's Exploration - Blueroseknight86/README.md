@@ -38,7 +38,7 @@ debug ebi id_concernedForFarmer
 debug ebi id_whyTheDark
 
 ### Event 7
-#### Conditions: Mountain, saw event {{modName}}_whyTheDark, read letter {{modName}}_safewordPracticeLetter, married to Flor, 8am-8pm
+#### Conditions: Mountain, saw event {{modName}}_whyTheDark, read letter {{modName}}_safewordPracticeLetter, married to Flor, Monday, 8am-8pm
 
 debug ebi id_couplesCounseling
 
