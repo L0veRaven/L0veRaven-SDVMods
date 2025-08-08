@@ -140,8 +140,8 @@
     //Event 8
     "event.lightsOn.speak_1": "I'm glad you were able to meet me here!$1#$b#How are you feeling about right now?",
     "event.lightsOn.speak_2": "I read that being in a good mental state makes sex more pleasurable, so I just want to see how you're doing.$1#$b#I'm thinking we can start with me just taking off my clothes.",
-    "event.lightsOn.speak_3": "",
-    "event.lightsOn.speak_4": "",
+    "event.lightsOn.speak_3": "... Okay, I'm going to turn the lights back on...$15",
+    "event.lightsOn.speak_4": "You... don't mind how I look?$19",
     "event.lightsOn.speak_5": "",
     "event.lightsOn.speak_6": "",
     "event.lightsOn.speak_7": "",
