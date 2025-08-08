@@ -10,37 +10,37 @@ patch reload L0veRaven.FlorsExploration
 ### Event 1
 #### Conditions: Town, Dating Flor, NPC is in Town, and saw event 75160132 (Flor's 8 Heart Event)
 
-debug ebi id_confession
+debug ebi L0veRaven.FlorsExploration_confession
 
 ### Event 2
-#### Conditions: ArchaeologyHouse, saw event {{modName}}_confession, Flor 9 Hearts
+#### Conditions: ArchaeologyHouse, saw event L0veRaven.FlorsExploration_confession, Flor 9 Hearts
 
-debug ebi id_libraryBook
+debug ebi L0veRaven.FlorsExploration_libraryBook
 
 ### Event 3
-#### Conditions: Custom_Ridgeside_LogCabinHotel2ndFloor, read letter {{modName}}_safewordPracticeLetter
+#### Conditions: Custom_Ridgeside_LogCabinHotel2ndFloor, read letter L0veRaven.FlorsExploration_safewordPracticeLetter
 
-debug ebi id_safewordPractice
+debug ebi L0veRaven.FlorsExploration_safewordPractice
 
 ### Event 4
-#### Conditions: Beach, saw event {{modName}}_safewordPractice, married to Flor, 8pm-2am
+#### Conditions: Beach, saw event L0veRaven.FlorsExploration_safewordPractice, married to Flor, 8pm-2am
 
-debug ebi id_underTheStars
+debug ebi L0veRaven.FlorsExploration_underTheStars
 
 ### Event 5
-#### Conditions: BusStop, saw event {{modName}}_underTheStars, married to Flor, 8pm-2am
+#### Conditions: BusStop, saw event L0veRaven.FlorsExploration_underTheStars, married to Flor, 8pm-2am
 
-debug ebi id_concernedForFarmer
+debug ebi L0veRaven.FlorsExploration_concernedForFarmer
 
 ### Event 6
-#### Conditions: Mountain, saw event {{modName}}_concernedForFarmer, married to Flor, 10am-7pm
+#### Conditions: Mountain, saw event L0veRaven.FlorsExploration_concernedForFarmer, married to Flor, 10am-7pm
 
-debug ebi id_whyTheDark
+debug ebi L0veRaven.FlorsExploration_whyTheDark
 
 ### Event 7
-#### Conditions: Mountain, saw event {{modName}}_whyTheDark, read letter {{modName}}_safewordPracticeLetter, married to Flor, Monday, 8am-8pm
+#### Conditions: Mountain, saw event L0veRaven.FlorsExploration_whyTheDark, read letter L0veRaven.FlorsExploration_safewordPracticeLetter, married to Flor, Monday, 8am-8pm
 
-debug ebi id_couplesCounseling
+debug ebi L0veRaven.FlorsExploration_couplesCounseling
 
 # RSV Commands
 >2 Hearts
