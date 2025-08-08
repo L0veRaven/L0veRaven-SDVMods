@@ -42,6 +42,11 @@ debug ebi L0veRaven.FlorsExploration_whyTheDark
 
 debug ebi L0veRaven.FlorsExploration_couplesCounseling
 
+### Event 8
+#### Conditions: Mountain, saw event L0veRaven.FlorsExploration_couplesCounseling, married to Flor, Monday, 7pm-2am
+
+debug ebi L0veRaven.FlorsExploration_lightsOn
+
 # RSV Commands
 >2 Hearts
 

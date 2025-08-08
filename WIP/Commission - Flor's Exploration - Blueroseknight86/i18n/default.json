@@ -102,10 +102,10 @@
     "event.whyTheDark.speak_13": "Great, I'll see about scheduling an appointment with Paula. Hopefully she'll be able to help out.",
     "event.whyTheDark.speak_14": "So... Did you want to still spend some time with me?$4",
     "event.whyTheDark.endDialogue": "@... I love you. Thanks for not judging me about my insecurities.$4",
-    //Event 8 - Letter
+    //Event 7 - Letter
     "event.couplesCounselingLetter.body": "Hello @ and Flor,^^Thank you for registering for an appointment for couple's counseling.^^Here at Ridgeside Clinic, we take your care seriously.^^Please stop by at the clinic during business hours of 8am to 8pm on any Monday and we will gladly see you for your first-time appointment.^^~ Paula Faheem with Ridgeside Clinic",
     "event.couplesCounselingLetter.title": "First-Time Couple's Counseling Appointment",
-    //Event 8
+    //Event 7
     "event.couplesCounseling.paula_1": "Thanks for taking the time to meet with me today.$1#$b#I know you scheduled yourselves for couple's counseling, but what specifically brings you in?$6",
     "event.couplesCounseling.message_1": "Flor looks to you to answer for her, but you gave her an encouraging look so she felt confident to say it herself.",
     "event.couplesCounseling.flor_1": "... I'm too nervous to have sex with the lights on, so we always have the lights off whenever we have sex.$2",
@@ -134,6 +134,11 @@
     "event.couplesCounseling.paula_12": "It's no problem, it's what I'm here for.#$b#I do want to suggest that you try to be intimate with @ with the lights on at least once before we see each other again, if you choose to do another session.#$b#I want to see how it goes once you start your medications.#$b#Your prescription will be ready in a bit. I need to prepare it for you, first.",
     "event.couplesCounseling.flor_13": "Thanks, again. It means a lot to me.$13",
     "event.couplesCounseling.endDialogue": "Thanks for coming with me. I think this will be great for us.$4",
+    //Event 8 - Letter
+    "mail.lightsOn.body": "Hello love,^^I'm thinking that we should have some alone time with each other. There's no need to dress formal, but I think you'll enjoy some frisky ideas that I have in mind for us! I'll try to keep the lights on this time, too.^^I'll see you at my room in the Log Cabin Hotel between 7pm and 2am.^^With love, Floradora Hibiscado",
+    "mail.lightsOn.title": "Lights On",
+    //Event 8
+    "event.lightsOn.speak_": "",
 
     "event._____.endDialogue": "",
 }
