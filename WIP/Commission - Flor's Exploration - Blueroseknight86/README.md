@@ -40,11 +40,13 @@ debug ebi L0veRaven.FlorsExploration_whyTheDark
 ### Event 7
 #### Conditions: Mountain, saw event L0veRaven.FlorsExploration_whyTheDark, read letter L0veRaven.FlorsExploration_safewordPracticeLetter, married to Flor, Monday, 8am-8pm
 
+debug seenmail L0veRaven.FlorsExploration_couplesCounselingLetter
 debug ebi L0veRaven.FlorsExploration_couplesCounseling
 
 ### Event 8
-#### Conditions: Mountain, saw event L0veRaven.FlorsExploration_couplesCounseling, married to Flor, Monday, 7pm-2am
+#### Conditions: Mountain, saw event L0veRaven.FlorsExploration_couplesCounseling, married to Flor, 7pm-2am
 
+debug seenmail L0veRaven.FlorsExploration_lightsOnLetter
 debug ebi L0veRaven.FlorsExploration_lightsOn
 
 # RSV Commands
