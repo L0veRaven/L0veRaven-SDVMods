@@ -163,34 +163,26 @@
                 "Action": "EditData",
                 "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
                 "Entries": {
-                    "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time 1900 2600/": "sweet/9 5/farmer 7 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/
-                    speak Flor \"{{i18n:event.lightsOn.speak_1}}\"/pause 500/emote farmer {{emoteQuestion}}/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_2}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/{{fadeout}}/
-                    showFrame Flor 49/pause 150/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 1500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/showFrame Flor 50/pause 1000/showFrame Flor 49/pause 1000/showFrame Flor 61/emote Flor {{emoteBlush}}/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/pause 500/animate Flor false true 150 51 53 51 53 51 53 51 53 52/pause 5000/
-                    speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/
-                    speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/
-                    speak Flor \"{{i18n:event.lightsOn.speak_8}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 100 56 58 57 60 59/pause 5000/
-                    speak Flor \"{{i18n:event.lightsOn.speak_9}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 50 56 58 57 60 59/pause 5000/{{fadeout}}/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_10}}\"/pause 5000/
-                    speak Flor \"{{i18n:event.lightsOn.speak_11}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_12}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_13}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_14}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_15}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_16}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_17}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_18}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_19}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_20}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_21}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_22}}\"/
-                    --End/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                    "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time 1900 2600/": "sweet/9 5/farmer 7 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/speak Flor \"{{i18n:event.lightsOn.speak_1}}\"/pause 500/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_2}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/{{fadeout}}/showFrame Flor 49/pause 150/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 1500/speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/showFrame Flor 50/pause 1000/showFrame Flor 49/pause 1000/showFrame Flor 61/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/pause 500/animate Flor false true 150 51 53 51 53 51 53 51 53 52/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_8}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 100 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_9}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 50 56 58 57 60 59/pause 5000/{{fadeout}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_10}}\"/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_11}}\"/stopAnimation Flor 0/faceDirection Flor {{right}}/{{fadein}} 9 5/pause 2000/speak Flor \"{{i18n:event.lightsOn.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_13}}\"/pause 500/emote farmer {{emoteHeart}} true/emote Flor {{emoteHeart}}/pause 1000/--End/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
                 },
                 "When": {"modEnable": "true"}
-            }
+            },
+        //Event 9 - Follow Up Appointment
+            {
+                "LogName": "Event 7 - Couple's Counseling",
+                "Action": "EditData",
+                "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
+                "Entries": {
+                    "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn//Spouse Flor/DayOfWeek Monday/Time 800 2000/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/
+                    speak Flor \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/
+                    speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/
+                    speak Flor \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/
+                    speak Flor \"{{i18n:event.followUpAppointment.flor_2}}\"/pause 500/
+                    speak Flor \"{{i18n:event.followUpAppointment.paula_3}}\"/pause 500/
+                    pause 1000/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+                },
+                "When": {"modEnable": "true"}
+            },
     ]
 }
 
