@@ -163,15 +163,15 @@
                 "Action": "EditData",
                 "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
                 "Entries": {
-                    "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time 1900 2600/": "sweet/9 5/farmer 7 6 {{up}} Flor 5 6 {{up}}/skippable/pause 1000/--Start/
+                    "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time 1900 2600/": "sweet/9 5/farmer 7 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/
                     speak Flor \"{{i18n:event.lightsOn.speak_1}}\"/pause 500/emote farmer {{emoteQuestion}}/pause 500/
                     speak Flor \"{{i18n:event.lightsOn.speak_2}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/{{fadeout}}/
-                    -- Nude sprite/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/faceDirection Flor {{right}}/emote Flor {{emoteBlush}}/pause 500/
-                    speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/
-                    speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/
+                    showFrame Flor 49/pause 150/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 1500/
+                    speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/showFrame Flor 50/pause 1000/showFrame Flor 49/pause 1000/showFrame Flor 61/emote Flor {{emoteBlush}}/pause 500/
+                    speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/
+                    speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/pause 500/animate Flor false true 150 51 53 51 53 51 53 51 53 52/pause 3000/
+                    speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/pause 3000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 3000/
+                    speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/pause 3000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 3000/
                     speak Flor \"{{i18n:event.lightsOn.speak_8}}\"/
                     speak Flor \"{{i18n:event.lightsOn.speak_9}}\"/
                     speak Flor \"{{i18n:event.lightsOn.speak_10}}\"/
