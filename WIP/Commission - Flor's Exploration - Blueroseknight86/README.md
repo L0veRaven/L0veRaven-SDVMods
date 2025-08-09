@@ -52,8 +52,7 @@ debug ebi L0veRaven.FlorsExploration_lightsOn
 ### Event 9
 #### Conditions: Custom_Ridgeside_PaulaClinic, saw event L0veRaven.FlorsExploration_lightsOn, married to Flor, Monday, 8am-8pm
 
-debug seenmail L0veRaven.FlorsExploration_couplesCounselingLetter
-debug ebi L0veRaven.FlorsExploration_couplesCounseling
+debug ebi L0veRaven.FlorsExploration_followUpAppointment
 
 # RSV Commands
 >2 Hearts

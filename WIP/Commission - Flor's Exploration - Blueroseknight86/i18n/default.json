@@ -157,6 +157,13 @@
     "event.followUpAppointment.paula_2": "That's great to hear! How did you feel when you tried it?",
     "event.followUpAppointment.flor_2": "I expected to be more nervous than I ended up being. It was nice to know that I trust @ enough.#$b#I was scared that @ wouldn't like how I looked.#$b#The look that @ had when I showed myself... it proved that I had nothing to fear.$4",
     "event.followUpAppointment.paula_3": "I'm glad things went well. It can be very intimidating to try something when you're not sure what the outcome is going to be.#$b#You were very brave to work on overcoming your fears, Flor.$1",
+    "event.followUpAppointment.flor_3": "Even if I was only touching myself, I was still able to be vulnerable with @, and I think that's great!$1",
+    "event.followUpAppointment.paula_4": "I agree, it is wonderful.#$b#Have either of you been having any other issues as of late?",
+    "event.followUpAppointment.message_1": "You tell Paula that you have nothing in particular to mention.",
+    "event.followUpAppointment.flor_4": "I can't think of anything else, either.#$b#Is that a bad thing?$2",
+    "event.followUpAppointment.paula_5": "Not at all, it's completely fine. It's also normal if there are issues that spring up, so you're always welcome to come back to me if you have any other issues.#$b#Okay?$1",
+    "event.followUpAppointment.flor_5": "Thank you so much for your time, it really means a lot to me and @.",
+    "event.followUpAppointment.paula_6": "You both take care, and let me know if you need anything.",
 
     "event._____.endDialogue": "",
 }
