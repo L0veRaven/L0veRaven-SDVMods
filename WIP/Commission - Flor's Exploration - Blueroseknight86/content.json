@@ -173,7 +173,7 @@
                 "Action": "EditData",
                 "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
                 "Entries": {
-                    "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn//Spouse Flor/DayOfWeek Monday/Time 800 2000/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/
+                    "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time 800 2000/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/
                     speak Flor \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/
                     speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/
                     speak Flor \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/
