@@ -345,14 +345,9 @@
             },
         //Data/Events
             {
-                "LogName": "Raven - Event Includes",
+                "LogName": "Event Includes",
                 "Action": "Include",
-                "FromFile": "data/events/Raven_catLover.json, data/events/Raven_catAdoption.json, data/events/Raven_checkIn.json, data/events/Raven_wildClans.json, data/events/Raven_cleansingFarmer.json, data/events/Raven_cleansingFarmer2.json, data/events/Raven_apartment.json, data/events/Raven_jobInterview.json"
-            },
-            {
-                "LogName": "Zayden - Event Includes",
-                "Action": "Include",
-                "FromFile": "data/events/Zayden_arrival.json"
+                "FromFile": "data/events/raven.json, data/events/zayden.json"
             },
         //Dialogue
             {

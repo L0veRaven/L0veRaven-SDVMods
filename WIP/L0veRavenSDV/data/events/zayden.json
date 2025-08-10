@@ -1,5 +1,6 @@
 {
     "Changes": [
+        //Event 1 - Arrival
         {
             "LogName": "[Event] Zayden's Arrival - Day 7",
             "Action": "EditData",
