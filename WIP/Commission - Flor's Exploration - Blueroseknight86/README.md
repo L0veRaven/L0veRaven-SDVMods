@@ -38,7 +38,7 @@ debug ebi L0veRaven.FlorsExploration_concernedForFarmer
 debug ebi L0veRaven.FlorsExploration_whyTheDark
 
 ### Event 7
-#### Conditions: Custom_Ridgeside_PaulaClinic, saw event L0veRaven.FlorsExploration_whyTheDark, read letter L0veRaven.FlorsExploration_safewordPracticeLetter, married to Flor, Monday, 8am-8pm
+#### Conditions: Custom_Ridgeside_PaulaClinic, saw event L0veRaven.FlorsExploration_whyTheDark, read letter L0veRaven.FlorsExploration_couplesCounselingLetter, married to Flor, Monday, 8am-8pm
 
 debug seenmail L0veRaven.FlorsExploration_couplesCounselingLetter
 debug ebi L0veRaven.FlorsExploration_couplesCounseling

@@ -1,10 +1,10 @@
 {
-    "Name": "Flor's Exploration (18+)",
+    "Name": "NSFW - Flor's Exploration",
     "Author": "L0veRaven",
     "Description": "Adds more events with themes of Flor exploring her sexuality with the player.",
     "Version": "1.0.0",
     "UniqueID": "L0veRaven.FlorsExploration",
-    "UpdateKeys": ["Nexus:"],
+    "UpdateKeys": ["Nexus:36513"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
