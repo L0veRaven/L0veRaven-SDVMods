@@ -1,8 +1,9 @@
 {
     //Raven Events
-        //Raven_catLover.json
-        "event.CatLover_speak_1": "Penny... Are you okay?$2",//Raven
-        "event.CatLover_speak_2": "Hi Raven.$3",//Penny
+        //Event 1 - L0veRaven_Raven_CatLover
+        "event.CatLover.raven_1": "Penny... Are you okay?$2",
+        "event.CatLover.penny_1": "Hi Raven.$3",
+
         "event.CatLover_speak_3": "I can tell something's going on.$2#$b#Do you wanna to talk about it?$17",//Raven
         "event.CatLover_speak_4": "I found a stray cat in town recently.$2#$b#I asked my mother if we could look after the cat until we find the owner.#$b#She started yelling at me about how we don't have enough space.$2#$b#I haven't seen the cat since then, but it seemed pretty scared of people.$3",//Penny
         "event.CatLover_speak_5": "Hm... Let me think...$17#$b#Your mom definitely should've been kinder to you about it...$2",//Raven
