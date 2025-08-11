@@ -11,7 +11,7 @@
         },
         // Event 2 - Cat Adoption
         {
-            "LogName": "Event: CatAdoption - Pet Adoption",
+            "LogName": "Event: CatAdoption - Pet Adoption (Vanilla & SVE)",
             "Action": "EditData",
             "Target": "Data/Events/Farm",
             "Entries": {
@@ -21,7 +21,7 @@
         },
         //Event 3 - Check-In
         {
-            "LogName": "Event: Check-In - Day 14",
+            "LogName": "Event: Check-In - Day 14 ",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {

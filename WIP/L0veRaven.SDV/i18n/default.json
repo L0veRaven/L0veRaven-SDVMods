@@ -1,0 +1,17 @@
+{
+    //ConfigSchema
+    //DynamicTokens
+    "displayName.raven": "Raven",
+    "displayName.zayden": "Zayden",
+    //Dialogue
+    "dialogue.raven.medicationPickup.dayOf": "I'm on my way to pick up my medications today!$1#$e#Harvey is really good about filling my medications in a timely manner.",
+    "dialogue.raven.medicationPickup.dayOf_birthday": "I'm on my way to pick up my medications today!#$b#Since it's my birthday, I bet Harvey is going to joke that my prescription is my present from him.",
+    //Data/Locations
+    "mapString.ravenApartment.yobaShrine": "The shrine for Yoba is shining brighter than everything else in the room for some reason...",
+    "mapString.ravenApartment.bookshelf": "There's a variety of manga and novels stacking the shelves.",
+    "mapString.ravenApartment.fridge": "There's a strong smell of fish coming from the fridge.",
+    "mapString.ravenApartment.stove": "There's some leftover spaghetti on the stove.",
+    "mapString.ravenApartment.computer": "The computer is locked. The wallpaper is a drawing of Wild Clans characters.",
+    "mapString.ravenApartment.trashBin": "There is a lot of scrap paper filling the trash bin.",
+    "mapString.ravenTent": "Raven's Tent",
+}

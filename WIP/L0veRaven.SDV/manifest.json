@@ -3,11 +3,12 @@
     "Author": "L0veRaven",
     "Description": "Adds a neko NPC, vampire NPC, and unlockable cafe.",
     "Version": "1.0.0",
-    "UniqueID": "L0veRaven.SDV",
+    "UniqueID": "L0veRaven.SDV.Vanilla",
     "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
     "Dependencies": [
         {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
+        {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"},
         {"UniqueID": "CJBok.CheatsMenu","IsRequired": "false"},
         {"UniqueID": "spacechase0.SpaceCore","IsRequired": "true"},
     ]

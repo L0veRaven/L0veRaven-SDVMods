@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        //Adds map strings for Raven's apartment
+        {
+            "LogName": "[Strings/StringsFromMaps] - Raven's Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenRavenApartment.1": "{{i18n:mapString.ravenApartment.yobaShrine}}",
+                "L0veRavenRavenApartment.2": "{{i18n:mapString.ravenApartment.bookshelf}}",
+                "L0veRavenRavenApartment.3": "{{i18n:mapString.ravenApartment.fridge}}",
+                "L0veRavenRavenApartment.4": "{{i18n:mapString.ravenApartment.stove}}",
+                "L0veRavenRavenApartment.5": "{{i18n:mapString.ravenApartment.computer}}",
+                "L0veRavenRavenApartment.6": "{{i18n:mapString.ravenApartment.trashBin}}"
+            }
+        },
+        //Trigger Action - Raven's Coat Rack Money Theft
+        {
+            "LogName": "[Data/TriggerActions] Steal Money From Coat Rack",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{Raven}}_CoatRackMoneyFlag": {
+                    "Id": "{{Raven}}_CoatRackMoneyFlag",
+                    "Trigger": "Manual",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{Raven}}_ReceiveCoatRackMoneyFlag",
+                    "Actions": [
+                        "AddMoney 500",
+                        "AddMail Current {{Raven}}_ReceiveCoatRackMoneyFlag received"
+                    ]
+                }
+            }
+        },
+        //Patches Raven's apartment into the game; Adds coat rack tile action
+        {
+            "LogName": "[Map] - Patch Raven's Apartment & Coat Rack Tile Action",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/maps/L0veRaven_RavenApartment.tmx",
+            "PatchMode": "Replace",
+            "Update": "OnLocationChange, OnTimeChange",
+            "ToArea": {"X": 5, "Y": 8, "Width": 11, "Height": 11},
+            "MapTiles": [
+                {
+                    "Position": {"X": 11, "Y": 18},
+                    "SetTilesheet": "2",
+                    "SetIndex": "588",
+                    "Layer": "Buildings",
+                    "SetProperties": {"Action": "spacechase0.SpaceCore_TriggerAction {{Raven}}_CoatRackMoneyFlag"}
+                }
+            ],
+            "When": {"HasReadLetter": "{{Raven}}_Apartment"}
+        },
+        //Changes Raven's coat rack tile action to a message after stealing from Raven's coatrack
+        {
+            "LogName": "Map Patch [Raven's Apartment] - Change Tile Action to Message After Getting Reward",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "Update": "OnLocationChange, OnTimeChange",
+            "MapTiles": [
+                {
+                    "Position": {"X": 11, "Y": 18},
+                    "Layer": "Buildings",
+                    "SetProperties": {"Action": "Dialogue {{i18n:mapString.ravenCoatRack}}"}
+                }
+            ],
+            "When": {"HasFlag": "{{Raven}}_ReceiveCoatRackMoneyFlag"}
+        }
+    ]
+}
