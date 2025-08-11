@@ -5,90 +5,63 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "TextOperations": [
-                //Raven
-                    //Year 1
-                        {//Pre-Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Raven}} 18 74 right",
-                            "Delimiter": "/"
-                        },
-                        {//Egg hunt
-                        "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Raven}} 21 73 right",
-                            "Delimiter": "/"
-                        },
-                        {//After Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                            "Value": "{{Raven}} 21 73 right",
-                            "Delimiter": "/"
-                        },
-                    //Year 2
-                        {//Pre-Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Raven}} 34 80 left",
-                            "Delimiter": "/"
-                        },
-                        //ADD{//Egg hunt
-                        //ADD"Operation": "Append",
-                        //ADD    "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                        //ADD    "Value": "{{Raven}} 21 73 right",
-                        //ADD    "Delimiter": "/",
-                        //ADD},
-                        //ADD{//After Egg hunt
-                        //ADD    "Operation": "Append",
-                        //ADD    "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                        //ADD    "Value": "{{Raven}} 38 68 left",
-                        //ADD    "Delimiter": "/",
-                        //ADD},
-                //Zayden
-                    //Year 1
-                        {//Pre-Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Zayden}} 20 74 left",
-                            "Delimiter": "/"
-                        },
-                        {//Egg hunt
-                        "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Zayden}} 21 72 right",
-                            "Delimiter": "/"
-                        },
-                        {//After Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                            "Value": "{{Zayden}} 21 72 right",
-                            "Delimiter": "/"
-                        },
-                    //Year 2
-                        {//Pre-Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 32 80 right",
-                            "Delimiter": "/"
-                        },
-                        {//Egg hunt
-                        "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 32 80 down",
-                            "Delimiter": "/"
-                        },
-                        {//After Egg hunt
-                            "Operation": "Append",
-                            "Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 25 72 up",
-                            "Delimiter": "/"
-                        }
+                //Pre-Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Raven}} 18 74 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 34 80 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Zayden}} 20 74 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 32 80 right","Delimiter": "/"
+                },
+                //Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Zayden}} 21 72 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 32 80 down","Delimiter": "/"
+                },
+                //After Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                    "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Zayden}} 21 72 right","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                    "Value": "{{Zayden}} 25 72 up","Delimiter": "/"
+                }
             ],
             "Entries": {
                 "{{Raven}}": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.eggFestival_spouse}}",
                 "{{Raven}}_y2": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
-                //ADD"{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.eggFestival_spouse}}",
                 
                 "{{Zayden}}": "{{i18n:zayden.festival.eggFestival_{{Random:{{Range:1,3}}}}}}",
                 "{{Zayden}}_y2": "{{i18n:zayden.festival.eggFestival_{{Random:{{Range:1,3}}}}}}"

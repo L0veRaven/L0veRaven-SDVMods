@@ -5,60 +5,48 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "TextOperations": [
-                //Raven
-                    //Year 1
-                        {//Pre-Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Raven}} 14 24 down",
-                            "Delimiter": "/"
-                        },
-                        {//Main Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Raven}} 38 68 left",
-                            "Delimiter": "/"
-                        },
-                    //Year 2
-                        {//Pre-Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Raven}} 38 68 left",
-                            "Delimiter": "/"
-                        },
-                        {//Main Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                            "Value": "{{Raven}} 38 68 left",
-                            "Delimiter": "/"
-                        },
-                //Zayden
-                    //Year 1
-                        {//Pre-Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Zayden}} 11 18 left",
-                            "Delimiter": "/"
-                        },
-                        {//Main Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Zayden}} 11 18 left",
-                            "Delimiter": "/"
-                        },
-                    //Year 2
-                        {//Pre-Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 11 35 left",
-                            "Delimiter": "/"
-                        },
-                        {//Main Event
-                            "Operation": "Append",
-                            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 11 35 left",
-                            "Delimiter": "/"
-                        }
+                //Raven - Year 1
+                    //Pre-Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Raven}} 14 24 down","Delimiter": "/"
+                    },
+                    //Main Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                    },
+                //Raven - Year 2
+                    {//Pre-Event
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                    },
+                    {//Main Event
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                    },
+                //Zayden - Year 1
+                    //Pre-Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Zayden}} 11 18 left","Delimiter": "/"
+                    },
+                    //Main Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Zayden}} 11 18 left","Delimiter": "/"
+                    },
+                //Zayden - Year 2
+                    //Pre-Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Zayden}} 11 35 left","Delimiter": "/"
+                    },
+                    //Main Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Zayden}} 11 35 left","Delimiter": "/"
+                    }
             ],
             "Entries": {
                 "{{Raven}}": "{{i18n:raven.festival.dialogue.moonlightJellies_{{Random:{{Range:1,2}}}}}}",
