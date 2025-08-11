@@ -8,59 +8,35 @@
                 //Pre-Egg hunt
                 {
                     "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 18 74 right","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 },
                 {
                     "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 34 80 left","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Zayden}} 20 74 left","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 32 80 right","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 },
                 //Egg hunt
                 {
                     "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 },
                 {
                     "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "{{Zayden}} 21 72 right","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 32 80 down","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 },
                 //After Egg hunt
                 {
                     "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                    "Value": "{{Raven}} 21 73 right","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 },
                 {
                     "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 38 68 left","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
-                    "Value": "{{Zayden}} 21 72 right","Delimiter": "/"
-                },
-                {
-                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
-                    "Value": "{{Zayden}} 25 72 up","Delimiter": "/"
+                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
                 }
             ],
             "Entries": {
                 "{{Raven}}": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.eggFestival_spouse}}",
                 "{{Raven}}_y2": "{{i18n:raven.festival.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:raven.festival.dialogue.eggFestival_spouse}}",
                 "{{Raven}}_spouse_y2": "{{i18n:raven.festival.dialogue.eggFestival_spouse}}",
                 
                 "{{Zayden}}": "{{i18n:zayden.festival.eggFestival_{{Random:{{Range:1,3}}}}}}",

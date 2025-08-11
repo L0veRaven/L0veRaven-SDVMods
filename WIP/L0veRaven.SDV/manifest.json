@@ -3,8 +3,8 @@
     "Author": "L0veRaven",
     "Description": "Adds a neko NPC, vampire NPC, and unlockable cafe.",
     "Version": "1.0.0",
-    "UniqueID": "L0veRaven.SDV.original",
-    "UpdateKeys": ["Nexus:"],
+    "UniqueID": "L0veRaven.SDV",
+    "UpdateKeys": ["Nexus:27407"],
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
     "Dependencies": [
         {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},

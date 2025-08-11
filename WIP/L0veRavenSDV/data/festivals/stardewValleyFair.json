@@ -10,29 +10,29 @@
                         {
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Raven}} 74 73 right",
-                            "Delimiter": "/"
-                        },
-                    //Year 2
-                        //ADD{
-                            //ADD"Operation": "Append",
-                            //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} ## ## right",
-                            //ADD"Delimiter": "/"
-                        //ADD},
-                //Zayden
-                    //Year 1
-                        {
-                            "Operation": "Append",
-                            "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Zayden}} 73 73 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                     //Year 2
                         {
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 66 63 right",
+                            "Value": "{{Raven}} 5 0 down",
+                            "Delimiter": "/"
+                        },
+                //Zayden
+                    //Year 1
+                        {
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters"],
+                            "Value": "{{Zayden}} 0 0 down",
+                            "Delimiter": "/"
+                        },
+                    //Year 2
+                        {
+                            "Operation": "Append",
+                            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         }
             ],

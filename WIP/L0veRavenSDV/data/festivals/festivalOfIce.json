@@ -10,38 +10,38 @@
                         {//Pre-Event
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Raven}} 38 68 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                         {//Main Event
                             "Operation": "Append",
                             "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Raven}} ## ## right",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                         {//After Ice Fishing
                             "Operation": "Append",
                             "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                            "Value": "{{Raven}} ## ## right",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                     //Year 2
                         //ADD{//Pre-Event
                             //ADD"Operation": "Append",
                             //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} 38 68 left",
+                            //ADD"Value": "{{Raven}} 5 0 down",
                             //ADD"Delimiter": "/"
                         //ADD},
                         //ADD{//Main Event
                             //ADD"Operation": "Append",
                             //ADD"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} ## ## right",
+                            //ADD"Value": "{{Raven}} 5 0 down",
                             //ADD"Delimiter": "/"
                         //ADD},
                         //ADD{//After Ice Fishing
                             //ADD"Operation": "Append",
                             //ADD"Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                            //ADD"Value": "{{Raven}} ## ## right",
+                            //ADD"Value": "{{Raven}} 5 0 down",
                             //ADD"Delimiter": "/"
                         //ADD},
                 //Zayden
@@ -49,38 +49,38 @@
                         {//Pre-Event
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Zayden}} 96 31 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//Main Event
                             "Operation": "Append",
                             "Target": ["Entries", "MainEvent_additionalCharacters"],
-                            "Value": "{{Zayden}} 80 33 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//Ice Fishing Results
                             "Operation": "Append",
                             "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                            "Value": "{{Zayden}} 80 33 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                     //Year 2
                         {//Pre-Event
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 57 29 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//Main Event
                             "Operation": "Append",
                             "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 62 34 right",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//After Ice Fishing
                             "Operation": "Append",
                             "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 62 34 right",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         }
             ],

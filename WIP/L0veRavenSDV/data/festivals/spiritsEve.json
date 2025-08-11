@@ -9,26 +9,26 @@
                     {//Year 1
                         "Operation": "Append",
                         "Target": ["Entries", "Set-Up_additionalCharacters"],
-                        "Value": "{{Raven}} 38 35 down",
-                        "Delimiter": "/"
-                    },
-                    //ADD{//Year 2
-                        //ADD"Operation": "Append",
-                        //ADD"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                        //ADD"Value": "{{Raven}} ## ## down",
-                        //ADD"Delimiter": "/"
-                    //ADD},
-                //Zayden
-                    {//Year 1
-                        "Operation": "Append",
-                        "Target": ["Entries", "Set-Up_additionalCharacters"],
-                        "Value": "{{Zayden}} 37 35 right",
+                        "Value": "{{Raven}} 5 0 down",
                         "Delimiter": "/"
                     },
                     {//Year 2
                         "Operation": "Append",
                         "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                        "Value": "{{Zayden}} 13 12 right",
+                        "Value": "{{Raven}} 5 0 down",
+                        "Delimiter": "/"
+                    },
+                //Zayden
+                    {//Year 1
+                        "Operation": "Append",
+                        "Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Zayden}} 0 0 down",
+                        "Delimiter": "/"
+                    },
+                    {//Year 2
+                        "Operation": "Append",
+                        "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Zayden}} 0 0 down",
                         "Delimiter": "/"
                     }
             ],

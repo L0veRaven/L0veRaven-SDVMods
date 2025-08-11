@@ -10,26 +10,26 @@
                         {//Set Up: Year 1
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Raven}} 38 68 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                         {//Secret Santa: Year 1
                             "Operation": "Append",
                             "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                            "Value": "{{Raven}} 38 68 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                     //Year 2
                         {//Set Up: Year 2
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Raven}} 24 76 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                         {//Secret Santa: Year 2
                             "Operation": "Append",
                             "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                            "Value": "{{Raven}} 24 76 left",
+                            "Value": "{{Raven}} 5 0 down",
                             "Delimiter": "/"
                         },
                 //Zayden
@@ -37,26 +37,26 @@
                         {//Set Up
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters"],
-                            "Value": "{{Zayden}} 42 72 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//Secret Santa
                             "Operation": "Append",
                             "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                            "Value": "{{Zayden}} 42 72 left",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                     //Year 2
                         {//Set Up
                             "Operation": "Append",
                             "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 22 76 right",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         },
                         {//Secret Santa
                             "Operation": "Append",
                             "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                            "Value": "{{Zayden}} 22 76 right",
+                            "Value": "{{Zayden}} 0 0 down",
                             "Delimiter": "/"
                         }
             ]

@@ -9,43 +9,43 @@
                     //Pre-Event
                     {
                         "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
-                        "Value": "{{Raven}} 14 24 down","Delimiter": "/"
+                        "Value": "{{Raven}} 5 0 down","Delimiter": "/"
                     },
                     //Main Event
                     {
                         "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
-                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                        "Value": "{{Raven}} 5 0 down","Delimiter": "/"
                     },
                 //Raven - Year 2
                     {//Pre-Event
                         "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                        "Value": "{{Raven}} 5 0 down","Delimiter": "/"
                     },
                     {//Main Event
                         "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                        "Value": "{{Raven}} 38 68 left","Delimiter": "/"
+                        "Value": "{{Raven}} 5 0 down","Delimiter": "/"
                     },
                 //Zayden - Year 1
                     //Pre-Event
                     {
                         "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
-                        "Value": "{{Zayden}} 11 18 left","Delimiter": "/"
+                        "Value": "{{Zayden}} 0 0 down","Delimiter": "/"
                     },
                     //Main Event
                     {
                         "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
-                        "Value": "{{Zayden}} 11 18 left","Delimiter": "/"
+                        "Value": "{{Zayden}} 0 0 down","Delimiter": "/"
                     },
                 //Zayden - Year 2
                     //Pre-Event
                     {
                         "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                        "Value": "{{Zayden}} 11 35 left","Delimiter": "/"
+                        "Value": "{{Zayden}} 0 0 down","Delimiter": "/"
                     },
                     //Main Event
                     {
                         "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                        "Value": "{{Zayden}} 11 35 left","Delimiter": "/"
+                        "Value": "{{Zayden}} 0 0 down","Delimiter": "/"
                     }
             ],
             "Entries": {
