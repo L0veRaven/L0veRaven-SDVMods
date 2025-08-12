@@ -4,8 +4,100 @@
     "displayName.raven": "Raven",
     "displayName.zayden": "Zayden",
     //Dialogue
+        //Medication Pickup
     "dialogue.raven.medicationPickup.dayOf": "I'm on my way to pick up my medications today!$1#$e#Harvey is really good about filling my medications in a timely manner.",
     "dialogue.raven.medicationPickup.dayOf_birthday": "I'm on my way to pick up my medications today!#$b#Since it's my birthday, I bet Harvey is going to joke that my prescription is my present from him.",
+        //First Of Season
+    "dialogue.raven.spring.first": "I love the in-between weather for the seasons!$1#$b#Spring is wonderful for enjoying the weather and blooming plants.",
+    "dialogue.raven.summer.first": "Oh dear Yoba, it's so hot already!$12",
+    "dialogue.raven.fall.first": "I love the in-between weather for the seasons!$1#$b#Fall is wonderful for collecting things falling from trees!",
+    "dialogue.raven.winter.first": "Here comes the cold weather...$12#$e#At least I can bundle up to stay warm!$1",
+    "dialogue.zayden.spring.first": "It's good that I don't get seasonal allergies. I'd be suffering from all the blooming plants in town.",
+    "dialogue.zayden.summer.first": "No more jackets for the season since it's so hot outside.#$b#I'm still going to weear long-sleeves though since I'd like to protect my skin from the sun.",
+    "dialogue.zayden.fall.first": "I love the in-between weather for the seasons!$1#$b#Fall is wonderful for collecting things falling from trees!",
+    "dialogue.zayden.winter.first": "Here comes the cold weather...$12#$e#At least I can bundle up to stay warm!$1",
+        //Egg Festival - Event
+    "festivalDialogue.raven.eggFestival_1": "It's really fun watching the kids get competitive during the egg hunt.#$b#It really makes me wish I had my own kids.",
+    "festivalDialogue.raven.eggFestival_2": "How come they don't call the Egg Festival 'Egg Day'?#$e#It makes more sense to me for some reason.",
+    "festivalDialogue.raven.eggFestival_3": "There's never enough deviled eggs at the Egg Festival. It's kinda sad.#$b#It's not my fault I like deviled eggs. They're really tasty!",
+    "festivalDialogue.raven.eggFestival_4": "I wonder what Gus decided to bring this year! I absolutely love his cooking.",
+    "festivalDialogue.raven.eggFestival_5": "Did you bring any eggs for the egg festival?#$e#Well, I guess that depends on if you have chickens.",
+    "festivalDialogue.raven.eggFestival_spouse": "We'll see if you win this year, love. I'm rooting for you!$1",
+    "festivalDialogue.zayden.eggFestival_1": "I kinda wish there were less people here.$9#$b#I don't like crowded places. I like the festival itself, though.",
+    "festivalDialogue.zayden.eggFestival_2": "I stay in the shade so I don't irritate my skin.#$e#It sucks getting heat rashes...$4",
+    "festivalDialogue.zayden.eggFestival_3": "Do you think people have tried cheating at egg hunts before?$9",
+    //Flower Dance
+    "festivalDialogue.raven.flowerDance_1": "The temperature is just right for the Flower Dance! No one has to worry about sweating up a storm.$1",
+    "festivalDialogue.raven.flowerDance_2": "Everyone looks great today!#$e#The dresses look much better than the suits, though.$17",
+    "festivalDialogue.raven.flowerDance_spouse": "Everyone looks great today!#$e#The dresses look much better than the suits, though.$17",
+    "festivalDialogue.raven.flowerDance.decline": "Sorry, but I plan on just watching the dance this year.#$b#I appreciate you asking though!",
+    "festivalDialogue.raven.flowerDance.accept_1": "Wait, you actually want to dance with me?#$b#I appreciate it! I hope I don't accidentally step on your toes.",
+    "festivalDialogue.raven.flowerDance.accept_2": "Aw, I'm really happy you asked! Sure I'll dance with you.",
+    "festivalDialogue.raven.flowerDance.accept_3": "Really? Me?#$b#Awesome, I can't wait! We're gonna do great out there.",
+    "festivalDialogue.raven.flowerDance.spouse.accept_1": "You don't need to ask, of course I'll dance with you!$1",
+    "festivalDialogue.raven.flowerDance.spouse.accept_2": "I'll dance with you any day! I'll see you when the dance starts.$6",
+    "festivalDialogue.raven.flowerDance.spouse.accept_3": "Aw, you're so sweet! I'll definitely dance with you honey.$4",
+    "festivalDialogue.zayden.flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
+    "festivalDialogue.zayden.flowerDance_2": "The flowers smell really nice this year.$1",
+    //Dance of The Moonlight Jellies
+    "festivalDialogue.raven.moonlightJellies_1": "I wonder what colors we can't see tonight because of our eyes.#$e#I say that because some animals can see more colors than us apparently!#1",
+    "festivalDialogue.raven.moonlightJellies_2": "Do you think the midnight jellies are toxic? I never see anyone swimming during the festival.$17",
+    "festivalDialogue.raven.moonlightJellies_spouse": "I didn't think you had time to join in!$8#$b#Did you wanna watch with me?$4",
+    "festivalDialogue.zayden.moonlightJellies_1": "The jellyfish are pretty cool.#$e#It'd be nice if they came more often, though.$3",
+    "festivalDialogue.zayden.moonlightJellies_2": "I bet it's nice to be a jellyfish. You can just go wherever the water takes you.",
+        //Stardew Valley Fair
+    "festivalDialogue.raven.stardewValleyFair_1": "I can't wait to see who wins the grange display contest this year!$1",
+    "festivalDialogue.raven.stardewValleyFair_2": "I love doing the fishing game!$1#$b#It'd be nice if we could keep some though.$11",
+    "festivalDialogue.raven.stardewValleyFair_spouse": "I hope you win the grange display competition this year, love!$1",
+    "festivalDialogue.raven.stardewValleyFair.judging_1": "It'd be awesome if you won this year!#$b#Your crops always have a wonderful taste to them.",
+    "festivalDialogue.raven.stardewValleyFair.judging_2": "I wonder what the grossest thing Lewis has ever came across while judging.",
+    "festivalDialogue.raven.stardewValleyFair.judging_3": "Even though I never participate, I still get excited to see who wins the grange display contest!",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost.purpleShorts": "It seems like I'm not the only one that knows about Mayor Lewis' secrets.#$b#Let's give him hell.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost.skipped_1": "Hopefully you participate next year! It'd be awesome to see what you put on display.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost.skipped_2": "I understand if you skipped the competition because of nervousness.#$b#I can imagine not every season can get you the best crops. Nature is a massive lottery if you think about it.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost.skipped_3": "I was looking forward to seeing your display this year, but it's okay.#$b#I can always visit the farm to take a look at how things are going.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost_1": "You did your best, @.#$b#I know that Mayor Lewis is quite biased when it comes to competitions he hosts though.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost_2": "Don't worry about losing. You still put up some cool stuff!#$e#You're an underrated artist.#$b#Yeah, crops can be considered art. Leah would probably agree with you.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerLost_3": "Keep your head up! Your display was still awesome.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerWon_1": "I'm really proud of you! I was hoping you'd win.",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerWon_2": "Nice fuckin' job!$1#$b#Oh shit, do you think Mayor Lewis heard me cuss?$17#$e#I feel like Mayor Lewis would have a heart attack if he heard anyone cuss around him.$11",
+    "festivalDialogue.raven.stardewValleyFair.judged.playerWon_3": "Ayy, look at this year's winner!",
+    "festivalDialogue.raven.stardewValleyFair.judged_1": "Everyone did great this year.$1#$b#I kinda wonder what I would put on a grange display.",
+    "festivalDialogue.raven.stardewValleyFair.judged_2": "Everyone did great this year.$1#$b#I love seeing the creativity!$1",
+    "festivalDialogue.raven.stardewValleyFair.judged_3": "Everyone did great this year.$1#$b#Do you think the kids would ever make their own grange displays?$17",
+    "festivalDialogue.zayden.stardewValleyFair_1": "The weather is very nice right now.$1#$e#I plan on doing the slingshot game. I have pretty good aim!$1",
+    "festivalDialogue.zayden.stardewValleyFair_2": "The food is pretty good this year!$1#$e#I wish there was an ice cream truck so I could eat those ugly character popsicles.$2",
+        //Spirit's Eve
+    "festivalDialogue.raven.spiritsEve_1": "I used to be scared of Spirit's Eve as a little kid. I sure was silly back then!$1",
+    "festivalDialogue.raven.spiritsEve_2": "You should try out some of the food! It's amazing, trust me.$1",
+    "festivalDialogue.raven.spiritsEve_3": "It'd be kinda funny if someone TP'd Pierre's shop.$1#$e#Do I need a reason to not like Pierre? He seems sketchy to me.$17",
+    "festivalDialogue.raven.spiritsEve_4": "Tada! What do you think of my Spirit's Eve costume?#$e#I think you look great.$1",
+    "festivalDialogue.raven.spiritsEve_spouse": "",
+    "festivalDialogue.zayden.spiritsEve_1": "I do the maze with Raven every year. I get a kick out of their screams.$1#$b#Give Raven a little time and they'll get brave enough to keep going.$10",
+    "festivalDialogue.zayden.spiritsEve_2": "The decorations are very well done this year!$1#$e#It'd be cool if we had an area where we could watch spooky movies, you know?$7",
+    "festivalDialogue.zayden.spiritsEve_3": "I don't find it weird when people dress up as vampires for Spirit's Eve.#$b#I only have an issue when people dress up to make fun of vampires.$2",
+        //Festival of Ice
+    "festivalDialogue.raven.festivalOfIce_1": "I'm naming my snowperson Larry!#$e#Or should I name it Genevieve?",
+    "festivalDialogue.raven.festivalOfIce_2": "I wonder when Lewis is gonna start the fishing competition.#$e#I wanna see how many fish everyone catches!",
+    "festivalDialogue.raven.festivalOfIce_3": "Hm... I think I wanna play a prank on Mayor Lewis, but I don't know what to do.$17#$e#Maybe you can help me figure something out?",
+    "festivalDialogue.raven.festivalOfIce_spouse": "What if we tried making a snow family together?$1#$b#It'd take a while, but at least the snowkids would be faster to make.",
+    "festivalDialogue.zayden.festivalOfIce_1": "It's so bright outside that I need to wear sunglasses.#$e#I wish the snow wasn't so reflective.$4",
+    "festivalDialogue.zayden.festivalOfIce_2": "I love seeing how creative everyone gets during the festival.$1",
+        //Winter Star
+    //Data/scheduleStrings.json
+        //Custom_L0veRaven_RavenTentInside
+    "scheduleDialogue.raven.standStove_1": "I'm just making myself some food right now. You can still hang out here if you want.",
+    "scheduleDialogue.raven.standStove_2": "I made too much food on accident and don't have a fridge. Do you want some? I have extra.$1[(O)224]",
+        //Saloon
+    "scheduleDialogue.raven.relaxSaloon_1": "The food Gus made smells so good!$3#$b#Thank Yoba he cares about the quality of his food.$1",
+    "scheduleDialogue.raven.relaxSaloon_2": "Hi @! I'm just having a beer right now. How are you?",
+
+    "scheduleDialogue.raven.workSaloon_1": "There's so much dirt...$2",
+    "scheduleDialogue.raven.workSaloon_2": "There's so much dust that I'm sneezing. I hate it.$2",
+
+    "scheduleDialogue.raven.seedShop.shopping_1": "I've noticed that Pierre's crops are inconsistent in quality. Some days, I see lots of amazing produce!#$e#Other days... I question him.$12",
+    "scheduleDialogue.raven.seedShop.shopping_2": "It's more convenient for me to shop here since it's closer to my home and job.#$e#I also never pay attention to JojaMart's sales.$11",
+    "scheduleDialogue.zayden.JojaMart_001": "...$6#$b#Oh, sorry. I'm focused on cleaning right now.#$e#...$4",
     //Data/Locations
     "mapString.ravenApartment.yobaShrine": "The shrine for Yoba is shining brighter than everything else in the room for some reason...",
     "mapString.ravenApartment.bookshelf": "There's a variety of manga and novels stacking the shelves.",
@@ -14,4 +106,49 @@
     "mapString.ravenApartment.computer": "The computer is locked. The wallpaper is a drawing of Wild Clans characters.",
     "mapString.ravenApartment.trashBin": "There is a lot of scrap paper filling the trash bin.",
     "mapString.ravenTent": "Raven's Tent",
+    "mapString.ravenTent.mailbox": "There is a lot of spam mail.",
+    "mapString.ravenTent.trashBag": "The bag is almost filled with trash.",
+    "mapString.ravenTent.journal": "There's a bookmark to the most recent journal entry. There's a lot of writing.",
+    "mapString.ravenTent.stove": "The kitchenware on the stove is pristine.",
+    "mapString.ravenTent.logs": "There's a good stock of logs.",
+    "mapString.ravenSpousePatio.yobaShrine": "The shrine for Yoba is shining brighter than everything else nearby for some reason...",
+    "mapString.ravenSpousePatio.crystal": "The crystal is in good condition.",
+    "mapString.ravenSpouseRoom.desk": "The journal is bookmarked to the most recent journal entry. There's a lot of writing.",
+    "mapString.ravenSpouseRoom.guitar": "The guitar is in tune and in good condition.",
+    "mapString.ravenSpouseRoom.loosePaper": "A to-do list is written on the scrap paper.",
+    "mapString.ravenSpouseRoom.pianoKeyboard": "The keyboard is turned on.",
+    "mapString.ravenSpouseRoom.yobaShrine": "The shrine for Yoba is shining brighter than everything else in the room for some reason...",
+    "mapString.ravenSpouseRoom.bookshelf": "There is a collection of manga and novels stacked on the shelves.",
+    "mapString.zaydenApartment.fridge": "The fridge is low on cheese.",
+    //Data/Mail.json
+        //{{Raven}}_CheckIn - Event
+    "mail.eventEnd.raven.checkIn_1": "Hey @,^^I'm glad you've been having a good time in Pelican Town. I figured I'd send a letter to show my appreciation. I could show you some things to do in town if you have time in case you get bored.^^I know you'll need breaks from the farm sometimes, so we should hang out when that time comes!^^~ Raven[#]Raven Checking In",
+    "mail.eventEnd.raven.checkIn_2": "Hey @,^^I know Pelican Town seems pretty plain to you, but I think you'd have a great time if you did activities like fishing with some of the people here. I know it can be intimidating to talk to new people, but many of them have a lot of stories to tell.^^You can always do what you want, don't let me stop you!^^I wanna make sure you have a good time out here. I'm sure you could use a break from the farm.^^Well, I'll see you later!^^^^^^~ Raven[#]Raven Checking In",
+    "mail.eventEnd.raven.checkIn_3": "Hey @,^^It sounds like Pelican Town is a pretty rough place for you to settle into. I figured I'd send a letter to reach out and help you feel more welcome here.^^There's plenty of places you can hang out with people, the easiest place being the Saloon. Almost everyone stops by there on Fridays. You can also find me there too if you wanna hang out.^^I also recommend that you spend some time with Willy and Linus. They're very nice and are kinda underappreciated in town.^^I just want you to know that you'll always have a place here in Pelican town.^^^~ Raven[#]Raven Checking In",
+        //{{Raven}}_CleansingFarmer - Event
+    "mail.eventStart.raven.cleansingFarmer": "Hi @,^^Do you remember our conversation yesterday about how I could teach you some spellwork? If you come to my tent when I'm home, I should be able to show you how I do cleansing spells.^^It's up to you, no pressure!^^~ Raven[#]Offering a Cleansing",
+        //{{Raven}}_CleansingFarmer2 - Event
+    "mail.eventEnd.raven.cleansingFarmer_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
+    "mail.eventEnd.raven.cleansingFarmer_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
+    "mail.eventEnd.raven.cleansingFarmer_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
+        //{{Raven}}_JobInterview - Event
+    "mail.eventStart.raven.jobInterview": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
+        //{{Raven}}ravenApartment - Event
+    "mail.eventStart.raven.apartment": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven[#]Raven's Apartment",
+        //{{Raven}}_LoveLetter -> Automatic letters when dating
+    "mail.raven.loveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
+    "mail.raven.loveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",
+    "mail.raven.loveLetter_3": "Hi @,^^Thanks for being a really cool person. I love how you really seem to understand me.^^I hope I see you soon!^^~ Raven[#]Raven's Love Letter",
+    "mail.raven.loveLetter_4": "Hi @,^^I noticed I had a pre-stamped envelope somewhere, but it didn't have a letter inside. I figured I could send something to you, so yeah, I hope you enjoy getting a random letter from me!^^~ Raven[#]Raven's Love Letter",
+    "mail.raven.loveLetter_5": "Hi @,^^I hope you enjoy these. I got them fresh for you!^^~ Raven%item object 458 1 %%[#]Raven's Love Letter",
+    "mail.raven.loveLetter_6": "Hi @,^^I made these because I love you. I hope you enjoy the cookies!%item object 223 1 %%^^~ Raven[#]Raven's Love Letter",
+    "mail.raven.loveLetter_7": "Hi @,^^We should go do something together at some point. Let me know if you wanna do something!^^~ Raven[#]Raven's Love Letter",
+        //{{Zayden}}_Welcome
+    "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
+    "mail.zayden.WelcomeMail_message": "Hello there, this is Zayden.^^I'm mailing this before I come back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
+    "mail.zayden.WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
+        //{{Zayden}}_Greenhouse
+    "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
+    "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
+    "mail.zayden.GreenhouseMail_item": "%item object 433 5 %%",//5 Coffee Beans
 }

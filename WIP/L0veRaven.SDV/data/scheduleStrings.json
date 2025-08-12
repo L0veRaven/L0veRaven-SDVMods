@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Strings/schedules] - Raven",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Raven}}",
+            "Entries": {
+                "Custom_{{Raven}}TentInside.001": "{{i18n:scheduleDialogue.raven.standStove_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.001": "{{i18n:scheduleDialogue.raven.relaxSaloon_{{Random:{{Range:1,2}}}}}}",
+                "Saloon.002": "{{i18n:scheduleDialogue.raven.workSaloon_{{Random:{{Range:1,2}}}}}}",
+                "SeedShop.001": "{{i18n:scheduleDialogue.raven.seedShop.shopping_{{Random:{{Range:1,2}}}}}}"
+            }
+        },
+        {
+            "LogName": "[Strings/schedules] - Zayden",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Zayden}}",
+            "Entries": {
+                "JojaMart.001": "{{i18n:scheduleDialogue.zayden.JojaMart_001}}"
+            }
+        }
+    ]
+}

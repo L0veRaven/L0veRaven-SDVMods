@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        //Raven
+            {
+                "LogName": "[WinterStarGifts] Raven - Amethyst",
+                "Action": "EditData",
+                "Target": "Data/Characters",
+                "TargetField": ["{{Raven}}","WinterStarGifts"],
+                "Entries": {
+                    "{{Raven}}_WinterStar_Amethyst": {
+                        "Id": "{{Raven}}_WinterStar_Amethyst",
+                        "ItemId": "(O)66",
+                        "RandomItemId": null,
+                        "MinStack": 2,
+                        "MaxStack": 3
+                    }
+                }
+            },
+            {
+                "LogName": "[WinterStarGifts] Raven - Ruby",
+                "Action": "EditData",
+                "Target": "Data/Characters",
+                "TargetField": ["{{Raven}}","WinterStarGifts"],
+                "Entries": {
+                    "{{Raven}}_WinterStar_Ruby": {
+                        "Id": "{{Raven}}_WinterStar_Ruby",
+                        "ItemId": "(O)64",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": 1,
+                        "MaxStack": 2
+                    }
+                }
+            },
+        //Zayden
+            {
+                "LogName": "[WinterStarGifts] Zayden - Crop/Flower Seeds",
+                "Action": "EditData",
+                "Target": "Data/Characters",
+                "TargetField": ["{{Zayden}}","WinterStarGifts"],
+                "Entries": {
+                    "{{Raven}}_WinterStar_Ruby": {
+                        "Id": "{{Zayden}}_WinterStar_CropAndFlowerSeeds",
+                        "RandomItemId": [ "(O)299", "(O)390", "(O)206", "(O)425", "(O)429", "(O)431", "(O)453", "(O)455", "(O)472", "(O)474", "(O)475", "(O)476", "(O)477", "(O)478", "(O)479", "(O)480", "(O)481", "(O)482", "(O)483", "(O)484", "(O)485", "(O)486", "(O)487", "(O)488", "(O)489", "(O)490", "(O)491", "(O)492", "(O)493", "(O)494", "(O)495", "(O)496", "(O)497", "(O)495", "(O)745", "(O)770", "(O)MixedFlowerSeeds", "(O)CarrotSeeds", "(O)SummerSquashSeeds", "(O)BroccoliSeeds", "(O)PowdermelonSeeds" ],
+                        "MinStack": 15,
+                        "MaxStack": 25
+                    }
+                }
+            }
+    ]
+}

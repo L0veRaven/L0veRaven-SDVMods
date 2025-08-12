@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Quests]",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                //ADD"{{Nexus}}00001": "",
+            }
+        }
+    ]
+}

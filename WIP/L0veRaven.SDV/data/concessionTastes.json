@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Data/ConcessionTastes] Raven",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Raven}}": {
+                    "Name": "{{i18n:displayName.raven}}",
+                    "LovedTags": [ "Cotton Candy", "Rock Candy", "Stardrop Sorbet" ],
+                    "LikedTags": [ "Star Cookie", "Popcorn", "Personal Pizza", "JojaCorn", "Joja Cola", "Ice Cream Sandwich" ],
+                    "DislikedTags": [ "Black Licorice", "Salted Peanuts", "Panzanella Salad" ]
+                }
+            }
+        },
+        {
+            "LogName": "[Data/ConcessionTastes] Zayden",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Zayden}}": {
+                    "Name": "{{i18n:displayName.zayden}}",
+                    "LovedTags": [ "Sour Slimes", "Jasmine Tea", "Nachos" ],
+                    "LikedTags": [ "Sour", "Salty", "Hot", "Apple Slices" ],
+                    "DislikedTags": [ "Cold", "Jawbreaker", "Rock Candy" ]
+                }
+            }
+        }
+    ]
+}

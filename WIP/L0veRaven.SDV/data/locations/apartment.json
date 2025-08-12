@@ -33,7 +33,7 @@
         },
         //Patches Raven's apartment into the game; Adds coat rack tile action
         {
-            "LogName": "[Map] - Patch Raven's Apartment & Coat Rack Tile Action",
+            "LogName": "[Map] Patch Raven's Apartment & Coat Rack Tile Action",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
             "FromFile": "data/maps/L0veRaven_RavenApartment.tmx",
@@ -53,7 +53,7 @@
         },
         //Changes Raven's coat rack tile action to a message after stealing from Raven's coatrack
         {
-            "LogName": "Map Patch [Raven's Apartment] - Change Tile Action to Message After Getting Reward",
+            "LogName": "[Maps] Map Patch [Raven's Apartment] - Change Tile Action to Message After Getting Reward",
             "Action": "EditMap",
             "Target": "Maps/FRL_NPCApt_Floor1",
             "Update": "OnLocationChange, OnTimeChange",
@@ -65,6 +65,28 @@
                 }
             ],
             "When": {"HasFlag": "{{Raven}}_ReceiveCoatRackMoneyFlag"}
+        },
+    //Zayden
+        {
+            "LogName": "[Strings/StringsFromMaps] - Zayden's Apartment",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "L0veRavenZaydenApartment.1": "{{i18n:mapString.zaydenApartment.fridge}}"
+            }
+        },
+        {
+            "LogName": "[Maps] - Patch Zayden's Apartment",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/maps/{{Zayden}}Apartment.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 49, "Y": 27, "Width": 11, "Height": 11
+            },
+            "When": {
+                "HasMod |contains={{NPCA}}": "true"
+            }
         }
     ]
 }
