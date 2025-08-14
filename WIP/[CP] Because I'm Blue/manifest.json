@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Because I'm Blue",
+    "Author": "L0veRaven",
+    "Description": "The townsfolk have unique reactions to having a new blue villager in town. Filled with plenty of blue microagressions.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.BIB",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
+    "Dependencies": [
+        {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"}
+    ]
+}
