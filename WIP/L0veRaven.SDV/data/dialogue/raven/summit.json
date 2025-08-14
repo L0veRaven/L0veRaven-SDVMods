@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Summit Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_{{Raven}}": "{{i18n:summit.raven_1}}\"/faceDirection {{Raven}} {{left}}/pause 500/speak {{Raven}} \"{{i18n:summit.raven_2}}\""
+            }
+        }
+    ]
+}

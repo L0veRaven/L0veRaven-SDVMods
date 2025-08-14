@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Engaged",
+            "Action": "EditData",
+            "Target": "data/EngagementDialogue",
+            "Entries": {
+                "{{Raven}}0": "{{i18n:dialogue.engaged.raven.day_1}}",
+                "{{Raven}}1": "{{i18n:dialogue.engaged.raven.day_2}}"
+            }
+        }
+    ]
+}

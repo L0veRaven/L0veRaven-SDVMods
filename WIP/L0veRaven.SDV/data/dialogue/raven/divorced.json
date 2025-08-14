@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "Divorced",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "WipedMemory": "{{i18n:dialogue.raven.wipedMemory}}",
+                "divorced": "{{i18n:dialogue.raven.divorced_{{Random:{{Range:1,8}}}}}}",
+                "RejectGift_Divorced": "{{i18n:gift.ravenReject.divorced_{{Random:{{Range:1,3}}}}}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:mermaidPendant.raven.divorced_{{Random:{{Range:1,2}}}}}}",
+                "RejectBouquet_Divorced": "{{i18n:gift.raven.bouquet.divorced}}"
+            }
+        }
+    ]
+}

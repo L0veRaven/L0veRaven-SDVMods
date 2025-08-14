@@ -9,11 +9,11 @@
                 //Pre-Egg hunt
                 {
                     "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
+                    "Value": "{{Raven}} 11 52 right/{{Zayden}} 13 52 left","Delimiter": "/"
                 },
                 {
                     "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down","Delimiter": "/"
+                    "Value": "{{Raven}} 25 54 left/{{Zayden}} 23 54 right","Delimiter": "/"
                 },
                 //Egg hunt
                 {
@@ -35,10 +35,10 @@
                 }
             ],
             "Entries": {
-                "{{Raven}}": "{{i18n:festivalDialogue.raven.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{Raven}}_y2": "{{i18n:festivalDialogue.raven.dialogue.eggFestival_{{Random:{{Range:1,5}}}}}}",
-                "{{Raven}}_spouse": "{{i18n:festivalDialogue.raven.dialogue.eggFestival_spouse}}",
-                "{{Raven}}_spouse_y2": "{{i18n:festivalDialogue.raven.dialogue.eggFestival_spouse}}",
+                "{{Raven}}": "{{i18n:festivalDialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_y2": "{{i18n:festivalDialogue.raven.eggFestival_{{Random:{{Range:1,5}}}}}}",
+                "{{Raven}}_spouse": "{{i18n:festivalDialogue.raven.eggFestival_spouse}}",
+                "{{Raven}}_spouse_y2": "{{i18n:festivalDialogue.raven.eggFestival_spouse}}",
                 
                 "{{Zayden}}": "{{i18n:festivalDialogue.zayden.eggFestival_{{Random:{{Range:1,3}}}}}}",
                 "{{Zayden}}_y2": "{{i18n:festivalDialogue.zayden.eggFestival_{{Random:{{Range:1,3}}}}}}"

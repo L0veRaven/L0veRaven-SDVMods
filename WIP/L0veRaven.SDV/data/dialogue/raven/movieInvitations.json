@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Movies Invitation/Rejection",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "MovieInvitation": "{{i18n:dialogue.movie.raven.invitation_{{Random:{{Range:1,5}}}}}}",
+                "MovieInvite_Spouse_{{Raven}}": "{{i18n:dialogue.movie.raven.spouse.invitation_{{Random:{{Range:1,5}}}}}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:dialogue.movie.raven.reject.alreadyInvitedByAnotherPlayer_{{Random:{{Range:1,3}}}}}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:dialogue.movie.raven.reject.alreadyWatchedThisWeek_{{Random:{{Range:1,3}}}}}}",
+                "RejectMovieTicket_Divorced": "{{i18n:dialogue.movie.raven.reject.divorced_{{Random:{{Range:1,5}}}}}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:dialogue.movie.raven.reject.notInterested_{{Random:{{Range:1,3}}}}}}",
+                "RejectMovieTicket": "{{i18n:dialogue.movie.raven.reject}}"
+            }
+        }
+    ]
+}

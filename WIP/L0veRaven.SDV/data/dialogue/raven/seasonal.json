@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "Seasons (May Not Appear In-Game)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "spring": "{{i18n:dialogue.raven.spring}}",
+                "summer": "{{i18n:dialogue.raven.summer}}",
+                "fall": "{{i18n:dialogue.raven.fall}}",
+                "winter": "{{i18n:dialogue.raven.winter}}"
+            }
+        }
+    ]
+}

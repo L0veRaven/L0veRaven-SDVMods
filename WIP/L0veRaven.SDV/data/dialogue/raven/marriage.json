@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "Marriage Topics",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                //Household Dialogue
+                    "SpouseFarmhouseClutter": "{{i18n:spouse.raven.farmhouseClutter}}",
+                    "Spouse_MonstersInHouse": "{{i18n:spouse.raven.monstersInHouse}}",
+                    "SpouseGiftJealous": "{{i18n:spouse.raven.notJealousWithGifts}}",
+                    "SpouseStardrop": "{{i18n:spouse.raven.stardrop}}",
+                //Mermaid Pendant
+                    "{{Raven}}_Engaged": "{{i18n:mermaidPendant.raven.accepted}}",
+                    "RejectMermaidPendant": "{{i18n:mermaidPendant.raven}}",
+                    "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:mermaidPendant.raven.needHouseUpgrade}}",
+                    "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:mermaidPendant.raven.npcWithSomeoneElse}}",
+                    "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:mermaidPendant.raven.playerWithSomeoneElse}}",
+                    "RejectMermaidPendant_Under8hearts": "{{i18n:mermaidPendant.raven.under8hearts}}",
+                    "RejectMermaidPendant_Under10Hearts": "{{i18n:mermaidPendant.raven.under10hearts}}",
+                    "RejectMermaidPendant_Under10hearts_AskedAgain": "{{i18n:mermaidPendant.raven.under10hearts_askedAgain}}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Location Entry Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "SeedShop_Entry": "{{i18n:dialogue.locationEntry.raven.seedShop}}",
+                "Blacksmith_Entry": "{{i18n:dialogue.locationEntry.raven.blacksmith}}",
+                "AnimalShop_Entry": "{{i18n:dialogue.locationEntry.raven.animalShop}}",
+                "Beach_Entry": "{{i18n:dialogue.locationEntry.raven.beach}}",
+                "Hospital_Entry": "{{i18n:dialogue.locationEntry.raven.hospital}}",
+                "MovieTheater_Entry": "{{i18n:dialogue.locationEntry.raven.movieTheater}}",
+                "Saloon_Entry": "{{i18n:dialogue.locationEntry.raven.saloon}}",
+                "Trailer_Entry": "{{i18n:dialogue.locationEntry.raven.trailer}}",
+                "Trailor_Big_Entry": "{{i18n:dialogue.locationEntry.raven.trailerBig}}",
+                "WizardHouse_Entry": "{{i18n:dialogue.locationEntry.raven.wizardHouse}}"
+            }
+        }
+    ]
+}

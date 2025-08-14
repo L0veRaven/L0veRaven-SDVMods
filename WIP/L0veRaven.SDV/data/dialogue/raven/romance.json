@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {//Verified
+            "LogName": "[Strings/StringsFromCSFiles] - Raven Engaged Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3980": "{{i18n:mermaidPendant.raven.accepted}}"
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Dating"
+            }
+        },
+        {
+            "LogName": "[Strings/StringsFromCSFiles] Post-Wedding Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Game1.cs.2782": "{{i18n:spouse.raven.afterWedding}}"
+            },
+            "When": {
+                "Spouse": "{{Raven}}"
+            }
+        }
+    ]
+}

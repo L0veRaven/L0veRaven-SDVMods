@@ -1,0 +1,211 @@
+{
+    "Changes": [
+        
+            //label:Spring
+                {
+                    "LogName": "Weather - Spring Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.spring.rain_{{Random:{{Range:1,6}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Spring Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.spring.storm_{{Random:{{Range:1,5}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Spring Wind",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.spring.wind_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Wind",
+                        "Season": "Spring",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+            //label:Summer
+                {
+                    "LogName": "Weather - Green Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "GreenRain": "{{i18n:dialogue.raven.greenRain.year1}}",
+                        "GreenRainFinished": "{{i18n:dialogue.raven.greenRain.after.year1}}",
+                        "GreenRain_2": "{{i18n:dialogue.raven.greenRain.year2}}",
+                        "GreenRainFinished_2": "{{i18n:dialogue.raven.greenRain.after.year2}}",
+                        "GreenRain_3": "{{i18n:dialogue.raven.greenRain.year3_{{Random:{{Range:1,10}}}}}}",
+                        "GreenRainFinished_3": "{{i18n:dialogue.raven.greenRain.after.year3_{{Random:{{Range:1,10}}}}}}"
+                    }
+                },
+                {
+                    "LogName": "Weather - Summer Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.summer.rain_{{Random:{{Range:1,4}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Summer",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Summer Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.summer.storm_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Summer",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+            //label:Fall
+                {
+                    "LogName": "Weather - Fall Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Tue": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Thu": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow",
+                        "Sun": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CleansingFarmer2 # {{i18n:dialogue.raven.fall.rain_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.rain}}#$action AddMail Current {{Raven}}_CleansingFarmer tomorrow"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Fall Storm",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.fall.storm_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Storm",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Fall Wind",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.fall.wind_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Wind",
+                        "Season": "Fall",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Winter Rain",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.winter.rain_{{Random:{{Range:1,3}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Rain",
+                        "Season": "Winter",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+                {
+                    "LogName": "Weather - Snow",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/{{Raven}}",
+                    "Entries": {
+                        "Mon": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Tue": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Wed": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Thu": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Fri": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Sat": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}",
+                        "Sun": "{{i18n:dialogue.raven.snow_{{Random:{{Range:1,5}}}}}}"
+                    },
+                    "When": {
+                        "Weather": "Snow",
+                        "Season": "Winter",
+                        "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                    }
+                },
+    ]
+}

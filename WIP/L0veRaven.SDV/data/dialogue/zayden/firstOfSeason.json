@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Dialogue] Zayden - First of Season (Year 1)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "summer_1": "{{i18n:dialogue.zayden.summer.first}}",
+                "fall_1": "{{i18n:dialogue.zayden.fall.first}}",
+                "winter_1": "{{i18n:dialogue.zayden.winter.first}}"
+            },
+            "When": {
+                "Year": "1"
+            }
+        },
+        {
+            "LogName": "[Dialogue] Zayden - First of Season (Year 1)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "{{season}}_1": "{{i18n:dialogue.zayden.{{season}}.first}}"
+            },
+            "When": {
+                "Year": "2"
+            }
+        }
+    ]
+}

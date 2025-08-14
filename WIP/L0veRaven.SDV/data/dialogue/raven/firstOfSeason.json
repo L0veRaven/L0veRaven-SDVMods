@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Dialogue] Raven - First of Season (Year 1)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "summer_1": "{{i18n:dialogue.raven.summer.first}}",
+                "fall_1": "{{i18n:dialogue.raven.fall.first}}",
+                "winter_1": "{{i18n:dialogue.raven.winter.first}}"
+            },
+            "When": {
+                "Year": "1"
+            }
+        },
+        {
+            "LogName": "[Dialogue] Raven - First of Season (Year 2)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "{{season}}_1": "{{i18n:dialogue.raven.{{season}}.first}}"
+            },
+            "When": {
+                "Year": "2"
+            }
+        }
+    ]
+}

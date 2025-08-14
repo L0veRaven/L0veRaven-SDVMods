@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "LogName": "dialogue.json: 0 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Tue": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Wed": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Thu": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Fri": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sat": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sun": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}"
+            }
+        },
+        {
+            "LogName": "dialogue.json: 2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Tue2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Wed2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Thu2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Fri2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sat2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}",
+                "Sun2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}"
+            }
+        }
+    ]
+}

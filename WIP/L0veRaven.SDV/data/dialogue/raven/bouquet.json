@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                //Gifted wilted flowers
+                "breakUp": "{{i18n:gift.raven.wiltedFlowers}}",
+                //Bouquet
+                "AcceptBouquet": "{{i18n:gift.raven.bouquet.accept}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:gift.raven.bouquet.reject.npcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:gift.raven.bouquet.reject.veryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:gift.raven.bouquet.reject.lowHearts}}",
+                "RejectBouquet": "{{i18n:gift.raven.bouquet.reject}}"
+            }
+        }
+    ]
+}

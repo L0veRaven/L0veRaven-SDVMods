@@ -1,0 +1,52 @@
+{
+    "Changes": [
+            {
+                "LogName": "Conversation Topics - Default",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    //General
+                    "Introduction": "{{i18n:conversationTopic.raven.introduction}}",
+                    "willyCrabs": "{{i18n:conversationTopic.raven.willyCrabs}}",
+                    "pamHouseUpgrade": "{{i18n:conversationTopic.raven.pamHouseUpgrade}}",
+                    "pamHouseUpgradeAnonymous": "{{i18n:conversationTopic.raven.pamHouseUpgradeAnonymous}}",
+                    "joja_Begin": "{{i18n:conversationTopic.raven.joja_Begin}}",
+                    "movieTheater": "{{i18n:conversationTopic.raven.movieTheater}}",
+                    "DumpsterDiveComment": "{{i18n:conversationTopic.raven.dumpsterDiveComment_{{Random:{{Range:1,10}}}}}}",
+                    "HitBySlingshot": "{{i18n:conversationTopic.raven.hitBySlingshot_{{Random:{{Range:1,10}}}}}}",
+                    //Community Center
+                    "cc_Begin": "{{i18n:conversationTopic.raven.communityCenter.begin}}",
+                    "cc_Minecart": "{{i18n:conversationTopic.raven.communityCenter.minecart}}",
+                    "cc_Greenhouse": "{{i18n:conversationTopic.raven.communityCenter.greenhouse}}",
+                    "cc_Bus": "{{i18n:conversationTopic.raven.communityCenter.bus}}",
+                    "cc_Bridge": "{{i18n:conversationTopic.raven.communityCenter.bridge}}",
+                    "cc_Boulder": "{{i18n:conversationTopic.raven.communityCenter.boulder}}",
+                    "cc_Complete": "{{i18n:conversationTopic.raven.communityCenter.complete}}",
+                    //Win Festival Events
+                    "wonEggHunt": "{{i18n:conversationTopic.raven.won.eggHunt}}",
+                    "wonGrange": "{{i18n:conversationTopic.raven.won.grangeDisplay}}",
+                    "wonIceFishing": "{{i18n:conversationTopic.raven.won.iceFishing}}",
+                    //Saloon Event (Rabbit's Foot)
+                    "dumped_Guys": "{{i18n:conversationTopic.raven.dumped}}",
+                    "secondchance_Guys": "{{i18n:conversationTopic.raven.secondChance}}",
+                    //Other Events
+                    "gotPet": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_CatLover # {{i18n:conversationTopic.raven.gotPet.cat}} |{{i18n:conversationTopic.raven.gotPet.other}}"
+                }
+            },
+        //logname:Conversation Topics - Farmer Marriage
+            {
+                "LogName": "Conversation Topics - Marriage Settings",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/{{Raven}}",
+                "Entries": {
+                    "married": "{{i18n:conversationTopic.raven.farmerMarried}}",
+                    "married_twice": "{{i18n:conversationTopic.raven.farmerMarried}}",
+                    "divorced_once": "{{i18n:conversationTopic.raven.farmerDivorced}}",
+                    "divorced_twice": "{{i18n:conversationTopic.raven.farmerDivorced}}"
+                },
+                "When": {
+                    "Relationship:{{Raven}}": "Unmet, Friendly, Dating"
+                }
+            }
+    ]
+}

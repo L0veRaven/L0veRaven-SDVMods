@@ -1,12 +1,162 @@
 {
+    // ## DELETE ON RELEASE: Start
+    "warp-sections.pelican-valley-loft": "Pelican Valley Loft",
+    "CJB.ravenApartment": "Apt 1A: Raven",
+    "CJB_ZaydensApartment": "1J: Zayden",
+    // ## DELETE ON RELEASE: End
+
     //ConfigSchema
+        //General Settings
+        "config.section.GeneralSettings.name": "General Settings",
+        "config.section.GeneralSettings.description": "General Settings",
+            //Clean Language
+        //"config.CleanLanguage.name": "Clean Language",
+        //"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
+    //Spirit's Eve Costumes
+        "config.section.RavenSpiritsEveCostumes.name": "Raven's Spirit's Eve Costumes",
+        "config.section.RavenSpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
+            //Vampire
+                //"config.RavenVampireCostumeSE.name": "Vampire",
+                //"config.RavenVampireCostumeSE.description": "Raven wears a vampire costume.",
+            //Sunflower
+                "config.RavenSunflowerCostumeSE.name": "Spirit's Eve Costumes",
+                "config.RavenSunflowerCostumeSE.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
+            //Cactus
+                "config.RavenCactusCostumeSE.name": "Cactus",
+                "config.RavenCactusCostumeSE.description": "Raven wears a cactus costume.",
+            //Daisy
+                "config.RavenDaisyCostumeSE.name": "Daisy",
+                "config.RavenDaisyCostumeSE.description": "Raven wears a daisy costume.",
+            //Weed
+                "config.RavenWeedCostumeSE.name": "Weed",
+                "config.RavenWeedCostumeSE.description": "Raven wears a weed costume. Celebrate 420 any day",
+            //Raven Nude
+                "config.RavenNude.name": "Nude",
+                "config.RavenNude.description": "Makes Raven naked. Featuring top surgery scars!",
+    //Modder Settings ## DELETE ON RELEASE
+        "config.section.ModderSettings.name": "Modder's Settings",
+        "config.section.ModderSettings.description": "Modder's Settings",
+            //Raven Index
+                "config.RavenIndex.name": "Raven - Index Appearance",
+                "config.RavenIndex.description": "Only shows the index numbers for Raven's portraits and sprites.",
+            //Zayden Index
+                "config.ZaydenIndex.name": "Zayden - Index Appearance",
+                "config.ZaydenIndex.description": "Only shows the index numbers for Raven's portraits and sprites.",
+            //Event Excludes
+                "config.EventExcludes.name": "Event Excludes",
+                "config.EventExcludes.description": "Wanna only get matched with one NPC for festivals? Choose which NPC to match with!",
+                "config.EventExcludes.values.Raven": "Raven",
+                "config.EventExcludes.values.Zayden": "Zayden",
+                "config.EventExcludes.values.None": "None",
     //DynamicTokens
     "displayName.raven": "Raven",
     "displayName.zayden": "Zayden",
     //Dialogue
-        //Medication Pickup
-    "dialogue.raven.medicationPickup.dayOf": "I'm on my way to pick up my medications today!$1#$e#Harvey is really good about filling my medications in a timely manner.",
-    "dialogue.raven.medicationPickup.dayOf_birthday": "I'm on my way to pick up my medications today!#$b#Since it's my birthday, I bet Harvey is going to joke that my prescription is my present from him.",
+        //Gift Tastes
+    "npcGiftTaste.raven.love": "Aw, how did you know I loved this? Thanks for thinking of me.$3",
+    "npcGiftTaste.raven.like": "This is nice, I appreciate it!$1",
+    "npcGiftTaste.raven.dislike": "Um, I'm not a fan of this, but I appreciate the thought.$11",
+    "npcGiftTaste.raven.hate": "I...#$b#Um, what am I supposed to do with this?$17",
+    "npcGiftTaste.raven.neutral": "Thanks, this is nice!",
+        //Gift Responses
+    //Raven
+        "gift.raven.accept.useless": "What am I gonna do with this?$17",
+        //Loved
+            "gift.raven.accept.foodLove": "This is one of my favorites! Thanks for the food.$1",
+            "gift.raven.accept.cookLove": "I can't wait to use this for dinner later! Thanks for the food.$1",
+            "gift.raven.accept.Amethyst": "This is perfect! I lost a different one I had. I love the natural grooves it has too!$3",
+            "gift.raven.accept.PrismaticShard": "Oh shit, I never thought I'd actually come across a Prismatic Shard! Thanks a bunch, @!$3",
+            "gift.raven.accept.FrozenTear": "I love the energy this fozen tear has! It's very calming for me, thanks.$1",
+            "gift.raven.accept.Potato": "I love making stuff with potatoes. Thanks!$1",
+            "gift.raven.accept.Spaghetti": "Spaghetti is my favorite food! You're fucking amazing, thanks.$3",
+            "gift.raven.accept.MagicRockCandy": "This reminds me of a field trip that I went on back in elementary school. Thanks for helping me remember something positive.$1",
+            "gift.raven.accept.RainbowShell": "This is so beautiful! I absolutely dlove it, thanks!$1",
+            "gift.raven.accept.DuckFeather": "Oh wow, I can probably turn this into a pen! Thanks so much @.$1",
+            "gift.raven.accept.RabbitsFoot": "Aw, thanks for thinking of me! This should give me some extra luck for a while.$1",
+            "gift.raven.accept.Snail": "You got me a snail? Aw, it's so cute!$1",
+            "gift.raven.accept.TeaLeaves": "This will be perfect for a batch of tea! Thanks for thinking of me.$1",
+            "gift.raven.accept.PriceCatalogue": "This will totally help me out with budgeting! You're really thoughtful.$1",
+        //Liked
+            "gift.raven.accept.cookLike": "I bet this will taste good when I cook it later. Thanks!$1",
+            "gift.raven.accept.flowersLike": "Wow, these are so beautiful and smell great! Thanks so much.$1",
+            "gift.raven.accept.foodLike": "This smells so good, I can't wait to eat it! Thanks.$1",
+            "gift.raven.accept.fruitLike": "It's amazing how tasty this fruit is! Thanks a bunch.$1",
+            "gift.raven.accept.goodVibesLike": "The energy is from this is so nice. You're awesome, thanks!$1",
+            "gift.raven.accept.prettyLike": "This is so pretty, thanks for thinking of me!$1",
+            "gift.raven.accept.CategoryFish": "I can't wait to eat this later, thanks a bunch!",
+            "gift.raven.accept.StrangeBun": "Ooh, I like how this tastes! Where did you get it? I wanna buy some.$1",
+            "gift.raven.accept.MapleSyrup": "I should make some pancakes to go along with this! Thanks.$1",
+            "gift.raven.accept.JackOLantern": "This is so cool! Jack-O-Lanterns are great, thanks.$1",
+            "gift.raven.accept.JackOLantern_Fall": "'Tis the season of the pumpkin! I can't wait to use this for Spirit's Eve.$1",
+            "gift.raven.accept.BatteryPack": "Oh, this'll be perfect for if my other batteries die. Thanks!$1",
+            "gift.raven.accept.Book_AnimalCatalogue": "I can't tell if this is because I'm a neko or so I can look at the animals inside.$17#$b#Either way, the animals are cute!$1",
+            "gift.raven.accept.Book_Trash": "I didn't think people made books about dumpster diving! This is so great, thanks!$3",
+        //Disliked
+            "gift.raven.accept.notFanDislike": "I'm not a huge fan of this, but I appreciate you thinking of me.$11",
+            "gift.raven.accept.noPlaceDislike": "I don't have a place for this, but I appreciate you thinking of me.$11",
+            "gift.raven.accept.findSomethingDislike": "I don't know what to do with this, but I'll try to figure out something.$11",
+            "gift.raven.accept.FieldSnack": "... Aw, it's kinda bland.$2",
+            "gift.raven.accept.Book_Friendship": "... Is this because I'm autistic?$2",
+        //Hated
+            "gift.raven.accept.cantUseHate": "I can't think of anything to do with this...$2",
+            "gift.raven.accept.poisonFood": "... I don't think this is safe to eat.(nauseous)",
+            "gift.raven.accept.tasteHate": "I really hate the taste of this, I'm sorry.$2",
+            "gift.raven.accept.uglyFish": "This fish doesn't look right...(nauseous)",
+            "gift.raven.accept.wtfHate": "... What the fuck?$17",
+            "gift.raven.accept.diamonds": "Imma be honest, I hate diamonds. Not you, though. Just diamonds.$11",
+            "gift.raven.accept.CaveCarrot": "This grew in a cave. I might get a dormant disease from eating this.$12",
+            "gift.raven.accept.Eel": "Ew, ew, ew, ew, ew, it's slimy, it's slimy, it's slimy, it's slimy. I hate eels!(nauseous)",
+            "gift.raven.accept.SeaSuperCucumber": "I don't trust cucumbers that grew in the ocean.(nauseous)",
+            "gift.raven.accept.Driftwood": "I can wait for this to dry out and use it for the campfire... probably.$11",
+            "gift.raven.accept.TripleShotEspresso": "Th-that's some s-strong coffee...$11",
+            "gift.raven.accept.Geodes": "...$12#$b#I guess I gotta spend some money to use this gift, huh?$11",
+            "gift.raven.accept.DinosaurMayonnaise": "Mayonnaise made from a dinosaur egg sounds very sketchy. I'll... think about it.$11",
+        //Neutral
+            "gift.raven.accept.neutral": "Ooo, this is nice. Thanks!$1",
+            "gift.raven.accept.usefulNeutral": "Nice, I should be able to use this later. Thanks!$1",
+            "gift.raven.accept.Books": "I'll make some time to read this soon. Thanks!$1",
+        //Generic Tastes
+            "gift.raven.accept.bday_Love": "Aw, how did you know I loved this? Especially for my birthday!$3#$b#That's so sweet of you, thanks.$1",
+            "gift.raven.accept.bday_Like": "Ooo, this is awesome! Thanks for the birthday gift.$1",
+            "gift.raven.accept.bday_Hate": "Mmm...$17#$b#I appreciate that you remembered my birthday.$11",
+            "gift.raven.accept.bday_Dislike": "Oh... Thanks for the gift.$11",
+            "gift.raven.accept.bday_Neutral": "Oh, a birthday gift! Thanks a bunch.",
+            "gift.raven.accept.bday": "Thanks for the birthday gift.$1",
+        //RejectItem_
+            //Generic
+                "gift.raven.reject.hidden": "How the hell did you get this... And why give it to me?$17",
+                "gift.raven.reject.legendaryFish": "No... Just no.$12",
+                "gift.raven.reject.useless": "What would I do with this? I can't keep it, sorry.$11",
+                "gift.raven.reject.valuable": "I... I can't keep this.$8#$b#You found it, fair and square, so I can't accept this.",
+            //Item-Specific
+                "gift.raven.reject.LifeElixir": "I don't do anything so dangerous that I'd need this. You can keep it.",
+                "gift.raven.reject.Blobfish": "PUT THAT BLOBFISH BACK WHERE YOU FOUND IT. IT DOES NOT BELONG OUTSIDE THE WATER.#$b#S-sorry for yelling... It's just that blobfish deserve better.",
+        //Change -> Married
+            "gift.raven.reject.PriceCatalogue_married": "You're the one that's in charge of the finances now. It'd be best if you kept it.",
+            "gift.raven.reject.Fertilizer_married": "No, we use fertilizer for the farm. Try to find a place for this, will you?$2",
+            "gift.raven.reject.Seeds_married": "@, please don't waste your seeds on me. I'd rather it used for the farm and not on me.$11",
+    //Zayden
+        "gift.zayden.accept.bday_Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+        "gift.zayden.accept.bday_Liked": "Thanks for the birthday gift. It's really cool.",
+        "gift.zayden.accept.bday_Hated": "... Thanks for remembering my birthday.$4",
+        "gift.zayden.accept.bday_Disliked": "Oh, uh, thanks for remembering my birthday.",
+        "gift.zayden.accept.bday_Neutral": "Thanks for remembering my birthday.",
+        "gift.zayden.accept.bday": "Thanks for remembering my birthday.",
+
+        "gift.zayden.accept.Loved": "W-wait, really? For my birthday? I appeciate the gift. This is pretty awesome.",
+        "gift.zayden.accept.Liked": "Thanks for the birthday gift. It's really cool.",
+        "gift.zayden.accept.Hated": "... Thanks for remembering my birthday.$4",
+        "gift.zayden.accept.Disliked": "Oh, uh, thanks for remembering my birthday.",
+        "gift.zayden.accept.Neutral": "Thanks for remembering my birthday.",
+        
+        "gift.zayden.accept.Cheese": "Oh, this is for me? I won't let you leave empty-handed. I really appreciate it.#$action AddMoney 500",
+        
+        "gift.zayden.reject.hidden": "Um...#$b#No thanks.$4",
+        //Plain Seasons -> Very unlikely to appear in-game
+    "dialogue.raven.spring": "Spring rarely ever brings down my mood. What about you?",
+    "dialogue.raven.summer": "Summer doesn't really seem to end fast enough, does it?",
+    "dialogue.raven.fall": "Fall is pretty cozy! I just wish it'd last a little longer, you know?",
+    "dialogue.raven.winter": "Winter... It's... so... cold...",
         //First Of Season
     "dialogue.raven.spring.first": "I love the in-between weather for the seasons!$1#$b#Spring is wonderful for enjoying the weather and blooming plants.",
     "dialogue.raven.summer.first": "Oh dear Yoba, it's so hot already!$12",
@@ -16,6 +166,663 @@
     "dialogue.zayden.summer.first": "No more jackets for the season since it's so hot outside.#$b#I'm still going to weear long-sleeves though since I'd like to protect my skin from the sun.",
     "dialogue.zayden.fall.first": "I love the in-between weather for the seasons!$1#$b#Fall is wonderful for collecting things falling from trees!",
     "dialogue.zayden.winter.first": "Here comes the cold weather...$12#$e#At least I can bundle up to stay warm!$1",
+        //Generic (Tue, Sun)
+    "dialogue.raven.generic_1": "I don't think I drank enough water yesterday. I have a massive headache right now.$2",
+    "dialogue.raven.generic_2": "%Raven says nothing but nods their head at you with a big smile.#$b#!$1",
+    "dialogue.raven.generic_3": "I wonder what Mayor Lewis actually does as mayor.#$e#There's never any new ordinances for this place. It's pretty static here to be honest.#$b#I feel like he could be doing more to improve the community.",
+    "dialogue.raven.generic_4": "I hope you have time to relax every once in a while!$1#$e#It's good to not push yourself too hard.",
+    "dialogue.raven.generic_5": "Sorry, I'm not really in the mood to talk to people today.$2#$b#It's not you. I'm just having a rough time.$2",
+    "dialogue.raven.generic_6": "%Raven says nothing but has a sad look on their face.#$b#...$2",
+    "dialogue.raven.generic_7": "%Raven waves at you.#$b#!$1",
+    "dialogue.raven.generic_8": "Please don't take it personally if I don't speak to you verbally sometimes.#$b#I have moments where I struggle to speak sometimes.$11",
+    "dialogue.raven.generic_9": "If I have time, maybe I could play some video games today.$1",
+    "dialogue.raven.generic_10": "My feet are really sore today. I should take it easy.$2",
+    "dialogue.raven.generic_11": "I need to wash my laundry soon. It's starting to pile up again.$2",
+    "dialogue.raven.generic_12": "I swear I forgot something...$17#$e#This always happens.$2",
+        //Generic - Seasonal
+            //Spring
+    "dialogue.raven.spring.generic_1": "I really enjoy how the weather is during spring!$1#$b#I do kind of miss winter though.$2",
+    "dialogue.raven.spring.generic_2": "My eyes are super itchy. I hate seasonal allergies.$2",
+    "dialogue.raven.spring.generic_3": "...$16#$b#Oh, I'm just enjoying the weather right now. It's really peaceful.",
+    "dialogue.raven.spring.generic_4": "With the flowers in bloom, the air smells wonderful!$1#$e#Do you have a favorite flower? My favorite are marigolds.",
+    "dialogue.raven.spring.generic_5": "The scenery is so colorful during spring. It's perfect for art inspiration!$1",
+    "dialogue.raven.spring.generic_6": "Sorry, my seasonal allergies are giving me a major headache right now. Maybe we can talk later?$2",
+    "dialogue.raven.spring.generic_7": "It's odd how I can appreciate the beauty of spring even though my seasonal allergies are making me suffer.",
+            //Summer
+    "dialogue.raven.summer.generic_1": "Ugh it's so hot!$2#$b#If only it was winter. Then I wouldn't have to worry about trying to cool down all the time.$2",
+    "dialogue.raven.summer.generic_2": "Dear Yoba it's so hot! I wish it was any season BUT summer.$2",
+    "dialogue.raven.summer.generic_3": "It'd be awesome if we had a community pool! It'd be super handy.#$b#... Okay, but swimming at the beach means sand will be in my hair for weeks.$2",
+    "dialogue.raven.summer.generic_4": "I hate to admit that I sometimes enjoy the summer heat.$11#$b#I think it's because being directly in the sun makes my skin feel funny after a while.$1",
+    "dialogue.raven.summer.generic_5": "It'd be awesome if there were swimming competitions during the summer.$3#$b#I'm sure plenty of people would participate!$1",
+    "dialogue.raven.summer.generic_6": "Yup, I'm super sweaty today.$2#$b#At least I can go to the beach to rinse off!$1",
+    "dialogue.raven.summer.generic_7": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+            //Fall
+    "dialogue.raven.fall.generic_1": "I love feeling the leaves crunch under my feet!$1",
+    "dialogue.raven.fall.generic_2": "%Raven stomps hard on the leaves as they walk.#$e#Crunch! Crunch! Crunch!$3",
+    "dialogue.raven.fall.generic_3": "Since fall is normally the season people make wine, I wonder how much is being made right now.$17#$b#I just hope it tastes good!$1",
+    "dialogue.raven.fall.generic_4": "I love how it's not too cold outside today.#$b#It's much better than summer was!$1",
+    "dialogue.raven.fall.generic_5": "If the season of fall was a person, I think we'd be best friends!$1#$b#I connect with nature a lot better during this time of year.",
+    "dialogue.raven.fall.generic_6": "Imagine if instead of water raining from the sky during the fall, it was leaves falling from the sky?$3#$b#I think it'd be nature littering on itself if that were to happen, though.",
+    "dialogue.raven.fall.generic_7": "If you have an extra pumpkin lying around, I could definitely use one.#$b#I love making Jack-o-lanterns!$1",
+            //Winter
+    "dialogue.raven.winter.generic_1": "I love how cold it is today! It feels just right.$1",
+    "dialogue.raven.winter.generic_2": "It's s-so cold t-today.$2#$e#%Raven is shivering a lot.",
+    "dialogue.raven.winter.generic_3": "I ate a bit of snow this morning.#$b#It tastes pretty good!$1#$e#Yes, I avoid snow that's not an... unnatural color.$2#$b#I wouldn't ever wanna touch discolored snow.$11",
+    "dialogue.raven.winter.generic_4": "I don't know why, but the sound of snow falling on top of my tent is annoying.#$b#I never feel that way about rain though.$17",
+    "dialogue.raven.winter.generic_5": "Be sure to stay warm! I wouldn't want you to freeze into a popsicle.",
+    "dialogue.raven.winter.generic_6": "I might build a snowperson today...$17#$b#I'm still deciding.",
+    "dialogue.raven.winter.generic_7": "What's something you enjoy about winter?#$b#I always get curious abouut that kind of thing.$1#$e#That's pretty neat!$1",
+        //Medication Pickup
+    "dialogue.raven.medicationPickup.dayOf": "I'm on my way to pick up my medications today!$1#$e#Harvey is really good about filling my medications in a timely manner.",
+    "dialogue.raven.medicationPickup.dayOf_birthday": "I'm on my way to pick up my medications today!#$b#Since it's my birthday, I bet Harvey is going to joke that my prescription is my present from him.",
+        //Festival Days
+            //Egg Festival
+    "dialogue.raven.eggFestival.dayBefore_1": "Are you ready for the Egg Festival tomorrow?$3#$e#I won't join the egg hunt. I have more fun watching people frantically hunt for eggs!$1",
+    "dialogue.raven.eggFestival.dayBefore_2": "Mayor Lewis wanted me to remind you about the Egg Festival in case you forgot to check your mail.$1#$e#There's no pressure for you to participate though.#$b#You're an adult. Live your best life!",
+    "dialogue.raven.eggFestival.dayBefore_3": "It might be a little silly but I'm not feeling the Egg Festival vibe this year.$11#$e#Maybe Harvey needs to adjust my medication dosage or something...$17#$b#Don't mind me. I'm just thinking out loud.$11",
+    "dialogue.raven.eggFestival.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Egg Festival.$11",
+
+    "dialogue.raven.eggFestival.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I can't wait for the Egg Festival to start! It's gonna be so much fun.$1",
+    "dialogue.raven.eggFestival.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#I would help set up the festival but I usually just end up getting in the way.$11#$b#It's more effort for people to explain how to get things done to me. It's better if I just stay off to the side during the setup.$12",
+    "dialogue.raven.eggFestival.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Imagine if people gave gifts during the Egg Festival!$1#$e#Would the gift theme just be anything related to eggs? Now I gotta think about it.$17",
+    "dialogue.raven.eggFestival.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Egg Festival is happening today.$1#$e#Are you gonna come to the Egg Festival today? It'd be awesome if you joined us!$1#$b#I completely understand if you're too busy though.",
+
+    "dialogue.raven.eggFestival.dayAfter_1": "The Egg festival was a ton of fun! I hope you managed to take a plate of food home with you.$1#$e#",
+    "dialogue.raven.eggFestival.dayAfter_2": "Those deviled eggs were so good! I gotta try to convince Gus to sell them at the Saloon.$1#$e#He might need an egg supplier for that though.$17",
+    "dialogue.raven.eggFestival.dayAfter_3": "The festival was pretty exhausting yesterday.$2#$e#I think I just got overwhelmed by being around people for so long.$11#$b#I actually have a limited social battery. I know it's pretty strange for someone like me.$11",
+    "dialogue.raven.eggFestival.dayAfter_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.eggFestival.dayAfter_5": "I think I used my legs way too much yesterday! My legs are hurting so bad right now.$2#$e#I'll definitely need to take it easy today.$11",
+            //Flower Dance
+    "dialogue.raven.flowerDance.dayBefore_1": "No one has asked me to the Flower Dance but I still practice every year just in case.$1",
+    "dialogue.raven.flowerDance.dayBefore_2": "Some people find the Flower Dance to be romantic so asking someone to dance is similar to asking them on a date.#$e#I don't think like that though.$1#$b#If you wanna dance with the homie then dance with the homie!$1",
+    "dialogue.raven.flowerDance.dayBefore_3": "I wanna fast-forward time so the Flower Dance can start finally!$3#$e#I wanna see a performance, not stand here all day.$17",
+    "dialogue.raven.flowerDance.dayBefore_4": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Flower Dance.$11",
+    "dialogue.raven.flowerDance.dayBefore_5": "How cool would it be if someone had their wedding during the Flower Dance?$6#$e#I feel like it would be super symbolic and romantic.$4",
+
+    "dialogue.raven.flowerDance.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I can't wait to see the Flower Dance this year! Everyone dances so well.$3",
+    "dialogue.raven.flowerDance.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if anyone will ask to dance with me this year.$1#$b#It probably won't happen. I don't talk to people enough for that to happen.$11",
+    "dialogue.raven.flowerDance.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I bet the food at the Flower Dance is gonna taste good! Gus never lets us down when it comes to catering.$1",
+    "dialogue.raven.flowerDance.dayOf_4": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder what I'm gonna wear to the Flower Dance today...$16",
+
+    "dialogue.raven.flowerDance.dayAfter_1": "I'm pretty tired from the dance yesterday, but it was so much fun!$1",
+    "dialogue.raven.flowerDance.dayAfter_2": "I wonder who came up with the flower dance in the first place.$17#$b#The movements are very graceful.$1",
+    "dialogue.raven.flowerDance.dayAfter_3": "I wonder how many people are exhausted from the Flower Dance.$17#$b#I always get curious about that kind of thing.",
+            //Luau
+    "dialogue.raven.luau.dayBefore_1": "I wonder what everyone's bringing the Luau tomorrow!$1#$e#I'm just looking forward to whatever Gus makes. You gotta have some!$3",
+    "dialogue.raven.luau.dayBefore_2": "Hopefully it's not too hot this year at the Luau.$2#$e#Listen. We don't need Harvey to work on his day off because of heat-related illnesses.$2",
+    "dialogue.raven.luau.dayBefore_3": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at the Luau.$11",
+
+    "dialogue.raven.luau.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#Call me crazy but I'm pretty sure I can smell the food from here!$3#$e#You better grab some food from the Luau before I get there. When I see that food... it's on SIGHT.$1",
+    "dialogue.raven.luau.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#I wonder if the governor is gonna like the soup at the Luau this year.$17#$b#I bet it'd be REALLY bad if he didn't like the soup.$12",
+    "dialogue.raven.luau.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Flower Dance is happening today.$1#$e#It's kinda weird to have the governor come by for the Luau every year.$17#$b#I dunno... It just seems odd.$17",
+
+    "dialogue.raven.luau.dayAfter_1": "Ugh... I'm nauseous... I ate too much food at the Luau.$2#$e#I should've listened to Gus when he told me to slow down.$12",
+    "dialogue.raven.luau.dayAfter_2": "The food was absolutely amazing at the Luau yesterday!$1#$e#I wish there was leftovers.$2",
+    "dialogue.raven.luau.dayAfter_3": "I'm lowkey glad that the governor is gone. It's stressful having authority like him hang around.$2#$e#It's not my fault that I find authority intimidating.$17",
+            //Moonlight Jellies
+    "dialogue.raven.moonlightJellies.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.moonlightJellies.dayBefore_2": "I heard the Dance of the Moonlight Jellies is tomorrow! I hope you come watch.$3#$e#It's so beautiful. I wish we could see it happen more than once a year.$1",
+    "dialogue.raven.moonlightJellies.dayBefore_3": "I love going to the Dance of the Moonlight Jellies! Seeing all those colors in the water looks so magical.$1#$e#I hope you decide to go to the festival tomorrow. I promise you'll love it!",
+
+    "dialogue.raven.moonlightJellies.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I can't wait to see the Moonlight Jellies tonight! It's gonna be stunning, I know it.$1",
+    "dialogue.raven.moonlightJellies.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder how many Moonlight Jellies there are in the world. I bet it's a ton!$3",
+    "dialogue.raven.moonlightJellies.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Dance of the Moonlight Jellies is happening tonight.$1#$e#I wonder if anyone is bringing food to the event.$17",
+
+    "dialogue.raven.moonlightJellies.dayAfter_1": "I think I stayed up too late last night. I'm so drowsy.$2",
+    "dialogue.raven.moonlightJellies.dayAfter_2": "There were so many moonlight jellies last night! They were so cool to see in person!$3",
+    "dialogue.raven.moonlightJellies.dayAfter_3": "I love how the weather yesterday was perfect to enjoy watching the moonlight jellies swim by.",
+            //Stardew Valley Fair
+    "dialogue.raven.stardewValleyFair.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.stardewValleyFair.dayBefore_2": "Since the Stardew Valley Fair is tomorrow, I wonder what everyone likes about it.#$e#I know that some people only go to the fair to see the grange displays.#$b#Personally, I go for the carnival games! The fishing one is a blast!$3",
+    "dialogue.raven.stardewValleyFair.dayBefore_3": "I wonder who's gonna enter the grange display contest at the fair tomorrow.$1",
+
+    "dialogue.raven.stardewValleyFair.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I know that I'll be going to the fair!$1#$b#If you decide to go, are you gonna focus on the carnival games or the grange displays?",
+    "dialogue.raven.stardewValleyFair.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#I wonder who's gonna win the grange display contest this year.$3#$e#I guess we'll see!$1",
+    "dialogue.raven.stardewValleyFair.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Stardew Valley Fair is happening today.$1#$e#Once the fair is over, then everyone will be focusing on Spirit's Eve!$3",
+
+    "dialogue.raven.stardewValleyFair.dayAfter_1": "I used up a lot of my energy yesterday, but I'm all good!$1#$e#I spent a lot of time at the fishing game.#$b#The guy running the booth probably got confused about me being there for over an hour straight.$11",
+    "dialogue.raven.stardewValleyFair.dayAfter_2": "The grange displays were really amazing this year!$1#$b#I bet next year will be even better$3",
+    "dialogue.raven.stardewValleyFair.dayAfter_3": "I wonder how long it took for everyone to pack up when the festival ended.$17#$b#The clown probably was the first to leave since they didn't have many props.",
+            //Spirits Eve
+    "dialogue.raven.spiritsEve.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.spiritsEve.dayBefore_2": "I have a big collection of costumes for Spirit's Eve.#$e#I bet you can't guess what I'll wear tomorrow.$1",
+    "dialogue.raven.spiritsEve.dayBefore_3": "Spirit's Eve is tomorrow! I'm always excited for it.$1#$e#It's always fun embracing the spookier parts of life, you know?",
+
+    "dialogue.raven.spiritsEve.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder what people are bringing for Spirit's Eve.#$b#Or is Gus the one catering everything?#$b#No one tells me these things.$11",
+    "dialogue.raven.spiritsEve.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#It's Spirit's Eve! It's Spirit's Eve!$3",
+    "dialogue.raven.spiritsEve.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that Spirit's Eve is happening tonight.$1#$e#I wonder who's gonna wear costumes this year...",
+
+    "dialogue.raven.spiritsEve.dayAfter_1": "I definitely stayed up too late last night. I'm all kinds of drowsy right now.$2",
+    "dialogue.raven.spiritsEve.dayAfter_2": "Damn, that food was so good! I'm glad I didn't skip Spirit's Eve this year.$1",
+    "dialogue.raven.spiritsEve.dayAfter_3": "I'm so full from last night's food, but it was totally worth it.$1",
+            //Festival of Ice
+    "dialogue.raven.festivalOfIce.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.festivalOfIce.dayBefore_2": "It'd be cool if Mayor Lewis had a snowperson competition at the Ice Festival! I'd try to make something super cool.$3#$e#I'd probaby make something cursed.$1#$b#Like a monster that only has two legs, a torso, and a head with one eye!$3",
+    "dialogue.raven.festivalOfIce.dayBefore_3": "Maybe one of these days I'll do the ice fishing competition at the Ice Festival.#$e#I'll need a fishing pole, though.$2",
+
+    "dialogue.raven.festivalOfIce.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#The weather is perfect for the Ice Festival!$1",
+    "dialogue.raven.festivalOfIce.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I wonder who's gonna win the fishing competition this year!$1",
+    "dialogue.raven.festivalOfIce.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Ice Festival is happening today.$1#$e#I'll be busy building snowpeople at the festival.#$b#I wonder what they're gonna look like.$1",
+
+    "dialogue.raven.festivalOfIce.dayAfter_1": "The Ice Festival was so much fun!$1#$b#Did you enjoy it?",
+    "dialogue.raven.festivalOfIce.dayAfter_2": "I wish the Ice Festival lasted longer.$2#$e#Oh well, it was fun!$1",
+    "dialogue.raven.festivalOfIce.dayAfter_3": "I got some compliments on the snowpeople I made yesterday!$1#$b#It's a pretty big achievement for me.",
+            //Feast of the Winter Star
+    "dialogue.raven.feastOfTheWinterStar.dayBefore_1": "It's kinda funny how there's never any rain during festivals.$1#$e#Let's just hope we don't get random rain at tomorrow's festival.$11",
+    "dialogue.raven.feastOfTheWinterStar.dayBefore_2": "I wonder what everyone's getting for the Winter Star.#$e#I wonder who my secret gift-giver is.$1",
+    "dialogue.raven.feastOfTheWinterStar.dayBefore_3": "I can't wait to see everyone at the festival tomorrow.$3#$b#I miss hanging out with the people in town.$2",
+
+    "dialogue.raven.feastOfTheWinterStar.dayOf_1": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I can't wait to see everyone today.$1",
+    "dialogue.raven.feastOfTheWinterStar.dayOf_2": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder what food is gonna be there this year.$3",
+    "dialogue.raven.feastOfTheWinterStar.dayOf_3": "Good morning, @! Mayor Lewis wanted me to remind you that the Feast of the Winter Star is happening today.$1#$e#I wonder who my secret gift-giver is!$3",
+
+    "dialogue.raven.feastOfTheWinterStar.dayAfter_1": "It was great spending time with everyone yesterday.#$e#Everyone got really cool presents too!$1",
+    "dialogue.raven.feastOfTheWinterStar.dayAfter_2": "I think I spent too much time at the festival.$2#$b#I got really worn out from talking to everyone.$11",
+    "dialogue.raven.feastOfTheWinterStar.dayAfter_3": "The food was so good this year!$1#$b#Luckily there was enough leftovers for me to bring some home.",
+        //Heart Dialogue
+            //Raven: 0 Hearts
+    "dialogue.raven.0hearts_1": "Some of the people here say that I have a lot to say.#$e#I can't tell if that's supposed to be a bad thing or not, though.$17",
+    "dialogue.raven.0hearts_2": "If you take medications, you can go to Harvey's clinic.#$b#He also sells Ferngill Medical Board approved medications for exhaustion and energy. They work instantly!$1",
+    "dialogue.raven.0hearts_3": "I love the library here. There are so many books!$1$#b#There's not nearly enough fantasy in there though..$2",
+    "dialogue.raven.0hearts_4": "I know it's weird seeing me nap random places, but since I live out of a tent, I either sleep there or wherever else I can.$11#$e#I know living out of a tent isn't the best, but it's not like a house is gonna appear out of nowhere for me.$2#$b#Pelican Town needs more space for housing if they want more people to move in.$$11",
+    "dialogue.raven.0hearts_5": "Mayor Lewis has a strange vibe to him.$17#$b#I don't know what it is, but I feel like he's hiding some secrets.$5#$e#Don't take my word for it though. I could be completely wrong!$11",
+    "dialogue.raven.0hearts_6": "Pelican Town has quite the collection of secrets.#$e#I'm just saying, some people are worth side-eyeing.$17",
+    "dialogue.raven.0hearts_7": "If you ever talk to Clint... Just be careful. He's got an entire incel vibe to him.$2#$b#I figured I'd let you know.^I figured I'd let you know since I know you're his type.$2",
+    "dialogue.raven.0hearts_8": "It'd be nice if Pelican Town had more events. I like when everyone gets together.#$b#It also gives people days off from work.$1",
+    "dialogue.raven.0hearts_9": "Have you been getting along with people in town fine?#$e#That's interesting!$1",
+    "dialogue.raven.0hearts_10": "I work at the Saloon a few days a week. I really enjoy being a janitor there.#$e#Did you know that Gus lets staff sit down? We don't have to stand all the time!$3#$b#It's much better than my previous jobs.#$e#It's not like I spend my whole shift sitting, but if I need a breather, he won't judge us for it.$3",
+            //Raven: 2 Hearts
+    "raven.query.wildClans": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
+    "dialogue.raven.2hearts_1": "I'm glad we have a library in town. It helps give me more things to do!$1",
+    "dialogue.raven.2hearts_2": "I love how I can learn more about the people in town just from working at the Saloon.#$b#Sometimes you feel bad for some of the people, though.$2",
+    "dialogue.raven.2hearts_3": "How are things going for you today?#$e#My day is just like any other day. Kinda boring.$11",
+    "dialogue.raven.2hearts_4": "Sometimes it's hard to figure out what to talk about since my life is pretty repetitive.$2#$e#When everything is the same all the time, there's nothing new to talk about.$11",
+    "dialogue.raven.2hearts_5": "",
+    "dialogue.raven.2hearts_6": "I've had people tell me that I'm really energetic in odd situations.$17#$b#Doctors and dentists always get confused because I'm so upbeat at appointments.$1",
+    "dialogue.raven.2hearts_7": "I wish there were more frogs here. They're so cool.$1",
+            //Raven: 4 Hearts
+    "dialogue.raven.4hearts_1": "Sometimes I wonder if I should try to move back to the city again.$17#$b#I don't think I'd be able to afford it, though.$11",
+    "dialogue.raven.4hearts_2": "I'm thinking of also working at Pierre's Seed Shop.$17#$e#Sure, I'm working at the Saloon, but I think I'll be able to pull it off!$1#$b#I'm not certain about it yet, but we'll see.",
+    "dialogue.raven.4hearts_3": "I've been looking at books on managing finances lately, but it's not really that I spend too much money.$2#$b#The problem is that everything I need costs more than it should.$12#$e#At least I don't own a car. Those things are so expensive and break down at the worst times.$11",
+    "dialogue.raven.4hearts_4": "I've been thinking of moving in to the Pelican Valley Loft. It's more affordable than Zuzu City!#$b#The downside is that it'll take longer to move things from my storage unit in the city.$2#$e#I'm saving up my money first though.",
+    "dialogue.raven.4hearts_5": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
+            //Raven: 6 Hearts
+    "raven.query.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
+    "dialogue.raven.6hearts_1": "*yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2",
+    "dialogue.raven.6hearts_2": "...",
+            //Raven: 8 Hearts - Platonic
+    "raven.query.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
+    "dialogue.raven.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
+    "dialogue.raven.8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
+            //Raven: 8 Hearts - Romantic
+    "dialogue.raven.8hearts.dating_1": "This might be a lot to ask for, but could you put in a good word for me with Mayor Lewis?#$b#I'm trying to open a coffee shop, but I need him to trust that I'll do what I can to make sure it provides more jobs to people in town, you know?",
+    "dialogue.raven.8hearts.dating_2": "You know how some people in town don't have jobs? Well, I wanna try to change that.#$e#Everyone deserves a shot, even in small towns.",
+            //Raven: 10 Hearts
+    "dialogue.raven.10hearts_1": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
+    "dialogue.raven.10hearts_2": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
+            //Zayden: 0 Hearts
+    "dialogue.zayden.0hearts_1": "I normally stay away from direct sunlight.#$b#It's not that I sunburn easily, but too much sun isn't good for my skin.$2#$e#No, I don't care that the sun causes aging.#$b#*whispers* It's kinda a dumb reason to hate the sun...$3",
+    "dialogue.zayden.0hearts_2": "The heat isn't an issue for me. The problem is when the sun's directly on me for too long.#$e#What happens when I'm in the sun for too long?$9#$b#I get heat rashes. It's really uncomfortable.$4",
+    "dialogue.zayden.0hearts_3": "I'm curious about something...#$b#$y 'Are you gonna focus on raising animals, crops, or making artisan goods?_Raising animals_That'll be pretty profitable as long as you stay consistent. You'll do fine.$7_Raising crops_I hear that once you get sprinklers all over the farm that it gets way easier from there. You've got this._Artisan goods_Listen... If you end up making cheese, can you save some for me? I'll be sure to pay you for it.$2",
+    "dialogue.zayden.0hearts_4": "I know I'm not super expressive. I'm just not the type to really... care about putting on a performance?$2#$b#That's what it feels like to be really expressive. It's not really authentic for me.",
+    "dialogue.zayden.0hearts_5": "I smell like sunscreen? Well, yeah. I wear sunscreen.#$b#*whispers* Is it bad to have sensitive skin?$4",
+    "dialogue.zayden.0hearts_6": "$y 'You have a question?_Are you a vampire?_Well, yeah. It's not exactly a secret.$2_Show me your fangs._... No. That's weird to ask that.$4'",
+    "dialogue.zayden.0hearts_7": "$y 'You have a question?_Are you allergic to garlic?_No. It actually tastes really good in spaghetti._What do you think of mirrors?_They're okay I guess. They're not all too special.'",
+            //Zayden: 2 Hearts
+    "dialogue.zayden.2hearts_1": "",
+    "dialogue.zayden.2hearts_2": "",
+    "dialogue.zayden.2hearts_3": "",
+    "dialogue.zayden.2hearts_4": "",
+    "dialogue.zayden.2hearts_5": "",
+    "dialogue.zayden.2hearts_6": "",
+    "dialogue.zayden.2hearts_7": "",
+            //Zayden: 4 Hearts
+    "dialogue.zayden.4hearts_1": "",
+    "dialogue.zayden.4hearts_2": "",
+    "dialogue.zayden.4hearts_3": "",
+    "dialogue.zayden.4hearts_4": "",
+    "dialogue.zayden.4hearts_5": "",
+    "dialogue.zayden.4hearts_6": "",
+    "dialogue.zayden.4hearts_7": "",
+            //Zayden: 6 Hearts
+    "dialogue.zayden.6hearts_1": "",
+    "dialogue.zayden.6hearts_2": "",
+    "dialogue.zayden.6hearts_3": "",
+    "dialogue.zayden.6hearts_4": "",
+    "dialogue.zayden.6hearts_5": "",
+    "dialogue.zayden.6hearts_6": "",
+    "dialogue.zayden.6hearts_7": "",
+            //Zayden: 8 Hearts
+    "dialogue.zayden.8hearts_1": "",
+    "dialogue.zayden.8hearts_2": "",
+    "dialogue.zayden.8hearts_3": "",
+    "dialogue.zayden.8hearts_4": "",
+    "dialogue.zayden.8hearts_5": "",
+    "dialogue.zayden.8hearts_6": "",
+    "dialogue.zayden.8hearts_7": "",
+            //Zayden: 10 Hearts
+    "dialogue.zayden.10hearts_1": "",
+    "dialogue.zayden.10hearts_2": "",
+    "dialogue.zayden.10hearts_3": "",
+    "dialogue.zayden.10hearts_4": "",
+    "dialogue.zayden.10hearts_5": "",
+    "dialogue.zayden.10hearts_6": "",
+    "dialogue.zayden.10hearts_7": "",
+    //Weather Dialogue
+        //Green Rain: Year 1
+    "dialogue.raven.greenRain.year1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
+    "dialogue.raven.greenRain.after.year1": "No one died from the rain, so that's good!#$b#What? I thought it might've been caused by pollution or something.",
+        //Green Rain: Year 2
+    "dialogue.raven.greenRain.year2": "This green rain smells amazing!#$e#I wonder if people will find a way to turn this into a candle scent.",
+    "dialogue.raven.greenRain.after.year2": "Two years in a row of this rain is kinda weird, but I'm not bothered by it.",
+        //Green Rain: Year 3+
+    "dialogue.raven.greenRain.year3_1": "One thing I hate about green rain is how much moss there is.#$e#It's a texture thing, blame the autism.",
+    "dialogue.raven.greenRain.year3_2": "I wonder what makes the rain green.#$e#I could probably ask Demetrius. He's really good at that stuff.",
+    "dialogue.raven.greenRain.year3_3": "I'm not sure if you noticed it, but does the green rain feel different from normal rain?#$e#I could be just imagining things, but it definitely feels different to me.",
+    "dialogue.raven.greenRain.year3_4": "I figured that I would gather some moss today. There's so much right now!",
+    "dialogue.raven.greenRain.year3_5": "I noticed something really strange. How come some trees and weeds either change or vanish overnight?#$e#It reminds me of a movie...#$b#The one where the guy gets eaten by a tentacle monster and everyone is in a grocery store.#$b#It's one of my childhood favorites!",
+    "dialogue.raven.greenRain.year3_6": "Do you do anything different when there's green rain?#$e#That's interesting. Well, keep doing your thing!",
+    "dialogue.raven.greenRain.year3_7": "I've never been able to climb trees, but I think it'd be fun to sit on the branches and watch the rain.#$e#I just enjoy nature a lot. It's so beautiful!",
+    "dialogue.raven.greenRain.year3_8": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+    "dialogue.raven.greenRain.year3_9": "Is it just me or does the green rain feel more wet than normal rain?#$e#I should ask Demetrius about it.",
+    "dialogue.raven.greenRain.year3_10": "I wonder what it would feel like to take a bath in green rain.#$e#I'm talking, like, a bath tub full of green rain.",
+
+    "dialogue.raven.greenRain.after.year3_1": "A rare weather pattern that happens every year? What a joke.",
+    "dialogue.raven.greenRain.after.year3_2": "I bet Demetrius has fun researching green rain when it comes around.",
+    "dialogue.raven.greenRain.after.year3_3": "I think it took longer than usual for my clothes to dry off.#$e#How did it make my clothes more wet than normal rain?",
+    "dialogue.raven.greenRain.after.year3_4": "I wonder if there's any supernatural explanation for green rain.",
+    "dialogue.raven.greenRain.after.year3_5": "I noticed there's a 'day after' smell with green rain. I like it!",
+    "dialogue.raven.greenRain.after.year3_6": "Even though this is a 'rare weather pattern', I wonder if people found a way to profit off of it.",
+    "dialogue.raven.greenRain.after.year3_7": "Imagine if somehow the green rain managed to give us superpowers!#$e#Watch out, I might end up getting super speed and break the speed limit!#$b#Just kidding!",
+    "dialogue.raven.greenRain.after.year3_8": "I can't play my video games when there's green rain.#$e#I think the rain causes interference with tech.",
+    "dialogue.raven.greenRain.after.year3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
+    "dialogue.raven.greenRain.after.year3_10": "I think green rain is cool. I never get mad when it comes around!",
+        //Rain: Query
+    "raven.query.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+
+        //Rain: Spring
+    "dialogue.raven.spring.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+    "dialogue.raven.spring.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+    "dialogue.raven.spring.rain_3": "Thank heavens it's not super hot AND rainy! We have been spared by the spring season.$1",
+    "dialogue.raven.spring.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+    "dialogue.raven.spring.rain_5": "Watch out for the puddles! I know some people hate stepping in them.#$e#I enjoy splashing in puddles. It's because of both the sound and also because splashing is fun!$1",
+    "dialogue.raven.spring.rain_6": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.",
+        //Rain: Summer
+    "dialogue.raven.summer.rain_1": "Summer rain feels really icky, I don't know how to explain it.#$e#I just need to get indoors ASAP.",
+    "dialogue.raven.summer.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+    "dialogue.raven.summer.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+    "dialogue.raven.summer.rain_4": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+        //Rain: Fall
+    "dialogue.raven.fall.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
+    "dialogue.raven.fall.rain_2": "*jumping in puddle* Splash! Splash! Splash!#$e#%Raven is focused on splashing in puddles.",
+    "dialogue.raven.fall.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+    "dialogue.raven.fall.rain_4": "It's gross having wet dead leaves stuck on you from the rain.$2",
+    "dialogue.raven.fall.rain_5": "I think I'm gonna try to soak up as much rain as I can.$1#$b#Don't worry, I'll absorb it like a sponge.#$b#Just kidding!$1#$e#It will take a while for the rain to dry out of my fur though...$2",
+        //Rain: Winter
+    "dialogue.raven.winter.rain_1": "... It never rains during winter, what the hell?$17",
+    "dialogue.raven.winter.rain_2": "Did Magnus do something weird to make it rain during winter?$8#$b#This never happens!$3",
+    "dialogue.raven.winter.rain_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's rain for witchy purposes. |I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+        //Storm: Spring
+    "dialogue.raven.spring.storm_1": "I hate being outside when there's lightning. I don't wanna get electrocuted!$9",
+    "dialogue.raven.spring.storm_2": "Be sure to stay indoors and away from windows during storms.#$b#If lightning shatters the windows, you wanna be far enough away to where you don't get any glass shards on you.#$e#I just wanna make sure people stay safe.$11",
+    "dialogue.raven.spring.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+    "dialogue.raven.spring.storm_4": "Do you think people count how many thunderstrikes there are during storms?$17#$b#I wonder if there'd even be any significance with the numbers.$11",
+    "dialogue.raven.spring.storm_5": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+        //Storm: Summer
+    "dialogue.raven.summer.storm_1": "Dear Yoba, this rain is so humid! I can't wait for it to be sunny again.",
+    "dialogue.raven.summer.storm_2": "Don't mind me, I'm just trying to stay as dry as I can.",
+    "dialogue.raven.summer.storm_3": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+        //Storm: Fall
+    "dialogue.raven.fall.storm_1": "$query PLAYER_HAS_SEEN_EVENT Current 27407003 # I think I'm gonna keep a jar of water from today's storm for witchy purposes. |I think I'm gonna keep a jar of water from today's storm for witchy purposes.#$b#Storm water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+    "dialogue.raven.fall.storm_2": "Do you know how weird it feels for wet fur to raise up when lightning is nearby?$2#$b#I hate it.$4",
+    "dialogue.raven.fall.storm_3": "EEEEK!$9#$b#O-oh, sorry. I just got caught off guard.$11#$b#Sometimes, the thunder has me on edge.$2#$e#How are you doing today, though?",
+        //Wind: Spring
+    "dialogue.raven.spring.wind_1": "Seeing the petals flying in the wind like this is so calming.$1",
+    "dialogue.raven.spring.wind_2": "Imagine having petals raining down like this during a wedding. It would be just perfect!$6",
+    "dialogue.raven.spring.wind_3": "Ow!$8#$b#Some dirt flew into my eye.$2#$e#Now I'm gonna be blinking like crazy for the next minute.$5",
+        //Wind: Fall
+    "dialogue.raven.fall.wind_1": "Hold up- I think I got some dirt in my eye.$2#$b#OUCH!$8#$b#Ugh, I got it out. That hurt.$13",
+    "dialogue.raven.fall.wind_2": "Even though the wind is strong, at least it's not strong enough to make rocks fly in the wind!",
+    "dialogue.raven.fall.wind_3": "It's fun watching the wind blow the leaves around.$1",
+        //Snow: Winter
+    "dialogue.raven.snow_1": "Do you ever think about how lucky we are to experience snow?#$e#I could watch the snow fall all day.",
+    "dialogue.raven.snow_2": "I'm super cold today, but I mean, it's snowing. What else should I expect?$11",
+    "dialogue.raven.snow_3": "The snow is so pretty! I could watch the snow fall all day.$1#$e#Do you like snow?",
+    "dialogue.raven.snow_4": "It's so pretty outside since it's snowing, but it's too cold for me to stay outside for too long.$2#$e#I wonder what it would be like if snow could happen while it's still warm outside.#$b#It might be a lot easier for people to tolerate!$1",
+    "dialogue.raven.snow_5": "One time, I tried taking some snow home with me on a road trip back when I was younger.#$b#Unfortunately, the snow all fused together and was half-melted by the time I got back home.$11#$e#It was pretty cool seeing how long the snow managed to last, though.",
+    //Movie Invitation/Rejection
+    "dialogue.movie.raven.invitation_1": "You want me to go to the movies with you? That sounds awesome!#$b#Give me a moment to get my stuff together, but I'll meet you there!",
+    "dialogue.movie.raven.invitation_2": "A movie? That sounds awesome! I'll meet you at the theater.",
+    "dialogue.movie.raven.invitation_3": "Ooo, I love movies! Let's go now so we don't miss the next showing. See you there!",
+    "dialogue.movie.raven.invitation_4": "I'm down to watch a movie! See you there.",
+    "dialogue.movie.raven.invitation_5": "I'm just imagining the popcorn right now. I bet it'll taste amazing!",
+
+    "dialogue.movie.raven.spouse.invitation_1": "You want me to go to the movies with you? That sounds awesome!#$b#Give me a moment to get my stuff together, but I'll meet you there!",
+    "dialogue.movie.raven.spouse.invitation_2": "Aw, is this a date? How sweet of you!#$b#I'll see you there darling.",
+    "dialogue.movie.raven.spouse.invitation_3": "I'd love to go to the movies!#$b#After all, you deserve a break from all the hard work you do. See you there.",
+    "dialogue.movie.raven.spouse.invitation_4": "Aw, how sweet. Thanks a bunch for inviting me.#$b#I'll see you at the theater honey.",
+    "dialogue.movie.raven.spouse.invitation_5": "Ayyy, let's go check it out! Come on, I wanna see what's playing.",
+
+    "dialogue.movie.raven.reject": "I appreciate the offer, but I'm not really interested at the moment.#$b#Maybe next time!",
+
+    "dialogue.movie.raven.reject.alreadyInvitedByAnotherPlayer_1": "I'm sorry, but I already got invited to the movies today by someone else.#$b#I appreciate the thought though! Maybe next time?",
+    "dialogue.movie.raven.reject.alreadyInvitedByAnotherPlayer_2": "Sorry, but I got invited by someone else. Maybe next time? I'm really sorry.",
+    "dialogue.movie.raven.reject.alreadyInvitedByAnotherPlayer_3": "Oh snap, someone already invited me. I totally would go if I didn't already say yes.",
+
+    "dialogue.movie.raven.reject.alreadyWatchedThisWeek_1": "I've already seen a movie this week, but I'm totally down to see one next week if you want!",
+    "dialogue.movie.raven.reject.alreadyWatchedThisWeek_2": "I'm not in a movie mood right now, but I appreciate you inviting me.",
+    "dialogue.movie.raven.reject.alreadyWatchedThisWeek_3": "Not today, @. Maybe next time? Thanks for thinking of me.",
+
+    "dialogue.movie.raven.reject.divorced_1": "... Doesn't it feel weird asking your ex-spouse out to the movies?#$b#I'm just saying, I'd feel pretty awkward if I were to ask you, you know?",
+    "dialogue.movie.raven.reject.divorced_2": "I don't think it's a good idea. I don't want you to accidentally fall back in love with me from hanging out again.#$b#Thanks for thinking of me though.",
+    "dialogue.movie.raven.reject.divorced_3": "Look, I appreciate the thought, but I don't want to. We're divorced and it'd just feel wrong.",
+    "dialogue.movie.raven.reject.divorced_4": "Divorces are rough, you know? I don't think I can hang out with you casually without it getting me upset.",
+    "dialogue.movie.raven.reject.divorced_5": "Sorry, but I'm not gonna accept a movie invite from an ex.#$b#Thanks for the thought.",
+
+    "dialogue.movie.raven.reject.notInterested_1": "Don't get me wrong, I'd love to go to the movies with you.#$b#It's just that I really don't wanna see that movie.",
+    "dialogue.movie.raven.reject.notInterested_2": "I'm not a fan of that movie. I appreciate you inviting me, though.",
+    "dialogue.movie.raven.reject.notInterested_3": "That movie isn't for me. Thanks for inviting me, though.",
+    //Raven
+        //The Brave Little Sapling - Spring 0
+            "movie.raven.theBraveLittleSapling.before": "I really think this'll be a great movie!#$b#Not only does the poster look amazing, but it seems like a sweet story.",
+            "movie.raven.theBraveLittleSapling.during": "Raven is watching with a big smile on their face.",
+            "movie.raven.theBraveLittleSapling.after": "That was so sweet, I really enjoyed it!#$b#I'd definitely watch it again.#$e#It must've been so hard for the little sapling to go on an adventure all alone.",
+        //Natural Wonders - Spring 1
+            "movie.raven.naturalWonders.before": "For some reason, nature documentaries always make me think of 'March of the Dolphins'.#$b#It's funny since dolphins can't even walk!",
+            "movie.raven.naturalWonders.during": "Raven is starting to doze off.",
+            "movie.raven.naturalWonders.after": "Sorry, I tried to stay awake.#$b#Something about documentaries make me sleepy as hell.",
+        //Journey of the Prairie King - Summer 0
+            "movie.raven.journeyOfThePrarieKing.before": "Abigail talks about the video game a bunch. I hope the movie is as good as the games sound!",
+            "movie.raven.journeyOfThePrarieKing.during": "Raven's eyes are glued to the screen.",
+            "movie.raven.journeyOfThePrarieKing.after": "I really loved this movie!#$b#I should see if Abigail is willing to let me play the game with her.",
+        //Wumbus - Summer 1
+            "movie.raven.wumbus.before": "Philip told me that this is based on a comic book series.#$b#It's hard to go wrong with adapting comic books!#$b#... Right?",
+            "movie.raven.wumbus.during": "I love how goofy this is!#$b#*whispers* Oh, sorry!",
+            "movie.raven.wumbus.after": "This is something I'd totally love to see again!#$b#The way it parodies modern society is hilarious!",
+        //Mysterium - Fall 0
+            "movie.raven.mysterium.before": "I know that it's the point of the movie's name, but I wonder how mysterious it's gonna be!",
+            "movie.raven.mysterium.during": "Raven is nervous, but is very focused.",
+            "movie.raven.mysterium.after": "That was p-pretty spooky!#$b#I-I know it's just a movie... but...#$b#Do I actually need to tell someone to watch the movie so I don't see that thing in the middle of the night?#$e#I-I'm probably just being silly.#$b#It was a good movie though!",
+        //It Howls in the Rain - Fall 1
+            "movie.raven.itHowlsInTheRain.before": "It's been a while since I last saw a scary movie.#$b#I bet it'll be awesome!",
+            "movie.raven.itHowlsInTheRain.during": "Raven is nervous and their eyes are wide open.",
+            "movie.raven.itHowlsInTheRain.after": "It was hyping itself up to be an actually scary movie, but it didn't freak me out much.#$b#Cheap jumpscares, and I bet the footage wasn't actually found in Grampleton.#$e#Hush, I know I was shaking at first.",
+        //Miracle of the Winter Star - Winter 0
+            "movie.raven.miracleOfTheWinterStar.before": "I wonder if this is gonna be one of those cheesy feel-good movies.",
+            "movie.raven.miracleOfTheWinterStar.during": "Raven's eyes dart from the screen for a brief moment. They seem uncomfortable.",
+            "movie.raven.miracleOfTheWinterStar.after": "I don't know how to explain it all too well, but it seemed... odd to me.#$b#It's nothing to do with you! You’re fine!#$b#It's just weird how the Winter Star blessed that ONE family over others that may have also been dealing with food shortages.#$e#I'm probably putting too much thought into it.",
+        //The Zuzu City Express - Winter 1
+            "movie.raven.theZuzuCityExpress.during": "Raven has tears welling up in their eyes.",
+            "movie.raven.theZuzuCityExpress.after": "I hate cliffhangers, but it was well done in this one!#$b#There's a charm to the movies from that era that I don't think I could ever get sick of.",
+    //Island Resort
+    "dialogue.resort.raven": "Isn't it relaxing to take a little time away from the farm?#$b#You can relax with me if you want! I'd enjoy your company.",
+    "dialogue.resort.raven.bar": "I think I'll have a beer.#$e#Don't forget the lime, please!",
+    "dialogue.resort.raven.chair": "These chairs are a little hard, but they're still nice to sit in.",
+    "dialogue.resort.raven.dance": "I'm having a blast! You should join in on the vibes.",
+    "dialogue.resort.raven.entering": "I can't wait to get to the resort!#$b#I can already feel the relaxing atmosphere.#$e#*whispers* Or I might just have an overactive imagination.",
+    "dialogue.resort.raven.leaving": "Too bad I don't live on the island, but I'd miss everyone in town if I moved out here.#$e#I wonder if there's a way to get dual citizenship.",
+    "dialogue.resort.raven.shore": "I love how the sand feels on my feet!",
+    "dialogue.resort.raven.towel": "It's really cozy right here. I might nap here",
+    "dialogue.resort.raven.umbrella": "The shade is so nice. It gives me a break from the warmth.",
+    "dialogue.resort.raven.wander": "The tropical air feels so nice compared to Pelican Town's.#$e#I'm probably just being silly.",
+
+// ## BOOKMARK START
+
+    //label:Location Entry -> "/" in dialogue separates dialogue w/ random chance to appear
+    "dialogue.locationEntry.raven.seedShop": "Hi Pierre!/I forgot what I came here for.../Let's see.../Ayo, any sales today?",
+    "dialogue.locationEntry.raven.blacksmith": "You forgot your tab!",
+    "dialogue.locationEntry.raven.animalShop": "Hi Marnie!/Hi, I'm just stopping by to say hi.",
+    "dialogue.locationEntry.raven.beach": "I love how the air feels./I'm gonna get sand in my shoes.../Time to look for shells!",
+    "dialogue.locationEntry.raven.hospital": "Hi, I have a checkup scheduled.",
+    "dialogue.locationEntry.raven.movieTheater": "The popcorn smells SO good!/So many flashing lights...",
+    "dialogue.locationEntry.raven.saloon": "Hi Gus!/Should I get spaghetti again?",
+    "dialogue.locationEntry.raven.trailer": "Ayo!",
+    "dialogue.locationEntry.raven.trailerBig": "Ayo!/I love how much space there is in here!",
+    "dialogue.locationEntry.raven.wizardHouse": "Hi Magnus!",
+    //Marriage Dialogue
+    //Raven
+        //Seasonal
+            "dialogue.married.raven.generic.spring1": "I can never decide which season is my favorite, but I really do love how the weather in spring is.#$e#It's very relaxing!$1",
+            "dialogue.married.raven.generic.spring2": "My eyes are super itchy. I hate seasonal allergies.$2",
+            "dialogue.married.raven.generic.spring3": "With the flowers in bloom, the air smells wonderful!$1",
+
+            "dialogue.married.raven.generic.summer_1": "It would be awesome if we had a pool to swim in during the super hot days!$1",
+            "dialogue.married.raven.generic.summer_2": "I'm gonna need to turn on the AC today. It's too hot to leave it turned off.$2",
+            "dialogue.married.raven.generic.summer_3": "Maybe I should go to the beach. It's so hot and the water would cool me down.$2",
+            "dialogue.married.raven.generic.summer_4": "Ugh, I'm definitely sweaty today. Damn it.$2",
+            "dialogue.married.raven.generic.summer_5": "I can only imagine how hot it is over in Calico Desert right now.$2#$b#Wait, I think imagining it is actually making me feel hotter.$12",
+
+            "dialogue.married.raven.generic.fall_1": "It's pretty chilly, but I have clothes that'll keep me warm enough.#$e#Remember to dress warm today honey!",
+            "dialogue.married.raven.generic.fall_2": "It'd be awesome if we had some Jack-O-Lanterns around the farm.#$b#I think it'd look awesome!$1",
+            "dialogue.married.raven.generic.fall_3": "I need to do a little maintenance on the house to make sure we're ready for winter.#$e#I'll let you know if I need any supplies.$1",
+
+            "dialogue.married.raven.generic.winter_1": "Don't forget to put on something warm before you leave the house honey.#$e#I'm not letting you freeze solid if I can help it.$2",
+            "dialogue.married.raven.generic.winter_2": "Let me know if you wanna cuddle up with some hot chocolate tonight.$1#$b#I love cuddling with you.$4",
+            "dialogue.married.raven.generic.winter_3": "Be sure to stay warm! I don't want you to freeze into a popsicle.",
+            "dialogue.married.raven.generic.winter_4": "It's much better to spend winter inside a house rather than a tent.#$b#It's one of the many things I appreciate about out relationship!$6",
+            "dialogue.married.raven.generic.winter_5": "I'm probably gonna need to use the heater a lot today.#$b#It's so cold outside that the temperature is seeping in a lot.$2",
+        //In Spouse Room
+            "dialogue.married.raven.spouseRoom_1": "It's nice to have a space for myself in the house.#$b#The best part is that there's enough room for everything!$1",
+            "dialogue.married.raven.spouseRoom_2": "I wonder if I should do some instrument practice today...$17#$b#I'll figure it out!$1",
+            "dialogue.married.raven.spouseRoom_3": "I'm glad my room doesn't get too messy.#$b#It'd suck to have to avoid stepping on garbage all the time.$11",
+        //On Spouse Patio
+            "dialogue.married.raven.spousePatio_1": "%Raven is spacing out too hard to notice you.",
+            "dialogue.married.raven.spousePatio_2": "This is the perfect spot to hang out. I don't know how to explain it better than that.",
+            "dialogue.married.raven.spousePatio_3": "I'm thinking about what I should make for dinner tonight. What're you craving?",
+            "dialogue.married.raven.spousePatio_4": "Hi @! You can spend some time with me here if you want.#$e#I know you get pretty tired, so it might help you unwind a bit.",
+        //Rainy
+            "dialogue.married.raven.rainyDay_1": "I'm gonna stay inside so I don't get soaked. Trust me, today is not a day to mix my fur with water.$2",
+            "dialogue.married.raven.rainyDay_2": "I how the air feels on rainy days. It makes me feel all cozy.$1",
+            "dialogue.married.raven.rainyDay_3": "If you wanna stay inside today, you can. After all, it'd be nice to spend a whole day with you.#$e#I understand that you have your responsibilities, so it's up to you honey.$1",
+            "dialogue.married.raven.rainyDay_4": "I don't know why, but the weather has me really gloomy today. Sorry if I end up being a downer.$2",
+            "dialogue.married.raven.rainyDay_5": "I wonder if the sun's gonna peek out for a bit during the rain. Just a little 'peek-a-boo'!$1",
+            "dialogue.married.raven.rainyDay_6": "Look, it's raining outside! All the crops are gonna be watered without you lifting a finger.$1",
+            "dialogue.married.raven.rainyDay_7": "Try to stay dry today, @. We don't need you getting sick.#$b#Oh, and take this with you in case you feel under the weather.[(O)773]",
+
+            "dialogue.married.raven.rainyNight_1": "Oh, you're soaking wet! Once you get yourself dried off, you can go ahead and eat this to warm up.[(O)207 (O)218 (O)219 (O)236 (O)727]",
+            "dialogue.married.raven.rainyNight_2": "I needed to grab something outside of the house earlier and I got soaking wet. Do you know how long it takes for fur to get dry?$11#$e#I'm all good now, though.$1",
+            "dialogue.married.raven.rainyNight_3": "We should watch a movie tonight! It'd be a great way to relax after you've been out all day.$1",
+            "dialogue.married.raven.rainyNight_4": "I'm thinking about what I should make for breakfast tomorrow.",
+            "dialogue.married.raven.rainyNight_5": "Hm? Sorry, the sound of the rain is making me drowsy right now.#$b#If you want, you can come to bed with me and cuddle.$1",
+            "dialogue.married.raven.rainyNight_6": "Please be careful about tracking mud in the house, honey. It took me a long time to clean the floors today.$11",
+            "dialogue.married.raven.rainyNight_7": "The sound of the rain should be able to help me fall asleep tonight. What about you?$1",
+        //Indoor
+            "dialogue.married.raven.indoorDay_1": "I need to take a break from housework today. My body is low on energy so I shouldn't push myself too hard.$11",
+            "dialogue.married.raven.indoorDay_2": "I think I'm gonna spend today spiritually cleansing the house. I haven't done that in a while, so I might as well get it done.$1",
+            "dialogue.married.raven.indoorDay_3": "I'm going to dedicate today to Yoba, so I'm gonna take a rest day.",
+            "dialogue.married.raven.indoorDay_4": "...#$b#...#$b#Ack, I was daydreaming again! Damn it.$8",
+            "dialogue.married.raven.indoorDay_5": "I hope you're doing good this morning, honey. Did you have any weird dreams?#$e#I dreamed that I was in a zombie-infested mall. It was... interesting to say the least.$11#$e#No, I didn't kill any zombies. I was too busy running to bathroom stalls because those are the only areas that the zombies wouldn't go.$2#$b#I guess zombies don't need to piss, do they.$1",
+            "dialogue.married.raven.indoorDay_6": "Good morning, @! I made you some breakfast. I hope you enjoy it.$6[(O)194 (O)195 (O)197 (O)199 (O)201 (O)204 (O)211 (O)215 (O)224 (O)227 (O)235 (O)237 (O)240 (O)606 (O)618]",
+            "dialogue.married.raven.indoorDay_7": "Do you want to spend the day with me?#$b#Well, if you're gonna be busy then be sure to hang out with me when you get back.$1",
+
+            "dialogue.married.raven.indoorNight_1": "I think I forgot to do something today...$17#$b#Oh well, if it's super important, I'll remember it eventually.",
+            "dialogue.married.raven.indoorNight_2": "I'm super drowsy right now, honey. I think I'm just gonna go straight to bed.$2",
+            "dialogue.married.raven.indoorNight_3": "Be sure to take off your outdoor shoes. I don't want to have dirt all over the floors.#$b#Listen, I wash my feet often. Don't get on my case for being barefoot.$11",
+            "dialogue.married.raven.indoorNight_4": "I don't know why, but I'm feeling really down today.$2#$b#I hope this doesn't last for too long.$11#$e#Maybe Harvey needs to adjust my meds.$17",
+            "dialogue.married.raven.indoorNight_5": "I think I'm gonna have a beer before bed tonight. I just like how it tastes!#$b#If you wanna have some with me, here you go!$1[(O)346]",
+            "dialogue.married.raven.indoorNight_6": "Hey, I found some change under the mattress. You can use this for whatever you want.#$action AddMoney 236",
+            "dialogue.married.raven.indoorNight_7": "Welcome back, @! I made some food for you. I hope it tastes good!$1[(O)196 (O)198 (O)198 (O)202 (O)205 (O)207 (O)208 (O)209 (O)218 (O)219 (O)224 (O)227 (O)228 (O)231 (O)235 (O)236 (O)237 (O)240 (O)244 (O)649 (O)727 (O)728]",
+        //Fun
+            "dialogue.married.raven.funLeave": "I'm heading out, love! I'll see you later on.$1",
+            "dialogue.married.raven.funReturn": "It was fun going out today. Now I get to rest up!$1#$b#Maybe I should would on dinner now that I'm back.$11",
+        //Outdoor
+            "dialogue.married.raven.outdoor_1": "Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16#$e#Photosynthesis...$16",
+            "dialogue.married.raven.outdoor_2": "It'd be amazing if we could bottle this air and make an air freshner scent out of it.#$e#Hush, my ideas don't have to make sense.$1",
+            "dialogue.married.raven.outdoor_3": "I wonder how many animals we could fit on this farm.$17#$b#Like... would it be 100 cows... 1,000 cows...$16#$b#Or what about 100,000 cows?$8#$e#It's up to you on whether or not you wanna try to fit them all in here.$11",
+            "dialogue.married.raven.outdoor_4": "I'd love if we had a flower garden of our own. Nothing to sell, just a flower patch for us.$4#$b#I'm just being sentimental, don't mind me.$11",
+            "dialogue.married.raven.outdoor_5": "I should go outside more, the fresh air is amazing!$1",
+            "dialogue.married.raven.outdoor_6": "I'm soaking in some rays before I get started on the housework.#$b#I gotta charge myself up like a battery!$1",
+        //Kids
+            "dialogue.married.raven.oneKid_1": "I wonder what %kid1 is gonna be like as an adult.$17#$e#Imagine if our kid ended up becoming famous! That sure would be something.$1",
+            "dialogue.married.raven.oneKid_2": "I got worried about %kid1 last night so much that I watched them sleep for maybe an hour.$2#$b#I just wanna make sure our kid is safe, you know?$2",
+            "dialogue.married.raven.oneKid_3": "%kid1 has been so smiley today! It's so adorable, I wish you could see it.$1",
+            "dialogue.married.raven.oneKid_4": "Be sure to give some attention to %kid1. We don't need our kid feeling too lonely.#$e#I know %kid1 isn't alone since I'm always there, but it's important for you to be involved too, you know?",
+            "dialogue.married.raven.oneKid_5": "%kid1 was crying a lot today. It got pretty overwhelming, but after a couple of hours, %kid1 fell asleep.$11#$e#I wish I knew what caused all the crying because I tried everything.$2",
+
+            "dialogue.married.raven.twoKids_1": "Our kids are so silly. I saw them talking to each other today by just laughing at each other. That lasted for a while.$1",
+            "dialogue.married.raven.twoKids_2": "%kid2 got mad and tossed their food onto the ground when I was trying to feed them breakfast.$2#$b#It's been a rough morning.$11",
+            "dialogue.married.raven.twoKids_3": "%kid1 was trying to steal the food from the bowl %kid2 was eating from. It was hard trying to get %kid1 to stop.$2#$e#I hope this doesn't become a habit.$11",
+            "dialogue.married.raven.twoKids_4": "The kids slept well last night! I don't think they woke up even once.$1#$e#There's a chance I slept through it, though you're normally the one that sleeps harder than a rock.$11",
+            "dialogue.married.raven.twoKids_5": "I think %kid1 likes %kid2! I always worried that if my kids had siblings that they'd try to murder each other.$1#$e#Listen, having a sibling is rough sometimes.#$e#What do you mean it's not normal to wanna attack your sibling?",
+        //Good
+            "dialogue.married.raven.good_1": "$y 'Hey, do you wanna hear a joke?_Sure_When I was younger, I was a chocolate bar... because I used to go by her/she!$1_Not right now, Raven._Maybe next time then.$11'#$e#%Raven is laughing a little too hard at the joke. You laugh along to be polite.",
+            "dialogue.married.raven.good_2": "I'm gonna cherish this pendant for the rest of my life. It really means a lot to me, @.$4",
+            "dialogue.married.raven.good_3": "Good morning, @!$1#$b#Wait... my smile looks beautiful today?$8#$b#I-I... How dare you be so... DAMN IT you're being sweet again!$7#$e#I'm all flustered right now. See, now I'm smiling again!$6",
+            "dialogue.married.raven.good_4": "We should go on a date sometime! Maybe watching a movie or just doing anything together.$1#$b#I just love spending time with you.$4",
+            "dialogue.married.raven.good_5": "Hi honey! I ordered something that I thought you'd enjoy. I hope you like it![(BC)0 (BC)6 (BC)13 (BC)20 (BC)25 (BC)48 (BC)64]",
+            "dialogue.married.raven.good_6": "I have a surprise for you, darling.#$b#I hope you enjoy it!$1[(O)458]#$e#You look as stunning as those flowers, you know.$4",
+            "dialogue.married.raven.good_7": "I love you so much.$4#$b#And hopefully your day goes well!$1",
+            "dialogue.married.raven.good_8": "Do you wanna make dinner tonight? I love the food you make.$1",
+            "dialogue.married.raven.good_9": "Hey honey, I hope you have a rad day today!$1",
+            "dialogue.married.raven.good_10": "I love being married to you. You make my life a lot more interesting.$1#$b#I-in a good way, I promise!$11",
+        //Neutral
+            "dialogue.married.raven.neutral_1": "Aw man, I gotta do laundry today.$2#$e#It shouldn't take too long though.#$b#I just hate folding laundry.$11",
+            "dialogue.married.raven.neutral_2": "I need to make sure everything is organized today.#$e#Do you know how much it sucks to lose stuff?$11#$b#It's my job to make sure everything has a spot.",
+            "dialogue.married.raven.neutral_3": "Imagine if we had a pet racoon.#$e#It'd be so adorable I bet. And we could teach it cool tricks!$3",
+            "dialogue.married.raven.neutral_4": "...#$b#...#$b#Sorry! I spaced out.$8",
+            "dialogue.married.raven.neutral_5": "I have a song stuck in my head right now.#$e#I don't even like this song.$11",
+            "dialogue.married.raven.neutral_6": "I have a song stuck in my head right now.#$e#It's getting to the good part, hush.$1",
+            "dialogue.married.raven.neutral_7": "I think it'd be awesome if our wardrobe was only homemade clothes.#$e#It'd be very sustainable and we can also be creative with what we make!$1",
+            "dialogue.married.raven.neutral_8": "The kitchen sink got clogged, but I was able to fix it up.#$e#The water smelled rancid, though.$12",
+            "dialogue.married.raven.neutral_9": "I think I'll need to take a nap today. I feel tired for some reason.$17",
+            "dialogue.married.raven.neutral_10": "If you have any time today, you should pull a prank on Mayor Lewis.#$e#I guess we would get in trouble...$17#$b#But it'd be totally worth it!$1",
+        //Bad
+            "dialogue.married.raven.bad_1": "It'd be nice if you could spend some with me for once. It gets lonely being here alone all the time.$2",
+            "dialogue.married.raven.bad_2": "...#$b#Wait, you wanted to actually talk to me for once? That's new.$17",
+            "dialogue.married.raven.bad_3": "It's so much fun doing all the cooking, cleaning, and never talking to my spouse. I feel so loved and appreciated not being talked to.$1#$b#... Yes, I'm being sarcastic. You keep ignoring me.",
+            "dialogue.married.raven.bad_4": "I get that you're busy and whatnot, bu-t it'd be great if you could at least speak to me once in a while.",
+            "dialogue.married.raven.bad_5": "Oh, hey, I noticed you haven't been doing much around the house. So here, take the trash out.[(O)168]",
+            "dialogue.married.raven.bad_6": "%Raven refuses to talk to you. They look pretty upset.",
+            "dialogue.married.raven.bad_7": "Sorry, but I'm really upset right now. I don't want to talk to you right now.$5",
+            "dialogue.married.raven.bad_8": "...#$b#...#$b#Oh, I thought you were trying to walk past me. What do you wanna talk about?$17#$e#You can't expect me to be excited about talking to you when you hardly acknowledge me.",
+            "dialogue.married.raven.bad_9": "... Do you even love me anymore? I'm being serious.$14#$b#I'm honestly really tempted to... nevermind.$12",
+            "dialogue.married.raven.bad_10": "Hey... um...$2#$b#If you're thinking about divorce, just tell me first, okay? You feel really distant and I just want to be told the truth.$14",
+        //No Bed
+            "dialogue.married.raven.noBed_1": "Do you know how hard the floor is? It's hell to sleep on, and I used to live out of a tent!$2",
+            "dialogue.married.raven.noBed_2": "Babe, where did you put the bed?$17#$b#I can't sleep good enough without a bed, you know.$2",
+            "dialogue.married.raven.noBed_3": "Now I'm wondering if the Junimos decided to pull a prank and steal the bed.$17#$b#It's not so fun when you're sleeping on the floor.$2",
+            "dialogue.married.raven.noBed_4": "I had to sleep on the floor last night. It wasn't comfortable at all.$2#$e#I wonder where our bed went...$17",
+    //Dating
+        //Breakup -> Gifted Wilted Flowers
+    "gift.raven.wiltedFlowers": "O-oh...#$b#%Raven averts their eyes.#$b#If it'll make you happy, then we should end things.",
+        //Bouquet
+    "gift.raven.bouquet.accept": "You want to date me?#$b#I thought I was the only one!#$b#It'd be an honor to be your partner, @.",
+    "gift.raven.bouquet.reject.npcAlreadyMarried": "U-um.#$b#I'm already married... So, no.",
+    "gift.raven.bouquet.reject.veryLowHearts": "Uh, I really don't know you well enough for that.#$b#*whispers* Should I file a restraining order to Mayor Lewis?",
+    "gift.raven.bouquet.reject.lowHearts": "I-I think it's a little early to go asking me to date you, don't you think?",
+    "gift.raven.bouquet.reject": "I don't think it's really a good time for us to date right now.",
+        //Stardrop Saloon Event
+    "conversationTopic.raven.dumped": "... I don't feel like talking to a cheater.$5",
+    "conversationTopic.raven.secondChance": "...$5#$b#...$2#$b#Ugh... I don't wanna be mad at you... but you need to promise not to do that again, okay?$2#$b#If you wanna date other people too, just tell me first. Doing it behind my back is screwed up...$2",
+    //Conversation Topics
+    "conversationTopic.raven.introduction": "Ah, you're @! It's great to meet you, I'm Raven.#$b#I've heard word going around that we'd be seeing someone new soon.#$e#You'll find me all kinds of places, so you might have a hard time flagging me down for things.",
+    "conversationTopic.raven.willyCrabs": "Gus told me that a bunch of crabs went loose at Willy's shop!#$e#I'd be too scared to even think about getting the place cleaned up.#$b#At that point, the shop is theirs.",
+    "conversationTopic.raven.pamHouseUpgrade": "I think you did a really sweet thing having Pam's trailer turned into a house.#$e#It must take a lot for Pam to swallow her pride, but it's something that they've needed for a long time.",
+    "conversationTopic.raven.pamHouseUpgradeAnonymous": "I don't know who got Pam's trailer turned into a house, but whoever did it must've really cared.#$e#It's nice to see people investing in the community.",
+    "conversationTopic.raven.joja_Begin": "I know that the community center is gonna be taken over by Joja, but Mayor Lewis could've paid to get it restored if he actually cared about it.$2#$e#I know that man's secrets. He has the money for it, but hoped to get someone to volunteer to get it done.#$b#What a lazy hack of a mayor.",
+    "conversationTopic.raven.movieTheater": "I'm surprised that Pelican Town is getting it's own movie theater! It'll be a ton of fun.#$e#Is it sad to say that I've only been to the movies once in my life?",
+
+    "conversationTopic.raven.dumpsterDiveComment_1": "Did you find anything good in there?#$b#If you find anything useful that you don't want, let me know!",
+    "conversationTopic.raven.dumpsterDiveComment_2": "Don't let anything go to waste if you know you it can be used!",
+    "conversationTopic.raven.dumpsterDiveComment_3": "Hey, @, if you see any food in there, could you split it with me.#$b#Y-you don't have to though!",
+    "conversationTopic.raven.dumpsterDiveComment_4": "Did you come across any algae?#$b#I wonder how people find algae in town. Isn't it a weird place to see it?",
+    "conversationTopic.raven.dumpsterDiveComment_5": "Just a little advice, you might not wanna be too loud or obvious with dumpster diving.#$b#They WILL look at you weird for it. I just don't want them to judge you, you know?#$b#You're doing great though, I don't mind it.",
+    "conversationTopic.raven.dumpsterDiveComment_6": "Do you ever wonder why some people throw perfectly good food away?#$b#It's like humans are incapable of eating leftovers. Leftovers aren't even bad!#$b#I feel like those kinds of people are spoiled.",
+    "conversationTopic.raven.dumpsterDiveComment_7": "If you come across soggy newspaper, save it so you can recycle it later.#$b#Sometimes you get some cool stuff in return!",
+    "conversationTopic.raven.dumpsterDiveComment_8": "How come the people never toss their old clothes in the trash?#$b#We don't have a thrift store in Pelican Town. Maybe they mail it out to thrift stores in Zuzu or something.",
+    "conversationTopic.raven.dumpsterDiveComment_9": "Find anything weird in the trash?",
+    "conversationTopic.raven.dumpsterDiveComment_10": "Oooh, that looks cool!",
+
+    "conversationTopic.raven.hitBySlingshot_1": "What the fuck is wrong with you?! Don't do that!#$e#%Raven is glaring at you. It feels like a threat.",
+    "conversationTopic.raven.hitBySlingshot_2": "Who did that?!#$b#Wait, @! You know better than to do this! You're a grown adult.#$b#I swear to Yoba... *mutters angrily to themself*#$e#%Raven refuses to speak to you. Maybe you messed up.",
+    "conversationTopic.raven.hitBySlingshot_3": "!!!#$b#Were it not for the laws of this land I-#$b#...#$b#Just screw you!#$e#%Raven looks close to fighting you. Maybe you should leave them alone.",
+    "conversationTopic.raven.hitBySlingshot_4": "You little shit, get out of here!#$e#%Raven refuses to look at you.",
+    "conversationTopic.raven.hitBySlingshot_5": "Do you want me to tell Mayor Lewis about this?!#$b#I'm sure he could get your ass kicked out of here if you keep this shit up!",
+    "conversationTopic.raven.hitBySlingshot_6": "%Raven's eye twitches.#$b#What the fuck did you just do to me you little shit?#$b#I'll have you know I graduated top of my class in the Ferngill Navy and I've been involved in numerous secret raids on top secret groups.#$b#AND I have over 300 confirmed kills.#$b#I am trained in geurilla warfare and I'm the top sniper in the entire armed forces.#$b#You are nothing to me but just another target.#$e#I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth. Mark my fucking words.#$b#You think you can get away with saying that shit to me to my fucking face? Think again, fucker.#$e#As we speak, I am contacting my secret network of spies across the Ferngill Republic and you're being traced right now.#$b#So you better prepare for the storm, maggot.#$b#The storm that wipes out the pathetic little thing you call your life.#$e#You're fucking dead, kid.#$b#I can be anywhere, anytime, and I can kill you in over seven hundred ways.#$b#And that's just with my bare hands.#$e#Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the military.#$b#I will use it to its full extent to wipe your miserable ass off the face of the continent.#$b#You little shit.#$e#If only you could have known what unholy retribution your little clever comment was about to bring upon you.#$b#Maybe you would have held your fucking tongue. But you couldn't. You didn't.#$b#And now your're paying the price, you goddamn idiot.#$e#I will shit fury all over you and you will drown in it.#$b#You're fucking dead, kiddo.#$e#*sigh* Okay, maybe that stuff isn't true, but still. Don't do that to people. It's rude.",
+    "conversationTopic.raven.hitBySlingshot_7": "I...#$b#I HATE YOU, THAT HURT!#$e#Don't apologize. Get away from me!",
+    "conversationTopic.raven.hitBySlingshot_8": "AAAAAAAA#$b#AAAAAAAAA#$b#AAAAAAAAAAAGH!#$e#Screw you!!!",
+    "conversationTopic.raven.hitBySlingshot_9": "How would you like it if I hit you with a fucking slingshot?!#$b#You wouldn't like it, would you?!",
+    "conversationTopic.raven.hitBySlingshot_10": "I hope you get hit with a ton of rocks you asshat!",
+
+    "conversationTopic.raven.communityCenter.begin": "It seems like there's some activity going on in the Community Center.#$e#Is Mayor Lewis finally getting his shit together and resotring it?#$b#Wait, you're restoring it?#$b#Well, hopefully you aren't mad about not getting compensated for your labor.",
+    "conversationTopic.raven.communityCenter.complete": "The fact the Community Center got repaired is a miracle! You did a great job.#$e#You should get paid for the work you did though. I'll try and talk to Mayor Lewis about it.",
+    "conversationTopic.raven.communityCenter.boulder": "Have you noticed that boulder near the mines finally dislodged? Now we can go panning for materials!#$e#We live in a really convenient area.#$b#For one, panning for materials isn't something most people can brag about doing from their backyard.",
+    "conversationTopic.raven.communityCenter.bridge": "Did Robin work on a construction project overnight? The bridge past the mines got repaired.#$e#I kinda wonder what's over there.",
+    "conversationTopic.raven.communityCenter.bus": "Shoot, I didn't even know the bus was getting repaired! Now I can travel out of town for once.#$e#I just hope the bus fare doesn't make me go broke too fast.",
+    "conversationTopic.raven.communityCenter.greenhouse": "I heard you have a greenhouse now! Now it'll be much easier to grow crops year-round.#$e#I wonder how hard it is to grow things in a greenhouse actually.#$b#It'd be cool to use one I think.",
+    "conversationTopic.raven.communityCenter.minecart": "I saw some critters in the middle of the night swarming some of the Minecarts last night.#$e#I wonder what that's all about.",
+
+    "conversationTopic.raven.won.eggHunt": "Hey, congrats on winning the egg hunt!$1#$b#It can be pretty challenging with Abigail and Sophia playing, but I'm glad you got to win.",
+    "conversationTopic.raven.won.grangeDisplay": "Wow, your grange display looked amazing!$1#$b#You definitely deserved to win the grange display contest this year.",
+    "conversationTopic.raven.won.iceFishing": "How much practice did you do for the ice fishing contest? You did amazing!$1",
+
+    "conversationTopic.raven.gotPet.cat": "Oh, you ended up adopting the cat Penny and I caught? That's amazing!$1#$b#Hopefully you both bond well.",
+    "conversationTopic.raven.gotPet.other": "Oh, you ended up adopting a pet? That must be awesome!$1#$b#Hopefully you both bond well.",
+    "conversationTopic.raven.farmerMarried": "Congrats on getting married, @! I hope married life treats you well.$1#$action AddMail Current {{Raven}}_marriageTalk received",
+    "conversationTopic.raven.farmerDivorced": "I'm sorry your marriage didn't end up how you expected it to.$2#$b#If you need any emotional support, I'm here for you.",
+    "conversationTopic.zayden.Introduction": "Oh, you're @! Did you get the letter I sent you? I wrote it while I was still out of town.#$b#Gus and I are pretty close so he always lets me know about new things that happen.#$e#I hope you like it here.",
+    "conversationTopic.zayden.pamHouseUpgrade": "I heard that you helped Pam and Penny get a house. You're pretty selfless for that.#$b#Th-that's a good thing!$10",
+    "conversationTopic.zayden.pamHouseUpgradeAnonymous": "I wonder who helped Pam and Penny get a house.#$b#That couldn't have been cheap.$4",
+    "conversationTopic.zayden.joja_Begin": "It's about time the Community Center gets dealt with. Mayor Lewis clearly had no plans to keep it in usable condition.$2",
+    "conversationTopic.zayden.movieTheater": "Now we have something interesting to do in town.#$b#It'll give me more things to do at least.",
+    "conversationTopic.zayden.dumpsterDive": "...$4",
+    "conversationTopic.zayden.hitSlingshot": "Don't shoot me with your damn slingshot!$5#$e#Don't talk to me right now.$8",
+    "conversationTopic.zayden.cc_Minecart": "The minecarts are working again...#$b#Do you think Clint secretly worked on them?$9",
+    "conversationTopic.zayden.cc_Greenhouse": "You have a greenhouse now?#$b#Now that I think about it, I have some seeds that I can give you. You'll get it in the mail, so keep an eye out for it.",
+    "conversationTopic.zayden.cc_Bus": "It's good that the bus is fixed. Now I can see my doctor that's out of town.#$e#Why's my doctor out of town? She's a specialist since I have particular health needs that most doctors aren't experienced with.",
+    "conversationTopic.zayden.cc_Bridge": "The bridge got fixed?#$b#...#$b#What bridge?$4#$e#Oh, the bridge by the Adventurer's Guild? I never go that far into the mountains so I didn't notice.",
+    "conversationTopic.zayden.cc_Boulder": "Have you noticed the shiny stuff in the water? I think it's because of the boulder that vanished last night.#$b#There's no way it's a coincidence.",
+    "conversationTopic.zayden.cc_Complete": "I'm surprised the Community Center is fixed up.#$b#W-wait, YOU restored the Community Center?#$b#*whispers* Dear Yoba, I look like an idiot... $4#$e#Y-you did a good job with the Community Center.#$b#*whispers* Mayor Lewis should've paid you for the work, though.",
+    "conversationTopic.zayden.wonEggHunt": "Hey @, congrats on winning the egg hunt. It's pretty hard with Abigail out there. She's got a sharp eye.",
+    "conversationTopic.zayden.wonGrange": "You did really good with your grange display this year.#$b#To be honest, I love when anyone wins against Pierre.$1",
+    "conversationTopic.zayden.wonIceFishing": "Good job with the ice fishing!#$b#I'd love to try it, but I'm so bad at fishing.$4",
+    "conversationTopic.zayden.married_farmer": "Hey, @, congrats on getting married. I really hope you and your spouse have a good future.",
+    "conversationTopic.zayden.divorced_farmer": "... I heard that you got divorced. I've never done marriage before, but I hope it gets easier for you sooner rather than later.$4#$e#*whispers* I hope I said the right thing.$4",
+    //Divorced
+        //Dialogue
+    "dialogue.raven.wipedMemory": "Hi there! It's nice to see you aga-#$b#Wait, have I met you before?#$b#Sorry, you just seem really familiar for some reason.#$e#I probably met your doppleganger at some point years ago or something.",
+
+    "dialogue.raven.divorced_1": "I hope life is going well for you.",
+    "dialogue.raven.divorced_2": "Hey, I know it's kinda weird to talk to an ex spouse and all, but you're still a chill person.#$b#Just don't expect us to be best friends or anything, okay?",
+    "dialogue.raven.divorced_3": "How's the weather been for you?#$b#No, I'm being serious here.#$e#It does sound like small talk, doesn't it...",
+    "dialogue.raven.divorced_4": "O-oh, hi there! You caught me off-guard there.#$b#I hope you're doing well.",
+    "dialogue.raven.divorced_5": "Why do I still talk to you? What do you mean?#$b#It's not like you turned into a monster just because you divorced me.#$e#Divorce happens, and you had your reasons for it.#$b#While it wouldn't my first choice, I've accepted that we just weren't compatible.",
+    "dialogue.raven.divorced_6": "Heyo, what's new with you and the farm?#$b#That's pretty interesting. Do your best and you'll do great.",
+    "dialogue.raven.divorced_7": "S-sorry, I'm a little emotional at the moment. I need some space today.",
+    "dialogue.raven.divorced_8": "Are you looking forward to the next festival?#$e#I always enjoy hanging out with the community.",
+        //Rejections
+    "gift.ravenReject.divorced_1": "I'm not comfortable with accepting a gift from my ex.#$e#I hope you understand.",
+    "gift.ravenReject.divorced_2": "I appreciate the thought, but I'm not comfortable with receiving a gift from you.",
+    "gift.ravenReject.divorced_3": "No thank you, I think the divorce was a sign that maybe we shouldn't get too close again.",
+
+    "mermaidPendant.raven.divorced_1": "... Why would I want to marry you again after you divorced me?",
+    "mermaidPendant.raven.divorced_2": "Don't do this. I can't marry you again. It wouldn't be the same.",
+
+    "gift.raven.bouquet.divorced": "...#$b#I think you forgot the fact that you chose to divorce me. I don't give second chances for things like that.",
+    //Marriage Topics
+    "mermaidPendant.raven.accepted": "Wait... You're serious?$8#$b#Of course I'll marry you @!$3#$e#You don't know how happy you made me today. I'm looking forward to the wedding, darling. Just give me a bit to make preparations.",
+
+    "dialogue.engaged.raven.day_1": "I can't believe I'm actually getting married!$6",
+    "dialogue.engaged.raven.day_2": "Um... honey, do you think I'll end up tripping during the ceremony?$11#$e#If I trip and fall... Would you catch me?$4",
+
+    "spouse.raven.afterWedding": "I can't believe it... I'm married to the love of my life!$6#$e#I can't wait to see what the future holds for us, honey.$4",
+    //Household
+    "spouse.raven.farmhouseClutter": "@, I know that you get busy and all, but I'd appreciate if you kept the walkways clear.$2#$b#It's hard to cook when you can't get into the kitchen, you know?$2",
+    "spouse.raven.monstersInHouse": "GET IT AWAY FROM ME! KILL IT! KILL IT!",
+    "spouse.raven.notJealousWithGifts": "It's great seeing you get along with people around here!$1",
+    "spouse.raven.stardrop": "You know, you mean a whole lot to me, so I really wanted to give you something special.#$b#The rule is that you can't ask me where I got this!",
+    //Mermaid Pendant -> Rejection
+    "mermaidPendant.raven.needHouseUpgrade": "I mean... I would, but there's not enough space for both of us in your home.",
+    "mermaidPendant.raven.npcWithSomeoneElse": "... I'm already married to someone right now.#$b#I'm not all about that cheating lifestyle, you know?",
+    "mermaidPendant.raven.playerWithSomeoneElse": "... You're married to someone else right now.#$b#I'm not a homewrecker.",
+    "mermaidPendant.raven.under8hearts": "Uh, isn't it a bit soon to consider marriage?#$b#We're not even dating yet.",
+    "mermaidPendant.raven.under10hearts": "I'm not ready for us to get married quite yet.#$b#Maybe give it a little more time, alright?",
+    "mermaidPendant.raven.under10hearts_askedAgain": "Look, maybe you should try to get to know me just a little more before you ask me again, alright?",
+    "mermaidPendant.raven": "I'm not really interested.#$b#Try to get to know me some more and just wait a while first, alright?",
+    //Summit
+    "summit.raven_1": "It was hard for me on my own.$2#$b#I struggled to be comfortable around others...$2#$e#But you were different.",
+    "summit.raven_2": "... I also got to see you grow. I'm proud of all of your achievements.$4#$b#Something like that doesn't come easy, you know?$6",
+    //Festival Dialogue
         //Egg Festival - Event
     "festivalDialogue.raven.eggFestival_1": "It's really fun watching the kids get competitive during the egg hunt.#$b#It really makes me wish I had my own kids.",
     "festivalDialogue.raven.eggFestival_2": "How come they don't call the Egg Festival 'Egg Day'?#$e#It makes more sense to me for some reason.",
@@ -26,7 +833,7 @@
     "festivalDialogue.zayden.eggFestival_1": "I kinda wish there were less people here.$9#$b#I don't like crowded places. I like the festival itself, though.",
     "festivalDialogue.zayden.eggFestival_2": "I stay in the shade so I don't irritate my skin.#$e#It sucks getting heat rashes...$4",
     "festivalDialogue.zayden.eggFestival_3": "Do you think people have tried cheating at egg hunts before?$9",
-    //Flower Dance
+        //Flower Dance
     "festivalDialogue.raven.flowerDance_1": "The temperature is just right for the Flower Dance! No one has to worry about sweating up a storm.$1",
     "festivalDialogue.raven.flowerDance_2": "Everyone looks great today!#$e#The dresses look much better than the suits, though.$17",
     "festivalDialogue.raven.flowerDance_spouse": "Everyone looks great today!#$e#The dresses look much better than the suits, though.$17",
@@ -39,7 +846,13 @@
     "festivalDialogue.raven.flowerDance.spouse.accept_3": "Aw, you're so sweet! I'll definitely dance with you honey.$4",
     "festivalDialogue.zayden.flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
     "festivalDialogue.zayden.flowerDance_2": "The flowers smell really nice this year.$1",
-    //Dance of The Moonlight Jellies
+        //Luau
+    "raven.festival.dialogue.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#What do you mean Mayor Lewis is waiting for you? Why do you get to decide when to start?$17#$b#Meh, Mayor Lewis doesn't make sense sometimes.",
+    "raven.festival.dialogue.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#I wonder if anyone's gonna go into the water to cool down.$17#$b#Would it be so bad if I went in first?$11",
+
+    "raven.festival.dialogue.spouse.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#Don't take too long. I know Mayor Lewis is waiting for you so we can eat.",
+    "raven.festival.dialogue.spouse.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#You should take a dip in the water with me so we can cool off.$1",
+        //Dance of The Moonlight Jellies
     "festivalDialogue.raven.moonlightJellies_1": "I wonder what colors we can't see tonight because of our eyes.#$e#I say that because some animals can see more colors than us apparently!#1",
     "festivalDialogue.raven.moonlightJellies_2": "Do you think the midnight jellies are toxic? I never see anyone swimming during the festival.$17",
     "festivalDialogue.raven.moonlightJellies_spouse": "I didn't think you had time to join in!$8#$b#Did you wanna watch with me?$4",
@@ -83,7 +896,38 @@
     "festivalDialogue.raven.festivalOfIce_spouse": "What if we tried making a snow family together?$1#$b#It'd take a while, but at least the snowkids would be faster to make.",
     "festivalDialogue.zayden.festivalOfIce_1": "It's so bright outside that I need to wear sunglasses.#$e#I wish the snow wasn't so reflective.$4",
     "festivalDialogue.zayden.festivalOfIce_2": "I love seeing how creative everyone gets during the festival.$1",
-        //Winter Star
+        //Feast of the Winter Star
+    "festivalDialogue.raven.winterStar_1": "I love seeing everyone smiling and having a good time!#$e#Maybe one of these days I can have a family of my own to spend festivals with.",
+    "festivalDialogue.raven.winterStar_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+    "festivalDialogue.raven.winterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+    "festivalDialogue.raven.winterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully you get something you like!",
+    "festivalDialogue.raven.winterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+
+    "festivalDialogue.raven.spouse.winterStar_1": "I love seeing everyone smiling and having a good time!#$e#I especially love to spend time with you, honey.$4",
+    "festivalDialogue.raven.spouse.winterStar_2": "There's so many presents at the tree this year!#$e#I wonder if some people get double-gifted.#$b#How much do you wanna bet that Mayor Lewis rigs these events?",
+    "festivalDialogue.raven.spouse.winterStar_3": "There's something about the snow that makes tonight feel magical.#$e#Don't ask me to explain it. It's just a feeling I have.",
+    "festivalDialogue.raven.spouse.winterStar_4": "Hi @! I wonder who your secret gift giver is this year.#$e#Hopefully I get you as my secret gift giver.$4",
+    "festivalDialogue.raven.spouse.winterStar_5": "I think I found a rotten Egg Festival egg in a bush by Mayor Lewis' house.#$e#Trust me, you don't wanna smell it.",
+
+    "festivalDialogue.raven.winterStar_giveGift.spouse.before_1": "Surprise! I'm your secret gift giver!#$b#I have a feeling you'll love it.",
+    "festivalDialogue.raven.winterStar_giveGift.spouse.before_2": "Hi babe, you managed to get me this year!#$b#I worked hard to get this ready for you.",
+    "festivalDialogue.raven.winterStar_giveGift.spouse.before_3": "Guess who you got, honey!#$b#I hope you didn't find the gift early and try to sneak a peek already.",
+
+    "festivalDialogue.raven.winterStar_giveGift.before_1": "Surprise, @! I'm your secret gift giver.#$b#I had a hard time thinking of something but I think this is perfect.",
+    "festivalDialogue.raven.winterStar_giveGift.before_2": "Hi, @, I'm your secret gift giver!#$b#Go ahead and open it. I wanna see your reaction!",
+    "festivalDialogue.raven.winterStar_giveGift.before_3": "Guess who it is?#$b#Open it up, I'm excited to see your face.",
+
+    "festivalDialogue.raven.winterStar_giveGift.spouse.after_1": "I really hope you enjoy the gift, love! I spent a lot of time putting it together.",
+    "festivalDialogue.raven.winterStar_giveGift.spouse.after_2": "Now I gotta think about what to get you next year if I get picked for you again!#$b#But I'll do it gladly.",
+    "festivalDialogue.raven.winterStar_giveGift.spouse.after_3": "There's more presents waiting for you at home, darling. I wanna make sure I can spoil you.",
+
+    "festivalDialogue.raven.winterStar_giveGift.after_1": "I really hope you enjoy the gift! It took a while to put together.",
+    "festivalDialogue.raven.winterStar_giveGift.after_2": "I hope you get a lot of use out of your present!",
+    "festivalDialogue.raven.winterStar_giveGift.after_3": "If you ever need a replacement because you lost or broke your gift, let me know and I'll add it to next year's gift!",
+
+    "festivalDialogue.raven.winterStar_receiveGift_1": "Oh, thanks so much! I can tell you put a lot of thought into it.",
+    "festivalDialogue.raven.winterStar_receiveGift_2": "Aw, thanks for the gift! It's always great to see who my secret gift giver is for the year.",
+    "festivalDialogue.raven.winterStar_receiveGift_3": "I bet it took a while to get this for me, thanks!",
     //Data/scheduleStrings.json
         //Custom_L0veRaven_RavenTentInside
     "scheduleDialogue.raven.standStove_1": "I'm just making myself some food right now. You can still hang out here if you want.",
@@ -151,4 +995,216 @@
     "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
     "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
     "mail.zayden.GreenhouseMail_item": "%item object 433 5 %%",//5 Coffee Beans
+    
+    //Raven Events
+        //Event 1 - L0veRaven_Raven_CatLover
+        "event.CatLover.raven_1": "Penny... Are you okay?$2",
+        "event.CatLover.penny_1": "Hi Raven.$3",
+
+        "event.CatLover_speak_3": "I can tell something's going on.$2#$b#Do you wanna to talk about it?$17",//Raven
+        "event.CatLover_speak_4": "I found a stray cat in town recently.$2#$b#I asked my mother if we could look after the cat until we find the owner.#$b#She started yelling at me about how we don't have enough space.$2#$b#I haven't seen the cat since then, but it seemed pretty scared of people.$3",//Penny
+        "event.CatLover_speak_5": "Hm... Let me think...$17#$b#Your mom definitely should've been kinder to you about it...$2",//Raven
+        "event.CatLover_speak_6": "Okay, I have some ideas about the cat.$1#$b#There's a chance it'll come back if we leave out some wet cat food.#$b#If the cat is too scared, then we could set a trap for it.$1",//Raven
+        "event.CatLover_speak_7": "That sounds horrible! I don't want the cat to be trapped.$12#$b#I just want to make sure that it's healthy.$2#$b#My mother surely won't let me keep it, though.$2",//Penny
+        "event.CatLover_speak_8": "I don't know of any vets nearby, but if we bring it to Marnie, she might be able to help.#$b#After all, she lets people adopt animals from her, so she has to know quite a bit about cats, right?$1",//Raven
+        "event.CatLover_speak_9": "I think you're right. Since you're a neko, you probably know a lot about cats, too.$1",//Penny
+        "event.CatLover_speak_10": "!!!$12#$b#Not exactly.$11",//Raven
+        "event.CatLover_speak_11": "Oh, hello there. Can we get your input really quick?$1#$b#I came across a stray cat, but since my mother won't let us keep it...$2",//Penny
+
+        "event.CatLover_qQ": "Should we capture it and take it to a local animal shelter?",//Penny
+
+        "event.CatLover_qQ_1": "You should leave the cat alone.",//qQ Answer
+        "event.CatLover_qQ_1_1": "Hm...$2",//Penny
+        "event.CatLover_qQ_1_2": "Actually, I think it's better if we bring the cat to Marnie.#$b#She can check if the cat is healthy and help it find a home.$1#$b#I appreciate you sharing your opinion, regardless.",//Penny
+
+        "event.CatLover_qQ_2": "You should take the cat to the shelter.",//qQ Answer
+        "event.CatLover_qQ_2_1": "Hm...$2",//Penny
+        "event.CatLover_qQ_2_2": "I agree with you.#$b#It'd be good to bring the cat to someone who knows a lot about animals and maybe even help it find a home.$1",//Penny
+
+        "event.CatLover_speak_final": "We shouldn't wait too long. We need supplies!$3",//Raven
+
+        "event.CatLover_end_1": "We'll get the stray cat, I know it!$1",
+        "event.CatLover_end_2": "Hopefully the cat is able to find a home soon...$2",
+
+    //Raven_catAdoption.json  -> ebi: 1590166 [DEFAULT EVENT]
+        "event.CatAdoption_speak_1": "Hello @!$h#$b#You see this cat here?",//Marnie
+        "event.CatAdoption_speak_2": "Raven and Penny brought it to me since it's a stray... poor little thing.$s",//Marnie
+        "event.CatAdoption_speak_3": "I think it likes this place! Hey, um.... Don't you think this farm could use a good cat? It's very healthy.$h",//Marnie
+        "event.CatAdoption_speak_4": "Well, little %pet... You be a good kitty now... okay?",//Marnie
+        
+    //Zayden_Arrival
+        "event.Arrival_1": "Damn, that was a long trip to get back home.$2",
+        "event.Arrival_2": "Hm? Someone moved into the abandoned farm?",
+        "event.Arrival_3": "I just hope they don't cause too much trouble...$2",
+
+    //Raven_checkIn.json -> Raven & farmer
+        "event.CheckIn_1": "Oh, hey @! It's nice to come across you again.$1#$b#Do you have time to talk real quick?",
+        "event.CheckIn_2": "That's great!$1",
+        "event.CheckIn_3": "Everyone acted a little odd when they heard you were moving in.$17#$b#It's not that they didn't want you here, but it's just uncommon for people to move here, you know?$11",
+        "event.CheckIn_4": "Not many people move to Pelican Town unless they're trying to escape the life of the city...#$b#Or poverty...$12",
+        
+        "event.CheckIn_qQ": "Enough about the others. How've you been enjoying Pelican Town so far?",
+            //Path A: Doing great!
+                "event.CheckIn_qQ_1": "It's been great!",//Answer
+                "event.CheckIn_qQ_1_1": "I'm glad you've had a good experience here so far!$1#$b#It seems like you're already a pro, or at least have a very good head on your shoulders.",
+                "event.CheckIn_qQ_1_2": "Even if you make your farm completely automated one day, I just hope you won't forget the people here.#$b#It sucks when a person gets successful and then they suddenly act like the people around them never existed.$2",
+                "event.CheckIn_qQ_1_3": "Sorry, I didn't mean to get gloomy out of nowhere like that.$11#$b#I've had people in the past leave me behind whenever they find something better.$2#$b#I'm sure you'll be fine though! You're already wonderful from what I can tell.$1",
+            //Path B: Doing okay
+                "event.CheckIn_qQ_2": "It's been alright. Nothing too exciting.",//Answer
+                "event.CheckIn_qQ_2_1": "It takes a while to adjust to new places, but I believe in you.$1",
+                "event.CheckIn_qQ_2_2": "If you feel even a little left out, join in on the festivals! Everyone will be happy to see you there, trust me.",
+                "event.CheckIn_qQ_2_3": "I doubt anyone could forget you!#$b#I'm an expert in forgetting people after I first meet them, but you stand out enough for me to notice you there.#$b#In a good way, I promise!",
+            //Path C: Doing bad
+                "event.CheckIn_qQ_3": "It's been hard. It's hard to feel like I have a place here.",//Answer
+                "event.CheckIn_qQ_3_1": "That's a shame. Hopefully you're able to connect with some of the people here.",
+                "event.CheckIn_qQ_3_2": "It was actually pretty hard for me when I first moved here too.#$b#I wasn't able to really afford living in the city for long on my own. The pay and hours were so bad wtih Joja that I couldn't stand a chance.",
+                "event.CheckIn_qQ_3_3": "But it's different for you luckily!#$b#You inherited the farm from your grandpa, so it's really just maintenance you gotta worry about, right?",
+                "event.CheckIn_qQ_3_4": "Okay, I'm talking out of my ass. I don't know what it's like to own a plot of land, but at least you don't have to pay rent to a landlord, right?",
+                "event.CheckIn_qQ_3_5": "At least I got that part right!",
+        "event.CheckIn_5": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
+        "event.CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
+    //Raven_wildClans.json -> Only Raven speaks
+        "event.WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
+        "event.WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
+        "event.WildClans_speak_3": "I found it!$1#$b#Wanna see it?",
+    //Raven_cleansingFarmer.json
+    //mail.raven.cleansingFarmer.json
+        "event.CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
+    //Raven_jobInterview.json
+    //Raven_marriageTalk.json
+        "event.marriageTalk_gusWelcome": "Here comes the newlywed!",//Gus
+
+        "event.marriageTalk_speak_1": "Hey there, @! I'm on break right now.$1#$b#All of that cleaning tired me out so I need to take a breather before I get back to it.",//Raven
+
+        "event.marriageTalk_qQ": "How's the new marriage treating you?",
+
+        "event.marriageTalk_qQ_1": "It's awesome!",//Answer
+        "event.marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
+
+        "event.marriageTalk_qQ_2": "It doesn't feel like anything changed.",//Answer
+        "event.marriageTalk_qQ_2_1": "I suppose it's like that when you've already formed a super deep bond with each other.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
+
+        "event.marriageTalk_qQ_3": "I regret getting married.",//Answer
+        "event.marriageTalk_qQ_3_1": "Oh... That's tough, I'm sorry about that.$11#$b#Personally, I've always wanted to get married to someone or multiple someones.",//Raven
+
+        "event.marriageTalk_speak_2": "Yeah, I'm totally chill with being in a marriage involving multiple people.#$b#I love people, so I getting to share my love with multiple people at once is awesome!$1#$b#It's not for everybody, though. It can get pretty messy sometimes.",//Raven
+        "event.marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//Gus
+        "event.marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//Raven
+        "event.marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//Gus
+        "event.marriageTalk_speak_6": "I hope I get a relationship like that one of these days.$4",//Raven
+    //Raven_apartment.json
+        "event.apartment_1": "That's the last one!",//Raven
+        "event.apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
+        "event.apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
+        "event.apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
+        "event.apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
+        "event.apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
+        "event.apartment_7": "...#$b#I feel... normal again.$13",//Raven
+        "event.apartment_8": "*sniff*",//Raven
+        "event.apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//Raven
+        "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
+
+        "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
 }
+
+//Original Map Strings
+    //Raven
+        //Desk with Paper
+            //"mapString.ravenDesk_1": "DARKJACK VOL. I",
+            //"mapString.ravenDesk_2": "DARKJACK VOL. II",
+            //"mapString.ravenDesk_3": "DARKJACK VOL. III",
+            //"mapString.ravenDesk_4": "DARKJACK VOL. IV",
+            //"mapString.ravenDesk_5": "DARKJACK VOL. V",
+            //"mapString.ravenDesk_6": "DARKJACK VOL. VI",
+            //"mapString.ravenDesk_7": "DARKJACK VOL. VII",
+            //"mapString.ravenDesk_8": "DARKJACK VOL. VIII",
+            //"mapString.ravenDesk_9": "DARKJACK VOL. IX",
+            //"mapString.ravenDesk_10": "DARKJACK VOL. X",
+            //"mapString.ravenDesk_11": "DARKJACK VOL. XI",
+            //"mapString.ravenDesk_12": "DARKJACK VOL. XII",
+            //"mapString.ravenDesk_13": "DARKJACK VOL. XIII",
+            //"mapString.ravenDesk_14": "DARKJACK VOL. XIV",
+            //"mapString.ravenDesk_15": "DARKJACK VOL. XV",
+            //"mapString.ravenDesk_16": "DARKJACK VOL. XVI",
+            //"mapString.ravenDesk_17": "DARKJACK VOL. XVII",
+            //"mapString.ravenDesk_18": "DARKJACK VOL. XVIII",
+            //"mapString.ravenDesk_19": "DARKJACK VOL. XIX",
+            //"mapString.ravenDesk_20": "DARKJACK VOL. XX",
+            //"mapString.ravenDesk_21": "DARKJACK VOL. XXI",
+            //"mapString.ravenDesk_22": "DARKJACK VOL. XXII",
+            //"mapString.ravenDesk_23": "DARKJACK VOL. XXIII",
+            //"mapString.ravenDesk_24": "DARKJACK VOL. XXIV",
+            //"mapString.ravenDesk_25": "DARKJACK VOL. XXV",
+        //Guitar
+            //"mapString.ravenGuitar_1": "The guitar looks dusty.",
+            //"mapString.ravenGuitar_2": "The guitar looks pristine.",
+            //"mapString.ravenGuitar_3": "You strum the guitar. It's out of tune.",
+            //"mapString.ravenGuitar_4": "You strum the guitar. It sounds pleasant.",
+        //Loose Paper
+            //"mapString.ravenLoosePaper_1": "It's a to-do list.",
+            //"mapString.ravenLoosePaper_2": "It's sheet music.",
+            //"mapString.ravenLoosePaper_3": "It's a journal entry.",
+            //"mapString.ravenLoosePaper_4": "It's a bunch of random notes.",
+        //Piano Keyboard
+            //"mapString.ravenPianoKey_1": "The keyboard is turned on.",
+            //"mapString.ravenPianoKey_2": "The keyboard is turned off.",
+        //Yoba Shrine
+            //"mapString.ravenYobaShrine_1": "Raven's Yoba shrine looks pristine.",
+            //"mapString.ravenYobaShrine_2": "Raven's Yoba shrine looks dusty.",
+            //"mapString.ravenYobaShrine_3": "Raven's Yoba shrine looks unusually shiny.",
+        //Bookshelf (No randomization)
+            //"mapString.ravenBookshelf_": "A variety of novels and manga are on the bookshelf.",
+        //Crystal
+            //"mapString.ravenCrystal_1": "The crystal looks really shiny today.",
+            //"mapString.ravenCrystal_2": "The crystal looks dusty today.",
+            //"mapString.ravenCrystal_3": "The crystal has specks of mud on it today.",
+            //"mapString.ravenCrystal_4": "The crystal has small spiderwebs on it today.",
+        //Mailbox
+            //"mapString.ravenMailbox_1": "The mailbox is empty.",
+            //"mapString.ravenMailbox_2": "The mailbox has some letters.",
+            //"mapString.ravenMailbox_3": "The mailbox has junk mail.",
+        //Trash Bag
+            //"mapString.ravenTrashBag_1": "The trash bag is empty.",
+            //"mapString.ravenTrashBag_2": "The trash bag is full.",
+            //"mapString.ravenTrashBag_3": "The trash bag is half full.",
+            //"mapString.ravenTrashBag_4": "The trash bag is half empty.",
+            //"mapString.ravenTrashBag_5": "The trash bag is torn.",
+            //"mapString.ravenTrashBag_6": "The trash bag is leaking.",
+        //Journal
+            //"mapString.ravenJournal_1": "The journal has a page bookmarked. Raven has been drawing!",
+            //"mapString.ravenJournal_2": "The journal has a page bookmarked. Raven has been writing sheet music!",
+            //"mapString.ravenJournal_3": "The journal has a page bookmarked. Raven has been journaling!",
+            //"mapString.ravenJournal_4": "The journal has a page bookmarked. Raven has been writing recipes!",
+        //Stove
+            //"mapString.ravenStoveTent_1": "The stove is clean.",
+            //"mapString.ravenStoveTent_2": "There are leftovers on the stove.",
+            //"mapString.ravenStoveTent_3": "The stove is dirty.",
+        //Stove
+            //"mapString.ravenStoveApartment_1": "The stove is clean.",
+            //"mapString.ravenStoveApartment_2": "The stove is dirty.",
+        //Logs
+            //"mapString.ravenLogs_1": "The log pile is full.",
+            //"mapString.ravenLogs_2": "The log pile is getting low.",
+            //"mapString.ravenLogs_3": "The log pile is is half full.",
+            //"mapString.ravenLogs_4": "The log pile is is half empty.",
+            //"mapString.ravenLogs_5": "The log pile smells fresh.",
+        //Fridge
+            //"mapString.ravenFridge_1": "The fridge is full of food.",
+            //"mapString.ravenFridge_2": "The fridge is getting low on food.",
+            //"mapString.ravenFridge_3": "The fridge has food.",
+            //"mapString.ravenFridge_4": "The fridge has leftovers.",
+            //"mapString.ravenFridge_5": "The fridge smells of spoiled food.",
+        //Computer
+            //"mapString.ravenComputer_1": "L0veRaven's Twitch",
+            //"mapString.ravenComputer_2": "L0veRaven's Website",
+            //"mapString.ravenComputer_3": "L0veRaven's YouTube",
+        //TrashBin
+            //"mapString.ravenTrashBin_1": "The trash is empty.",
+            //"mapString.ravenTrashBin_2": "The trash is full.",
+            //"mapString.ravenTrashBin_3": "The trash is half full.",
+            //"mapString.ravenTrashBin_4": "The trash is half empty.",
+        //CoatRack
+            //"mapString.ravenCoatRack": "I already stole money from Raven's clothes. It feels wrong to steal again.",
+    //Zayden
+        //Apartment
+            //"mapString.fridge": "The fridge is stocked with food. The cheese is low...",

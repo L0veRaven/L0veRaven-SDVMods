@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Dialogue] Loved - Cheese",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "AcceptGift_(O)424": "{{i18n:gift.zayden.accept.Cheese}}",//Cheese
+                "AcceptGift_(O)426": "{{i18n:gift.zayden.accept.Cheese}}"//Goat Cheese
+            }
+        },
+        {
+            "LogName": "[Dialogue] Zayden -  Generic Tastes",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "AcceptBirthdayGift_Loved": "{{i18n:gift.zayden.accept.bday_Loved}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:gift.zayden.accept.bday_Liked}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:gift.zayden.accept.bday_Hated}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:gift.zayden.accept.bday_Disliked}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:gift.zayden.accept.bday_Neutral}}",
+                "AcceptBirthdayGift": "{{i18n:gift.zayden.accept.bday}}"
+            }
+        },
+        {
+            "LogName": "[Dialogue] Zayden - Reject Items",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "RejectItem(O)hidden_item": "{{i18n:gift.zayden.accept.hidden}}",//Hidden & Litter
+            }
+        }
+    ]
+}

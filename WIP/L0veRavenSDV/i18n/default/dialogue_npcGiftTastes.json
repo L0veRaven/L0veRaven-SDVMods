@@ -1,9 +1,0 @@
-{
-    //Raven
-        "raven.npcGiftTaste.love": "Aw, how did you know I loved this? Thanks for thinking of me.$3",
-        "raven.npcGiftTaste.like": "This is nice, I appreciate it!$1",
-        "raven.npcGiftTaste.dislike": "Um, I'm not a fan of this, but I appreciate the thought.$11",
-        "raven.npcGiftTaste.hate": "I...#$b#Um, what am I supposed to do with this?$17",
-        "raven.npcGiftTaste.neutral": "Thanks, this is nice!",
-    //Zayden
-}

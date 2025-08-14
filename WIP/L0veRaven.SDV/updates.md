@@ -17,7 +17,6 @@
 ### ModCompat
 
     "DynamicTokens": [
-        {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
         {"Name": "DTZ","Value": "DTZ.DowntownZuzuDLL"},
         {"Name": "PTP","Value": "LenneDalben.PelicanTownPotluck"},
         {"Name": "SWS","Value": "Airyn.CPSolsticeWinterStar"},

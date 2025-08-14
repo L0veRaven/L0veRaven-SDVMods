@@ -62,8 +62,10 @@
         //Mod Info
         {"Name": "Nexus","Value": "27407"},
         //ModCompat Nicknames -> External ModId's
+        {"Name": "RSV","Value": "Rafseazz.RSVCP"},
         {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
         {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
+        {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
         {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
         //Internal Names
         {"Name": "Raven","Value": "L0veRaven_Raven"},
@@ -98,9 +100,18 @@
         //Custom Locations
         {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInside","When": {"HasMod |contains={{SVE}}": "false"}},
         {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInsideSVE","When": {"HasMod |contains={{SVE}}": "true"}},
+    //Dialogue: Medication Pickup
+        {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
+        {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
+    //Schedule Dialogue
+        {"Name": "Zayden_ScheduleDialogue_JojaSweep","Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""},
+    //Animations
+        {"Name": "Raven_Animation_Sweep","Value": "l0veraven_raven_sweep"},
+        {"Name": "Raven_Animation_Stand","Value": "l0veraven_raven_stand"},
+        {"Name": "Zayden_Animation_Sweep","Value": "l0veraven_zayden_sweep"},
+        {"Name": "Zayden_Animation_Sleep","Value": "l0veraven_zayden_sleep"},
         //Positions
-    //Vanilla
-        //Bus Stop
+            //Bus Stop
         {"Name": "Raven_Animation_StandBusStop","Value": "BusStop 20 22 2"},
 
         {"Name": "RavenRelaxForest","Value": "Forest 56 81 3","When": {"HasMod |contains={{SVE}}": "false"}},
@@ -135,10 +146,6 @@
             //Mountain
         {"Name": "Raven_Animation_StandMountain","Value": "Mountain 57 33 1"},
         //Animations
-        {"Name": "Raven_Animation_Sweep","Value": "l0veraven_raven_sweep"},
-        {"Name": "Raven_Animation_Stand","Value": "l0veraven_raven_stand"},
-        {"Name": "Zayden_Animation_Sweep","Value": "l0veraven_zayden_sweep"},
-        {"Name": "Zayden_Animation_Sleep","Value": "l0veraven_zayden_sleep"},
         //Schedule
         {
             "Name": "Zayden_Schedule_JojaSweep_1",
@@ -192,7 +199,7 @@
             {"Name": "Raven_Animation_StandNearHome","Value": "{{Raven_Animation_StandMountain}}","When": {"HasReadLetter": "{{Raven}}_Apartment"}},
             {"Name": "Raven_Animation_StandNearHome","Value": "{{Random:{{RavenRelaxForest}},{{Raven_Animation_StandRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}_Apartment": false}},
             //Free Days
-            {"Name": "RavenFreeDay1","Value": "{{RavenGoodMorning}}/{{7am}} {{Raven_Animation_StandRiverForest}}/{{1130am}} {{RavenRelaxBeach}} {{Raven_Animation_Read}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"},
+            {"Name": "RavenFreeDay1","Value": "{{RavenGoodMorning}}/{{7am}} {{Raven_Animation_StandRiverForest}}/{{1130am}} {{RavenRelaxBeach}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"},
             {"Name": "RavenFreeDay2","Value": "{{RavenGoodMorning}}/{{7am}} {{RavenRelaxBushTown}}/{{1130am}} {{Raven_Animation_StandTableSaloon}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"},
             {"Name": "RavenFreeDay3","Value": "{{2pm}} {{Raven_Animation_StandStove}}/{{4pm}} {{RavenRelaxBushTown}}/{{8pm}} {{RavenRelaxBeach}}/{{10pm}} {{RavenInBed}}"},
             {"Name": "RavenFreeDay4","Value": "{{4pm}} {{Raven_Animation_StandTableSaloon}}/{{8pm}} {{Raven_Animation_StandCC}}/{{10pm}} {{RavenInBed}}"},
@@ -210,12 +217,7 @@
             {"Name": "RavenPostJobSaloon","Value": "{{6pm}} {{Random:{{Raven_Animation_StandNearHome}},{{RavenRelaxBeach}},{{Raven_Animation_StandBusStop}},{{Raven_Animation_StandCC}}}}"},
             //Work and Meds
             {"Name": "RavenWorkDay","Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"},
-            {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"},
-            //Dialogue: Medication Pickup
-            {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
-            {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
-            //Schedule Dialogue
-            {"Name": "Zayden_ScheduleDialogue_JojaSweep","Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""},
+            {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"}
         ],
         
         "Changes": [
@@ -281,46 +283,40 @@
             {
                 "LogName": "[Character] Includes",
                 "Action": "Include",
-                "FromFile": "data/character.json, data/appearance.json, data/home.json, data/winterStarGifts.json, data/npcGiftTastes.json, data/schedule.json"
+                "FromFile": "data/characters/character.json, data/characters/appearance.json, data/characters/home.json, data/characters/winterStarGifts.json, data/characters/npcGiftTastes.json, data/characters/schedule.json"
             },
             {
                 "LogName": "General - Data Includes",
                 "Action": "Include",
                 "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
             },
-            {
-                "LogName": "General - Dialogue Includes",
-                "Action": "Include",
-                "FromFile": "data/dialogue/firstOfSeason.json, data/scheduleStrings.json"
-            },
-        //Data/Festivals
+            //Data/Festivals
             {
                 "LogName": "[Festival] Includes",
                 "Action": "Include",
                 "FromFile": "data/festivals.json"
             },
-
-
-
-
-
-
+            //Dialogue
+            {
+                "LogName": "General - Schedule Strings",
+                "Action": "Include",
+                "FromFile": "data/scheduleStrings.json"
+            },
+            {
+                "LogName": "Dialogue - Raven's Dialogue",
+                "Action": "Include",
+                "FromFile": "data/dialogue/raven/firstOfSeason.json, data/dialogue/raven/medicationPickup.json, data/dialogue/raven/festivalDays.json, data/dialogue/raven/seasonal.json, data/dialogue/raven/generic.json, data/dialogue/raven/festivals.json, data/dialogue/raven/conversationTopics.json, data/dialogue/raven/heart.json, data/dialogue/raven/weather.json, data/dialogue/raven/movieInvitations.json, data/dialogue/raven/islandResort.json, data/dialogue/raven/locationEntry.json, data/dialogue/raven/bouquet.json, data/dialogue/raven/divorced.json, data/dialogue/raven/engagement.json, data/dialogue/raven/marriage.json, data/dialogue/raven/romance.json, data/dialogue/raven/summit.json, data/dialogue/raven/marriageDialogue.json, data/dialogue/raven/giftResponses.json, data/dialogue/raven/movieReactions.json"
+            },
+            {
+                "LogName": "Dialogue - Zayden",
+                "Action": "Include",
+                "FromFile": "data/dialogue/zayden/firstOfSeason.json, data/dialogue/zayden/conversationTopics.json, data/dialogue/zayden/heart.json, data/dialogue/zayden/giftResponses.json"
+            },
         //Data/Events
             {
                 "LogName": "Event Includes",
                 "Action": "Include",
                 "FromFile": "data/events/raven.json, data/events/zayden.json"
-            },
-        //Dialogue
-            {
-                "LogName": "[Dialogue] Raven - Includes",
-                "Action": "Include",
-                "FromFile": "data/dialogue/raven_dialogue.json, data/dialogue/raven_marriageDialogue.json, data/dialogue/raven_giftResponses.json, data/dialogue/raven_moviesReactions.json"
-            },
-            {
-                "LogName": "[Dialogue] Zayden - Includes",
-                "Action": "Include",
-                "FromFile": "data/dialogue/zayden_dialogue.json, data/dialogue/zayden_giftResponses.json"
             },
         //Delete on Release
             {

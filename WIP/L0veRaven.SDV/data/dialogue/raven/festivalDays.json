@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Dialogue] Festival Dialogue (Day Before, Day Of, Day After)",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                //label:Egg Festival
+                    "spring_12": "{{i18n:dialogue.raven.eggFestival.dayBefore_{{Random:{{Range:1,4}}}}}}",
+                    "spring_13": "{{i18n:dialogue.raven.eggFestival.dayOf_{{Random:{{Range:1,4}}}}}}",
+                    "spring_14": "{{i18n:dialogue.raven.eggFestival.dayAfter_{{Random:{{Range:1,5}}}}}}",
+                //label:Flower Dance
+                    "spring_23": "{{i18n:dialogue.raven.flowerDance.dayBefore_{{Random:{{Range:1,4}}}}}}",
+                    "spring_24": "{{i18n:dialogue.raven.flowerDance.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "spring_25": "{{i18n:dialogue.raven.flowerDance.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Luau
+                    "summer_10": "{{i18n:dialogue.raven.luau.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "summer_11": "{{i18n:dialogue.raven.luau.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "summer_12": "{{i18n:dialogue.raven.luau.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Midnight Jellies
+                    "summer_27": "{{i18n:dialogue.raven.moonlightJellies.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "summer_28": "{{i18n:dialogue.raven.moonlightJellies.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "summer_29": "{{i18n:dialogue.raven.moonlightJellies.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Stardew Fair
+                    "fall_15": "{{i18n:dialogue.raven.stardewValleyFair.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "fall_16": "{{i18n:dialogue.raven.stardewValleyFair.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "fall_17": "{{i18n:dialogue.raven.stardewValleyFair.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Spirit's Eve
+                    "fall_26": "{{i18n:dialogue.raven.spiritsEve.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "fall_27": "{{i18n:dialogue.raven.spiritsEve.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "fall_28": "{{i18n:dialogue.raven.spiritsEve.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Ice Festival
+                    "winter_7": "{{i18n:dialogue.raven.festivalOfIce.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "winter_8": "{{i18n:dialogue.raven.festivalOfIce.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "winter_9": "{{i18n:dialogue.raven.festivalOfIce.dayAfter_{{Random:{{Range:1,3}}}}}}",
+                //label:Winter Star
+                    "winter_24": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayBefore_{{Random:{{Range:1,3}}}}}}",
+                    "winter_25": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayOf_{{Random:{{Range:1,3}}}}}}",
+                    "winter_26": "{{i18n:dialogue.raven.feastOfTheWinterStar.dayAfter_{{Random:{{Range:1,3}}}}}}"
+            }
+        }
+    ]
+}

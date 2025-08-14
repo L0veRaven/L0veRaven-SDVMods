@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Dialogue] Medication Pickup - Non-Winter",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Thu": "{{i18n:dialogue.raven.medicationPickup.dayOf}}"
+            },
+            "When": {
+                "Query: '{{Day}}' = '18'": "true",
+                "Season": "Spring, Summer, Fall"
+            }
+        },
+        {
+            "LogName": "[Dialogue] Medication Pickup - Winter",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Thu": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday}}"
+            },
+            "When": {
+                "Query: '{{Day}}' = '18'": "true",
+                "Season": "Winter"
+            }
+        }
+    ]
+}
