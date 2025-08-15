@@ -1,493 +1,334 @@
 {
     "Changes": [
         {
-            "LogName": "Abigail's Dialogue",
+            "LogName": "Abigail's Introduction",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue.abilgail.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.abilgail.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "Alex's Dialogue",
+            "LogName": "Alex's Introduction",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue.alex.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.alex.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Caroline's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.caroline.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Clint's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.clint.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Demetrius' Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Demetrius",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.demetrius.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Elliot's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Elliot",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.elliot.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Emily's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.emily.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Evelyn's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.evelyn.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "George's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/George",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.george.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Gus's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.gus.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Haley's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.haley.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Harvey's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.harvey.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Jas' Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.jas.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Jodi's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.jodi.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Kent's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.kent.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Leah's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.leah.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Lewis's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.lewis.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Linus's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Linus",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.linus.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Marnie's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.marnie.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Maru's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.maru.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Pam's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Pam",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.pam.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Penny's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.penny.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Pierre's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.pierre.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Robin's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.robin.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Sam's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.sam.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Sebastian's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.sebastian.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Shane's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.shane.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Vincent's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.vincent.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Willy's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Willy",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.willy.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
         },
         {
-            "LogName": "_______'s Dialogue",
+            "LogName": "Wizard's Introduction",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
+            "Target": "Characters/Dialogue/Wizard",
             "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
+                "Introduction": "{{i18n:data.characters.dialogue.wizard.introduction}}"
             },
             "When": {
-                "ModEnable": true,
                 "HasMod |contains={{SVE}}": "false"
             }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
-
-
-
-
-
-
-
-
-
-        {
-            "LogName": "_______'s Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/_______",
-            "Entries": {
-                "Introduction": "{{i18n:data.characters.dialogue._______.introduction}}",
-            },
-            "When": {
-                "ModEnable": true,
-                "HasMod |contains={{SVE}}": "false"
-            }
-        },
+        }
     ]
 }

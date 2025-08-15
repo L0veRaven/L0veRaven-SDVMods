@@ -1,0 +1,41 @@
+{
+    "data.characters.dialogue.abilgail.introduction": "...$6#$b#Oh that's right... I heard someone new was moving onto that old farm.#$b#*whisper* I didn't expect you to look so... bold.$9",
+    "data.characters.dialogue.alex.introduction": "!!!$&#$b#Does being blue hurt?#$b#Wait, that was probably a weird question. Nevermind.$2#$b#... My name is Alex.",
+    "data.characters.dialogue.caroline.introduction": "Hello! You must be @, the new farmer. I'm Caroline.#$b#My husband runs the general store here. And have you met my daughter, Abigail? She's the pale one with the purple hair.#$b#I'm certain you'll get along great considering your alternative aesthetic choices.",
+    "data.characters.dialogue.clint.introduction": "Er... hi. Mayor Lewis said you'd be hard to miss. I'm Clint.#$e#I'm the town blacksmith. If you ever need to upgrade your tools, I'm your guy.",
+    "data.characters.dialogue.demetrius.introduction": "Greetings! I'm Demetrius, local scientist and father. Thanks for introducing yourself!#$b#I'm curious, do you know what might be the cause of your blue skin tone? I study the local plants and animals from my home laboratory, so I have less knowledge of human biology.#$e#Have you met my daughter Maru? She's interested to meet you.",
+    
+    
+    
+    
+    
+    
+    "data.characters.dialogue.elliot.introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Elliott... I live in the little cabin by the beach. It's a pleasure to meet you.",
+    "data.characters.dialogue.emily.introduction": "Ooh!... I can read it on your face. You're going to love it here in Pelican Town.#$b#If you're ever looking for something to do in the evening, stop by the saloon. That's where I work!",
+    "data.characters.dialogue.evelyn.introduction": "Why, hello and welcome to our little community, dear! #$b#You can call me 'Granny' if you like.$h",
+    "data.characters.dialogue.george.introduction": "Hmmph... It's irritating to have to meet all these new people, huh?#$b#Name's George, by the way. Now buzz off... Hmmph.",
+    "data.characters.dialogue.gus.introduction": "Well hello there! I'm Gus, chef and owner of the Stardrop Saloon.#$e#Stop in if you need any refreshments. I've always got hot coffee and cold beer at the ready.$h",
+    "data.characters.dialogue.haley.introduction": "Oh... you're that new farmer boy, aren't you?^Oh... You're that new farmer girl, or whatever. Aren't you?#$e#Huh? Oh... I'm Haley.#$e#Hmm... If it weren't for those horrendous clothes you might actually be cute.^Hmm... If it weren't for those horrendous clothes you might actually be pretty... Actually, never mind.$h",
+    "data.characters.dialogue.harvey.introduction": "It's a pleasure to meet you. I'm Harvey, the local doctor.#$e#I perform regular check-ups and medical procedures for all the residents of Pelican Town. It's rewarding work.#$e#I hope you'll find your own work equally rewarding, in time.$h",
+    "data.characters.dialogue.jas.introduction": "...$u#$b#Why are you blue?$u",
+    "data.characters.dialogue.jodi.introduction": "Oh! You aren't exactly how I imagined... but that's okay! I'm Jodi.#$e#It's a quiet little town, so it's very exciting when someone new moves in! Having a farmer around could really change things.",
+    "data.characters.dialogue.kent.introduction": "Things really have changed around here since I've left for the war, not that it's a bad thing.#$e#I don't see many people that look like you around here, is all.",
+    "data.characters.dialogue.leah.introduction": "Hello, it's nice to meet you. $h#$e#You picked a good time to move here... The spring is lovely.",
+    "data.characters.dialogue.lewis.introduction": "So, how was your first night in the old cottage?#$e#Your grandpa used to complain about the rickety old bed. But I think, deep down, he actually loved that house.",
+    "data.characters.dialogue.linus.introduction": "A stranger?... Hello.#$e#Don't mind me. I just live out here alone.",
+    "data.characters.dialogue.marnie.introduction": "Ah, Mayor Lewis told me you just arrived. I'm Marnie!#$e#I sell livestock and animal care products at my ranch. You should swing by some time.$h",
+    "data.characters.dialogue.maru.introduction": "Oh! Aren't you the one who just moved in?#$b#I'm Maru. I've been looking forward to meeting you!$h#$e#You know, with a small town like this, a new face can really alter the community dynamic. It's exciting!",
+    "data.characters.dialogue.pam.introduction": "Hey, kid. The name's Pam.#$e#Don't be a jerk and we'll get along fine.",
+    "data.characters.dialogue.penny.introduction": "Oh... Hello! I'm Penny...#$b#May I ask where you're from? You look very different.#$e#Sorry, was that rude of me to ask?$2",
+    "data.characters.dialogue.pierre.introduction": "Hey, it's Mr. @, the new farmer! I'm Pierre, owner of the local general store.^Hey, it's Ms. @, the new farmer! I'm Pierre, owner of the local general store.#$b#If you're looking for seeds, my shop is the place to go. I'll also buy produce from you for a good price!#$e#A little agriculture could really inject new life into the local economy!",
+    "data.characters.dialogue.robin.introduction": "Have you met everyone in town yet? That sounds exhausting.",
+    "data.characters.dialogue.sam.introduction": "Hey, I'm Sam. Good to meet you.$h#$b#What's a cool blue dude doing out here? We don't have too much going on out here.$10",
+    "data.characters.dialogue.sebastian.introduction": "Oh. You just moved in, right? Cool.#$e#Out of all the places you could live, you chose Pelican Town?",
+    "data.characters.dialogue.shane.introduction": "... Just because you're blue doesn't mean I'm going to talk to you.",
+    "data.characters.dialogue.vincent.introduction": "Oh, a blue stranger! My name's Vincent.#$b#Momma says not to talk to strangers... But you seem okay. Why are you blue, anyways?",
+    "data.characters.dialogue.willy.introduction": "Ahoy there! It's nice to see young folk movin' in to the valley. It's not very common these days.",
+    "data.characters.dialogue.wizard.introduction": "Ah, yes. I have predicted your arrival a long time ago, young @.#$e#However, your fate is ultimately in your own hands.",
+
+
+    "data.characters.dialogue._______.introduction": "",
+}
