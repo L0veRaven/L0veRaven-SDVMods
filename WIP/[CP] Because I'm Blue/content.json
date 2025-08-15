@@ -41,9 +41,9 @@
         "Changes": [
         //Data/Objects
         {
-            "LogName": "Dialogue: Introduction",
+            "LogName": "Dialogue: Introductions",
             "Action": "Include",
-            "FromFile": "data/characters/dialogue/abigail.json, data/characters/dialogue/alex.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json, data/characters/dialogue/________________________________.json",
+            "FromFile": "data/characters/dialogue/introductions.json",
             "When": {
                 "ModEnable": true,
             }
