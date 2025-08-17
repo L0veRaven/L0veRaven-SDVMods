@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        //Original events
+        {
+            "LogName": "Event 1 - ",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "null/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start//{{fadeout}}/end"
+            }
+        },
+        //Edited vanilla events
+        {
+            "LogName": "Town Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "null/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start//{{fadeout}}/end"
+            }
+        },
+    ]
+}

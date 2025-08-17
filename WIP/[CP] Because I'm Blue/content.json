@@ -45,7 +45,15 @@
             "Action": "Include",
             "FromFile": "data/characters/dialogue/introductions.json",
             "When": {
-                "ModEnable": true,
+                "ModEnable": true
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "data/events.json",
+            "When": {
+                "ModEnable": true
             }
         },
     ]
