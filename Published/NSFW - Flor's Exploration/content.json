@@ -51,7 +51,7 @@
             {
                 "LogName": "Character - Replacement",
                 "Action": "EditImage",
-                "Target": "Characters/Flor, Characters/Flor_winter",
+                "Target": "Characters/Flor",
                 "FromFile": "assets/c-Flor.png"
             },
             {
@@ -168,6 +168,18 @@
                 "Entries": {
                     "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 500/emote Flor {{emoteBlush}}/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_3}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_3}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_4}}\"/pause 500/faceDirection Flor {{right}} true/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}} true/emote Flor {{emoteQuestion}}/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 1000/message \"{{i18n:event.followUpAppointment.message_1}}\"/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_4}}\"/pause 1000/speak Paula \"{{i18n:event.followUpAppointment.paula_5}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_5}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_6}}\"/pause 500/faceDirection farmer {{left}} true/faceDirection Flor {{right}} true/emote farmer {{emoteHappy}} true/emote Flor {{emoteHappy}}/pause 1000/{{fadeout}}/end"
                 }
-            }
+            },
+        //Event 10 - Frisky Waters
+            {
+                "LogName": "Event 10 - Frisky Waters",
+                "Action": "EditData",
+                "Target": "Data/Events/BathHouse_Pool", //Bathhouse
+                "Entries": {
+                    "{{modName}}_friskyWaters/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/14 13/farmer 20 13 {{left}} Flor 13 13 {{down}}/skippable/pause 1000/--Start/move farmer -5 0 {{down}}/pause 500/faceDirection Flor {{right}}/pause 500/emote Flor {{emoteHappy}}/pause 500/
+                    speak \"Hello, love.$1\"/pause 500/faceDirection Flor {{down}}/pause 500/
+                    speak \"I'm surprised you also decided to come to the bath house today. We usually don't come here at the same time.#$b#It's not a bad thing, though. I actually enjoy being here with you.$1\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteBlush}}/pause 500/
+                    {{fadeout}}/end"
+                }
+            },
     ]
 }
