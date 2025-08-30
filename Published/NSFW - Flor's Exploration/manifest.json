@@ -1,8 +1,8 @@
 {
     "Name": "NSFW - Flor's Exploration",
     "Author": "L0veRaven",
-    "Description": "Adds more events with themes of Flor exploring her sexuality with the player.",
-    "Version": "1.0.1",
+    "Description": "Adds more events with themes of Flor exploring her sexuality.",
+    "Version": "1.1.0",
     "UniqueID": "L0veRaven.FlorsExploration",
     "UpdateKeys": ["Nexus:36513"],
     "ContentPackFor": {

@@ -1,4 +1,18 @@
 {
+    //v1.1.0
+        //New Dialogue
+    "event.friskyShower.speak_1": "...$15#$b#I really miss @ right now...$17",
+    "event.friskyShower.speak_2": "Even though @ isn't with me right now...$15#$b#That doesn't mean I can't think of them. After all, no one else is around.$16",
+    "event.friskyShower.speak_3": "I wish @ was here to kiss my neck...$26#$b#And touch my breasts...$19",
+    "event.friskyShower.speak_4": "If only @ was here to fuck me...$26#$b#I'll just have to use my hands.$27",
+    "event.friskyShower.speak_5": "Oh fuck~$28#$b#Mmmm~$27",
+    "event.friskyShower.speak_6": "@... Oh @...!$29",
+    "event.friskyShower.speak_7": "Wow...$19#$b#I'm exhausted...$19#$b#I should probably wash up.$27",
+
+        //Updated Dialogue
+    "mail.safewordPractice.body": "Hello @,^^Do you remember our conversation about using a safeword yesterday? The book I referenced suggests that we practice using it just so we know what we're doing for when we maybe do have sex one day.^^Meet me at my place between 6PM to 10PM if you can. I love you!^^From, Florabelle V. Hibisca", //Updated Flor's name (the previous name was incorrect)
+    "mail.lightsOn.body": "Hello love,^^I'm thinking we should have some time alone with each other to get frisky! I think you'll enjoy what I have in mind for us. I'll try to keep the lights on this time, too.^^I'll see you at my room in the Log Cabin Hotel between 7pm and 2am.^^With love, Florabelle V. Hibisca", //Updated Flor's name (the previous name was incorrect)
+
     //Event 1
     "event.confession.speak_1": "Hi @!$1#$b#I hope today has been good for you so far.",
     "event.confession.speak_2": "You know...#$b#There's something that I think might be worth mentioning...$2",
@@ -22,7 +36,6 @@
     "event.libraryBook.speak_8": "I'm glad that sounds great to you.$1#$b#I still have much more reading to do, but I'll let you know when I have new information to share.#$b#... I love you.$4",
     "event.libraryBook.endDialogue": "Remember, our safe work is 'marshmallow'.$1",
     //Letter - Event 3
-    "mail.safewordPractice.body": "Hello @,^^Do you remember our conversation about using a safeword yesterday? The book I referenced suggests that we practice using it just so we know what we're doing for when we maybe do have sex one day.^^Meet me at my place between 6PM to 10PM if you can. I love you!^^From, Floradora Hibiscado",
     "mail.safewordPractice.title": "Safeword Practice",
     //Event 3
     "event.safewordPractice.speak_1": "Thanks for meeting me here, @. It really means a lot to me that you're willing to try this out.$1",
@@ -135,7 +148,6 @@
     "event.couplesCounseling.flor_13": "Thanks, again. It means a lot to me.$13",
     "event.couplesCounseling.endDialogue": "Thanks for coming with me. I think this will be great for us.$4",
     //Event 8 - Letter
-    "mail.lightsOn.body": "Hello love,^^I'm thinking we should have some time alone with each other to get frisky! I think you'll enjoy what I have in mind for us. I'll try to keep the lights on this time, too.^^I'll see you at my room in the Log Cabin Hotel between 7pm and 2am.^^With love, Floradora Hibiscado",
     "mail.lightsOn.title": "Lights On",
     //Event 8
     "event.lightsOn.speak_1": "I'm glad you were able to meet me here!$1#$b#How are you feeling right now?",
