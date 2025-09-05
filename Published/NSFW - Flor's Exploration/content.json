@@ -169,19 +169,13 @@
                     "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 500/emote Flor {{emoteBlush}}/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_3}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_3}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_4}}\"/pause 500/faceDirection Flor {{right}} true/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}} true/emote Flor {{emoteQuestion}}/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 1000/message \"{{i18n:event.followUpAppointment.message_1}}\"/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_4}}\"/pause 1000/speak Paula \"{{i18n:event.followUpAppointment.paula_5}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_5}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_6}}\"/pause 500/faceDirection farmer {{left}} true/faceDirection Flor {{right}} true/emote farmer {{emoteHappy}} true/emote Flor {{emoteHappy}}/pause 1000/{{fadeout}}/end"
                 }
             },
+        //Event 10 - Frisky Shower
             {
-                "LogName": "Blank Loads for Bath House",
-                "Action": "Load",
-                "Target": "Data/Events/BathHouse_Entry, Data/Events/BathHouse_WomensLocker, Data/Events/BathHouse_MensLocker",
-                "FromFile": "blank.json"
-            },
-        //Event 10 - Frisky Waters
-            {
-                "LogName": "Event 10 - Frisky Waters",
+                "LogName": "Event 10 - Frisky Shower",
                 "Action": "EditData",
-                "Target": "Data/Events/BathHouse_Entry",
+                "Target": "Data/Events/Railroad",
                 "Entries": {
-                    "{{ModID}}_friskyShower/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday": "sweet/3 5/farmer -1000 -1000 {{down}} Flor 3 5 {{down}}/skippable/changeToTemporaryMap BathHouse_WomensLocker/showFrame Flor 49/pause 2500/--Start/speak Flor \"{{i18n:event.friskyShower.speak_1}}\"/pause 500/showFrame Flor 61/pause 500/speak Flor \"{{i18n:event.friskyShower.speak_2}}\"/pause 500/showFrame Flor 49/pause 500/animate Flor false true 500 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_3}}\"/pause 5000/stopAnimation Flor 51/animate Flor false true 300 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_4}}\"/stopAnimation Flor 51/animate Flor false false 300 56 57 58 59 60/stopAnimation Flor 57/animate Flor false true 300 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_5}}\"/pause 2000/stopAnimation Flor 60/animate Flor false true 200 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_6}}\"/pause 3000/stopAnimation Flor 57/pause 500/showFrame Flor 59/pause 250/showFrame Flor 57/pause 2000/showFrame Flor 49/pause 1000/speak Flor \"{{i18n:event.friskyShower.speak_7}}\"/pause 1000/end"
+                    "{{modName}}_friskyShower/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Monday": "sweet/3 5/farmer -1000 -1000 {{down}} Flor 3 5 {{down}}/skippable/changeToTemporaryMap BathHouse_WomensLocker/showFrame Flor 49/pause 2500/--Start/speak Flor \"{{i18n:event.friskyShower.speak_1}}\"/pause 500/showFrame Flor 61/pause 500/speak Flor \"{{i18n:event.friskyShower.speak_2}}\"/pause 500/showFrame Flor 49/pause 500/animate Flor false true 500 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_3}}\"/pause 5000/stopAnimation Flor 51/animate Flor false true 300 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_4}}\"/stopAnimation Flor 51/animate Flor false false 300 56 57 58 59 60/stopAnimation Flor 57/animate Flor false true 300 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_5}}\"/pause 2000/stopAnimation Flor 60/animate Flor false true 200 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_6}}\"/pause 3000/stopAnimation Flor 57/pause 500/showFrame Flor 59/pause 250/showFrame Flor 57/pause 2000/showFrame Flor 49/pause 1000/speak Flor \"{{i18n:event.friskyShower.speak_7}}\"/pause 1000/end"
                 }
             },
     ]
