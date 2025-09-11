@@ -178,5 +178,16 @@
                     "{{modName}}_friskyShower/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Monday": "sweet/3 5/farmer -1000 -1000 {{down}} Flor 3 5 {{down}}/skippable/changeToTemporaryMap BathHouse_WomensLocker/showFrame Flor 49/pause 2500/--Start/speak Flor \"{{i18n:event.friskyShower.speak_1}}\"/pause 500/showFrame Flor 61/pause 500/speak Flor \"{{i18n:event.friskyShower.speak_2}}\"/pause 500/showFrame Flor 49/pause 500/animate Flor false true 500 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_3}}\"/pause 5000/stopAnimation Flor 51/animate Flor false true 300 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_4}}\"/stopAnimation Flor 51/animate Flor false false 300 56 57 58 59 60/stopAnimation Flor 57/animate Flor false true 300 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_5}}\"/pause 2000/stopAnimation Flor 60/animate Flor false true 200 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_6}}\"/pause 3000/stopAnimation Flor 57/pause 500/showFrame Flor 59/pause 250/showFrame Flor 57/pause 2000/showFrame Flor 49/pause 1000/speak Flor \"{{i18n:event.friskyShower.speak_7}}\"/pause 1000/end"
                 }
             },
+        //Event 11 - First Toy
+            {
+                "LogName": "Event 11 - First Toy",
+                "Action": "EditData",
+                "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
+                "Entries": {
+                    "{{modName}}_firstToy/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Thursday": "sweet/9 5/farmer -1000 -1000 {{down}} Flor 2 5 {{up}}/skippable/pause 2500/--Start/speak Flor \"{{i18n:event.event.firstToy.speak_1}}\"/pause 500/move Flor 0 2 {{right}}/move Flor 2 0 {{down}}/pause 500/speak Flor \"{{i18n:event.event.firstToy.speak_2}}\"/pause 1000/end"
+                    //speak Flor \"{{i18n:event.event.firstToy.speak_}}\"/
+                    //make sprites
+                }
+            }
     ]
 }

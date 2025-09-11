@@ -1,4 +1,8 @@
 {
+    //v1.2.0
+        //New Dialogue
+    "event.firstToy.speak_1": "Alright... I have some time to myself right now.",
+    "event.firstToy.speak_2": "I didn't think I'd ever purchase something like this but...#$b#I'm willing to give it a shot! I wonder how much it feels like the real thing, though.$1",
     //v1.1.0
         //New Dialogue
     "event.friskyShower.speak_1": "...$15#$b#I really miss @ right now...$17",
