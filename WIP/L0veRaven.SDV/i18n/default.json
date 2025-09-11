@@ -847,11 +847,12 @@
     "festivalDialogue.zayden.flowerDance_1": "There's hardly any shade around here. Hopefully I don't get a rash.$3",
     "festivalDialogue.zayden.flowerDance_2": "The flowers smell really nice this year.$1",
         //Luau
-    "raven.festival.dialogue.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#What do you mean Mayor Lewis is waiting for you? Why do you get to decide when to start?$17#$b#Meh, Mayor Lewis doesn't make sense sometimes.",
-    "raven.festival.dialogue.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#I wonder if anyone's gonna go into the water to cool down.$17#$b#Would it be so bad if I went in first?$11",
-
-    "raven.festival.dialogue.spouse.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#Don't take too long. I know Mayor Lewis is waiting for you so we can eat.",
-    "raven.festival.dialogue.spouse.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#You should take a dip in the water with me so we can cool off.$1",
+    "festivalDialogue.raven.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#What do you mean Mayor Lewis is waiting for you? Why do you get to decide when to start?$17#$b#Meh, Mayor Lewis doesn't make sense sometimes.",
+    "festivalDialogue.raven.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#I wonder if anyone's gonna go into the water to cool down.$17#$b#Would it be so bad if I went in first?$11",
+    "festivalDialogue.raven.spouse.luau_1": "My stomach is growling right now. When are we gonna eat?$2#$e#Don't take too long. I know Mayor Lewis is waiting for you so we can eat.",
+    "festivalDialogue.raven.spouse.luau_2": "Not gonna lie, it's pretty hot outside right now. I can feel the sweat and I hate it.$17#$e#You should take a dip in the water with me so we can cool off.$1",
+    "festivalDialogue.zayden.luau_1": "I'll pass on the soup this year. I know it's a big deal, but I'm not feeling adventurous this year.",
+    "festivalDialogue.zayden.luau_2": "I wonder if anyone's gonna put anything gross in the soup. I'd rather not get sick this year.",
         //Dance of The Moonlight Jellies
     "festivalDialogue.raven.moonlightJellies_1": "I wonder what colors we can't see tonight because of our eyes.#$e#I say that because some animals can see more colors than us apparently!#1",
     "festivalDialogue.raven.moonlightJellies_2": "Do you think the midnight jellies are toxic? I never see anyone swimming during the festival.$17",
