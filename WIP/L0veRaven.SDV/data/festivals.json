@@ -153,11 +153,11 @@
             "TextOperations": [
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 49 90 left/{{Zayden}} 48 89 down", "Delimiter": "/"
                 },
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 43 94 right/{{Zayden}} 45 94 left", "Delimiter": "/"
                 }
             ],
             "Entries": {
@@ -177,11 +177,11 @@
             "TextOperations": [
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 32 64 down/{{Zayden}} 35 64 down", "Delimiter": "/"
                 },
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 28 62 down/{{Zayden}} 29 62 down", "Delimiter": "/"
                 }
             ],
             "Entries": {
@@ -202,29 +202,29 @@
                 //Year 1 - Pre-Event
                     {
                         "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 56 27 down/{{Zayden}} 58 27 down", "Delimiter": "/"
                     },
                     {
                         "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 96 39 down/{{Zayden}} 95 39 down", "Delimiter": "/"
                     },
                 //Year 1 - Main Event
                     {
                         "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 62 34 right/{{Zayden}} 63 37 right", "Delimiter": "/"
                     },
                     {
                         "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 63 38 right/{{Zayden}} 65 39 right", "Delimiter": "/"
                     },
                 //Year 1 - After Ice Fishing
                     {
                         "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 62 34 right/{{Zayden}} 63 37 right", "Delimiter": "/"
                     },
                     {
                         "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
-                        "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                        "Value": "{{Raven}} 63 38 right/{{Zayden}} 65 39 right", "Delimiter": "/"
                     },
             ],
             "Entries": {
@@ -245,20 +245,20 @@
                 //Set up
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 33 79 right/{{Zayden}} 35 79 left", "Delimiter": "/"
                 },
                 {
                     "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 37 72 left/{{Zayden}} 36 73 up", "Delimiter": "/"
                 },
                 //Secret Santa
                 {
                     "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 33 79 right/{{Zayden}} 35 79 left", "Delimiter": "/"
                 },
                 {
                     "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
-                    "Value": "{{Raven}} 5 0 down/{{Zayden}} 0 0 down", "Delimiter": "/"
+                    "Value": "{{Raven}} 37 72 left/{{Zayden}} 36 73 up", "Delimiter": "/"
                 }
             ]
         }
