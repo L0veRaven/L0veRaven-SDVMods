@@ -1,6 +1,5 @@
 {
     "Format": "2.7.5",
-
     "ConfigSchema": {
         //Spirit's Eve Costumes
         "RavenCactusCostumeSE": {
@@ -33,118 +32,824 @@
         },
         //Modder Settings
         //## TODO: Delete on release
-            //Index - Shows NPCs with index numbers for sprites and portraits
-                "RavenIndex": {
-                    "Default": "false",
-                    "AllowValues": "true, false",
-                    "AllowBlank": false,
-                    "Section": "ModderSettings",
-                    "Description": null
-                },
-                "ZaydenIndex": {
-                    "Default": "false",
-                    "AllowValues": "true, false",
-                    "AllowBlank": false,
-                    "Section": "ModderSettings",
-                    "Description": null
-                },
-            //Event Excludes: Toggle
-                "EventExcludes": {
-                    "Default": "None",
-                    "AllowBlank": false,
-                    "AllowValues": "Raven, Zayden, None",
-                    "Section": "ModderSettings",
-                    "Description": null
-                }
+        //Index - Shows NPCs with index numbers for sprites and portraits
+        "RavenIndex": {
+            "Default": "false",
+            "AllowValues": "true, false",
+            "AllowBlank": false,
+            "Section": "ModderSettings",
+            "Description": null
+        },
+        "ZaydenIndex": {
+            "Default": "false",
+            "AllowValues": "true, false",
+            "AllowBlank": false,
+            "Section": "ModderSettings",
+            "Description": null
+        },
+        //Event Excludes: Toggle
+        "EventExcludes": {
+            "Default": "None",
+            "AllowBlank": false,
+            "AllowValues": "Raven, Zayden, None",
+            "Section": "ModderSettings",
+            "Description": null
+        }
     },
-
     "DynamicTokens": [
         //Mod Info
-        {"Name": "Nexus","Value": "27407"},
+        {
+            "Name": "Nexus",
+            "Value": "27407"
+        },
         //ModCompat Nicknames -> External ModId's
-        {"Name": "RSV","Value": "Rafseazz.RSVCP"},
-        {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
-        {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
-        {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
-        {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
+        {
+            "Name": "RSV",
+            "Value": "Rafseazz.RSVCP"
+        },
+        {
+            "Name": "CJBC",
+            "Value": "CJBok.CheatsMenu"
+        },
+        {
+            "Name": "NPCA",
+            "Value": "FireRedLily.NPCApartments"
+        },
+        {
+            "Name": "NB",
+            "Value": "Raspb3rryfields.NaturesBounty"
+        },
+        {
+            "Name": "SVE",
+            "Value": "FlashShifter.StardewValleyExpandedCP"
+        },
         //Internal Names
-        {"Name": "Raven","Value": "L0veRaven_Raven"},
-        {"Name": "RavenLC","Value": "l0veraven_raven"},
-        {"Name": "Zayden","Value": "L0veRaven_Zayden"},
-        {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
+        {
+            "Name": "Raven",
+            "Value": "L0veRaven_Raven"
+        },
+        {
+            "Name": "RavenLC",
+            "Value": "l0veraven_raven"
+        },
+        {
+            "Name": "Zayden",
+            "Value": "L0veRaven_Zayden"
+        },
+        {
+            "Name": "ZaydenLC",
+            "Value": "l0veraven_zayden"
+        },
         //Display Names
-        {"Name": "RavenDisplayName","Value": "{{i18n:displayName.raven}}"},
-        {"Name": "ZaydenDisplayName","Value": "{{i18n:displayName.zayden}}"},
+        {
+            "Name": "RavenDisplayName",
+            "Value": "{{i18n:displayName.raven}}"
+        },
+        {
+            "Name": "ZaydenDisplayName",
+            "Value": "{{i18n:displayName.zayden}}"
+        },
         //Locations
-        {"Name": "apartment","Value": "FRL_NPCApt_Floor1"},
+        {
+            "Name": "apartment",
+            "Value": "FRL_NPCApt_Floor1"
+        },
         //Emotes
-        {"Name": "emoteEmptyCan","Value": "4"},
-        {"Name": "emoteQuestion","Value": "8"},
-        {"Name": "emoteAngry","Value": "12"},
-        {"Name": "emoteExclaim","Value": "16"},
-        {"Name": "emoteHeart","Value": "20"},
-        {"Name": "emoteSleep","Value": "24"},
-        {"Name": "emoteSweat","Value": "28"},
-        {"Name": "emoteHappy","Value": "32"},
-        {"Name": "emoteX","Value": "36"},
-        {"Name": "emotePause","Value": "40"},
-        {"Name": "emoteVideoGame","Value": "52"},
-        {"Name": "emoteMusic","Value": "56"},
-        {"Name": "emoteBlush","Value": "60"},
+        {
+            "Name": "emoteEmptyCan",
+            "Value": "4"
+        },
+        {
+            "Name": "emoteQuestion",
+            "Value": "8"
+        },
+        {
+            "Name": "emoteAngry",
+            "Value": "12"
+        },
+        {
+            "Name": "emoteExclaim",
+            "Value": "16"
+        },
+        {
+            "Name": "emoteHeart",
+            "Value": "20"
+        },
+        {
+            "Name": "emoteSleep",
+            "Value": "24"
+        },
+        {
+            "Name": "emoteSweat",
+            "Value": "28"
+        },
+        {
+            "Name": "emoteHappy",
+            "Value": "32"
+        },
+        {
+            "Name": "emoteX",
+            "Value": "36"
+        },
+        {
+            "Name": "emotePause",
+            "Value": "40"
+        },
+        {
+            "Name": "emoteVideoGame",
+            "Value": "52"
+        },
+        {
+            "Name": "emoteMusic",
+            "Value": "56"
+        },
+        {
+            "Name": "emoteBlush",
+            "Value": "60"
+        },
         //Event Commands
-        {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
+        {
+            "Name": "fadeout",
+            "Value": "globalFade/viewport -1000 -1000"
+        },
         //Time
-        {"Name": "6am","Value": "600"},{"Name": "610am","Value": "610"},{"Name": "620am","Value": "620"},{"Name": "630am","Value": "630"},{"Name": "640am","Value": "640"},{"Name": "650am","Value": "650"},{"Name": "7am","Value": "700"},{"Name": "710am","Value": "710"},{"Name": "720am","Value": "720"},{"Name": "730am","Value": "730"},{"Name": "740am","Value": "740"},{"Name": "750am","Value": "750"},{"Name": "8am","Value": "800"},{"Name": "810am","Value": "810"},{"Name": "820am","Value": "820"},{"Name": "830am","Value": "830"},{"Name": "840am","Value": "840"},{"Name": "850am","Value": "850"},{"Name": "9am","Value": "900"},{"Name": "910am","Value": "910"},{"Name": "920am","Value": "920"},{"Name": "930am","Value": "930"},{"Name": "940am","Value": "940"},{"Name": "950am","Value": "950"},{"Name": "10am","Value": "1000"},{"Name": "1010am","Value": "1010"},{"Name": "1020am","Value": "1020"},{"Name": "1030am","Value": "1030"},{"Name": "1040am","Value": "1040"},{"Name": "1050am","Value": "1050"},{"Name": "11am","Value": "1100"},{"Name": "1110am","Value": "1110"},{"Name": "1120am","Value": "1120"},{"Name": "1130am","Value": "1130"},{"Name": "1140am","Value": "1140"},{"Name": "1150am","Value": "1150"},{"Name": "12pm","Value": "1200"},{"Name": "1210pm","Value": "1210"},{"Name": "1220pm","Value": "1220"},{"Name": "1230pm","Value": "1230"},{"Name": "1240pm","Value": "1240"},{"Name": "1250pm","Value": "1250"},{"Name": "1pm","Value": "1300"},{"Name": "110pm","Value": "1310"},{"Name": "120pm","Value": "1320"},{"Name": "130pm","Value": "1330"},{"Name": "140pm","Value": "1340"},{"Name": "150pm","Value": "1350"},{"Name": "2pm","Value": "1400"},{"Name": "210pm","Value": "1410"},{"Name": "220pm","Value": "1420"},{"Name": "230pm","Value": "1430"},{"Name": "240pm","Value": "1440"},{"Name": "250pm","Value": "1450"},{"Name": "3pm","Value": "1500"},{"Name": "310pm","Value": "1510"},{"Name": "320pm","Value": "1520"},{"Name": "330pm","Value": "1530"},{"Name": "340pm","Value": "1540"},{"Name": "350pm","Value": "1550"},{"Name": "4pm","Value": "1600"},{"Name": "410pm","Value": "1610"},{"Name": "420pm","Value": "1620"},{"Name": "430pm","Value": "1630"},{"Name": "440pm","Value": "1640"},{"Name": "450pm","Value": "1650"},{"Name": "5pm","Value": "1700"},{"Name": "510pm","Value": "1710"},{"Name": "520pm","Value": "1720"},{"Name": "530pm","Value": "1730"},{"Name": "540pm","Value": "1740"},{"Name": "550pm","Value": "1750"},{"Name": "6pm","Value": "1800"},{"Name": "610pm","Value": "1810"},{"Name": "620pm","Value": "1820"},{"Name": "630pm","Value": "1830"},{"Name": "640pm","Value": "1840"},{"Name": "650pm","Value": "1850"},{"Name": "7pm","Value": "1900"},{"Name": "710pm","Value": "1910"},{"Name": "720pm","Value": "1920"},{"Name": "730pm","Value": "1930"},{"Name": "740pm","Value": "1940"},{"Name": "750pm","Value": "1950"},{"Name": "8pm","Value": "2000"},{"Name": "810pm","Value": "2010"},{"Name": "820pm","Value": "2020"},{"Name": "830pm","Value": "2030"},{"Name": "840pm","Value": "2040"},{"Name": "850pm","Value": "2050"},{"Name": "9pm","Value": "2100"},{"Name": "910pm","Value": "2110"},{"Name": "920pm","Value": "2120"},{"Name": "930pm","Value": "2130"},{"Name": "940pm","Value": "2140"},{"Name": "950pm","Value": "2150"},{"Name": "10pm","Value": "2200"},{"Name": "1010pm","Value": "2210"},{"Name": "1020pm","Value": "2220"},{"Name": "1030pm","Value": "2230"},{"Name": "1040pm","Value": "2240"},{"Name": "1050pm","Value": "2250"},{"Name": "11pm","Value": "2300"},{"Name": "1110pm","Value": "2310"},{"Name": "1120pm","Value": "2320"},{"Name": "1130pm","Value": "2330"},{"Name": "1140pm","Value": "2340"},{"Name": "1150pm","Value": "2350"},{"Name": "12am","Value": "2400"},{"Name": "1210am","Value": "2410"},{"Name": "1220am","Value": "2420"},{"Name": "1230am","Value": "2430"},{"Name": "1240am","Value": "2440"},{"Name": "1250am","Value": "2450"},{"Name": "1am","Value": "2500"},{"Name": "110am","Value": "2510"},{"Name": "120am","Value": "2520"},{"Name": "130am","Value": "2530"},{"Name": "140am","Value": "2540"},{"Name": "150am","Value": "2550"},{"Name": "2am","Value": "2600"},
+        {
+            "Name": "6am",
+            "Value": "600"
+        },
+        {
+            "Name": "610am",
+            "Value": "610"
+        },
+        {
+            "Name": "620am",
+            "Value": "620"
+        },
+        {
+            "Name": "630am",
+            "Value": "630"
+        },
+        {
+            "Name": "640am",
+            "Value": "640"
+        },
+        {
+            "Name": "650am",
+            "Value": "650"
+        },
+        {
+            "Name": "7am",
+            "Value": "700"
+        },
+        {
+            "Name": "710am",
+            "Value": "710"
+        },
+        {
+            "Name": "720am",
+            "Value": "720"
+        },
+        {
+            "Name": "730am",
+            "Value": "730"
+        },
+        {
+            "Name": "740am",
+            "Value": "740"
+        },
+        {
+            "Name": "750am",
+            "Value": "750"
+        },
+        {
+            "Name": "8am",
+            "Value": "800"
+        },
+        {
+            "Name": "810am",
+            "Value": "810"
+        },
+        {
+            "Name": "820am",
+            "Value": "820"
+        },
+        {
+            "Name": "830am",
+            "Value": "830"
+        },
+        {
+            "Name": "840am",
+            "Value": "840"
+        },
+        {
+            "Name": "850am",
+            "Value": "850"
+        },
+        {
+            "Name": "9am",
+            "Value": "900"
+        },
+        {
+            "Name": "910am",
+            "Value": "910"
+        },
+        {
+            "Name": "920am",
+            "Value": "920"
+        },
+        {
+            "Name": "930am",
+            "Value": "930"
+        },
+        {
+            "Name": "940am",
+            "Value": "940"
+        },
+        {
+            "Name": "950am",
+            "Value": "950"
+        },
+        {
+            "Name": "10am",
+            "Value": "1000"
+        },
+        {
+            "Name": "1010am",
+            "Value": "1010"
+        },
+        {
+            "Name": "1020am",
+            "Value": "1020"
+        },
+        {
+            "Name": "1030am",
+            "Value": "1030"
+        },
+        {
+            "Name": "1040am",
+            "Value": "1040"
+        },
+        {
+            "Name": "1050am",
+            "Value": "1050"
+        },
+        {
+            "Name": "11am",
+            "Value": "1100"
+        },
+        {
+            "Name": "1110am",
+            "Value": "1110"
+        },
+        {
+            "Name": "1120am",
+            "Value": "1120"
+        },
+        {
+            "Name": "1130am",
+            "Value": "1130"
+        },
+        {
+            "Name": "1140am",
+            "Value": "1140"
+        },
+        {
+            "Name": "1150am",
+            "Value": "1150"
+        },
+        {
+            "Name": "12pm",
+            "Value": "1200"
+        },
+        {
+            "Name": "1210pm",
+            "Value": "1210"
+        },
+        {
+            "Name": "1220pm",
+            "Value": "1220"
+        },
+        {
+            "Name": "1230pm",
+            "Value": "1230"
+        },
+        {
+            "Name": "1240pm",
+            "Value": "1240"
+        },
+        {
+            "Name": "1250pm",
+            "Value": "1250"
+        },
+        {
+            "Name": "1pm",
+            "Value": "1300"
+        },
+        {
+            "Name": "110pm",
+            "Value": "1310"
+        },
+        {
+            "Name": "120pm",
+            "Value": "1320"
+        },
+        {
+            "Name": "130pm",
+            "Value": "1330"
+        },
+        {
+            "Name": "140pm",
+            "Value": "1340"
+        },
+        {
+            "Name": "150pm",
+            "Value": "1350"
+        },
+        {
+            "Name": "2pm",
+            "Value": "1400"
+        },
+        {
+            "Name": "210pm",
+            "Value": "1410"
+        },
+        {
+            "Name": "220pm",
+            "Value": "1420"
+        },
+        {
+            "Name": "230pm",
+            "Value": "1430"
+        },
+        {
+            "Name": "240pm",
+            "Value": "1440"
+        },
+        {
+            "Name": "250pm",
+            "Value": "1450"
+        },
+        {
+            "Name": "3pm",
+            "Value": "1500"
+        },
+        {
+            "Name": "310pm",
+            "Value": "1510"
+        },
+        {
+            "Name": "320pm",
+            "Value": "1520"
+        },
+        {
+            "Name": "330pm",
+            "Value": "1530"
+        },
+        {
+            "Name": "340pm",
+            "Value": "1540"
+        },
+        {
+            "Name": "350pm",
+            "Value": "1550"
+        },
+        {
+            "Name": "4pm",
+            "Value": "1600"
+        },
+        {
+            "Name": "410pm",
+            "Value": "1610"
+        },
+        {
+            "Name": "420pm",
+            "Value": "1620"
+        },
+        {
+            "Name": "430pm",
+            "Value": "1630"
+        },
+        {
+            "Name": "440pm",
+            "Value": "1640"
+        },
+        {
+            "Name": "450pm",
+            "Value": "1650"
+        },
+        {
+            "Name": "5pm",
+            "Value": "1700"
+        },
+        {
+            "Name": "510pm",
+            "Value": "1710"
+        },
+        {
+            "Name": "520pm",
+            "Value": "1720"
+        },
+        {
+            "Name": "530pm",
+            "Value": "1730"
+        },
+        {
+            "Name": "540pm",
+            "Value": "1740"
+        },
+        {
+            "Name": "550pm",
+            "Value": "1750"
+        },
+        {
+            "Name": "6pm",
+            "Value": "1800"
+        },
+        {
+            "Name": "610pm",
+            "Value": "1810"
+        },
+        {
+            "Name": "620pm",
+            "Value": "1820"
+        },
+        {
+            "Name": "630pm",
+            "Value": "1830"
+        },
+        {
+            "Name": "640pm",
+            "Value": "1840"
+        },
+        {
+            "Name": "650pm",
+            "Value": "1850"
+        },
+        {
+            "Name": "7pm",
+            "Value": "1900"
+        },
+        {
+            "Name": "710pm",
+            "Value": "1910"
+        },
+        {
+            "Name": "720pm",
+            "Value": "1920"
+        },
+        {
+            "Name": "730pm",
+            "Value": "1930"
+        },
+        {
+            "Name": "740pm",
+            "Value": "1940"
+        },
+        {
+            "Name": "750pm",
+            "Value": "1950"
+        },
+        {
+            "Name": "8pm",
+            "Value": "2000"
+        },
+        {
+            "Name": "810pm",
+            "Value": "2010"
+        },
+        {
+            "Name": "820pm",
+            "Value": "2020"
+        },
+        {
+            "Name": "830pm",
+            "Value": "2030"
+        },
+        {
+            "Name": "840pm",
+            "Value": "2040"
+        },
+        {
+            "Name": "850pm",
+            "Value": "2050"
+        },
+        {
+            "Name": "9pm",
+            "Value": "2100"
+        },
+        {
+            "Name": "910pm",
+            "Value": "2110"
+        },
+        {
+            "Name": "920pm",
+            "Value": "2120"
+        },
+        {
+            "Name": "930pm",
+            "Value": "2130"
+        },
+        {
+            "Name": "940pm",
+            "Value": "2140"
+        },
+        {
+            "Name": "950pm",
+            "Value": "2150"
+        },
+        {
+            "Name": "10pm",
+            "Value": "2200"
+        },
+        {
+            "Name": "1010pm",
+            "Value": "2210"
+        },
+        {
+            "Name": "1020pm",
+            "Value": "2220"
+        },
+        {
+            "Name": "1030pm",
+            "Value": "2230"
+        },
+        {
+            "Name": "1040pm",
+            "Value": "2240"
+        },
+        {
+            "Name": "1050pm",
+            "Value": "2250"
+        },
+        {
+            "Name": "11pm",
+            "Value": "2300"
+        },
+        {
+            "Name": "1110pm",
+            "Value": "2310"
+        },
+        {
+            "Name": "1120pm",
+            "Value": "2320"
+        },
+        {
+            "Name": "1130pm",
+            "Value": "2330"
+        },
+        {
+            "Name": "1140pm",
+            "Value": "2340"
+        },
+        {
+            "Name": "1150pm",
+            "Value": "2350"
+        },
+        {
+            "Name": "12am",
+            "Value": "2400"
+        },
+        {
+            "Name": "1210am",
+            "Value": "2410"
+        },
+        {
+            "Name": "1220am",
+            "Value": "2420"
+        },
+        {
+            "Name": "1230am",
+            "Value": "2430"
+        },
+        {
+            "Name": "1240am",
+            "Value": "2440"
+        },
+        {
+            "Name": "1250am",
+            "Value": "2450"
+        },
+        {
+            "Name": "1am",
+            "Value": "2500"
+        },
+        {
+            "Name": "110am",
+            "Value": "2510"
+        },
+        {
+            "Name": "120am",
+            "Value": "2520"
+        },
+        {
+            "Name": "130am",
+            "Value": "2530"
+        },
+        {
+            "Name": "140am",
+            "Value": "2540"
+        },
+        {
+            "Name": "150am",
+            "Value": "2550"
+        },
+        {
+            "Name": "2am",
+            "Value": "2600"
+        },
         //Directions
-        {"Name": "up","Value": "0"},{"Name": "right","Value": "1"},{"Name": "down","Value": "2"},{"Name": "left","Value": "3"},
+        {
+            "Name": "up",
+            "Value": "0"
+        },
+        {
+            "Name": "right",
+            "Value": "1"
+        },
+        {
+            "Name": "down",
+            "Value": "2"
+        },
+        {
+            "Name": "left",
+            "Value": "3"
+        },
         //Custom Locations
-        {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInside","When": {"HasMod |contains={{SVE}}": "false"}},
-        {"Name": "RavenTentInside","Value": "Custom_L0veRaven_RavenTentInsideSVE","When": {"HasMod |contains={{SVE}}": "true"}},
-    //Dialogue: Medication Pickup
-        {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf}}","When": {"Query: '{{Season}}' = 'Winter'": false}},
-        {"Name": "RavenMedicationPickupDialogue","Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday}}","When": {"Query: '{{Season}}' = 'Winter'": true}},
-    //Schedule Dialogue
-        {"Name": "Zayden_ScheduleDialogue_JojaSweep","Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""},
-    //Animations
-        {"Name": "Raven_Animation_Sweep","Value": "l0veraven_raven_sweep"},
-        {"Name": "Raven_Animation_Stand","Value": "l0veraven_raven_stand"},
-        {"Name": "Zayden_Animation_Sweep","Value": "l0veraven_zayden_sweep"},
-        {"Name": "Zayden_Animation_Sleep","Value": "l0veraven_zayden_sleep"},
+        {
+            "Name": "RavenTentInside",
+            "Value": "Custom_L0veRaven_RavenTentInside",
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
+        },
+        {
+            "Name": "RavenTentInside",
+            "Value": "Custom_L0veRaven_RavenTentInsideSVE",
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
+        },
+        //Dialogue: Medication Pickup
+        {
+            "Name": "RavenMedicationPickupDialogue",
+            "Value": "{{i18n:dialogue.raven.medicationPickup.dayOf}}",
+            "When": {
+                "Query: '{{Season}}' = 'Winter'": false
+            }
+        },
+        {
+            "Name": "RavenMedicationPickupDialogue",
+            "Value": "{{i18n:dialogue.raven.medicationPickup.dayOf_birthday}}",
+            "When": {
+                "Query: '{{Season}}' = 'Winter'": true
+            }
+        },
+        //Schedule Dialogue
+        {
+            "Name": "Zayden_ScheduleDialogue_JojaSweep",
+            "Value": "\"Strings\\schedules\\{{Zayden}}:JojaMart.001\""
+        },
+        //Animations
+        {
+            "Name": "Raven_Animation_Sweep",
+            "Value": "l0veraven_raven_sweep"
+        },
+        {
+            "Name": "Raven_Animation_Stand",
+            "Value": "l0veraven_raven_stand"
+        },
+        {
+            "Name": "Zayden_Animation_Sweep",
+            "Value": "l0veraven_zayden_sweep"
+        },
+        {
+            "Name": "Zayden_Animation_Sleep",
+            "Value": "l0veraven_zayden_sleep"
+        },
         //Positions
-            //Bus Stop
-        {"Name": "Raven_Animation_StandBusStop","Value": "BusStop 20 22 2"},
-
-        {"Name": "RavenRelaxForest","Value": "Forest 56 81 3","When": {"HasMod |contains={{SVE}}": "false"}},
-        {"Name": "Raven_Animation_StandRiverForest","Value": "Forest 39 75 3","When": {"HasMod |contains={{SVE}}": "false"}},
-            //Stardew Valley Expanded
-        {"Name": "RavenRelaxForest","Value": "Forest 90 89 3","When": {"HasMod |contains={{SVE}}": "true"}},
-        {"Name": "Raven_Animation_StandRiverForest","Value": "Forest 64 89 3","When": {"HasMod |contains={{SVE}}": "true"}},
-            //Custom_L0veRaven_RavenTentInside
-        {"Name": "Raven_Animation_StandStove","Value": "{{RavenTentInside}} 3 2 0 \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasMod |contains={{SVE}}": "false","HasFlag: |contains={{Raven}}_Apartment": false}},
-        {"Name": "RavenInBed","Value": "{{RavenTentInside}} 3 4 1 l0veraven_raven_sleep"},
-            //FRL_NPCApt_Floor1
-        {"Name": "Raven_Animation_StandStove","Value": "FRL_NPCApt_Floor1 13 13 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"","When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-        {"Name": "RavenInBed","Value": "FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep","When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-            //Town
-        {"Name": "Raven_Animation_StandCC","Value": "Town 60 17 2"},
-
-        {"Name": "RavenRelaxBushTown","Value": "Town 47 77 2"},
-            //Hospital
-        {"Name": "Raven_Animation_StandMeds","Value": "Hospital 5 17 0"},
-            //SeedShop
-        {"Name": "RavenShoppingSS","Value": "SeedShop 16 28 3 \"Strings\\schedules\\{{Raven}}:SeedShop.001\""},
-            //Saloon
-        {"Name": "Raven_Animation_SweepJobSaloon1","Value": "Saloon 5 17 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-        {"Name": "Raven_Animation_SweepJobSaloon2","Value": "Saloon 23 22 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-        {"Name": "Raven_Animation_SweepJobSaloon3","Value": "Saloon 33 8 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""},
-        {"Name": "Raven_Animation_StandTableSaloon","Value": "Saloon 43 22 2"},
-            //ArchaeologyHouse
-        {"Name": "Raven_Animation_StandBookcase","Value": "ArchaeologyHouse 8 13 1","When": {"HasMod |contains={{SVE}}": "false"}},
-        {"Name": "Raven_Animation_StandBookcase","Value": "ArchaeologyHouse 7 18 3","When": {"HasMod |contains={{SVE}}": "true"}},
-            //Beach
-        {"Name": "RavenRelaxBeach","Value": "Beach 43 23 2"},
-            //Mountain
-        {"Name": "Raven_Animation_StandMountain","Value": "Mountain 57 33 1"},
+        //Bus Stop
+        {
+            "Name": "Raven_Animation_StandBusStop",
+            "Value": "BusStop 20 22 2"
+        },
+        {
+            "Name": "RavenRelaxForest",
+            "Value": "Forest 56 81 3",
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
+        },
+        {
+            "Name": "Raven_Animation_StandRiverForest",
+            "Value": "Forest 39 75 3",
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
+        },
+        //Stardew Valley Expanded
+        {
+            "Name": "RavenRelaxForest",
+            "Value": "Forest 90 89 3",
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
+        },
+        {
+            "Name": "Raven_Animation_StandRiverForest",
+            "Value": "Forest 64 89 3",
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
+        },
+        //Custom_L0veRaven_RavenTentInside
+        {
+            "Name": "Raven_Animation_StandStove",
+            "Value": "{{RavenTentInside}} 3 2 0 \"Strings\\schedules\\{{Raven}}:Custom_L0veRaven_RavenTentInside.001\"",
+            "When": {
+                "HasMod |contains={{SVE}}": "false",
+                "HasFlag: |contains={{Raven}}_Apartment": false
+            }
+        },
+        {
+            "Name": "RavenInBed",
+            "Value": "{{RavenTentInside}} 3 4 1 l0veraven_raven_sleep"
+        },
+        //FRL_NPCApt_Floor1
+        {
+            "Name": "Raven_Animation_StandStove",
+            "Value": "FRL_NPCApt_Floor1 13 13 0 \"Strings\\schedules\\L0veRaven_Raven:Custom_L0veRaven_RavenTentInside.001\"",
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
+        },
+        {
+            "Name": "RavenInBed",
+            "Value": "FRL_NPCApt_Floor1 7 13 0 l0veraven_raven_sleep",
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
+            }
+        },
+        //Town
+        {
+            "Name": "Raven_Animation_StandCC",
+            "Value": "Town 60 17 2"
+        },
+        {
+            "Name": "RavenRelaxBushTown",
+            "Value": "Town 47 77 2"
+        },
+        //Hospital
+        {
+            "Name": "Raven_Animation_StandMeds",
+            "Value": "Hospital 5 17 0"
+        },
+        //SeedShop
+        {
+            "Name": "RavenShoppingSS",
+            "Value": "SeedShop 16 28 3 \"Strings\\schedules\\{{Raven}}:SeedShop.001\""
+        },
+        //Saloon
+        {
+            "Name": "Raven_Animation_SweepJobSaloon1",
+            "Value": "Saloon 5 17 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""
+        },
+        {
+            "Name": "Raven_Animation_SweepJobSaloon2",
+            "Value": "Saloon 23 22 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""
+        },
+        {
+            "Name": "Raven_Animation_SweepJobSaloon3",
+            "Value": "Saloon 33 8 2 {{Raven_Animation_Sweep}} \"Strings\\schedules\\{{Raven}}:Saloon.002\""
+        },
+        {
+            "Name": "Raven_Animation_StandTableSaloon",
+            "Value": "Saloon 43 22 2"
+        },
+        //ArchaeologyHouse
+        {
+            "Name": "Raven_Animation_StandBookcase",
+            "Value": "ArchaeologyHouse 8 13 1",
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
+        },
+        {
+            "Name": "Raven_Animation_StandBookcase",
+            "Value": "ArchaeologyHouse 7 18 3",
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
+        },
+        //Beach
+        {
+            "Name": "RavenRelaxBeach",
+            "Value": "Beach 43 23 2"
+        },
+        //Mountain
+        {
+            "Name": "Raven_Animation_StandMountain",
+            "Value": "Mountain 57 33 1"
+        },
         //Animations
         //Schedule
         {
@@ -188,148 +893,225 @@
             "Value": "JojaMart 26 6 2 {{Zayden_Animation_Sweep}} {{Zayden_ScheduleDialogue_JojaSweep}}"
         },
         //Schedule Randomizers
-            //Clinic Day
-            {"Name": "RavenGoToClinic","Value": "{{610am}} {{Raven_Animation_StandMeds}}"},
-            {"Name": "RavenPostClinic","Value": "{{Random:{{Raven_Animation_StandMountain}},{{RavenRelaxBeach}},{{Raven_Animation_StandBookcase}},{{Raven_Animation_StandCC}}}}"},
-            //Morning/Night
-            {"Name": "RavenGoodMorning","Value": "{{610am}} {{Raven_Animation_StandStove}}"},
-            {"Name": "RavenGoodMorningBus","Value": "{{610am}} {{Raven_Animation_StandBusStop}}"},
-            {"Name": "RavenGoodNight","Value": "{{10pm}} {{Raven_Animation_StandStove}}/{{130am}} {{RavenInBed}}"},
-            //Job Schedules (Arrive at 9:50 from Tent)
-            {"Name": "Raven_Animation_StandNearHome","Value": "{{Raven_Animation_StandMountain}}","When": {"HasReadLetter": "{{Raven}}_Apartment"}},
-            {"Name": "Raven_Animation_StandNearHome","Value": "{{Random:{{RavenRelaxForest}},{{Raven_Animation_StandRiverForest}}}}","When": {"HasFlag: |contains={{Raven}}_Apartment": false}},
-            //Free Days
-            {"Name": "RavenFreeDay1","Value": "{{RavenGoodMorning}}/{{7am}} {{Raven_Animation_StandRiverForest}}/{{1130am}} {{RavenRelaxBeach}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"},
-            {"Name": "RavenFreeDay2","Value": "{{RavenGoodMorning}}/{{7am}} {{RavenRelaxBushTown}}/{{1130am}} {{Raven_Animation_StandTableSaloon}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"},
-            {"Name": "RavenFreeDay3","Value": "{{2pm}} {{Raven_Animation_StandStove}}/{{4pm}} {{RavenRelaxBushTown}}/{{8pm}} {{RavenRelaxBeach}}/{{10pm}} {{RavenInBed}}"},
-            {"Name": "RavenFreeDay4","Value": "{{4pm}} {{Raven_Animation_StandTableSaloon}}/{{8pm}} {{Raven_Animation_StandCC}}/{{10pm}} {{RavenInBed}}"},
-            
-            {"Name": "RavenFreeDays","Value": "{{Random:{{RavenFreeDay1}},{{RavenFreeDay2}},{{RavenFreeDay3}},{{RavenFreeDay4}}}}"},
-            {"Name": "RavenFreeDay","Value": "{{RavenFreeDays}}"},//USE THIS COMMAND
-            //Free Day - Shopping
-            {"Name": "RavenFreeDayShop1","Value": "{{7am}} {{Raven_Animation_StandRiverForest}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{Raven_Animation_StandMountain}}/{{5pm}} {{RavenRelaxForest}}/{{9pm}} {{Raven_Animation_StandStove}}/{{12am}} {{RavenInBed}}"},
-            {"Name": "RavenFreeDayShop2","Value": "{{7am}} {{Raven_Animation_StandCC}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{Raven_Animation_StandBusStop}}/{{5pm}} {{RavenRelaxBushTown}}/{{9pm}} {{Raven_Animation_StandStove}}/{{12am}} {{RavenInBed}}"},
-            {"Name": "RavenFreeDayShopRandom","Value": "{{Random:{{RavenFreeDayShop1}},{{RavenFreeDayShop2}}}}"},
-            {"Name": "RavenFreeDayShop","Value": "{{RavenFreeDayShopRandom}}"},
-            //Job Randomizers
-            {"Name": "RavenJobTasksSaloon","Value": "{{7am}} {{Raven_Animation_SweepJobSaloon1}}/{{1250pm}} {{Raven_Animation_SweepJobSaloon2}}/{{350pm}} {{Raven_Animation_SweepJobSaloon3}}"},
-            {"Name": "RavenJobTasksSaloon_married","Value": "{{8am}} {{Raven_Animation_SweepJobSaloon1}}/{{1250pm}} {{Raven_Animation_SweepJobSaloon2}}/{{350pm}} {{Raven_Animation_SweepJobSaloon3}}"},
-            {"Name": "RavenPostJobSaloon","Value": "{{6pm}} {{Random:{{Raven_Animation_StandNearHome}},{{RavenRelaxBeach}},{{Raven_Animation_StandBusStop}},{{Raven_Animation_StandCC}}}}"},
-            //Work and Meds
-            {"Name": "RavenWorkDay","Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"},
-            {"Name": "RavenWork2Day","Value": "610 SeedShop 37 20 {{down}} {{RavenLC}}_sweep/1300 20 28 {{down}} {{RavenLC}}_sweep/{{RavenGoodNight}}"},
-            {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"}
-        ],
-        
-        "Changes": [
-        //Data/Objects
-            {
-                "LogName": "[Data/Objects] Custom ContextTags",
-                "Action": "Include",
-                "FromFile": "data/objects/artifact_item.json, data/objects/hidden_item.json"
-            },
-        //Maps
-            {
-                "LogName": "[Maps] Load - Warp Room",//ADD SVE VERSION
-                "Action": "Load",
-                "Target": "Maps/Custom_L0veRaven_WarpRoom",
-                "FromFile": "data/maps/L0veRaven_WarpRoom.tmx"
-            },
-            {
-                "LogName": "[Maps] Load - Tent Inside (Vanilla)",
-                "Action": "Load",
-                "Target": "Maps/Custom_{{Raven}}TentInside",
-                "FromFile": "data/maps/{{Raven}}TentInside.tmx",
-                "When": {"HasMod |contains={{SVE}}": "false"}
-            },
-            {
-                "LogName": "[Maps] Load - Tent Inside (SVE)",
-                "Action": "Load",
-                "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
-                "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx",
-                "When": {"HasMod |contains={{SVE}}": "true"}
-            },
-            {
-                "LogName": "[Maps] Load - Spouse Patio",
-                "Action": "Load",
-                "Target": "Maps/{{Raven}}SpousePatio",
-                "FromFile": "data/maps/{{Raven}}SpousePatio.tmx"
-            },
-            {
-                "LogName": "[Maps] Load - Spouse Room",
-                "Action": "Load",
-                "Target": "Maps/{{Raven}}SpouseRoom",
-                "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx"
-            },
-        //Map Patch & Location Includes
-            {
-                "LogName": "Map Patch & Location Includes",
-                "Action": "Include",
-                "FromFile": "data/locations/apartment.json, data/locations/ravenTent.json, data/locations/spouseRoom.json, data/locations/spousePatio.json"
-            },
-        //Blank Loads
-            {
-                "LogName": "[Data/Events] - Blank Loads for Custom Locations",
-                "Action": "Load",
-                "Target": "Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
-                "FromFile": "data/blank.json"
-            },
-            {
-                "LogName": "Raven - Blank Loads [dialogue, marriageDialogue, schedules, scheduleStrings]",
-                "Action": "Load",
-                "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}",
-                "FromFile": "data/blank.json"
-            },
-            {
-                "LogName": "Zayden - Blank Loads [dialogue, schedules, scheduleStrings]",
-                "Action": "Load",
-                "Target": "Characters/Dialogue/{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
-                "FromFile": "data/blank.json"
-            },
-        //Data/Characters
-            {
-                "LogName": "[Character] Includes",
-                "Action": "Include",
-                "FromFile": "data/characters/character.json, data/characters/appearance.json, data/characters/home.json, data/characters/winterStarGifts.json, data/characters/npcGiftTastes.json, data/characters/schedule.json"
-            },
-            {
-                "LogName": "General - Data Includes",
-                "Action": "Include",
-                "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
-            },
-            //Data/Festivals
-            {
-                "LogName": "[Festival] Includes",
-                "Action": "Include",
-                "FromFile": "data/festivals.json"
-            },
-            //Dialogue
-            {
-                "LogName": "General - Schedule Strings",
-                "Action": "Include",
-                "FromFile": "data/scheduleStrings.json"
-            },
-            {
-                "LogName": "Dialogue - Raven's Dialogue",
-                "Action": "Include",
-                "FromFile": "data/dialogue/raven/firstOfSeason.json, data/dialogue/raven/medicationPickup.json, data/dialogue/raven/festivalDays.json, data/dialogue/raven/seasonal.json, data/dialogue/raven/generic.json, data/dialogue/raven/festivals.json, data/dialogue/raven/conversationTopics.json, data/dialogue/raven/heart.json, data/dialogue/raven/weather.json, data/dialogue/raven/movieInvitations.json, data/dialogue/raven/islandResort.json, data/dialogue/raven/locationEntry.json, data/dialogue/raven/bouquet.json, data/dialogue/raven/divorced.json, data/dialogue/raven/engagement.json, data/dialogue/raven/marriage.json, data/dialogue/raven/romance.json, data/dialogue/raven/summit.json, data/dialogue/raven/marriageDialogue.json, data/dialogue/raven/giftResponses.json, data/dialogue/raven/movieReactions.json"
-            },
-            {
-                "LogName": "Dialogue - Zayden",
-                "Action": "Include",
-                "FromFile": "data/dialogue/zayden/firstOfSeason.json, data/dialogue/zayden/conversationTopics.json, data/dialogue/zayden/heart.json, data/dialogue/zayden/giftResponses.json"
-            },
-        //Data/Events
-            {
-                "LogName": "Event Includes",
-                "Action": "Include",
-                "FromFile": "data/events/raven.json, data/events/zayden.json"
-            },
-        //Delete on Release
-            {
-                "LogName": "DELETE ON RELEASE",
-                "Action": "Include",
-                "FromFile": "eventExcludes.json, data/modCompat/cjbCheats.json"
+        //Clinic Day
+        {
+            "Name": "RavenGoToClinic",
+            "Value": "{{610am}} {{Raven_Animation_StandMeds}}"
+        },
+        {
+            "Name": "RavenPostClinic",
+            "Value": "{{Random:{{Raven_Animation_StandMountain}},{{RavenRelaxBeach}},{{Raven_Animation_StandBookcase}},{{Raven_Animation_StandCC}}}}"
+        },
+        //Morning/Night
+        {
+            "Name": "RavenGoodMorning",
+            "Value": "{{610am}} {{Raven_Animation_StandStove}}"
+        },
+        {
+            "Name": "RavenGoodMorningBus",
+            "Value": "{{610am}} {{Raven_Animation_StandBusStop}}"
+        },
+        {
+            "Name": "RavenGoodNight",
+            "Value": "{{10pm}} {{Raven_Animation_StandStove}}/{{130am}} {{RavenInBed}}"
+        },
+        //Job Schedules (Arrive at 9:50 from Tent)
+        {
+            "Name": "Raven_Animation_StandNearHome",
+            "Value": "{{Raven_Animation_StandMountain}}",
+            "When": {
+                "HasReadLetter": "{{Raven}}_Apartment"
             }
+        },
+        {
+            "Name": "Raven_Animation_StandNearHome",
+            "Value": "{{Random:{{RavenRelaxForest}},{{Raven_Animation_StandRiverForest}}}}",
+            "When": {
+                "HasFlag: |contains={{Raven}}_Apartment": false
+            }
+        },
+        //Free Days
+        {
+            "Name": "RavenFreeDay1",
+            "Value": "{{RavenGoodMorning}}/{{7am}} {{Raven_Animation_StandRiverForest}}/{{1130am}} {{RavenRelaxBeach}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDay2",
+            "Value": "{{RavenGoodMorning}}/{{7am}} {{RavenRelaxBushTown}}/{{1130am}} {{Raven_Animation_StandTableSaloon}}/{{6pm}} {{Raven_Animation_StandStove}}/{{10pm}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDay3",
+            "Value": "{{2pm}} {{Raven_Animation_StandStove}}/{{4pm}} {{RavenRelaxBushTown}}/{{8pm}} {{RavenRelaxBeach}}/{{10pm}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDay4",
+            "Value": "{{4pm}} {{Raven_Animation_StandTableSaloon}}/{{8pm}} {{Raven_Animation_StandCC}}/{{10pm}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDays",
+            "Value": "{{Random:{{RavenFreeDay1}},{{RavenFreeDay2}},{{RavenFreeDay3}},{{RavenFreeDay4}}}}"
+        },
+        {
+            "Name": "RavenFreeDay",
+            "Value": "{{RavenFreeDays}}"
+        }, //USE THIS COMMAND
+        //Free Day - Shopping
+        {
+            "Name": "RavenFreeDayShop1",
+            "Value": "{{7am}} {{Raven_Animation_StandRiverForest}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{Raven_Animation_StandMountain}}/{{5pm}} {{RavenRelaxForest}}/{{9pm}} {{Raven_Animation_StandStove}}/{{12am}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDayShop2",
+            "Value": "{{7am}} {{Raven_Animation_StandCC}}/{{11am}} {{RavenShoppingSS}}/{{1pm}} {{Raven_Animation_StandBusStop}}/{{5pm}} {{RavenRelaxBushTown}}/{{9pm}} {{Raven_Animation_StandStove}}/{{12am}} {{RavenInBed}}"
+        },
+        {
+            "Name": "RavenFreeDayShopRandom",
+            "Value": "{{Random:{{RavenFreeDayShop1}},{{RavenFreeDayShop2}}}}"
+        },
+        {
+            "Name": "RavenFreeDayShop",
+            "Value": "{{RavenFreeDayShopRandom}}"
+        },
+        //Job Randomizers
+        {
+            "Name": "RavenJobTasksSaloon",
+            "Value": "{{7am}} {{Raven_Animation_SweepJobSaloon1}}/{{1250pm}} {{Raven_Animation_SweepJobSaloon2}}/{{350pm}} {{Raven_Animation_SweepJobSaloon3}}"
+        },
+        {
+            "Name": "RavenJobTasksSaloon_married",
+            "Value": "{{8am}} {{Raven_Animation_SweepJobSaloon1}}/{{1250pm}} {{Raven_Animation_SweepJobSaloon2}}/{{350pm}} {{Raven_Animation_SweepJobSaloon3}}"
+        },
+        {
+            "Name": "RavenPostJobSaloon",
+            "Value": "{{6pm}} {{Random:{{Raven_Animation_StandNearHome}},{{RavenRelaxBeach}},{{Raven_Animation_StandBusStop}},{{Raven_Animation_StandCC}}}}"
+        },
+        //Work and Meds
+        {
+            "Name": "RavenWorkDay",
+            "Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"
+        },
+        {
+            "Name": "RavenWork2Day",
+            "Value": "610 SeedShop 37 20 {{down}} {{RavenLC}}_sweep/1300 20 28 {{down}} {{RavenLC}}_sweep/{{RavenGoodNight}}"
+        },
+        {
+            "Name": "RavenMedsDay",
+            "Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"
+        }
+    ],
+    "Changes": [
+        //Data/Objects
+        {
+            "LogName": "[Data/Objects] Custom ContextTags",
+            "Action": "Include",
+            "FromFile": "data/objects/artifact_item.json, data/objects/hidden_item.json"
+        },
+        //Maps
+        {
+            "LogName": "[Maps] Load - Warp Room", //ADD SVE VERSION
+            "Action": "Load",
+            "Target": "Maps/Custom_L0veRaven_WarpRoom",
+            "FromFile": "data/maps/L0veRaven_WarpRoom.tmx"
+        },
+        {
+            "LogName": "[Maps] Load - Tent Inside (Vanilla)",
+            "Action": "Load",
+            "Target": "Maps/Custom_{{Raven}}TentInside",
+            "FromFile": "data/maps/{{Raven}}TentInside.tmx",
+            "When": {
+                "HasMod |contains={{SVE}}": "false"
+            }
+        },
+        {
+            "LogName": "[Maps] Load - Tent Inside (SVE)",
+            "Action": "Load",
+            "Target": "Maps/Custom_{{Raven}}TentInsideSVE",
+            "FromFile": "data/maps/{{Raven}}TentInsideSVE.tmx",
+            "When": {
+                "HasMod |contains={{SVE}}": "true"
+            }
+        },
+        {
+            "LogName": "[Maps] Load - Spouse Patio",
+            "Action": "Load",
+            "Target": "Maps/{{Raven}}SpousePatio",
+            "FromFile": "data/maps/{{Raven}}SpousePatio.tmx"
+        },
+        {
+            "LogName": "[Maps] Load - Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/{{Raven}}SpouseRoom",
+            "FromFile": "data/maps/{{Raven}}SpouseRoom.tmx"
+        },
+        //Map Patch & Location Includes
+        {
+            "LogName": "Map Patch & Location Includes",
+            "Action": "Include",
+            "FromFile": "data/locations/apartment.json, data/locations/ravenTent.json, data/locations/spouseRoom.json, data/locations/spousePatio.json, data/locations/warpRoom.json"
+        },
+        //Blank Loads
+        {
+            "LogName": "[Data/Events] - Blank Loads for Custom Locations",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_L0veRaven_RavenTentInside, Data/Events/Custom_L0veRaven_RavenTentInsideSVE",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Raven - Blank Loads [dialogue, marriageDialogue, schedules, scheduleStrings]",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Raven}}, Characters/Dialogue/MarriageDialogue{{Raven}}, Characters/schedules/{{Raven}}, Strings/Schedules/{{Raven}}",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Zayden - Blank Loads [dialogue, schedules, scheduleStrings]",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Zayden}}, Characters/schedules/{{Zayden}}, Strings/Schedules/{{Zayden}}",
+            "FromFile": "data/blank.json"
+        },
+        //Data/Characters
+        {
+            "LogName": "[Character] Includes",
+            "Action": "Include",
+            "FromFile": "data/characters/character.json, data/characters/appearance.json, data/characters/home.json, data/characters/winterStarGifts.json, data/characters/npcGiftTastes.json, data/characters/schedule.json"
+        },
+        {
+            "LogName": "General - Data Includes",
+            "Action": "Include",
+            "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
+        },
+        //Data/Festivals
+        {
+            "LogName": "[Festival] Includes",
+            "Action": "Include",
+            "FromFile": "data/festivals.json"
+        },
+        //Dialogue
+        {
+            "LogName": "General - Schedule Strings",
+            "Action": "Include",
+            "FromFile": "data/scheduleStrings.json"
+        },
+        {
+            "LogName": "Dialogue - Raven's Dialogue",
+            "Action": "Include",
+            "FromFile": "data/dialogue/raven/firstOfSeason.json, data/dialogue/raven/medicationPickup.json, data/dialogue/raven/festivalDays.json, data/dialogue/raven/seasonal.json, data/dialogue/raven/generic.json, data/dialogue/raven/festivals.json, data/dialogue/raven/conversationTopics.json, data/dialogue/raven/heart.json, data/dialogue/raven/weather.json, data/dialogue/raven/movieInvitations.json, data/dialogue/raven/islandResort.json, data/dialogue/raven/locationEntry.json, data/dialogue/raven/bouquet.json, data/dialogue/raven/divorced.json, data/dialogue/raven/engagement.json, data/dialogue/raven/marriage.json, data/dialogue/raven/romance.json, data/dialogue/raven/summit.json, data/dialogue/raven/marriageDialogue.json, data/dialogue/raven/giftResponses.json, data/dialogue/raven/movieReactions.json"
+        },
+        {
+            "LogName": "Dialogue - Zayden",
+            "Action": "Include",
+            "FromFile": "data/dialogue/zayden/firstOfSeason.json, data/dialogue/zayden/conversationTopics.json, data/dialogue/zayden/heart.json, data/dialogue/zayden/giftResponses.json"
+        },
+        //Data/Events
+        {
+            "LogName": "Event Includes",
+            "Action": "Include",
+            "FromFile": "data/events/raven.json, data/events/zayden.json"
+        },
+        //Delete on Release
+        {
+            "LogName": "DELETE ON RELEASE",
+            "Action": "Include",
+            "FromFile": "eventExcludes.json, data/modCompat/cjbCheats.json"
+        }
     ]
 }

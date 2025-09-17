@@ -24,7 +24,16 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{Zayden}}_JojaClosed/e 191393": "musicboxsong/26 25/farmer 33 23 {{left}} {{Zayden}} 24 23 {{down}}/skippable/pause 1000/move farmer -5 0 {{down}}/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_1}}\"/pause 500/faceDirection {{Zayden}} {{down}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_2}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_3}}\"/pause 500/emote farmer {{emoteSweat}}/playSound dwop/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_4}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_5}}\"/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_6}}\"/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_7}}\"/pause 500/emote farmer {{emoteBlush}} true/emote {{Zayden}} {{emoteHappy}}/pause 1000/end"
+                "{{Zayden}}_JojaClosed/e 191393": "musicboxsong/26 25/farmer 33 23 {{left}} {{Zayden}} 24 23 {{down}}/action AddMail current {{Zayden}}_GotHired/skippable/pause 1000/move farmer -5 0 {{down}}/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_1}}\"/pause 500/faceDirection {{Zayden}} {{down}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_2}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_3}}\"/pause 500/emote farmer {{emoteSweat}}/playSound dwop/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_4}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_5}}\"/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_6}}\"/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_7}}\"/pause 500/emote farmer {{emoteBlush}} true/emote {{Zayden}} {{emoteHappy}}/pause 1000/end"
+            }
+        },
+        // Joja Closed: debug ebi L0veRaven_Zayden_GotHired
+        {
+            "LogName": "[Event] Got Hired",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "{{Zayden}}_GotHired/e {{Zayden}}_JojaClosed": "jaunty/23 23/farmer 22 23 {{right}} {{Zayden}} 32 23 {{left}}/skippable/pause 1000/move {{Zayden}} -7 0 {{left}}/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Zayden}} \"{{i18n:event.GotHired.speak_1}}\"/pause 500/faceDirection {{Zayden}} {{up}}/pause 500/speak {{Zayden}} \"{{i18n:event.GotHired.speak_2}}\"/pause 500/faceDirection {{Zayden}} {{left}}/pause 500/speak {{Zayden}} \"{{i18n:event.GotHired.speak_3}}\"/pause 500/faceDirection {{Zayden}} {{up}}/pause 500/speak {{Zayden}} \"{{i18n:event.GotHired.speak_4}}\"/pause 500/move {{Zayden}} 0 -10 {{up}} true/emote farmer {{emoteHappy}}/pause 1500/end"
             }
         }
     ]

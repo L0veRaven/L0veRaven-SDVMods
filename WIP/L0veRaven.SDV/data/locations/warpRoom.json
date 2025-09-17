@@ -4,35 +4,28 @@
             "LogName": "[Maps/BusStop] Warp BusStop -> WarpRoom (Vanilla)",
             "Action": "EditMap",
             "Target": "Maps/BusStop",
-            "Update": "OnLocationChange, OnTimeChange",
-            "NPCWarp": [
-                "22 29 Custom_L0veRaven_WarpRoom 3 5"
-            ],
-            "When": {
-                "HasMod: |contains={{SVE}}": false
-            }
+            "AddNpcWarps": [
+                "22 9 Custom_L0veRaven_WarpRoom 2 3"
+            ]
         },
         {
             "LogName": "[Maps/BusStop] Warp WarpRoom -> BusStop (Vanilla)",
             "Action": "EditMap",
             "Target": "Maps/Custom_L0veRaven_WarpRoom",
-            "Update": "OnLocationChange, OnTimeChange",
-            "NPCWarp": [
-                "3 5 BusStop 22 29"
-            ],
-            "When": {
-                "HasMod: |contains={{SVE}}": false
-            }
+            "AddNpcWarps": [
+                "2 4 BusStop 22 9"
+            ]
         },
         {
             "LogName": "[Data/Locations] Add Custom_L0veRaven_RavenTentInside",
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
-                "Custom_L0veRaven_RavenTentInside": {
+                "Custom_L0veRaven_WarpRoom": {
                     "DisplayName": null,
                     "DefaultArrivalTile": {
-                        "X": 3,"Y": 4
+                        "X": 2,
+                        "Y": 3
                     },
                     "CreateOnLoad": {
                         "MapPath": "Maps\\Custom_L0veRaven_WarpRoom",

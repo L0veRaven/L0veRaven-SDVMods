@@ -35,11 +35,14 @@
                 "Action": "EditData",
                 "Target": "Data/Mail",
                 "Entries": {
-                    // debug showmail L0veRaven_Raven_Welcome
+                    // debug showmail L0veRaven_Zayden_Welcome
                     "{{Zayden}}_Welcome": "{{i18n:mail.zayden.WelcomeMail_message}} %item object 476 3 %%[#]{{i18n:mail.zayden.WelcomeMail_title}}",
                     
-                    // debug showmail L0veRaven_Raven_Greenhouse
-                    "{{Zayden}}_Greenhouse": "{{i18n:mail.zayden.GreenhouseMail_message}} %item object 433 3 %%[#]{{i18n:mail.zayden.GreenhouseMail_title}}"
+                    // debug showmail L0veRaven_Zayden_Greenhouse
+                    "{{Zayden}}_Greenhouse": "{{i18n:mail.zayden.GreenhouseMail_message}} %item object 433 3 %%[#]{{i18n:mail.zayden.GreenhouseMail_title}}",
+                    
+                    // debug showmail L0veRaven_Zayden_GotHired
+                    "{{Zayden}}_GotHired": "{{i18n:mail.zayden.GotHired_message}}[#]{{i18n:mail.zayden.GotHired_title}}"
                 }
             },
         //Mail Trigger Actions

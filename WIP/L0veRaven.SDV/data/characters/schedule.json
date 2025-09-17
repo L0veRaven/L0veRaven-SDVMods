@@ -122,7 +122,7 @@
                     "winter": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}"
                 },
                 "When": {
-                    "HasSeenEvent": "{{Zayden}}_JojaClosed"
+                    "HasSeenEvent": "191393"
                 }
             },
             // Town 49, 32, 1 Stand Tree by Blacksmith

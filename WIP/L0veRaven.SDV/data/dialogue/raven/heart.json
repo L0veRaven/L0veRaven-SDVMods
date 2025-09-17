@@ -49,9 +49,9 @@
                 "Target": "Characters/Dialogue/{{Raven}}",
                 "Entries": {
                     //trigger:Add Letter _JobInterview
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
+                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
                 },
                 "When": {
                     "Hearts:{{Raven}}": "6, 7"

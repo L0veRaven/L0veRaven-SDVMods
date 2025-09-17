@@ -349,7 +349,10 @@
             //Raven: 6 Hearts
     "query.raven.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
     "dialogue.raven.6hearts_1": "*yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2",
-    "dialogue.raven.6hearts_2": "...",
+    "dialogue.raven.6hearts_2": "I've been looking for ways to better manage my time on my days off. I need time to relax when I'm not at work.#$b#It's honestly hard for me to not accidentally overwork myself.$11",
+    "dialogue.raven.6hearts_3": "My back is really sore. I think I pushed myself too hard yesterday.$11#$b#Be sure to take plenty of breaks and stretch every once in a while.",
+    "dialogue.raven.6hearts_4": "I had a nightmare that I got locked in at Pierre's shop after hours. I had to keep working without overtime pay, it was horrible!$8#$b#At least it was just a dream.$11",
+    "dialogue.raven.6hearts_5": "I'm sorry, but I didn't get enough sleep last night. I'm barely staying awake right now.$2#$e#Maybe we can talk next time?$2",
             //Raven: 8 Hearts - Platonic
     "query.raven.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
     "dialogue.raven.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
@@ -992,6 +995,9 @@
         //{{Zayden}}_Greenhouse
     "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
     "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
+        //{{Zayden}}_GotHired
+    "mail.zayden.GotHired_message": "Hello @,^^Thanks for listening to me vent yesterday. I really needed someone to talk to about it and I'm glad it was you.^^I have some good news, though. I have an interview scheduled, and if I'm lucky, I'll get offered a job on the spot! Thanks for being a good friend.^^- Zayden",
+    "mail.zayden.GotHired_title": "New Job",
     
     //Raven Events
         //Event 1 - L0veRaven_Raven_CatLover
@@ -1113,7 +1119,7 @@
         "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
 
         "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
-    //----
+    // {{Zayden}}_JojaClosed
         "event.JojaClosed.speak_1": "Oh... Hey there @.$6",
         "event.JojaClosed.speak_2": "You know, I've gotten into some really bad luck ever since the Community Center opened up again.$6#$b#JojaMart is no longer in town... but I don't have a job anymore.$6#$b#How am I supposed to pay my rent now?$4",
         "event.JojaClosed.speak_3": "I know it's not your fault that JojaMart is gone, but it really does suck that I have to find a new job on such short notice.$6#$b#It'd be far more different if we were given notice before the store closed down.",
@@ -1121,6 +1127,11 @@
         "event.JojaClosed.speak_5": "I just hope I get a job fast enough so I don't have to move out of Pelican Town...$4",
         "event.JojaClosed.speak_6": "I will say, JojaMart wasn't the best employer, so maybe it was for the best that they closed the store.",
         "event.JojaClosed.speak_7": "Thanks for listening to me talk, I really needed someone to talk to about it.#$b#It sucks bottling my feelings inside of myself.$4",
+        // {{Zayden}}_GotHired
+        "event.GotHired.speak_1": "Good morning @.#$b#I have some good news, actually. I got hired to work at a call center to work customer service!$1#$b#It's such a relief to not be jobless anymore.",
+        "event.GotHired.speak_2": "I'm actually headed to work now to hand in my employee paperwork. Once that gets finalized, I get to start my official first shift!$1#$b#No more bus rides to town to hand out resumes to any business that'll take them.",
+        "event.GotHired.speak_3": "I'm honestly kind of surprised that I didn't work for JojaMart in Zuzu City. Even though they shut down abruptly here, they gave reliable pay.#$b#At least the call center pays me above minimum wage. That's really all that I can ask for.",
+        "event.GotHired.speak_4": "I better head off now, but it was good getting to see you again.#$b#Good luck today!$1",
 }
 
 //Original Map Strings
