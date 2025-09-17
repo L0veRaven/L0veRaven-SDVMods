@@ -223,18 +223,25 @@
         
         "Changes": [
         //Data/Objects
-        {
-            "LogName": "[Data/Objects] Custom ContextTags",
-            "Action": "Include",
-            "FromFile": "data/objects/artifact_item.json, data/objects/hidden_item.json"
-        },
+            {
+                "LogName": "[Data/Objects] Custom ContextTags",
+                "Action": "Include",
+                "FromFile": "data/objects/artifact_item.json, data/objects/hidden_item.json"
+            },
         //Maps
-        {
-            "LogName": "[Maps] Load - Tent Inside (Vanilla)",
-            "Action": "Load",
-            "Target": "Maps/Custom_{{Raven}}TentInside",
-            "FromFile": "data/maps/{{Raven}}TentInside.tmx",
-                    "When": {"HasMod |contains={{SVE}}": "false"}
+            {
+                "LogName": "[Maps] Load - Warp Room",//ADD SVE VERSION
+                "Action": "Load",
+                "Target": "Maps/Custom_L0veRaven_WarpRoom",
+                "FromFile": "data/maps/L0veRaven_WarpRoom.tmx",
+                "When": {"HasMod |contains={{SVE}}": "false"}
+            },
+            {
+                "LogName": "[Maps] Load - Tent Inside (Vanilla)",
+                "Action": "Load",
+                "Target": "Maps/Custom_{{Raven}}TentInside",
+                "FromFile": "data/maps/{{Raven}}TentInside.tmx",
+                "When": {"HasMod |contains={{SVE}}": "false"}
             },
             {
                 "LogName": "[Maps] Load - Tent Inside (SVE)",

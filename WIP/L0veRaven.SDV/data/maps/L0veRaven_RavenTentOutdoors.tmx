@@ -13,7 +13,7 @@
   <property name="Warp" value="120 25 Town 0 90 120 26 Town 0 90 120 24 Town 0 90 120 27 Town 0 90 -1 6 Woods 81 29 -1 7 Woods 81 29 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source="paths.png" width="64" height="256"/>
+  <image source=".paths.png" width="64" height="256"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>

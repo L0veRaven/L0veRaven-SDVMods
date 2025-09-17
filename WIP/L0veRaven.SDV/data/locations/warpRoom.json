@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Maps/BusStop] Warp BusStop -> WarpRoom (Vanilla)",
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "Update": "OnLocationChange, OnTimeChange",
+            "NPCWarp": [
+                "52 73 Custom_L0veRaven_WarpRoom 3 5"
+            ],
+            "When": {
+                "HasMod: |contains={{SVE}}": false,
+            }
+        },
+    ]
+}
