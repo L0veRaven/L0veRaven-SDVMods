@@ -1,12 +1,30 @@
 {
     "Changes": [
-        //Event 1 - Arrival
+        //Event 1 - Arrival: debug ebi L0veRaven_Zayden_Arrival
         {
             "LogName": "[Event] Zayden's Arrival - Day 7",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
-                "{{Zayden}}_Arrival/DaysPlayed 6": "spring_day_ambient/22 11/farmer 10 24 1 {{Zayden}} -1000 -1000 2/skippable/pause 500/--Zayden warps to bus door/warp {{Zayden}} 22 9/pause 300/move {{Zayden}} 0 2 2/pause 500/speak {{Zayden}} \"{{i18n:event.Arrival_1}}\"/--Zayden walks towards signage/viewport move 0 11 1000 true/move {{Zayden}} 0 11 3/pause 500/speak {{Zayden}} \"{{i18n:event.Arrival_2}}\"/pause 300/faceDirection {{Zayden}} 1/pause 300/speak {{Zayden}} \"{{i18n:event.Arrival_3}}\"/pause 300/--Farmer appears while Zayden leaves/move farmer 5 0 1/emote farmer 8 true/move {{Zayden}} 10 0 1/--END/end"
+                "{{Zayden}}_Arrival/DaysPlayed 6": "none/22 11/farmer 10 24 1 {{Zayden}} -1000 -1000 2/skippable/pause 500/--Zayden warps to bus door/warp {{Zayden}} 22 9/pause 300/move {{Zayden}} 0 2 2/pause 500/speak {{Zayden}} \"{{i18n:event.Arrival_1}}\"/--Zayden walks towards signage/viewport move 0 11 1000 true/move {{Zayden}} 0 11 3/pause 500/speak {{Zayden}} \"{{i18n:event.Arrival_2}}\"/pause 300/faceDirection {{Zayden}} 1/pause 300/speak {{Zayden}} \"{{i18n:event.Arrival_3}}\"/pause 300/--Farmer appears while Zayden leaves/move farmer 5 0 1/emote farmer 8 true/move {{Zayden}} 10 0 1/--END/end"
+            }
+        },
+        //Event 2 - Invasive Questions: debug ebi L0veRaven_Zayden_InvasiveQuestions
+        {
+            "LogName": "[Event] Invasive Questions",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "{{Zayden}}_InvasiveQuestions/e {{Zayden}}_Arrival/DayOfWeek Sat": "libraryTheme/14 14/farmer 15 10 {{down}} {{Zayden}} 14 14 {{down}}/addCookingRecipe Cheese Cauli./skippable/pause 1000/move farmer 0 4 {{left}}/pause 500/emote farmer {{emoteHappy}}/pause 1000/faceDirection {{Zayden}} 1/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_1}}\"/pause 500/faceDirection {{Zayden}} {{down}}/pause 500/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_2}}\"/pause 500/faceDirection farmer {{down}} true/emote farmer {{emoteSweat}}/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_3}}\"/pause 500/emote farmer {{emoteBlush}}/pause 500/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_4}}\"/pause 500/faceDirection {{Zayden}} {{down}}/pause 500/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_5}}\"/pause 500/faceDirection farmer {{left}}/pause 500/message \"{{i18n:event.InvasiveQuestions.message_1}}\"/pause 500/speak {{Zayden}} \"{{i18n:event.InvasiveQuestions.speak_6}}\"/pause 500/emote farmer {{emoteHappy}}/pause 1000/end"
+            }
+        },
+        // Joja Closed: debug ebi L0veRaven_Zayden_JojaClosed
+        {
+            "LogName": "[Event] Joja Closed",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{Zayden}}_JojaClosed/e 191393": "musicboxsong/26 25/farmer 33 23 {{left}} {{Zayden}} 24 23 {{down}}/skippable/pause 1000/move farmer -5 0 {{down}}/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_1}}\"/pause 500/faceDirection {{Zayden}} {{down}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_2}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_3}}\"/pause 500/emote farmer {{emoteSweat}}/playSound dwop/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_4}}\"/pause 1000/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_5}}\"/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_6}}\"/pause 500/faceDirection {{Zayden}} {{right}}/pause 500/speak {{Zayden}} \"{{i18n:event.JojaClosed.speak_7}}\"/pause 500/emote farmer {{emoteBlush}} true/emote {{Zayden}} {{emoteHappy}}/pause 1000/end"
             }
         }
     ]

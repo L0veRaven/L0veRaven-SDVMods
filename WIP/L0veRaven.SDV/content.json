@@ -217,6 +217,7 @@
             {"Name": "RavenPostJobSaloon","Value": "{{6pm}} {{Random:{{Raven_Animation_StandNearHome}},{{RavenRelaxBeach}},{{Raven_Animation_StandBusStop}},{{Raven_Animation_StandCC}}}}"},
             //Work and Meds
             {"Name": "RavenWorkDay","Value": "{{RavenGoodMorning}}/{{RavenJobTasksSaloon}}/{{RavenPostJobSaloon}}/{{RavenGoodNight}}"},
+            {"Name": "RavenWork2Day","Value": "610 SeedShop 37 20 {{down}} {{RavenLC}}_sweep/1300 20 28 {{down}} {{RavenLC}}_sweep/{{RavenGoodNight}}"},
             {"Name": "RavenMedsDay","Value": "{{RavenGoToClinic}}/{{10am}} {{RavenPostClinic}}/{{RavenGoodNight}}"}
         ],
         

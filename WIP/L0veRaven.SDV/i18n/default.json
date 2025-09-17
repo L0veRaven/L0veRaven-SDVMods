@@ -332,7 +332,7 @@
     "dialogue.raven.0hearts_9": "Have you been getting along with people in town fine?#$e#That's interesting!$1",
     "dialogue.raven.0hearts_10": "I work at the Saloon a few days a week. I really enjoy being a janitor there.#$e#Did you know that Gus lets staff sit down? We don't have to stand all the time!$3#$b#It's much better than my previous jobs.#$e#It's not like I spend my whole shift sitting, but if I need a breather, he won't judge us for it.$3",
             //Raven: 2 Hearts
-    "raven.query.wildClans": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
+    "query.raven.wildClans": "I should see if Gunther added any new books to the library. I'm dying to see some new books!$1",
     "dialogue.raven.2hearts_1": "I'm glad we have a library in town. It helps give me more things to do!$1",
     "dialogue.raven.2hearts_2": "I love how I can learn more about the people in town just from working at the Saloon.#$b#Sometimes you feel bad for some of the people, though.$2",
     "dialogue.raven.2hearts_3": "How are things going for you today?#$e#My day is just like any other day. Kinda boring.$11",
@@ -347,11 +347,11 @@
     "dialogue.raven.4hearts_4": "I've been thinking of moving in to the Pelican Valley Loft. It's more affordable than Zuzu City!#$b#The downside is that it'll take longer to move things from my storage unit in the city.$2#$e#I'm saving up my money first though.",
     "dialogue.raven.4hearts_5": "Not gonna lie, it's hard sleeping outdoors, even in a tent.$2#$b#The ground is really hard and I sometimes get bruises from it.$2",
             //Raven: 6 Hearts
-    "raven.query.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
+    "query.raven.jobInterview": "I've been thinking about picking up a second job so I could move back to the city...$17#$b#Hopefully I can find a job that works well for me.$1",
     "dialogue.raven.6hearts_1": "*yawn* Sorry, I'm super drowsy. Pierre has been having me put in a lot of hours lately.$2",
     "dialogue.raven.6hearts_2": "...",
             //Raven: 8 Hearts - Platonic
-    "raven.query.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
+    "query.raven.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
     "dialogue.raven.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
     "dialogue.raven.8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
             //Raven: 8 Hearts - Romantic
@@ -438,7 +438,7 @@
     "dialogue.raven.greenRain.after.year3_9": "I've was able to draw in the rain since it doesn't cause damage to paper!#$b#It's cool how green rain doesn't get paper soggy!",
     "dialogue.raven.greenRain.after.year3_10": "I think green rain is cool. I never get mad when it comes around!",
         //Rain: Query
-    "raven.query.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
+    "query.raven.rain": "I think I'm gonna keep a jar of water from today's rain for witchy purposes.#$b#Rain water has a place in spellwork, trust me.$1#$b#Maybe I can teach you some stuff one of these days!$1",
 
         //Rain: Spring
     "dialogue.raven.spring.rain_1": "Ugh, it's so fucking wet!#$e#It's just not the right day for me to get soaking wet, I'm sorry.",
@@ -967,35 +967,31 @@
     "mapString.zaydenApartment.fridge": "The fridge is low on cheese.",
     //Data/Mail.json
         //{{Raven}}_CheckIn - Event
-    "mail.eventEnd.raven.checkIn_1": "Hey @,^^I'm glad you've been having a good time in Pelican Town. I figured I'd send a letter to show my appreciation. I could show you some things to do in town if you have time in case you get bored.^^I know you'll need breaks from the farm sometimes, so we should hang out when that time comes!^^~ Raven[#]Raven Checking In",
-    "mail.eventEnd.raven.checkIn_2": "Hey @,^^I know Pelican Town seems pretty plain to you, but I think you'd have a great time if you did activities like fishing with some of the people here. I know it can be intimidating to talk to new people, but many of them have a lot of stories to tell.^^You can always do what you want, don't let me stop you!^^I wanna make sure you have a good time out here. I'm sure you could use a break from the farm.^^Well, I'll see you later!^^^^^^~ Raven[#]Raven Checking In",
-    "mail.eventEnd.raven.checkIn_3": "Hey @,^^It sounds like Pelican Town is a pretty rough place for you to settle into. I figured I'd send a letter to reach out and help you feel more welcome here.^^There's plenty of places you can hang out with people, the easiest place being the Saloon. Almost everyone stops by there on Fridays. You can also find me there too if you wanna hang out.^^I also recommend that you spend some time with Willy and Linus. They're very nice and are kinda underappreciated in town.^^I just want you to know that you'll always have a place here in Pelican town.^^^~ Raven[#]Raven Checking In",
+    "mail.eventEnd.raven.checkIn.title": "Raven Checking In",
+    "mail.eventEnd.raven.checkIn_1.message": "Hey @,^^I'm glad you've been having a good time in Pelican Town. I figured I'd send a letter to show my appreciation. I could show you some things to do in town if you have time in case you get bored.^^I know you'll need breaks from the farm sometimes, so we should hang out when that time comes!^^~ Raven",
+    "mail.eventEnd.raven.checkIn_2.message": "Hey @,^^I know Pelican Town seems pretty plain to you, but I think you'd have a great time if you did activities like fishing with some of the people here. I know it can be intimidating to talk to new people, but many of them have a lot of stories to tell.^^You can always do what you want, don't let me stop you!^^I wanna make sure you have a good time out here. I'm sure you could use a break from the farm.^^Well, I'll see you later!^^^^^^~ Raven",
+    "mail.eventEnd.raven.checkIn_3.message": "Hey @,^^It sounds like Pelican Town is a pretty rough place for you to settle into. I figured I'd send a letter to reach out and help you feel more welcome here.^^There's plenty of places you can hang out with people, the easiest place being the Saloon. Almost everyone stops by there on Fridays. You can also find me there too if you wanna hang out.^^I also recommend that you spend some time with Willy and Linus. They're very nice and are kinda underappreciated in town.^^I just want you to know that you'll always have a place here in Pelican town.^^^~ Raven",
         //{{Raven}}_CleansingFarmer - Event
-    "mail.eventStart.raven.cleansingFarmer": "Hi @,^^Do you remember our conversation yesterday about how I could teach you some spellwork? If you come to my tent when I'm home, I should be able to show you how I do cleansing spells.^^It's up to you, no pressure!^^~ Raven[#]Offering a Cleansing",
+    "mail.eventStart.raven.cleansingFarmer.message": "Hi @,^^Do you remember our conversation yesterday about how I could teach you some spellwork? If you come to my tent when I'm home, I should be able to show you how I do cleansing spells.^^It's up to you, no pressure!^^~ Raven",
+    "mail.eventStart.raven.cleansingFarmer.title": "Offering a Cleansing",
         //{{Raven}}_CleansingFarmer2 - Event
-    "mail.eventEnd.raven.cleansingFarmer_1": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
-    "mail.eventEnd.raven.cleansingFarmer_2": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven %item object 388 50 %%[#]A 'Thank You' Letter",
-    "mail.eventEnd.raven.cleansingFarmer_3": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven[#]Please Be Respectful",
+    "mail.eventEnd.raven.cleansingFarmer_1.message": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous. I hope you liked it! Also, have this as a thank-you.^^~ Raven",
+    "mail.eventEnd.raven.cleansingFarmer.title_a": "A 'Thank You' Letter",
+    "mail.eventEnd.raven.cleansingFarmer_2.message": "Hi @,^^Thanks for letting me show you my smoke cleansing ritual. Since it was my first time showing someone, I was pretty nervous.^^^^~ Raven",
+    "mail.eventEnd.raven.cleansingFarmer_3.message": "Hi @,^^Thanks for letting me do a smoke cleansing ritual for you yesterday. It was my first time showing someone.^^However, I felt bad since it felt like you were dismissing my beliefs. You don't have to believe in the same things I do, but it'd be great if you didn't make fun of me for it.^^Thanks for reading.^^~ Raven",
+    "mail.eventEnd.raven.cleansingFarmer.title_b": "Please Be Respectful",
         //{{Raven}}_JobInterview - Event
-    "mail.eventStart.raven.jobInterview": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live, I might as well try working for Pierre.^^Wish me luck!^^~ Raven[#]Raven's Job Interview",
+    "mail.eventStart.raven.jobInterview.message": "Good morning @,^^I figured you'd be happy to know that I have an interview with Pierre's Seed Shop! Since I'll need to put in more hours in order to get myself a proper place to live and pay off my debts, I might as well work for Pierre.^^Wish me luck!^^~ Raven",
+    "mail.eventStart.raven.jobInterview.title": "Raven's Job Interview",
         //{{Raven}}ravenApartment - Event
-    "mail.eventStart.raven.apartment": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven[#]Raven's Apartment",
-        //{{Raven}}_LoveLetter -> Automatic letters when dating
-    "mail.raven.loveLetter_1": "Hi @,^^I just wanted to mail this out because I'm thinking of you. I figured you'd appreciate a little surprise in the mail.^^I really love spending time with you and I hope we get to hang out soon. I love you!^^~ Raven[#]Raven's Love Letter",
-    "mail.raven.loveLetter_2": "Hi @,^^I'm thinking of you again, @! I hope you're doing well and I hope to see you again soon. <3^^~ Raven[#]Raven's Love Letter",
-    "mail.raven.loveLetter_3": "Hi @,^^Thanks for being a really cool person. I love how you really seem to understand me.^^I hope I see you soon!^^~ Raven[#]Raven's Love Letter",
-    "mail.raven.loveLetter_4": "Hi @,^^I noticed I had a pre-stamped envelope somewhere, but it didn't have a letter inside. I figured I could send something to you, so yeah, I hope you enjoy getting a random letter from me!^^~ Raven[#]Raven's Love Letter",
-    "mail.raven.loveLetter_5": "Hi @,^^I hope you enjoy these. I got them fresh for you!^^~ Raven%item object 458 1 %%[#]Raven's Love Letter",
-    "mail.raven.loveLetter_6": "Hi @,^^I made these because I love you. I hope you enjoy the cookies!%item object 223 1 %%^^~ Raven[#]Raven's Love Letter",
-    "mail.raven.loveLetter_7": "Hi @,^^We should go do something together at some point. Let me know if you wanna do something!^^~ Raven[#]Raven's Love Letter",
+    "mail.eventStart.raven.apartment.message": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven",
+    "mail.eventStart.raven.apartment.title": "Raven's Apartment",
         //{{Zayden}}_Welcome
-    "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
     "mail.zayden.WelcomeMail_message": "Hello there, this is Zayden.^^I'm mailing this before I come back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
-    "mail.zayden.WelcomeMail_item": "%item object 476 3 %%",//3 Garlic Seeds
+    "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
         //{{Zayden}}_Greenhouse
-    "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
     "mail.zayden.GreenhouseMail_message": "Congratulations on the greenhouse @,^^Here are the seeds I said I'd send you. It's really profitable if you know how to use it right.^^Also, don't overthink your greenhouse. It'll take time to get it how you like it.^^Good luck.^^- Zayden",
-    "mail.zayden.GreenhouseMail_item": "%item object 433 5 %%",//5 Coffee Beans
+    "mail.zayden.GreenhouseMail_title": "Greenhouse Seeds",
     
     //Raven Events
         //Event 1 - L0veRaven_Raven_CatLover
@@ -1064,6 +1060,14 @@
                 "event.CheckIn_qQ_3_5": "At least I got that part right!",
         "event.CheckIn_5": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
         "event.CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
+    //L0veRaven_Zayden_InvasiveQuestions
+        "event.InvasiveQuestions.speak_1": "Oh, hi @. How is it going?#$b#Right now I'm jotting down different recipes. I'm trying to branch out with what I eat.",
+        "event.InvasiveQuestions.speak_2": "Am I avoidng garlic?#$b#...#$b#Are you asking me that because I'm a vampire?",
+        "event.InvasiveQuestions.speak_3": "Look, I'm not mad that you're asking me questions. In fact, I'm glad you're asking instead of assuming things.#$b#You just want to be careful of which vampires you approach with these questions. They might see it as invasive, you know?",
+        "event.InvasiveQuestions.speak_4": "Since you did ask, I don't have any issues with garlic. It tastes fine to me.#$b#I know my family hates garlic though, but that's just because of how strong it tastes.",
+        "event.InvasiveQuestions.speak_5": "If you're looking for some recipes to use, I can give you one for my favorite dish.",
+        "event.InvasiveQuestions.message_1": "Zayden quickly writes down a recipe on a piece of scrap paper and hands it to you.",
+        "event.InvasiveQuestions.speak_6": "Cheese Cauliflower is my favorite dish. You should try it some time.",
     //Raven_wildClans.json -> Only Raven speaks
         "event.WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
         "event.WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
@@ -1072,27 +1076,30 @@
     //mail.raven.cleansingFarmer.json
         "event.CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
     //Raven_jobInterview.json
-    //Raven_marriageTalk.json
-        "event.marriageTalk_gusWelcome": "Here comes the newlywed!",//Gus
-
-        "event.marriageTalk_speak_1": "Hey there, @! I'm on break right now.$1#$b#All of that cleaning tired me out so I need to take a breather before I get back to it.",//Raven
-
-        "event.marriageTalk_qQ": "How's the new marriage treating you?",
-
-        "event.marriageTalk_qQ_1": "It's awesome!",//Answer
-        "event.marriageTalk_qQ_1_1": "That's amazing! I love seeing happy marriaged.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
-
-        "event.marriageTalk_qQ_2": "It doesn't feel like anything changed.",//Answer
-        "event.marriageTalk_qQ_2_1": "I suppose it's like that when you've already formed a super deep bond with each other.$1#$b#I've always wanted to get married. There's something awesome about sharing romantic love with someone or multiple someones.",//Raven
-
-        "event.marriageTalk_qQ_3": "I regret getting married.",//Answer
-        "event.marriageTalk_qQ_3_1": "Oh... That's tough, I'm sorry about that.$11#$b#Personally, I've always wanted to get married to someone or multiple someones.",//Raven
-
-        "event.marriageTalk_speak_2": "Yeah, I'm totally chill with being in a marriage involving multiple people.#$b#I love people, so I getting to share my love with multiple people at once is awesome!$1#$b#It's not for everybody, though. It can get pretty messy sometimes.",//Raven
-        "event.marriageTalk_speak_3": "I have an old friend that used to be in a polyamorous relationship.#$b#It was his first time in one and he was pretty excited about it. It was him and two girlfriends.$1#$b#Unfortunately, the girlfriends decided to break up with him and get married to each other instead. He was really torn up about it.$2",//Gus
-        "event.marriageTalk_speak_4": "Oh that's gotta suck. I've been in a toxic polycule before, so I can feel some of his pain.$2#$b#Is he doing better lately?",//Raven
-        "event.marriageTalk_speak_5": "He's doing great now! He has a husband and two kids.$1#$b#You should see them, they're so happy together. The kids are very well-behaved too.",//Gus
-        "event.marriageTalk_speak_6": "I hope I get a relationship like that one of these days.$4",//Raven
+        "event.jobInterview.pierre.speak_1": "Thanks for coming for an interview, Raven!$1#$b#It's always good to see someone ready to work.",
+        "event.jobInterview.caroline.speak_1": "So Raven, do you have any previous experience working in a grocery store?",
+        "event.jobInterview.raven.speak_1": "I haven't worked in a grocery store before, but I have worked in a retail store in the past!#$b#It was a small arts and crafts store out in Zuzu City.#$b#I only stopped working there when they went out of business last year.",
+        "event.jobInterview.pierre.speak_2": "That's good to know. How do you handle frustrated customers? Let's say someone started yelling at you over the prices.",
+        "event.jobInterview.raven.speak_2": "I would explain that the prices are important to ensure we keep bringing in quality goods.#$b#I would also show them other alternatives that are more affordable that could suit their needs.$1",
+        "event.jobInterview.caroline.speak_2": "What would you do if someone accidentally left their change behind at the register?",
+        "event.jobInterview.raven.speak_3": "I would first try calling out to the customer to get their attention. If that failed, I would approach them myself and hand them their change.",
+        "event.jobInterview.pierre.speak_3": "Keep in mind, we don't accept tips here. Money should only be received for items they purchase.#$b#It's store policy.$1",
+        "event.jobInterview.raven.speak_4": "Is there a reason you don't accept tips?$17",
+        "event.jobInterview.pierre.speak_4": "It's how I run the business.$1#$b#It makes things more efficient!",
+        "event.jobInterview.abigail.speak_1": "*mutter* You just don't want to have employees get paid extra.$3",
+        "event.jobInterview.pierre.speak_5": "Hm? Did you say something Abigail?$4",
+        "event.jobInterview.abigail.speak_2": "Nope, I have no idea what you're talking about.$1",
+        "event.jobInterview.pierre.speak_6": "... Okay.$4#$b#Well, while there's not a large demand for more employees, I don't think it'd hurt to hire someone to help out.#$b#Do you have any skills that stand out?",
+        "event.jobInterview.raven.speak_5": "I do a very good job at doing deep cleaning. You tell me what to clean and I'll have the place looking spotless!$1#$b#My previous employers have actually complimented me for how well I do at janitorial duties.",
+        "event.jobInterview.caroline.speak_3": "I think we could use someone to help with some of the more complex cleaning tasks.$1#$b#After all, there are places that are hard for even me to reach at my age.",
+        "event.jobInterview.pierre.speak_7": "Hmm...#$b#Well, it's settled. I'll offer you a position to help the store with cleaning tasks.$1#$b#What's your availability?",
+        "event.jobInterview.raven.speak_6": "I'm available to work on Wednesdays and Thursdays.$1#$b#I just need to have the 18th off of every month for medical reasons.",
+        "event.jobInterview.pierre.speak_8": "That's no problem, so long as you come in for your other shifts.#$b#You can work eight hours per shift for minimum wage. How does that sound?",
+        "event.jobInterview.raven.speak_7": "Sixteen hours a week is good for me and the pay is fine.",
+        "event.jobInterview.pierre.speak_9": "You're hired! You can start this week.$1",
+        "event.jobInterview.caroline.speak_4": "Do your best!$1",
+        
+        "event.jobInterview.end": "It looks like I can ",
     //Raven_apartment.json
         "event.apartment_1": "That's the last one!",//Raven
         "event.apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
@@ -1106,6 +1113,14 @@
         "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
 
         "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
+    //----
+        "event.JojaClosed.speak_1": "Oh... Hey there @.$6",
+        "event.JojaClosed.speak_2": "You know, I've gotten into some really bad luck ever since the Community Center opened up again.$6#$b#JojaMart is no longer in town... but I don't have a job anymore.$6#$b#How am I supposed to pay my rent now?$4",
+        "event.JojaClosed.speak_3": "I know it's not your fault that JojaMart is gone, but it really does suck that I have to find a new job on such short notice.$6#$b#It'd be far more different if we were given notice before the store closed down.",
+        "event.JojaClosed.speak_4": "I'll probably be okay...$6#$b#I've already started applying for jobs out in Zuzu City, but I still plan on living in town.#$b#I like it here too much to leave.",
+        "event.JojaClosed.speak_5": "I just hope I get a job fast enough so I don't have to move out of Pelican Town...$4",
+        "event.JojaClosed.speak_6": "I will say, JojaMart wasn't the best employer, so maybe it was for the best that they closed the store.",
+        "event.JojaClosed.speak_7": "Thanks for listening to me talk, I really needed someone to talk to about it.#$b#It sucks bottling my feelings inside of myself.$4",
 }
 
 //Original Map Strings

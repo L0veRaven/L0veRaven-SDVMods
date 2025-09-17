@@ -38,5 +38,3 @@
         
         {"Name": "Raven_Animation_StandRiverForest","Value": "{{Random:Forest 39 75 3,Forest 39 75 3 {{RavenLC}}_blunt,Forest 39 75 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "false","HasMod |contains={{NB}}": "true"}},
         {"Name": "Raven_Animation_StandRiverForest","Value": "{{Random:Forest 64 89 3,Forest 64 89 3 {{RavenLC}}_blunt,Forest 64 89 3 {{RavenLC}}_edible}}","When": {"HasMod |contains={{SVE}}": "true","HasMod |contains={{NB}}": "true"}},
-
-### Make a complex schedule system for Zayden

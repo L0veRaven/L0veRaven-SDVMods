@@ -6,51 +6,45 @@
                 "Action": "EditData",
                 "Target": "Data/Mail",
                 "Entries": {
-                    "{{Raven}}_CheckIn_1": "{{i18n:mail.eventEnd.raven.checkIn_1}}",
-                    "{{Raven}}_CheckIn_2": "{{i18n:mail.eventEnd.raven.checkIn_2}}",
-                    "{{Raven}}_CheckIn_3": "{{i18n:mail.eventEnd.raven.checkIn_3}}",
+                    // debug showmail L0veRaven_Raven_CheckIn_1
+                    "{{Raven}}_CheckIn_1": "{{i18n:mail.eventEnd.raven.checkIn_1.message}}[#]{{i18n:mail.eventEnd.raven.checkIn.title}}",
+                    // debug showmail L0veRaven_Raven_CheckIn_2
+                    "{{Raven}}_CheckIn_2": "{{i18n:mail.eventEnd.raven.checkIn_2.message}}[#]{{i18n:mail.eventEnd.raven.checkIn.title}}",
+                    // debug showmail L0veRaven_Raven_CheckIn_3
+                    "{{Raven}}_CheckIn_3": "{{i18n:mail.eventEnd.raven.checkIn_3.message}}[#]{{i18n:mail.eventEnd.raven.checkIn.title}}",
 
-                    "{{Raven}}_CleansingFarmer": "{{i18n:mail.eventStart.raven.cleansingFarmer}}",
-                    "{{Raven}}_CleansingFarmer2_1": "{{i18n:mail.raven.cleansingFarmer_1}}",
-                    "{{Raven}}_CleansingFarmer2_2": "{{i18n:mail.raven.cleansingFarmer_2}}",
-                    "{{Raven}}_CleansingFarmer2_3": "{{i18n:mail.raven.cleansingFarmer_3}}",
+                    // debug showmail L0veRaven_Raven_CleansingFarmer
+                    "{{Raven}}_CleansingFarmer": "{{i18n:mail.eventStart.raven.cleansingFarmer.message}}[#]{{i18n:mail.eventStart.raven.cleansingFarmer.title}}",
+                    // debug showmail L0veRaven_Raven_CleansingFarmer2_1
+                    "{{Raven}}_CleansingFarmer2_1": "{{i18n:mail.eventEnd.raven.cleansingFarmer_1.message}} %item object 388 50 %%[#]{{i18n:mail.eventEnd.raven.cleansingFarmer.title_a}}",
+                    // debug showmail L0veRaven_Raven_CleansingFarmer2_2
+                    "{{Raven}}_CleansingFarmer2_2": "{{i18n:mail.eventEnd.raven.cleansingFarmer_2.message}} %item object 388 50 %%[#]{{i18n:mail.eventEnd.raven.cleansingFarmer.title_a}}",
+                    // debug showmail L0veRaven_Raven_CleansingFarmer2_3
+                    "{{Raven}}_CleansingFarmer2_3": "{{i18n:mail.eventEnd.raven.cleansingFarmer_3.message}}[#]{{i18n:mail.eventEnd.raven.cleansingFarmer.title_b}}",
 
-                    "{{Raven}}_JobInterview": "{{i18n:mail.eventEnd.raven.jobInterview}}",
+                    // debug showmail L0veRaven_Raven_JobInterview
+                    "{{Raven}}_JobInterview": "{{i18n:mail.eventStart.raven.jobInterview.message}}[#]{{i18n:mail.eventStart.raven.jobInterview.title}}",
                     
-                    "{{Raven}}_Apartment": "{{i18n:mail.eventStart.raven.apartment}}"
-                }
-            },
-            {
-                "LogName": "[mail] Raven - Love Letters",
-                "Action": "EditData",
-                "Target": "Data/mail",
-                "Entries": {
-                    "{{Raven}}_LoveLetter_1": "{{i18n:mail.raven.loveLetter_1}}",
-                    "{{Raven}}_LoveLetter_2": "{{i18n:mail.raven.loveLetter_2}}",
-                    "{{Raven}}_LoveLetter_3": "{{i18n:mail.raven.loveLetter_3}}",
-                    "{{Raven}}_LoveLetter_4": "{{i18n:mail.raven.loveLetter_4}}",
-                    "{{Raven}}_LoveLetter_5": "{{i18n:mail.raven.loveLetter_5}}",
-                    "{{Raven}}_LoveLetter_6": "{{i18n:mail.raven.loveLetter_6}}",
-                    "{{Raven}}_LoveLetter_7": "{{i18n:mail.raven.loveLetter_7}}"
-                },
-                "When": {
-                    "Relationship:{{Raven}}": "Dating"
+                    // debug showmail L0veRaven_Raven_Apartment
+                    "{{Raven}}_Apartment": "{{i18n:mail.eventStart.raven.apartment.message}}[#]{{i18n:mail.eventStart.raven.apartment.title}}"
                 }
             },
         //Zayden - Letters
             {
                 "LogName": "[mail] Zayden - Letters",
                 "Action": "EditData",
-                "Target": "Data/mail",
+                "Target": "Data/Mail",
                 "Entries": {
-                    "{{Zayden}}_Welcome": "{{i18n:mail.zayden.WelcomeMail_message}} {{i18n:mail.zayden.WelcomeMail_item}}[#]{{i18n:mail.zayden.WelcomeMail_title}}",
-
-                    "{{Zayden}}_Greenhouse": "{{i18n:mail.zayden.GreenhouseMail_message}} {{i18n:mail.zayden.GreenhouseMail_item}}[#]{{i18n:mail.zayden.GreenhouseMail_title}}"
+                    // debug showmail L0veRaven_Raven_Welcome
+                    "{{Zayden}}_Welcome": "{{i18n:mail.zayden.WelcomeMail_message}} %item object 476 3 %%[#]{{i18n:mail.zayden.WelcomeMail_title}}",
+                    
+                    // debug showmail L0veRaven_Raven_Greenhouse
+                    "{{Zayden}}_Greenhouse": "{{i18n:mail.zayden.GreenhouseMail_message}} %item object 433 3 %%[#]{{i18n:mail.zayden.GreenhouseMail_title}}"
                 }
             },
         //Mail Trigger Actions
             {
-                "LogName": "[TriggerActions] Zayden - Letters",
+                "LogName": "[TriggerActions] Zayden - Welcome Letter",
                 "Action": "EditData",
                 "Target": "Data/TriggerActions",
                 "Entries": {
