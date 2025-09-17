@@ -95,7 +95,7 @@
                     "Thu": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     "Fri": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     "Sat": "630 {{apartment}} 57 32 0/730 {{apartment}} 50 32 1/1030 ArchaeologyHouse 18 18 0/1600 Saloon 20 19 3/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
-                    "Sun": "630 {{apartment}} 57 32 0/730 {{apartment}} 50 32 1/1000 SeedShop 38 22 1/1400 SeedShop 2 22 1/1600 Town 24 22 2/2000 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Sun": "630 {{apartment}} 57 32 0/730 {{apartment}} 50 32 1/800 SeedShop 38 22 {{up}}/1400 SeedShop 2 22 1/1600 Town 24 22 2/2000 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     
                     "spring": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
                     "summer": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
@@ -108,11 +108,11 @@
                 "Action": "EditData",
                 "Target": "Characters/schedules/{{Zayden}}",
                 "Entries": {
-                    "Mon": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
-                    "Tue": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
-                    "Wed": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
-                    "Thu": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
-                    "Fri": "630 {{Zayden_Schedule_JojaSweep_1}}/1100 {{Zayden_Schedule_JojaSweep_2}}/1130 {{Zayden_Schedule_JojaSweep_3}}/1200 {{Zayden_Schedule_JojaSweep_4}}/1230 {{Zayden_Schedule_JojaSweep_5}}/1300 {{Zayden_Schedule_JojaSweep_6}}/1400 {{Zayden_Schedule_JojaSweep_7}}/1500 {{Zayden_Schedule_JojaSweep_8}}/1600 {{Zayden_Schedule_JojaSweep_9}}/1700 {{Zayden_Schedule_JojaSweep_10}}/1800 Town 87 85 1/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Mon": "610 Custom_L0veRaven_WarpRoom 2 2 {{down}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Tue": "610 Custom_L0veRaven_WarpRoom 2 2 {{down}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Wed": "610 Custom_L0veRaven_WarpRoom 2 2 {{down}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Thu": "610 Custom_L0veRaven_WarpRoom 2 2 {{down}}/1800 Town 87 85 1/2000 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
+                    "Fri": "610 Custom_L0veRaven_WarpRoom 2 2 {{down}}/1800 Town 87 85 1/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     "Sat": "630 {{apartment}} 57 32 0/730 {{apartment}} 50 32 1/1030 ArchaeologyHouse 18 18 0/1600 Saloon 20 19 3/2200 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     "Sun": "630 {{apartment}} 57 32 0/730 {{apartment}} 50 32 1/1000 SeedShop 38 22 1/1400 SeedShop 2 22 1/1600 Town 24 22 2/2000 {{apartment}} 57 36 3 {{Zayden_Animation_Sleep}}",
                     
@@ -120,6 +120,9 @@
                     "summer": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
                     "fall": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}",
                     "winter": "630 {{apartment}} 57 32 0/2200 {{apartment}} 57 36 2 {{Zayden_Animation_Sleep}}"
+                },
+                "When": {
+                    "HasSeenEvent": "{{Zayden}}_JojaClosed"
                 }
             },
             // Town 49, 32, 1 Stand Tree by Blacksmith

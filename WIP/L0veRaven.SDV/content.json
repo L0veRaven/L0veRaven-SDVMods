@@ -233,8 +233,7 @@
                 "LogName": "[Maps] Load - Warp Room",//ADD SVE VERSION
                 "Action": "Load",
                 "Target": "Maps/Custom_L0veRaven_WarpRoom",
-                "FromFile": "data/maps/L0veRaven_WarpRoom.tmx",
-                "When": {"HasMod |contains={{SVE}}": "false"}
+                "FromFile": "data/maps/L0veRaven_WarpRoom.tmx"
             },
             {
                 "LogName": "[Maps] Load - Tent Inside (Vanilla)",

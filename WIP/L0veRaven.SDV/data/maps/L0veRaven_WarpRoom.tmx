@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="50">
- <properties>
-  <property name="DayTiles" value="Front 7 20 1344 Front 13 20 1344 Front 18 20 1344 Front 24 20 1344 Front 29 20 1344 Front 35 20 1344 Front 40 20 1344 Front 46 20 1344 Front 51 20 1344 Front 57 20 1344"/>
-  <property name="Doors" value="10 21 1 120 10 29 1 120 21 21 1 120 21 29 1 120 32 21 1 120 32 29 1 120 43 21 1 120 43 29 1 120 54 21 1 120 54 29 1 120"/>
-  <property name="Light" value="7 20 4 13 20 4 18 20 4 24 20 4 29 20 4 35 20 4 40 20 4 46 20 4 51 20 4 57 20 4"/>
-  <property name="NPCWarp" value="2 28 FRL_NPCApt_Lobby 2 22 3 28 FRL_NPCApt_Lobby 3 22 61 28 FRL_NPCApt_Lobby 61 22 62 28 FRL_NPCApt_Lobby 62 22"/>
-  <property name="NightTiles" value="Front 7 20 1345 Front 13 20 1345 Front 18 20 1345 Front 24 20 1345 Front 29 20 1345 Front 35 20 1345 Front 40 20 1345 Front 46 20 1345 Front 51 20 1345 Front 57 20 1345"/>
-  <property name="Warp" value="2 20 FRL_NPCApt_Floor2 2 26 3 20 FRL_NPCApt_Floor2 3 26 61 20 FRL_NPCApt_Floor2 61 26 62 20 FRL_NPCApt_Floor2 62 26 2 28 FRL_NPCApt_Floor1 2 22 3 28 FRL_NPCApt_Floor1 3 22 61 28 FRL_NPCApt_Floor1 61 22 62 28 FRL_NPCApt_Floor1 62 22"/>
- </properties>
  <tileset firstgid="1" name="z_L0veRaven_Tent" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="z_L0veRaven_Tent.png" width="400" height="1264"/>
  </tileset>
