@@ -59,9 +59,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
-                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
-                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}"
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,3}}}}}} |{{i18n:query.raven.apartment}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,3}}}}}} |{{i18n:query.raven.apartment}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,3}}}}}} |{{i18n:query.raven.apartment}}"
             },
             "When": {
                 "Hearts:{{Raven}}": "8",
@@ -73,9 +73,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
-                "Fri": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
-                "Sat": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}"
+                "Wed": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,3}}}}}}",
+                "Fri": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,3}}}}}}",
+                "Sat": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,3}}}}}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating",
@@ -87,9 +87,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Wed": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
-                "Fri": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
-                "Sat": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}"
+                "Wed": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,6}}}}}}",
+                "Fri": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,6}}}}}}",
+                "Sat": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,6}}}}}}"
             },
             "When": {
                 "Relationship:{{Raven}}": "Dating",

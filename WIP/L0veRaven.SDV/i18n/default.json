@@ -357,12 +357,18 @@
     "query.raven.apartment": "@! @!#$b#$y `Did you read the letter I sent yet?_No._Don't worry, I can tell you. I finally got an apartment!$3_I did!_#$action AddFriendshipPoints {{Raven}} 5#That's great @! It's great that it finally happened.$1#$b#Come to my place when you can. I'm almost done unpacking!",
     "dialogue.raven.8hearts_1": "I'm talking with Mayor Lewis about if I can open a coffee shop here!#$e#I just need to find a place to build it.",
     "dialogue.raven.8hearts_2": "Just imagine there being a coffee shop in town. That would be pretty neat, wouldn't it?$1",
+    "dialogue.raven.8hearts_3": "I know this is a small town, but I think the place could do with an extra business or two.#$b#It'd help to boost the local economy, I'm certain!$1",
             //Raven: 8 Hearts - Romantic
     "dialogue.raven.8hearts.dating_1": "This might be a lot to ask for, but could you put in a good word for me with Mayor Lewis?#$b#I'm trying to open a coffee shop, but I need him to trust that I'll do what I can to make sure it provides more jobs to people in town, you know?",
     "dialogue.raven.8hearts.dating_2": "You know how some people in town don't have jobs? Well, I wanna try to change that.#$e#Everyone deserves a shot, even in small towns.",
+    "dialogue.raven.8hearts.dating_3": "Hey honey, I have an idea about the town.#$b#If we had maybe a couple more businesses in town, it'd help the local economy out by giving more job opportunities!$1#$e#I wonder what businesses the town needs...$17",
             //Raven: 10 Hearts
-    "dialogue.raven.10hearts_1": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
-    "dialogue.raven.10hearts_2": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
+    "dialogue.raven.10hearts_1": "I love that I get to spend time with you, @. You really brighten my world.$1",
+    "dialogue.raven.10hearts_2": "I really love talking to you. You make me feel spiritually 'at home'.#$b#It's a great feeling!$1",
+    "dialogue.raven.10hearts_3": "We should go on a date soon!$1#$b#Maybe we could go eat somewhere or watch a movie together?",
+    "dialogue.raven.10hearts_4": "I'm thinking of what spells to work on right now.#$b#Maybe I could do a protection spell for you so you stay safe while you're out and about.$4",
+    "dialogue.raven.10hearts_5": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
+    "dialogue.raven.10hearts_6": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
             //Zayden: 0 Hearts
     "dialogue.zayden.0hearts_1": "I normally stay away from direct sunlight.#$b#It's not that I sunburn easily, but too much sun isn't good for my skin.$2#$e#No, I don't care that the sun causes aging.#$b#*whispers* It's kinda a dumb reason to hate the sun...$3",
     "dialogue.zayden.0hearts_2": "The heat isn't an issue for me. The problem is when the sun's directly on me for too long.#$e#What happens when I'm in the sun for too long?$9#$b#I get heat rashes. It's really uncomfortable.$4",
