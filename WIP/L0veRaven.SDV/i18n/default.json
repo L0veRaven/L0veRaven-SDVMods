@@ -1132,6 +1132,9 @@
         "event.GotHired.speak_2": "I'm actually headed to work now to hand in my employee paperwork. Once that gets finalized, I get to start my official first shift!$1#$b#No more bus rides to town to hand out resumes to any business that'll take them.",
         "event.GotHired.speak_3": "I'm honestly kind of surprised that I didn't work for JojaMart in Zuzu City. Even though they shut down abruptly here, they gave reliable pay.#$b#At least the call center pays me above minimum wage. That's really all that I can ask for.",
         "event.GotHired.speak_4": "I better head off now, but it was good getting to see you again.#$b#Good luck today!$1",
+    //Cafe
+        "cafe.strings.closed": "The cafe is closed. Come again between 8am to 4pm.",
+        "cafe.strings.open": "Welcome to Pelican Cafe! What can I get you?",
 }
 
 //Original Map Strings

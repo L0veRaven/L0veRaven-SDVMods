@@ -1047,7 +1047,12 @@
         {
             "LogName": "Map Patch & Location Includes",
             "Action": "Include",
-            "FromFile": "data/locations/apartment.json, data/locations/ravenTent.json, data/locations/spouseRoom.json, data/locations/spousePatio.json, data/locations/warpRoom.json"
+            "FromFile": "data/locations/apartment.json, data/locations/ravenTent.json, data/locations/spouseRoom.json, data/locations/spousePatio.json, data/locations/warpRoom.json, data/locations/cafe.json"
+        },
+        {
+            "LogName": "Cafe Data",
+            "Action": "Include",
+            "FromFile": "data/shops.json"
         },
         //Blank Loads
         {

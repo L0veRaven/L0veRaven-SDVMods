@@ -1,0 +1,113 @@
+{
+    "Changes": [
+        //Add tent to CJB warps, but remove it when the letter {{Raven}}_Apartment has been read
+        //{
+        //    "LogName": "CJB Cheats (Warps) - Raven's Tent (SVE)",
+        //    "Action": "EditData",
+        //    "Target": "Mods/CJBok.CheatsMenu/Warps",
+        //    "Update": "OnLocationChange, OnTimeChange",
+        //    "Entries": {
+        //        "{{ModId}}_RavensTentSVE": {
+        //            "Id": "{{ModId}}_RavensTentSVE",
+        //            "DisplayName": "{{i18n:mapString.ravenTent}}",
+        //            "Location": "Forest",
+        //            "Tile": "88, 89",
+        //            "SectionId": "forest"
+        //        }
+        //    },
+        //    "When": {
+        //        "HasMod |contains={{CJBC}}": "true",
+        //        "HasMod |contains={{SVE}}": "true",
+        //        "HasFlag: |contains={{Raven}}_Apartment": false
+        //    }
+        //},
+        //{
+        //    "LogName": "[Data/WorldMap] Show Raven's Tent on Map",
+        //    "Action": "EditData",
+        //    "Target": "Data/WorldMap",
+        //    "TargetField": ["Valley", "MapAreas"],
+        //    "Update": "OnLocationChange, OnTimeChange",
+        //    "Entries": {
+        //        "{{Raven}}_IndoorTownMap_{{Raven}}TentInside": {
+        //            "Id": "Custom_{{Raven}}TentInside",
+        //            "PixelArea": {
+        //                "X":0,"Y":0,"Width":300,"Height":180
+        //            },
+        //            "ScrollText": "{{i18n:mapString.ravenTent}}",
+        //            "WorldPositions": [
+        //                {
+        //                    "Id": "Custom_{{Raven}}TentInside",
+        //                    "LocationName": "Custom_{{Raven}}TentInside",
+        //                    "MapPixelArea": {//Position of Entryway
+        //                        "X":104,"Y":141,"Width":0,"Height":0
+        //                    }
+        //                }
+        //            ]
+        //        },
+        //        "{{Raven}}_IndoorTownMap_{{Raven}}TentInsideSVE": {
+        //            "Id": "Custom_{{Raven}}TentInsideSVE",
+        //            "PixelArea": {
+        //                "X":0,"Y":0,"Width":300,"Height":180
+        //            },
+        //            "ScrollText": "{{i18n:mapString.ravenTent}}",
+        //            "WorldPositions": [
+        //                {
+        //                    "Id": "Custom_{{Raven}}TentInsideSVE",
+        //                    "LocationName": "Custom_{{Raven}}TentInsideSVE",
+        //                    "MapPixelArea": {//Position of Entryway
+        //                        "X":104,"Y":141,"Width":0,"Height":0
+        //                    }
+        //                }
+        //            ]
+        //        }
+        //    }
+        //},
+        //{
+        //    "LogName": "[Strings/StringsFromMaps] Raven's Tent - Outdoors",
+        //    "Action": "EditData",
+        //    "Target": "Strings/StringsFromMaps",
+        //    "Entries": {
+        //        "L0veRavenRavenTentOutdoors.1": "{{i18n:mapString.ravenTent.mailbox}}",
+        //        "L0veRavenRavenTentOutdoors.2": "{{i18n:mapString.ravenTent.trashBag}}"
+        //    }
+        //},
+        //{
+        //    "LogName": "[Strings/StringsFromMaps] - World Map (Raven's Tent)",
+        //    "Action": "EditData",
+        //    "Target": "Strings/StringsFromMaps",
+        //    "Entries": {
+        //        //Name to show on world map
+        //        "Custom_{{Raven}}TentInside.1": "{{i18n:mapString.ravenTent}}"
+        //    }
+        //},
+        {
+            "LogName": "[Maps/Town] Patch Cafe (Vanilla)",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "data/maps/L0veRaven_Cafe.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 60,"Y": 0,"Width": 19,"Height": 9
+            },
+            "When": {
+                "HasMod: |contains={{SVE}}": false
+            }
+        },
+        //{
+        //    "LogName": "[Maps/Forest] Patch Raven's Tent - Outdoors: Snow (Vanilla)",
+        //    "Action": "EditMap",
+        //    "Target": "Maps/Forest",
+        //    "FromFile": "data/maps/L0veRaven_RavenTentSnow.tmx",
+        //    "PatchMode": "Replace",
+        //    "Update": "OnLocationChange",
+        //    "ToArea": {
+        //        "X": 51,"Y": 70,"Width": 3,"Height": 5
+        //    },
+        //    "When": {
+        //        "HasMod: |contains={{SVE}}": false,
+        //        "HasFlag: |contains={{Raven}}_Apartment": false,
+        //        "Season": "winter"
+        //    }
+        //},
+    ]
+}

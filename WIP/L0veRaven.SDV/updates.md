@@ -1,5 +1,11 @@
 # content.json
 
+## Add CJB Warps for Cafe stand
+
+## Add Cafe stand to map
+
+## Add snow to Cafe stand for snow patch
+
 ## Clean Language
 
     "ConfigSchema": {

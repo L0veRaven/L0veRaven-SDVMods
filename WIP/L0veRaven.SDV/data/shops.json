@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_Cafe": {
+                    "Owners": [
+                        //{
+                        //    "Name": "{{Raven}}", //Raven must be in range
+                        //    "Portrait": "{{Raven}}",
+                        //    "Dialogues": [
+                        //            {
+                        //                "Id": "{{ModId}}_Open",
+                        //                "Condition": "TIME 800 1600",
+                        //                "Dialogue": "{{i18n:cafe.strings.open}}"
+                        //            }
+                        //        ]
+                        //},
+                        {
+                            "Name": "AnyOrNone", //regardless of who is present
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_Open",
+                                    "Condition": "TIME 800 1600",
+                                    "Dialogue": "{{i18n:cafe.strings.open}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "AnyOrNone", //regardless of who is present
+                            "Id": "{{ModId}}_Closed",
+                            "Condition": "!TIME 800 1600",
+                            "ClosedMessage": "{{i18n:cafe.strings.closed}}"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_Coffee",
+                            "ItemId": "(O)395",
+                            "Price": 150,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_TripleShotEspresso",
+                            "ItemId": "(O)253",
+                            "Price": 300,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_Bread",
+                            "ItemId": "(O)216",
+                            "Price": 50,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_ChocolateCake",
+                            "ItemId": "(O)220",
+                            "Price": 200,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_PinkCake",
+                            "ItemId": "(O)221",
+                            "Price": 400,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_Cookies",
+                            "ItemId": "(O)223",
+                            "Price": 100,
+                            "ApplyProfitMargins": true
+                        },
+                        {
+                            "Id": "{{ModId}}_PumpkinPie",
+                            "ItemId": "(O)608",
+                            "Price": 500,
+                            "ApplyProfitMargins": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,103 +1,100 @@
 {
     "Changes": [
-        
-        //logname:token:Heart Dialogue (Wed, Fri, Sat)
-            {
-                "LogName": "0 Heart Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    //trigger:{{Raven}}_CatLover, {{Raven}}_CheckIn
-                        "Wed": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
-                        "Fri": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
-                        "Sat": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}"
-                },
-                "When": {
-                    "Hearts:{{Raven}}": "0, 1"
-                }
+        //Heart Dialogue (Wed, Fri, Sat)
+        {
+            "LogName": "0 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                    "Wed": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
+                    "Fri": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}",
+                    "Sat": "{{i18n:dialogue.raven.0hearts_{{Random:{{Range:1,10}}}}}}"
             },
-            {
-                "LogName": "2 Heart Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    //trigger:Letter _WildClans
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received"
-                },
-                "When": {
-                    "Hearts:{{Raven}}": "2, 3"
-                }
-            },
-            {
-                "LogName": "4 Heart Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    "Wed": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
-                    "Fri": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
-                    "Sat": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}"
-                },
-                "When": {
-                    "Hearts:{{Raven}}": "4, 5"
-                }
-            },
-            {
-                "LogName": "6 Heart Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    //trigger:Add Letter _JobInterview
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
-                },
-                "When": {
-                    "Hearts:{{Raven}}": "6, 7"
-                }
-            },
-            {
-                "LogName": "8 Heart Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
-                    "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
-                    "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}"
-                },
-                "When": {
-                    "Hearts:{{Raven}}": "8",
-                    "Relationship:{{Raven}}": "Friendly"
-                }
-            },
-            {
-                "LogName": "8 Hearts - Dating",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    "Wed": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
-                    "Fri": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
-                    "Sat": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}"
-                },
-                "When": {
-                    "Relationship:{{Raven}}": "Dating",
-                    "Hearts:{{Raven}}": "8, 9"
-                }
-            },
-            {
-                "LogName": "10 Hearts",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/{{Raven}}",
-                "Entries": {
-                    "Wed": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
-                    "Fri": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
-                    "Sat": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}"
-                },
-                "When": {
-                    "Relationship:{{Raven}}": "Dating",
-                    "Hearts:{{Raven}}": "10"
-                }
+            "When": {
+                "Hearts:{{Raven}}": "0, 1"
             }
+        },
+        {
+            "LogName": "2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_WildClans # {{i18n:dialogue.raven.2hearts_{{Random:{{Range:1,8}}}}}} |{{i18n:query.raven.wildClans}}#$action AddMail Current {{Raven}}_WildClans received"
+            },
+            "When": {
+                "Hearts:{{Raven}}": "2, 3"
+            }
+        },
+        {
+            "LogName": "4 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Wed": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
+                "Fri": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}",
+                "Sat": "{{i18n:dialogue.raven.4hearts_{{Random:{{Range:1,5}}}}}}"
+            },
+            "When": {
+                "Hearts:{{Raven}}": "4, 5"
+            }
+        },
+        {
+            "LogName": "6 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                //trigger:Add Letter _JobInterview
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_JobInterview # {{i18n:dialogue.raven.6hearts_{{Random:{{Range:1,5}}}}}} |{{i18n:query.raven.jobInterview}}#$action AddMail Current {{Raven}}_JobInterview tomorrow"
+            },
+            "When": {
+                "Hearts:{{Raven}}": "6, 7"
+            }
+        },
+        {
+            "LogName": "8 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Wed": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
+                "Fri": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}",
+                "Sat": "$query PLAYER_HAS_SEEN_EVENT Current {{Raven}}_Apartment # {{i18n:dialogue.raven.8hearts_{{Random:{{Range:1,2}}}}}} |{{i18n:query.raven.apartment}}"
+            },
+            "When": {
+                "Hearts:{{Raven}}": "8",
+                "Relationship:{{Raven}}": "Friendly"
+            }
+        },
+        {
+            "LogName": "8 Hearts - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Wed": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
+                "Fri": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}",
+                "Sat": "{{i18n:dialogue.raven.8hearts.dating_{{Random:{{Range:1,2}}}}}}"
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Dating",
+                "Hearts:{{Raven}}": "8, 9"
+            }
+        },
+        {
+            "LogName": "10 Hearts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Raven}}",
+            "Entries": {
+                "Wed": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
+                "Fri": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}",
+                "Sat": "{{i18n:dialogue.raven.10hearts_{{Random:{{Range:1,2}}}}}}"
+            },
+            "When": {
+                "Relationship:{{Raven}}": "Dating",
+                "Hearts:{{Raven}}": "10"
+            }
+        }
     ]
 }
