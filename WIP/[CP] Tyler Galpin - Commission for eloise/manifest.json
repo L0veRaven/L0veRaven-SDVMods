@@ -1,0 +1,13 @@
+{
+    "Name": "[CP] Tyler Galpin from Wednesday",
+    "Author": "L0veRaven",
+    "Description": "Adds Tyler Galpin from Wednesday as a dateable NPC.",
+    "Version": "1.0.0",
+    "UniqueID": "L0veRaven.TylerGalpin",
+    "UpdateKeys": ["Nexus:"],
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
+    "Dependencies": [
+        {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
+        {"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": "false"}
+    ]
+}

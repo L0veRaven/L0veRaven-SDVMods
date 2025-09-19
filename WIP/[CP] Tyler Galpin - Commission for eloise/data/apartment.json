@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Map] Patch Raven's Apartment & Coat Rack Tile Action",
+            "Action": "EditMap",
+            "Target": "Maps/FRL_NPCApt_Floor1",
+            "FromFile": "data/{{Tyler}}_Apartment.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {"X": 49, "Y": 8, "Width": 11, "Height": 11},
+            "MapTiles": [
+                {
+                    "Layer": "Buildings",
+                    "Position": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "SetProperties": {"Action": "Door {{Tyler}}"}
+                }
+            ]
+        }
+    ]
+}

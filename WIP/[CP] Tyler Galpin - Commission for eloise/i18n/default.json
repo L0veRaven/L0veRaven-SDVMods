@@ -1,0 +1,11 @@
+{
+    "displayName.tyler": "Tyler",
+    
+    "npcGiftTaste.love": "Thanks for the gift! It's not often I get myself this.",//TODO: Add portraits
+    "npcGiftTaste.like": "How thoughtful! It's really nice of you.",//TODO: Add portraits
+    "npcGiftTaste.dislike": "Oh, uh, thanks for thinking of me.",//TODO: Add portraits
+    "npcGiftTaste.hate": "... I'll have to find a place for this...",//TODO: Add portraits
+    "npcGiftTaste.neutral": "Thanks for the gift. It's nice to know you're thinking of me.",//TODO: Add portraits
+
+    "dialogue.summit": "You know, it's been amazing getting to know you.#$b#Seeing how far you've come since I first met you has been fantastic, and I can't wait to see where things go from here."//TODO: Add portraits
+}

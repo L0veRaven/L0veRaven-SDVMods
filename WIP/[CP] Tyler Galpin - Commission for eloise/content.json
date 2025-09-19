@@ -1,0 +1,562 @@
+{
+    "Format": "2.7.5",
+    "DynamicTokens": [
+        //Mod Info
+        {"Name": "Nexus","Value": "27407"},
+        //ModCompat Nicknames -> External ModId's
+        {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
+        {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
+        //Internal Names
+        {"Name": "Tyler","Value": "L0veRaven_TylerGalpin"},
+        {"Name": "TylerLC","Value": "l0veraven_tylergalpin"},
+        //Locations
+        {"Name": "apartment","Value": "FRL_NPCApt_Floor1"},
+        //Emotes
+        {"Name": "emoteEmptyCan","Value": "4"},
+        {"Name": "emoteQuestion","Value": "8"},
+        {"Name": "emoteAngry","Value": "12"},
+        {"Name": "emoteExclaim","Value": "16"},
+        {"Name": "emoteHeart","Value": "20"},
+        {"Name": "emoteSleep","Value": "24"},
+        {"Name": "emoteSweat","Value": "28"},
+        {"Name": "emoteHappy","Value": "32"},
+        {"Name": "emoteX","Value": "36"},
+        {"Name": "emotePause","Value": "40"},
+        {"Name": "emoteVideoGame","Value": "52"},
+        {"Name": "emoteMusic","Value": "56"},
+        {"Name": "emoteBlush","Value": "60"},
+        //Event Commands
+        {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
+        //Time
+        {"Name": "6am","Value": "600"},
+        {"Name": "610am","Value": "610"},
+        {"Name": "620am","Value": "620"},
+        {"Name": "630am","Value": "630"},
+        {"Name": "640am","Value": "640"},
+        {"Name": "650am","Value": "650"},
+        {"Name": "7am","Value": "700"},
+        {"Name": "710am","Value": "710"},
+        {"Name": "720am","Value": "720"},
+        {"Name": "730am","Value": "730"},
+        {"Name": "740am","Value": "740"},
+        {"Name": "750am","Value": "750"},
+        {"Name": "8am","Value": "800"},
+        {"Name": "810am","Value": "810"},
+        {"Name": "820am","Value": "820"},
+        {"Name": "830am","Value": "830"},
+        {"Name": "840am","Value": "840"},
+        {"Name": "850am","Value": "850"},
+        {"Name": "9am","Value": "900"},
+        {"Name": "910am","Value": "910"},
+        {"Name": "920am","Value": "920"},
+        {"Name": "930am","Value": "930"},
+        {"Name": "940am","Value": "940"},
+        {"Name": "950am","Value": "950"},
+        {"Name": "10am","Value": "1000"},
+        {"Name": "1010am","Value": "1010"},
+        {"Name": "1020am","Value": "1020"},
+        {"Name": "1030am","Value": "1030"},
+        {"Name": "1040am","Value": "1040"},
+        {"Name": "1050am","Value": "1050"},
+        {"Name": "11am","Value": "1100"},
+        {"Name": "1110am","Value": "1110"},
+        {"Name": "1120am","Value": "1120"},
+        {"Name": "1130am","Value": "1130"},
+        {"Name": "1140am","Value": "1140"},
+        {"Name": "1150am","Value": "1150"},
+        {"Name": "12pm","Value": "1200"},
+        {"Name": "1210pm","Value": "1210"},
+        {"Name": "1220pm","Value": "1220"},
+        {"Name": "1230pm","Value": "1230"},
+        {"Name": "1240pm","Value": "1240"},
+        {"Name": "1250pm","Value": "1250"},
+        {"Name": "1pm","Value": "1300"},
+        {"Name": "110pm","Value": "1310"},
+        {"Name": "120pm","Value": "1320"},
+        {"Name": "130pm","Value": "1330"},
+        {"Name": "140pm","Value": "1340"},
+        {"Name": "150pm","Value": "1350"},
+        {"Name": "2pm","Value": "1400"},
+        {"Name": "210pm","Value": "1410"},
+        {"Name": "220pm","Value": "1420"},
+        {"Name": "230pm","Value": "1430"},
+        {"Name": "240pm","Value": "1440"},
+        {"Name": "250pm","Value": "1450"},
+        {"Name": "3pm","Value": "1500"},
+        {"Name": "310pm","Value": "1510"},
+        {"Name": "320pm","Value": "1520"},
+        {"Name": "330pm","Value": "1530"},
+        {"Name": "340pm","Value": "1540"},
+        {"Name": "350pm","Value": "1550"},
+        {"Name": "4pm","Value": "1600"},
+        {"Name": "410pm","Value": "1610"},
+        {"Name": "420pm","Value": "1620"},
+        {"Name": "430pm","Value": "1630"},
+        {"Name": "440pm","Value": "1640"},
+        {"Name": "450pm","Value": "1650"},
+        {"Name": "5pm","Value": "1700"},
+        {"Name": "510pm","Value": "1710"},
+        {"Name": "520pm","Value": "1720"},
+        {"Name": "530pm","Value": "1730"},
+        {"Name": "540pm","Value": "1740"},
+        {"Name": "550pm","Value": "1750"},
+        {"Name": "6pm","Value": "1800"},
+        {"Name": "610pm","Value": "1810"},
+        {"Name": "620pm","Value": "1820"},
+        {"Name": "630pm","Value": "1830"},
+        {"Name": "640pm","Value": "1840"},
+        {"Name": "650pm","Value": "1850"},
+        {"Name": "7pm","Value": "1900"},
+        {"Name": "710pm","Value": "1910"},
+        {"Name": "720pm","Value": "1920"},
+        {"Name": "730pm","Value": "1930"},
+        {"Name": "740pm","Value": "1940"},
+        {"Name": "750pm","Value": "1950"},
+        {"Name": "8pm","Value": "2000"},
+        {"Name": "810pm","Value": "2010"},
+        {"Name": "820pm","Value": "2020"},
+        {"Name": "830pm","Value": "2030"},
+        {"Name": "840pm","Value": "2040"},
+        {"Name": "850pm","Value": "2050"},
+        {"Name": "9pm","Value": "2100"},
+        {"Name": "910pm","Value": "2110"},
+        {"Name": "920pm","Value": "2120"},
+        {"Name": "930pm","Value": "2130"},
+        {"Name": "940pm","Value": "2140"},
+        {"Name": "950pm","Value": "2150"},
+        {"Name": "10pm","Value": "2200"},
+        {"Name": "1010pm","Value": "2210"},
+        {"Name": "1020pm","Value": "2220"},
+        {"Name": "1030pm","Value": "2230"},
+        {"Name": "1040pm","Value": "2240"},
+        {"Name": "1050pm","Value": "2250"},
+        {"Name": "11pm","Value": "2300"},
+        {"Name": "1110pm","Value": "2310"},
+        {"Name": "1120pm","Value": "2320"},
+        {"Name": "1130pm","Value": "2330"},
+        {"Name": "1140pm","Value": "2340"},
+        {"Name": "1150pm","Value": "2350"},
+        {"Name": "12am","Value": "2400"},
+        {"Name": "1210am","Value": "2410"},
+        {"Name": "1220am","Value": "2420"},
+        {"Name": "1230am","Value": "2430"},
+        {"Name": "1240am","Value": "2440"},
+        {"Name": "1250am","Value": "2450"},
+        {"Name": "1am","Value": "2500"},
+        {"Name": "110am","Value": "2510"},
+        {"Name": "120am","Value": "2520"},
+        {"Name": "130am","Value": "2530"},
+        {"Name": "140am","Value": "2540"},
+        {"Name": "150am","Value": "2550"},
+        {"Name": "2am","Value": "2600"},
+        //Directions
+        {"Name": "up","Value": "0"},
+        {"Name": "right","Value": "1"},
+        {"Name": "down","Value": "2"},
+        {"Name": "left","Value": "3"},
+        //Animations
+        {"Name": "animate_sweep","Value": "{{TylerLC}}_sweep"},
+        //Positions
+    ],
+    "Changes": [
+        //Map Patch & Location Includes
+        {
+            "LogName": "Apartment Patch",
+            "Action": "Include",
+            "FromFile": "data/apartment.json,"
+        },
+        //Blank Loads
+        {
+            "LogName": "Blank Loads [dialogue, marriageDialogue, schedules, scheduleStrings]",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Tyler}}, Characters/Dialogue/MarriageDialogue{{Tyler}}, Characters/schedules/{{Tyler}}, Strings/Schedules/{{Tyler}}",
+            "FromFile": "data/blank.json"
+        },
+        //Data/Characters
+        {
+            "LogName": "Character - Base Information",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Tyler}}": {
+                    "DisplayName": "{{i18n:displayName.tyler}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 13,
+                    "HomeRegion": "Town",
+                    "Language": "default",
+                    "Gender": "male",
+                    "Age": "adult",
+                    "Manner": "polite",
+                    "SocialAnxiety": "shy",
+                    "Optimism": "positive",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanVisitIsland": false,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpouseWantsChildren": true,
+                    "SpouseGiftJealousy": false,
+                    "SpouseGiftJealousyFriendshipChange": 0,
+                    "SpouseRoom": {// TODO: Add spouseroom
+                        //"MapAsset": "{{Tyler}}SpouseRoom",
+                        //"MapSourceRect": {
+                        //    "X": 0, "Y": 0, "Width": 6, "Height": 9
+                        //}
+                    },
+                    "SpousePatio": {// TODO: Add spousepatio
+                        //"MapAsset": "{{Tyler}}SpousePatio",
+                        //"MapSourceRect": {
+                        //    "X": 0, "Y": 0, "Width": 4, "Height": 4
+                        //},
+                        //"SpriteAnimationFrames": [ //Looping animation while on spousepatio, [frame, miliseconds]
+                        //    [0, 1500]
+                        //]
+                    },
+                    "DumpsterDiveFriendshipEffect": -5,
+                    "DumpsterDiveEmote": 12,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "FriendsAndFamily": {},
+                    "FlowerDanceCanDance": true,
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": true,
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [],
+                    "TextureName": "",
+                    "Appearance": [],
+                    "MugShotSourceRect": null,
+                    "Size": {
+                        "X": 16,"Y": 32
+                    },
+                    "Breather": true,
+                    "BreathChestRect": null,
+                    "BreathChestPosition": null,
+                    "Shadow": null,
+                    "EmoteOffset": {"X": 0,"Y": 0},
+                    "ShakePortraits": [9],
+                    "KissSpriteIndex": 19,
+                    "KissSpriteFacingRight": true,
+                    "HiddenProfileEmoteSound": null,
+                    "HiddenProfileEmoteDuration": null,
+                    "HiddenProfileEmoteStartFrame": null,
+                    "HiddenProfileEmoteFrameCount": null,
+                    "HiddenProfileEmoteFrameDuration": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        //Appearance
+        {
+            "LogName": "Character - SpringSummer","Action": "Load",
+            "Target": "Characters/{{Tyler}}_SpringSummer","FromFile": "assets/Characters/{{Tyler}}_SpringSummer.png"
+        },
+        {
+            "LogName": "Portrait - SpringSummer","Action": "Load",
+            "Target": "Portraits/{{Tyler}}_SpringSummer","FromFile": "assets/Portraits/{{Tyler}}_SpringSummer.png"
+        },
+        {
+            "LogName": "Appearance - Spring/Summer","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.SpringSummer",
+                    "Condition": "SEASON spring summer",
+                    "Sprite": "Characters/{{Tyler}}_SpringSummer",
+                    "Portrait": "Portraits/{{Tyler}}_SpringSummer",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+        {
+            "LogName": "Character - Fall","Action": "Load",
+            "Target": "Characters/{{Tyler}}_Fall","FromFile": "assets/Characters/{{Tyler}}_Fall.png"
+        },
+        {
+            "LogName": "Portrait - Fall","Action": "Load",
+            "Target": "Portraits/{{Tyler}}_Fall","FromFile": "assets/Portraits/{{Tyler}}_Fall.png"
+        },
+        {
+            "LogName": "Appearance - Fall","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Fall",
+                    "Condition": "SEASON fall",
+                    "Sprite": "Characters/{{Tyler}}_Fall",
+                    "Portrait": "Portraits/{{Tyler}}_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+        {
+            "LogName": "Character - Winter","Action": "Load",
+            "Target": "Characters/{{Tyler}}_Winter","FromFile": "assets/Characters/{{Tyler}}_Winter.png"
+        },
+        {
+            "LogName": "Portrait - Winter","Action": "Load",
+            "Target": "Portraits/{{Tyler}}_Winter","FromFile": "assets/Portraits/{{Tyler}}_Winter.png"
+        },
+        {
+            "LogName": "Appearance - Winter","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Winter",
+                    "Condition": "SEASON winter",
+                    "Sprite": "Characters/{{Tyler}}_Winter",
+                    "Portrait": "Portraits/{{Tyler}}_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+        //Home Spawn
+        {
+            "LogName": "Home Data",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Tyler}}","Home"],
+            "Entries": {
+                "{{Raven}}_Apartment": {
+                    "Id": "{{Tyler}}_Apartment",
+                    "Location": "{{apartment}}",
+                    "Tile": {"X": 51,"Y": 13},
+                    "Direction": "down"
+                }
+            }
+        },
+        //Winter Star Gifts
+        {
+            "LogName": "WinterStarGifts - Amethyst",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Tyler}}","WinterStarGifts"],
+            "Entries": {
+                "{{Raven}}_WinterStar_Amethyst": {
+                    "Id": "{{Tyler}}_WinterStar_Amethyst",//TODO: Change gifts
+                    "ItemId": "(O)66",
+                    "RandomItemId": null,
+                    "MinStack": 2,
+                    "MaxStack": 3
+                }
+            }
+        },
+        //NPC Gift Tastes
+        {
+            "LogName": "NPCGiftTastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{Tyler}}": "{{i18n:npcGiftTaste.love}}//{{i18n:npcGiftTaste.like}}//{{i18n:npcGiftTaste.dislike}}//{{i18n:npcGiftTaste.hate}}//{{i18n:npcGiftTaste.neutral}}//",
+            }
+        },
+        //Schedule - Unmarried
+        {
+            "LogName": "[Characters/schedules] Zayden",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Zayden}}",
+            "Entries": { //TODO: Add schedule
+                "Mon": "",
+                "Tue": "",
+                "Wed": "",
+                "Thu": "",
+                "Fri": "",
+                "Sat": "",
+                "Sun": "",
+                
+                "spring": "",
+                "summer": "",
+                "fall": "",
+                "winter": ""
+            }
+        },
+        //Dialogue
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModId}}_<NPCNAME>",
+            "Entries": {
+                //green rain
+                "GreenRain": "{{i18n or straight dialogue}}",
+                "GreenRainFinished": "{{i18n or straight dialogue}}",
+                //movie
+                "MovieInvitation": "{{i18n or straight dialogue}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n or straight dialogue}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n or straight dialogue}}",
+                "RejectMovieTicket_Divorced": "{{i18n or straight dialogue}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n or straight dialogue}}",
+                "RejectMovieTicket": "{{i18n or straight dialogue}}",
+                //dating
+                "breakUp": "{{i18n or straight dialogue}}",
+                "dating_EdelweissSeung_memory_oneyear": "{{i18n or straight dialogue}}",
+                "RejectBouquet_NotDatable": "{{i18n or straight dialogue}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n or straight dialogue}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n or straight dialogue}}",
+                "RejectBouquet_LowHearts": "{{i18n or straight dialogue}}",
+                "RejectBouquet": "{{i18n or straight dialogue}}",
+                //marriage
+                "SpouseFarmhouseClutter": "{{i18n or straight dialogue}}",
+                "Spouse_MonstersInHouse": "{{i18n or straight dialogue}}",
+                "SpouseStardrop": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_NotDatable": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant": "{{i18n or straight dialogue}}",
+                //divorced
+                "divorced": "{{i18n or straight dialogue}}",
+                "RejectGift_Divorced": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_Divorced": "{{i18n or straight dialogue}}",
+                "RejectBouquet_Divorced": "{{i18n or straight dialogue}}",
+                "WipedMemory": "{{i18n or straight dialogue}}",
+                //island
+                "Resort": "{{i18n or straight dialogue}}",
+                "Resort_Bar": "{{i18n or straight dialogue}}",
+                "Resort_Chair": "{{i18n or straight dialogue}}",
+                "Resort_Dance": "{{i18n or straight dialogue}}",
+                "Resort_Entering": "{{i18n or straight dialogue}}",
+                "Resort_Leaving": "{{i18n or straight dialogue}}",
+                "Resort_Shore": "{{i18n or straight dialogue}}",
+                "Resort_Towel": "{{i18n or straight dialogue}}",
+                "Resort_Umbrella": "{{i18n or straight dialogue}}",
+                "Resort_Wander": "{{i18n or straight dialogue}}",
+                //birthday
+                "AcceptBirthdayGift_Negative": "{{i18n or straight dialogue}}",
+                "AcceptBirthdayGift_Positive": "{{i18n or straight dialogue}}",
+                "AcceptBirthdayGift": "{{i18n or straight dialogue}}",
+                //dating proposal
+                "AcceptBouquet": "{{i18n or straight dialogue}}",
+                //trashcan
+                "DumpsterDiveComment": "{{i18n or straight dialogue}}",
+                //slingshot
+                "HitBySlingshot": "{{i18n or straight dialogue}}",
+
+                ////////////////////////////////////////////////seasonals
+                //spring
+                "spring_Mon": "{{i18n or straight dialogue}}",
+                "spring_Tue": "{{i18n or straight dialogue}}",
+                "spring_Wed": "{{i18n or straight dialogue}}",
+                "spring_Thu": "{{i18n or straight dialogue}}",
+                "spring_Fri": "{{i18n or straight dialogue}}",
+                "spring_Sat": "{{i18n or straight dialogue}}",
+                "spring_Sun": "{{i18n or straight dialogue}}",
+                //flower festival
+                "FlowerDance_Accept_Spouse": "{{i18n or straight dialogue}}",
+                "FlowerDance_Accept": "{{i18n or straight dialogue}}",
+                "FlowerDance_Decline": "{{i18n or straight dialogue}}",
+                //summer
+                "summer_Mon": "{{i18n or straight dialogue}}",
+                "summer_Tue": "{{i18n or straight dialogue}}",
+                "summer_Wed": "{{i18n or straight dialogue}}",
+                "summer_Thu": "{{i18n or straight dialogue}}",
+                "summer_Fri": "{{i18n or straight dialogue}}",
+                "summer_Sat": "{{i18n or straight dialogue}}",
+                "summer_Sun": "{{i18n or straight dialogue}}",
+                //fall
+                "fall_Mon": "{{i18n or straight dialogue}}",
+                "fall_Tue": "{{i18n or straight dialogue}}",
+                "fall_Wed": "{{i18n or straight dialogue}}",
+                "fall_Thu": "{{i18n or straight dialogue}}",
+                "fall_Fri": "{{i18n or straight dialogue}}",
+                "fall_Sat": "{{i18n or straight dialogue}}",
+                "fall_Sun": "{{i18n or straight dialogue}}",
+                //fair
+                "Fair_Judging": "{{i18n or straight dialogue}}",
+                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n or straight dialogue}}",
+                "Fair_Judged_PlayerLost_Skipped": "{{i18n or straight dialogue}}",
+                "Fair_Judged_PlayerLost": "{{i18n or straight dialogue}}",
+                "Fair_Judged_PlayerWon": "{{i18n or straight dialogue}}",
+                "Fair_Judged": "{{i18n or straight dialogue}}",
+                //winter
+                "winter_Mon": "{{i18n or straight dialogue}}",
+                "winter_Tue": "{{i18n or straight dialogue}}",
+                "winter_Wed": "{{i18n or straight dialogue}}",
+                "winter_Thu": "{{i18n or straight dialogue}}",
+                "winter_Fri": "{{i18n or straight dialogue}}",
+                "winter_Sat": "{{i18n or straight dialogue}}",
+                "winter_Sun": "{{i18n or straight dialogue}}",
+                //winter star
+                "WinterStar_GiveGift_Before_Spouse": "{{i18n or straight dialogue}}",
+                "WinterStar_GiveGift_Before": "{{i18n or straight dialogue}}",
+                "WinterStar_GiveGift_After_Spouse": "{{i18n or straight dialogue}}",
+                "WinterStar_GiveGift_After": "{{i18n or straight dialogue}}",
+                "WinterStar_ReceiveGift": "{{i18n or straight dialogue}}",
+
+                //////////////////////////////////////////////////accept gifts example
+                "AcceptGift_(O)96": "{{i18n or straight dialogue}}",
+            }
+        },
+        {
+            "LogName": "Dialogue - Summit",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_{{Tyler}}": "{{i18n or straight dialogue}}",
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "LogName": "[Character] Includes",
+            "Action": "Include",
+            "FromFile": "data/characters/character.json, data/characters/appearance.json, data/characters/home.json, data/characters/winterStarGifts.json, data/characters/npcGiftTastes.json, data/characters/schedule.json"
+        },
+        {
+            "LogName": "General - Data Includes",
+            "Action": "Include",
+            "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
+        },
+        //Data/Festivals
+        {
+            "LogName": "[Festival] Includes",
+            "Action": "Include",
+            "FromFile": "data/festivals.json"
+        },
+        //Dialogue
+        {
+            "LogName": "General - Schedule Strings",
+            "Action": "Include",
+            "FromFile": "data/scheduleStrings.json"
+        },
+        {
+            "LogName": "Dialogue - Raven's Dialogue",
+            "Action": "Include",
+            "FromFile": "data/dialogue/raven/firstOfSeason.json, data/dialogue/raven/medicationPickup.json, data/dialogue/raven/festivalDays.json, data/dialogue/raven/seasonal.json, data/dialogue/raven/generic.json, data/dialogue/raven/festivals.json, data/dialogue/raven/conversationTopics.json, data/dialogue/raven/heart.json, data/dialogue/raven/weather.json, data/dialogue/raven/movieInvitations.json, data/dialogue/raven/islandResort.json, data/dialogue/raven/locationEntry.json, data/dialogue/raven/bouquet.json, data/dialogue/raven/divorced.json, data/dialogue/raven/engagement.json, data/dialogue/raven/marriage.json, data/dialogue/raven/romance.json, data/dialogue/raven/summit.json, data/dialogue/raven/marriageDialogue.json, data/dialogue/raven/giftResponses.json, data/dialogue/raven/movieReactions.json"
+        }
+    ]
+}
