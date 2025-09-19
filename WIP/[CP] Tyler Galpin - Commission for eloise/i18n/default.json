@@ -1,11 +1,119 @@
 {
     "displayName.tyler": "Tyler",
-    
-    "npcGiftTaste.love": "Thanks for the gift! It's not often I get myself this.",//TODO: Add portraits
-    "npcGiftTaste.like": "How thoughtful! It's really nice of you.",//TODO: Add portraits
-    "npcGiftTaste.dislike": "Oh, uh, thanks for thinking of me.",//TODO: Add portraits
-    "npcGiftTaste.hate": "... I'll have to find a place for this...",//TODO: Add portraits
-    "npcGiftTaste.neutral": "Thanks for the gift. It's nice to know you're thinking of me.",//TODO: Add portraits
-
-    "dialogue.summit": "You know, it's been amazing getting to know you.#$b#Seeing how far you've come since I first met you has been fantastic, and I can't wait to see where things go from here."//TODO: Add portraits
+    //NPC Gift Tastes
+    "npcGiftTaste.love": "Thanks for the gift! It's not often I get myself this.",
+    "npcGiftTaste.like": "How thoughtful! It's really nice of you.",
+    "npcGiftTaste.dislike": "Oh, uh, thanks for thinking of me.",
+    "npcGiftTaste.hate": "... I'll have to find a place for this...",
+    "npcGiftTaste.neutral": "Thanks for the gift. It's nice to know you're thinking of me.",
+    //Green Rain
+    "dialogue.greenrain_1": "Hm... I didn't see anything like this back in Jericho.#$b#And trust me, I've seen a LOT of weird things out there.",
+    "dialogue.greenrain_end_1": "It's good to know that the rain wasn't anything for us to worry about.#$b#If people were so scared of the rain though, why would they leave their homes to hide in the Saloon?#$b#I figure it'd be safer to stay at home if the rain had a chance of causing us harm.",
+    "dialogue.greenrain_2": "Another bout of green rain. I heard Demetrius mention it helps crops grow faster. Is it true, @?",
+    "dialogue.greenrain_end_2": "Isn't it odd how nature seems to change whenever green rain comes by?",
+    //Movie Invitations
+    "dialogue.movieInvite": "Sure, we can go watch a movie together!#$b#Meet me at the theater when you're ready, okay?",
+    "dialogue.movieReject.alreadyInvited": "Sorry, but I actually already got invited by someone else earlier.#$b#Maybe we can catch a movie together next time?",
+    "dialogue.movieReject.alreadyWatched": "I already went to the movies this week. Maybe we can see a movie together next week?",
+    "dialogue.movieReject.divorced": "Isn't it weird to go watch a movie with your ex?",
+    "dialogue.movieReject.notInterested": "Sorry, but I'm not interested in that movie. Thanks for the invite, though.",
+    "dialogue.movieReject": "Sorry, but I'm not interested in going to the theater right now.#$b#Maybe next time?",
+    //Dating
+    "dialogue.breakUp": "Oh... I see...#$b#Well, it's your choice. Thanks for the good times.",
+    "dialogue.bouquetReject.veryLow": "... I don't know you enough for that. Like... at all.",
+    "dialogue.bouquetReject.low": "I appreciate the thought, but I'm not close enough to you like that.",
+    "dialogue.bouquetReject": "Hmm... It's tempting, but I'm not interested at the moment.",
+    //Marriage
+    "dialogue.married.houseClutter": "You know, babe, it'd be nice if the walkway wasn't blocked by your stuff.",
+    "dialogue.married.monstersInHome": "@, there's a monster in the house! Please get rid of it. Now please!",
+    "dialogue.married.spouseStardrop": "You've been an absolutely amazing spouse. I figured I'd give this to you to show how much I love and appreciate you in my life.",
+    "dialogue.mermaidPendant.reject.needHouseUpgrade": "If we're going to get married, I'll be moving in with you. Your place isn't big enough for the both of us, unfortunately.",
+    "dialogue.mermaidPendant.reject.npcWithSomeoneElse": "...#$b#I'm flattered, but I'm married to someone else already.",
+    "dialogue.mermaidPendant.reject.playerWithSomeoneElse": "... But you're already with someone else, aren't you?",
+    "dialogue.mermaidPendant.reject.under8Hearts": "Woah, you're moving REALLY fast.#$b#Definitely try to get to know me first on a deeper level before trying to propose to me.",
+    "dialogue.mermaidPendant.reject.under10Hearts": "How about we get to know each other some more first? I don't think I'm ready for marriage with you yet.",
+    "dialogue.mermaidPendant.reject.under10Hearts_AskedAgain": "You're quite eager to get married fast, aren't you? Give us some time first, okay?",
+    "dialogue.mermaidPendant.reject": "Sorry, but I'm not interested in getting married right now.",
+    //Divorced
+    "dialogue.divorced": "I appreciate that you want to be friendly with me, but I still need some space.",
+    "dialogue.divorced.rejectGift": "I appreciate the thought, but I'm not comfortable accepting gifts from exes.",
+    "dialogue.divorced.rejectMermaidPendant": "... You're the one that divorced me, though.#$b#I'm not accepting your proposal.",
+    "dialogue.divorced.rejectBouquet": "... You're the one that divorced me, so I won't be accepting your invitation to date again.#$b#*whispers* Maybe you should've thought twice...",
+    //Birthday
+    "dialogue.birthdayGift_negative": "... Hm...#$b#Thanks for remembering my birthday.",
+    "dialogue.birthdayGift_positive": "This is an amazing birthday gift! Thank you so much.",
+    "dialogue.birthdayGift": "You remembered my birthday! Thanks for the gift.",
+    //Dating Proposal
+    "dialogue.bouquetAccept": "You... want me to be your boyfriend? It's an honor to be asked by you.#$b#You have a \"yes\" from me!",
+    //Misc
+    "dialogue.WipedMemory": "... You look familiar somehow.#$b#Did you used to live in Jericho before?#$b#No? Must be a coincidence then.",
+    "dialogue.dumpsterDive": "Uh...#$b#Nevermind...",
+    "dialogue.hitBySlingshot": "Hey, that's not cool! Don't do that!",
+    //Flower Dance
+    "dialogue.flowerDance.acceptSpouse": "Of course I'll dance with you, @!#$b#We'll have a great time, I promise.",
+    "dialogue.flowerDance.accept": "Dancing with someone as great as you? I'd be honored.#$b#We'll see how well you can dance along with me.",
+    "dialogue.flowerDance.decline": "Sorry, but I'm not really feeling like doing the dance this year. Thanks for asking, though.",
+    //Fair
+    "dialogue.fair.judging": "We'll see if you win the grange display contest! I'm rooting for you!",
+    "dialogue.fair.judging.purpleShorts": "Not gonna lie, that was a pretty funny prank you pulled on Mayor Lewis.#$b#It's priceless to see him so mad!",
+    "dialogue.fair.judging.skipped": "You didn't do the grange display contest this year? I was looking forward to seeing you put something up.#$b#Maybe next year?",
+    "dialogue.fair.judging.playerLost": "Sorry that you lost. I thought you did pretty good up there.",
+    "dialogue.fair.judging.playerWon": "Congrats on winning! I knew you could do it.",
+    "dialogue.fair.judged": "You did a good job this year!#$b#I wonder what you'll be bringing for next year.",
+    //Winter Star
+    "dialogue.winterStar.giveGift.beforeSpouse": "Hi @, I was picked to be your secret gift giver this year!#$b#You should've seen my face when I saw that I got your name. It's easier to find a gift for someone you're married to.",
+    "dialogue.winterStar.giveGift.before": "Hi @, I was picked to be your secret gift giver this year!",
+    "dialogue.winterStar.giveGift.afterSpouse": "I really hope you enjoy it. I worked hard to get it for you.#$b#You only deserve the best, darling.",
+    "dialogue.winterStar.giveGift.after": "I really hope you enjoy it. I worked hard to get it for you.",
+    "dialogue.winterStar.receiveGift": "You're my gift giver? The gift is amazing! Thanks a lot, I appreciate it.",
+    //0 Hearts
+    "dialogue.0heart.1": "I didn't actually grow up here in Pelican Town. I come from Jericho, a pretty small town.#$b#Just because it was a small town doesn't mean there wasn't anything interesting happening out there, though.",
+    "dialogue.0heart.2": "Where did you grow up?#$b#That's pretty interesting! My hometown was originally a settlement where pilgrims lived.#$b#There's some dark history with that, though...",
+    "dialogue.0heart.3": "It's nice that Pelican Town is calm and not much goes on.#$b#Where I come from, there were some... unusual incidents that would happen. You won't find anything like that out here, though.",
+    "dialogue.0heart.4": "I used to work as a barista back where I came from. Now I work at the Saloon. It's close to a coffee shop environment, just add some alcohol to it.",
+    "dialogue.0heart.5": "You left Zuzu City after quitting work with JojaMart? It must be a nice change of place living here now.#$b#We don't have too much going on here aside from the festivals. The festivals are a great time, though, so I think it's worth it.",
+    "dialogue.0heart.6": "Gus hired me to work at the Saloon because he saw that my barista skills could be useful at the bar.#$b#Luckily he was right!",
+    "dialogue.0heart.7": "Do you ever wonder what it would be like if there were some drama in a small town like this?#$b#Every once in a while, my hometown would have something absolutely bizarre happen out of nowhere.#$b#It definitely made things more interesting.",
+    //2 Hearts
+    "dialogue.2heart.1": "I used to be a bit of a troublemaker back when I was younger.#$b#I destroyed someone's mural that and that actually got me sent to military school.#$b#I've worked on improving myself since then, so I don't get into trouble like that anymore.",
+    "dialogue.2heart.2": "I guess the thing that sucks about Pelican Town is how everything seems to be good all the time.#$b#I'm sure people have their secrets, but it doesn't make the community intriguing.#$e#I could just be feeling a little homesick for Jericho, though...",
+    "dialogue.2heart.3": "You're curious about my family life? Well, there's not much to talk about.#$b#As much as I'd like to be close to my father, we just never really... got along like that, especially the older I got.#$e#What about your family?",
+    "dialogue.2heart.4": "I sometimes wish I had a deeper connection with my father.#$b#I think part of what held us back for so long was how he would hardly ever talk about my mother.#$e#It felt like my father was keeping secrets from me, you know?",
+    "dialogue.2heart.5": "Have you been getting along fine in Pelican Town?#$e#Sometimes, it's about meeting the right people to make you feel at home in a new place.",
+    "dialogue.2heart.6": "An interesting fact about me is that I was involved in a... very complex mystery case.#$b#I just helped with a vigilante investigation... Not that I chose to get involved.",
+    "dialogue.2heart.7": "I try to develop connections with the people around me. It's not fun to be lonely, especially in small towns like these.",
+    //4 Hearts
+    "dialogue.4heart.1": "Have you met any strange people before?#$b#I've met people back home that could shock you just from touching your hand. It's kinda like one of those hand buzzers.#$e#I swear I didn't see a hand buzzer in that guy's hand though...",
+    "dialogue.4heart.2": "Back in Jericho, there were plenty of average people, but there was a group of people that went to this private school called Nevermore Academy.#$b#Each of the students there had something different about them. They were all considered outcasts in some way.#$e#Who would think private school kids would be seen as the outcasts?",
+    "dialogue.4heart.3": "Do you have any special abilities like seeing visions?#$b#I only ask because there were people will all kinds of abilities back where I was raised.",
+    "dialogue.4heart.4": "What's the strangest thing I've seen back in Jericho?#$b#Well... It's hard for me to choose, but there was a disembodied hand that was able to just... function entirely on its own without a body attached to it.",
+    "dialogue.4heart.5": "I find it cool how there's a wizard that lives in town.#$b#It reminds me of some of the odd things that would happen back home in Jericho. He seems like a cool guy... I think?",
+    "dialogue.4heart.6": "Back when I used to live in Jericho, it felt like everyone was keeping secrets. It's not like that in Pelican Town at least.",
+    "dialogue.4heart.7": "Do I have secrets?#$b#Well... doesn't everyone have secrets?",
+    //6 Hearts
+    "dialogue.6heart.1": "It can be hard for me to open up to people, especially since I haven't seen people model that in my own life.#$b#If it feels like I'm not being as open as I could be, that's why.",
+    "dialogue.6heart.2": "You want me to talk more about myself?#$b#Geez... That's kinda hard...#$b#That's so vague, you're going to need to be more specific than that for me to give any answers.",
+    "dialogue.6heart.3": "Do I have any abilities?#$b#... I am a Hyde... Just like my mother was...#$e#It's part of why my father hardly talked about my mother in the first place...",
+    "dialogue.6heart.4": "What do I know about Hydes?#$b#Well, at least for my mother and I, our forms only come about due to trauma, chemical induction, or through hypnosis.#$b#I've learned to keep my Hyde form under control over the years. It can get ugly fast... trust me.",
+    "dialogue.6heart.5": "What kind of secrets do I hide from people?#$b#Only the ones that I feel people would judge me for. I think that could be said for most peoples' secrets though, right?",
+    "dialogue.6heart.6": "When did I figure out I was Hyde?#$b#Well, I didn't figure that out until I turned into one when I was still in high school. It wasn't pleasant, I'll say that much.",
+    "dialogue.6heart.7": "Do you feel like it could be hard for someone to love you for who you really are?#$b#That's how I feel about being a Hyde, even if I do have it under control now.",
+    //8 Hearts
+    "dialogue.8heart.1": "You know, it's great that I've gotten to know you as much as I do now. It can be hard building friendships with new people.#$b#Depending on how you're feeling, maybe it oculd lead to something more?",
+    "dialogue.8heart.2": "Even after telling you about me being a Hyde, you still choose to talk to me.#$b#It's comforting to know you're not one to judge who I am.",
+    "dialogue.8heart.3": "Back when I first discovered I was a Hyde, I eventually got sent away.#$b#I did some... terrible things when I was in my Hyde form... I needed to get better.#$e#It may not seem like it, but the time I spent there really helped me to learn self-control. It was actually good for me, even if it didn't feel that way at the time.",
+    "dialogue.8heart.4": "What kind of things did I do when I was in my Hyde form?#$b#... I guess I can be honest about it with you.#$b#I... hurt people... really badly... Some of them weren't able to recover, if you catch my drift. I feel guilty about it, even to this day.",
+    "dialogue.8heart.5": "There was a period of time where I went to Harvey for advice about my condition. He's very well-versed in a variety of species.#$b#He told me as long as I maintain self-control and keep my mood regulated, I should be fine.",
+    "dialogue.8heart.6": "Have I turned into a Hyde recently? Nope, I've been doing very well with keeping myself under control for the past couple of years.",
+    "dialogue.8heart.7": "You know, you're an amazing person.#$b#I wouldn't mind trying something more with you, but it's entirely up to you.",
+    //10 Hearts
+    "dialogue.10heart.1": "You should stop by the saloon more often so I can see you.#$b#I know it can be hard to tail me down when I'm off work sometimes.",
+    "dialogue.10heart.2": "Here, I figured you'd like a gift. I hope you like it! I used to make this all the time as a barista.#$action AddItem (O)253",
+    "dialogue.10heart.3": "I wish you could meet my father. You're such a great person, I think he would be really happy to get to know you.#$b#He... passed away due to unforunate circumstances. But I think he'd like you.",
+    "dialogue.10heart.4": "My day gets so much better whenever I see you. How are you doing, @?",
+    "dialogue.10heart.5": "Has anyone told you that you look amazing today?#$b#I got you to smile, didn't I?",
+    "dialogue.10heart.6": "Hey @, don't forget to take a break if you need it. It's no good to push yourself too hard.",
+    "dialogue.10heart.7": "I love you, don't forget that, okay? You really mean a lot to me.",
+    //Summit
+    "dialogue.summit": "You know, it's been amazing getting to know you.#$b#Seeing how far you've come since I first met you has been fantastic, and I can't wait to see where things go from here."
 }

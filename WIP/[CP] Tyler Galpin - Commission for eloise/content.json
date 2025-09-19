@@ -170,7 +170,7 @@
             "LogName": "Blank Loads [dialogue, marriageDialogue, schedules, scheduleStrings]",
             "Action": "Load",
             "Target": "Characters/Dialogue/{{Tyler}}, Characters/Dialogue/MarriageDialogue{{Tyler}}, Characters/schedules/{{Tyler}}, Strings/Schedules/{{Tyler}}",
-            "FromFile": "data/blank.json"
+            "FromFile": "blank.json"
         },
         //Data/Characters
         {
@@ -356,7 +356,7 @@
             }
         },
         //NPC Gift Tastes
-        {
+        {//TODO: pastries sweets coffee
             "LogName": "NPCGiftTastes",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
@@ -370,137 +370,131 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{Zayden}}",
             "Entries": { //TODO: Add schedule
-                "Mon": "",
-                "Tue": "",
-                "Wed": "",
-                "Thu": "",
-                "Fri": "",
+                "Mon": "630 Saloon",
+                "Tue": "630 Saloon",
+                "Wed": "630 Saloon",
+                "Thu": "630 Saloon",
+                "Fri": "630 Saloon",
                 "Sat": "",
                 "Sun": "",
                 
-                "spring": "",
-                "summer": "",
-                "fall": "",
-                "winter": ""
+                "spring": "630 Saloon"
             }
         },
         //Dialogue
         {
             "LogName": "Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/{{ModId}}_<NPCNAME>",
+            "Target": "Characters/Dialogue/{{Tyler}}",
             "Entries": {
-                //green rain
-                "GreenRain": "{{i18n or straight dialogue}}",
-                "GreenRainFinished": "{{i18n or straight dialogue}}",
-                //movie
-                "MovieInvitation": "{{i18n or straight dialogue}}",
-                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n or straight dialogue}}",
-                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n or straight dialogue}}",
-                "RejectMovieTicket_Divorced": "{{i18n or straight dialogue}}",
-                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n or straight dialogue}}",
-                "RejectMovieTicket": "{{i18n or straight dialogue}}",
-                //dating
-                "breakUp": "{{i18n or straight dialogue}}",
-                "dating_EdelweissSeung_memory_oneyear": "{{i18n or straight dialogue}}",
-                "RejectBouquet_NotDatable": "{{i18n or straight dialogue}}",
-                "RejectBouquet_NpcAlreadyMarried": "{{i18n or straight dialogue}}",
-                "RejectBouquet_VeryLowHearts": "{{i18n or straight dialogue}}",
-                "RejectBouquet_LowHearts": "{{i18n or straight dialogue}}",
-                "RejectBouquet": "{{i18n or straight dialogue}}",
-                //marriage
-                "SpouseFarmhouseClutter": "{{i18n or straight dialogue}}",
-                "Spouse_MonstersInHouse": "{{i18n or straight dialogue}}",
-                "SpouseStardrop": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_NotDatable": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_Under8Hearts": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_Under10Hearts": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant": "{{i18n or straight dialogue}}",
-                //divorced
-                "divorced": "{{i18n or straight dialogue}}",
-                "RejectGift_Divorced": "{{i18n or straight dialogue}}",
-                "RejectMermaidPendant_Divorced": "{{i18n or straight dialogue}}",
-                "RejectBouquet_Divorced": "{{i18n or straight dialogue}}",
-                "WipedMemory": "{{i18n or straight dialogue}}",
-                //island
-                "Resort": "{{i18n or straight dialogue}}",
-                "Resort_Bar": "{{i18n or straight dialogue}}",
-                "Resort_Chair": "{{i18n or straight dialogue}}",
-                "Resort_Dance": "{{i18n or straight dialogue}}",
-                "Resort_Entering": "{{i18n or straight dialogue}}",
-                "Resort_Leaving": "{{i18n or straight dialogue}}",
-                "Resort_Shore": "{{i18n or straight dialogue}}",
-                "Resort_Towel": "{{i18n or straight dialogue}}",
-                "Resort_Umbrella": "{{i18n or straight dialogue}}",
-                "Resort_Wander": "{{i18n or straight dialogue}}",
-                //birthday
-                "AcceptBirthdayGift_Negative": "{{i18n or straight dialogue}}",
-                "AcceptBirthdayGift_Positive": "{{i18n or straight dialogue}}",
-                "AcceptBirthdayGift": "{{i18n or straight dialogue}}",
-                //dating proposal
-                "AcceptBouquet": "{{i18n or straight dialogue}}",
-                //trashcan
-                "DumpsterDiveComment": "{{i18n or straight dialogue}}",
-                //slingshot
-                "HitBySlingshot": "{{i18n or straight dialogue}}",
+                "GreenRain": "{{i18n:dialogue.greenrain_1}}",
+                "GreenRainFinished": "{{i18n:dialogue.greenrain_end_1}}",
+                "GreenRain_2": "{{i18n:dialogue.greenrain_2}}",
+                "GreenRainFinished_2": "{{i18n:dialogue.greenrain_end_2}}",
+                
+                "MovieInvitation": "{{i18n:dialogue.movieInvite}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:dialogue.movieReject.alreadyInvited}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:dialogue.movieReject.alreadyWatched}}",
+                "RejectMovieTicket_Divorced": "{{i18n:dialogue.movieReject.divorced}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:dialogue.movieReject.notInterested}}",
+                "RejectMovieTicket": "{{i18n:dialogue.movieReject}}",
+                
+                "breakUp": "{{i18n:dialogue.breakUp}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:dialogue.bouquetReject.veryLow}}",
+                "RejectBouquet_LowHearts": "{{i18n:dialogue.bouquetReject.low}}",
+                "RejectBouquet": "{{i18n:dialogue.bouquetReject}}",
+                
+                "SpouseFarmhouseClutter": "{{i18ndialogue.married.houseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18ndialogue.married.monstersInHome}}",
+                "SpouseStardrop": "{{i18ndialogue.married.spouseStardrop}}",
 
-                ////////////////////////////////////////////////seasonals
-                //spring
-                "spring_Mon": "{{i18n or straight dialogue}}",
-                "spring_Tue": "{{i18n or straight dialogue}}",
-                "spring_Wed": "{{i18n or straight dialogue}}",
-                "spring_Thu": "{{i18n or straight dialogue}}",
-                "spring_Fri": "{{i18n or straight dialogue}}",
-                "spring_Sat": "{{i18n or straight dialogue}}",
-                "spring_Sun": "{{i18n or straight dialogue}}",
-                //flower festival
-                "FlowerDance_Accept_Spouse": "{{i18n or straight dialogue}}",
-                "FlowerDance_Accept": "{{i18n or straight dialogue}}",
-                "FlowerDance_Decline": "{{i18n or straight dialogue}}",
-                //summer
-                "summer_Mon": "{{i18n or straight dialogue}}",
-                "summer_Tue": "{{i18n or straight dialogue}}",
-                "summer_Wed": "{{i18n or straight dialogue}}",
-                "summer_Thu": "{{i18n or straight dialogue}}",
-                "summer_Fri": "{{i18n or straight dialogue}}",
-                "summer_Sat": "{{i18n or straight dialogue}}",
-                "summer_Sun": "{{i18n or straight dialogue}}",
-                //fall
-                "fall_Mon": "{{i18n or straight dialogue}}",
-                "fall_Tue": "{{i18n or straight dialogue}}",
-                "fall_Wed": "{{i18n or straight dialogue}}",
-                "fall_Thu": "{{i18n or straight dialogue}}",
-                "fall_Fri": "{{i18n or straight dialogue}}",
-                "fall_Sat": "{{i18n or straight dialogue}}",
-                "fall_Sun": "{{i18n or straight dialogue}}",
-                //fair
-                "Fair_Judging": "{{i18n or straight dialogue}}",
-                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n or straight dialogue}}",
-                "Fair_Judged_PlayerLost_Skipped": "{{i18n or straight dialogue}}",
-                "Fair_Judged_PlayerLost": "{{i18n or straight dialogue}}",
-                "Fair_Judged_PlayerWon": "{{i18n or straight dialogue}}",
-                "Fair_Judged": "{{i18n or straight dialogue}}",
-                //winter
-                "winter_Mon": "{{i18n or straight dialogue}}",
-                "winter_Tue": "{{i18n or straight dialogue}}",
-                "winter_Wed": "{{i18n or straight dialogue}}",
-                "winter_Thu": "{{i18n or straight dialogue}}",
-                "winter_Fri": "{{i18n or straight dialogue}}",
-                "winter_Sat": "{{i18n or straight dialogue}}",
-                "winter_Sun": "{{i18n or straight dialogue}}",
-                //winter star
-                "WinterStar_GiveGift_Before_Spouse": "{{i18n or straight dialogue}}",
-                "WinterStar_GiveGift_Before": "{{i18n or straight dialogue}}",
-                "WinterStar_GiveGift_After_Spouse": "{{i18n or straight dialogue}}",
-                "WinterStar_GiveGift_After": "{{i18n or straight dialogue}}",
-                "WinterStar_ReceiveGift": "{{i18n or straight dialogue}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:dialogue.mermaidPendant.reject.needHouseUpgrade}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:dialogue.mermaidPendant.reject.npcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:dialogue.mermaidPendant.reject.playerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:dialogue.mermaidPendant.reject.under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:dialogue.mermaidPendant.reject.under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:dialogue.mermaidPendant.reject.under10Hearts_AskedAgain}}",
+                "RejectMermaidPendant": "{{i18n:dialogue.mermaidPendant.reject}}",
+                
+                "divorced": "{{i18n:dialogue.divorced}}",
+                "RejectGift_Divorced": "{{i18n:dialogue.divorced.rejectGift}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:dialogue.divorced.rejectMermaidPendant}}",
+                "RejectBouquet_Divorced": "{{i18n:dialogue.divorced.rejectBouquet}}",
+                
+                "AcceptBirthdayGift_Negative": "{{i18n:dialogue.birthdayGift_negative}}",
+                "AcceptBirthdayGift_Positive": "{{i18n:dialogue.birthdayGift_positive}}",
+                "AcceptBirthdayGift": "{{i18n:dialogue.birthdayGift}}",
+                
+                "AcceptBouquet": "{{i18n:dialogue.bouquetAccept}}",
+                
+                "WipedMemory": "{{i18n:dialogue.WipedMemory}}",
+                "DumpsterDiveComment": "{{i18n:dialogue.dumpsterDive}}",
+                "HitBySlingshot": "{{i18n:dialogue.hitBySlingshot}}",
 
-                //////////////////////////////////////////////////accept gifts example
-                "AcceptGift_(O)96": "{{i18n or straight dialogue}}",
+                "FlowerDance_Accept_Spouse": "{{i18n:dialogue.flowerDance.acceptSpouse}}",
+                "FlowerDance_Accept": "{{i18n:dialogue.flowerDance.accept}}",
+                "FlowerDance_Decline": "{{i18n:dialogue.flowerDance.decline}}",
+                
+                "Fair_Judging": "{{i18n:dialogue.fair.judging}}",
+                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:dialogue.fair.judging.purpleShorts}}",
+                "Fair_Judged_PlayerLost_Skipped": "{{i18n:dialogue.fair.judging.skipped}}",
+                "Fair_Judged_PlayerLost": "{{i18n:dialogue.fair.judging.playerLost}}",
+                "Fair_Judged_PlayerWon": "{{i18n:dialogue.fair.judging.playerWon}}",
+                "Fair_Judged": "{{i18n:dialogue.fair.judged}}",
+                                                                                             
+                "WinterStar_GiveGift_Before_Spouse": "{{i18n:dialogue.winterStar.giveGift.beforeSpouse}}",
+                "WinterStar_GiveGift_Before": "{{i18n:dialogue.winterStar.giveGift.before}}",
+                "WinterStar_GiveGift_After_Spouse": "{{i18n:dialogue.winterStar.giveGift.afterSpouse}}",
+                "WinterStar_GiveGift_After": "{{i18n:dialogue.winterStar.giveGift.after}}",
+                "WinterStar_ReceiveGift": "{{i18n:dialogue.winterStar.receiveGift}}",
+                //0 Hearts
+                "Mon": "{{i18n:dialogue.0heart.1}}",
+                "Tue": "{{i18n:dialogue.0heart.2}}",
+                "Wed": "{{i18n:dialogue.0heart.3}}",
+                "Thu": "{{i18n:dialogue.0heart.4}}",
+                "Fri": "{{i18n:dialogue.0heart.5}}",
+                "Sat": "{{i18n:dialogue.0heart.6}}",
+                "Sun": "{{i18n:dialogue.0heart.7}}",
+                //2 Hearts
+                "Mon2": "{{i18n:dialogue.2heart.1}}",
+                "Tue2": "{{i18n:dialogue.2heart.2}}",
+                "Wed2": "{{i18n:dialogue.2heart.3}}",
+                "Thu2": "{{i18n:dialogue.2heart.4}}",
+                "Fri2": "{{i18n:dialogue.2heart.5}}",
+                "Sat2": "{{i18n:dialogue.2heart.6}}",
+                "Sun2": "{{i18n:dialogue.2heart.7}}",
+                //4 Hearts
+                "Mon4": "{{i18n:dialogue.4heart.1}}",
+                "Tue4": "{{i18n:dialogue.4heart.2}}",
+                "Wed4": "{{i18n:dialogue.4heart.3}}",
+                "Thu4": "{{i18n:dialogue.4heart.4}}",
+                "Fri4": "{{i18n:dialogue.4heart.5}}",
+                "Sat4": "{{i18n:dialogue.4heart.6}}",
+                "Sun4": "{{i18n:dialogue.4heart.7}}",
+                //6 Hearts
+                "Mon6": "{{i18n:dialogue.6heart.1}}",
+                "Tue6": "{{i18n:dialogue.6heart.2}}",
+                "Wed6": "{{i18n:dialogue.6heart.3}}",
+                "Thu6": "{{i18n:dialogue.6heart.4}}",
+                "Fri6": "{{i18n:dialogue.6heart.5}}",
+                "Sat6": "{{i18n:dialogue.6heart.6}}",
+                "Sun6": "{{i18n:dialogue.6heart.7}}",
+                //8 Hearts
+                "Mon8": "{{i18n:dialogue.8heart.1}}",
+                "Tue8": "{{i18n:dialogue.8heart.2}}",
+                "Wed8": "{{i18n:dialogue.8heart.3}}",
+                "Thu8": "{{i18n:dialogue.8heart.4}}",
+                "Fri8": "{{i18n:dialogue.8heart.5}}",
+                "Sat8": "{{i18n:dialogue.8heart.6}}",
+                "Sun8": "{{i18n:dialogue.8heart.7}}",
+                //10 Hearts
+                "Mon10": "{{i18n:dialogue.10heart.1}}",
+                "Tue10": "{{i18n:dialogue.10heart.2}}",
+                "Wed10": "{{i18n:dialogue.10heart.3}}",
+                "Thu10": "{{i18n:dialogue.10heart.4}}",
+                "Fri10": "{{i18n:dialogue.10heart.5}}",
+                "Sat10": "{{i18n:dialogue.10heart.6}}",
+                "Sun10": "{{i18n:dialogue.10heart.7}}"
             }
         },
         {
@@ -508,38 +502,35 @@
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
-                "SummitEvent_Dialogue3_{{Tyler}}": "{{i18n or straight dialogue}}",
+                "SummitEvent_Dialogue3_{{Tyler}}": "{{i18n:dialogue.summit}}"
             }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {
-            "LogName": "[Character] Includes",
-            "Action": "Include",
-            "FromFile": "data/characters/character.json, data/characters/appearance.json, data/characters/home.json, data/characters/winterStarGifts.json, data/characters/npcGiftTastes.json, data/characters/schedule.json"
         },
+        {
+            "LogName": "ConcessionTastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Tyler}}": {
+                    "Name": "{{i18n:displayName.tyler}}",
+                    "LovedTags": [ "Star Cookie", "Cotton Candy", "Rock Candy", "Stardrop Sorbet" ],
+                    "LikedTags": [ "Popcorn", "JojaCorn", "Joja Cola", "Ice Cream Sandwich" ],
+                    "DislikedTags": [ "Black Licorice", "Salted Peanuts", "Panzanella Salad", "Personal Pizza" ]
+                }
+            }
+        },
+
+
+
+
+
+
+
+
+
         {
             "LogName": "General - Data Includes",
             "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/mail.json, data/concessionTastes.json, data/StringsFromCSFiles.json, data/quests.json"
+            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/StringsFromCSFiles.json"
         },
         //Data/Festivals
         {
@@ -552,11 +543,6 @@
             "LogName": "General - Schedule Strings",
             "Action": "Include",
             "FromFile": "data/scheduleStrings.json"
-        },
-        {
-            "LogName": "Dialogue - Raven's Dialogue",
-            "Action": "Include",
-            "FromFile": "data/dialogue/raven/firstOfSeason.json, data/dialogue/raven/medicationPickup.json, data/dialogue/raven/festivalDays.json, data/dialogue/raven/seasonal.json, data/dialogue/raven/generic.json, data/dialogue/raven/festivals.json, data/dialogue/raven/conversationTopics.json, data/dialogue/raven/heart.json, data/dialogue/raven/weather.json, data/dialogue/raven/movieInvitations.json, data/dialogue/raven/islandResort.json, data/dialogue/raven/locationEntry.json, data/dialogue/raven/bouquet.json, data/dialogue/raven/divorced.json, data/dialogue/raven/engagement.json, data/dialogue/raven/marriage.json, data/dialogue/raven/romance.json, data/dialogue/raven/summit.json, data/dialogue/raven/marriageDialogue.json, data/dialogue/raven/giftResponses.json, data/dialogue/raven/movieReactions.json"
         }
     ]
 }
