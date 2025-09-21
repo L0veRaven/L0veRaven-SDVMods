@@ -392,11 +392,11 @@
                 "fall": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "winter": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 
-                "Mon": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
-                "Tue": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
-                "Wed": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
-                "Thu": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
-                "Fri": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Mon": "610 {{apartment}} 57 13 {{up}}/820 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Tue": "610 {{apartment}} 57 13 {{up}}/820 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Wed": "610 {{apartment}} 57 13 {{up}}/820 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Thu": "610 {{apartment}} 57 13 {{up}}/820 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Fri": "610 {{apartment}} 57 13 {{up}}/820 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "Sat": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "Sun": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep"
             }

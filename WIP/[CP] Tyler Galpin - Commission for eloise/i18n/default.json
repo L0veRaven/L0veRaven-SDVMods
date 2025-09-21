@@ -1,18 +1,18 @@
 {
     "displayName.tyler": "Tyler",
     //NPC Gift Tastes
-    "npcGiftTaste.love": "Thanks for the gift! It's not often I get myself this.",
-    "npcGiftTaste.like": "How thoughtful! It's really nice of you.",
-    "npcGiftTaste.dislike": "Oh, uh, thanks for thinking of me.",
-    "npcGiftTaste.hate": "... I'll have to find a place for this...",
-    "npcGiftTaste.neutral": "Thanks for the gift. It's nice to know you're thinking of me.",
+    "npcGiftTaste.love": "Thanks for the gift! It's not often I get myself this.$3",
+    "npcGiftTaste.like": "How thoughtful! It's really nice of you.$1",
+    "npcGiftTaste.dislike": "Oh, uh, thanks for thinking of me.$2",
+    "npcGiftTaste.hate": "... I'll have to find a place for this...$2",
+    "npcGiftTaste.neutral": "Thanks for the gift. It's nice to know you're thinking of me.$1",
     //Green Rain
-    "dialogue.greenrain_1": "Hm... I didn't see anything like this back in Jericho.#$b#And trust me, I've seen a LOT of weird things out there.",
-    "dialogue.greenrain_end_1": "It's good to know that the rain wasn't anything for us to worry about.#$b#If people were so scared of the rain though, why would they leave their homes to hide in the Saloon?#$b#I figure it'd be safer to stay at home if the rain had a chance of causing us harm.",
+    "dialogue.greenrain_1": "Hm... I didn't see anything like this back in Jericho.$2#$b#And trust me, I've seen a LOT of weird things out there.",
+    "dialogue.greenrain_end_1": "It's good to know that the rain wasn't anything for us to worry about.$1#$b#If people were so scared of the rain though, why would they leave their homes to hide in the Saloon?$2#$e#I figure it'd be safer to stay at home if the rain had a chance of causing us harm.",
     "dialogue.greenrain_2": "Another bout of green rain. I heard Demetrius mention it helps crops grow faster. Is it true, @?",
-    "dialogue.greenrain_end_2": "Isn't it odd how nature seems to change whenever green rain comes by?",
+    "dialogue.greenrain_end_2": "Isn't it odd how nature seems to change whenever green rain comes by, but go back to normal once it's gone?$2",
     //Movie Invitations
-    "dialogue.movieInvite": "Sure, we can go watch a movie together!#$b#Meet me at the theater when you're ready, okay?",
+    "dialogue.movieInvite": "Sure, we can go watch a movie together! Meet me at the theater when you're ready, okay?$1",
     "dialogue.movieReject.alreadyInvited": "Sorry, but I actually already got invited by someone else earlier.#$b#Maybe we can catch a movie together next time?",
     "dialogue.movieReject.alreadyWatched": "I already went to the movies this week. Maybe we can see a movie together next week?",
     "dialogue.movieReject.divorced": "Isn't it weird to go watch a movie with your ex?",
