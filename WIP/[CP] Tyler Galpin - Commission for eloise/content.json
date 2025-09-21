@@ -242,19 +242,36 @@
                     "BreathChestPosition": null,
                     "Shadow": null,
                     "EmoteOffset": {"X": 0,"Y": 0},
-                    "ShakePortraits": [9],
-                    "KissSpriteIndex": 19,
-                    "KissSpriteFacingRight": true,
-                    "HiddenProfileEmoteSound": null,
-                    "HiddenProfileEmoteDuration": null,
-                    "HiddenProfileEmoteStartFrame": null,
-                    "HiddenProfileEmoteFrameCount": null,
-                    "HiddenProfileEmoteFrameDuration": null,
+                    "ShakePortraits": [],
+                    "KissSpriteIndex": 19,//TODO: Double check
+                    "KissSpriteFacingRight": true,//TODO: Double check
                     "CustomFields": null
                 }
             }
         },
         //Appearance
+        {
+            "LogName": "Character - Default","Action": "Load",
+            "Target": "Characters/{{Tyler}}","FromFile": "assets/Characters/{{Tyler}}.png"
+        },
+        {
+            "LogName": "Portrait - Default","Action": "Load",
+            "Target": "Portraits/{{Tyler}}","FromFile": "assets/Portraits/{{Tyler}}.png"
+        },
+        {
+            "LogName": "Appearance - Default","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Default",
+                    "Sprite": "Characters/{{Tyler}}",
+                    "Portrait": "Portraits/{{Tyler}}",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
         {
             "LogName": "Character - SpringSummer","Action": "Load",
             "Target": "Characters/{{Tyler}}_SpringSummer","FromFile": "assets/Characters/{{Tyler}}_SpringSummer.png"
@@ -331,7 +348,7 @@
             "Target": "Data/Characters",
             "TargetField": ["{{Tyler}}","Home"],
             "Entries": {
-                "{{Raven}}_Apartment": {
+                "{{Tyler}}_Apartment": {
                     "Id": "{{Tyler}}_Apartment",
                     "Location": "{{apartment}}",
                     "Tile": {"X": 51,"Y": 13},
@@ -346,7 +363,7 @@
             "Target": "Data/Characters",
             "TargetField": ["{{Tyler}}","WinterStarGifts"],
             "Entries": {
-                "{{Raven}}_WinterStar_Amethyst": {
+                "{{Tyler}}_WinterStar_Amethyst": {
                     "Id": "{{Tyler}}_WinterStar_Amethyst",//TODO: Change gifts
                     "ItemId": "(O)66",
                     "RandomItemId": null,
@@ -356,29 +373,32 @@
             }
         },
         //NPC Gift Tastes
-        {//TODO: pastries sweets coffee
+        {
             "LogName": "NPCGiftTastes",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "{{Tyler}}": "{{i18n:npcGiftTaste.love}}//{{i18n:npcGiftTaste.like}}//{{i18n:npcGiftTaste.dislike}}//{{i18n:npcGiftTaste.hate}}//{{i18n:npcGiftTaste.neutral}}//",
+                "{{Tyler}}": "{{i18n:npcGiftTaste.love}}/395 253 279 243 221 220 608 651 731 233/{{i18n:npcGiftTaste.like}}/234 223 211 203 201 611 732/{{i18n:npcGiftTaste.dislike}}/238/{{i18n:npcGiftTaste.hate}}/241 456/{{i18n:npcGiftTaste.neutral}}/239/",
             }
         },
         //Schedule - Unmarried
         {
-            "LogName": "[Characters/schedules] Zayden",
+            "LogName": "Schedule",
             "Action": "EditData",
-            "Target": "Characters/schedules/{{Zayden}}",
-            "Entries": { //TODO: Add schedule
-                "Mon": "630 Saloon",
-                "Tue": "630 Saloon",
-                "Wed": "630 Saloon",
-                "Thu": "630 Saloon",
-                "Fri": "630 Saloon",
-                "Sat": "",
-                "Sun": "",
+            "Target": "Characters/schedules/{{Tyler}}",
+            "Entries": {                
+                "spring": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "summer": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "fall": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "winter": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 
-                "spring": "630 Saloon"
+                "Mon": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Tue": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Wed": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Thu": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Fri": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Sat": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
+                "Sun": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep"
             }
         },
         //Dialogue
@@ -387,6 +407,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Tyler}}",
             "Entries": {
+                "Introduction": "{{i18n:dialogue.introduction}}",
+
                 "GreenRain": "{{i18n:dialogue.greenrain_1}}",
                 "GreenRainFinished": "{{i18n:dialogue.greenrain_end_1}}",
                 "GreenRain_2": "{{i18n:dialogue.greenrain_2}}",
@@ -404,9 +426,9 @@
                 "RejectBouquet_LowHearts": "{{i18n:dialogue.bouquetReject.low}}",
                 "RejectBouquet": "{{i18n:dialogue.bouquetReject}}",
                 
-                "SpouseFarmhouseClutter": "{{i18ndialogue.married.houseClutter}}",
-                "Spouse_MonstersInHouse": "{{i18ndialogue.married.monstersInHome}}",
-                "SpouseStardrop": "{{i18ndialogue.married.spouseStardrop}}",
+                "SpouseFarmhouseClutter": "{{i18n:dialogue.married.houseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:dialogue.married.monstersInHome}}",
+                "SpouseStardrop": "{{i18n:dialogue.married.spouseStardrop}}",
 
                 "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:dialogue.mermaidPendant.reject.needHouseUpgrade}}",
                 "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:dialogue.mermaidPendant.reject.npcWithSomeoneElse}}",
@@ -441,7 +463,7 @@
                 "Fair_Judged_PlayerLost": "{{i18n:dialogue.fair.judging.playerLost}}",
                 "Fair_Judged_PlayerWon": "{{i18n:dialogue.fair.judging.playerWon}}",
                 "Fair_Judged": "{{i18n:dialogue.fair.judged}}",
-                                                                                             
+                      
                 "WinterStar_GiveGift_Before_Spouse": "{{i18n:dialogue.winterStar.giveGift.beforeSpouse}}",
                 "WinterStar_GiveGift_Before": "{{i18n:dialogue.winterStar.giveGift.before}}",
                 "WinterStar_GiveGift_After_Spouse": "{{i18n:dialogue.winterStar.giveGift.afterSpouse}}",
@@ -518,31 +540,15 @@
                 }
             }
         },
-
-
-
-
-
-
-
-
-
         {
-            "LogName": "General - Data Includes",
-            "Action": "Include",
-            "FromFile": "data/animationFrames.json, data/concessionTastes.json, data/StringsFromCSFiles.json"
+            "LogName": "animationDescriptions",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                //Hard-coded tokens
+                    "{{TylerLC}}_sleep": "0/0 0/0"//TODO: Add sleep animation
+            }
         },
-        //Data/Festivals
-        {
-            "LogName": "[Festival] Includes",
-            "Action": "Include",
-            "FromFile": "data/festivals.json"
-        },
-        //Dialogue
-        {
-            "LogName": "General - Schedule Strings",
-            "Action": "Include",
-            "FromFile": "data/scheduleStrings.json"
-        }
+        //Festivals
     ]
 }
