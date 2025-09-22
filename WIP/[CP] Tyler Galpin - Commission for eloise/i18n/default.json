@@ -115,6 +115,28 @@
     "dialogue.10heart.5": "Has anyone told you that you look amazing today?#$b#I got you to smile, didn't I?",
     "dialogue.10heart.6": "Hey @, don't forget to take a break if you need it. It's no good to push yourself too hard.",
     "dialogue.10heart.7": "I love you, don't forget that, okay? You really mean a lot to me.",
+    //Engagement
+    "dialogue.engagement.0": "It's such a relief to know that you want to marry me. I've been wanting this for a long time.$4",
+    "dialogue.engagement.1": "I'm getting nervous... What if I do something embarassing on accident during the ceremony?$4",
+    //Married
+    "dialogue.marriage.spring": "",
+    "dialogue.marriage.summer": "",
+    "dialogue.marriage.fall": "",
+    "dialogue.marriage.winter": "",
+    "dialogue.marriage.patio": "I'm just taking care of my plants. They're looking very healthy today!",
+    "dialogue.marriage.raining.day.1": "",
+    "dialogue.marriage.indoor.day.1": "",
+    "dialogue.marriage.raining.night.1": "",
+    "dialogue.marriage.indoor.night.1": "",
+    "dialogue.marriage.funLeave.1": "",
+    "dialogue.marriage.funReturn.1": "",
+    "dialogue.marriage.outdoor.1": "",
+    "dialogue.marriage.spouseRoom": "",
+    "dialogue.marriage.oneKid.1": "",
+    "dialogue.marriage.twoKids.1": "",
+    "dialogue.marriage.good.1": "",
+    "dialogue.marriage.neutral.1": "",
+    "dialogue.marriage.bad.1": "Oh, now you decide to talk to me? That's a change of pace.#$e#Hello to you too.",
     //Summit
     "dialogue.summit": "You know, it's been amazing getting to know you.#$b#Seeing how far you've come since I first met you has been fantastic, and I can't wait to see where things go from here."
 }
