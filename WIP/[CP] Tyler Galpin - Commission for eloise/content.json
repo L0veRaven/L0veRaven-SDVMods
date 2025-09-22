@@ -941,6 +941,17 @@
                     "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
                 }
             ]
+        },
+        //Events
+        {
+            "LogName": "Event: 8 Heart - The Hyde Truth",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{Tyler}}_TheHydeTruth": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 26 23 {{down}}/skippable/pause 500/move farmer -6 0 {{down}}/pause 500/
+                
+                end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
+            }
         }
     ]
 }

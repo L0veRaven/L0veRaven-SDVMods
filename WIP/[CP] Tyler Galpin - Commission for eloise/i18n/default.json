@@ -200,4 +200,7 @@
     "dialogue.festivalOfIce.single.2": "Look at the ice sculptures and snowmen! They look really good this year.$1",
     "dialogue.festivalOfIce.married.1": "",
     "dialogue.festivalOfIce.married.2": "",
+    //Events
+    "event.theHydeTruth.speak.1": "",
+    "event.theHydeTruth.end": "Thanks for hearing me out. It took a lot for me to open up about this...$4",
 }
