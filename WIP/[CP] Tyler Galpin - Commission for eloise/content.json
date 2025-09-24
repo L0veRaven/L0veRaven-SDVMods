@@ -737,8 +737,8 @@
             "Entries": {
                 "{{Tyler}}": "{{eggFestivalSingle}}",
                 "{{Tyler}}_y2": "{{eggFestivalSingle}}",
-                "{{Tyler}}_spouse": "{{eggFestivalMarried}}",
-                "{{Tyler}}_spouse_y2": "{{eggFestivalMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}"
             }
         },
         {	
@@ -769,8 +769,8 @@
             "Entries": {
                 "{{Tyler}}": "{{flowerDanceSingle}}",
                 "{{Tyler}}_y2": "{{flowerDanceSingle}}",
-                "{{Tyler}}_spouse": "{{flowerDanceMarried}}",
-                "{{Tyler}}_spouse_y2": "{{flowerDanceMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}"
             }
         },
         {
@@ -800,8 +800,8 @@
             "Entries": {
                 "{{Tyler}}": "{{luauSingle}}",
                 "{{Tyler}}_y2": "{{luauSingle}}",
-                "{{Tyler}}_spouse": "{{luauMarried}}",
-                "{{Tyler}}_spouse_y2": "{{luauMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{luauMarried}},{{luauSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{luauMarried}},{{luauSingle}}}}"
             }
         },
         {	
@@ -831,8 +831,8 @@
             "Entries": {
                 "{{Tyler}}": "{{moonlightJelliesSingle}}",
                 "{{Tyler}}_y2": "{{moonlightJelliesSingle}}",
-                "{{Tyler}}_spouse": "{{moonlightJelliesMarried}}",
-                "{{Tyler}}_spouse_y2": "{{moonlightJelliesMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}"
             }
         },
         {	
@@ -852,8 +852,8 @@
             "Entries": {
                 "{{Tyler}}": "{{fairSingle}}",
                 "{{Tyler}}_y2": "{{fairSingle}}",
-                "{{Tyler}}_spouse": "{{fairMarried}}",
-                "{{Tyler}}_spouse_y2": "{{fairMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{fairMarried}},{{fairSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{fairMarried}},{{fairSingle}}}}"
             }
         },
         {	
@@ -873,8 +873,8 @@
             "Entries": {
                 "{{Tyler}}": "{{spiritsEveSingle}}",
                 "{{Tyler}}_y2": "{{spiritsEveSingle}}",
-                "{{Tyler}}_spouse": "{{spiritsEveMarried}}",
-                "{{Tyler}}_spouse_y2": "{{spiritsEveMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}"
             }
         },
         {	
@@ -913,8 +913,8 @@
             "Entries": {
                 "{{Tyler}}": "{{festivalOfIceSingle}}",
                 "{{Tyler}}_y2": "{{festivalOfIceSingle}}",
-                "{{Tyler}}_spouse": "{{festivalOfIceMarried}}",
-                "{{Tyler}}_spouse_y2": "{{festivalOfIceMarried}}"
+                "{{Tyler}}_spouse": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}"
             }
         },
         {	
@@ -948,9 +948,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{Tyler}}_TheHydeTruth": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 26 23 {{down}}/skippable/pause 500/move farmer -6 0 {{down}}/pause 500/
-                
-                end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
+                "{{Tyler}}_TheHydeTruth/Friendship {{Tyler}} 2000": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 25 23 {{down}}/skippable/pause 500/move farmer -7 0 {{down}}/pause 500/pause 500/faceDirection {{Tyler}} {{right}} true/faceDirection farmer {{left}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.1}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/faceDirection farmer {{down}} true/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.2}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.3}}\"/pause 500/emote farmer {{emoteExclaim}}/pause 150/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.4}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.5}}\"/pause 500/faceDirection farmer {{down}}/pause 500/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.6}}\"/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.7}}\"/pause 500/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.8}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.9}}\"/pause 500/emote farmer {{emoteHappy}} true/emote {{Tyler}} {{emoteHappy}}/pause 1000/end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
             }
         }
     ]
