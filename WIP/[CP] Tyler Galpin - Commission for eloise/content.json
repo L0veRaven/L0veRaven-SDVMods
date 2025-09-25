@@ -219,6 +219,18 @@
                 }
             ]
         },
+        {
+            "LogName": "Map - Spouse Patio",
+            "Action": "Load",
+            "Target": "Maps/{{Tyler}}_SpousePatio",
+            "FromFile": "data/{{Tyler}}_SpousePatio.tmx"
+        },
+        {
+            "LogName": "Map - Spouse Room",
+            "Action": "Load",
+            "Target": "Maps/{{Tyler}}_SpouseRoom",
+            "FromFile": "data/{{Tyler}}_SpouseRoom.tmx"
+        },
         //Blank Loads
         {
             "LogName": "Blank Loads [dialogue, marriageDialogue, schedules, scheduleStrings]",
@@ -259,17 +271,17 @@
                     "SpouseWantsChildren": true,
                     "SpouseGiftJealousy": false,
                     "SpouseGiftJealousyFriendshipChange": 0,
-                    "SpouseRoom": {// TODO: Add spouseroom
-                        //"MapAsset": "{{Tyler}}SpouseRoom",
-                        //"MapSourceRect": {
-                        //    "X": 0, "Y": 0, "Width": 6, "Height": 9
-                        //}
+                    "SpouseRoom": {
+                        "MapAsset": "{{Tyler}}_SpouseRoom",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 6, "Height": 9
+                        }
                     },
-                    "SpousePatio": {// TODO: Add spousepatio
-                        //"MapAsset": "{{Tyler}}SpousePatio",
-                        //"MapSourceRect": {
-                        //    "X": 0, "Y": 0, "Width": 4, "Height": 4
-                        //},
+                    "SpousePatio": {
+                        "MapAsset": "{{Tyler}}_SpousePatio",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 4, "Height": 4
+                        }
                         //"SpriteAnimationFrames": [ //Looping animation while on spousepatio, [frame, miliseconds]
                         //    [0, 1500]
                         //]
@@ -297,8 +309,8 @@
                     "Shadow": null,
                     "EmoteOffset": {"X": 0,"Y": 0},
                     "ShakePortraits": [],
-                    "KissSpriteIndex": 19,//TODO: Double check
-                    "KissSpriteFacingRight": true,//TODO: Double check
+                    "KissSpriteIndex": 28,
+                    "KissSpriteFacingRight": true,
                     "CustomFields": null
                 }
             }
@@ -706,7 +718,85 @@
                 "Saloon.001": "{{scheduleStringSaloon}}",
             }
         },
-        //Festivals
+        //Festival Dialogue
+        {	
+            "LogName": "[Data/Festivals] Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "{{Tyler}}": "{{eggFestivalSingle}}",
+                "{{Tyler}}_y2": "{{eggFestivalSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "{{Tyler}}": "{{flowerDanceSingle}}",
+                "{{Tyler}}_y2": "{{flowerDanceSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}"
+            }
+        },
+        {
+            "LogName": "[Festivals] Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Tyler}}": "{{luauSingle}}",
+                "{{Tyler}}_y2": "{{luauSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{luauMarried}},{{luauSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{luauMarried}},{{luauSingle}}}}"
+            }
+        },
+        {
+            "LogName": "[Festivals] Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "{{Tyler}}": "{{moonlightJelliesSingle}}",
+                "{{Tyler}}_y2": "{{moonlightJelliesSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "{{Tyler}}": "{{fairSingle}}",
+                "{{Tyler}}_y2": "{{fairSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{fairMarried}},{{fairSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{fairMarried}},{{fairSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "{{Tyler}}": "{{spiritsEveSingle}}",
+                "{{Tyler}}_y2": "{{spiritsEveSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "{{Tyler}}": "{{festivalOfIceSingle}}",
+                "{{Tyler}}_y2": "{{festivalOfIceSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}"
+            }
+        },
+        //Festival Positions
         {	
             "LogName": "[Data/Festivals] Egg Festival",
             "Action": "EditData",
@@ -740,11 +830,8 @@
                     "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
                 }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{eggFestivalSingle}}",
-                "{{Tyler}}_y2": "{{eggFestivalSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {	
@@ -772,11 +859,8 @@
                 },
 
             ],
-            "Entries": {
-                "{{Tyler}}": "{{flowerDanceSingle}}",
-                "{{Tyler}}_y2": "{{flowerDanceSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {
@@ -803,14 +887,11 @@
                     "Value": "{{Tyler}} 53 22 left", "Delimiter": "/"
                 }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{luauSingle}}",
-                "{{Tyler}}_y2": "{{luauSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{luauMarried}},{{luauSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{luauMarried}},{{luauSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
-        {	
+        {
             "LogName": "[Festivals] Dance of the Moonlight Jellies",
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
@@ -834,11 +915,8 @@
                         "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
                     }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{moonlightJelliesSingle}}",
-                "{{Tyler}}_y2": "{{moonlightJelliesSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {	
@@ -855,11 +933,8 @@
                     "Value": "{{Tyler}} 39 72 down", "Delimiter": "/"
                 }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{fairSingle}}",
-                "{{Tyler}}_y2": "{{fairSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{fairMarried}},{{fairSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{fairMarried}},{{fairSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {	
@@ -876,11 +951,8 @@
                     "Value": "{{Tyler}} 37 66 left", "Delimiter": "/"
                 }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{spiritsEveSingle}}",
-                "{{Tyler}}_y2": "{{spiritsEveSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {	
@@ -888,7 +960,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
             "TextOperations": [
-                //Year 1 - Pre-Event
+                //Pre-Event
                     {
                         "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
@@ -897,7 +969,7 @@
                         "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
                     },
-                //Year 1 - Main Event
+                //Main Event
                     {
                         "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
@@ -906,7 +978,7 @@
                         "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
                     },
-                //Year 1 - After Ice Fishing
+                //After Ice Fishing
                     {
                         "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
@@ -914,13 +986,10 @@
                     {
                         "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
                         "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
-                    },
+                    }
             ],
-            "Entries": {
-                "{{Tyler}}": "{{festivalOfIceSingle}}",
-                "{{Tyler}}_y2": "{{festivalOfIceSingle}}",
-                "{{Tyler}}_spouse": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}",
-                "{{Tyler}}_spouse_y2": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}"
+            "When": {
+                "HasMod |contains={{SVE}}": false
             }
         },
         {	
@@ -946,7 +1015,10 @@
                     "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
                     "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
         },
         //Events
         {
@@ -956,6 +1028,11 @@
             "Entries": {
                 "{{Tyler}}_TheHydeTruth/Friendship {{Tyler}} 2000": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 25 23 {{down}}/skippable/pause 500/move farmer -7 0 {{down}}/pause 500/pause 500/faceDirection {{Tyler}} {{right}} true/faceDirection farmer {{left}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.1}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/faceDirection farmer {{down}} true/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.2}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.3}}\"/pause 500/emote farmer {{emoteExclaim}}/pause 150/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.4}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.5}}\"/pause 500/faceDirection farmer {{down}}/pause 500/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.6}}\"/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.7}}\"/pause 500/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.8}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.9}}\"/pause 500/emote farmer {{emoteHappy}} true/emote {{Tyler}} {{emoteHappy}}/pause 1000/end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
             }
+        },
+        {
+            "LogName": "Mod Compat",
+            "Action": "Include",
+            "FromFile": "data/modCompat/stardewValleyExpanded.json"
         }
     ]
 }

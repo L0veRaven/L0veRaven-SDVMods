@@ -1,0 +1,228 @@
+{
+    "Changes": [
+        //Festival Positions
+        {	
+            "LogName": "[Data/Festivals] Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                //Pre-Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                },
+                //Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                },
+                //After Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {	
+            "LogName": "[Festivals] Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                //Pre-Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 34 37 down", "Delimiter": "/"
+                },
+                //Main Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 34 37 down", "Delimiter": "/"
+                },
+
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {
+            "LogName": "[Festivals] Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                //Pre-Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 37 22 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 54 22 right", "Delimiter": "/"
+                },
+                //Main Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 37 22 up", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 54 22 left", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {
+            "LogName": "[Festivals] Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                //Pre-Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                //Main Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {	
+            "LogName": "[Festivals] Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 39 72 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 39 72 down", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {	
+            "LogName": "[Festivals] Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 27 56 left", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 37 66 left", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {	
+            "LogName": "[Festivals] Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                //Pre-Event
+                    {
+                        "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                //Main Event
+                    {
+                        "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                //After Ice Fishing
+                    {
+                        "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        },
+        {	
+            "LogName": "[Festivals] - Feast Of The Winter Star",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                //Set up
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 28 56 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
+                },
+                //Secret Santa
+                {
+                    "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters"],
+                    "Value": "{{Tyler}} 28 56 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": true
+            }
+        }
+    ]
+}
