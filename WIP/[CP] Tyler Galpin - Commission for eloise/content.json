@@ -159,14 +159,17 @@
         //Positions
         //Dialogue
         {"Name": "extraDialogue","Value": "{{i18n:dialogue.extra.{{Random:{{Range:1,6}}}}}}"},
+
         {"Name": "extraDialogueSVE","Value": ",{{i18n:dialogue.SVEextra.{{Random:{{Range:1,2}}}}}}","When":{"HasMod |contains={{SVE}}":"true"}},
         {"Name": "extraDialogueSVE","Value": "","When":{"HasMod |contains={{SVE}}":"false"}},
+
         {"Name": "0hearts","Value": "{{i18n:dialogue.0heart.{{Random:{{Range:1,7}}}}}}"},
         {"Name": "2hearts","Value": "{{i18n:dialogue.2heart.{{Random:{{Range:1,7}}}}}}"},
         {"Name": "4hearts","Value": "{{i18n:dialogue.4heart.{{Random:{{Range:1,7}}}}}}"},
         {"Name": "6hearts","Value": "{{i18n:dialogue.6heart.{{Random:{{Range:1,7}}}}}}"},
         {"Name": "8hearts","Value": "{{i18n:dialogue.8heart.{{Random:{{Range:1,7}}}}}}"},
         {"Name": "10hearts","Value": "{{i18n:dialogue.10heart.{{Random:{{Range:1,7}}}}}}"},
+        
         {"Name": "marriageRainyDay","Value": "{{i18n:dialogue.marriage.raining.day.{{Random:{{Range:1,3}}}}}}"},
         {"Name": "marriageIndoorDay","Value": "{{i18n:dialogue.marriage.indoor.day.{{Random:{{Range:1,4}}}}}}"},
         {"Name": "marriageRainyNight","Value": "{{i18n:dialogue.marriage.raining.night.{{Random:{{Range:1,4}}}}}}"},
@@ -451,9 +454,6 @@
                 "Sat": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "Sun": "800 {{apartment}} 57 13 {{up}}/1000 ArchaeologyHouse 10 12 {{left}}/1400 Town 73 100 {{right}}/1800 {{apartment}} 51 17 {{down}}/2400 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep"
             },
-            "When": {
-                "HasMod |contains={{SVE}}": "false"
-            }
         },
         //Dialogue
         {
