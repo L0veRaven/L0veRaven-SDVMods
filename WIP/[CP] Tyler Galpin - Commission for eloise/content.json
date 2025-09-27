@@ -330,31 +330,9 @@
             "Entries": {
                 "{{Tyler}}.Default": {
                     "Id": "{{Tyler}}.Default",
+                    "Condition": "SEASON spring summer",
                     "Sprite": "Characters/{{Tyler}}",
                     "Portrait": "Portraits/{{Tyler}}",
-                    "IsIslandAttire": false,
-                    "Precedence": 0,
-                    "Weight": 1
-                }
-            }
-        },
-        {
-            "LogName": "Character - SpringSummer","Action": "Load",
-            "Target": "Characters/{{Tyler}}_SpringSummer","FromFile": "assets/Characters/{{Tyler}}_SpringSummer.png"
-        },
-        {
-            "LogName": "Portrait - SpringSummer","Action": "Load",
-            "Target": "Portraits/{{Tyler}}_SpringSummer","FromFile": "assets/Portraits/{{Tyler}}_SpringSummer.png"
-        },
-        {
-            "LogName": "Appearance - Spring/Summer","Action": "EditData",
-            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
-            "Entries": {
-                "{{Tyler}}.Default": {
-                    "Id": "{{Tyler}}.SpringSummer",
-                    "Condition": "SEASON spring summer",
-                    "Sprite": "Characters/{{Tyler}}_SpringSummer",
-                    "Portrait": "Portraits/{{Tyler}}_SpringSummer",
                     "IsIslandAttire": false,
                     "Precedence": 0,
                     "Weight": 1
@@ -424,17 +402,30 @@
         },
         //Winter Star Gifts
         {
-            "LogName": "WinterStarGifts - Amethyst",
+            "LogName": "WinterStarGifts - Tea Set",
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": ["{{Tyler}}","WinterStarGifts"],
             "Entries": {
-                "{{Tyler}}_WinterStar_Amethyst": {
-                    "Id": "{{Tyler}}_WinterStar_Amethyst",//TODO: Change gifts
-                    "ItemId": "(O)66",
+                "{{Tyler}}_WinterStar_TeaSet": {
+                    "Id": "{{Tyler}}_WinterStar_TeaSet",
+                    "ItemId": "(O)341",
+                    "RandomItemId": null
+                }
+            }
+        },
+        {
+            "LogName": "WinterStarGifts - Coffee Bean",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Tyler}}","WinterStarGifts"],
+            "Entries": {
+                "{{Tyler}}_WinterStar_CoffeeBean": {
+                    "Id": "{{Tyler}}_WinterStar_CoffeeBean",
+                    "ItemId": "(O)433",
                     "RandomItemId": null,
-                    "MinStack": 2,
-                    "MaxStack": 3
+                    "MinStack": 25,
+                    "MaxStack": 50
                 }
             }
         },
@@ -706,7 +697,7 @@
             "Target": "Data/animationdescriptions",
             "Entries": {
                 //Hard-coded tokens
-                    "{{TylerLC}}_sleep": "0/0 0/0"//TODO: Add sleep animation
+                    "{{TylerLC}}_sleep": "0/0 0/0"
             }
         },
         //Schedule Strings
