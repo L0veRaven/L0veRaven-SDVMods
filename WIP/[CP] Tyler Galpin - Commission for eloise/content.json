@@ -158,9 +158,9 @@
         {"Name": "animate_sweep","Value": "{{TylerLC}}_sweep"},
         //Positions
         //Dialogue
-        {"Name": "extraDialogue","Value": "{{i18n:dialogue.extra.{{Random:{{Range:1,6}}}}}}"},
+        {"Name": "extraDialogue","Value": "{{i18n:dialogue.extra.{{Random:{{Range:1,9}}}}}}"},
 
-        {"Name": "extraDialogueSVE","Value": ",{{i18n:dialogue.SVEextra.{{Random:{{Range:1,2}}}}}}","When":{"HasMod |contains={{SVE}}":"true"}},
+        {"Name": "extraDialogueSVE","Value": "{{i18n:dialogue.SVEextra.{{Random:{{Range:1,2}}}}}}","When":{"HasMod |contains={{SVE}}":"true"}},
         {"Name": "extraDialogueSVE","Value": "","When":{"HasMod |contains={{SVE}}":"false"}},
 
         {"Name": "0hearts","Value": "{{i18n:dialogue.0heart.{{Random:{{Range:1,7}}}}}}"},
@@ -527,53 +527,53 @@
                 "WinterStar_GiveGift_After": "{{i18n:dialogue.winterStar.giveGift.after}}",
                 "WinterStar_ReceiveGift": "{{i18n:dialogue.winterStar.receiveGift}}",
                 //0 Hearts
-                "Mon": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun": "{{Random:{{0hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
+                "Mon": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun": "{{Random:{{0hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
                 //2 Hearts
-                "Mon2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun2": "{{Random:{{2hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
+                "Mon2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun2": "{{Random:{{2hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
                 //4 Hearts
-                "Mon4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun4": "{{Random:{{4hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
+                "Mon4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun4": "{{Random:{{4hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
                 //6 Hearts
-                "Mon6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun6": "{{Random:{{6hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
+                "Mon6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun6": "{{Random:{{6hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
                 //8 Hearts
-                "Mon8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun8": "{{Random:{{8hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
+                "Mon8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun8": "{{Random:{{8hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
                 //10 Hearts
-                "Mon10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Tue10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Wed10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Thu10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Fri10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sat10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}",
-                "Sun10": "{{Random:{{10hearts}},{{extraDialogue}}{{extraDialogueSVE}}}}"
+                "Mon10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Tue10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Wed10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Thu10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Fri10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sat10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}",
+                "Sun10": "{{Random:{{10hearts}},{{extraDialogue}},{{extraDialogueSVE}}}}"
             }
         },
         {
@@ -1013,11 +1013,19 @@
         },
         //Events
         {
-            "LogName": "Event: 8 Heart - The Hyde Truth",
+            "LogName": "Event: 8 Heart - The Hyde Truth", //debug ebi L0veRaven_TylerGalpin_TheHydeTruth
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
                 "{{Tyler}}_TheHydeTruth/Friendship {{Tyler}} 2000": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 25 23 {{down}}/skippable/pause 500/move farmer -7 0 {{down}}/pause 500/pause 500/faceDirection {{Tyler}} {{right}} true/faceDirection farmer {{left}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.1}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/faceDirection farmer {{down}} true/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.2}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.3}}\"/pause 500/emote farmer {{emoteExclaim}}/pause 150/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.4}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.5}}\"/pause 500/faceDirection farmer {{down}}/pause 500/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.6}}\"/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.7}}\"/pause 500/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.8}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.9}}\"/pause 500/emote farmer {{emoteHappy}} true/emote {{Tyler}} {{emoteHappy}}/pause 1000/end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
+            }
+        },
+        {
+            "LogName": "Event: 10 Heart - The Usual", //debug ebi L0veRaven_TylerGalpin_TheUsual
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "{{Tyler}}_TheUsual/Friendship {{Tyler}} 2500/Time {{8pm}} {{12am}}": "Saloon1/14 20/farmer 14 24 {{up}} {{Tyler}} 17 18 {{down}} Gus 14 18 {{down}}/skippable/pause 1000/move farmer 0 -3 {{right}}/move farmer 3 0 {{up}}/move farmer 0 -1 {{up}}/pause 500/emote farmer {{emoteHappy}} true/emote {{Tyler}} {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.1}}\"/pause 150/emote farmer {{emoteHappy}}/pause 150/speak {{Tyler}} \"{{i18n:event.theUsual.speak.2}}\"/pause 150/move {{Tyler}} 0 -1 {{up}}/pause 500/move {{Tyler}} 0 1 {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.3}}\"/pause 150/farmerEat 253/{{fadeout}}/stopMusic/warp farmer 48 87/faceDirection farmer {{left}}/warp {{Tyler}} 46 87/faceDirection {{Tyler}} {{right}}/changeToTemporaryMap Town/viewport 47 89/playMusic nightTime/speak {{Tyler}} \"{{i18n:event.theUsual.speak.4}}\"/pause 500/emote farmer {{emoteBlush}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.5}}\"/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.6}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.7}}\"/pause 500/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.8}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.9}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theUsual.speak.10}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection {{Tyler}} {{down}}/pause 500/pause 1000/end dialogue {{Tyler}} \"{{i18n:event.theUsual.speak.end}}\""
             }
         },
         {
