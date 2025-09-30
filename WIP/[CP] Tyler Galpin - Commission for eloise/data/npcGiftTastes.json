@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "NPCGiftTastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{Tyler}}": "{{i18n:npcGiftTaste.love}}/395 253 279 243 221 220 608 651 731 233/{{i18n:npcGiftTaste.like}}/234 223 211 203 201 611 732/{{i18n:npcGiftTaste.dislike}}/238/{{i18n:npcGiftTaste.hate}}/241 456/{{i18n:npcGiftTaste.neutral}}/239/",
+            }
+        }
+    ]
+}

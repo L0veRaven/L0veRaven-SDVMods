@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "animationDescriptions",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                //Hard-coded tokens
+                    "{{TylerLC}}_sleep": "0/0 0/0"
+            }
+        }
+    ]
+}

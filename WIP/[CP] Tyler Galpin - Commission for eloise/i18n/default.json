@@ -69,12 +69,15 @@
     "dialogue.winterStar.receiveGift": "You're my gift giver? The gift is amazing! Thanks a lot, I appreciate it.$1",
     //0 Hearts
     "dialogue.0heart.1": "I didn't actually grow up here in Pelican Town. I come from a small town called Jericho.#$b#Just because it was a small town doesn't mean there wasn't anything interesting happening out there though.$6",
-    "dialogue.0heart.2": "Where did you grow up?#$b#That's pretty interesting! My hometown was originally a settlement where pilgrims lived.$1#$b#There's some dark history with that, though...$7",
-    "dialogue.0heart.3": "It's nice that Pelican Town is calm and not much goes on. Where I come from there were some... unusual incidents that would happen.#$b#You won't find anything like that out here though.$1",
+    "dialogue.0heart.2": "Where did you grow up?#$b#That's pretty interesting! My hometown was originally a settlement where pilgrims lived.$1#$b#There's some dark history with that though...$7",
+    "dialogue.0heart.3": "It's nice that Pelican Town is calm and not much goes on. Where I come from there were some... unusual incidents that would happen.#$b#You won't find anything like that here though.$1",
     "dialogue.0heart.4": "I used to work as a barista back where I came from. Now I work at the Saloon. It's almost like a coffee shop but just replace the coffee with alcohol.$1",
     "dialogue.0heart.5": "You left Zuzu City after quitting work with JojaMart? It must be a nice change of pace living here now.$1#$b#We don't have too much going on here aside from the festivals. The festivals are a great time so I think it's worth it.$1",
     "dialogue.0heart.6": "Gus hired me to work at the Saloon because he saw that my barista skills could be useful at the bar.#$b#Luckily he was right!$1",
     "dialogue.0heart.7": "Do you ever wonder what it would be like if there were some drama in a small town like this?$2#$b#Every once in a while my hometown would have something absolutely bizarre happen out of nowhere.$6#$b#It definitely made things more interesting.",
+    "dialogue.0heart.8": "Just like in Jericho there aren't any taxis here in town.#$b#There's not nearly enough people to make a solid profit.$6",
+    "dialogue.0heart.9": "Sometimes I spend my work breaks playing with the arcade machines.$1#$e#Junimo Kart is so hard though!$6",
+    "dialogue.0heart.10": "I enjoy working at the Saloon. No one really causes any problems, including my coworkers.$1",
     //2 Hearts
     "dialogue.2heart.1": "I used to be a bit of a troublemaker back when I was younger.$6#$b#I destroyed someone's mural that and that actually got me sent to military school.$7#$b#I've worked on improving myself since then so I don't get into trouble like that anymore.",
     "dialogue.2heart.2": "I guess the thing that sucks about Pelican Town is how everything seems to be good all the time.#$b#I'm sure people have their secrets but it feels superficial sometimes.$6#$e#I could just be feeling a little homesick for Jericho though...$7",
@@ -91,6 +94,7 @@
     "dialogue.4heart.5": "I find it cool how there's a wizard that lives in town.$1#$b#It reminds me of some of the odd things that would happen back home in Jericho. He seems like a cool guy... I think?$1",
     "dialogue.4heart.6": "Back when I used to live in Jericho it felt like everyone was keeping life-changing secrets. It's not like that in Pelican Town at least.$1",
     "dialogue.4heart.7": "Do I have secrets?#$b#Well... doesn't everyone have secrets?$1",
+    "dialogue.4heart.8": "Have you ever heard of people putting piranhas in a swimming pool?$1#$b#Some of the people I met in Jericho got up to some really bad business.$6",
     //6 Hearts
     "dialogue.6heart.1": "It can be hard for me to open up to people especially since I haven't seen people model that in my own life.$6#$b#If it feels like I'm not being as open as I could be, that's why.",
     "dialogue.6heart.2": "You want me to talk more about myself?#$b#Geez... That's kinda hard...$7#$b#That's so vague you're going to need to be more specific than that for me to give any answers.",
@@ -119,15 +123,10 @@
     "dialogue.extra.1": "It's nice to see couples come visit the Saloon. Robin and Demetrius always have a good time together whenever they come to the Saloon.$1",
     "dialogue.extra.2": "I personally question Gus' willingness to serve alcohol to all of his customers.$6#$b#There's one person in particular that I'm concerned about but he's the boss.$7",
     "dialogue.extra.3": "Sorry I'm feeling pretty tired from working at the Saloon. I'm gonna take some time for myself today.$6",
-    "dialogue.extra.4": "Sometimes I spend my work breaks playing with the arcade machines.$1#$e#Junimo Kart is so hard though!$6",
+    "dialogue.extra.4": "You look amazing today. Did you do something different today?$1",
     "dialogue.extra.5": "If you get a chance to play the arcade machines at the Saloon you should tell me how far you get in Journey of the Prarie King!$1#$b#The furthest I've gotten is level 3.$1",
     "dialogue.extra.6": "It's weird to see certain customers hit on staff members. It just gets so awkward especially when the other person clearly isn't interested.$7",
-    "dialogue.extra.7": "Have you ever heard of people putting piranhas in a swimming pool?$1#$b#Some of the people I met in Jericho got up to some really bad business.$6",
-    "dialogue.extra.8": "You look amazing today. Did you do something different today?$1",
-    "dialogue.extra.9": "Just like in Jericho there aren't any taxis here in town.#$b#There's not nearly enough people to make a solid profit.$6",
-
-    "dialogue.SVEextra.1": "I really like the wine that Sophia makes! It's so tasty and unique.$1#$e#Maybe you could make some wine for me to try!$1",
-    "dialogue.SVEextra.2": "Andy seems really hard on the outside but I bet he's a nice guy.$1#$e#I'm not gonna start a conversation with Andy first though.",
+    "dialogue.extra.7": "The weather is really nice today. It's nice that we let nature thrive around here.$1",
     //Engagement
     "dialogue.engagement.0": "It's such a relief to know that you want to marry me. I've been wanting this for a long time.$5",
     "dialogue.engagement.1": "I'm getting nervous... What if I do something embarassing on accident during the ceremony?$7",

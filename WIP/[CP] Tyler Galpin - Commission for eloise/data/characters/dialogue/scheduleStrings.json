@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Schedule Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Tyler}}",
+            "Entries": {
+                "Saloon.001": "{{scheduleStringSaloon}}"
+            }
+        }
+    ]
+}

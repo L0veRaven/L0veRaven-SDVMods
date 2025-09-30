@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Engaged Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "{{Tyler}}0": "{{i18n:dialogue.engagement.0}}",
+                "{{Tyler}}1": "{{i18n:dialogue.engagement.1}}"
+            }
+        }
+    ]
+}

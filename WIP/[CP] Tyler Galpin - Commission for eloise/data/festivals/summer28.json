@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Festivals] Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "{{Tyler}}": "{{moonlightJelliesSingle}}",
+                "{{Tyler}}_y2": "{{moonlightJelliesSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{moonlightJelliesMarried}},{{moonlightJelliesSingle}}}}"
+            }
+        },
+        {
+            "LogName": "[Festivals] Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                //Pre-Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                //Main Event
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 37 23 down","Delimiter": "/"
+                    }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

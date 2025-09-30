@@ -1,0 +1,73 @@
+{
+    "Changes": [        
+        {
+            "LogName": "Character - Default","Action": "Load",
+            "Target": "Characters/{{Tyler}}","FromFile": "assets/Characters/{{Tyler}}.png"
+        },
+        {
+            "LogName": "Portrait - Default","Action": "Load",
+            "Target": "Portraits/{{Tyler}}","FromFile": "assets/Portraits/{{Tyler}}.png"
+        },
+        {
+            "LogName": "Appearance - Default","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Default",
+                    "Condition": "SEASON spring summer",
+                    "Sprite": "Characters/{{Tyler}}",
+                    "Portrait": "Portraits/{{Tyler}}",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+        {
+            "LogName": "Character - Fall","Action": "Load",
+            "Target": "Characters/{{Tyler}}_Fall","FromFile": "assets/Characters/{{Tyler}}_Fall.png"
+        },
+        {
+            "LogName": "Portrait - Fall","Action": "Load",
+            "Target": "Portraits/{{Tyler}}_Fall","FromFile": "assets/Portraits/{{Tyler}}_Fall.png"
+        },
+        {
+            "LogName": "Appearance - Fall","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Fall",
+                    "Condition": "SEASON fall",
+                    "Sprite": "Characters/{{Tyler}}_Fall",
+                    "Portrait": "Portraits/{{Tyler}}_Fall",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        },
+        {
+            "LogName": "Character - Winter","Action": "Load",
+            "Target": "Characters/{{Tyler}}_Winter","FromFile": "assets/Characters/{{Tyler}}_Winter.png"
+        },
+        {
+            "LogName": "Portrait - Winter","Action": "Load",
+            "Target": "Portraits/{{Tyler}}_Winter","FromFile": "assets/Portraits/{{Tyler}}_Winter.png"
+        },
+        {
+            "LogName": "Appearance - Winter","Action": "EditData",
+            "Target": "Data/Characters","TargetField": ["{{Tyler}}","Appearance"],
+            "Entries": {
+                "{{Tyler}}.Default": {
+                    "Id": "{{Tyler}}.Winter",
+                    "Condition": "SEASON winter",
+                    "Sprite": "Characters/{{Tyler}}_Winter",
+                    "Portrait": "Portraits/{{Tyler}}_Winter",
+                    "IsIslandAttire": false,
+                    "Precedence": 0,
+                    "Weight": 1
+                }
+            }
+        }
+    ]
+}

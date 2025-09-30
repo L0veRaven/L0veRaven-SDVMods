@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] - Feast Of The Winter Star",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                //Set up
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 27 54 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
+                },
+                //Secret Santa
+                {
+                    "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters"],
+                    "Value": "{{Tyler}} 27 54 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "SecretSanta_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 29 57 down", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

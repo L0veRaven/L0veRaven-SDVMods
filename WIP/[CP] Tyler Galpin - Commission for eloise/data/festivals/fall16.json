@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "{{Tyler}}": "{{fairSingle}}",
+                "{{Tyler}}_y2": "{{fairSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{fairMarried}},{{fairSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{fairMarried}},{{fairSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 39 72 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 39 72 down", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

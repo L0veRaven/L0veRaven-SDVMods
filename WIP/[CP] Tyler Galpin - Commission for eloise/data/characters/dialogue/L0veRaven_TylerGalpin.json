@@ -1,0 +1,123 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Tyler}}",
+            "Entries": {
+                "Introduction": "{{i18n:dialogue.introduction}}",
+                //Green Rain
+                "GreenRain": "{{i18n:dialogue.greenrain_1}}",
+                "GreenRainFinished": "{{i18n:dialogue.greenrain_end_1}}",
+                "GreenRain_2": "{{i18n:dialogue.greenrain_2}}",
+                "GreenRainFinished_2": "{{i18n:dialogue.greenrain_end_2}}",
+                //Movie Invites
+                "MovieInvitation": "{{i18n:dialogue.movieInvite}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:dialogue.movieReject.alreadyInvited}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:dialogue.movieReject.alreadyWatched}}",
+                "RejectMovieTicket_Divorced": "{{i18n:dialogue.movieReject.divorced}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:dialogue.movieReject.notInterested}}",
+                "RejectMovieTicket": "{{i18n:dialogue.movieReject}}",
+                //Breakup and Bouquet Rejections
+                "breakUp": "{{i18n:dialogue.breakUp}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:dialogue.bouquetReject.veryLow}}",
+                "RejectBouquet_LowHearts": "{{i18n:dialogue.bouquetReject.low}}",
+                "RejectBouquet": "{{i18n:dialogue.bouquetReject}}",
+                //Spouse Dialogue
+                "SpouseFarmhouseClutter": "{{i18n:dialogue.married.houseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:dialogue.married.monstersInHome}}",
+                "SpouseStardrop": "{{i18n:dialogue.married.spouseStardrop}}",
+                //Reject Mermaid Pendant
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:dialogue.mermaidPendant.reject.needHouseUpgrade}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:dialogue.mermaidPendant.reject.npcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:dialogue.mermaidPendant.reject.playerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:dialogue.mermaidPendant.reject.under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:dialogue.mermaidPendant.reject.under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:dialogue.mermaidPendant.reject.under10Hearts_AskedAgain}}",
+                "RejectMermaidPendant": "{{i18n:dialogue.mermaidPendant.reject}}",
+                //Divorced Dialogue
+                "divorced": "{{i18n:dialogue.divorced}}",
+                "RejectGift_Divorced": "{{i18n:dialogue.divorced.rejectGift}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:dialogue.divorced.rejectMermaidPendant}}",
+                "RejectBouquet_Divorced": "{{i18n:dialogue.divorced.rejectBouquet}}",
+                //Birthday Gift Reactions
+                "AcceptBirthdayGift_Negative": "{{i18n:dialogue.birthdayGift_negative}}",
+                "AcceptBirthdayGift_Positive": "{{i18n:dialogue.birthdayGift_positive}}",
+                "AcceptBirthdayGift": "{{i18n:dialogue.birthdayGift}}",
+                
+                "AcceptBouquet": "{{i18n:dialogue.bouquetAccept}}",
+                //Miscellaneous
+                "WipedMemory": "{{i18n:dialogue.WipedMemory}}",
+                "DumpsterDiveComment": "{{i18n:dialogue.dumpsterDive}}",
+                "HitBySlingshot": "{{i18n:dialogue.hitBySlingshot}}",
+                //Festival Dialogue
+                    //Flower Dance
+                "FlowerDance_Accept_Spouse": "{{i18n:dialogue.flowerDance.acceptSpouse}}",
+                "FlowerDance_Accept": "{{i18n:dialogue.flowerDance.accept}}",
+                "FlowerDance_Decline": "{{i18n:dialogue.flowerDance.decline}}",
+                    //Fair
+                "Fair_Judging": "{{i18n:dialogue.fair.judging}}",
+                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:dialogue.fair.judging.purpleShorts}}",
+                "Fair_Judged_PlayerLost_Skipped": "{{i18n:dialogue.fair.judging.skipped}}",
+                "Fair_Judged_PlayerLost": "{{i18n:dialogue.fair.judging.playerLost}}",
+                "Fair_Judged_PlayerWon": "{{i18n:dialogue.fair.judging.playerWon}}",
+                "Fair_Judged": "{{i18n:dialogue.fair.judged}}",
+                    //Winter Star
+                "WinterStar_GiveGift_Before_Spouse": "{{i18n:dialogue.winterStar.giveGift.beforeSpouse}}",
+                "WinterStar_GiveGift_Before": "{{i18n:dialogue.winterStar.giveGift.before}}",
+                "WinterStar_GiveGift_After_Spouse": "{{i18n:dialogue.winterStar.giveGift.afterSpouse}}",
+                "WinterStar_GiveGift_After": "{{i18n:dialogue.winterStar.giveGift.after}}",
+                "WinterStar_ReceiveGift": "{{i18n:dialogue.winterStar.receiveGift}}",
+                //Heart Dialogue
+                    //0 Hearts
+                "Mon": "{{0hearts}}",
+                "Tue": "{{0hearts}}",
+                "Wed": "{{0hearts}}",
+                "Thu": "{{0hearts}}",
+                "Fri": "{{0hearts}}",
+                "Sat": "{{0hearts}}",
+                "Sun": "{{0hearts}}",
+                    //2 Hearts
+                "Mon2": "{{2hearts}}",
+                "Tue2": "{{2hearts}}",
+                "Wed2": "{{2hearts}}",
+                "Thu2": "{{2hearts}}",
+                "Fri2": "{{2hearts}}",
+                "Sat2": "{{2hearts}}",
+                "Sun2": "{{2hearts}}",
+                    //4 Hearts
+                "Mon4": "{{4hearts}}",
+                "Tue4": "{{4hearts}}",
+                "Wed4": "{{4hearts}}",
+                "Thu4": "{{4hearts}}",
+                "Fri4": "{{4hearts}}",
+                "Sat4": "{{4hearts}}",
+                "Sun4": "{{4hearts}}",
+                    //6 Hearts
+                "Mon6": "{{6hearts}}",
+                "Tue6": "{{6hearts}}",
+                "Wed6": "{{6hearts}}",
+                "Thu6": "{{6hearts}}",
+                "Fri6": "{{6hearts}}",
+                "Sat6": "{{6hearts}}",
+                "Sun6": "{{6hearts}}",
+                    //8 Hearts
+                "Mon8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Tue8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Wed8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Thu8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Fri8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Sat8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                "Sun8": "{{Random:{{8hearts}},{{extraDialogue}}}}",
+                    //10 Hearts
+                "Mon10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Tue10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Wed10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Thu10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Fri10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Sat10": "{{Random:{{10hearts}},{{extraDialogue}}}}",
+                "Sun10": "{{Random:{{10hearts}},{{extraDialogue}}}}"
+            }
+        }
+    ]
+}

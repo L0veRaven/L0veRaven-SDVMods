@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Data/Festivals] Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "{{Tyler}}": "{{eggFestivalSingle}}",
+                "{{Tyler}}_y2": "{{eggFestivalSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{eggFestivalMarried}},{{eggFestivalSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Data/Festivals] Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                //Pre-Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                },
+                //Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                },
+                //After Egg hunt
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters"],
+                    "Value": "{{Tyler}} 36 71 left","Delimiter": "/"
+                },
+                {
+                    "Operation": "Append","Target": ["Entries", "afterEggHunt_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 22 61 down","Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

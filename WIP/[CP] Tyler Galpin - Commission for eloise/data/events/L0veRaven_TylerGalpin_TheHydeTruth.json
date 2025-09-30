@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Event: 8 Heart - The Hyde Truth", //debug ebi L0veRaven_TylerGalpin_TheHydeTruth
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{Tyler}}_TheHydeTruth/Friendship {{Tyler}} 2000": "jaunty/26 23/farmer 34 23 {{left}} {{Tyler}} 25 23 {{down}}/skippable/pause 500/move farmer -7 0 {{down}}/pause 500/pause 500/faceDirection {{Tyler}} {{right}} true/faceDirection farmer {{left}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.1}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/faceDirection farmer {{down}} true/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.2}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.3}}\"/pause 500/emote farmer {{emoteExclaim}}/pause 150/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.4}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.5}}\"/pause 500/faceDirection farmer {{down}}/pause 500/emote farmer {{emoteQuestion}}/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.6}}\"/pause 1000/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.7}}\"/pause 500/faceDirection {{Tyler}} {{right}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.8}}\"/pause 500/faceDirection {{Tyler}} {{down}}/pause 500/emote farmer {{emoteHappy}}/pause 500/speak {{Tyler}} \"{{i18n:event.theHydeTruth.speak.9}}\"/pause 500/emote farmer {{emoteHappy}} true/emote {{Tyler}} {{emoteHappy}}/pause 1000/end dialogue {{Tyler}} \"{{i18n:event.theHydeTruth.end}}\""
+            }
+        }
+    ]
+}

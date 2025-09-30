@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "ConcessionTastes",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Tyler}}": {
+                    "Name": "{{i18n:displayName.tyler}}",
+                    "LovedTags": [ "Star Cookie", "Cotton Candy", "Rock Candy", "Stardrop Sorbet" ],
+                    "LikedTags": [ "Popcorn", "JojaCorn", "Joja Cola", "Ice Cream Sandwich" ],
+                    "DislikedTags": [ "Black Licorice", "Salted Peanuts", "Panzanella Salad", "Personal Pizza" ]
+                }
+            }
+        }
+    ]
+}

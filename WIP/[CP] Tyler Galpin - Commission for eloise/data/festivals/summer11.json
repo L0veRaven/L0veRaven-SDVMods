@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Festivals] Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Tyler}}": "{{luauSingle}}",
+                "{{Tyler}}_y2": "{{luauSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{luauMarried}},{{luauSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{luauMarried}},{{luauSingle}}}}"
+            }
+        },
+        {
+            "LogName": "[Festivals] Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                //Pre-Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 37 22 down", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 53 22 right", "Delimiter": "/"
+                },
+                //Main Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 37 22 up", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 53 22 left", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

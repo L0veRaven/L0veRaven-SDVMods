@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "LogName": "[Festivals] Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "{{Tyler}}": "{{flowerDanceSingle}}",
+                "{{Tyler}}_y2": "{{flowerDanceSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{flowerDanceMarried}},{{flowerDanceSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                //Pre-Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                },
+                //Main Event
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 5 32 right", "Delimiter": "/"
+                }
+
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

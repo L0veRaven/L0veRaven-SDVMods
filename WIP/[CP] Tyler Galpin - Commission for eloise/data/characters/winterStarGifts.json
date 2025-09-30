@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "LogName": "WinterStarGifts - Tea Set",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Tyler}}","WinterStarGifts"],
+            "Entries": {
+                "{{Tyler}}_WinterStar_TeaSet": {
+                    "Id": "{{Tyler}}_WinterStar_TeaSet",
+                    "ItemId": "(O)341",
+                    "RandomItemId": null
+                }
+            }
+        },
+        {
+            "LogName": "WinterStarGifts - Coffee Beans",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": ["{{Tyler}}","WinterStarGifts"],
+            "Entries": {
+                "{{Tyler}}_WinterStar_CoffeeBean": {
+                    "Id": "{{Tyler}}_WinterStar_CoffeeBean",
+                    "ItemId": "(O)433",
+                    "RandomItemId": null,
+                    "MinStack": 25,
+                    "MaxStack": 50
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "{{Tyler}}": "{{spiritsEveSingle}}",
+                "{{Tyler}}_y2": "{{spiritsEveSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{spiritsEveMarried}},{{spiritsEveSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 27 56 left", "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Tyler}} 37 66 left", "Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

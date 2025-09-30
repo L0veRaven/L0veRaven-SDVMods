@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        {
+            "LogName": "Character - Base Information",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Tyler}}": {
+                    "DisplayName": "{{i18n:displayName.tyler}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 13,
+                    "HomeRegion": "Town",
+                    "Language": "default",
+                    "Gender": "male",
+                    "Age": "adult",
+                    "Manner": "polite",
+                    "SocialAnxiety": "shy",
+                    "Optimism": "positive",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanSocialize": true,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanVisitIsland": false,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": true,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpouseWantsChildren": true,
+                    "SpouseGiftJealousy": false,
+                    "SpouseGiftJealousyFriendshipChange": 0,
+                    "SpouseRoom": {
+                        "MapAsset": "{{Tyler}}_SpouseRoom",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 6, "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "{{Tyler}}_SpousePatio",
+                        "MapSourceRect": {
+                            "X": 0, "Y": 0, "Width": 4, "Height": 4
+                        }
+                        //"SpriteAnimationFrames": [ //Looping animation while on spousepatio, [frame, miliseconds]
+                        //    [0, 1500]
+                        //]
+                    },
+                    "DumpsterDiveFriendshipEffect": -5,
+                    "DumpsterDiveEmote": 12,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "FriendsAndFamily": {},
+                    "FlowerDanceCanDance": true,
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": true,
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [],
+                    "TextureName": "",
+                    "Appearance": [],
+                    "MugShotSourceRect": null,
+                    "Size": {
+                        "X": 16,"Y": 32
+                    },
+                    "Breather": true,
+                    "BreathChestRect": null,
+                    "BreathChestPosition": null,
+                    "Shadow": null,
+                    "EmoteOffset": {"X": 0,"Y": 0},
+                    "ShakePortraits": [],
+                    "KissSpriteIndex": 28,
+                    "KissSpriteFacingRight": true,
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

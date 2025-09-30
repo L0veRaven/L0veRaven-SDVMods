@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {	
+            "LogName": "[Festivals] Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "{{Tyler}}": "{{festivalOfIceSingle}}",
+                "{{Tyler}}_y2": "{{festivalOfIceSingle}}",
+                "{{Tyler}}_spouse": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}",
+                "{{Tyler}}_spouse_y2": "{{Random:{{festivalOfIceMarried}},{{festivalOfIceSingle}}}}"
+            }
+        },
+        {	
+            "LogName": "[Festivals] Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                //Pre-Event
+                    {
+                        "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                //Main Event
+                    {
+                        "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                //After Ice Fishing
+                    {
+                        "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    },
+                    {
+                        "Operation": "Append", "Target": ["Entries", "AfterIceFishing_additionalCharacters_y2"],
+                        "Value": "{{Tyler}} 77 12 down", "Delimiter": "/"
+                    }
+            ],
+            "When": {
+                "HasMod |contains={{SVE}}": false
+            }
+        }
+    ]
+}

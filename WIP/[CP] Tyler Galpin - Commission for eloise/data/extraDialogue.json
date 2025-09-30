@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dialogue - Summit",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_{{Tyler}}": "{{i18n:dialogue.summit}}"
+            }
+        }
+    ]
+}
