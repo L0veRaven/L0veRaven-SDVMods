@@ -246,7 +246,7 @@
         {
             "LogName": "Dialogue Includes",
             "Action": "Include",
-            "FromFile": "data/dialogue/L0veRaven_TylerGalpin.json, data/dialogue/marriageDialogueL0veRaven_TylerGalpin.json, data/dialogue/scheduleStrings.json, data/dialogue/extraDialogue.json, data/dialogue/engagementDialogue.json"
+            "FromFile": "data/dialogue/dialogue.json, data/dialogue/marriageDialogueL0veRaven_TylerGalpin.json, data/dialogue/scheduleStrings.json, data/dialogue/extraDialogue.json, data/dialogue/engagementDialogue.json"
         },
         //Festivals
         {
