@@ -4,7 +4,7 @@
             "LogName": "Schedule",
             "Action": "EditData",
             "Target": "Characters/schedules/{{Tyler}}",
-            "Entries": {                
+            "Entries": {
                 "spring": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "summer": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",
                 "fall": "800 {{apartment}} 51 17 {{down}}/1000 Saloon 18 18 {{down}}/2300 {{apartment}} 51 13 {{down}} {{TylerLC}}_sleep",

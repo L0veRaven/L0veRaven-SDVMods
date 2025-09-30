@@ -240,13 +240,13 @@
         {
             "LogName": "Schedule Unmarried Include",
             "Action": "Include",
-            "FromFile": "data/characters/schedules/L0veRaven_TylerGalpin.json"
+            "FromFile": "data/schedules.json"
         },
         //Dialogue
         {
             "LogName": "Dialogue Includes",
             "Action": "Include",
-            "FromFile": "data/characters/dialogue/L0veRaven_TylerGalpin.json, data/characters/dialogue/marriageDialogueL0veRaven_TylerGalpin.json, data/characters/dialogue/scheduleStrings.json, data/extraDialogue.json, data/engagementDialogue.json"
+            "FromFile": "data/dialogue/L0veRaven_TylerGalpin.json, data/dialogue/marriageDialogueL0veRaven_TylerGalpin.json, data/dialogue/scheduleStrings.json, data/dialogue/extraDialogue.json, data/dialogue/engagementDialogue.json"
         },
         //Festivals
         {
