@@ -197,7 +197,7 @@
         {"Name": "festivalOfIceSingle","Value": "{{i18n:dialogue.festivalOfIce.single.{{Random:{{Range:1,2}}}}}}"},
         {"Name": "festivalOfIceMarried","Value": "{{i18n:dialogue.festivalOfIce.married.{{Random:{{Range:1,2}}}}}}"},
         {"Name": "winterStarSingle","Value": "{{i18n:dialogue.winterStar.single.{{Random:{{Range:1,2}}}}}}"},
-        {"Name": "winterStarMarried","Value": "{{i18n:dialogue.winterStar.married.{{Random:{{Range:1,2}}}}}}"},
+        {"Name": "winterStarMarried","Value": "{{i18n:dialogue.winterStar.married.{{Random:{{Range:1,2}}}}}}"}
     ],
     "Changes": [
         //Map Patch & Location Includes
