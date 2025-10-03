@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Love Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/Winter6",
+            "TextOperations": [
+                {
+                    "Operation": "Append","Target": ["Entries","Set-Up_additionalCharacters"],
+                    "Value": "{{Tyler}} 29 60 right","Delimiter": "/"
+                }
+            ],
+            "When": {
+                "HasMod": "AvalonMFX.LoveFestival"
+            }
+        }
+    ]
+}

@@ -263,7 +263,7 @@
         {
             "LogName": "Mod Compat Includes",
             "Action": "Include",
-            "FromFile": "data/modCompat/stardewValleyExpanded.json"
+            "FromFile": "data/modCompat/stardewValleyExpanded.json, data/modCompat/loveFestival.json"
         }
     ]
 }
