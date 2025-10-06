@@ -4,7 +4,7 @@
     "Description": "Adds Tyler Galpin from Wednesday as a dateable NPC.",
     "Version": "1.0.0",
     "UniqueID": "L0veRaven.TylerGalpin",
-    "UpdateKeys": ["Nexus:"],
+    "UpdateKeys": ["Nexus:38254"],
     "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",},
     "Dependencies": [
         {"UniqueID": "FireRedLily.NPCApartments","IsRequired": "true"},
