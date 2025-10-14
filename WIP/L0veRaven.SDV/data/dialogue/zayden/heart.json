@@ -1,31 +1,189 @@
 {
     "Changes": [
         {
-            "LogName": "dialogue.json: 0 Heart Dialogue",
+            "LogName": "0 Heart Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Zayden}}",
             "Entries": {
-                "Mon": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Tue": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Wed": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Thu": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Fri": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Sat": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}",
-                "Sun": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}"
+                "Mon": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Tue": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Wed": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Thu": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Fri": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Sat": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}",
+                "Sun": "{{Random:{{zaydenJojaTalk}},{{zayden0heart}}}}"
             }
         },
         {
-            "LogName": "dialogue.json: 2 Heart Dialogue",
+            "LogName": "0 Heart Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Zayden}}",
             "Entries": {
-                "Mon2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Tue2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Wed2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Thu2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Fri2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Sat2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}",
-                "Sun2": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,2}}}}}}"
+                "Mon": "{{zayden0heart}}",
+                "Tue": "{{zayden0heart}}",
+                "Wed": "{{zayden0heart}}",
+                "Thu": "{{zayden0heart}}",
+                "Fri": "{{zayden0heart}}",
+                "Sat": "{{zayden0heart}}",
+                "Sun": "{{zayden0heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "LogName": "2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Tue2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Wed2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Thu2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Fri2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Sat2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}",
+                "Sun2": "{{Random:{{zaydenJojaTalk}},{{zayden2heart}}}}"
+            }
+        },
+        {
+            "LogName": "2 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon2": "{{zayden2heart}}",
+                "Tue2": "{{zayden2heart}}",
+                "Wed2": "{{zayden2heart}}",
+                "Thu2": "{{zayden2heart}}",
+                "Fri2": "{{zayden2heart}}",
+                "Sat2": "{{zayden2heart}}",
+                "Sun2": "{{zayden2heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "LogName": "4 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Tue4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Wed4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Thu4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Fri4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Sat4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}",
+                "Sun4": "{{Random:{{zaydenJojaTalk}},{{zayden4heart}}}}"
+            }
+        },
+        {
+            "LogName": "4 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon4": "{{zayden4heart}}",
+                "Tue4": "{{zayden4heart}}",
+                "Wed4": "{{zayden4heart}}",
+                "Thu4": "{{zayden4heart}}",
+                "Fri4": "{{zayden4heart}}",
+                "Sat4": "{{zayden4heart}}",
+                "Sun4": "{{zayden4heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "LogName": "6 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Tue6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Wed6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Thu6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Fri6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Sat6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}",
+                "Sun6": "{{Random:{{zaydenJojaTalk}},{{zayden6heart}}}}"
+            }
+        },
+        {
+            "LogName": "6 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon6": "{{zayden6heart}}",
+                "Tue6": "{{zayden6heart}}",
+                "Wed6": "{{zayden6heart}}",
+                "Thu6": "{{zayden6heart}}",
+                "Fri6": "{{zayden6heart}}",
+                "Sat6": "{{zayden6heart}}",
+                "Sun6": "{{zayden6heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "LogName": "8 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Tue8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Wed8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Thu8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Fri8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Sat8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}",
+                "Sun8": "{{Random:{{zaydenJojaTalk}},{{zayden8heart}}}}"
+            }
+        },
+        {
+            "LogName": "8 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon8": "{{zayden8heart}}",
+                "Tue8": "{{zayden8heart}}",
+                "Wed8": "{{zayden8heart}}",
+                "Thu8": "{{zayden8heart}}",
+                "Fri8": "{{zayden8heart}}",
+                "Sat8": "{{zayden8heart}}",
+                "Sun8": "{{zayden8heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "LogName": "10 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Tue10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Wed10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Thu10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Fri10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Sat10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}",
+                "Sun10": "{{Random:{{zaydenJojaTalk}},{{zayden10heart}}}}"
+            }
+        },
+        {
+            "LogName": "10 Heart Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Zayden}}",
+            "Entries": {
+                "Mon10": "{{zayden10heart}}",
+                "Tue10": "{{zayden10heart}}",
+                "Wed10": "{{zayden10heart}}",
+                "Thu10": "{{zayden10heart}}",
+                "Fri10": "{{zayden10heart}}",
+                "Sat10": "{{zayden10heart}}",
+                "Sun10": "{{zayden10heart}}"
+            },
+            "When": {
+                "HasSeenEvent": "191393"
             }
         }
     ]

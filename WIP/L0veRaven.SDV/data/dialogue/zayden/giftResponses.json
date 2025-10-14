@@ -27,7 +27,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Zayden}}",
             "Entries": {
-                "RejectItem(O)hidden_item": "{{i18n:gift.zayden.accept.hidden}}",//Hidden & Litter
+                "RejectItem(O)hidden_item": "{{i18n:gift.zayden.accept.hidden}}"//Hidden & Litter
             }
         }
     ]

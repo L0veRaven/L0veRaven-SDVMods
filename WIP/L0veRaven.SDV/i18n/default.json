@@ -369,29 +369,61 @@
     "dialogue.raven.10hearts_4": "I'm thinking of what spells to work on right now.#$b#Maybe I could do a protection spell for you so you stay safe while you're out and about.$4",
     "dialogue.raven.10hearts_5": "It's wonderful being able to run a coffee shop!$1#$b#It does get pretty exhausting though, but it's very rewarding.$1",
     "dialogue.raven.10hearts_6": "I really love talking to you. You make me feel spiritually 'at home'. It's a great feeling!$1",
+            //Zayden: Joja Dialogue
+    "dialogue.zayden.jojaTalk_1": "I don't mind working at JojaMart. Sure, the pay could be better, but it's not bad doing what I do.",
+    "dialogue.zayden.jojaTalk_2": "It's kind of odd to see JojaMart in competition with Pierre's shop.#$b#You'd think one of the businesses would shut down after so long, but I guess we both bring in enough customers.",
+    "dialogue.zayden.jojaTalk_3": "We don't get many bad customers in JojaMart. Customers tend to behave themselves... except for Pam sometimes.",
+    "dialogue.zayden.jojaTalk_4": "In a town as small as Pelican Town, there's not many customers that stop by JojaMart.#$b#Don't get me wrong, we do get some people from out of town, but that's not as frequent.",
+    "dialogue.zayden.jojaTalk_5": "When I was on break today, I saw Morris exchange something with the truck driver. I wonder what it was...",
             //Zayden: 0 Hearts
     "dialogue.zayden.0hearts_1": "I normally stay away from direct sunlight.#$b#It's not that I sunburn easily, but too much sun isn't good for my skin.$2#$e#No, I don't care that the sun causes aging.#$b#*whispers* It's kinda a dumb reason to hate the sun...$3",
-    "dialogue.zayden.0hearts_2": "The heat isn't an issue for me. The problem is when the sun's directly on me for too long.#$e#What happens when I'm in the sun for too long?$9#$b#I get heat rashes. It's really uncomfortable.$4",
+    "dialogue.zayden.0hearts_2": "If I'm in the heat for too long, I get heat rashes.#$b#It's really uncomfortable.$4",
     "dialogue.zayden.0hearts_3": "I'm curious about something...#$b#$y 'Are you gonna focus on raising animals, crops, or making artisan goods?_Raising animals_That'll be pretty profitable as long as you stay consistent. You'll do fine.$7_Raising crops_I hear that once you get sprinklers all over the farm that it gets way easier from there. You've got this._Artisan goods_Listen... If you end up making cheese, can you save some for me? I'll be sure to pay you for it.$2",
     "dialogue.zayden.0hearts_4": "I know I'm not super expressive. I'm just not the type to really... care about putting on a performance?$2#$b#That's what it feels like to be really expressive. It's not really authentic for me.",
-    "dialogue.zayden.0hearts_5": "I smell like sunscreen? Well, yeah. I wear sunscreen.#$b#*whispers* Is it bad to have sensitive skin?$4",
-    "dialogue.zayden.0hearts_6": "$y 'You have a question?_Are you a vampire?_Well, yeah. It's not exactly a secret.$2_Show me your fangs._... No. That's weird to ask that.$4'",
-    "dialogue.zayden.0hearts_7": "$y 'You have a question?_Are you allergic to garlic?_No. It actually tastes really good in spaghetti._What do you think of mirrors?_They're okay I guess. They're not all too special.'",
+    "dialogue.zayden.0hearts_5": "I smell like sunscreen? Well, yeah. I have sunscreen on.#$b#*whispers* Does it smell bad?$4",
+    "dialogue.zayden.0hearts_6": "There's not much that goes on at work. There's hardly any gossip, surprisingly.",
+//TODO: Portraits
+    "dialogue.zayden.0hearts_7": "I'm a bit tired from work. I should maybe go on vacation or something to relax.#$b#Are you able to take vacations or would that be bad for the farm?",
             //Zayden: 2 Hearts
-    "dialogue.zayden.2hearts_1": "",
-    "dialogue.zayden.2hearts_2": "",
+    "dialogue.zayden.2hearts_1": "I like having a job. It gives me something to do during the day.#$b#I don't really like being bored.",
+    "dialogue.zayden.2hearts_2": "$y 'You have a question?_Are you allergic to garlic?_No. It actually tastes really good in spaghetti._What do you think of mirrors?_They're okay I guess. They're not all too special.'",
+    "dialogue.zayden.2hearts_3": "$y 'You have a question?_Are you a vampire?_Well, yeah. It's not exactly a secret.$2_Show me your fangs._... No. That's weird to ask that.$4'",
+    "dialogue.zayden.2hearts_4": "Why do I wear this mask? I do it so people don't get freaked out by my fangs.#$b#Besides, I'm more than just a vampire.",
+    "dialogue.zayden.2hearts_5": "I've always been a vampire. Both of my parents are vampires, too. It can be genetic, but we can also turn people into vampires.#$b#We choose to not turn people into vampires randomly because that's really weird.",
+    "dialogue.zayden.2hearts_6": "Even though I'm a vampire, I don't drink human blood.#$b#What works for me is eating really iron-rich foods. If I don't, I get anemic.",
+    "dialogue.zayden.2hearts_7": "I don't really exercise, but it's something I'm kinda interested in picking up.",
             //Zayden: 4 Hearts
-    "dialogue.zayden.4hearts_1": "",
-    "dialogue.zayden.4hearts_2": "",
+    "dialogue.zayden.4hearts_1": "I get along well with Raven. They're a really cool person!#$b#They're pretty energetic, but it's part of who they are. It's refreshing, honestly.",
+    "dialogue.zayden.4hearts_2": "I need to go to the store and get myself some more cheese. I'm running really low on it.",
+    "dialogue.zayden.4hearts_3": "I don't really play video games. It's not that I hate them, but I just don't really go out of my way to play.#$b#I do enjoy Journey of the Prarie King, though.",
+    "dialogue.zayden.4hearts_4": "My favorite food is cheese. It doesn't matter what kind of cheese it is. Nothing can beat how simple it is to use in food.#$b#Cheese tastes great on its own too. Cook up some shredded cheese and enjoy the snack.$1",
+    "dialogue.zayden.4hearts_5": "I like going to the library to read books about something new.#$b#I just like learning new things.",
+    "dialogue.zayden.4hearts_6": "I believe in Yoba, but I don't push it onto anyone. Everyone is free to believe in what they want.",
+    "dialogue.zayden.4hearts_7": "Sometimes when I'm at the library, I'll read books about Yoba and how people respected them throughout history. I find it very interesting to study.",
             //Zayden: 6 Hearts
-    "dialogue.zayden.6hearts_1": "",
+    "dialogue.zayden.6hearts_1": "I enjoy watching movies. My favorites are documentaries and action films.",
     "dialogue.zayden.6hearts_2": "",
+    "dialogue.zayden.6hearts_3": "",
+    "dialogue.zayden.6hearts_4": "",
+    "dialogue.zayden.6hearts_5": "",
+    "dialogue.zayden.6hearts_6": "",
+    "dialogue.zayden.6hearts_7": "",
             //Zayden: 8 Hearts
     "dialogue.zayden.8hearts_1": "",
     "dialogue.zayden.8hearts_2": "",
+    "dialogue.zayden.8hearts_3": "",
+    "dialogue.zayden.8hearts_4": "",
+    "dialogue.zayden.8hearts_5": "",
+    "dialogue.zayden.8hearts_6": "",
+    "dialogue.zayden.8hearts_7": "",
             //Zayden: 10 Hearts
     "dialogue.zayden.10hearts_1": "",
     "dialogue.zayden.10hearts_2": "",
+    "dialogue.zayden.10hearts_3": "",
+    "dialogue.zayden.10hearts_4": "",
+    "dialogue.zayden.10hearts_5": "",
+    "dialogue.zayden.10hearts_6": "",
+    "dialogue.zayden.10hearts_7": "",
     //Weather Dialogue
         //Green Rain: Year 1
     "dialogue.raven.greenRain.year1": "Do you think it's safe to drink the water from green rain?#$e#Maybe I can test it out!#$b#...#$b#Hm... It tastes odd. Not bad, but it's too hard to describe.",
@@ -536,8 +568,42 @@
             "movie.raven.miracleOfTheWinterStar.during": "Raven's eyes dart from the screen for a brief moment. They seem uncomfortable.",
             "movie.raven.miracleOfTheWinterStar.after": "I don't know how to explain it all too well, but it seemed... odd to me.#$b#It's nothing to do with you! You’re fine!#$b#It's just weird how the Winter Star blessed that ONE family over others that may have also been dealing with food shortages.#$e#I'm probably putting too much thought into it.",
         //The Zuzu City Express - Winter 1
+            "movie.raven.theZuzuCityExpress.before": "The movie seems like it'll be a bit cheesy, but I love cheese!$1",
             "movie.raven.theZuzuCityExpress.during": "Raven has tears welling up in their eyes.",
             "movie.raven.theZuzuCityExpress.after": "I hate cliffhangers, but it was well done in this one!#$b#There's a charm to the movies from that era that I don't think I could ever get sick of.",
+    //Zayden
+        //The Brave Little Sapling - Spring 0
+            "movie.zayden.theBraveLittleSapling.before": "I really think this'll be a great movie!#$b#Not only does the poster look amazing, but it seems like a sweet story.",
+            "movie.zayden.theBraveLittleSapling.during": "Raven is watching with a big smile on their face.",
+            "movie.zayden.theBraveLittleSapling.after": "That was so sweet, I really enjoyed it!#$b#I'd definitely watch it again.#$e#It must've been so hard for the little sapling to go on an adventure all alone.",
+        //Natural Wonders - Spring 1
+            "movie.zayden.naturalWonders.before": "For some reason, nature documentaries always make me think of 'March of the Dolphins'.#$b#It's funny since dolphins can't even walk!",
+            "movie.zayden.naturalWonders.during": "Raven is starting to doze off.",
+            "movie.zayden.naturalWonders.after": "Sorry, I tried to stay awake.#$b#Something about documentaries make me sleepy as hell.",
+        //Journey of the Prairie King - Summer 0
+            "movie.zayden.journeyOfThePrarieKing.before": "Abigail talks about the video game a bunch. I hope the movie is as good as the games sound!",
+            "movie.zayden.journeyOfThePrarieKing.during": "Raven's eyes are glued to the screen.",
+            "movie.zayden.journeyOfThePrarieKing.after": "I really loved this movie!#$b#I should see if Abigail is willing to let me play the game with her.",
+        //Wumbus - Summer 1
+            "movie.zayden.wumbus.before": "Philip told me that this is based on a comic book series.#$b#It's hard to go wrong with adapting comic books!#$b#... Right?",
+            "movie.zayden.wumbus.during": "I love how goofy this is!#$b#*whispers* Oh, sorry!",
+            "movie.zayden.wumbus.after": "This is something I'd totally love to see again!#$b#The way it parodies modern society is hilarious!",
+        //Mysterium - Fall 0
+            "movie.zayden.mysterium.before": "I know that it's the point of the movie's name, but I wonder how mysterious it's gonna be!",
+            "movie.zayden.mysterium.during": "Raven is nervous, but is very focused.",
+            "movie.zayden.mysterium.after": "That was p-pretty spooky!#$b#I-I know it's just a movie... but...#$b#Do I actually need to tell someone to watch the movie so I don't see that thing in the middle of the night?#$e#I-I'm probably just being silly.#$b#It was a good movie though!",
+        //It Howls in the Rain - Fall 1
+            "movie.zayden.itHowlsInTheRain.before": "It's been a while since I last saw a scary movie.#$b#I bet it'll be awesome!",
+            "movie.zayden.itHowlsInTheRain.during": "Raven is nervous and their eyes are wide open.",
+            "movie.zayden.itHowlsInTheRain.after": "It was hyping itself up to be an actually scary movie, but it didn't freak me out much.#$b#Cheap jumpscares, and I bet the footage wasn't actually found in Grampleton.#$e#Hush, I know I was shaking at first.",
+        //Miracle of the Winter Star - Winter 0
+            "movie.zayden.miracleOfTheWinterStar.before": "I wonder if this is gonna be one of those cheesy feel-good movies.",
+            "movie.zayden.miracleOfTheWinterStar.during": "Raven's eyes dart from the screen for a brief moment. They seem uncomfortable.",
+            "movie.zayden.miracleOfTheWinterStar.after": "I don't know how to explain it all too well, but it seemed... odd to me.#$b#It's nothing to do with you! You’re fine!#$b#It's just weird how the Winter Star blessed that ONE family over others that may have also been dealing with food shortages.#$e#I'm probably putting too much thought into it.", 
+        //The Zuzu City Express - Winter 1
+            "movie.zayden.theZuzuCityExpress.before": "It's not often that I watch older movies. They have a nice charm to them, so I might like this one.",
+            "movie.zayden.theZuzuCityExpress.during": "Zayden yawns quietly while looking at the screen.",
+            "movie.zayden.theZuzuCityExpress.after": "The movie was pretty cheesy. It's not for me. I hope you enjoyed the movie, though.",
     //Island Resort
     "dialogue.resort.raven": "Isn't it relaxing to take a little time away from the farm?#$b#You can relax with me if you want! I'd enjoy your company.",
     "dialogue.resort.raven.bar": "I think I'll have a beer.#$e#Don't forget the lime, please!",

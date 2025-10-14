@@ -689,6 +689,14 @@
                 "HasMod |contains={{SVE}}": "true"
             }
         },
+        //Dialogue: Heart Dialogue
+        {"Name": "zaydenJojaTalk", "Value": "{{i18n:dialogue.zayden.jojaTalk_{{Random:{{Range:1,5}}}}}}"},
+        {"Name": "zayden0heart", "Value": "{{i18n:dialogue.zayden.0hearts_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "zayden2heart", "Value": "{{i18n:dialogue.zayden.2hearts_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "zayden4heart", "Value": "{{i18n:dialogue.zayden.4hearts_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "zayden6heart", "Value": "{{i18n:dialogue.zayden.6hearts_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "zayden8heart", "Value": "{{i18n:dialogue.zayden.8hearts_{{Random:{{Range:1,7}}}}}}"},
+        {"Name": "zayden10heart", "Value": "{{i18n:dialogue.zayden.10hearts_{{Random:{{Range:1,7}}}}}}"},
         //Dialogue: Medication Pickup
         {
             "Name": "RavenMedicationPickupDialogue",
@@ -1104,7 +1112,7 @@
         {
             "LogName": "Dialogue - Zayden",
             "Action": "Include",
-            "FromFile": "data/dialogue/zayden/firstOfSeason.json, data/dialogue/zayden/conversationTopics.json, data/dialogue/zayden/heart.json, data/dialogue/zayden/giftResponses.json"
+            "FromFile": "data/dialogue/zayden/firstOfSeason.json, data/dialogue/zayden/conversationTopics.json, data/dialogue/zayden/heart.json, data/dialogue/zayden/giftResponses.json, data/dialogue/zayden/movieReactions.json"
         },
         //Data/Events
         {

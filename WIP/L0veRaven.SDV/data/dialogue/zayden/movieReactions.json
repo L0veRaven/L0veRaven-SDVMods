@@ -1,34 +1,34 @@
 {
     "Changes": [
         {
-            "LogName": "Raven's Movie Reactions",
+            "LogName": "Zayden's Movie Reactions",
             "Action": "EditData",
             "Target": "Data/MoviesReactions",
             "Entries": {
-                "{{RavenDisplayName}}": {
-                    "NPCName": "{{Raven}}", //Internal name
+                "{{ZaydenDisplayName}}": {
+                    "NPCName": "{{Zayden}}", //Internal name
                     "Reactions": [
 //The Brave Little Sapling - (Animated Family / Comedy)
                         {
                             "Tag": "spring_movie_0", //<season>_movie_<0,1>
-                            "Response": "love", //love, like, dislike
+                            "Response": "like", //love, like, dislike
                             "Whitelist": [],
                                 //Won't show up if <NPC> is present at the theater
                             "SpecialResponses": {//Contains dialogue spoken by NPC during the film -> Can be left null.
                                 "BeforeMovie": {
                                         "ResponsePoint": null,
                                         "Script": "",
-                                        "Text": "{{i18n:movie.raven.theBraveLittleSapling.before}}"
+                                        "Text": "{{i18n:movie.zayden.theBraveLittleSapling.before}}"
                                     },
                                 "DuringMovie": {
                                         "ResponsePoint": null,
-                                        "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.raven.theBraveLittleSapling.during}}\"",
+                                        "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.zayden.theBraveLittleSapling.during}}\"",
                                         "Text": ""
                                     },
                                 "AfterMovie": {
                                         "ResponsePoint": null,
                                         "Script": "",
-                                        "Text": "{{i18n:movie.raven.theBraveLittleSapling.after}}"
+                                        "Text": "{{i18n:movie.zayden.theBraveLittleSapling.after}}"
                                     }
                                 },
                             "ID": "reaction_0" // reaction_<index>, <index> counts from 0 within the Reactions list.
@@ -36,23 +36,23 @@
 //Natural Wonders - (Documentary / Family)
                         {
                             "Tag": "spring_movie_1",
-                            "Response": "dislike",
+                            "Response": "love",
                             "Whitelist": [],
                             "SpecialResponses": {
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.naturalWonders.before}}"
+                                    "Text": "{{i18n:movie.zayden.naturalWonders.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{Raven}} 24/pause 500/message \"{{i18n:movie.raven.naturalWonders.during}}\"",
+                                    "Script": "/emote {{Raven}} 24/pause 500/message \"{{i18n:movie.zayden.naturalWonders.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.naturalWonders.after}}"
+                                    "Text": "{{i18n:movie.zayden.naturalWonders.after}}"
                                 }
                             },
                             "ID": "reaction_1"
@@ -66,17 +66,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.journeyOfThePrarieKing.before}}"
+                                    "Text": "{{i18n:movie.zayden.journeyOfThePrarieKing.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.raven.journeyOfThePrarieKing.during}}\"",
+                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.zayden.journeyOfThePrarieKing.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.journeyOfThePrarieKing.after}}"
+                                    "Text": "{{i18n:movie.zayden.journeyOfThePrarieKing.after}}"
                                 }
                             },
                             "ID": "reaction_2"
@@ -84,23 +84,23 @@
 //Wumbus - (Sci-fi / Comedy / Family)
                         {
                             "Tag": "summer_movie_1",
-                            "Response": "love",
+                            "Response": "like",
                             "Whitelist": [],
                             "SpecialResponses": {
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.wumbus.before}}"
+                                    "Text": "{{i18n:movie.zayden.wumbus.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.wumbus.during}}"
+                                    "Text": "{{i18n:movie.zayden.wumbus.during}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.wumbus.after}}"
+                                    "Text": "{{i18n:movie.zayden.wumbus.after}}"
                                 }
                             },
                             "ID": "reaction_3"
@@ -108,23 +108,23 @@
 //Mysterium - (Horror / Art)
                         {
                             "Tag": "fall_movie_0",
-                            "Response": "like",
+                            "Response": "love",
                             "Whitelist": [],
                             "SpecialResponses": {
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.mysterium.before}}"
+                                    "Text": "{{i18n:movie.zayden.mysterium.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie.raven.mysterium.during}}\"",
+                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie.zayden.mysterium.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.mysterium.after}}"
+                                    "Text": "{{i18n:movie.zayden.mysterium.after}}"
                                 }
                             },
                             "ID": "reaction_4"
@@ -138,17 +138,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.itHowlsInTheRain.before}}"
+                                    "Text": "{{i18n:movie.zayden.itHowlsInTheRain.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie.raven.itHowlsInTheRain.during}}\"",
+                                    "Script": "/shake {{Raven}} 3000/pause 500/message \"{{i18n:movie.zayden.itHowlsInTheRain.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.itHowlsInTheRain.after}}"
+                                    "Text": "{{i18n:movie.zayden.itHowlsInTheRain.after}}"
                                 }
                             },
                             "ID": "reaction_5"
@@ -156,23 +156,23 @@
 //Miracle at Coldstar Ranch (Family / Classic)
                         {
                             "Tag": "winter_movie_0",
-                            "Response": "dislike",
+                            "Response": "like",
                             "Whitelist": [],
                             "SpecialResponses": {
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.miracleOfTheWinterStar.before}}"
+                                    "Text": "{{i18n:movie.zayden.miracleOfTheWinterStar.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{Raven}} 28/message \"{{i18n:movie.raven.miracleOfTheWinterStar.during}}\"",
+                                    "Script": "/emote {{Raven}} 28/message \"{{i18n:movie.zayden.miracleOfTheWinterStar.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.miracleOfTheWinterStar.after}}"
+                                    "Text": "{{i18n:movie.zayden.miracleOfTheWinterStar.after}}"
                                 }
                             },
                             "ID": "reaction_6"
@@ -180,23 +180,23 @@
 //The Zuzu City Express - (The Zuzu City Express - Classic / Romance)
                         {
                             "Tag": "winter_movie_1",
-                            "Response": "like",
+                            "Response": "dislike",
                             "Whitelist": [],
                             "SpecialResponses": {
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.theZuzuCityExpress.before}}"
+                                    "Text": "{{i18n:movie.zayden.theZuzuCityExpress.before}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.raven.theZuzuCityExpress.during}}\"",
+                                    "Script": "/emote {{Raven}} 20/pause 500/message \"{{i18n:movie.zayden.theZuzuCityExpress.during}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movie.raven.theZuzuCityExpress.after}}"
+                                    "Text": "{{i18n:movie.zayden.theZuzuCityExpress.after}}"
                                 }
                             },
                             "ID": "reaction_7"
