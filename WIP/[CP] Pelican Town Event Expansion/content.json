@@ -16,26 +16,26 @@
             "Entries": {
                 "{{ModId}}_HelpOut/SawEvent 4/Weather rainy/Time 1400 2600": "jaunty/36 7/farmer -1000 -1000 2 Caroline 37 5 0 Pierre 39 8 1 Abigail 24 14 1/skippable/pause 2000/
                 --Start/
-                speak Caroline \"I'm thinking of making some stew tonight. What do you think honey?\"/pause 500/
-                speak Pierre \"Sure, whatever you'd like. You're fantastic at making stew.$1\"/pause 500/
-                speak Caroline \"...$2#$b#Hm... I could use a bit of help making dinner tonight.\"/pause 500/
-                speak Pierre \"It'll be the perfect time for you and Abigail to bond with each other. Let me call her over here.\"/pause 500/move Pierre 0 1 3/move Pierre -2 0 3/
-                speak Pierre \"Abigail, come help your mother with making dinner, please!\"/move Abigail 6 0 0/move Abigail 0 -1 1/move Abigail 1 0 0/move Abigail 0 -5 1/
-                speak Caroline \"...$3\"/pause 500/faceDirection Caroline 2/emote Caroline 12/jump Caroline 8/pause 500/shake Caroline 1000/pause 1500/
-                speak Caroline \"I was hoping you'd be the one to help me out tonight, Pierre.$3\"/pause 500/faceDirection Pierre 0/pause 500/
-                speak Pierre \"Woah, take it easy sweetie. There's no need to go jumping around.$4#$b#I can help make dinner, it's not a big deal.$2\"/pause 500/
-                speak Abigail \"You know, I can come back later-$2\"/pause 500/
-                speak Caroline \"I just wish you'd help me out more on your own for once instead of me needing to ask you directly.$3#$b#You always push helping with dinner on to Abigail, but I want to spend some time with you too, Pierre.$2\"/pause 500/
-                speak Abigail \"I'm just gonna head out...$2\"/pause 500/move Abigail 0 5 3/move Abigail -1 0 2/move Abigail 0 1 3/move Abigail -6 0 2/
-                speak Pierre \"Look, I'm sorry, I didn't know you felt that way about me helping out.$2\"/pause 500/
-                speak Caroline \"I really don't think I should have to ask.$3\"/pause 500/
-                speak Pierre \"... You're right, I'm sorry Caroline. I hate seeing you upset like this.$2\"/pause 500/
-                speak Caroline \"... I'm sorry for being so harsh. I just would like it if you would try to help out more and spend some more time with me.$2#$b#After all, you spend so much time focusing on the shop. I want my husband to still be there for me.\"/pause 500/
-                speak Pierre \"It's no problem, we can spend more time together. I promise I'll do better.\"/pause 500/
-                speak Caroline \"*mutters* Like I haven't heard that before.$2\"/pause 500/move Pierre 1 0 0/move Pierre 0 -4 3/
-                speak Pierre \"Come on, let's go ahead and start making dinner together. I'll work on rinsing the vegetables.\"/pause 500/
-                speak Caroline \"...$2#$b#... Thanks honey, I appreciate it.\"/pause 500/faceDirection Pierre 0 true/faceDirection Caroline 0/emote Pierre 28 true/emote Caroline 32/pause 500/
-                --End with dialogue/end dialogue Abigail \"My parents are arguing again. It's awkward being in the same room as them when it happens.$2\" dialogue Pierre \"I spend plenty of time with her. I don't see why she's being so defensive.$2#$b#Oh, sorry, I didn't mean to say that out loud.$4\" dialogue Caroline \"I wish he would be more understanding of my needs sometimes...$2#$b#Oh, sorry. I got lost in thought for a moment there.\""
+                speak Caroline \"{{i18n:event1.001}}\"/pause 500/
+                speak Pierre \"{{i18n:event1.002}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.003}}\"/pause 500/
+                speak Pierre \"{{i18n:event1.004}}\"/pause 500/move Pierre 0 1 3/move Pierre -2 0 3/
+                speak Pierre \"{{i18n:event1.005}}\"/move Abigail 6 0 0/move Abigail 0 -1 1/move Abigail 1 0 0/move Abigail 0 -5 1/
+                speak Caroline \"{{i18n:event1.006}}\"/pause 500/faceDirection Caroline 2/emote Caroline 12/jump Caroline 8/pause 500/shake Caroline 1000/pause 1500/
+                speak Caroline \"{{i18n:event1.007}}\"/pause 500/faceDirection Pierre 0/pause 500/
+                speak Pierre \"{{i18n:event1.008}}\"/pause 500/
+                speak Abigail \"{{i18n:event1.009}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.010}}\"/pause 500/
+                speak Abigail \"{{i18n:event1.011}}\"/pause 500/move Abigail 0 5 3/move Abigail -1 0 2/move Abigail 0 1 3/move Abigail -6 0 2/
+                speak Pierre \"{{i18n:event1.012}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.013}}\"/pause 500/
+                speak Pierre \"{{i18n:event1.014}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.015}}\"/pause 500/
+                speak Pierre \"{{i18n:event1.016}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.017}}\"/pause 500/move Pierre 1 0 0/move Pierre 0 -4 3/
+                speak Pierre \"{{i18n:event1.018}}\"/pause 500/
+                speak Caroline \"{{i18n:event1.019}}\"/pause 500/faceDirection Pierre 0 true/faceDirection Caroline 0/emote Pierre 28 true/emote Caroline 32/pause 500/
+                --End with dialogue/end dialogue Abigail \"{{i18n:event1.020}}\" dialogue Pierre \"{{i18n:event1.021}}\" dialogue Caroline \"{{i18n:event1.022}}\""
             }
         },
         //Brother Banter: patch reload L0veRaven.PTEE
@@ -47,24 +47,24 @@
             "Entries": {
                 "{{ModId}}_BrotherBanter/Weather rainy/Friendship Vincent 500": "jaunty/18 15/farmer -1000 -1000 2 Vincent 12 15 0 Sam 21 13 2/skippable/pause 2000/
                 --Start/
-                speak Vincent \"Sam!\"/pause 500/
-                speak Vincent \"Saaam...\"/pause 1500/
-                speak Sam \"...$2\"/pause 1500/
-                speak Vincent \"Saaaaaaam...\"/pause 1500/
-                speak Sam \"...$5\"/pause 1500/
-                speak Vincent \"Saaaaaaaaaaaam!$1\"/pause 500/move Sam -9 0 2/move Sam 0 1 2/pause 500/doAction 12 14/pause 500/
-                speak Sam \"What do you want Vincent? I was sleeping still.$2\"/pause 500/
-                speak Vincent \"I wanted to play with you.$1#$b#It's also after noon, so you should be wide awake now, right?\"/pause 500/
-                speak Sam \"Well... I technically was already awake...$2#$b#What did you wanna play?\"/pause 500/
-                speak Vincent \"I wanna color with you!$1\"/pause 500/
-                speak Sam \"... Does coloring count as playing?$2\"/pause 500/
-                speak Vincent \"So did you wanna color with me?\"/pause 500/
-                speak Sam \"Why not? Give me time to eat breakfast first, though. I just got up.\"/pause 500/jump Vincent 8/pause 300/
-                speak Vincent \"Yay, I get to play with you!\"/pause 500/move Vincent -5 0 0/move Vincent 0 -9 1/move Vincent 1 0 3/
-                speak Sam \"I guess I have to get up now, don't I?$2#$b#Oh well, I needed to get up anyways.$1\"/pause 500/faceDirection Sam 1/pause 500/
-                speak Sam \"I hope he has some good coloring pages to choose from.\"/pause 500/
-                speak Vincent \"Come on Sam!$1\"/pause 500/faceDirection Sam 2/pause 500/
-                speak Sam \"I'm coming, hold your horses!$1\"/pause 500/
+                speak Vincent \"{{i18n:event2.001}}\"/pause 500/
+                speak Vincent \"{{i18n:event2.002}}\"/pause 1500/
+                speak Sam \"{{i18n:event2.003}}\"/pause 1500/
+                speak Vincent \"{{i18n:event2.004}}\"/pause 1500/
+                speak Sam \"{{i18n:event2.005}}\"/pause 1500/
+                speak Vincent \"{{i18n:event2.006}}\"/pause 500/move Sam -9 0 2/move Sam 0 1 2/pause 500/doAction 12 14/pause 500/
+                speak Sam \"{{i18n:event2.007}}\"/pause 500/
+                speak Vincent \"{{i18n:event2.008}}\"/pause 500/
+                speak Sam \"{{i18n:event2.009}}\"/pause 500/
+                speak Vincent \"{{i18n:event2.010}}\"/pause 500/
+                speak Sam \"{{i18n:event2.011}}\"/pause 500/
+                speak Vincent \"{{i18n:event2.012}}\"/pause 500/
+                speak Sam \"{{i18n:event2.013}}\"/pause 500/jump Vincent 8/pause 300/
+                speak Vincent \"{{i18n:event2.014}}\"/pause 500/move Vincent -5 0 0/move Vincent 0 -9 1/move Vincent 1 0 3/
+                speak Sam \"{{i18n:event2.015}}\"/pause 500/faceDirection Sam 1/pause 500/
+                speak Sam \"{{i18n:event2.016}}\"/pause 500/
+                speak Vincent \"{{i18n:event2.017}}\"/pause 500/faceDirection Sam 2/pause 500/
+                speak Sam \"{{i18n:event2.018}}\"/pause 500/
                 end"
             }
         },
@@ -77,19 +77,19 @@
             "Entries": {
                 "{{ModId}}_Innocence/Weather sunny/Friendship Jas 500": "jaunty/39 11/farmer -1000 -1000 2 Vincent 41 11 2 Jas 38 11 2/skippable/showFrame Jas 22/showFrame Vincent 24/pause 3000/
                 --Start/
-                speak Vincent \"So Jas, why do you like reading chapter books?$3\"/pause 500/
-                speak Jas \"I like chapter books because there's more of a story to read!$1#$b#How come you like reading comic books?$3\"/pause 500/
-                speak Vincent \"I like comic books because the pictures make it easier for me to see what I'm reading.$1#$b#Miss Penny wants me to try reading more chapter books. They're so hard for me to read!$3\"/pause 500/faceDirection Jas 1/pause 500/
-                speak Jas \"What about chapter books is hard? I might be able to help.$4\"/pause 500/faceDirection Vincent 3/pause 500/
-                speak Vincent \"There are so many words, it makes my head hurt and the words are harder to read.$2#$b#It's also really hard to imagine what I'm reading.$3\"/pause 500/
-                speak Jas \"How is Miss Penny helping you with reading?\"/pause 500/
-                speak Vincent \"She wants me to read more books. She says that'll make reading easier, but it's so hard!$2\"/pause 500/
-                speak Jas \"What if I helped you with reading some chapter books that I have? I've read them a lot of times, so I think I can help really good.$1\"/pause 500/
-                speak Vincent \"... I guess it depends on what the books are about.\"/pause 500/
-                speak Jas \"The book I'm reading right now is from a series called The Treehouse of Magic. It's about kids that go on crazy adventures!$1#$b#One time, they went to see actual dinosaurs!\"/pause 500/jump Vincent 8/pause 500/
-                speak Vincent \"Dinosaurs? That sounds like a great book! I think I'll try it.\"/pause 500/
-                speak Jas \"Let's go to my house and I can let you choose which books you want to borrow. They're still my books, though.$4\"/pause 500/
-                speak Vincent \"Okay! That sounds like fun!$1\"/pause 500/emote Vincent 32 true/emote Jas 32/pause 500/
+                speak Vincent \"{{i18n:event3.001}}\"/pause 500/
+                speak Jas \"{{i18n:event3.002}}\"/pause 500/
+                speak Vincent \"{{i18n:event3.003}}\"/pause 500/faceDirection Jas 1/pause 500/
+                speak Jas \"{{i18n:event3.004}}\"/pause 500/faceDirection Vincent 3/pause 500/
+                speak Vincent \"{{i18n:event3.005}}\"/pause 500/
+                speak Jas \"{{i18n:event3.006}}\"/pause 500/
+                speak Vincent \"{{i18n:event3.007}}\"/pause 500/
+                speak Jas \"{{i18n:event3.008}}\"/pause 500/
+                speak Vincent \"{{i18n:event3.009}}\"/pause 500/
+                speak Jas \"{{i18n:event3.010}}\"/pause 500/jump Vincent 8/pause 500/
+                speak Vincent \"{{i18n:event3.011}}\"/pause 500/
+                speak Jas \"{{i18n:event3.012}}\"/pause 500/
+                speak Vincent \"{{i18n:event3.013}}\"/pause 500/emote Vincent 32 true/emote Jas 32/pause 500/
                 end"
             }
         },
@@ -102,22 +102,47 @@
         //Letter Draft: patch reload L0veRaven.PTEE
         //Letter Draft: debug ebi L0veRaven.PTEE_LetterDraft
         {
-            "LogName": "Letter Draft - Clint",
+            "LogName": "Letter Draft - Clint (Vanilla)",
             "Action": "EditData",
             "Target": "Data/Events/Blacksmith",
             "Entries": {
                 "{{ModId}}_LetterDraft/Friendship Clint 500": "jaunty/4 6/farmer -1000 -1000 2 Clint 2 6 3/skippable/pause 1500/
                 --Start/
                 emote Clint 28 true/shake Clint 1500/pause 2000/
-                speak Clint \"Keep it together. It's just a letter...$4#$b#But it's so hard to come up with the words.$2\"/pause 500/faceDirection Clint 2/pause 500/emote Clint 12/pause 300/
-                speak Clint \"I can't just say 'I love you' right away. Th-that's so bold. I don't think I could do that.$4\"/pause 500/faceDirection Clint 3/pause 500/emote Clint 40/pause 300/
-                speak Clint \"People always say to speak from the heart so... Maybe that'll work.\"/pause 500/emote Clint 40/pause 500/
-                speak Clint \"Dear Emily...#$b#Wait, am I coming on too strong?$4\"/pause 500/
-                speak Clint \"To Emily... That sounds better.\"/pause 500/shake Clint 1500/pause 500/
-                speak Clint \"But what if that's too informal?$2\"/
-                speak Clint \"Who am I kidding, there's no way she likes me back.$2#$b#I doubt a love letter would change the way she feels about me, either.$2\"/pause 500/move Clint 4 0 0/move Clint 0 -1 1/move Clint 2 0 0/move Clint 0 -1 1/move Clint 1 0 2/pause 500/
-                speak Clint \"I wonder if I'll ever get the courage to tell her how I feel about her...$2\"/pause 500/emote Clint 28/pause 500/
+                speak Clint \"{{i18n:event4.001}}\"/pause 500/faceDirection Clint 2/pause 500/emote Clint 12/pause 300/
+                speak Clint \"{{i18n:event4.002}}\"/pause 500/faceDirection Clint 3/pause 500/emote Clint 40/pause 300/
+                speak Clint \"{{i18n:event4.003}}\"/pause 500/emote Clint 40/pause 500/
+                speak Clint \"{{i18n:event4.004}}\"/pause 500/
+                speak Clint \"{{i18n:event4.005}}\"/pause 500/shake Clint 1500/pause 500/
+                speak Clint \"{{i18n:event4.006}}\"/
+                speak Clint \"{{i18n:event4.007}}\"/pause 500/move Clint 4 0 0/move Clint 0 -1 1/move Clint 2 0 0/move Clint 0 -1 1/move Clint 1 0 2/pause 500/
+                speak Clint \"{{i18n:event4.008}}\"/pause 500/emote Clint 28/pause 500/
                 end"
+            },
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Letter Draft - Clint (SVE)",
+            "Action": "EditData",
+            "Target": "Data/Events/Blacksmith",
+            "Entries": {
+                "{{ModId}}_LetterDraft/Friendship Clint 500": "jaunty/4 6/farmer -1000 -1000 2 Clint 11 6 0/skippable/pause 1500/
+                --Start/
+                emote Clint 28 true/shake Clint 1500/pause 2000/
+                speak Clint \"{{i18n:event4.001}}\"/pause 500/faceDirection Clint 2/pause 500/emote Clint 12/pause 300/
+                speak Clint \"{{i18n:event4.002}}\"/pause 500/faceDirection Clint 0/pause 500/emote Clint 40/pause 300/
+                speak Clint \"{{i18n:event4.003}}\"/pause 500/emote Clint 40/pause 500/
+                speak Clint \"{{i18n:event4.004}}\"/pause 500/
+                speak Clint \"{{i18n:event4.005}}\"/pause 500/shake Clint 1500/pause 500/
+                speak Clint \"{{i18n:event4.006}}\"/
+                speak Clint \"{{i18n:event4.007}}\"/pause 500/move Clint -3 0 0/move Clint 0 -1 1/move Clint 1 0 0/pause 500/
+                speak Clint \"{{i18n:event4.008}}\"/pause 500/emote Clint 28/pause 500/
+                end"
+            },
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
         //Advice: patch reload L0veRaven.PTEE
@@ -129,27 +154,26 @@
             "Entries": {
                 "{{ModId}}_Advice/Friendship Penny 1000 Shane 1000/Weather sunny/SawEvent 3910674/DayOfWeek Sunday": "jaunty/72 70/farmer -1000 -1000 2 Pam 73 69 2 Shane 71 69 2 Penny -999 -1000 2/skippable/pause 5000/
                 --Start/
-                speak Pam \"You should've seen Penny when she was a kid. She was a lot like what I see from Jas, but more shy.$1\"/pause 500/
-                speak Shane \"I'm not too surprised. Penny keeps to herself a lot when she's not helping with Jas and Vincent.\"/pause 500/faceDirection Shane 1/pause 500/
-                speak Shane \"I've been wondering... What was it like raising Penny by yourself?\"/pause 500/
-                speak Pam \"... Why do you ask?$2\"/pause 500/faceDirection Shane 2/pause 500/showFrame Shane 19/pause 500/
-                speak Shane \"It's just... We have a similar... problem.$2\"/pause 500/
-                speak Pam \"... You're not wrong. We do share the same problem.$2#$b#The only difference is that you started yours at a younger age than myself.$2\"/pause 500/
-                speak Shane \"See, you get what I mean.#$b#For me, it's definitely gotten really bad... And I'm pretty sure it's hurting Jas.$2\"/pause 500/
-                speak Pam \"... I see...$2#$b#I'm just a big screw-up of a mother, so I don't think I have any advice that's worth listening to.$2\"/pause 500/showFrame Shane 0/pause 500/
-                speak Shane \"Well... What would you have done differently if you had the chance?\"/pause 500/
-                speak Pam \"...$2#$b#I would try to ease up on my drinking.#$b#That's easier said than done, though. I've tried quitting a handful of times, but I always went back to the booze.$2\"/pause 500/faceDirection Pam 2/pause 500/
-                speak Pam \"I think you still have a chance to make a change for the better, though. You have nothing but time.#$b#My Penny is all grown up, it's impossible for me to make up for all I've done.$2\"/pause 500/
-                speak Shane \"I don't think that's true. Penny still lives with you.#$b#Maybe if you keep trying... She might be able to forgive you?$2\"/pause 500/faceDirection Pam 3/pause 500/
-                speak Pam \"You kids are so optimistic compared to me.#$b#It's just so intimidating to try again after all the times I've failed.$2\"/pause 500/faceDirection Shane 1/pause 500/
-                speak Shane \"If you have hope for me, then I can have hope for you, too.$6\"/pause 1000/
-                speak Pam \"... Thanks for believing in me, kid.\"/pause 1000/
-                warp Penny 72 69/pause 1000/faceDirection Penny 1/pause 300/faceDirection Penny 3/pause 500/
-                speak Penny \"Oh, good morning Shane.\"/pause 500/
-                speak Shane \"Good morning, Penny.\"/pause 500/
-                speak Pam \"Take care out there, kiddo.\"/pause 500/faceDirection Penny 1/pause 500/
-                speak Penny \"Thanks, I love you Mom.$1\"/pause 500/
-                speak Pam \"I love you too, kid.\"/pause 500/faceDirection Shane 2 true/faceDirection Pam 2 true/move Penny 0 2 3/move Penny -5 0 3/faceDirection Shane 3 true/faceDirection Pam 3 true/move Penny -5 0 3/
+                speak Pam \"{{i18n:event5.001}}\"/pause 500/
+                speak Shane \"{{i18n:event5.002}}\"/pause 500/faceDirection Shane 1/pause 500/
+                speak Shane \"{{i18n:event5.003}}\"/pause 500/
+                speak Pam \"{{i18n:event5.004}}\"/pause 500/faceDirection Shane 2/pause 500/showFrame Shane 19/pause 500/
+                speak Shane \"{{i18n:event5.005}}\"/pause 500/
+                speak Pam \"{{i18n:event5.006}}\"/pause 500/
+                speak Shane \"{{i18n:event5.007}}\"/pause 500/
+                speak Pam \"{{i18n:event5.008}}\"/pause 500/showFrame Shane 0/pause 500/
+                speak Shane \"{{i18n:event5.009}}\"/pause 500/
+                speak Pam \"{{i18n:event5.010}}\"/pause 500/faceDirection Pam 2/pause 500/
+                speak Pam \"{{i18n:event5.011}}\"/pause 500/
+                speak Shane \"{{i18n:event5.012}}\"/pause 500/faceDirection Pam 3/pause 500/
+                speak Pam \"{{i18n:event5.013}}\"/pause 500/faceDirection Shane 1/pause 500/
+                speak Shane \"{{i18n:event5.014}}\"/pause 1000/
+                speak Pam \"{{i18n:event5.015}}\"/pause 1000/warp Penny 72 69/pause 1000/faceDirection Penny 1/pause 300/faceDirection Penny 3/pause 500/
+                speak Penny \"{{i18n:event5.016}}\"/pause 500/
+                speak Shane \"{{i18n:event5.017}}\"/pause 500/
+                speak Pam \"{{i18n:event5.018}}\"/pause 500/faceDirection Penny 1/pause 500/
+                speak Penny \"{{i18n:event5.019}}\"/pause 500/
+                speak Pam \"{{i18n:event5.020}}\"/pause 500/faceDirection Shane 2 true/faceDirection Pam 2 true/move Penny 0 2 3/move Penny -5 0 3/faceDirection Shane 3 true/faceDirection Pam 3 true/move Penny -5 0 3/
                 end"
             }
         },
@@ -160,14 +184,14 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Memories/Friendship Jas 750/Weather sunny/DayOfWeek Sunday": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
+                "{{ModId}}_Memories/Friendship Jas 1750/Weather sunny/DayOfWeek Sunday": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
                 --Start/move Jas 0 -5 0/pause 1500/faceDirection Jas 1/pause 500/faceDirection Jas 3/pause 500/emote Jas 40 true/faceDirection Jas 2/pause 1500/
-                speak Jas \"...$3#$b#I wish my parents could've been put here...$2\"/pause 500/shake Jas 1000/pause 1500/
-                speak Jas \"I miss them... I miss them so much...$2\"/pause 500/move Jas -2 0 3/pause 500/
-                speak Jas \"When I get older, I'm going to visit your graves...$2\"/pause 500/move Jas 4 0 1/pause 500/
-                speak Jas \"And I'll bring Uncle Shane with me. That way we can visit and say hi.$2\"/pause 500/move Jas -2 0 2/pause 500/
-                speak Jas \"Mommy... Daddy...$2\"/pause 500/shake Jas 1000/pause 1500/
-                speak Jas \"I hope you're having a good time in heaven... But why did you leave me behind?$2\"/pause 500/shake Jas 1000/pause 1500/emote Jas 40/pause 1000/move Jas 0 5 2/
+                speak Jas \"{{i18n:event6.001}}\"/pause 500/shake Jas 1000/pause 1500/
+                speak Jas \"{{i18n:event6.002}}\"/pause 500/move Jas -2 0 3/pause 500/
+                speak Jas \"{{i18n:event6.003}}\"/pause 500/move Jas 4 0 1/pause 500/
+                speak Jas \"{{i18n:event6.004}}\"/pause 500/move Jas -2 0 2/pause 500/
+                speak Jas \"{{i18n:event6.005}}\"/pause 500/shake Jas 1000/pause 1500/
+                speak Jas \"{{i18n:event6.006}}\"/pause 500/shake Jas 1000/pause 1500/emote Jas 40/pause 1000/move Jas 0 5 2/
                 end"
             }
         },
@@ -178,41 +202,41 @@
             "Action": "EditData",
             "Target": "Data/Events/Beach",
             "Entries": {
-                "{{ModId}}_Bonds/Friendship Penny 1750 Sam 1750/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600/": "jaunty/11 14/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
+                "{{ModId}}_Bonds/Friendship Penny 1750 Sam 1750/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600/": "jaunty/11 13/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
                 --Start/
                 move Sam -4 0 3/pause 500/
-                speak Penny \"I hope I don't get too much sand in my shoes.$3#$b#I'd hate to track it inside the house.$2\"/pause 500/emote Penny 40/pause 500/jump Sam 4/pause 500/faceDirection Penny 1/pause 500/jump Penny 4/pause 500/
-                speak Penny \"Oh, Sam, good afternoon!\"/pause 500/
-                speak Sam \"Hey, what's up Penny? How's your mom doing?\"/pause 500/
-                speak Penny \"I'm doing well today.#$b#My mother is... her usual self.$3\"/faceDirection Penny 3 true/move Sam 0 -2 3/move Sam -2 0 3/pause 1500/
-                speak Penny \"What brings you to the beach today?\"/pause 1500/
-                speak Sam \"Sometimes, you just need to listen to the ocean to get your mind off of things.$1\"/pause 3000/
-                speak Sam \"You know, I've been worried about Vincent lately.$2\"/pause 500/faceDirection Penny 0/pause 500/
-                speak Penny \"Worried? What for?\"/pause 1500/
-                speak Sam \"It's just that he's having a hard time with how our dad has been gone for so long.$2#$b#He's just a kid. He shouldn't have to worry about his parent fighting in a war.$2\"/pause 1000/faceDirection Penny 3/pause 500/
-                speak Penny \"I can see how that would effect your mood.$2#$b#Has he been saying or doing anything concerning?$3\"/pause 500/
-                speak Sam \"Well, he's been asking more often about when Dad's coming home.$2#$b#The problem is, we don't know when he can come back home yet.$7\"/pause 500/
+                speak Penny \"{{i18n:event7.001}}\"/pause 500/emote Penny 40/pause 500/jump Sam 4/pause 500/faceDirection Penny 1/pause 500/jump Penny 4/pause 500/
+                speak Penny \"{{i18n:event7.002}}\"/pause 500/
+                speak Sam \"{{i18n:event7.003}}\"/pause 500/
+                speak Penny \"{{i18n:event7.004}}\"/faceDirection Penny 3 true/move Sam 0 -2 3/move Sam -2 0 3/pause 1500/
+                speak Penny \"{{i18n:event7.005}}\"/pause 1500/
+                speak Sam \"{{i18n:event7.006}}\"/pause 3000/
+                speak Sam \"{{i18n:event7.007}}\"/pause 500/faceDirection Penny 0/pause 500/
+                speak Penny \"{{i18n:event7.008}}\"/pause 1500/
+                speak Sam \"{{i18n:event7.009}}\"/pause 1000/faceDirection Penny 3/pause 500/
+                speak Penny \"{{i18n:event7.010}}\"/pause 500/
+                speak Sam \"{{i18n:event7.011}}\"/pause 500/
                 emote Sam 40/pause 1500/
-                speak Sam \"Then there's the possibility that he could di-$2\"/
-                speak Penny \"Don't talk like that. I'm sure your father will be alive and well.$5#$b#You need to have more hope in your heart.$3\"/pause 500/emote Sam 28/pause 1000/
-                speak Sam \"... I guess you're right.$8#$b#It's just hard being optimistic when he's been gone for so long.$2\"/pause 1500/
-                speak Penny \"... I understand.$2#$b#Your family's situation must be really hard for a child his age to try to process.$2\"/pause 2000/
-                speak Penny \"Does he have anyone else to talk about this with?\"/pause 500/
-                speak Sam \"We're supposed to be going out of town to visit our grandma this weekend.#$b#She also was the kid of a soldier when she was Vincent's age.\"/pause 1500/
-                speak Sam \"Maybe she can tell him some stories or give some advice that could help him out.\"/pause 2000/
-                speak Penny \"How much does your family tell Vincent about what's happening with your father?$3\"/pause 1000/
-                speak Sam \"We tell him that our dad is a soldier fighting for the country, kinda like a superhero.#$b#If Dad gets an injury, we tell him about it, but we always tell him he's gonna get better soon.#$b#We don't want him worrying too much.$2\"/pause 2000/
-                speak Penny \"... I wonder if lying is really the best way to tell him things.$2\"/pause 500/faceDirection Sam 2 true/jump Sam 8/pause 500/
-                speak Sam \"Is it lying? I thought it was more just twisting the truth. It spares his feelings, you know?$8\"/pause 500/faceDirection Penny 0/pause 500/
-                speak Penny \"I feel like that's the same thing...$3#$b#But I'm not here to split hairs.\"/pause 500/
-                speak Sam \"Even if it was lying... would it be so bad if everything ends up okay in the end?\"/pause 2000/
-                speak Penny \"I think that's something you need to figure out on your own.\"/pause 1000/faceDirection Penny 3/pause 1000/
-                speak Penny \"It must be hard to be Vincent.\"/pause 1000/faceDirection Sam 3/pause 1000/
-                speak Sam \"Your dad has been out of the picture for a long time... Do you think that's similar?$2\"/pause 1000/
-                speak Penny \"... Maybe? I don't think it's comparable at least.$3#$b#My father never intended on coming back home...$2#$b#Your father wants to come home, though. I know it.\"/pause 2000/
-                speak Sam \"I believe he wants to come home, too.#$b#I just hope he comes home sooner rather than later. I don't want Vincent asking difficult questions.$2\"/pause 2000/
-                speak Penny \"I'm sure Vincent will be just fine. Just keep an eye on him.$1\"/pause 2000/
-                speak Sam \"Thanks for being a great friend, Penny.$1\"/pause 500/
+                speak Sam \"{{i18n:event7.012}}\"/
+                speak Penny \"{{i18n:event7.013}}\"/pause 500/emote Sam 28/pause 1000/
+                speak Sam \"{{i18n:event7.014}}\"/pause 1500/
+                speak Penny \"{{i18n:event7.015}}\"/pause 2000/
+                speak Penny \"{{i18n:event7.016}}\"/pause 500/
+                speak Sam \"{{i18n:event7.017}}\"/pause 1500/
+                speak Sam \"{{i18n:event7.018}}\"/pause 2000/
+                speak Penny \"{{i18n:event7.019}}\"/pause 1000/
+                speak Sam \"{{i18n:event7.020}}\"/pause 2000/
+                speak Penny \"{{i18n:event7.021}}\"/pause 500/faceDirection Sam 2 true/jump Sam 8/pause 500/
+                speak Sam \"{{i18n:event7.022}}\"/pause 500/faceDirection Penny 0/pause 500/
+                speak Penny \"{{i18n:event7.023}}\"/pause 500/
+                speak Sam \"{{i18n:event7.024}}\"/pause 2000/
+                speak Penny \"{{i18n:event7.025}}\"/pause 1000/faceDirection Penny 3/pause 1000/
+                speak Penny \"{{i18n:event7.026}}\"/pause 1000/faceDirection Sam 3/pause 1000/
+                speak Sam \"{{i18n:event7.027}}\"/pause 1000/
+                speak Penny \"{{i18n:event7.028}}\"/pause 2000/
+                speak Sam \"{{i18n:event7.029}}\"/pause 2000/
+                speak Penny \"{{i18n:event7.030}}\"/pause 2000/
+                speak Sam \"{{i18n:event7.031}}\"/pause 500/
                 end"
             }
         },
