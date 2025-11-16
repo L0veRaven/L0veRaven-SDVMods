@@ -96,6 +96,7 @@
         {
             "LogName": "Blank Load for Blacksmith Event Location",
             "Action": "Load",
+            "Priority": "Low",//line added in 1.0.1
             "Target": "Data/Events/Blacksmith",
             "FromFile": "blank.json"
         },
@@ -179,12 +180,13 @@
         },
         //Memories: patch reload L0veRaven.PTEE
         //Memories: debug ebi L0veRaven.PTEE_Memories
+        //1.0.1 update: reduced friendship point requirement
         {
             "LogName": "Memories - Jas",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Memories/Friendship Jas 1750/Weather sunny/DayOfWeek Sunday": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
+                "{{ModId}}_Memories/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
                 --Start/move Jas 0 -5 0/pause 1500/faceDirection Jas 1/pause 500/faceDirection Jas 3/pause 500/emote Jas 40 true/faceDirection Jas 2/pause 1500/
                 speak Jas \"{{i18n:event6.001}}\"/pause 500/shake Jas 1000/pause 1500/
                 speak Jas \"{{i18n:event6.002}}\"/pause 500/move Jas -2 0 3/pause 500/
@@ -197,12 +199,13 @@
         },
         //Bonds: patch reload L0veRaven.PTEE
         //Bonds: debug ebi L0veRaven.PTEE_Bonds
+        //1.0.1 update: reduced friendship point requirement
         {
             "LogName": "Bonds - Sam, Penny",
             "Action": "EditData",
             "Target": "Data/Events/Beach",
             "Entries": {
-                "{{ModId}}_Bonds/Friendship Penny 1750 Sam 1750/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600/": "jaunty/11 13/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
+                "{{ModId}}_Bonds/Friendship Penny 1000 Sam 1000/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600": "jaunty/11 13/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
                 --Start/
                 move Sam -4 0 3/pause 500/
                 speak Penny \"{{i18n:event7.001}}\"/pause 500/emote Penny 40/pause 500/jump Sam 4/pause 500/faceDirection Penny 1/pause 500/jump Penny 4/pause 500/
@@ -239,6 +242,66 @@
                 speak Sam \"{{i18n:event7.031}}\"/pause 500/
                 end"
             }
-        }
+        },
+        //1.0.1 Events
+        //Mourning: patch reload L0veRaven.PTEE
+        //Mourning: debug ebi L0veRaven.PTEE_Mourning
+        {
+            "LogName": "Mourning - Jas, Farmer",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_Mourning/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday": "jaunty/47 89/farmer 47 92 0 Jas 45 88 2/skippable/animate Jas false true 100 16 17 18 19/pause 3000/
+                --Start/emote farmer 8/pause 500/move farmer 0 -4 3/pause 500/
+                speak Jas \"{{i18n:event8.001}}\"/pause 500/stopAnimation Jas 0/faceDirection Jas 1/pause 500/
+                speak Jas \"{{i18n:event8.002}}\"/pause 500/emote farmer 8/pause 500/
+                speak Jas \"{{i18n:event8.003}}\"/pause 500/shake Jas 1500/emote farmer 28/pause 1000/
+                speak Jas \"{{i18n:event8.004}}\"/pause 500/shake Jas 500/pause 150/shake Jas 500/emote farmer 28/pause 1000/
+                speak Jas \"{{i18n:event8.005}}\"/pause 500/faceDirection Jas 2/pause 500/
+                speak Jas \"{{i18n:event8.006}}\"/pause 500/shake Jas 1500/pause 2000/
+                speak Jas \"{{i18n:event8.007}}\"/pause 500/faceDirection Jas 1/pause 1000/
+                quickQuestion {{i18n:event8.008}}#{{i18n:event8.009}}#{{i18n:event8.010}}#{{i18n:event8.011}}(break)friendship Jas 50\\pause 500\\speak Jas \"{{i18n:event8.012}}\"\\pause 500(break)friendship Jas 15\\pause 500\\speak Jas \"{{i18n:event8.013}}\"\\pause 500(break)friendship Jas -50\\pause 500\\speak Jas \"{{i18n:event8.014}}\"\\pause 500/
+                speak Jas \"{{i18n:event8.015}}\"/pause 500/
+                message \"{{i18n:event8.016}}\"/pause 500/
+                speak Jas \"{{i18n:event8.017}}\"/pause 500/faceDirection Jas 3/pause 500/
+                speak Jas \"{{i18n:event8.018}}\"/pause 500/faceDirection Jas 1/pause 500/
+                speak Jas \"{{i18n:event8.019}}\"/pause 500/emote farmer 32/pause 500/
+                speak Jas \"{{i18n:event8.020}}\"/faceDirection Jas 2/pause 500/animate Jas false true 100 16 17 18 19/pause 500/move farmer 0 5 2/
+                end"
+            }
+        },
+        //1.0.2 Events
+        //ReadingOutLoud: patch reload L0veRaven.PTEE
+        //ReadingOutLoud: debug ebi L0veRaven.PTEE_ReadingOutLoud
+        {
+            "LogName": "ReadingOutLoud - Jas, Farmer",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_ReadingOutLoud/Weather sunny/Friendship Jas 750 Vincent 250/DayOfWeek Thursday Friday": "jaunty/47 89/farmer -1000 -1000 2 Jas 45 88 2 Vincent 53 95 3/skippable/showFrame Jas 22/pause 2000/
+                --Start/move Vincent -6 0 0/pause 500/emote Vincent 8/pause 1000/move Vincent 0 -7 3/pause 500/
+                speak Jas \"{{i18n:event9.001}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.002}}\"/pause 500/
+                speak Jas \"{{i18n:event9.003}}\"/pause 500/faceDirection Vincent 0/pause 500/faceDirection Vincent 1/pause 500/faceDirection Vincent 2/pause 500/faceDirection Vincent 3/pause 500/
+                speak Vincent \"{{i18n:event9.004}}\"/pause 500/faceDirection Jas 1/pause 500/
+                speak Jas \"{{i18n:event9.005}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.006}}\"/pause 500/
+                speak Jas \"{{i18n:event9.007}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.008}}\"/pause 500/
+                speak Jas \"{{i18n:event9.009}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.010}}\"/pause 500/
+                speak Jas \"{{i18n:event9.011}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.012}}\"/pause 500/
+                speak Jas \"{{i18n:event9.013}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.014}}\"/pause 500/
+                speak Jas \"{{i18n:event9.015}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.016}}\"/pause 500/
+                speak Jas \"{{i18n:event9.017}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.018}}\"/pause 500/
+                speak Jas \"{{i18n:event9.019}}\"/pause 500/
+                speak Vincent \"{{i18n:event9.020}}\"/pause 500/showFrame Jas 22/move Vincent 0 5 2/
+                end"
+            }
+        },
     ]
 }
