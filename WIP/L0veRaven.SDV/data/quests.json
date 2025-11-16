@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                //ADD"{{Nexus}}00001": "",
+                "{{Nexus}}_quest_001": "ItemDelivery/{{i18n:quest_raven_001_title}}/{{i18n:quest_raven_001_message}}//{{Raven}} 66 1//250//false/{{i18n:quest_raven_001_reaction}}",// ## ADD TO CONVERSATION
             }
         }
     ]

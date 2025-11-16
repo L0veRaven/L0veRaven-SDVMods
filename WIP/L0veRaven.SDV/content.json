@@ -1,5 +1,5 @@
 {
-    "Format": "2.7.5",
+    "Format": "2.8.0",
     "ConfigSchema": {
         //Spirit's Eve Costumes
         "RavenCactusCostumeSE": {
@@ -58,120 +58,39 @@
     },
     "DynamicTokens": [
         //Mod Info
-        {
-            "Name": "Nexus",
-            "Value": "27407"
-        },
+        {"Name": "Nexus","Value": "27407"},
         //ModCompat Nicknames -> External ModId's
-        {
-            "Name": "RSV",
-            "Value": "Rafseazz.RSVCP"
-        },
-        {
-            "Name": "CJBC",
-            "Value": "CJBok.CheatsMenu"
-        },
-        {
-            "Name": "NPCA",
-            "Value": "FireRedLily.NPCApartments"
-        },
-        {
-            "Name": "NB",
-            "Value": "Raspb3rryfields.NaturesBounty"
-        },
-        {
-            "Name": "SVE",
-            "Value": "FlashShifter.StardewValleyExpandedCP"
-        },
+        {"Name": "RSV","Value": "Rafseazz.RSVCP"},
+        {"Name": "CJBC","Value": "CJBok.CheatsMenu"},
+        {"Name": "NPCA","Value": "FireRedLily.NPCApartments"},
+        {"Name": "NB","Value": "Raspb3rryfields.NaturesBounty"},
+        {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
         //Internal Names
-        {
-            "Name": "Raven",
-            "Value": "L0veRaven_Raven"
-        },
-        {
-            "Name": "RavenLC",
-            "Value": "l0veraven_raven"
-        },
-        {
-            "Name": "Zayden",
-            "Value": "L0veRaven_Zayden"
-        },
-        {
-            "Name": "ZaydenLC",
-            "Value": "l0veraven_zayden"
-        },
+        {"Name": "Raven","Value": "L0veRaven_Raven"},
+        {"Name": "RavenLC","Value": "l0veraven_raven"},
+        {"Name": "Zayden","Value": "L0veRaven_Zayden"},
+        {"Name": "ZaydenLC","Value": "l0veraven_zayden"},
         //Display Names
-        {
-            "Name": "RavenDisplayName",
-            "Value": "{{i18n:displayName.raven}}"
-        },
-        {
-            "Name": "ZaydenDisplayName",
-            "Value": "{{i18n:displayName.zayden}}"
-        },
+        {"Name": "RavenDisplayName","Value": "{{i18n:displayName.raven}}"},
+        {"Name": "ZaydenDisplayName","Value": "{{i18n:displayName.zayden}}"},
         //Locations
-        {
-            "Name": "apartment",
-            "Value": "FRL_NPCApt_Floor1"
-        },
+        {"Name": "apartment","Value": "FRL_NPCApt_Floor1"},
         //Emotes
-        {
-            "Name": "emoteEmptyCan",
-            "Value": "4"
-        },
-        {
-            "Name": "emoteQuestion",
-            "Value": "8"
-        },
-        {
-            "Name": "emoteAngry",
-            "Value": "12"
-        },
-        {
-            "Name": "emoteExclaim",
-            "Value": "16"
-        },
-        {
-            "Name": "emoteHeart",
-            "Value": "20"
-        },
-        {
-            "Name": "emoteSleep",
-            "Value": "24"
-        },
-        {
-            "Name": "emoteSweat",
-            "Value": "28"
-        },
-        {
-            "Name": "emoteHappy",
-            "Value": "32"
-        },
-        {
-            "Name": "emoteX",
-            "Value": "36"
-        },
-        {
-            "Name": "emotePause",
-            "Value": "40"
-        },
-        {
-            "Name": "emoteVideoGame",
-            "Value": "52"
-        },
-        {
-            "Name": "emoteMusic",
-            "Value": "56"
-        },
-        {
-            "Name": "emoteBlush",
-            "Value": "60"
-        },
+        {"Name": "emoteEmptyCan","Value": "4"},
+        {"Name": "emoteQuestion","Value": "8"},
+        {"Name": "emoteAngry","Value": "12"},
+        {"Name": "emoteExclaim","Value": "16"},
+        {"Name": "emoteHeart","Value": "20"},
+        {"Name": "emoteSleep","Value": "24"},
+        {"Name": "emoteSweat","Value": "28"},
+        {"Name": "emoteHappy","Value": "32"},
+        {"Name": "emoteX","Value": "36"},
+        {"Name": "emotePause","Value": "40"},
+        {"Name": "emoteVideoGame","Value": "52"},
+        {"Name": "emoteMusic","Value": "56"},
+        {"Name": "emoteBlush","Value": "60"},
         //Event Commands
-        {
-            "Name": "fadeout",
-            "Value": "globalFade/viewport -1000 -1000"
-        },
+        {"Name": "fadeout","Value": "globalFade/viewport -1000 -1000"},
         //Time
         {
             "Name": "6am",

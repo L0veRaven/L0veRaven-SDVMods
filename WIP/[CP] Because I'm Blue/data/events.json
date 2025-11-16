@@ -2,11 +2,11 @@
     "Changes": [
         //Original events
         {
-            "LogName": "Event 1 - ",
+            "LogName": "Arriving to Town",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "null/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start//{{fadeout}}/end"
+                "{{ModId}}_001": null
             }
         },
         //Edited vanilla events
@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "null/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start//{{fadeout}}/end"
+                "{{ModId}}_002": null
             }
         },
     ]

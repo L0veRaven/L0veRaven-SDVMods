@@ -9,9 +9,6 @@
         //General Settings
         "config.section.GeneralSettings.name": "General Settings",
         "config.section.GeneralSettings.description": "General Settings",
-            //Clean Language
-        //"config.CleanLanguage.name": "Clean Language",
-        //"config.CleanLanguage.description": "This makes Raven stop cussing and replaces it with gentler words. (Under construction)",
     //Spirit's Eve Costumes
         "config.section.RavenSpiritsEveCostumes.name": "Raven's Spirit's Eve Costumes",
         "config.section.RavenSpiritsEveCostumes.description": "Choose what you want Raven to wear for Halloween. (If more than one is selected, it will randomize with the options you chose.)",
@@ -1182,6 +1179,10 @@
     //Cafe
         "cafe.strings.closed": "The cafe is closed. Come again between 8am to 4pm.",
         "cafe.strings.open": "Welcome to Pelican Cafe! What can I get you?",
+    //[Quests]
+        "quest_raven_001_title": "Raven Needs Amethyst",
+        "quest_raven_001_message": "Raven needs amethyst for a spell they're working on. They would like to have it soon.",
+        "quest_raven_001_reaction": "Raven needs amethyst for a spell they're working on. They would like to have it soon.",
 }
 
 //Original Map Strings

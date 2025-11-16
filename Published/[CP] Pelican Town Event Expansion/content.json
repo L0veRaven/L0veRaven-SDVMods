@@ -7,14 +7,15 @@
     //    }
     //],
     "Changes": [
-        //Help Out: patch reload L0veRaven.PTEE
-        //Help Out: debug ebi L0veRaven.PTEE_HelpOut
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_HelpOut
         {
             "LogName": "Help Out - Caroline, Pierre, Abigail",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "{{ModId}}_HelpOut/SawEvent 4/Weather rainy/Time 1400 2600": "jaunty/36 7/farmer -1000 -1000 2 Caroline 37 5 0 Pierre 39 8 1 Abigail 24 14 1/skippable/pause 2000/
+                "{{ModId}}_HelpOut/SawEvent 4/Weather rainy/Time 1400 2600": null,
+                "{{ModId}}_001/SawEvent 4/Weather rainy/Time 1400 2600/!SawEvent {{ModId}}_HelpOut": "jaunty/36 7/farmer -1000 -1000 2 Caroline 37 5 0 Pierre 39 8 1 Abigail 24 14 1/skippable/pause 2000/
                 --Start/
                 speak Caroline \"{{i18n:event1.001}}\"/pause 500/
                 speak Pierre \"{{i18n:event1.002}}\"/pause 500/
@@ -38,14 +39,15 @@
                 --End with dialogue/end dialogue Abigail \"{{i18n:event1.020}}\" dialogue Pierre \"{{i18n:event1.021}}\" dialogue Caroline \"{{i18n:event1.022}}\""
             }
         },
-        //Brother Banter: patch reload L0veRaven.PTEE
-        //Brother Banter: debug ebi L0veRaven.PTEE_BrotherBanter
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_BrotherBanter
         {
             "LogName": "Brother Banter - Vincent, Sam",
             "Action": "EditData",
             "Target": "Data/Events/SamHouse",
             "Entries": {
-                "{{ModId}}_BrotherBanter/Weather rainy/Friendship Vincent 500": "jaunty/18 15/farmer -1000 -1000 2 Vincent 12 15 0 Sam 21 13 2/skippable/pause 2000/
+                "{{ModId}}_BrotherBanter/Weather rainy/Friendship Vincent 500": null,
+                "{{ModId}}_002/Weather rainy/Friendship Vincent 500/!SawEvent {{ModId}}_BrotherBanter": "jaunty/18 15/farmer -1000 -1000 2 Vincent 12 15 0 Sam 21 13 2/skippable/pause 2000/
                 --Start/
                 speak Vincent \"{{i18n:event2.001}}\"/pause 500/
                 speak Vincent \"{{i18n:event2.002}}\"/pause 1500/
@@ -68,14 +70,15 @@
                 end"
             }
         },
-        //Innocence: patch reload L0veRaven.PTEE
-        //Innocence: debug ebi L0veRaven.PTEE_Innocence
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_Innocence
         {
             "LogName": "Innocence - Jas, Vincent",
             "Action": "EditData",
             "Target": "Data/Events/Forest",
             "Entries": {
-                "{{ModId}}_Innocence/Weather sunny/Friendship Jas 500": "jaunty/39 11/farmer -1000 -1000 2 Vincent 41 11 2 Jas 38 11 2/skippable/showFrame Jas 22/showFrame Vincent 24/pause 3000/
+                "{{ModId}}_Innocence/Weather sunny/Friendship Jas 500": null,
+                "{{ModId}}_003/Weather sunny/Friendship Jas 500/!SawEvent {{ModId}}_Innocence": "jaunty/39 11/farmer -1000 -1000 2 Vincent 41 11 2 Jas 38 11 2/skippable/showFrame Jas 22/showFrame Vincent 24/pause 3000/
                 --Start/
                 speak Vincent \"{{i18n:event3.001}}\"/pause 500/
                 speak Jas \"{{i18n:event3.002}}\"/pause 500/
@@ -96,18 +99,19 @@
         {
             "LogName": "Blank Load for Blacksmith Event Location",
             "Action": "Load",
-            "Priority": "Low",//line added in 1.0.1
+            "Priority": "Low",
             "Target": "Data/Events/Blacksmith",
             "FromFile": "blank.json"
         },
-        //Letter Draft: patch reload L0veRaven.PTEE
-        //Letter Draft: debug ebi L0veRaven.PTEE_LetterDraft
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_LetterDraft
         {
             "LogName": "Letter Draft - Clint (Vanilla)",
             "Action": "EditData",
             "Target": "Data/Events/Blacksmith",
             "Entries": {
-                "{{ModId}}_LetterDraft/Friendship Clint 500": "jaunty/4 6/farmer -1000 -1000 2 Clint 2 6 3/skippable/pause 1500/
+                "{{ModId}}_LetterDraft/Friendship Clint 500": null,
+                "{{ModId}}_004/Friendship Clint 500/!SawEvent {{ModId}}_LetterDraft": "jaunty/4 6/farmer -1000 -1000 2 Clint 2 6 3/skippable/pause 1500/
                 --Start/
                 emote Clint 28 true/shake Clint 1500/pause 2000/
                 speak Clint \"{{i18n:event4.001}}\"/pause 500/faceDirection Clint 2/pause 500/emote Clint 12/pause 300/
@@ -129,7 +133,8 @@
             "Action": "EditData",
             "Target": "Data/Events/Blacksmith",
             "Entries": {
-                "{{ModId}}_LetterDraft/Friendship Clint 500": "jaunty/4 6/farmer -1000 -1000 2 Clint 11 6 0/skippable/pause 1500/
+                "{{ModId}}_LetterDraft/Friendship Clint 500": null,
+                "{{ModId}}_004/Friendship Clint 500/!SawEvent {{ModId}}_LetterDraft": "jaunty/4 6/farmer -1000 -1000 2 Clint 11 6 0/skippable/pause 1500/
                 --Start/
                 emote Clint 28 true/shake Clint 1500/pause 2000/
                 speak Clint \"{{i18n:event4.001}}\"/pause 500/faceDirection Clint 2/pause 500/emote Clint 12/pause 300/
@@ -146,14 +151,15 @@
                 "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
-        //Advice: patch reload L0veRaven.PTEE
-        //Advice: debug ebi L0veRaven.PTEE_Advice
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_Advice
         {
             "LogName": "Advice - Pam, Shane, Penny",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Advice/Friendship Penny 1000 Shane 1000/Weather sunny/SawEvent 3910674/DayOfWeek Sunday": "jaunty/72 70/farmer -1000 -1000 2 Pam 73 69 2 Shane 71 69 2 Penny -999 -1000 2/skippable/pause 5000/
+                "{{ModId}}_Advice/Friendship Shane 1000/Weather sunny/SawEvent 3910674/DayOfWeek Sunday": null,
+                "{{ModId}}_005/Friendship Shane 1000/Weather sunny/SawEvent 3910674/DayOfWeek Sunday/!SawEvent {{ModId}}_Advice": "jaunty/72 70/farmer -1000 -1000 2 Pam 73 69 2 Shane 71 69 2 Penny -999 -1000 2/skippable/pause 5000/
                 --Start/
                 speak Pam \"{{i18n:event5.001}}\"/pause 500/
                 speak Shane \"{{i18n:event5.002}}\"/pause 500/faceDirection Shane 1/pause 500/
@@ -178,15 +184,15 @@
                 end"
             }
         },
-        //Memories: patch reload L0veRaven.PTEE
-        //Memories: debug ebi L0veRaven.PTEE_Memories
-        //1.0.1 update: reduced friendship point requirement
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_Memories
         {
             "LogName": "Memories - Jas",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Memories/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
+                "{{ModId}}_Memories/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday": null,
+                "{{ModId}}_006/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday/!SawEvent {{ModId}}_Memories": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
                 --Start/move Jas 0 -5 0/pause 1500/faceDirection Jas 1/pause 500/faceDirection Jas 3/pause 500/emote Jas 40 true/faceDirection Jas 2/pause 1500/
                 speak Jas \"{{i18n:event6.001}}\"/pause 500/shake Jas 1000/pause 1500/
                 speak Jas \"{{i18n:event6.002}}\"/pause 500/move Jas -2 0 3/pause 500/
@@ -197,15 +203,15 @@
                 end"
             }
         },
-        //Bonds: patch reload L0veRaven.PTEE
-        //Bonds: debug ebi L0veRaven.PTEE_Bonds
-        //1.0.1 update: reduced friendship point requirement
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_Bonds
         {
             "LogName": "Bonds - Sam, Penny",
             "Action": "EditData",
             "Target": "Data/Events/Beach",
             "Entries": {
-                "{{ModId}}_Bonds/Friendship Penny 1000 Sam 1000/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600": "jaunty/11 13/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
+                "{{ModId}}_Bonds/Friendship Sam 1000/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600": null,
+                "{{ModId}}_007/Friendship Sam 1000/Weather sunny/DayOfWeek Mon Tue Wed Thu Fri/Year 1/Time 1200 1600/!SawEvent {{ModId}}_Bonds": "jaunty/11 13/farmer -1000 -1000 2 Penny 11 12 3 Sam 17 12 3/skippable/pause 500/
                 --Start/
                 move Sam -4 0 3/pause 500/
                 speak Penny \"{{i18n:event7.001}}\"/pause 500/emote Penny 40/pause 500/jump Sam 4/pause 500/faceDirection Penny 1/pause 500/jump Penny 4/pause 500/
@@ -244,14 +250,15 @@
             }
         },
         //1.0.1 Events
-        //Mourning: patch reload L0veRaven.PTEE
-        //Mourning: debug ebi L0veRaven.PTEE_Mourning
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_Mourning
         {
             "LogName": "Mourning - Jas, Farmer",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Mourning/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday": "jaunty/47 89/farmer 47 92 0 Jas 45 88 2/skippable/animate Jas false true 100 16 17 18 19/pause 3000/
+                "{{ModId}}_Mourning/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday": null,
+                "{{ModId}}_008/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday/!SawEvent {{ModId}}_Mourning": "jaunty/47 89/farmer 47 92 0 Jas 45 88 2/skippable/animate Jas false true 100 16 17 18 19/pause 3000/
                 --Start/emote farmer 8/pause 500/move farmer 0 -4 3/pause 500/
                 speak Jas \"{{i18n:event8.001}}\"/pause 500/stopAnimation Jas 0/faceDirection Jas 1/pause 500/
                 speak Jas \"{{i18n:event8.002}}\"/pause 500/emote farmer 8/pause 500/
@@ -271,14 +278,15 @@
             }
         },
         //1.0.2 Events
-        //ReadingOutLoud: patch reload L0veRaven.PTEE
-        //ReadingOutLoud: debug ebi L0veRaven.PTEE_ReadingOutLoud
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_ReadingOutLoud
         {
             "LogName": "ReadingOutLoud - Jas, Farmer",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_ReadingOutLoud/Weather sunny/Friendship Jas 750 Vincent 250/DayOfWeek Thursday Friday": "jaunty/47 89/farmer -1000 -1000 2 Jas 45 88 2 Vincent 53 95 3/skippable/showFrame Jas 22/pause 2000/
+                "{{ModId}}_ReadingOutLoud/Weather sunny/Friendship Jas 750/DayOfWeek Thursday Friday": null,
+                "{{ModId}}_009/Weather sunny/Friendship Jas 750/DayOfWeek Thursday Friday/!SawEvent {{ModId}}_ReadingOutLoud": "jaunty/47 89/farmer -1000 -1000 2 Jas 45 88 2 Vincent 53 95 3/skippable/showFrame Jas 22/pause 500/
                 --Start/move Vincent -6 0 0/pause 500/emote Vincent 8/pause 1000/move Vincent 0 -7 3/pause 500/
                 speak Jas \"{{i18n:event9.001}}\"/pause 500/
                 speak Vincent \"{{i18n:event9.002}}\"/pause 500/

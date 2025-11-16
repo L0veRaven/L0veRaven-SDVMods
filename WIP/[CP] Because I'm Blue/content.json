@@ -1,5 +1,5 @@
 {
-    "Format": "2.7.5",
+    "Format": "2.8.0",
 
     "ConfigSchema": {
         "ModEnable": {
@@ -43,7 +43,7 @@
         {
             "LogName": "Dialogue: Introductions",
             "Action": "Include",
-            "FromFile": "data/characters/dialogue/introductions.json",
+            "FromFile": "data/introductions.json",
             "When": {
                 "ModEnable": true
             }
