@@ -1,5 +1,5 @@
 {
-    "Format": "2.7.5",
+    "Format": "2.8.1",
     //"ConfigSchema": [
     //    {
     //        "Name": "",
@@ -8,9 +8,9 @@
     //],
     "Changes": [
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_HelpOut
+        //debug ebi L0veRaven.PTEE_001
         {
-            "LogName": "Help Out - Caroline, Pierre, Abigail",
+            "LogName": "Event 1 - Caroline, Pierre, Abigail",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
@@ -40,9 +40,9 @@
             }
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_BrotherBanter
+        //debug ebi L0veRaven.PTEE_002
         {
-            "LogName": "Brother Banter - Vincent, Sam",
+            "LogName": "Event 2 - Vincent, Sam",
             "Action": "EditData",
             "Target": "Data/Events/SamHouse",
             "Entries": {
@@ -71,9 +71,9 @@
             }
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_Innocence
+        //debug ebi L0veRaven.PTEE_003
         {
-            "LogName": "Innocence - Jas, Vincent",
+            "LogName": "Event 3 - Jas, Vincent",
             "Action": "EditData",
             "Target": "Data/Events/Forest",
             "Entries": {
@@ -104,7 +104,7 @@
             "FromFile": "blank.json"
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_LetterDraft
+        //debug ebi L0veRaven.PTEE_004
         {
             "LogName": "Letter Draft - Clint (Vanilla)",
             "Action": "EditData",
@@ -152,7 +152,7 @@
             }
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_Advice
+        //debug ebi L0veRaven.PTEE_005
         {
             "LogName": "Advice - Pam, Shane, Penny",
             "Action": "EditData",
@@ -185,14 +185,14 @@
             }
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_Memories
+        //debug ebi L0veRaven.PTEE_006
         {
             "LogName": "Memories - Jas",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
                 "{{ModId}}_Memories/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday": null,
-                "{{ModId}}_006/Friendship Jas 250/Weather sunny/DayOfWeek Sunday Monday/!SawEvent {{ModId}}_Memories": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
+                "{{ModId}}_006/Friendship Jas 250/Weather sunny/Time 1200 1600/DayOfWeek Sunday Monday/!SawEvent {{ModId}}_Memories": "jaunty/47 89/farmer -1000 -1000 2 Jas 47 94 0/skippable/pause 500/
                 --Start/move Jas 0 -5 0/pause 1500/faceDirection Jas 1/pause 500/faceDirection Jas 3/pause 500/emote Jas 40 true/faceDirection Jas 2/pause 1500/
                 speak Jas \"{{i18n:event6.001}}\"/pause 500/shake Jas 1000/pause 1500/
                 speak Jas \"{{i18n:event6.002}}\"/pause 500/move Jas -2 0 3/pause 500/
@@ -204,7 +204,7 @@
             }
         },
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_Bonds
+        //debug ebi L0veRaven.PTEE_007
         {
             "LogName": "Bonds - Sam, Penny",
             "Action": "EditData",
@@ -251,14 +251,14 @@
         },
         //1.0.1 Events
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_Mourning
+        //debug ebi L0veRaven.PTEE_008
         {
             "LogName": "Mourning - Jas, Farmer",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
                 "{{ModId}}_Mourning/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday": null,
-                "{{ModId}}_008/Weather sunny/Friendship Jas 500/DayOfWeek Tuesday Wednesday/!SawEvent {{ModId}}_Mourning": "jaunty/47 89/farmer 47 92 0 Jas 45 88 2/skippable/animate Jas false true 100 16 17 18 19/pause 3000/
+                "{{ModId}}_008/Weather sunny/Friendship Jas 500/Time 1200 1600/DayOfWeek Tuesday Wednesday/!SawEvent {{ModId}}_Mourning/SawEvent {{ModId}}_Memories {{ModId}}_006": "jaunty/47 89/farmer 47 92 0 Jas 45 88 2/skippable/animate Jas false true 100 16 17 18 19/pause 3000/
                 --Start/emote farmer 8/pause 500/move farmer 0 -4 3/pause 500/
                 speak Jas \"{{i18n:event8.001}}\"/pause 500/stopAnimation Jas 0/faceDirection Jas 1/pause 500/
                 speak Jas \"{{i18n:event8.002}}\"/pause 500/emote farmer 8/pause 500/
@@ -279,14 +279,14 @@
         },
         //1.0.2 Events
         //patch reload L0veRaven.PTEE
-        //debug ebi L0veRaven.PTEE_ReadingOutLoud
+        //debug ebi L0veRaven.PTEE_009
         {
-            "LogName": "ReadingOutLoud - Jas, Farmer",
+            "LogName": "ReadingOutLoud - Jas, Vincent",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
                 "{{ModId}}_ReadingOutLoud/Weather sunny/Friendship Jas 750/DayOfWeek Thursday Friday": null,
-                "{{ModId}}_009/Weather sunny/Friendship Jas 750/DayOfWeek Thursday Friday/!SawEvent {{ModId}}_ReadingOutLoud": "jaunty/47 89/farmer -1000 -1000 2 Jas 45 88 2 Vincent 53 95 3/skippable/showFrame Jas 22/pause 500/
+                "{{ModId}}_009/Weather sunny/Friendship Jas 750/Time 1200 1600/DayOfWeek Thursday Friday/!SawEvent {{ModId}}_ReadingOutLoud/SawEvent {{ModId}}_Mourning {{ModId}}_008": "jaunty/47 89/farmer -1000 -1000 2 Jas 45 88 2 Vincent 53 95 3/skippable/showFrame Jas 22/pause 500/
                 --Start/move Vincent -6 0 0/pause 500/emote Vincent 8/pause 1000/move Vincent 0 -7 3/pause 500/
                 speak Jas \"{{i18n:event9.001}}\"/pause 500/
                 speak Vincent \"{{i18n:event9.002}}\"/pause 500/
@@ -308,6 +308,68 @@
                 speak Vincent \"{{i18n:event9.018}}\"/pause 500/
                 speak Jas \"{{i18n:event9.019}}\"/pause 500/
                 speak Vincent \"{{i18n:event9.020}}\"/pause 500/showFrame Jas 22/move Vincent 0 5 2/
+                end"
+            }
+        },
+        //1.0.3 Events
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_010
+        {
+            "LogName": "Event 10 - Jas, Marnie, Shane",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_010/Weather sunny/Friendship Jas 1000 Shane 1000/Time 1200 1600/DayOfWeek Saturday Sunday/SawEvent {{ModId}}_ReadingOutLoud {{ModId}}_009": "jaunty/47 89/farmer -1000 -1000 2 Jas 48 88 3 Marnie 46 95 0 Shane 47 95 0 /skippable/showFrame Jas 22/pause 500/
+                --Start/emote Shane 16 true/emote Marnie 16 true/move Marnie 0 -7 1 true/move Shane 0 -5 0 true/pause 3500/
+                speak Marnie \"{{i18n:event.010.01}}\"/pause 500/
+                speak Jas \"{{i18n:event.010.02}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.03}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.04}}\"/pause 500/
+                speak Jas \"{{i18n:event.010.05}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.06}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.07}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.08}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.09}}\"/pause 500/move Marnie 0 7 1 true/move Shane 0 5 3 true/pause 3500/
+                speak Marnie \"{{i18n:event.010.10}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.11}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.12}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.13}}\"/pause 500/faceDirection Shane 0/pause 500/faceDirection Marnie 0/pause 500/
+                speak Shane \"{{i18n:event.010.14}}\"/pause 500/
+                speak Jas \"{{i18n:event.010.15}}\"/pause 500/faceDirection Marnie 1/pause 500/
+                speak Marnie \"{{i18n:event.010.16}}\"/pause 500/faceDirection Shane 3/pause 500/
+                speak Shane \"{{i18n:event.010.17}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.18}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.19}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.20}}\"/pause 500/
+                speak Shane \"{{i18n:event.010.21}}\"/pause 500/
+                speak Marnie \"{{i18n:event.010.22}}\"/pause 500/faceDirection Shane 1/pause 500/
+                speak Shane \"{{i18n:event.010.23}}\"/pause 500/emote Marnie 28 true/move Shane 7 0 1/
+                end"
+            }
+        },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_011
+        {
+            "LogName": "Event 11 - Jas, Marnie, Shane",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "{{ModId}}_011/Weather sunny/Friendship Jas 1250 Shane 1000/DayOfWeek Monday Tuesday/SawEvent {{ModId}}_010": "jaunty/25 16/farmer -1000 -1000 2 Jas 17 15 3 Marnie 29 16 1 Shane 31 16 3/skippable/showFrame Jas 22/pause 3000/
+                --Start/
+                speak Marnie \"{{i18n:event.011.01}}\"/pause 500/
+                speak Shane \"{{i18n:event.011.02}}\"/pause 500/
+                speak Marnie \"{{i18n:event.011.03}}\"/pause 500/
+                speak Shane \"{{i18n:event.011.04}}\"/pause 500/
+                speak Marnie \"{{i18n:event.011.05}}\"/pause 500/move Jas 0 3 1 true/
+                speak Shane \"{{i18n:event.011.06}}\"/move Jas 3 0 1 true/pause 500/
+                speak Marnie \"{{i18n:event.011.07}}\"/pause 500/
+                speak Shane \"{{i18n:event.011.08}}\"/pause 500/
+                speak Marnie \"{{i18n:event.011.09}}\"/pause 500/
+                speak Shane \"{{i18n:event.011.10}}\"/pause 500/move Jas 2 0 0/move Jas 0 -2 1/
+                speak Marnie \"{{i18n:event.011.11}}\"/pause 500/jump Jas 8/emote Shane 28 true/faceDirection Marnie 3/pause 500/
+                speak Jas \"{{i18n:event.011.12}}\"/pause 500/
+                speak Shane \"{{i18n:event.011.13}}\"/pause 500/
+                speak Jas \"{{i18n:event.011.14}}\"/emote Jas 32 true/emote Marnie 32 true/emote Shane 28 true/jump Jas 8/pause 700/jump Jas 8/pause 700/jump Jas 10/pause 700/jump Jas 8/pause 1000/
                 end"
             }
         },
