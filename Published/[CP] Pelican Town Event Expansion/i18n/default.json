@@ -39,6 +39,27 @@
     "event.011.13": "...$3#$b#Yeah, but it won't be for a little while. It's gonna take a bit of time.",
     "event.011.14": "Yay! We're gonna visit my parents!$1",
 
+    "event.012.01": "Well, you got everything you need for the trip?",
+    "event.012.02": "I do! I'm so excited to visit Mommy and Daddy!$1",
+    "event.012.03": "Here, you can go buy the tickets for us.#$b#Just go to the machine over there, choose the name of the place we're going to, and put the money in the machine.",
+    "event.012.04": "I got the tickets! One for me and one for you.$1",
+    "event.012.05": "Good job Jas.$1#$b#Let's get going.",
+    
+    "event.013.01": "...$2",
+    "event.013.02": "Jas, what are you doing out in the rain?$10",
+    "event.013.03": "...$2#$b#When the sky rains... does it mean Mommy and Daddy are crying in heaven?$2",
+    "event.013.04": "I...$10#$b#Jas... I don't think it means they're crying.$3#$b#They might be sad about you being out in the rain without a raincoat on, though.",
+    "event.013.05": "Really?$2",
+    "event.013.06": "...$3#$b#Just come inside, okay?",
+    "event.013.07": "Why did Mommy and Daddy leave me here while they're in heaven?$2",
+    "event.013.08": "They didn't leave you behind on purpose.$3",
+    "event.013.09": "Your parents passing away... they wouldn't leave you behind if they had a choice.$2#$b#They loved you so much when they were still here.$6",
+    "event.013.10": "Your parents were always proud of you. They would always tell me whenever you did something great.$6#$b#I was one of the first people they told about your first steps.$6",
+    "event.013.11": "I miss when they used to tuck me into bed and read me bedtime stories.$2#$b#I miss them so much...$2",
+    "event.013.12": "...$3#$b#How about I read one of your favorite books your parents would read to you?$6",
+    "event.013.13": "... Okay, I'd like that.",
+    "event.013.14": "Let get you dried off, alright? You're soaking wet now.",
+
     //1.0.2 update
     "event9.001": "Good morning sun! Good morning clocks! Good morning socks!",
     "event9.002": "Jas? What're you doing here in the graveyard?$3",

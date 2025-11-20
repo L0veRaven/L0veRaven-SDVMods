@@ -354,7 +354,7 @@
             "Action": "EditData",
             "Target": "Data/Events/AnimalShop",
             "Entries": {
-                "{{ModId}}_011/Weather sunny/Friendship Jas 1250 Shane 1000/DayOfWeek Monday Tuesday/SawEvent {{ModId}}_010": "jaunty/25 16/farmer -1000 -1000 2 Jas 17 15 3 Marnie 29 16 1 Shane 31 16 3/skippable/showFrame Jas 22/pause 3000/
+                "{{ModId}}_011/Weather sunny/Friendship Jas 1250/DayOfWeek Monday Tuesday/SawEvent {{ModId}}_010": "jaunty/25 16/farmer -1000 -1000 2 Jas 17 15 3 Marnie 29 16 1 Shane 31 16 3/skippable/showFrame Jas 22/pause 3000/
                 --Start/
                 speak Marnie \"{{i18n:event.011.01}}\"/pause 500/
                 speak Shane \"{{i18n:event.011.02}}\"/pause 500/
@@ -370,6 +370,49 @@
                 speak Jas \"{{i18n:event.011.12}}\"/pause 500/
                 speak Shane \"{{i18n:event.011.13}}\"/pause 500/
                 speak Jas \"{{i18n:event.011.14}}\"/emote Jas 32 true/emote Marnie 32 true/emote Shane 28 true/jump Jas 8/pause 700/jump Jas 8/pause 700/jump Jas 10/pause 700/jump Jas 8/pause 1000/
+                end"
+            }
+        },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_012
+        {
+            "LogName": "Event 12 - Jas, Marnie, Shane",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "{{ModId}}_012/Weather sunny/Friendship Jas 1500/DayOfWeek Wednesday Thursday/SawEvent {{ModId}}_011": "jaunty/22 11/farmer -1000 -1000 2 Jas 21 11 0 Shane 22 11 0/skippable/pause 3000/
+                --Start/
+                speak Shane \"{{i18n:event.012.01}}\"/pause 500/faceDirection Jas 1/pause 500/jump Jas 8/pause 500/
+                speak Jas \"{{i18n:event.012.02}}\"/pause 500/faceDirection Shane 3/pause 500/
+                speak Shane \"{{i18n:event.012.03}}\"/pause 500/move Jas 0 1 3/move Jas -4 0 0/pause 500/shake Jas 500/pause 1000/shake Jas 500/pause 2000/jump Jas 8/pause 1000/move Jas 4 0 0/move Jas 0 -1 1/pause 500/
+                speak Jas \"{{i18n:event.012.04}}\"/pause 500/
+                speak Shane \"{{i18n:event.012.05}}\"/pause 500/move Shane 0 -2 0/warp Shane -1001 -1000 true/move Jas 1 0 0/move Jas 0 -2 0/warp Jas -1002 -1000/pause 1500/
+                end"
+            }
+        },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_013
+        {
+            "LogName": "Event 13 - Jas, Shane",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "{{ModId}}_013/Weather rainy/Friendship Jas 1750/SawEvent {{ModId}}_012": "jaunty/90 16/farmer -1000 -1000 2 Jas -1001 -1000 2 Shane -1002 -1000 2/skippable/pause 3000/
+                --Start/warp Jas 90 16/pause 250/move Jas 0 4 2/pause 500/emote Jas 28/pause 500/
+                speak Jas \"{{i18n:event.013.01}}\"/pause 500/playSound doorClose/warp Shane 90 16/pause 1000/
+                speak Shane \"{{i18n:event.013.02}}\"/pause 500/faceDirection Jas 0/pause 500/
+                speak Jas \"{{i18n:event.013.03}}\"/pause 500/
+                speak Shane \"{{i18n:event.013.04}}\"/pause 500/
+                speak Jas \"{{i18n:event.013.05}}\"/pause 500/
+                speak Shane \"{{i18n:event.013.06}}\"/pause 500/jump Jas 8/pause 500/faceDirection Jas 2/pause 500/emote Jas 12/pause 500/
+                speak Jas \"{{i18n:event.013.07}}\"/pause 500/emote Shane 28/pause 500/
+                speak Shane \"{{i18n:event.013.08}}\"/pause 500/move Shane 0 3 2/pause 500/
+                speak Shane \"{{i18n:event.013.09}}\"/pause 500/faceDirection Shane 1/pause 500/
+                speak Shane \"{{i18n:event.013.10}}\"/pause 500/faceDirection Shane 2/pause 500/faceDirection Jas 0/pause 500/
+                speak Jas \"{{i18n:event.013.11}}\"/pause 500/
+                speak Shane \"{{i18n:event.013.12}}\"/pause 500/
+                speak Jas \"{{i18n:event.013.13}}\"/pause 500/
+                speak Shane \"{{i18n:event.013.14}}\"/pause 1000/
                 end"
             }
         },
