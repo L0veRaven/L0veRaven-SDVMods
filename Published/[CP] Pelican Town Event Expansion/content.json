@@ -416,5 +416,21 @@
                 end"
             }
         },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_014
+        {
+            "LogName": "Event 14 - Jas",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "{{ModId}}_014/Friendship Jas 2000/SawEvent {{ModId}}_013": "jaunty/4 6/farmer -1000 -1000 2 Jas 4 4 3/skippable/showFrame Jas 22/pause 2000/
+                --Start/shake Jas 500/pause 1000/shake Jas 500/pause 1000/shake Jas 500/pause 1000/
+                speak Jas \"{{i18n:event.014.01}}\"/pause 500/emote Jas 28/pause 500/shake Jas 500/pause 1000/
+                speak Jas \"{{i18n:event.014.02}}\"/pause 500/move Jas 0 2 2/pause 500/
+                speak Jas \"{{i18n:event.014.03}}\"/pause 500/faceDirection Jas 1/pause 500/
+                speak Jas \"{{i18n:event.014.04}}\"/pause 500/emote Jas 28 true/shake Jas 500/pause 1000/move Jas 0 1 3/move Jas -3 0 3/pause 500/emote Jas 28/shake Jas 500/pause 2000/
+                end"
+            }
+        },
     ]
 }

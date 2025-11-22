@@ -60,6 +60,11 @@
     "event.013.13": "... Okay, I'd like that.",
     "event.013.14": "Let get you dried off, alright? You're soaking wet now.",
 
+    "event.014.01": "Dear diary, do you remember when I visited my mom and dad at their graveyard?#$b#I'm happy I went, but I wanna go again.$2#$b#I don't wanna tell Uncle Shane because Aunt Marnie had to help him pay last time.$2#$b#I don't think we can afford to go again.$2",
+    "event.014.02": "*sigh*$2",
+    "event.014.03": "Mommy... Daddy...$3#$b#I want to see you again, but it's too expensive to go again.$2#$b#Can you tell Yoba to make the tickets cheaper?$2",
+    "event.014.04": "I'm starting to get a headache. I think I need to take a nap.$2",
+
     //1.0.2 update
     "event9.001": "Good morning sun! Good morning clocks! Good morning socks!",
     "event9.002": "Jas? What're you doing here in the graveyard?$3",
