@@ -432,5 +432,27 @@
                 end"
             }
         },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_015
+        {
+            "LogName": "Event 15 - Jas",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "{{ModId}}_015/Friendship Jas 2500/SawEvent {{ModId}}_014/Time 900 1200": "jaunty/24 6/farmer -1000 -1000 2 Jas 21 14 0 Shane 27 4 1/skippable/pause 2000/
+                --Start/shake Shane 500/pause 1000/shake Shane 500/pause 1000/faceDirection Shane 3/pause 1000/
+                speak Shane \"{{i18n:event.015.01}}\"/pause 500/move Shane -2 0 2/pause 500/
+                speak Shane \"{{i18n:event.015.02}}\"/pause 500/faceDirection Shane 3/pause 500/shake Shane 500/pause 1000/
+                message \"{{i18n:event.015.03}}\"/pause 120/
+                message \"{{i18n:event.015.04}}\"/pause 120/
+                message \"{{i18n:event.015.05}}\"/pause 120/showFrame Shane 18/jump Shane 10/shake Shane 500/playSound batScreech/pause 1000/faceDirection Shane 2/pause 1000/
+                speak Shane \"{{i18n:event.015.06}}\"/pause 500/move Shane 0 3 2/pause 500/
+                speak Jas \"{{i18n:event.015.07}}\"/pause 500/move Shane -4 0 2/move Shane 0 5 2/doAction 21 13/pause 500/
+                speak Shane \"{{i18n:event.015.08}}\"/pause 500/jump Jas 10/shake Jas 500/playSound batScreech/pause 1000/
+                speak Jas \"{{i18n:event.015.09}}\"/pause 500/faceDirection Jas 1/pause 150/faceDirection Jas 2/pause 500/
+                speak Jas \"{{i18n:event.015.10}}\"/pause 500/emote Jas 32 true/emote Shane 32/pause 1000/
+                end"
+            }
+        },
     ]
 }

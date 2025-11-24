@@ -64,6 +64,17 @@
     "event.014.02": "*sigh*$2",
     "event.014.03": "Mommy... Daddy...$3#$b#I want to see you again, but it's too expensive to go again.$2#$b#Can you tell Yoba to make the tickets cheaper?$2",
     "event.014.04": "I'm starting to get a headache. I think I need to take a nap.$2",
+    
+    "event.015.01": "I guess it's morning now.$2#$b#I might as well get up and start my day.",
+    "event.015.02": "I wonder what's going on in the news today.",
+    "event.015.03": "Radio: And now to the financial news. Can you tell us about the new transportation standards?",
+    "event.015.04": "Radio: Thank you Josh. Due to the taxes collected this past year and overwhelming support from citizens, the government has passed a bill mandating fairer transportation fees.", //translators: You can use any name you want. It doesn't have to be "Josh"
+    "event.015.05": "Radio: This means long-distance travellers will now be able to pay closer to the same bus and train fare as local travellers.",
+    "event.015.06": "I can't believe it.$10#$b#This means... it should be cheaper to take Jas to visit her parents.$1",
+    "event.015.07": "Uncle Shane, are you awake?$3",
+    "event.015.08": "I'm up Jas. I have some great news!$1#$b#The tickets should be cheaper to go visit your parents. That means we can go visit them as long as I have the day off from work.$6#$b#How does that sound?$6",
+    "event.015.09": "Wait, really? That's awesome!$1",
+    "event.015.10": "So my parents really did talk to Yoba...",
 
     //1.0.2 update
     "event9.001": "Good morning sun! Good morning clocks! Good morning socks!",
