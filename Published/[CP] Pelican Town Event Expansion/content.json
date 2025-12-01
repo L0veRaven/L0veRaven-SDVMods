@@ -459,9 +459,9 @@
         {
             "LogName": "Event 16 - Anthony, Alex, Haley",
             "Action": "EditData",
-            "Target": "Data/Events/AnimalShop",
+            "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_016/Friendship Jas 2500/SawEvent {{ModId}}_014/Time 900 1200": "jaunty/24 6/farmer -1000 -1000 2 Anthony 21 14 0 Alex 27 4 1 Haley 28 4 1/skippable/pause 2000/
+                "{{ModId}}_016/Friendship Anthony 250/Season summer/Time 1200 1700/Weather sunny": "jaunty/90 94/farmer -1000 -1000 2 Anthony 82 94 1 Alex 88 91 1 Haley 90 91 3/skippable/pause 2000/
                 --Start/
                 speak  \"{{i18n:event.016.01}}\"/pause 500/
                 end"
