@@ -61,12 +61,13 @@
                 "FromFile": "assets/c-FlorWinter.png"
             },
         //Event 1 - Town
+        //debug ebi L0veRaven.FlorsExploration_confession
             {
                 "LogName": "Event 1 - Confessing to Farmer",
                 "Action": "EditData",
                 "Target": "Data/Events/Town",
                 "Entries": {
-                    "{{modName}}_confession/Dating Flor/NpcVisibleHere Flor/SawEvent 75160132": "playful/62 17/farmer 63 25 {{up}} Flor 62 17 {{down}}/skippable/pause 1000/--Start/emote Flor {{emoteHappy}} true/move farmer 0 -8 {{left}}/faceDirection Flor {{right}}/pause 200/--Flor starts talking/speak Flor \"{{i18n:event.confession.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/animate Flor false true 200 26 27/pause 1500/speak Flor \"{{i18n:event.confession.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/stopAnimation Flor 26/animate Flor false false 1000 24 26/pause 3000/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.confession.speak_3}}\"/pause 200/emote farmer {{emoteQuestion}} true/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.confession.speak_4}}\"/pause 200/emote farmer {{emoteBlush}}/pause 200/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.confession.speak_5}}\"/pause 200/--Flor walks downward/move Flor 0 2 {{down}} true/faceDirection farmer {{down}}/pause 1000/faceDirection Flor {{up}}//pause 200/speak Flor \"{{i18n:event.confession.speak_6}}\"/shake Flor 2000/pause 1000/faceDirection Flor {{down}}/pause 200/emote Flor {{emoteSweat}}/pause 100/emote Flor {{emoteBlush}}/message \"{{i18n:event.confession.message_1}}\"/speak Flor \"{{i18n:event.confession.speak_7}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_8}}\"/faceDirection Flor {{down}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_9}}\"/pause 200/move Flor 0 20 {{down}} true/pause 200/emote farmer {{emoteBlush}}/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.confession.endDialogue}}\""
+                    "{{modName}}_confession/Friendship Flor 2000/NpcVisibleHere Flor/SawEvent 75160132": "playful/62 17/farmer 63 25 {{up}} Flor 62 17 {{down}}/skippable/pause 1000/--Start/emote Flor {{emoteHappy}} true/move farmer 0 -8 {{left}}/faceDirection Flor {{right}}/pause 200/--Flor starts talking/speak Flor \"{{i18n:event.confession.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/animate Flor false true 200 26 27/pause 1500/speak Flor \"{{i18n:event.confession.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/stopAnimation Flor 26/animate Flor false false 1000 24 26/pause 3000/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.confession.speak_3}}\"/pause 200/emote farmer {{emoteQuestion}} true/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.confession.speak_4}}\"/pause 200/emote farmer {{emoteBlush}}/pause 200/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.confession.speak_5}}\"/pause 200/--Flor walks downward/move Flor 0 2 {{down}} true/faceDirection farmer {{down}}/pause 1000/faceDirection Flor {{up}}//pause 200/speak Flor \"{{i18n:event.confession.speak_6}}\"/shake Flor 2000/pause 1000/faceDirection Flor {{down}}/pause 200/emote Flor {{emoteSweat}}/pause 100/emote Flor {{emoteBlush}}/message \"{{i18n:event.confession.message_1}}\"/speak Flor \"{{i18n:event.confession.speak_7}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_8}}\"/faceDirection Flor {{down}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_9}}\"/pause 200/move Flor 0 20 {{down}} true/pause 200/emote farmer {{emoteBlush}}/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.confession.endDialogue}}\""
                 }
                 //"When": {"HasMod |contains={{SVE}}": "true"}
             },
@@ -80,6 +81,7 @@
                 }
             },
         //Event 2 - ArchaeologyHouse
+        //debug ebi L0veRaven.FlorsExploration_libraryBook
             {
                 "LogName": "Event 2 - Library Book",
                 "Action": "EditData",
@@ -89,6 +91,7 @@
                 }
             },
         //Event 3 - Safeword Practice
+        //debug ebi L0veRaven.FlorsExploration_safewordPractice
             {
                 "LogName": "Event 3 - Safeword Practice",
                 "Action": "EditData",
@@ -98,6 +101,7 @@
                 }
             },
         //Event 4 - Under the Stars
+        //debug ebi L0veRaven.FlorsExploration_underTheStars
             {
                 "LogName": "Event 4 - Under the Stars",
                 "Action": "EditData",
@@ -107,6 +111,7 @@
                 }
             },
         //Event 5 - Concerned For Farmer
+        //debug ebi L0veRaven.FlorsExploration_concernedForFarmer
             {
                 "LogName": "Event 5 - Concerned For Farmer",
                 "Action": "EditData",
@@ -125,6 +130,7 @@
                 }
             },
         //Event 6 - Why The Dark
+        //debug ebi L0veRaven.FlorsExploration_whyTheDark
             {
                 "LogName": "Event 6 - Why The Dark",
                 "Action": "EditData",
@@ -143,6 +149,7 @@
                 }
             },
         //Event 7 - Couple's Counseling
+        //debug ebi L0veRaven.FlorsExploration_couplesCounseling
             {
                 "LogName": "Event 7 - Couple's Counseling",
                 "Action": "EditData",
@@ -152,6 +159,7 @@
                 }
             },
         //Event 8 - Lights On
+        //debug ebi L0veRaven.FlorsExploration_lightsOn
             {
                 "LogName": "Event 8 - Lights On",
                 "Action": "EditData",
@@ -161,6 +169,7 @@
                 }
             },
         //Event 9 - Follow Up Appointment
+        //debug ebi L0veRaven.FlorsExploration_followUpAppointment
             {
                 "LogName": "Event 9 - Follow Up Appointment",
                 "Action": "EditData",
@@ -170,6 +179,7 @@
                 }
             },
         //Event 10 - Frisky Shower
+        //debug ebi L0veRaven.FlorsExploration_friskyShower
             {
                 "LogName": "Event 10 - Frisky Shower",
                 "Action": "EditData",
@@ -179,6 +189,7 @@
                 }
             },
         //Event 11 - First Toy
+        //debug ebi L0veRaven.FlorsExploration_firstToy
             {
                 "LogName": "Event 11 - First Toy",
                 "Action": "EditData",
