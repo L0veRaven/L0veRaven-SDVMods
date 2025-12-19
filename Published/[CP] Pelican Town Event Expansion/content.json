@@ -457,17 +457,42 @@
         //patch reload L0veRaven.PTEE
         //debug ebi L0veRaven.PTEE_016
         {
-            "LogName": "Event 16 - Anthony, Alex, Haley",
+            "LogName": "Event 16 - Anthony, Alex, Haley, Vincent, Jas",
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_016/Friendship Anthony 250/Season summer/Time 1200 1700/Weather sunny": "jaunty/90 94/farmer -1000 -1000 2 Anthony 82 94 1 Alex 88 91 1 Haley 90 91 3/skippable/pause 2000/
-                --Start/
-                speak  \"{{i18n:event.016.01}}\"/pause 500/
+                "{{ModId}}_016/Friendship Anthony 250/Season summer/Time 1200 1700/Weather sunny/Random 0.2": "jaunty/90 92/farmer -1000 -1000 2 Anthony 82 94 1 Alex 88 91 1 Haley 90 91 3 Vincent 92 94 1 Jas 93 94 3/skippable/
+                --Start/move Anthony 6 0 0/move Anthony 0 -1 0/pause 500/faceDirection Alex 2/pause 1000/
+                speak Anthony \"{{i18n:event.016.01}}\"/pause 500/
+                speak Alex \"{{i18n:event.016.02}}\"/pause 500/
+                speak Anthony \"{{i18n:event.016.03}}\"/pause 500/jump Vincent 8/emote Vincent 32 true/emote Jas 32/
+                speak Alex \"{{i18n:event.016.04}}\"/pause 500/faceDirection Anthony 1/pause 300/faceDirection Anthony 2/pause 500/playSound eat/shake Anthony 500/pause 700/playSound eat/shake Anthony 500/pause 700/faceDirection Haley 2/pause 500/
+                speak Haley \"{{i18n:event.016.05}}\"/pause 500/faceDirection Anthony 1/pause 300/faceDirection Anthony 0/pause 500/
+                speak Anthony \"{{i18n:event.016.06}}\"/pause 500/
+                speak Alex \"{{i18n:event.016.07}}\"/pause 500/faceDirection Haley 3/jump Haley 8/pause 1000/
+                speak Haley \"{{i18n:event.016.08}}\"/pause 500/faceDirection Alex 2/jump Alex 8/pause 1000/
+                speak Alex \"{{i18n:event.016.09}}\"/pause 500/emote Alex 60 true/emote Haley 20 true/emote Anthony 32/pause 2000/
                 end"
             },
             "When": {
                 "HasMod: |contains=BlackBerry.anthony": true
+            }
+        },
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_017
+        {
+            "LogName": "Event 17 - Penny",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_017/Friendship Penny 250 Vincent 250/Time 1200 1700/Weather rainy/Year 1": "none/79 67/farmer -1000 -1000 2 Penny 79 67 1/skippable/pause 2000/
+                --Start/
+                speak Penny \"{{i18n:event.017.01}}\"/pause 1500/
+                speak Penny \"{{i18n:event.017.02}}\"/pause 1500/
+                speak Penny \"{{i18n:event.017.03}}\"/pause 1500/
+                speak Penny \"{{i18n:event.017.04}}\"/pause 1500/faceDirection Penny 2/pause 500/
+                speak Penny \"{{i18n:event.017.05}}\"/pause 500/faceDirection Penny 1/pause 1500/
+                end"
             }
         },
     ]
