@@ -5,6 +5,7 @@
         //ModCompat
             //ModIDs
                 {"Name": "SVE","Value": "FlashShifter.StardewValleyExpandedCP"},
+                {"Name": "RSVSO","Value": "Rafseazz.RSVSeasonalOutfits"},
         //Basic Information
             //Emotes
                 {"Name": "emoteEmptyCan","Value": "4"},
@@ -36,169 +37,291 @@
 
     "Changes": [
         //Portrait & Character replacement
-            {
-                "LogName": "Portrait - Replacement",
-                "Action": "EditImage",
-                "Target": "Portraits/Flor",
-                "FromFile": "assets/p-Flor.png"
-            },
-            {
-                "LogName": "Winter Portrait - Replacement",
-                "Action": "EditImage",
-                "Target": "Portraits/Flor_winter",
-                "FromFile": "assets/p-FlorWinter.png"
-            },
-            {
-                "LogName": "Character - Replacement",
-                "Action": "EditImage",
-                "Target": "Characters/Flor",
-                "FromFile": "assets/c-Flor.png"
-            },
-            {
-                "LogName": "Winter Character - Replacement",
-                "Action": "EditImage",
-                "Target": "Characters/Flor_winter",
-                "FromFile": "assets/c-FlorWinter.png"
-            },
+            //RSV Seasonal Outfits
+        {
+            "LogName": "RSVSO - Portrait - Flor_fall",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_fall",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_fall27-1",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_fall27-1",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_fall27-2",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_fall27-2",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_rain",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_rain",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_spring",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_spring",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_spring24",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_spring24",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_summer",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_summer",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Portrait - Flor_winter",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_winter",
+            "FromFile": "assets/p-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_fall",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_fall",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_fall27-1",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_fall27-1",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_fall27-2",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_fall27-2",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_rain",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_rain",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_spring",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_spring",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_spring24",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_spring24",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_summer",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_summer",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+        {
+            "LogName": "RSVSO - Character - Flor_winter",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_winter",
+            "FromFile": "assets/c-nude-Flor.png",
+            "When": {"HasMod |contains={{RSVSO}}": "true"}
+        },
+            //Default
+        {
+            "LogName": "Portrait - Flor",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor",
+            "FromFile": "assets/p-nude-Flor.png"
+        },
+        {
+            "LogName": "Portrait - Flor_winter",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/Flor_winter",
+            "FromFile": "assets/p-nude-Flor.png"
+        },
+        {
+            "LogName": "Character - Flor",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor",
+            "FromFile": "assets/c-nude-Flor.png"
+        },
+        {
+            "LogName": "Character - Flor_winter",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Flor_winter",
+            "FromFile": "assets/c-nude-Flor.png"
+        },
         //Event 1 - Town
         //debug ebi L0veRaven.FlorsExploration_confession
-            {
-                "LogName": "Event 1 - Confessing to Farmer",
-                "Action": "EditData",
-                "Target": "Data/Events/Town",
-                "Entries": {
-                    "{{modName}}_confession/Friendship Flor 2000/NpcVisibleHere Flor/SawEvent 75160132": "playful/62 17/farmer 63 25 {{up}} Flor 62 17 {{down}}/skippable/pause 1000/--Start/emote Flor {{emoteHappy}} true/move farmer 0 -8 {{left}}/faceDirection Flor {{right}}/pause 200/--Flor starts talking/speak Flor \"{{i18n:event.confession.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/animate Flor false true 200 26 27/pause 1500/speak Flor \"{{i18n:event.confession.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/stopAnimation Flor 26/animate Flor false false 1000 24 26/pause 3000/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.confession.speak_3}}\"/pause 200/emote farmer {{emoteQuestion}} true/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.confession.speak_4}}\"/pause 200/emote farmer {{emoteBlush}}/pause 200/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.confession.speak_5}}\"/pause 200/--Flor walks downward/move Flor 0 2 {{down}} true/faceDirection farmer {{down}}/pause 1000/faceDirection Flor {{up}}//pause 200/speak Flor \"{{i18n:event.confession.speak_6}}\"/shake Flor 2000/pause 1000/faceDirection Flor {{down}}/pause 200/emote Flor {{emoteSweat}}/pause 100/emote Flor {{emoteBlush}}/message \"{{i18n:event.confession.message_1}}\"/speak Flor \"{{i18n:event.confession.speak_7}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_8}}\"/faceDirection Flor {{down}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_9}}\"/pause 200/move Flor 0 20 {{down}} true/pause 200/emote farmer {{emoteBlush}}/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.confession.endDialogue}}\""
-                }
-                //"When": {"HasMod |contains={{SVE}}": "true"}
-            },
+        {
+            "LogName": "Event 1 - Confessing to Farmer",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{modName}}_confession/Friendship Flor 2000/NpcVisibleHere Flor/SawEvent 75160132": "playful/62 17/farmer 63 25 {{up}} Flor 62 17 {{down}}/skippable/pause 1000/--Start/emote Flor {{emoteHappy}} true/move farmer 0 -8 {{left}}/faceDirection Flor {{right}}/pause 200/--Flor starts talking/speak Flor \"{{i18n:event.confession.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/animate Flor false true 200 26 27/pause 1500/speak Flor \"{{i18n:event.confession.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/stopAnimation Flor 26/animate Flor false false 1000 24 26/pause 3000/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.confession.speak_3}}\"/pause 200/emote farmer {{emoteQuestion}} true/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.confession.speak_4}}\"/pause 200/emote farmer {{emoteBlush}}/pause 200/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.confession.speak_5}}\"/pause 200/--Flor walks downward/move Flor 0 2 {{down}} true/faceDirection farmer {{down}}/pause 1000/faceDirection Flor {{up}}//pause 200/speak Flor \"{{i18n:event.confession.speak_6}}\"/shake Flor 2000/pause 1000/faceDirection Flor {{down}}/pause 200/emote Flor {{emoteSweat}}/pause 100/emote Flor {{emoteBlush}}/message \"{{i18n:event.confession.message_1}}\"/speak Flor \"{{i18n:event.confession.speak_7}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_8}}\"/faceDirection Flor {{down}}/pause 200/faceDirection Flor {{up}}/pause 200/speak Flor \"{{i18n:event.confession.speak_9}}\"/pause 200/move Flor 0 20 {{down}} true/pause 200/emote farmer {{emoteBlush}}/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.confession.endDialogue}}\""
+            }
+            //"When": {"HasMod |contains={{SVE}}": "true"}
+        },
         //Letter [Triggers Event 3]
-            {
-                "LogName": "Letter for Event 3 - Safeword Practice",
-                "Action": "EditData",
-                "Target": "Data/Mail",
-                "Entries": {
-                    "{{modName}}_safewordPracticeLetter": "{{i18n:mail.safewordPractice.body}}[#]{{i18n:mail.safewordPractice.title}}"
-                }
-            },
+        {
+            "LogName": "Letter for Event 3 - Safeword Practice",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{modName}}_safewordPracticeLetter": "{{i18n:mail.safewordPractice.body}}[#]{{i18n:mail.safewordPractice.title}}"
+            }
+        },
         //Event 2 - ArchaeologyHouse
         //debug ebi L0veRaven.FlorsExploration_libraryBook
-            {
-                "LogName": "Event 2 - Library Book",
-                "Action": "EditData",
-                "Target": "Data/Events/ArchaeologyHouse",
-                "Entries": {
-                    "{{modName}}_libraryBook/SawEvent {{modName}}_confession/Friendship Flor 2250": "libraryTheme/16 5/farmer 9 5 {{up}} Flor 15 5 {{left}}/skippable/action AddMail current {{modName}}_safewordPracticeLetter/showFrame Flor 16 true/pause 500/--Start/move farmer 4 0 {{right}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_1}}\"/move farmer 1 0 {{right}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/showFrame Flor 39/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_3}}\"/pause 300/shake Flor 2000/pause 1000/speak Flor \"{{i18n:event.libraryBook.speak_4}}\"/pause 500/showFrame Flor 0/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_5}}\"/pause 200/faceDirection Flor {{left}}/speak Flor \"{{i18n:event.libraryBook.speak_6}}\"/pause 200/emote farmer {{emoteMusic}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_7}}\"/pause 200/emote farmer {{emoteHeart}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_8}}\"/pause 200/emote farmer {{emoteBlush}} true/emote Flor {{emoteHeart}}/pause 300/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.libraryBook.endDialogue}}\""
-                }
-            },
+        {
+            "LogName": "Event 2 - Library Book",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "{{modName}}_libraryBook/SawEvent {{modName}}_confession/Friendship Flor 2250": "libraryTheme/16 5/farmer 9 5 {{up}} Flor 15 5 {{left}}/skippable/action AddMail current {{modName}}_safewordPracticeLetter/showFrame Flor 16 true/pause 500/--Start/move farmer 4 0 {{right}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_1}}\"/move farmer 1 0 {{right}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_2}}\"/pause 200/emote farmer {{emoteQuestion}}/pause 200/showFrame Flor 39/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_3}}\"/pause 300/shake Flor 2000/pause 1000/speak Flor \"{{i18n:event.libraryBook.speak_4}}\"/pause 500/showFrame Flor 0/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_5}}\"/pause 200/faceDirection Flor {{left}}/speak Flor \"{{i18n:event.libraryBook.speak_6}}\"/pause 200/emote farmer {{emoteMusic}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_7}}\"/pause 200/emote farmer {{emoteHeart}}/pause 200/speak Flor \"{{i18n:event.libraryBook.speak_8}}\"/pause 200/emote farmer {{emoteBlush}} true/emote Flor {{emoteHeart}}/pause 300/{{fadeout}}/--END with end dialogue/end dialogue Flor \"{{i18n:event.libraryBook.endDialogue}}\""
+            }
+        },
         //Event 3 - Safeword Practice
         //debug ebi L0veRaven.FlorsExploration_safewordPractice
-            {
-                "LogName": "Event 3 - Safeword Practice",
-                "Action": "EditData",
-                "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
-                "Entries": {
-                    "{{modName}}_safewordPractice/LocalMail {{modName}}_safewordPracticeLetter": "sweet/9 5/farmer 6 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/speak Flor \"{{i18n:event.safewordPractice.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_2}}\"/pause 200/emote farmer {{emoteBlush}}/pause 300/faceDirection Flor {{right}}/pause 1000/quickQuestion {{i18n:event.safewordPractice.question}}#{{i18n:event.safewordPractice.answer_1}}#{{i18n:event.safewordPractice.answer_2}}#{{i18n:event.safewordPractice.answer_3}}#{{i18n:event.safewordPractice.answer_4}}(break){{safewordPractice_qq_incorrect}}(break){{safewordPractice_qq_incorrect}}(break){{safewordPractice_qq_correct}}(break){{safewordPractice_qq_incorrect}}/pause 200/faceDirection farmer {{down}}/move Flor 0 2 {{down}}/pause 500/faceDirection Flor {{up}}/pause 500/speak Flor \"{{i18n:event.safewordPractice.speak_3}}\"/pause 200/move Flor 0 -1 {{right}}/move farmer 0 1 {{left}}/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 2000/shake Flor 1000 true/faceDirection Flor {{down}}/emote farmer {{emoteSweat}}/pause 1000/speak Flor \"{{i18n:event.safewordPractice.speak_4}}\"/pause 200/emote farmer {{emoteHappy}}/pause 500/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_5}}\"/pause 200/emote farmer {{emoteHeart}}/pause 200/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 500/shake Flor 300/pause 400/speak Flor \"{{i18n:event.safewordPractice.speak_6}}\"/{{fadeout}}/stopMusic/--START HERE/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_7}}\"/pause 200/--Reset NPC positions/positionOffset Flor -10 0/showFrame Flor 0/faceDirection farmer {{left}}/{{fadein}} 9 5/pause 200/--RESUME EVENT/emote farmer {{emoteSweat}} true/shake Flor 300/pause 400/speak Flor \"{{i18n:event.safewordPractice.speak_8}}\"/pause 200/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_9}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_10}}\"/pause 200/emote Flor {{emotePause}}/pause 500/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_11}}\"/pause 200/{{fadeout}}/end dialogue Flor \"{{i18n:event.safewordPractice.endDialogue}}\""
-                }
-            },
+        {
+            "LogName": "Event 3 - Safeword Practice",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
+            "Entries": {
+                "{{modName}}_safewordPractice/LocalMail {{modName}}_safewordPracticeLetter": "sweet/9 5/farmer 6 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/speak Flor \"{{i18n:event.safewordPractice.speak_1}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_2}}\"/pause 200/emote farmer {{emoteBlush}}/pause 300/faceDirection Flor {{right}}/pause 1000/quickQuestion {{i18n:event.safewordPractice.question}}#{{i18n:event.safewordPractice.answer_1}}#{{i18n:event.safewordPractice.answer_2}}#{{i18n:event.safewordPractice.answer_3}}#{{i18n:event.safewordPractice.answer_4}}(break){{safewordPractice_qq_incorrect}}(break){{safewordPractice_qq_incorrect}}(break){{safewordPractice_qq_correct}}(break){{safewordPractice_qq_incorrect}}/pause 200/faceDirection farmer {{down}}/move Flor 0 2 {{down}}/pause 500/faceDirection Flor {{up}}/pause 500/speak Flor \"{{i18n:event.safewordPractice.speak_3}}\"/pause 200/move Flor 0 -1 {{right}}/move farmer 0 1 {{left}}/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 2000/shake Flor 1000 true/faceDirection Flor {{down}}/emote farmer {{emoteSweat}}/pause 1000/speak Flor \"{{i18n:event.safewordPractice.speak_4}}\"/pause 200/emote farmer {{emoteHappy}}/pause 500/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_5}}\"/pause 200/emote farmer {{emoteHeart}}/pause 200/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 500/shake Flor 300/pause 400/speak Flor \"{{i18n:event.safewordPractice.speak_6}}\"/{{fadeout}}/stopMusic/--START HERE/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_7}}\"/pause 200/--Reset NPC positions/positionOffset Flor -10 0/showFrame Flor 0/faceDirection farmer {{left}}/{{fadein}} 9 5/pause 200/--RESUME EVENT/emote farmer {{emoteSweat}} true/shake Flor 300/pause 400/speak Flor \"{{i18n:event.safewordPractice.speak_8}}\"/pause 200/faceDirection Flor {{right}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_9}}\"/pause 200/emote farmer {{emoteHappy}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_10}}\"/pause 200/emote Flor {{emotePause}}/pause 500/faceDirection Flor {{down}}/pause 200/speak Flor \"{{i18n:event.safewordPractice.speak_11}}\"/pause 200/{{fadeout}}/end dialogue Flor \"{{i18n:event.safewordPractice.endDialogue}}\""
+            }
+        },
         //Event 4 - Under the Stars
         //debug ebi L0veRaven.FlorsExploration_underTheStars
-            {
-                "LogName": "Event 4 - Under the Stars",
-                "Action": "EditData",
-                "Target": "Data/Events/Beach",
-                "Entries": {
-                    "{{modName}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "ocean/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start/move farmer -7 0 {{left}}/pause 1000/speak Flor \"{{i18n:event.underTheStars.speak_1}}\"/pause 500/emote farmer {{emoteMusic}}/pause 3000/speak Flor \"{{i18n:event.underTheStars.speak_2}}\"/pause 500/faceDirection farmer {{up}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{down}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_3}}\"/pause 500/faceDirection Flor {{left}} true/faceDirection farmer {{left}}/pause 3000/speak Flor \"{{i18n:event.underTheStars.speak_4}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_5}}\"/pause 500/faceDirection Flor {{down}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_6}}\"/pause 500/faceDirection farmer {{up}} true/emote farmer {{emoteQuestion}}/pause 1000/message \"{{i18n:event.underTheStars.message_1}}\"/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_7}}\"/pause 500/move farmer 1 0 {{down}}/move farmer 0 -2 {{left}}/pause 500/faceDirection Flor {{right}} true/emote Flor {{emoteBlush}} true/shake Flor 1000/pause 2000/emote farmer {{emoteQuestion}}/speak Flor \"{{i18n:event.underTheStars.speak_8}}\"/pause 500/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_9}}\"/{{fadeout}}/changeToTemporaryMap FarmHouse/viewport -1000 -1000/stopMusic/pause 1000/speak Flor \"{{i18n:event.underTheStars.speak_10}}\"/pause 1000/playSound doorCreak/pause 1000/playSound doorClose/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_11}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_12}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_13}}\"/pause 1000/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_14}}\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_15}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_16}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_17}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 1500/message \"{{i18n:event.underTheStars.message_2}}\"/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_18}}\"/pause 500/end bed"
-                }
-            },
+        {
+            "LogName": "Event 4 - Under the Stars",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "{{modName}}_underTheStars/SawEvent {{modName}}_safewordPractice/Spouse Flor/Time {{8pm}} {{2am}}": "ocean/10 11/farmer 17 13 {{left}} Flor 10 11 {{left}}/skippable/pause 1000/--Start/move farmer -7 0 {{left}}/pause 1000/speak Flor \"{{i18n:event.underTheStars.speak_1}}\"/pause 500/emote farmer {{emoteMusic}}/pause 3000/speak Flor \"{{i18n:event.underTheStars.speak_2}}\"/pause 500/faceDirection farmer {{up}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{down}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_3}}\"/pause 500/faceDirection Flor {{left}} true/faceDirection farmer {{left}}/pause 3000/speak Flor \"{{i18n:event.underTheStars.speak_4}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_5}}\"/pause 500/faceDirection Flor {{down}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_6}}\"/pause 500/faceDirection farmer {{up}} true/emote farmer {{emoteQuestion}}/pause 1000/message \"{{i18n:event.underTheStars.message_1}}\"/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_7}}\"/pause 500/move farmer 1 0 {{down}}/move farmer 0 -2 {{left}}/pause 500/faceDirection Flor {{right}} true/emote Flor {{emoteBlush}} true/shake Flor 1000/pause 2000/emote farmer {{emoteQuestion}}/speak Flor \"{{i18n:event.underTheStars.speak_8}}\"/pause 500/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_9}}\"/{{fadeout}}/changeToTemporaryMap FarmHouse/viewport -1000 -1000/stopMusic/pause 1000/speak Flor \"{{i18n:event.underTheStars.speak_10}}\"/pause 1000/playSound doorCreak/pause 1000/playSound doorClose/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_11}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_12}}\"/pause 2000/speak Flor \"{{i18n:event.underTheStars.speak_13}}\"/pause 1000/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_14}}\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_15}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_16}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/speak Flor \"{{i18n:event.underTheStars.speak_17}}\"/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 200/playSound slimeHit/pause 1500/message \"{{i18n:event.underTheStars.message_2}}\"/pause 500/speak Flor \"{{i18n:event.underTheStars.speak_18}}\"/pause 500/end bed"
+            }
+        },
         //Event 5 - Concerned For Farmer
         //debug ebi L0veRaven.FlorsExploration_concernedForFarmer
-            {
-                "LogName": "Event 5 - Concerned For Farmer",
-                "Action": "EditData",
-                "Target": "Data/Events/BusStop",
-                "Entries": {
-                    "{{modName}}_concernedForFarmer/SawEvent {{modName}}_underTheStars/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/move farmer -2 0 {{up}}/emote Flor {{emoteHeart}} true/emote farmer {{emoteHappy}} true/move farmer 0 -3 {{down}}/pause 2000/speak Flor \"{{i18n:event.concernedForFarmer.speak_1}}\"/pause 500/shake Flor 1000/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{right}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_2}}\"/pause 500/emote farmer {{emotePause}}/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_3}}\"/pause 500/emote farmer {{emoteBlush}}/pause 500/message \"{{i18n:event.concernedForFarmer.message_1}}\"/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_4}}\"/pause 500/faceDirection Flor {{down}} true/faceDirection farmer {{down}} true/emote farmer {{emoteBlush}} true/emote Flor {{emoteSweat}} true/pause 2000/message \"{{i18n:event.concernedForFarmer.message_2}}\"/pause 500/--Hug START/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/positionOffset Flor -10 0/positionOffset farmer 10 0/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/--Hug END/pause 500/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_5}}\"/pause 500/message \"{{i18n:event.concernedForFarmer.message_3}}\"/pause 500/faceDirection Flor {{down}} true/shake Flor 1000/faceDirection farmer {{down}}/pause 1500/speak Flor \"{{i18n:event.concernedForFarmer.speak_6}}\"/pause 500/positionOffset Flor 10 0/showFrame Flor 28/emote farmer {{emoteBlush}}/pause 1000/positionOffset Flor -10 0/faceDirection Flor {{right}}/pause 500/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_7}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 1000/speak Flor \"{{i18n:event.concernedForFarmer.speak_8}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/end dialogue Flor \"{{i18n:event.concernedForFarmer.endDialogue}}\""
-                }
-            },
+        {
+            "LogName": "Event 5 - Concerned For Farmer",
+            "Action": "EditData",
+            "Target": "Data/Events/BusStop",
+            "Entries": {
+                "{{modName}}_concernedForFarmer/SawEvent {{modName}}_underTheStars/Spouse Flor": "sweet/35 16/farmer 37 19 {{left}} Flor 34 16 {{down}}/skippable/pause 1000/--Start/move farmer -2 0 {{up}}/emote Flor {{emoteHeart}} true/emote farmer {{emoteHappy}} true/move farmer 0 -3 {{down}}/pause 2000/speak Flor \"{{i18n:event.concernedForFarmer.speak_1}}\"/pause 500/shake Flor 1000/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}}/pause 1000/faceDirection Flor {{right}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_2}}\"/pause 500/emote farmer {{emotePause}}/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_3}}\"/pause 500/emote farmer {{emoteBlush}}/pause 500/message \"{{i18n:event.concernedForFarmer.message_1}}\"/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_4}}\"/pause 500/faceDirection Flor {{down}} true/faceDirection farmer {{down}} true/emote farmer {{emoteBlush}} true/emote Flor {{emoteSweat}} true/pause 2000/message \"{{i18n:event.concernedForFarmer.message_2}}\"/pause 500/--Hug START/positionOffset Flor 10 0/positionOffset farmer -10 0/showFrame Flor 28/animate farmer true true 200 101/pause 2500/positionOffset Flor -10 0/positionOffset farmer 10 0/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/--Hug END/pause 500/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_5}}\"/pause 500/message \"{{i18n:event.concernedForFarmer.message_3}}\"/pause 500/faceDirection Flor {{down}} true/shake Flor 1000/faceDirection farmer {{down}}/pause 1500/speak Flor \"{{i18n:event.concernedForFarmer.speak_6}}\"/pause 500/positionOffset Flor 10 0/showFrame Flor 28/emote farmer {{emoteBlush}}/pause 1000/positionOffset Flor -10 0/faceDirection Flor {{right}}/pause 500/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.concernedForFarmer.speak_7}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 1000/speak Flor \"{{i18n:event.concernedForFarmer.speak_8}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/end dialogue Flor \"{{i18n:event.concernedForFarmer.endDialogue}}\""
+            }
+        },
         //Event 7 - Letter
-            {
-                "LogName": "Letter for Event 7 - Couple's Counseling",
-                "Action": "EditData",
-                "Target": "Data/Mail",
-                "Entries": {
-                    "{{modName}}_couplesCounselingLetter": "{{i18n:mail.couplesCounseling.body}}[#]{{i18n:mail.couplesCounseling.title}}"
-                }
-            },
+        {
+            "LogName": "Letter for Event 7 - Couple's Counseling",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{modName}}_couplesCounselingLetter": "{{i18n:mail.couplesCounseling.body}}[#]{{i18n:mail.couplesCounseling.title}}"
+            }
+        },
         //Event 6 - Why The Dark
         //debug ebi L0veRaven.FlorsExploration_whyTheDark
-            {
-                "LogName": "Event 6 - Why The Dark",
-                "Action": "EditData",
-                "Target": "Data/Events/Mountain",
-                "Entries": {
-                    "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor/Time {{12pm}} {{7pm}}": "sweet/64 14/farmer 65 10 {{down}} Flor 64 14 {{down}}/skippable/action AddMail current {{modName}}_couplesCounselingLetter/pause 1000/--Start/move farmer 0 4 {{down}}/pause 1500/faceDirection Flor {{right}} true/emote Flor {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_1}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_2}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 2000/message \"{{i18n:event.whyTheDark.message_1}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_3}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_4}}\"/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/shake Flor 1000/pause 1500/speak Flor \"{{i18n:event.whyTheDark.speak_5}}\"/pause 2000/message \"{{i18n:event.whyTheDark.message_2}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_6}}\"/pause 2000/faceDirection Flor {{right}}/pause 1500/--Hug/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 1500/message \"{{i18n:event.whyTheDark.message_3}}\"/pause 1500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_7}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_4}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_8}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_5}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_9}}\"/pause 500/shake Flor 1000/pause 3000/faceDirection Flor {{down}}/speak Flor \"{{i18n:event.whyTheDark.speak_10}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_6}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_11}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_7}}\"/pause 1000/faceDirection Flor {{right}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_13}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_14}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 3000/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
-                }
-            },
+        {
+            "LogName": "Event 6 - Why The Dark",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "{{modName}}_whyTheDark/SawEvent {{modName}}_concernedForFarmer/Spouse Flor/Time {{12pm}} {{7pm}}": "sweet/64 14/farmer 65 10 {{down}} Flor 64 14 {{down}}/skippable/action AddMail current {{modName}}_couplesCounselingLetter/pause 1000/--Start/move farmer 0 4 {{down}}/pause 1500/faceDirection Flor {{right}} true/emote Flor {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_1}}\"/pause 500/faceDirection farmer {{left}} true/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_2}}\"/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 2000/message \"{{i18n:event.whyTheDark.message_1}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_3}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_4}}\"/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/shake Flor 1000/pause 1500/speak Flor \"{{i18n:event.whyTheDark.speak_5}}\"/pause 2000/message \"{{i18n:event.whyTheDark.message_2}}\"/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_6}}\"/pause 2000/faceDirection Flor {{right}}/pause 1500/--Hug/positionOffset Flor 10 0/showFrame Flor 28/animate farmer true true 200 101/pause 1500/message \"{{i18n:event.whyTheDark.message_3}}\"/pause 1500/stopAnimation farmer/faceDirection Flor {{right}}/faceDirection farmer {{left}}/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_7}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_4}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_8}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_5}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_9}}\"/pause 500/shake Flor 1000/pause 3000/faceDirection Flor {{down}}/speak Flor \"{{i18n:event.whyTheDark.speak_10}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_6}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_11}}\"/pause 500/message \"{{i18n:event.whyTheDark.message_7}}\"/pause 1000/faceDirection Flor {{right}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 1000/speak Flor \"{{i18n:event.whyTheDark.speak_12}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_13}}\"/pause 500/speak Flor \"{{i18n:event.whyTheDark.speak_14}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/faceDirection farmer {{down}} true/faceDirection Flor {{down}}/pause 3000/{{fadeout}}/end dialogue Flor \"{{i18n:event.whyTheDark.endDialogue}}\""
+            }
+        },
         //Event 8 - Letter
-            {
-                "LogName": "Letter for Event 7 - Couple's Counseling",
-                "Action": "EditData",
-                "Target": "Data/Mail",
-                "Entries": {
-                    "{{modName}}_lightsOnLetter": "{{i18n:mail.lightsOn.body}}[#]{{i18n:mail.lightsOn.title}}"
-                }
-            },
+        {
+            "LogName": "Letter for Event 7 - Couple's Counseling",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{modName}}_lightsOnLetter": "{{i18n:mail.lightsOn.body}}[#]{{i18n:mail.lightsOn.title}}"
+            }
+        },
         //Event 7 - Couple's Counseling
         //debug ebi L0veRaven.FlorsExploration_couplesCounseling
-            {
-                "LogName": "Event 7 - Couple's Counseling",
-                "Action": "EditData",
-                "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
-                "Entries": {
-                    "{{modName}}_couplesCounseling/SawEvent {{modName}}_whyTheDark/LocalMail {{modName}}_couplesCounselingLetter/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.couplesCounseling.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 2000/faceDirection farmer {{left}}/shake Flor 1500/emote farmer {{emoteSweat}} true/emote Flor {{emoteSweat}}/pause 1500/message \"{{i18n:event.couplesCounseling.message_1}}\"/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_1}}\"/pause 1000/speak Paula \"{{i18n:event.couplesCounseling.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_3}}\"/pause 500/faceDirection Flor {{right}}/emote Flor {{emoteSweat}}/pause 1000/faceDirection Flor {{up}}/pause 1000/speak Flor \"{{i18n:event.couplesCounseling.flor_3}}\"/pause 2000/speak Paula \"{{i18n:event.couplesCounseling.paula_4}}\"/pause 2000/faceDirection Flor {{down}}/pause 1000/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/emote Flor {{emotePause}}/pause 1000/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.couplesCounseling.flor_4}}\"/pause 500/faceDirection Flor {{down}}/shake Flor 1500/pause 2000/faceDirection Flor {{up}}/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_5}}\"/pause 500/message \"{{i18n:event.couplesCounseling.message_2}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_6}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_5}}\"/pause 500/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 2000/speak Flor \"{{i18n:event.couplesCounseling.flor_7}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_6}}\"/pause 2000/speak Flor \"{{i18n:event.couplesCounseling.flor_8}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_7}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_9}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_8}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_10}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_9}}\"/pause 500/emote farmer {{emoteHappy}}/move farmer 0 1 {{right}}/move farmer 1 0 {{down}}/move farmer 0 3 {{down}}/doAction 19 11/move farmer 0 5 {{down}}/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_10}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_11}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_11}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_12}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_12}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_13}}\"/pause 500/emote Flor {{emoteHappy}} true/emote Paula {{emoteHappy}}/pause 1000/{{fadeout}}/end dialogue Flor \"{{i18n:event.couplesCounseling.endDialogue}}\""
-                }
-            },
+        {
+            "LogName": "Event 7 - Couple's Counseling",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
+            "Entries": {
+                "{{modName}}_couplesCounseling/SawEvent {{modName}}_whyTheDark/LocalMail {{modName}}_couplesCounselingLetter/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.couplesCounseling.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 2000/faceDirection farmer {{left}}/shake Flor 1500/emote farmer {{emoteSweat}} true/emote Flor {{emoteSweat}}/pause 1500/message \"{{i18n:event.couplesCounseling.message_1}}\"/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_1}}\"/pause 1000/speak Paula \"{{i18n:event.couplesCounseling.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_3}}\"/pause 500/faceDirection Flor {{right}}/emote Flor {{emoteSweat}}/pause 1000/faceDirection Flor {{up}}/pause 1000/speak Flor \"{{i18n:event.couplesCounseling.flor_3}}\"/pause 2000/speak Paula \"{{i18n:event.couplesCounseling.paula_4}}\"/pause 2000/faceDirection Flor {{down}}/pause 1000/faceDirection farmer {{left}} true/emote farmer {{emoteSweat}} true/emote Flor {{emotePause}}/pause 1000/faceDirection Flor {{right}}/speak Flor \"{{i18n:event.couplesCounseling.flor_4}}\"/pause 500/faceDirection Flor {{down}}/shake Flor 1500/pause 2000/faceDirection Flor {{up}}/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_5}}\"/pause 500/message \"{{i18n:event.couplesCounseling.message_2}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_6}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_5}}\"/pause 500/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 2000/speak Flor \"{{i18n:event.couplesCounseling.flor_7}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_6}}\"/pause 2000/speak Flor \"{{i18n:event.couplesCounseling.flor_8}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_7}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_9}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_8}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_10}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_9}}\"/pause 500/emote farmer {{emoteHappy}}/move farmer 0 1 {{right}}/move farmer 1 0 {{down}}/move farmer 0 3 {{down}}/doAction 19 11/move farmer 0 5 {{down}}/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_10}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_11}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_11}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_12}}\"/pause 500/speak Paula \"{{i18n:event.couplesCounseling.paula_12}}\"/pause 500/speak Flor \"{{i18n:event.couplesCounseling.flor_13}}\"/pause 500/emote Flor {{emoteHappy}} true/emote Paula {{emoteHappy}}/pause 1000/{{fadeout}}/end dialogue Flor \"{{i18n:event.couplesCounseling.endDialogue}}\""
+            }
+        },
         //Event 8 - Lights On
         //debug ebi L0veRaven.FlorsExploration_lightsOn
-            {
-                "LogName": "Event 8 - Lights On",
-                "Action": "EditData",
-                "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
-                "Entries": {
-                    "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time {{7pm}} {{2am}}/": "sweet/9 5/farmer 7 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/speak Flor \"{{i18n:event.lightsOn.speak_1}}\"/pause 500/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_2}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/{{fadeout}}/showFrame Flor 49/pause 150/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 1500/speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/showFrame Flor 50/pause 1000/showFrame Flor 49/pause 1000/showFrame Flor 61/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/pause 500/animate Flor false true 150 51 53 51 53 51 53 51 53 52/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 150 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_8}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 100 56 58 57 60 59/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_9}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 50 56 58 57 60 59/pause 5000/{{fadeout}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_10}}\"/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_11}}\"/stopAnimation Flor 0/faceDirection Flor {{right}}/{{fadein}} 9 5/pause 2000/speak Flor \"{{i18n:event.lightsOn.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_13}}\"/pause 500/emote farmer {{emoteHeart}} true/emote Flor {{emoteHeart}}/pause 1000/--End/{{fadeout}}/end"
-                }
-            },
+        {
+            "LogName": "Event 8 - Lights On",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
+            "Entries": {
+                "{{modName}}_lightsOn/SawEvent {{modName}}_couplesCounseling/Spouse Flor/Time {{7pm}} {{2am}}/": "sweet/9 5/farmer 7 6 {{left}} Flor 5 6 {{right}}/skippable/pause 2000/--Start/speak Flor \"{{i18n:event.lightsOn.speak_1}}\"/pause 500/emote farmer {{emoteQuestion}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_2}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/{{fadeout}}/showFrame Flor 53/pause 150/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 1500/speak Flor \"{{i18n:event.lightsOn.speak_3}}\"/pause 500/{{fadein}} 9 5/pause 1000/emote farmer {{emoteHeart}}/showFrame Flor 54/pause 1000/showFrame Flor 53/pause 1000/showFrame Flor 65/emote Flor {{emoteBlush}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_4}}\"/pause 500/emote farmer {{emoteHeart}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_5}}\"/pause 500/animate Flor false true 150 55 57 55 57 55 57 55 57 56/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_6}}\"/pause 5000/stopAnimation Flor 59/animate Flor false true 150 60 62 61 64 63/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_7}}\"/pause 5000/stopAnimation Flor 59/animate Flor false true 150 60 62 61 64 63/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_8}}\"/pause 5000/stopAnimation Flor 59/animate Flor false true 100 60 62 61 64 63/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_9}}\"/pause 5000/stopAnimation Flor 59/animate Flor false true 50 60 62 61 64 63/pause 5000/{{fadeout}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_10}}\"/pause 5000/speak Flor \"{{i18n:event.lightsOn.speak_11}}\"/stopAnimation Flor 0/faceDirection Flor {{right}}/{{fadein}} 9 5/pause 2000/speak Flor \"{{i18n:event.lightsOn.speak_12}}\"/pause 500/emote farmer {{emoteHappy}}/pause 500/speak Flor \"{{i18n:event.lightsOn.speak_13}}\"/pause 500/emote farmer {{emoteHeart}} true/emote Flor {{emoteHeart}}/pause 1000/--End/{{fadeout}}/end"
+            }
+        },
         //Event 9 - Follow Up Appointment
         //debug ebi L0veRaven.FlorsExploration_followUpAppointment
-            {
-                "LogName": "Event 9 - Follow Up Appointment",
-                "Action": "EditData",
-                "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
-                "Entries": {
-                    "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 500/emote Flor {{emoteBlush}}/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_3}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_3}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_4}}\"/pause 500/faceDirection Flor {{right}} true/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}} true/emote Flor {{emoteQuestion}}/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 1000/message \"{{i18n:event.followUpAppointment.message_1}}\"/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_4}}\"/pause 1000/speak Paula \"{{i18n:event.followUpAppointment.paula_5}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_5}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_6}}\"/pause 500/faceDirection farmer {{left}} true/faceDirection Flor {{right}} true/emote farmer {{emoteHappy}} true/emote Flor {{emoteHappy}}/pause 1000/{{fadeout}}/end"
-                }
-            },
+        {
+            "LogName": "Event 9 - Follow Up Appointment",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Ridgeside_PaulaClinic",
+            "Entries": {
+                "{{modName}}_followUpAppointment/SawEvent {{modName}}_lightsOn/Spouse Flor/DayOfWeek Monday/Time {{8am}} {{8pm}}/": "sweet/16 6/farmer 18 6 {{up}} Flor 14 6 {{up}} Paula 16 5 {{down}}/skippable/pause 1000/--Start/speak Paula \"{{i18n:event.followUpAppointment.paula_1}}\"/pause 500/faceDirection Flor {{right}}/pause 500/emote Flor {{emoteBlush}}/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_1}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_2}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_2}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_3}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_3}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_4}}\"/pause 500/faceDirection Flor {{right}} true/faceDirection farmer {{left}} true/emote farmer {{emoteQuestion}} true/emote Flor {{emoteQuestion}}/pause 1000/faceDirection Flor {{up}} true/faceDirection farmer {{up}}/pause 1000/message \"{{i18n:event.followUpAppointment.message_1}}\"/pause 1000/speak Flor \"{{i18n:event.followUpAppointment.flor_4}}\"/pause 1000/speak Paula \"{{i18n:event.followUpAppointment.paula_5}}\"/pause 500/speak Flor \"{{i18n:event.followUpAppointment.flor_5}}\"/pause 500/speak Paula \"{{i18n:event.followUpAppointment.paula_6}}\"/pause 500/faceDirection farmer {{left}} true/faceDirection Flor {{right}} true/emote farmer {{emoteHappy}} true/emote Flor {{emoteHappy}}/pause 1000/{{fadeout}}/end"
+            }
+        },
         //Event 10 - Frisky Shower
         //debug ebi L0veRaven.FlorsExploration_friskyShower
-            {
-                "LogName": "Event 10 - Frisky Shower",
-                "Action": "EditData",
-                "Target": "Data/Events/Railroad",
-                "Entries": {
-                    "{{modName}}_friskyShower/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Monday": "sweet/3 5/farmer -1000 -1000 {{down}} Flor 3 5 {{down}}/skippable/changeToTemporaryMap BathHouse_WomensLocker/showFrame Flor 49/pause 2500/--Start/speak Flor \"{{i18n:event.friskyShower.speak_1}}\"/pause 500/showFrame Flor 61/pause 500/speak Flor \"{{i18n:event.friskyShower.speak_2}}\"/pause 500/showFrame Flor 49/pause 500/animate Flor false true 500 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_3}}\"/pause 5000/stopAnimation Flor 51/animate Flor false true 300 51 52 53 53 51 54 52 53 51/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_4}}\"/stopAnimation Flor 51/animate Flor false false 300 56 57 58 59 60/stopAnimation Flor 57/animate Flor false true 300 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_5}}\"/pause 2000/stopAnimation Flor 60/animate Flor false true 200 57 59 58 60/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_6}}\"/pause 3000/stopAnimation Flor 57/pause 500/showFrame Flor 59/pause 250/showFrame Flor 57/pause 2000/showFrame Flor 49/pause 1000/speak Flor \"{{i18n:event.friskyShower.speak_7}}\"/pause 1000/end"
-                }
-            },
-        //Event 11 - First Toy
-        //debug ebi L0veRaven.FlorsExploration_firstToy
-            {
-                "LogName": "Event 11 - First Toy",
-                "Action": "EditData",
-                "Target": "Data/Events/Custom_Ridgeside_LogCabinHotel2ndFloor",
-                "Entries": {
-                    "{{modName}}_firstToy/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Thursday": "sweet/9 5/farmer -1000 -1000 {{down}} Flor 2 5 {{up}}/skippable/pause 2500/--Start/speak Flor \"{{i18n:event.event.firstToy.speak_1}}\"/pause 500/move Flor 0 2 {{right}}/move Flor 2 0 {{down}}/pause 500/speak Flor \"{{i18n:event.event.firstToy.speak_2}}\"/pause 1000/end"
-                    //speak Flor \"{{i18n:event.event.firstToy.speak_}}\"/
-                    //make sprites
-                }
+        {
+            "LogName": "Event 10 - Frisky Shower",
+            "Action": "EditData",
+            "Target": "Data/Events/Railroad",
+            "Entries": {
+                "{{modName}}_friskyShower/SawEvent {{modName}}_followUpAppointment/Spouse Flor/DayOfWeek Monday": "sweet/3 5/farmer -1000 -1000 {{down}} Flor 3 5 {{down}}/skippable/changeToTemporaryMap BathHouse_WomensLocker/showFrame Flor 53/pause 2500/--Start/speak Flor \"{{i18n:event.friskyShower.speak_1}}\"/pause 500/showFrame Flor 65/pause 500/speak Flor \"{{i18n:event.friskyShower.speak_2}}\"/pause 500/showFrame Flor 53/pause 500/animate Flor false true 500 55 56 57 57 55 58 56 57 55/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_3}}\"/pause 5000/stopAnimation Flor 55/animate Flor false true 300 55 56 57 57 55 58 56 57 55/pause 3000/speak Flor \"{{i18n:event.friskyShower.speak_4}}\"/stopAnimation Flor 55/animate Flor false false 300 60 61 62 63 64/stopAnimation Flor 61/animate Flor false true 300 61 63 62 64/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_5}}\"/pause 2000/stopAnimation Flor 64/animate Flor false true 200 61 63 62 64/pause 10000/speak Flor \"{{i18n:event.friskyShower.speak_6}}\"/pause 3000/stopAnimation Flor 61/pause 500/showFrame Flor 63/pause 250/showFrame Flor 61/pause 2000/showFrame Flor 53/pause 1000/speak Flor \"{{i18n:event.friskyShower.speak_7}}\"/pause 1000/end"
             }
+        },
     ]
 }
