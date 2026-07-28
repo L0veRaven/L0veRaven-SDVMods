@@ -4,6 +4,26 @@
     "event.018.02": "Bleh, I'm a vampire!#$b#I'm going to drink your blood Vincent!",
     "event.018.03": "Ahh! I'm gonna die!",
 
+    "event.019.01": "Hey, Penny!",
+    "event.019.02": "Hm... I don't think she can hear me.$2",
+    "event.019.03": "Hey, Penny, whatcha readin' there?$1",
+    "event.019.04": "Oh, hi mother.$1#$b#I'm just reading a book called 'Hockey Rivalry'.",
+    "event.019.05": "Is that one of your romance books?",
+    "event.019.06": "...$4#$b#Yes.$4",
+    "event.019.07": "You know, I've always wondered, how come you haven't settled down with someone yet?",
+    "event.019.08": "...$2",
+    "event.019.09": "I'm serious! You're a charmer! Definitely lookin' better than an old woman like me.$1",
+    "event.019.10": "Please don't think so little of yourself. Besides, not everything is about looks.$2#$b#I just never saw anything romantic in anyone in town.$3#$b#After all, I am busy with tutoring the kids. That takes quite a bit of time out of my days.$3",
+    "event.019.11": "Have you tried giving online dating a shot? It might give you better luck than the small dating pool out here.",
+    "event.019.12": "Mother, I appreciate the thought, really, but I'm not that interested in dating at the moment.$2",
+    "event.019.13": "Why do you say that? Is it a self-esteem thing?$2",
+    "event.019.14": "No, it's not about self-esteem. I'm just not really interested in anyone at the moment.$3#$b#...$2",
+    "event.019.15": "...$4#$b#Sorry, I think I'm buggin' you about it. Maybe it's better if we just drop the subject?$2",
+    "event.019.16": "It's not like that, really.$3#$b#I just don't have an interest in anyone in town, and I don't feel a pull towards trying online dating.$3#$b#If there's someone out there for me, it'd ideally happen naturally.",
+    "event.019.17": "You're so independent, it really brings a tear to my eye.#$b#I know you'll go far kid, I believe in you.$1",
+    "event.019.18": "Thanks mother.$1#$b#Is it okay if I go back to my book?",
+    "event.019.19": "Ah, my mistake! I completely forgot you were in the middle of something.$1#$b#I'll see you at home, kid.",
+
     //1.0.3 update
     "event.010.01": "Jas, what are you doing out here in the graveyard?$4",
     "event.010.02": "I'm reading to Mommy and Daddy.",
@@ -265,5 +285,5 @@
     "event7.028": "... Maybe? I don't think it's comparable at least.$3#$b#My father never intended on coming back home...$2#$b#Your father wants to come home, though. I know it.",
     "event7.029": "I believe he wants to come home, too.#$b#I just hope he comes home sooner rather than later. I don't want Vincent asking difficult questions.$2",
     "event7.030": "I'm sure Vincent will be just fine. Just keep an eye on him.$1",
-    "event7.031": "Thanks for being a great friend, Penny.$1",
+    "event7.031": "Thanks for being a great friend, Penny.$1"
 }

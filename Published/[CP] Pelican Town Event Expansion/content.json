@@ -267,19 +267,7 @@
                 speak Jas \"{{i18n:event8.005}}\"/pause 500/faceDirection Jas 2/pause 500/
                 speak Jas \"{{i18n:event8.006}}\"/pause 500/shake Jas 1500/pause 2000/
                 speak Jas \"{{i18n:event8.007}}\"/pause 500/faceDirection Jas 1/pause 1000/
-                quickQuestion {
-                    {i18n:event8.008
-                    }
-                }#{
-                    {i18n:event8.009
-                    }
-                }#{
-                    {i18n:event8.010
-                    }
-                }#{
-                    {i18n:event8.011
-                    }
-                }(break)friendship Jas 50\\pause 500\\speak Jas \"{{i18n:event8.012}}\"\\pause 500(break)friendship Jas 15\\pause 500\\speak Jas \"{{i18n:event8.013}}\"\\pause 500(break)friendship Jas -50\\pause 500\\speak Jas \"{{i18n:event8.014}}\"\\pause 500/
+                quickQuestion {{i18n:event8.008}}#{{i18n:event8.009}}#{{i18n:event8.010}}#{{i18n:event8.011}}(break)friendship Jas 50\\pause 500\\speak Jas \"{{i18n:event8.012}}\"\\pause 500(break)friendship Jas 15\\pause 500\\speak Jas \"{{i18n:event8.013}}\"\\pause 500(break)friendship Jas -50\\pause 500\\speak Jas \"{{i18n:event8.014}}\"\\pause 500/
                 speak Jas \"{{i18n:event8.015}}\"/pause 500/
                 message \"{{i18n:event8.016}}\"/pause 500/
                 speak Jas \"{{i18n:event8.017}}\"/pause 500/faceDirection Jas 3/pause 500/
@@ -507,11 +495,12 @@
                 end"
             }
         },
+        //========================
         //1.0.4 Events
         //patch reload L0veRaven.PTEE
         //debug ebi L0veRaven.PTEE_018
         {
-            "LogName": "Event 18 - Jas",
+            "LogName": "Event 18 - Jas, Vincent",
             "Action": "EditData",
             "Target": "Data/Events/AnimalShop",
             "Entries": {
@@ -520,9 +509,38 @@
                 message \"{{i18n:event.018.01}}\"/pause 1500/
                 speak Jas \"{{i18n:event.018.02}}\"/pause 1500/
                 speak Vincent \"{{i18n:event.018.03}}\"/pause 1500/
-                
-                speak Jas \"{{i18n:event.018.04}}\"/pause 1500/
-                speak Jas \"{{i18n:event.018.05}}\"/pause 500/
+                end"
+            }
+        },
+        //========================
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_019
+        {
+            "LogName": "Event 19 - Penny, Pam",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_019/Friendship Penny 250 Pam 250": "jaunty/34 90/farmer -1000 -1000 2 Penny 33 90 2 Pam 29 84 2/skippable/showFrame Penny 18/pause 2000/
+                --Start/move Pam 0 6 1/pause 1500/
+                speak Pam \"{{i18n:event.019.01}}\"/pause 1500/
+                speak Pam \"{{i18n:event.019.02}}\"/pause 500/move Pam 2 0 1/pause 500/
+                speak Pam \"{{i18n:event.019.03}}\"/pause 500/faceDirection Penny 2/pause 150/faceDirection Penny 3/pause 500/
+                speak Penny \"{{i18n:event.019.04}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.05}}\"/pause 500/
+                speak Penny \"{{i18n:event.019.06}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.07}}\"/pause 500/faceDirection Penny 2/pause 150/showFrame Penny 23/pause 1000/
+                speak Penny \"{{i18n:event.019.08}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.09}}\"/pause 500/showFrame Penny 12/pause 500/
+                speak Penny \"{{i18n:event.019.10}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.11}}\"/pause 500/faceDirection Penny 1/pause 500/
+                speak Penny \"{{i18n:event.019.12}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.13}}\"/pause 500/faceDirection Penny 3/pause 500/
+                speak Penny \"{{i18n:event.019.14}}\"/pause 1500/
+                speak Pam \"{{i18n:event.019.15}}\"/pause 500/
+                speak Penny \"{{i18n:event.019.16}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.17}}\"/pause 500/
+                speak Penny \"{{i18n:event.019.18}}\"/pause 500/
+                speak Pam \"{{i18n:event.019.19}}\"/pause 500/faceDirection Penny 2/pause 150/showFrame Penny 18/pause 150/move Pam -5 0 3/
                 end"
             }
         },
