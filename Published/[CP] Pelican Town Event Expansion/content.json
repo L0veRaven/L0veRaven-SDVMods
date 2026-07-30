@@ -504,12 +504,30 @@
             "Action": "EditData",
             "Target": "Data/Events/AnimalShop",
             "Entries": {
-                "{{ModId}}_018/Friendship Jas 250 Vincent 250": "jaunty/5 6/farmer -1000 -1000 2 Jas 4 6 0 Vincent 6 6 2/skippable/pause 2000/
+                "{{ModId}}_018/Friendship Jas 250 Vincent 250": "jaunty/5 6/farmer -1000 -1000 2 Jas 4 6 1 Vincent 6 6 3 Marnie 3 16 0/skippable/pause 2000/
                 --Start/
-                message \"{{i18n:event.018.01}}\"/pause 1500/
-                speak Jas \"{{i18n:event.018.02}}\"/pause 1500/
-                speak Vincent \"{{i18n:event.018.03}}\"/pause 1500/
-                end"
+                message \"{{i18n:event.018.01}}\"/pause 500/
+                speak Jas \"{{i18n:event.018.02}}\"/pause 500/
+                speak Vincent \"{{i18n:event.018.03}}\"/pause 500/
+                speed Vincent 5/move Vincent 0 6 2/doAction 6 12/viewport move 0 8 1500/
+                speed Vincent 5/move Vincent 0 4 3/move Vincent -2 0 3/shake Vincent 2000/faceDirection Marnie 1/emote Marnie 16/pause 1500/
+                speak Marnie \"{{i18n:event.018.04}}\"/pause 500/move Jas 2 0 2/move Jas 0 10 3 true/pause 150/
+                speak Vincent \"{{i18n:event.018.05}}\"/pause 150/textAboveHead Vincent \"*sob*\"/pause 300/emote Jas 28/pause 1000/
+                speak Jas \"{{i18n:event.018.06}}\"/pause 500/shake Jas 2000/textAboveHead Jas \"*sniff*\"/emote Marnie 28/pause 1500/
+                speak Marnie \"{{i18n:event.018.07}}\"/pause 500/
+                speak Marnie \"{{i18n:event.018.08}}\"/pause 500/
+                speak Jas \"{{i18n:event.018.09}}\"/pause 500/
+                speak Marnie \"{{i18n:event.018.10}}\"/pause 150/faceDirection Jas 2/emote Jas 28/pause 500/
+                speak Jas \"{{i18n:event.018.11}}\"/pause 150/faceDirection Marnie 2/textAboveHead Marnie \"*sigh*\"/pause 500/
+                speak Marnie \"{{i18n:event.018.12}}\"/pause 150/faceDirection Marnie 1 true/faceDirection Jas 3 true/pause 500/
+                speak Marnie \"{{i18n:event.018.13}}\"/pause 500/
+                speak Vincent \"{{i18n:event.018.14}}\"/pause 500/
+                speak Jas \"{{i18n:event.018.15}}\"/pause 500/message \"{{i18n:event.018.16}}\"/
+                speak Marnie \"{{i18n:event.018.17}}\"/pause 150/jump Vincent 8/pause 500/
+                speak Vincent \"{{i18n:event.018.18}}\"/pause 150/jump Jas 8/pause 500/
+                speak Jas \"{{i18n:event.018.19}}\"/pause 500/
+                speak Vincent \"{{i18n:event.018.20}}\"/pause 500/
+                end dialogue Vincent \"{{i18n:event.018.end_vincent}}\""
             }
         },
         //========================
@@ -541,6 +559,39 @@
                 speak Pam \"{{i18n:event.019.17}}\"/pause 500/
                 speak Penny \"{{i18n:event.019.18}}\"/pause 500/
                 speak Pam \"{{i18n:event.019.19}}\"/pause 500/faceDirection Penny 2/pause 150/showFrame Penny 18/pause 150/move Pam -5 0 3/
+                end"
+            }
+        },
+        //========================
+        //patch reload L0veRaven.PTEE
+        //debug ebi L0veRaven.PTEE_020
+        {
+            "LogName": "Event 20 - Penny",
+            "Action": "EditData",
+            "Target": "Data/Events/Trailer",
+            "Entries": {
+                "{{ModId}}_020/Friendship Penny 300": "jaunty/34 90/farmer -1000 -1000 2 Penny 12 7 0/skippable/animate Penny 18/pause 2000/
+                --Start/
+                speak Penny \"{{i18n:event.020.01}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.02}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.03}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.04}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.05}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.06}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.07}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.08}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.09}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.10}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.11}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.12}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.13}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.14}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.15}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.16}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.17}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.18}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.19}}\"/pause 500/
+                speak Penny \"{{i18n:event.020.20}}\"/pause 500/
                 end"
             }
         },
