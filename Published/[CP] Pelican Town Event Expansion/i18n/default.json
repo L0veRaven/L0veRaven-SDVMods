@@ -43,7 +43,7 @@
     "event.019.19": "Ah, my mistake! I completely forgot you were in the middle of something.$1#$b#I'll see you at home, kid.",
 
     "event.020.01": "It took me an hour to get the dishes done, but at least they're clean.$3",
-    "event.020.02": "I wonder if there are such thing as trailer-friendly dishwasher machines...$3#$b#I would hope they exist. It might be something for us to save up money for.$2",
+    "event.020.02": "I wonder if trailer-friendly dishwasher machines exist...$3#$b#I would hope they do. It might be something for us to save up money for.$2",
     "event.020.03": "I could hand dry all the dishes and get them put away now...$3#$b#But I could clean other things while the dishes air-dry...",
     "event.020.04": "I just wish my mother was willing to help out with some of the cleaning around here. It all gets left up to me.$5",
     "event.020.05": "Hm? What's with that look on your face, kiddo?$2",
@@ -53,6 +53,13 @@
     "event.020.09": "You act like I'm not busy throughout the day. There's a reason why I'm not always on top of cleaning all the time.$3",
     "event.020.10": "So bringing this up was for nothing. Nevermind then.$2",
     "event.020.11": "You're talking back to me? Fine then, we don't have anything to talk about.$3",
+
+    "event.021.01": "...$2#$b#So Penny does all these dishes by hereself all the time, doesn't she?$2",
+    "event.021.02": "She shouldn't be complaining about doing the dishes anyways. I let her live under my roof even though she's a grown adult.$3",
+    "event.021.03": "It won't kill her to clean the house.$4",
+    "event.021.04": "Then again... It isn't too fair if I put all the housework onto her...$2#$b#She does spend some of the days tutoring Jas and Vincent, after all.$4",
+    "event.021.05": "I'm such a screw-up of a mother... I don't think I'm doing enough for Penny.$2#$b#I love her to bits, but I keep falling short.$2",
+    "event.021.06": "... Maybe I can try to make things up to her by at least washing the dishes.$2#$b#It isn't much, but at least it's something.$2",
 
     //1.0.3 update
     "event.010.01": "Jas, what are you doing out here in the graveyard?$4",
