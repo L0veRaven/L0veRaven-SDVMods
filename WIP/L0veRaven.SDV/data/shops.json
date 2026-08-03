@@ -6,29 +6,25 @@
             "Entries": {
                 "{{ModId}}_Cafe": {
                     "Owners": [
-                        //{
-                        //    "Name": "{{Raven}}", //Raven must be in range
-                        //    "Portrait": "{{Raven}}",
-                        //    "Dialogues": [
-                        //            {
-                        //                "Id": "{{ModId}}_Open",
-                        //                "Condition": "TIME 800 1600",
-                        //                "Dialogue": "{{i18n:cafe.strings.open}}"
-                        //            }
-                        //        ]
-                        //},
                         {
-                            "Name": "AnyOrNone", //regardless of who is present
+                            "Name": "{{Raven}}", //Raven must be in range
+                            "Portrait": "{{Raven}}",
                             "Dialogues": [
-                                {
-                                    "Id": "{{ModId}}_Open",
-                                    "Condition": "TIME 800 1600",
-                                    "Dialogue": "{{i18n:cafe.strings.open}}"
-                                }
-                            ]
+                                    {
+                                        "Id": "{{ModId}}_Open",
+                                        "Condition": "TIME 800 1600",
+                                        "Dialogue": "{{i18n:cafe.strings.open}}"
+                                    }
+                                ]
                         },
                         {
-                            "Name": "AnyOrNone", //regardless of who is present
+                            "Name": "None", //No one is present during business hours
+                            "Id": "{{ModId}}_Wait",
+                            "Condition": "TIME 800 1600",
+                            "ClosedMessage": "{{i18n:cafe.strings.wait}}"
+                        },
+                        {
+                            "Name": "AnyOrNone", //Regardless of if anyone is present
                             "Id": "{{ModId}}_Closed",
                             "Condition": "!TIME 800 1600",
                             "ClosedMessage": "{{i18n:cafe.strings.closed}}"
@@ -61,6 +57,7 @@
                         },
                         {
                             "Id": "{{ModId}}_PinkCake",
+                            "Condition": "SEASON Summer",
                             "ItemId": "(O)221",
                             "Price": 400,
                             "ApplyProfitMargins": true
@@ -74,6 +71,7 @@
                         {
                             "Id": "{{ModId}}_PumpkinPie",
                             "ItemId": "(O)608",
+                            "Condition": "SEASON Fall",
                             "Price": 500,
                             "ApplyProfitMargins": true
                         }

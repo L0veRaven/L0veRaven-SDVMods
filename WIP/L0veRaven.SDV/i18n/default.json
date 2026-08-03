@@ -2,7 +2,7 @@
     // ## DELETE ON RELEASE: Start
     "warp-sections.pelican-valley-loft": "Pelican Valley Loft",
     "CJB.ravenApartment": "Apt 1A: Raven",
-    "CJB_ZaydensApartment": "1J: Zayden",
+    "CJB.zaydensApartment": "1J: Zayden",
     // ## DELETE ON RELEASE: End
 
     //ConfigSchema
@@ -320,7 +320,7 @@
             //Raven: 0 Hearts
     "dialogue.raven.0hearts_1": "Some of the people here say that I have a lot to say.#$e#I can't tell if that's supposed to be a bad thing or not, though.$17",
     "dialogue.raven.0hearts_2": "If you take medications, you can go to Harvey's clinic.#$b#He also sells Ferngill Medical Board approved medications for exhaustion and energy. They work instantly!$1",
-    "dialogue.raven.0hearts_3": "I love the library here. There are so many books!$1$#b#There's not nearly enough fantasy in there though..$2",
+    "dialogue.raven.0hearts_3": "I love the library here. There are so many books!$1#b#There's not nearly enough fantasy in there though..$2",
     "dialogue.raven.0hearts_4": "I know it's weird seeing me nap random places, but since I live out of a tent, I either sleep there or wherever else I can.$11#$e#I know living out of a tent isn't the best, but it's not like a house is gonna appear out of nowhere for me.$2#$b#Pelican Town needs more space for housing if they want more people to move in.$$11",
     "dialogue.raven.0hearts_5": "Mayor Lewis has a strange vibe to him.$17#$b#I don't know what it is, but I feel like he's hiding some secrets.$5#$e#Don't take my word for it though. I could be completely wrong!$11",
     "dialogue.raven.0hearts_6": "Pelican Town has quite the collection of secrets.#$e#I'm just saying, some people are worth side-eyeing.$17",
@@ -377,7 +377,7 @@
     "dialogue.zayden.0hearts_2": "If I'm in the heat for too long, I get heat rashes.#$b#It's really uncomfortable.$4",
     "dialogue.zayden.0hearts_3": "I'm curious about something...#$b#$y 'Are you gonna focus on raising animals, crops, or making artisan goods?_Raising animals_That'll be pretty profitable as long as you stay consistent. You'll do fine.$7_Raising crops_I hear that once you get sprinklers all over the farm that it gets way easier from there. You've got this._Artisan goods_Listen... If you end up making cheese, can you save some for me? I'll be sure to pay you for it.$2",
     "dialogue.zayden.0hearts_4": "I know I'm not super expressive. I'm just not the type to really... care about putting on a performance?$2#$b#That's what it feels like to be really expressive. It's not really authentic for me.",
-    "dialogue.zayden.0hearts_5": "I smell like sunscreen? Well, yeah. I have sunscreen on.#$b#*whispers* Does it smell bad?$4",
+    "dialogue.zayden.0hearts_5": "I smell like sunscreen? Yeah. I have sunscreen on.#$b#*whispers* Does it smell bad?$4",
     "dialogue.zayden.0hearts_6": "There's not much that goes on at work. There's hardly any gossip, surprisingly.",
 //TODO: Portraits
     "dialogue.zayden.0hearts_7": "I'm a bit tired from work. I should maybe go on vacation or something to relax.#$b#Are you able to take vacations or would that be bad for the farm?",
@@ -1011,6 +1011,8 @@
     "mapString.ravenSpouseRoom.pianoKeyboard": "The keyboard is turned on.",
     "mapString.ravenSpouseRoom.yobaShrine": "The shrine for Yoba is shining brighter than everything else in the room for some reason...",
     "mapString.ravenSpouseRoom.bookshelf": "There is a collection of manga and novels stacked on the shelves.",
+    "mapString.cafeZone": "Business Property - For Sale",
+    "mapString.cafe": "\"Love Raven\" Cafe",
     "mapString.zaydenApartment.fridge": "The fridge is low on cheese.",
     //Data/Mail.json
         //{{Raven}}_CheckIn - Event
@@ -1033,6 +1035,9 @@
         //{{Raven}}ravenApartment - Event
     "mail.eventStart.raven.apartment.message": "@, I did it!^^I finally got myself an apartment! I picked up the keys and I've already moved in the belongings that I had in my storage unit back in Zuzu City.^^I'm so happy that I got this far. I was able to get there with you supporting me, so thanks a lot. You should come check it out! I live at Pelican Valley Loft by Linus' tent in apartment 1A. Go up the first flight of stairs and I'm the first apartment on the left.^^Thanks for being there for me through everything.^^~ Raven",
     "mail.eventStart.raven.apartment.title": "Raven's Apartment",
+        //{{Raven}}_Cafe - Event
+    "mail.eventStart.raven.cafe.message": "GRAND OPENING OF LOVE RAVEN^^Have you ever wanted something to help wake you up early in the morning? Have you ever wanted something made by hand to quench your thirst?^^Then look no further than Love Raven! Our cafe is open from the hours of 8am to 4pm.^^We look forward to seeing you soon!^~ Love Raven",
+    "mail.eventStart.raven.cafe.title": "Love Raven's Grand Opening",
         //{{Zayden}}_Welcome
     "mail.zayden.WelcomeMail_message": "Hello there, this is Zayden.^^I'm mailing this before I come back from visiting family, but it didn't take long for me to hear about you moving in. I'm not super social, but I figured I'd still welcome you to Pelican Town.^^It's not hard to fit in here, honestly. Everyone is pretty chill as long as you don't go slingshotting people left and right. Trust me, it's a long story about an old resident. He doesn't live here anymore, so you're safe.^^Anyways, welcome to Pelican Town and I hope you enjoy your stay. Since you're starting out with farming, have some seeds. My family still gifts them to me even though I can't grow crops in my apartment. Good luck.^^- Zayden",
     "mail.zayden.WelcomeMail_title": "Welcome to Pelican Town",
@@ -1044,7 +1049,7 @@
     "mail.zayden.GotHired_title": "New Job",
     
     //Raven Events
-        //Event 1 - L0veRaven_Raven_CatLover
+        //L0veRaven_Raven_CatLover
         "event.CatLover.raven_1": "Penny... Are you okay?$2",
         "event.CatLover.penny_1": "Hi Raven.$3",
 
@@ -1110,6 +1115,19 @@
                 "event.CheckIn_qQ_3_5": "At least I got that part right!",
         "event.CheckIn_5": "I'm probably holding you up from what you're doing, but it was great seeing you again!$1",
         "event.CheckIn_end": "I know it can be hard to try to fit into new communities. That's why I wanna make sure you feel welcome, you know?",
+
+    //L0veRaven_Raven_KnowingLinus
+        "event.KnowingLinus_01": "You do a really good job at cooking fish!$1#$b#I definitely could pick up some pointers from you.",//Raven
+        "event.KnowingLinus_02": "It's quite simple to learn, actually.$1#$b#It's just about learning what kinds of seasoning to put on the food and not leaving the heat on one side of the fish for too long.",//Linus
+        "event.KnowingLinus_03": "Oh, hey there @!#$b#Linus just cooked up some fish that we caught together.#$b#It was so tasty, I wish we had more!$1",//Raven
+        "event.KnowingLinus_04": "You also want to be careful about over-fishing. You want to leave enough fish behind so they can still repopulate.#$b#You don't want to end up with no fish to eat!$1",//Linus
+        "event.KnowingLinus_05": "Yeah, you're right. I shouldn't get too carried away.$2#$b#It definitely gets tempting to do fishing in large batches, though.",//Raven
+        "event.KnowingLinus_06": "It's better to be environmentally conscious, after all.#$b#Besides, it's not like I have a refrigerator to put perishibles in.$11",//Raven
+        "event.KnowingLinus_07": "You should hang out with Linus and I for a bit!#$b#He's made living out in nature so much easier for me ever since I moved to Pelican Town.$1",//Raven
+        "event.KnowingLinus_08": "You know Linus, it might be nice if you could give some of your wisdom to @. I'm sure it would be very helpful.",//Raven
+        "event.KnowingLinus_09": "Well, I think you might have noticed that sometimes, you need grass to harvest hay or to feed farm animals you may have.#$b#If you ever run out of grass, here's a way to make some grass starters to replenish your supply.$1",//Linus
+        "event.KnowingLinus_10": "You have learned how to craft 'Grass Starters'.",//message
+
     //L0veRaven_Zayden_InvasiveQuestions
         "event.InvasiveQuestions.speak_1": "Oh, hi @. How is it going?#$b#Right now I'm jotting down different recipes. I'm trying to branch out with what I eat.",
         "event.InvasiveQuestions.speak_2": "Am I avoidng garlic?#$b#...#$b#Are you asking me that because I'm a vampire?",
@@ -1118,14 +1136,74 @@
         "event.InvasiveQuestions.speak_5": "If you're looking for some recipes to use, I can give you one for my favorite dish.",
         "event.InvasiveQuestions.message_1": "Zayden quickly writes down a recipe on a piece of scrap paper and hands it to you.",
         "event.InvasiveQuestions.speak_6": "Cheese Cauliflower is my favorite dish. You should try it some time.",
-    //Raven_wildClans.json -> Only Raven speaks
-        "event.WildClans_speak_1": "Oh, hi @. It's nice seeing you here.$1",
-        "event.WildClans_speak_2": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
-        "event.WildClans_speak_3": "I found it!$1#$b#Wanna see it?",
+
+    //Raven_wildClans.json
+        "event.WildClans_01": "Oh, hi @. It's nice seeing you here.$1",
+        "event.WildClans_02": "I was looking to see if there were any new fantasy books.#$b#I requested one a while ago and I haven't checked to see if it arrived yet.#$b#Now where is it...$17",
+        "event.WildClans_03": "I found it!$1#$b#Wanna see it?",
+        "event.WildClans_04": "It's called Wild Clans where a bunch of cats have their own territories and rival with each other.#$b#I've loved this series ever since I read it back in elementary school.$1",
+        
+        "event.WildClans_qQ": "Do you like reading books?",
+        "event.WildClans_qQ_1": "I love reading books!",
+        "event.WildClans_qQ_2": "I read a lot of fanfics.#I prefer reading manga, actually.",
+        "event.WildClans_qQ_3": "I read sometimes.#I'm not super into books.",
+        "event.WildClans_qQ_1_1": "That's awesome!$3#$b#I don't read as much as I would like to, but I really do love reading fantasy books.",
+        "event.WildClans_qQ_1_2": "It could be because I used books as an escape mechanism way back when...$2#$b#But they're always enjoyable, regardless of how I'm feeling in the moment.$1",
+        "event.WildClans_qQ_1_3": "Maybe I can check out some books that you like? I need to branch out with what I read, to be honest.",
+        "event.WildClans_qQ_1_4": "That awesome!$3#$b#Are there any books you like here that you can show me?",
+        "event.WildClans_qQ_2_1": "Fanfic is so underrated.$3#$b#Sometimes, fanfic is written much better than novels by published authors.#$b#It kinda makes you wonder what the quality control is like with book publishers.$17",
+        "event.WildClans_qQ_2_2": "It's actually pretty funny. Sometimes, fanfics are so good that publishers will offer to distribute it.$1#$b#It's happened quite a few times already. Some even got adapted into movies!",
+        "event.WildClans_qQ_2_3": "Damn, I was hoping I could find another interesting book today, but I guess that's all for now.",
+        "event.WildClans_qQ_2_4": "I don't wanna keep you from what you're doing for too long, but it was great seeing you again!",
+        "event.WildClans_qQ_3_1": "I love manga too!$1#$b#I'm pretty sure I've read all the manga books here in the library.$11#$b#We don't have that many here...$2",
+        "event.WildClans_qQ_3_2": "Let me see... I think I have a manga to show you...$17",
+        "event.WildClans_qQ_3_3": "This manga is called DarkJack. It's about a surgeon that works in the black market for a shit ton of money.#$b#He's not exactly good or bad, though.$17#$b#He seems to care more about money than helping his patients with surgeries, but he shows his softer side when working with them sometimes.$17#$b#Since the creator of the manga has a medical background, the illustrations of the surgeries are very realistic.$1#$b#Pretty cool, right?",
+        "event.WildClans_qQ_3_4": "Damn, I was hoping I could find another interesting book today, but I guess that's all for now.$2",
+        "event.WildClans_qQ_3_5": "I don't wanna keep you from what you're doing for too long, but it was great seeing you again!",
+        "event.WildClans_qQ_3_6": "It's okay to not read all the time.$1#$b#Sometimes, it's also just hard finding books that you like.#$b#Trust me, we all judge books by their covers or else we'd be reading so many horrible books right now.$11#$b#Sometimes, book covers and titles can be misleading, so I don't blame people for being picky with what they read.",
+        "event.WildClans_qQ_3_7": "When I judge books by their covers, I normally avoid the adult romance novel section because the covers look really odd and tacky to me.$11#$b#I wonder if they're any good though...$17#$b#I think I'll wait until someone recommends one of them to me.$1",
+        "event.WildClans_qQ_3_8": "I don't wanna keep you from what you're doing for too long, but it was great seeing you again!",
+        "event.WildClans_qQ_3_9": "That's okay, not everyone likes books.#$b#I know I get huge headaches sometimes because after reading for so long, it's like my head is getting filled with too much information at once.$11#$b#I really appreciate your honesty, though.",
+        "event.WildClans_qQ_3_10": "I don't wanna keep you from what you're doing for too long, but it was great seeing you again!",
+        "event.WildClans_end.raven": "We should hang out again!$1#$b#It was fun spending time with you earlier.",
+    
     //Raven_cleansingFarmer.json
-    //mail.raven.cleansingFarmer.json
+        "event.CleansingFarmer_01": "Welcome in!",
+        "event.CleansingFarmer_02": "Thanks for accepting my invite!$1#$b#To be honest, you're the first person I've showed this stuff to.$6",
+        "event.CleansingFarmer_03": "Alright, so what I'll be doing is called 'smoke cleansing'.#$b#In short, the smoke from the herbs being burned will cleanse you of old energy.#$b#Think of it as though it's washing something away.$1",
+        "event.CleansingFarmer_04": "Actually, I think it'd be easier if we did this outside.$17#$b#After all, turning the tent into a smoke box would probably end up suffocating us.$11",
+        "event.CleansingFarmer_05": "Come meet me outside.",
+    
+    //Raven_cleansingFarmer2.json
+        "event.CleansingFarmer2_01": "Are you ready?",
+        "event.CleansingFarmer2_02": "I call upon Yoba to aid me in cleansing @.$16",
+        "event.CleansingFarmer2_03": "Raven says a spell.",
+        "event.CleansingFarmer2_04": "The smoke from these herbs shall cleanse @ of old energy.$16",
+        "event.CleansingFarmer2_05": "Make way for new energy.$16",
+        "event.CleansingFarmer2_06": "May you be filled with peace and stability.$16",
+        "event.CleansingFarmer2_07": "May Yoba bless you on this day.$16",
+        "event.CleansingFarmer2_08": "We're all done!$1",
+
+        "event.CleansingFarmer2_qQ": "What do you think of the smoke cleansing ritual?",
+        "event.CleansingFarmer2_qQ_1": "That was cool!",
+        "event.CleansingFarmer2_qQ_2": "It was okay.",
+        "event.CleansingFarmer2_qQ_3": "Do you really believe in that stuff?",
+        "event.CleansingFarmer2_qQ_1_1": "I'm glad you enjoyed it!$1#$b#I thought you would judge me, but I was worried for nothing.",
+        "event.CleansingFarmer2_qQ_1_2": "Do you see that tower over there?",
+        "event.CleansingFarmer2_qQ_1_3": "There's a wizard that lives there.#$b#I haven't talked to him yet, but he comes to every festival.#$b#He keeps to himself for the most part.$17",
+        "event.CleansingFarmer2_qQ_1_4": "Maybe if I talk to him, I'll have another person to talk about spellwork with!",
+        "event.CleansingFarmer2_qQ_1_5": "That's all I have for us. Thanks for stopping by!$1",
+        "event.CleansingFarmer2_qQ_1_and_2_end": "I learned something new about Raven today!",
+        "event.CleansingFarmer2_qQ_2_1": "You don't have to believe in it if you don't want to.$1#$b#I figured you were interested in seeing what I do. Thanks for giving it a chance.",
+        "event.CleansingFarmer2_qQ_2_2": "That's all I have for us. Thanks for stopping by!$1",
+        "event.CleansingFarmer2_qQ_3_1": "...$12#$b#Yeah...$2",
+        "event.CleansingFarmer2_qQ_3_2": "I know that not everyone shares the same beliefs as me, but it does still mean something to me.$2#$b#...$14",
+        "event.CleansingFarmer2_qQ_3_3": "I won't hold you up anymore...$14",
+        "event.CleansingFarmer2_qQ_3_end": "I think I hurt their feelings...",
+
         "event.CleansingFarmer2_end": "Thanks for letting me show you the smoke cleansing ritual.",
-    //Raven_jobInterview.json
+    
+        //Raven_jobInterview.json
         "event.jobInterview.pierre.speak_1": "Thanks for coming for an interview, Raven!$1#$b#It's always good to see someone ready to work.",
         "event.jobInterview.caroline.speak_1": "So Raven, do you have any previous experience working in a grocery store?",
         "event.jobInterview.raven.speak_1": "I haven't worked in a grocery store before, but I have worked in a retail store in the past!#$b#It was a small arts and crafts store out in Zuzu City.#$b#I only stopped working there when they went out of business last year.",
@@ -1150,19 +1228,75 @@
         "event.jobInterview.caroline.speak_4": "Do your best!$1",
         
         "event.jobInterview.end": "It looks like I can ",
-    //Raven_apartment.json
-        "event.apartment_1": "That's the last one!",//Raven
-        "event.apartment_2": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
-        "event.apartment_3": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
-        "event.apartment_4": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
-        "event.apartment_5": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
-        "event.apartment_6": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
-        "event.apartment_7": "...#$b#I feel... normal again.$13",//Raven
-        "event.apartment_8": "*sniff*",//Raven
-        "event.apartment_9": "I'm just really grateful that I have a place to call my own again.$13",//Raven
+    
+        //Raven_apartment.json
+        "event.apartment_01": "That's the last one!",//Raven
+        "event.apartment_02": "@, you really came!$3#$b#Let me show you some stuff really quick.$1",//Raven
+        "event.apartment_03": "I have a fridge again! I can have perishible foods again without worrying about them rotting too fast.$3",//Raven
+        "event.apartment_04": "I can also use my computer again! I can go back to livestreaming!$1",//Raven
+        "event.apartment_05": "That's right, I never mentioned it.$11#$b#I'm a livestreamer when I'm not working, sleeping, or eating. I have a lot of fun with it!$1",//Raven
+        "event.apartment_06": "I have everything set up and made sure the computer is hooked up to the internet.",//Raven
+        "event.apartment_07": "...#$b#I feel... normal again.$13",//Raven
+        "event.apartment_08": "*sniff*",//Raven
+        "event.apartment_09": "I'm just really grateful that I have a place to call my own again.$13",//Raven
         "event.apartment_10": "Anyways, I'll be going straight back to my normal routine, but instead in an apartment.$1#$b#Feel free to stay around for as long as you'd like!",//Raven
-
+        
         "event.apartment_end": "It's gonna be great having my own place again!$1#b#Feel free to stop by whenever you want. I trust you to not do anything crazy.",//Raven
+
+        // {{Raven}}_CafeDiscussion
+        "event.cafeDiscussion_01": "So, how is it living in typical housing again, Raven?",//Linus
+        "event.cafeDiscussion_02": "It's honestly amazing, Linus.#$b#While there are definitely some pros to living in nature, I don't think it's a long-term lifestyle for me.$11",//Raven
+        "event.cafeDiscussion_03": "That's to be expected. After all, it's not like you actively chose to live that life.$1#$b#Do you think you learned some skills or lessons while living in nature?",//Linus
+        "event.cafeDiscussion_04": "I definitely did.#$b#The biggest thing I learned was to not cook too large of food portions at a time since I had no refrigerator.",//Raven
+        "event.cafeDiscussion_05": "I think Linus might have been thinking of some other practical skills you might have learned.$10",//Zayden
+        "event.cafeDiscussion_06": "Other relevant skills?$17#$b#Then it would have to be how to survive in the elements with limited access to luxuries to help me get by.",//Raven
+        "event.cafeDiscussion_07": "That could prove to be very useful if a severe enough storm comes by that knocks out the power during the harsher seasons.",//Linus
+        "event.cafeDiscussion_08": "You make a good point there, Linus.$1",//Raven
+        "event.cafeDiscussion_09": "You know... I've been thinking about opening my own business.$11#$b#It wouldn't be another store, but rather a cafe.",//Raven
+        "event.cafeDiscussion_10": "I think you should do what speaks to your heart.$1#$b#Our life paths look very different from one another, so whatever works for me may not work for you, and vice versa.",//Linus
+        "event.cafeDiscussion_11": "We could definitely do with a cafe in town.#$b#In fact, if you ever do hire someone, I do have prior experience working in fast food.$1",//Zayden
+        "event.cafeDiscussion_12": "You'd really want to work for me? That's so nice of you, Zayden!$6#$b#I definitely want to have you on my team if you're willing to be there.$1#$b#After all, I would ideally be paying you more than minimum wage.",//Raven
+        "event.cafeDiscussion_13": "And Linus, if you ever want to have food from my cafe, you're more than welcome to have some on the house.",//Raven
+        "event.cafeDiscussion_14": "There's no need for me to get any special treatment.$2#$b#I'd rather you get paid for the work you do instead of losing money you might need.",//Linus
+        "event.cafeDiscussion_15": "If you insist, I won't treat you any differently. However, if the need ever does come up where it's a last resort, I'll be there for you.#$b#No pressure, of course.$16",//Raven
+        "event.cafeDiscussion_16": "I appreciate the offer, Raven.$1",//Linus
+        "event.cafeDiscussion_17": "How long do you think it might take for you to actually start your business idea?$2",//Zayden
+        "event.cafeDiscussion_18": "Uh... That's a good point, actually...$17#$b#I would definitely need to get in contact with Mayor Lewis to talk about the details for something like that.#$b#I'm totally gonna look forward to saving up money for all of the fees, though.$2",//Raven
+        "event.cafeDiscussion_19": "Take your time with it, don't rush.$2#$b#Your business idea isn't gonna run away from you if you take your time saving up money.",//Zayden
+        "event.cafeDiscussion_20": "You're right, I do need to take my time with it.#$b#In the meantime, I'll keep you in the loop on what's going on as things happen, Zayden.#$b#I think we could really make a great team!$1",//Raven
+        "event.cafeDiscussion_21": "I think so too.#$b#We'll see how things go, I guess.$1",//Zayden
+        "event.cafeDiscussion_22": "And I truly wish you luck in your business venture.",//Linus
+        "event.cafeDiscussion_end.zayden": "It would be nice to work for Raven...#$b#I figure they wouldn't be too much of a hard ass.",
+        "event.cafeDiscussion_end.raven": "I really should start saving up money now if I wanna start my own business...$17#$b#Ack, sorry! I'm just thinking out loud.$11",
+
+        // {{Raven}}_CafePlanning
+        "event.cafePlanning_01": "So, have you gotten together everything you need for your business permit application?",//Luis
+        "event.cafePlanning_02": "Yup, I filled out all the paperwork for the permit!$1#$b#I even have the money needed to commission Robin to build the cafe stand for me.",//Raven
+        "event.cafePlanning_03": "*flips through pages*",//textAboveHead Luis
+        "event.cafePlanning_04": "Everything looks good!$1#$b#By the power vested in me, I hereby approve your paperwork for your cafe, Love Raven.",//Luis
+        "event.cafePlanning_05": "This is amazing! I can't believe this is finally happening!$3",//Raven
+        "event.cafePlanning_06": "Did you hear that, @? I finally get to open my own cafe!$1#$b#I've been looking forward to the day I get to run my own business and fully depend on myself for income.",//Raven
+        "event.cafePlanning_07": "If Linus wasn't devoted to living the way he currently does, I'd offer him a job in a heartbeat.$2",//Raven
+        "event.cafePlanning_08": "As long as Linus is happy with how he's living, though, I'll be happy for him too!",//Raven
+        "event.cafePlanning_09": "Is there anything else to the process for getting my business set up?",//Raven
+        "event.cafePlanning_10": "No, that's everything.$1#$b#Just do your best, and remember to pay your taxes on time.#$b#We don't want you risking an audit for no good reason.",//Luis
+        "event.cafePlanning_11": "I'm so lucky to get this far.#$b#It's truly a dream come true.$1",//Raven
+        "event.cafePlanning_end.lewis": "I'm very happy for Raven. It's good to see more entrepreneurship within Pelican town.$1#$b#Depending on how successful they are with the business, it may end up drawing in more tourism.#$e#That would be great for our economy!$1",//Lewis
+
+        // {{Raven}}_Cafe
+        "event.cafeOpening_01": "Thanks for wishing me luck, Robin. It really means a lot.$4#$b#And thanks again for building this cafe stand on such short notice! You did a fantastic job.",//Raven
+        "event.cafeOpening_02": "It's no problem at all!$4#$b#Just be sure to not break anything too soon.$2#$b#I know this place will hold up pretty well, but knowing you, you might find a way to break something on accident.",//Robin
+        "event.cafeOpening_03": "Y-yeah... Hopefully there's never a need to repair anything because of me.$11",//Raven
+        "event.cafeOpening_04": "Oh, @! Come look at what I built for Raven.$4",//Robin
+        "event.cafeOpening_05": "How long do you think it took for me to build this?$1",//Robin
+        "event.cafeOpening_06": "You're not even gonna make a guess?$6",//Robin
+        "event.cafeOpening_07": "Nope, I built it overnight!$1#$b#It's one of my simpler jobs, sure, but I'm still glad I got it all knocked out overnight.",//Robin
+        "event.cafeOpening_08": "So, when are you gonna open this baby up for business?",//Robin
+        "event.cafeOpening_09": "Hm...$17#$b#...$17",//Raven
+        "event.cafeOpening_10": "I might as well open up as soon as possible.#$b#I shop for all of my ingredients locally, so I can stock up on what I need really fast.",//Raven
+        "event.cafeOpening_11": "Oh wait, I completely forgot to tell Zayden that he needs to pick up some deliveries!$9#$b#I need to call him now...$11",//Raven
+        "event.cafeOpening_end.raven": "You really should come by and check out my cafe! I promise it'll be worth your time.$1",
+        
     // {{Zayden}}_JojaClosed
         "event.JojaClosed.speak_1": "Oh... Hey there @.$6",
         "event.JojaClosed.speak_2": "You know, I've gotten into some really bad luck ever since the Community Center opened up again.$6#$b#JojaMart is no longer in town... but I don't have a job anymore.$6#$b#How am I supposed to pay my rent now?$4",
@@ -1171,14 +1305,16 @@
         "event.JojaClosed.speak_5": "I just hope I get a job fast enough so I don't have to move out of Pelican Town...$4",
         "event.JojaClosed.speak_6": "I will say, JojaMart wasn't the best employer, so maybe it was for the best that they closed the store.",
         "event.JojaClosed.speak_7": "Thanks for listening to me talk, I really needed someone to talk to about it.#$b#It sucks bottling my feelings inside of myself.$4",
-        // {{Zayden}}_GotHired
+    
+    // {{Zayden}}_GotHired
         "event.GotHired.speak_1": "Good morning @.#$b#I have some good news, actually. I got hired to work at a call center to work customer service!$1#$b#It's such a relief to not be jobless anymore.",
         "event.GotHired.speak_2": "I'm actually headed to work now to hand in my employee paperwork. Once that gets finalized, I get to start my official first shift!$1#$b#No more bus rides to town to hand out resumes to any business that'll take them.",
         "event.GotHired.speak_3": "I'm honestly kind of surprised that I didn't work for JojaMart in Zuzu City. Even though they shut down abruptly here, they gave reliable pay.#$b#At least the call center pays me above minimum wage. That's really all that I can ask for.",
         "event.GotHired.speak_4": "I better head off now, but it was good getting to see you again.#$b#Good luck today!$1",
-    //Cafe
+    //[Shops] - Cafe
         "cafe.strings.closed": "The cafe is closed. Come again between 8am to 4pm.",
-        "cafe.strings.open": "Welcome to Pelican Cafe! What can I get you?",
+        "cafe.strings.wait": "The cafe is closed. Please wait for staff to return to assist you.",
+        "cafe.strings.open": "Welcome to Love Raven! What can I get you?",
     //[Quests]
         "quest_raven_001_title": "Raven Needs Amethyst",
         "quest_raven_001_message": "Raven needs amethyst for a spell they're working on. They would like to have it soon.",

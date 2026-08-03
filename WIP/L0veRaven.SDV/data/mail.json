@@ -26,7 +26,10 @@
                     "{{Raven}}_JobInterview": "{{i18n:mail.eventStart.raven.jobInterview.message}}[#]{{i18n:mail.eventStart.raven.jobInterview.title}}",
                     
                     // debug showmail L0veRaven_Raven_Apartment
-                    "{{Raven}}_Apartment": "{{i18n:mail.eventStart.raven.apartment.message}}[#]{{i18n:mail.eventStart.raven.apartment.title}}"
+                    "{{Raven}}_Apartment": "{{i18n:mail.eventStart.raven.apartment.message}}[#]{{i18n:mail.eventStart.raven.apartment.title}}",
+                    
+                    // debug showmail L0veRaven_Raven_Cafe
+                    "{{Raven}}_Cafe": "{{i18n:mail.eventStart.raven.cafe.message}}[#]{{i18n:mail.eventStart.raven.cafe.title}}"
                 }
             },
         //Zayden - Letters

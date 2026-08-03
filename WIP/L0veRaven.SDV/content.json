@@ -1,5 +1,5 @@
 {
-    "Format": "2.8.0",
+    "Format": "2.9.1",
     "ConfigSchema": {
         //Spirit's Eve Costumes
         "RavenCactusCostumeSE": {
@@ -47,7 +47,7 @@
             "Section": "ModderSettings",
             "Description": null
         },
-        //Event Excludes: Toggle
+        //Event Excludes: Toggle (Excludes everyone but the selected name to be selected for randomized festival events)
         "EventExcludes": {
             "Default": "None",
             "AllowBlank": false,

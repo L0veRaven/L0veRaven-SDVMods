@@ -61,7 +61,7 @@
             "Entries": {
                 "{{NPCA}}_Apartment1J": {
                     "Id": "{{NPCA}}_Apartment1J",
-                    "DisplayName": "{{i18n:CJB_ZaydensApartment}}",
+                    "DisplayName": "{{i18n:CJB.zaydensApartment}}",
                     "Location": "FRL_NPCApt_Floor1",
                     "Tile": "54, 27",
                     "SectionId": "{{NPCA}}_PelicanValleyLoft"

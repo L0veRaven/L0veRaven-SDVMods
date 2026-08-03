@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/{{Raven}}",
             "Entries": {
-                "Mon": "{{i18n:dialogue.raven.generic_{{season}}_{{Random:{{Range:1,7}}}}}}",
-                "Thu": "{{i18n:dialogue.raven.generic_{{season}}_{{Random:{{Range:1,7}}}}}}"
+                "Mon": "{{i18n:dialogue.raven.{{season}}.generic_{{Random:{{Range:1,7}}}}}}",
+                "Thu": "{{i18n:dialogue.raven.{{season}}.generic_{{Random:{{Range:1,7}}}}}}"
             },
             "When": {
                 "Query: '{{day}}' = '18'": false
